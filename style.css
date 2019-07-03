@@ -188,6 +188,11 @@ img {
     object-fit: cover;
   }
 
+.index-zota{
+    margin-inline-start:40px;
+    margin-inline-end: 40px;
+}
+  
 /*
 .index-padding{
       padding: 0px 80px;
@@ -257,6 +262,8 @@ footer {
         padding: 0px 0px!important;
     }
 
+
+
     .index-figure {
         display: block;
         max-width: 375px!important;
@@ -267,6 +274,11 @@ footer {
         text-indent: 0;
     }
 
+    .index-zota{
+        margin-inline-start:40px!important;
+        margin-inline-end: 40px!important;
+    }
+    
     figure {
         display: block;
         max-width: 375px!important;
