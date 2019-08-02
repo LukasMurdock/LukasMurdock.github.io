@@ -1,7 +1,7 @@
 ---
 layout: workPages
 title: Olentangy Local School District
-image: olsd.png
+image: OLSD.png
 caption: Olentangy Local School District is a thriving home to over 20,000 students and a community that celebrates their unity.
 ---
 
