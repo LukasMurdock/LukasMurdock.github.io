@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+{% assign author = site.authors[page.author] %}
+
+{% if page.image %}
+  <meta itemprop='og:image' content='{{ base_path }}{{ page.image }}'>
+{% endif %}
+
+<main>
+  <div class="pagebody-content">
+      <article class='c-post' itemscope itemtype='http://schema.org/BlogPosting'>
+
+        <p class="summary-copy">{{ page.description }}</p>
+        
+
+        <div class="figure-container">
+          <figure class="blog-figure image component image-big image-fullbleed body-copy-wide">
+            <img class="picture-image"  alt='{{ page.image }}' src='{{ page.image | prepend: "/images/pages/" | prepend: site.baseurl }}'>
+            <figcaption class="image-text">{{ page.caption }}</figcaption>
+          </figure>
+        </div>
+
+
+          {{ content }}
+        </div>
+
+      </article>
+
+    </div>
+  </div>
+</div>

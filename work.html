@@ -1,38 +1,17 @@
-<!DOCTYPE html>
+---
+layout: altDefault
+title: Work
+description: Brand Strategy Design Consultant. Helping align the goals of organization to the needs of their customers— creating exceptional brand experiences.
+---
 
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Work – Lukas Murdock</title>
-		<meta name="description" content="Brand Strategy Design Consultant. Helping align the goals of organization to the needs of their customers— creating exceptional brand experiences.">
-		<link rel=canonical href=https://lukasmurdock.com/work/>
-
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="style.css" />
-		<link rel="shortcut icon" type="image/png" href="images/favicon.png">
-	</head>
-	<body class="pagebody">
-
-		<nav class="nav-menu">
-
-				<a href="/work">Work</a>
-				<a href="/">About</a>
-				<a href="/news">News</a>
-				<a href="/contact">Contact</a>
-			
-		</nav>
-		<hr>
-
-
-		<h1 class="hero-headline">Helping brands and businesses make bold, strategy-informed decisions.</h1>
+<h1 class="hero-headline">Helping brands and businesses make bold, strategy-informed decisions.</h1>
 		
 		<div id="index-section" class="index-section">
 			<article class="index-item" style="/*background-color: #3396FF; background: url('images/tbsinstruments-webpage.png') no-repeat; background-size: contain;*/">
 				<a class="index-item-link" href="/TBSInstruments">
 					<div class="index-padding">
 					<figure class="index-item-image-wrapper index-figure">
-						<img class="index-item-image"  alt="TBSInstrumentsLogo.svg" src="images/tbsinstruments-webpage.png">
+						<img class="index-item-image"  alt="TBSInstrumentsLogo.png" src='{{ "tbsinstruments-webpage.png" | prepend: "/images/pages/" | prepend: site.baseurl }}'>
 					</figure>
 					</div>
 				</a>
@@ -44,7 +23,7 @@
 			<article class="index-item" style="background-color: #00f29b">
 				<a class="index-item-link" href="/Zota">
 					<figure class="index-item-image-wrapper index-zota index-figure">
-						<img class="index-item-image" src="images/zota.svg" alt="Zota.jpg">
+						<img class="index-item-image" src='{{ "zota.svg" | prepend: "/images/pages/" | prepend: site.baseurl }}' alt="Zota.svg">
 					</figure>
 				</a>
 			</article>
@@ -56,7 +35,7 @@
 				<a class="index-item-link" href="/olsd">
 					<div class="index-padding">
 					<figure class="index-item-image-wrapper index-figure">
-						<img class="index-item-image"  alt="Olentangy-local-school-district" src="images/OLSD.png">
+						<img class="index-item-image"  alt="Olentangy-local-school-district" src='{{ "olsd.png" | prepend: "/images/pages/" | prepend: site.baseurl }}'>
 					</figure>
 					</div>
 				</a>
@@ -64,14 +43,3 @@
 		<h2 class="index-title">OLSD</h2>
 		</div>
 			</article>
-
-
-		
-			<!-- And here is our main footer that is used across all the pages of our website -->
-		
-			<footer>
-			<p>© 2019 by Lukas Murdock. All rights reversed.</p>
-			</footer>
-
-	</body>
-</html>

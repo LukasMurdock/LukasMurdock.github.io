@@ -1,0 +1,13 @@
+<div id="index-section" class="index-section">
+  <article class="index-item" style="/*background-color: #3396FF; background: url('images/tbsinstruments-webpage.png') no-repeat; background-size: contain;*/">
+    <a class="index-item-link" href='{{ post.url | prepend: site.baseurl }}'>
+      <div class="index-padding">
+      <figure class="index-item-image-wrapper index-figure">
+        <img class="index-item-image"  alt='{{ post.image }}' src='{{ post.image | prepend: "/images/posts/" | prepend: site.baseurl }}'>
+      </figure>
+      </div>
+    </a>
+  </article>
+<h2 class="index-title" style="margin-bottom:0px;">{{ post.title }}</h2>
+<p class="pagebody-content">{{ post.date | date: '%B %d %Y' }}</p>
+</div>

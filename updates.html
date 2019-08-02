@@ -1,0 +1,14 @@
+---
+layout: default
+title: Updates
+description: Brand Strategy Design Consultant. Helping align the goals of organization to the needs of their customers— creating exceptional brand experiences.
+---
+
+    {% for post in site.posts %}
+      {% include post-card.html %}
+    {% endfor %}
+
+  <div class='o-grid'>
+    {% include pagination.html %}
+  </div>
+</div>
