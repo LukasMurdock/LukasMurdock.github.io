@@ -1,0 +1,230 @@
+---
+- Categories:
+  - Application
+  - Website
+  - Software
+  - Chrome add-ons
+  - Guides
+  - Newsletter
+
+- Title: VS Code
+  Link: https://code.visualstudio.com/
+  Comment: ""
+  Category: Application
+
+- Title: Affinity Designer
+  Link: https://affinity.serif.com/en-us/designer/
+  Comment: ""
+  Category: Application
+
+- Title: Adobe Illustrator
+  Link: https://www.adobe.com/products/illustrator.html
+  Comment: ""
+  Category: Application
+
+- Title: Adobe After Effects
+  Link: https://www.adobe.com/products/aftereffects.html
+  Comment: ""
+  Category: Application
+  
+- Title: Adobe Premiere Pro
+  Link: https://www.adobe.com/products/premiere.html
+  Comment: ""
+  Category: Application
+
+- Title: Final Cut Pro X
+  Link: https://www.apple.com/final-cut-pro/
+  Comment: ""
+  Category: Application
+
+- Title: Motion 5
+  Link: https://www.apple.com/final-cut-pro/motion/
+  Comment: ""
+  Category: Application
+
+
+- Title: Stripe
+  Link: https://stripe.com/
+  Comment: ""
+  Category: Website
+
+- Title: Privacy
+  Link: https://privacy.com/
+  Comment: ""
+  Category: Website
+
+- Title: My Fitness Pal
+  Link: https://www.myfitnesspal.com/
+  Comment: ""
+  Category: Website
+  
+- Title: Wista
+  Link: https://wistia.com/
+  Comment: ""
+  Category: Website
+
+- Title: Better MF Website
+  Link: http://bettermotherfuckingWebsite.com/
+  Comment: ""
+  Category: Website
+
+- Title: Slack
+  Link: https://slack.com/
+  Comment: 
+  Category: Website
+
+- Title: Maven
+  Link: https://www.mavenclinic.com
+  Comment: ""
+  Category: Website
+
+
+- Title: Google Drive
+  Link: https://www.google.com/drive/
+  Comment: ""
+  Category: Software
+
+- Title: Formal Founder
+  Link: https://www.formalfounder.com/
+  Comment: ""
+  Category: Software
+
+- Title: Webflow
+  Link: https://webflow.com/
+  Comment: ""
+  Category: Software
+
+- Title: 77X
+  Link: https://chrome.google.com/webstore/detail/77x/lgnkmlgloomjfbmdenogdehhphnhaihb?hl=en
+  Comment: ""
+  Category: Chrome add-ons
+
+- Title: BuiltWith
+  Link: https://chrome.google.com/webstore/detail/builtwith-technology-prof/dapjbgnjinbpoindlpdmhochffioedbn?hl=en
+  Comment: ""
+  Category: Chrome add-ons
+
+- Title: SVG Grabber
+  Link: https://chrome.google.com/webstore/detail/svg-grabber-get-all-the-s/ndakggdliegnegeclmfgodmgemdokdmg?hl=en
+  Comment: ""
+  Category: Chrome add-ons
+
+- Title: AdBlock
+  Link: https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom?hl=en
+  Comment: ""
+  Category: Chrome add-ons
+
+- Title: Grammarly
+  Link: https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen?hl=en
+  Comment: ""
+  Category: Chrome add-ons
+
+- Title: The Great Suspender
+  Link: https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg?hl=en
+  Comment: ""
+  Category: Chrome add-ons
+
+- Title: CSS Peeper
+  Link: https://chrome.google.com/webstore/detail/css-peeper/mbnbehikldjhnfehhnaidhjhoofhpehk?hl=en
+  Comment: ""
+  Category: Chrome add-ons
+
+- Title: Fontface Ninja
+  Link: https://chrome.google.com/webstore/detail/fontface-ninja/eljapbgkmlngdpckoiiibecpemleclhh?hl=en
+  Comment: ""
+  Category: Chrome add-ons
+
+- Title: Webflow Freelancer Journey
+  Link: https://university.webflow.com/freelancer
+  Comment: ""
+  Category: Guides
+
+- Title: A guide to type styles
+  Link: https://www.fontsmith.com/blog/2019/06/24/a-guide-to-type-styles
+  Comment: ""
+  Category: Guides
+
+- Title: Degreeless Design
+  Link: https://www.degreeless.design/
+  Comment: ""
+  Category: Guides
+
+- Title: Best SEO Tools
+  Link: https://saijogeorge.com/best-marketing-tools/
+  Comment: ""
+  Category: Guides
+
+- Title: Wistia Learn
+  Link: https://wistia.com/learn
+  Comment:
+  Category: Guides
+
+- Title: Typewolf
+  Link: https://www.typewolf.com
+  Comment:
+  Category: Guides
+
+- Title: TheFutur
+  Link: https://www.thefutur.com/
+  Comment:
+  Category: Guides
+
+- Title: Sheets for Marketers
+  Link: https://sheetsformarketers.com/
+  Comment:
+  Category: Guides
+
+- Title: 80000 Hours
+  Link: https://80000hours.org/
+  Comment:
+  Category: Guides
+
+- Title: Seth Godin
+  Link: https://seths.blog/
+  Comment: 
+  Category: Newsletter
+
+- Title: Taco from Trello
+  Link: https://blog.trello.com/
+  Comment: 
+  Category: Newsletter
+
+- Title: SSRN
+  Link: https://www.ssrn.com
+  Comment: 
+  Category: Newsletter
+
+- Title: AJ & Smart
+  Link: https://ajsmart.com/
+  Comment: 
+  Category: Newsletter
+
+- Title: Google Trends
+  Link: https://trends.google.com/trends/
+  Comment: 
+  Category: Newsletter
+
+- Title: TorrentFreak
+  Link: https://torrentfreak.com/
+  Comment: 
+  Category: Newsletter
+
+- Title: Inside Design by Invision
+  Link: https://www.invisionapp.com/inside-design/
+  Comment: 
+  Category: Newsletter
+
+- Title: Drop (formerly Massdrop)
+  Link: https://drop.com/
+  Comment: 
+  Category: Newsletter
+
+- Title: ReallyGoodEmails
+  Link: https://reallygoodemails.com/
+  Comment: 
+  Category: Newsletter
+
+- Title: Hacker News
+  Link: https://hackernewsletter.com/
+  Comment: 
+  Category: Newsletter
