@@ -78,7 +78,6 @@ description: Brand Strategy Design Consultant. Helping align the goals of organi
                   <img src="https://s2.googleusercontent.com/s2/favicons?domain_url={{ d.Link}}">
                   {{ d.Title }}
                 </a>
-                
               </li>
             {% endif %}
           {% endfor %}
@@ -169,6 +168,22 @@ description: Brand Strategy Design Consultant. Helping align the goals of organi
         <ol>
           {% for d in site.data.dataR %}
             {% if d.Category == "Book" %}
+              <li>
+                <a class="item" target="_blank" href="{{ d.Link }}">
+                  <img src="https://s2.googleusercontent.com/s2/favicons?domain_url={{ d.Link}}">
+                  {{ d.Title }}
+                </a>
+                
+              </li>
+            {% endif %}
+          {% endfor %}
+          </ol>
+    </div>
+    <div class="grid-item">
+        <h3>Youtube</h3>
+        <ol>
+          {% for d in site.data.dataR %}
+            {% if d.Category == "Youtube" %}
               <li>
                 <a class="item" target="_blank" href="{{ d.Link }}">
                   <img src="https://s2.googleusercontent.com/s2/favicons?domain_url={{ d.Link}}">
