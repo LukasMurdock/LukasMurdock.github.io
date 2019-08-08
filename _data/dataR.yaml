@@ -1,14 +1,14 @@
 ---
-- Categories:
-  - Application
-  - Website
-  - Software
-  - Chrome add-ons
-  - Guides
-  - Newsletter
-  - Books
-  - Youtube
-  - Podcast
+#Categories:
+  # Application
+  # Website
+  # Software
+  # Chrome add-ons
+  # Guides
+  # Newsletter
+  # Books
+  # Youtube
+  # Podcast
 
 - Title: VS Code
   Link: https://code.visualstudio.com/
