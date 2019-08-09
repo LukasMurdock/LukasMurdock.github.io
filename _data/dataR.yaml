@@ -9,6 +9,7 @@
   - Books
   - Youtube
   - Podcast
+  - UI/UX
 
 - Title: VS Code
   Link: https://code.visualstudio.com/
@@ -46,23 +47,8 @@
   Category: Application
 
 
-- Title: Stripe
-  Link: https://stripe.com/
-  Comment: ""
-  Category: Website
-
-- Title: Privacy
-  Link: https://privacy.com/
-  Comment: ""
-  Category: Website
-
-- Title: My Fitness Pal
-  Link: https://www.myfitnesspal.com/
-  Comment: ""
-  Category: Website
-  
-- Title: Wista
-  Link: https://wistia.com/
+- Title: Standard Ebooks
+  Link: https://standardebooks.org/
   Comment: ""
   Category: Website
 
@@ -86,16 +72,37 @@
   Comment: ""
   Category: Website
 
+
+- Title: Stripe
+  Link: https://stripe.com/
+  Comment: ""
+  Category: UIUX
+
+- Title: Privacy
+  Link: https://privacy.com/
+  Comment: ""
+  Category: UIUX
+
+- Title: My Fitness Pal
+  Link: https://www.myfitnesspal.com/
+  Comment: ""
+  Category: UIUX
+  
+- Title: Wista
+  Link: https://wistia.com/
+  Comment: ""
+  Category: UIUX
+
+
 - Title: Slack
   Link: https://slack.com/
   Comment: 
-  Category: Website
+  Category: UIUX
 
 - Title: Maven
   Link: https://www.mavenclinic.com
   Comment: ""
-  Category: Website
-
+  Category: UIUX
 
 - Title: Google Drive
   Link: https://www.google.com/drive/
