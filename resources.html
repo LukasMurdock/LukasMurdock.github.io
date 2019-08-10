@@ -84,164 +84,21 @@ description: Brand Strategy Design Consultant. Helping align the goals of organi
 <div class="pagebody-content">
     <a class= "link" href="/principles" style="">View Principles</a>
   <div class="grid-container">
+    {% for d in site.data.resources.fulldata %}
     <div class="grid-item">
-        <h3>Applications</h3>
+        <h3>{{ d.Type }}</h3>
         <ol>
-          {% for d in site.data.dataR %}
-            {% if d.Category == "Application" %}
-              <li>
-                <a class="item" target="_blank" href="{{ d.Link }}">
-                  <img src="https://s2.googleusercontent.com/s2/favicons?domain_url={{ d.Link}}">
-                  {{ d.Title }}
-                </a>
-              </li>
-            {% endif %}
+          {% for Title in d.List %}
+          <li>
+            <a class="item" target="_blank" href="{{ Title.Link }}">
+              <img src="https://s2.googleusercontent.com/s2/favicons?domain_url={{ Title.Link}}">
+              {{ Title.Title }}
+            </a>
+          </li>
           {% endfor %}
-          </ol>
-    </div>
-    <div class="grid-item">
-        <h3>Websites</h3>
-        <ol>
-          {% for d in site.data.dataR %}
-            {% if d.Category == "Website" %}
-              <li>
-                <a class="item" target="_blank" href="{{ d.Link }}">
-                  <img src="https://s2.googleusercontent.com/s2/favicons?domain_url={{ d.Link}}">
-                  {{ d.Title }}
-                </a>
-                
-              </li>
-            {% endif %}
-          {% endfor %}
-          </ol>
-    </div>
-    <div class="grid-item">
-      <h3>UI/UX</h3>
-      <ol>
-        {% for d in site.data.dataR %}
-          {% if d.Category == "UIUX" %}
-            <li>
-              <a class="item" target="_blank" href="{{ d.Link }}">
-                <img src="https://s2.googleusercontent.com/s2/favicons?domain_url={{ d.Link}}">
-                {{ d.Title }}
-              </a>
-              
-            </li>
-          {% endif %}
-        {% endfor %}
         </ol>
     </div>
-    <div class="grid-item">
-        <h3>Software</h3>
-        <ol>
-          {% for d in site.data.dataR %}
-            {% if d.Category == "Software" %}
-              <li>
-                <a class="item" target="_blank" href="{{ d.Link }}">
-                  <img src="https://s2.googleusercontent.com/s2/favicons?domain_url={{ d.Link}}">
-                  {{ d.Title }}
-                </a>
-                
-              </li>
-            {% endif %}
-          {% endfor %}
-          </ol>
-    </div>
-    <div class="grid-item">
-        <h3>Chrome Apps</h3>
-        <ol>
-          {% for d in site.data.dataR %}
-            {% if d.Category == "Chrome add-ons" %}
-              <li>
-                <a class="item" target="_blank" href="{{ d.Link }}">
-                  <img src="https://s2.googleusercontent.com/s2/favicons?domain_url={{ d.Link}}">
-                  {{ d.Title }}
-                </a>
-                
-              </li>
-            {% endif %}
-          {% endfor %}
-          </ol>
-    </div>
-    <div class="grid-item">
-        <h3>Guides</h3>
-        <ol>
-          {% for d in site.data.dataR %}
-            {% if d.Category == "Guides" %}
-              <li>
-                <a class="item" target="_blank" href="{{ d.Link }}">
-                  <img src="https://s2.googleusercontent.com/s2/favicons?domain_url={{ d.Link}}">
-                  {{ d.Title }}
-                </a>
-                
-              </li>
-            {% endif %}
-          {% endfor %}
-          </ol>
-    </div>
-    <div class="grid-item">
-        <h3>Newsletter</h3>
-        <ol>
-          {% for d in site.data.dataR %}
-            {% if d.Category == "Newsletter" %}
-              <li>
-                <a class="item" target="_blank" href="{{ d.Link }}">
-                  <img src="https://s2.googleusercontent.com/s2/favicons?domain_url={{ d.Link}}">
-                  {{ d.Title }}
-                </a>
-                
-              </li>
-            {% endif %}
-          {% endfor %}
-          </ol>
-    </div>
-    <div class="grid-item">
-        <h3>Books</h3>
-        <ol>
-          {% for d in site.data.dataR %}
-            {% if d.Category == "Book" %}
-              <li>
-                <a class="item" target="_blank" href="{{ d.Link }}">
-                  <img src="https://s2.googleusercontent.com/s2/favicons?domain_url={{ d.Link}}">
-                  {{ d.Title }}
-                </a>
-                
-              </li>
-            {% endif %}
-          {% endfor %}
-          </ol>
-    </div>
-    <div class="grid-item">
-        <h3>Youtube</h3>
-        <ol>
-          {% for d in site.data.dataR %}
-            {% if d.Category == "Youtube" %}
-              <li>
-                <a class="item" target="_blank" href="{{ d.Link }}">
-                  <img src="https://s2.googleusercontent.com/s2/favicons?domain_url={{ d.Link}}">
-                  {{ d.Title }}
-                </a>
-                
-              </li>
-            {% endif %}
-          {% endfor %}
-          </ol>
-    </div>
-    <div class="grid-item">
-      <h3>Podcast</h3>
-      <ol>
-        {% for d in site.data.dataR %}
-          {% if d.Category == "Podcast" %}
-            <li>
-              <a class="item" target="_blank" href="{{ d.Link }}">
-                <img src="https://s2.googleusercontent.com/s2/favicons?domain_url={{ d.Link}}">
-                {{ d.Title }}
-              </a>
-              
-            </li>
-          {% endif %}
-        {% endfor %}
-        </ol>
+    {% endfor %}
   </div>
   </div>
 </div>

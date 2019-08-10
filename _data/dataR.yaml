@@ -10,7 +10,10 @@
   - Youtube
   - Podcast
   - UI/UX
+  - Movies
+  - Music
 
+#Application
 - Title: VS Code
   Link: https://code.visualstudio.com/
   Comment: ""
@@ -47,6 +50,7 @@
   Category: Application
 
 
+#Website
 - Title: Project Gutenburg
   Link: https://www.gutenberg.org/
   Comment: ""
@@ -78,6 +82,7 @@
   Category: Website
 
 
+#UIUX
 - Title: Stripe
   Link: https://stripe.com/
   Comment: ""
@@ -109,6 +114,8 @@
   Comment: ""
   Category: UIUX
 
+
+#Software
 - Title: Google Drive
   Link: https://www.google.com/drive/
   Comment: ""
@@ -134,6 +141,8 @@
   Comment: ""
   Category: Software
 
+
+#Chrome add-ons
 - Title: 77X
   Link: https://chrome.google.com/webstore/detail/77x/lgnkmlgloomjfbmdenogdehhphnhaihb?hl=en
   Comment: ""
@@ -174,6 +183,8 @@
   Comment: ""
   Category: Chrome add-ons
 
+
+#Guides
 - Title: Webflow Freelancer Journey
   Link: https://university.webflow.com/freelancer
   Comment: ""
@@ -219,6 +230,8 @@
   Comment:
   Category: Guides
 
+
+#Newsletters
 - Title: Seth Godin
   Link: https://seths.blog/
   Comment: 
@@ -280,6 +293,7 @@
   Category: Newsletter
 
 
+#Books
 - Title: Designing Design
   Link: https://www.lars-mueller-publishers.com/designing-design
   Comment: 
@@ -371,6 +385,7 @@
   Category: Book
 
 
+#Youtube
 - Title: The Futur
   Link: https://www.youtube.com/channel/UC-b3c7kxa5vU-bnmaROgvog
   Comment: 
@@ -445,3 +460,42 @@
   Link: https://www.maximumfun.org/shows/story-break
   Comment: 
   Category: Podcast
+
+
+#Movies
+- Title: Rams
+  Link: https://www.hustwit.com/rams
+  Comment: 
+  Category: Movie
+  
+- Title: Helvetica
+  Link: https://www.hustwit.com/helvetica
+  Comment: 
+  Category: Movie
+
+- Title: Plastic China
+  Link: https://www.plasticchina.org/
+  Comment: 
+  Category: Movie
+
+- Title: Tron
+  Link: https://movies.disney.com/tron
+  Comment: 
+  Category: Movie
+
+
+#Music
+- Title: Jon Bellion
+  Link: http://www.jonbellion.com/
+  Comment: 
+  Category: Music
+
+- Title: Eden
+  Link: http://iameden.eu/
+  Comment: 
+  Category: Music
+
+- Title: Elohim
+  Link: https://elohimxelohim.com/
+  Comment: 
+  Category: Music
