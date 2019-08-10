@@ -1,0 +1,97 @@
+---
+layout: default
+title: Principles
+description: Brand Strategy Design Consultant. Helping align the goals of organization to the needs of their customers— creating exceptional brand experiences.
+---
+
+<style>
+  h1{
+    text-align: center;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0px;
+  }
+
+  .grid-item {
+    padding: 5px;
+    font-size: 14px;
+  }
+  h3{
+    font-size: 22px;
+    padding-left: 20px;
+  }
+  img {
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+    margin-top: 2px;
+    float: left;
+  }
+  div {
+    counter-reset: dopeCounter;
+    position: relative
+}
+  ol {
+    list-style: none; counter-reset: li;
+    margin-left: 0;
+    padding-left: 20px;
+  }
+  
+  li::before {
+    counter-increment: dopeCounter 1;
+    content: counter(dopeCounter,decimal-leading-zero);
+    position: absolute;
+    left: 0px;
+    font-size: 13px;
+    padding-top: 5px;
+    width: 25px;
+    height: 25px;
+    color: #707070;
+  }
+  
+  p.item {
+      width: 100%;
+      padding: 2px 0;
+      padding-top: 3px;
+      border-top: 1px solid rgba(0,0,0,.07);
+      color: #000;
+      display: inline-block;
+      margin: 0;
+  }
+  @media screen and (max-width: 735px) {
+    .grid-container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    h1{
+      font-size: 44px!important;
+      padding-bottom: 44px;
+    }
+}
+</style>
+<div class="pagebody-content">
+  <div class="grid-container">
+    {% for d in site.data.principles.principlelist %}
+    <div class="grid-item">
+      <h3>{{ d.Title }}</h3>
+      
+        <ol>
+          {% for list in d.Principles %}
+          <li>
+            <p class="item">{{ list.list }}</p>
+          </li>
+          {% endfor %}
+          </ol>
+    </div>
+    {% endfor %}
+  </div>
+  </div>
+</div>
+
+
+  <div class='o-grid'>
+    {% include pagination.html %}
+  </div>
+</div>

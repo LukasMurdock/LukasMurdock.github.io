@@ -1,0 +1,87 @@
+---
+#Principles
+principlelist:
+  - Title: Dieter Rams
+    Principles:
+    - list: Good design is innovative
+    - list: Good design makes a product useful
+    - list: Good design is aesthetic
+    - list: Good design makes a product understandable
+    - list: Good design is unobtrusive
+    - list: Good design is honest
+    - list: Good design is long lasting
+    - list: Good design is thorough down to the last detail
+    - list: Good design is environmentally friendly
+    - list: Good design is as little design as possible
+
+  - Title: David Olgivy
+    Principles:
+    - list: Give the facts, and give them early
+    - list: Be truthful
+    - list: Be helpful
+    - list: Have a big idea
+    - list: Don’t be boring
+    - list: Understand your customer
+    - list: Stay true to your brand
+
+  - Title: Disney
+    Principles:
+    - list: Squash and stretch
+    - list: Anticipation
+    - list: Staging
+    - list: Straight ahead actions and pose to pose
+    - list: Follow through and overlapping
+    - list: Slow in and slow out
+    - list: Arc
+    - list: Secondary action
+    - list: Timing
+    - list: Exaggeration
+    - list: Solid drawing
+    - list: Appeal
+
+  - Title: Xerox
+    Principles:
+    - list: Visions not goals
+    - list: Fund people not projects
+    - list: Problem finding — not just problem solving
+    - list: Milestones not deadlines
+    - list: It’s baseball not golf — Not getting a hit is not failure but the overhead for getting hits.
+
+  - Title: Ray Dalio
+    Principles:
+    - list: Know your goals and run after them
+    - list: Encounter the problems and don’t tolerate them
+    - list: Diagnose the problems, don’t rush into solutions
+    - list: Design a plan to eliminate the problems
+    - list: Execute those designs
+
+  - Title: Steve Jobs
+    Principles:
+    - list: Do what you love
+    - list: Put a dent in the universe
+    - list: Kick start your brain
+    - list: Sell dreams, not products
+    - list: Say no to 1,000 things
+    - list: Create insanely great experiences
+    - list: Master the message
+
+  - Title: Design
+    Principles:
+    - list: Unity
+    - list: Balance
+    - list: Hierarchy
+    - list: Scale
+    - list: Emphasis
+    - list: Contrast
+
+  - Title: Gestalt
+    Principles:
+    - list: No object is perceived in isolation
+    - list: Objects are always perceived as simply as possible
+    - list: Sections that are the shortest distance apart are perceived as belonging together
+    - list: Objects similar to each other are perceived as one unit
+    - list: Incomplete figures are seen as coherent
+    - list: Elements that move in a common direction are perceived as one unit
+    - list: Elements linked spatially or chronologically are perceived as one unit
+    - list: Symmetrical elements are perceived as a unit
+    - list: The object simpler in form becomes the figure, the object with the more complex form becomes the ground
