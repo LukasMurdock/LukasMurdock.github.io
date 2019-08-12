@@ -148,6 +148,11 @@ fulldata:
       Comment: ""
       Category: Software
 
+    - Title: Web.dev
+      Link: https://web.dev/
+      Comment: ""
+      Category: Software
+
 
 #Chrome Apps
   - Type: Chrome Apps
