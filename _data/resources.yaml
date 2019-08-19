@@ -88,6 +88,16 @@ fulldata:
 #UIUX
   - Type: UIUX
     List:
+    - Title: Human Interface
+      Link: https://developer.apple.com/design/human-interface-guidelines/
+      Comment: ""
+      Category: UIUX
+
+    - Title: Material Design
+      Link: https://material.io/design/
+      Comment: ""
+      Category: UIUX
+
     - Title: Stripe
       Link: https://stripe.com/
       Comment: ""
