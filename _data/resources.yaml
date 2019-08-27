@@ -168,6 +168,21 @@ fulldata:
       Comment: ""
       Category: Software
 
+    - Title: This person does not exist
+      Link: https://thispersondoesnotexist.com/
+      Comment: ""
+      Category: Software
+
+    - Title: Similar Web
+      Link: https://similarweb.com/
+      Comment: ""
+      Category: Software
+
+    - Title: Built With
+      Link: https://builtwith.com/
+      Comment: ""
+      Category: Software
+
 
 #Chrome Apps
   - Type: Chrome Apps
@@ -465,6 +480,16 @@ fulldata:
 
     - Title: Google Chrome Developers
       Link: https://www.youtube.com/channel/UCnUYZLuoy1rq1aVMwx4aTzw
+      Comment: 
+      Category: Youtube
+
+    - Title: ColdFusion
+      Link: https://www.youtube.com/channel/UC4QZ_LsYcvcq7qOsOhpAX4A
+      Comment: 
+      Category: Youtube
+
+    - Title: The Coding Train
+      Link: https://youtube.com/user/shiffman/videos
       Comment: 
       Category: Youtube
 
