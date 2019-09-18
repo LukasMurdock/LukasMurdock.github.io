@@ -173,6 +173,16 @@ fulldata:
       Comment: ""
       Category: Software
 
+    - Title: Sharpen Design
+      Link: https://sharpen.design/
+      Comment: ""
+      Category: Software
+
+    - Title: IUBenda
+      Link: https://www.iubenda.com/
+      Comment: ""
+      Category: Software
+
     - Title: This person does not exist
       Link: https://thispersondoesnotexist.com/
       Comment: ""
@@ -248,6 +258,11 @@ fulldata:
 
     - Title: Degreeless Design
       Link: https://www.degreeless.design/
+      Comment: ""
+      Category: Guides
+
+    - Title: AIGA Design Business and Ethics
+      Link: https://www.aiga.org/design-business-and-ethics
       Comment: ""
       Category: Guides
 
@@ -345,6 +360,21 @@ fulldata:
       Comment: 
       Category: Newsletter
 
+    - Title: Product Hunt
+      Link: https://www.producthunt.com
+      Comment: 
+      Category: Newsletter
+
+    - Title: James Clear
+      Link: https://jamesclear.com
+      Comment: 
+      Category: Newsletter
+
+    - Title: Demand progress
+      Link: https://demandprogress.org
+      Comment: 
+      Category: Newsletter
+
 
 #Books
   - Type: Books
@@ -438,6 +468,12 @@ fulldata:
       Link: https://www.amazon.com/Surely-Youre-Joking-Mr-Feynman-ebook/dp/B003V1WXKU
       Comment: 
       Category: Book
+
+    - Title: Atomic Habits
+      Link: https://jamesclear.com/atomic-habits
+      Comment: 
+      Category: Book
+
 
 
 #Youtube
