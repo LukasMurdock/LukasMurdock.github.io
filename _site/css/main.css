@@ -297,7 +297,7 @@ footer {
         margin-bottom: 0px;
         margin-left: auto;
         margin-right: auto;
-        width: 87.5%;
+        /* width: 87.5%; */
     }
 
     .summary-copy {
@@ -338,17 +338,17 @@ figure {
     display: grid;
     grid-template-columns: 33% 66%;
     margin: 20px 0px;
-    border-bottom: 1px solid #e3e3e3;
     }
 
-  .index-item {
-    
-  }
 
   @media screen and (max-width: 735px) {
     .grid-container {
       grid-template-columns: repeat(1, 1fr);
     }
+    .index-grid {
+        margin: 20px 20px;
+        }
+
     h2{
         font-size: 18px;
         padding-bottom: 20px;
