@@ -3,11 +3,7 @@
 	text-align:left;
 }
 body {
-	font-family: sans-serif;
-	
-	scroll-snap-points-y: repeat(100vh);
-	scroll-snap-type: y proximity;
-	
+	font-family: sans-serif;	
 	max-width:100%;
 	margin:0;
 }
