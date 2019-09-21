@@ -107,18 +107,6 @@ section:nth-of-type(2n) {
 	line-height: 1.25em;
 }
 
-/* Underline */
-
-.underline {
-	background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
-	background-repeat: no-repeat;
-	background-size: 100% 0.2em;
-	background-position: 0 88%;
-	transition: background-size 0.25s ease-in;
-}
-.underline:hover{
-	background-size: 100% 88%;
-}
 
 .section-container a {
 	text-decoration: none!important;

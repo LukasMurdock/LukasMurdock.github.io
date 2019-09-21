@@ -22,7 +22,7 @@ body{
     -moz-font-feature-settings: 'kern';
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color:#fefefe;
+    background-color:#f2f2f2;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 }
 	
@@ -144,6 +144,10 @@ figure {
     height: 70vh;
 }
 
+.index-section {
+
+}
+
 .index-item-image {
     max-width: 100%;
     max-height: 100%;
@@ -151,7 +155,9 @@ figure {
 }
 
 .index-title {
+    margin:0;
     margin-bottom: 50px;
+    padding: 24px;
 }
 
 .index-item-logo {
@@ -302,4 +308,74 @@ footer {
         margin-bottom: -10px;
         margin-top: 12px!important;
     }
+}
+
+
+
+
+/* GRID CONTAINER */
+
+
+figure {
+    height: auto;
+}
+
+.post a{
+    text-decoration:none!important;
+    color: #333;
+}
+
+
+    .index-item-image-wrapper {
+        margin:0!important;
+    }
+
+    .index-text{
+        background: #fff;
+    }
+
+    .index-grid {
+    display: grid;
+    grid-template-columns: 33% 66%;
+    margin: 20px 0px;
+    border-bottom: 1px solid #e3e3e3;
+    }
+
+  .index-item {
+    
+  }
+
+  @media screen and (max-width: 735px) {
+    .grid-container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    h2{
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+}
+
+/* Underline */
+
+.underline {
+	background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+	background-repeat: no-repeat;
+	background-size: 100% 0.2em;
+	background-position: 0 88%;
+	transition: background-size 0.25s ease-in;
+}
+.underline:hover{
+	background-size: 100% 88%;
+}
+
+.full-underline{
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+	background-repeat: no-repeat;
+	background-size: 100% 0.2em;
+	background-position: 0 100%;
+	transition: background-size 0.25s ease-in-out;
+}
+
+.post:hover .full-underline{
+    background-size: 100% 100%;
 }
