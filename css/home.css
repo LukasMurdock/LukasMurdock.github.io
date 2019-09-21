@@ -54,6 +54,7 @@ section:nth-of-type(2n) {
 	line-height: 42px;
 	padding: 0px 24px;
 	margin: 0;
+	margin-bottom: 48px;
 	vertical-align: text-top;
 	opacity: 1;
 	transform: scale(.9);
