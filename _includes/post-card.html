@@ -2,11 +2,11 @@
   <a href='{{ post.url | prepend: site.baseurl }}'>
     <div class="index-grid">
       <article class="index-item">
-          <div class="index-padding">
+          <!-- <div class="index-padding"> -->
           <figure class="index-item-image-wrapper">
             <img class="index-item-image"  alt='{{ post.image }}' src='{{ post.image | prepend: "/images/posts/" | prepend: site.baseurl }}'>
           </figure>
-          </div>
+          <!-- </div> -->
       </article>
     <div class="index-text full-underline">
       <h2 class="index-title" style="margin-bottom:0px;">{{ post.title }}<p style="font-size: 17px; font-weight: 400; margin-bottom:0px;">{{ post.date | date: '%B %d %Y' }}</p></h2>
