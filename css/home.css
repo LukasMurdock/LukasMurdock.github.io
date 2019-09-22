@@ -122,7 +122,7 @@ nav input {
   nav label {
 	position: absolute;
 	top: 50px;
-	right: 10px;
+	right: 7%;
 	z-index: 999;
 	cursor: pointer;
   }
