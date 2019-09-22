@@ -5,10 +5,21 @@
     <description>Virtual portfolio of Lukas Murdock</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 21 Sep 2019 19:46:49 -0400</pubDate>
-    <lastBuildDate>Sat, 21 Sep 2019 19:46:49 -0400</lastBuildDate>
+    <pubDate>Sat, 21 Sep 2019 21:19:44 -0400</pubDate>
+    <lastBuildDate>Sat, 21 Sep 2019 21:19:44 -0400</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
 
+    
+      <item>
+        <title>Starting up a site: What’s it for?</title>
+        <description>&lt;p&gt;It’s personal. I want to make a group of my own culture. I wanted to build a site that can become a learning resource for anyone who happens upon it. The goal of this site isn’t to land jobs or to showcase my skills. It’s not a resume or a place to talk about myself. It’s what I can do for those who I can help. This project was inspired by 12 words.&lt;/p&gt;
+
+&lt;p&gt;If you had a chance to teach us, what would we learn?&lt;/p&gt;
+</description>
+        <pubDate>Sat, 21 Sep 2019 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2019/09/21/Start-up/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/09/21/Start-up/</guid>
+      </item>
     
       <item>
         <title>Migrating from Squarespace to Github</title>
