@@ -3,7 +3,7 @@ layout: post
 title: 'Down to the detail.'
 description: 
 image: 
-caption: What makes an expert?
+caption:
 date: September 25, 2019
 ---
 

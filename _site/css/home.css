@@ -122,8 +122,8 @@ nav input {
   nav label {
 	position: absolute;
 	top: 50px;
-	right: 10px;
-	z-index: 999;
+	right: 7%;
+	z-index: 1001;
 	cursor: pointer;
   }
   nav label strong {

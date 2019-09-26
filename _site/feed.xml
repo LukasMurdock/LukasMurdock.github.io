@@ -5,10 +5,126 @@
     <description>Virtual portfolio of Lukas Murdock</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 21 Sep 2019 21:32:09 -0400</pubDate>
-    <lastBuildDate>Sat, 21 Sep 2019 21:32:09 -0400</lastBuildDate>
+    <pubDate>Thu, 26 Sep 2019 02:17:29 -0400</pubDate>
+    <lastBuildDate>Thu, 26 Sep 2019 02:17:29 -0400</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
 
+    
+      <item>
+        <title>Lessons in creativity.</title>
+        <description>&lt;p&gt;The First-Year Integrated Core at Miami University focuses on thinking critically, creatively and conceptually. ESP 103 within the core is about creativity, Innovation, and Entrepreneurial Thinking. Every student was tasked with building a creative mindset project. This is the breakdown and process of creating &lt;em&gt;Lessons in Creativity&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-process&quot;&gt;The Process&lt;/h3&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgba(51,51,51,.5);&quot;&gt;01 Idea Breakdown&lt;/span&gt;&lt;br /&gt;
+Come up with the lessons and script for the ideas.&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color: rgba(51,51,51,.5);&quot;&gt;02 Storyboard&lt;/span&gt;&lt;br /&gt;
+Sketch out the flow of ideas and animations.&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color: rgba(51,51,51,.5);&quot;&gt;03 Reference Panels&lt;/span&gt;&lt;br /&gt;
+Create vector boards to use as reference panels.&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color: rgba(51,51,51,.5);&quot;&gt;04 Animation&lt;/span&gt;&lt;br /&gt;
+Bring in reference panels and begin key framing.&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color: rgba(51,51,51,.5);&quot;&gt;05 Audio&lt;/span&gt;&lt;br /&gt;
+Finding the right music is nearly impossible.&lt;/p&gt;
+
+&lt;figure class=&quot;blog-figure image component image-big image-fullbleed body-copy-wide&quot;&gt;
+&lt;img class=&quot;picture-image&quot; src=&quot;/images/posts/scribble01.jpeg&quot; alt=&quot;first scribbles&quot; /&gt;
+&lt;figcaption class=&quot;image-text&quot;&gt;First scribblings of the project idea done in class.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;idea-breakdown&quot;&gt;Idea Breakdown&lt;/h3&gt;
+&lt;p&gt;I started with the basic idea that I wanted to make an animated video for the project. From there I started making a list of things we’ve done within ESP 103. Scribbling random icons and ideas that I could possible use to animate. The goal was to slowly build a case for the importance of creativity for the future, drawing from course concepts, activities, and discussions.&lt;/p&gt;
+
+&lt;figure class=&quot;blog-figure image component image-big image-fullbleed body-copy-wide&quot;&gt;
+&lt;img class=&quot;picture-image&quot; src=&quot;/images/posts/scribble02.jpeg&quot; alt=&quot;second scribbles&quot; /&gt;
+&lt;figcaption class=&quot;image-text&quot;&gt;Second page of scribbles also done during class.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The idea for &lt;em&gt;Lessons in Creativity&lt;/em&gt; dawned on me and I began to iterate through ideas to take on as lessons. Here are a few that didn’t make it into the final cut:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Attachment to ideas is a route to dissapointment&lt;/li&gt;
+  &lt;li&gt;Your rational self is needed, but your crazy self is creative.&lt;/li&gt;
+  &lt;li&gt;Complement old emotions and behaviors with elegance.&lt;/li&gt;
+  &lt;li&gt;Don’t be fooled by originality.&lt;/li&gt;
+  &lt;li&gt;Post it’s and sharpies are your tools to make change.&lt;/li&gt;
+  &lt;li&gt;You have to understand the boundaries you have to create within.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;blog-figure image component image-big image-fullbleed body-copy-wide&quot;&gt;
+&lt;img class=&quot;picture-image&quot; src=&quot;/images/posts/scribble03.jpeg&quot; alt=&quot;final scribbles&quot; /&gt;
+&lt;figcaption class=&quot;image-text&quot;&gt;Final page of scribbles as I start to plan out the scenes.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;storyboard&quot;&gt;Storyboard&lt;/h3&gt;
+&lt;p&gt;After selecting the lessons I wanted to focus on I began creating scenes related to each lesson. Trying to keep a sense of realism in this stage to manage the expectation of delivering on time created a nice boundary to keep things simple. Although I still planned to push myself by using some animation techniques I hadn’t learned before so I started with those.&lt;/p&gt;
+
+&lt;h3 id=&quot;reference-panels&quot;&gt;Reference Panels&lt;/h3&gt;
+&lt;p&gt;After getting the previsualization for each lesson I moved into my vector program of choice – &lt;a href=&quot;https://affinity.serif.com/en-us/designer/&quot;&gt;Affinity Designer&lt;/a&gt;. It makes more sense to use &lt;a href=&quot;https://www.adobe.com/products/illustrator.html&quot;&gt;Adobe Illustrator&lt;/a&gt; since I was later going to be animating in &lt;a href=&quot;https://www.adobe.com/products/aftereffects.html&quot;&gt;Adobe After Effects&lt;/a&gt;, But Affinity just feels so much better to use I couldn’t help it. I ended up having to pull some assets from Affinity into Illustrator for better integration with After Effects.&lt;/p&gt;
+
+&lt;figure class=&quot;blog-figure image component image-big image-fullbleed body-copy-wide&quot;&gt;
+&lt;img class=&quot;picture-image&quot; src=&quot;/images/posts/affinity-reference-panels.png&quot; alt=&quot;affinity designer reference panels&quot; /&gt;
+&lt;figcaption class=&quot;image-text&quot;&gt;Reference panels all built in Affinity Designer.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;animation&quot;&gt;Animation&lt;/h3&gt;
+&lt;p&gt;This is by far the most grueling step in the process. Because I started with pushing myself past what I already was capable of I had to do some research to figure out how I wanted to complete the first scene. I’ve never used animation rigs before and because I wanted to animate characters and not just shapes or objects, I needed to make some purchases.&lt;/p&gt;
+
+&lt;p&gt;I settled on &lt;a href=&quot;https://www.battleaxe.co/rubberhose&quot;&gt;Rubber Hose 2&lt;/a&gt;. It kept a lot of the technical stuff out of the way and made things really simple. Or it was supposed to until it crashed. And crashed. And crashed again. After a couple hours of troubleshooting, I realized I had to enable some legacy effects within After Effects for Rubber Hose to function properly. With that figured out, I could finally start.&lt;/p&gt;
+
+&lt;p&gt;Keyframing is indicating a change in an objects attributes over time. It allows creators to animate things like position, size, color, etc. as a video progresses. It’s something really simple that builds up into complex webs over time. To make the project easier to manage I decided to work on each lesson in its own composition. This reduced the total amount of layers I was working with at any one time and helped me not get as lost in the mess of named layers. Because &lt;em&gt;we always name our layers!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Animating all the titles became menial real quick. I ran into some setbacks by forgetting proper After Effects usage, meaning I had to redo things quite often as I got back into the swing of things. I finished a couple scenes and then let the project take a break. After all, this project was started the day the teacher started talking about it in class (which made me realize we’re actually supposed to use the syllabus) and I had made meaningful progress in the timespan of a few focused days.&lt;/p&gt;
+
+&lt;p&gt;After giving it a few days of rest to work on other assignments I came back to finish off the rest of the scenes. At this point, I was starting to hit the limitations of my technology. In 2016 I built my own computer to get some more power for cheaper than what Apple offers. I left my computer on as I left for class and I came back to an unresponsive black screen. I thought that was strange but these things usually fix themselves with time. &lt;em&gt;Not this time.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s still hard to talk about… I’m planning on taking it home sometime and troubleshooting more.&lt;/p&gt;
+
+&lt;p&gt;My MacBook was running up against its drive space limits as the After Effects cache built up to over 50GB on my 256GB drive, in which 100GB is used up by applications alone. Of course, I could clear the cache but having it there gives me more 1:1 playback speeds that help me accurately determine where keyframes should go. Within the time allotted I believe that some of the keyframes could be cleaned up for a less jarring effect. But deadlines are deadlines, and shipping is part of the job.&lt;/p&gt;
+
+&lt;h3 id=&quot;audio&quot;&gt;Audio&lt;/h3&gt;
+&lt;p&gt;Audio is truly one of the most elusive parts of a creative project. It’s something that so easily makes or breaks an entire project for getting the emotional response of the viewer you seek. After hours of searching, worn down and beaten from the countless &lt;em&gt;no, nos, not this one either, oh hell no…. uuuuggggh&lt;/em&gt;, I selected a track.&lt;/p&gt;
+
+&lt;h3 id=&quot;shipping-it&quot;&gt;Shipping it&lt;/h3&gt;
+&lt;p&gt;It’s not perfect, but it exists. And there’s pride to be had in that. Now on to the next one. View the final project here.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 26 Sep 2019 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2019/09/26/Lessons-in-creativity/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/09/26/Lessons-in-creativity/</guid>
+      </item>
+    
+      <item>
+        <title>Down to the detail.</title>
+        <description>&lt;p&gt;What makes an expert? What level of detail do you need to be aware of to move things forward? What awareness might you be missing?&lt;/p&gt;
+
+&lt;p&gt;Different situations call for different responses. Sometimes we need to look around and dig for deeper insights because we don’t have enough information. But more often than not we have all the information we need to move forward. We don’t need to know everything before we make a decision but fear will always tell us the opposite.&lt;/p&gt;
+
+&lt;p&gt;There are infinite levels of detail to know and everything is connected at every level. You don’t need to understand internet protocols to send a message from your smartphone. (TCP/IP)&lt;/p&gt;
+
+&lt;p&gt;We follow experts because they have the information we need to move forward. As long as they know more than you, you’ll continue to follow them. Feelings of inadequacy build up and prevent you from moving forward because you don’t know enough.&lt;/p&gt;
+
+&lt;p&gt;On the other hand, if we choose to acknowledge what we don’t know and what we know, we can move past restrictions we placed on ourselves. Start valuing what you know.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 25 Sep 2019 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2019/09/25/Down-to-the-detail/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/09/25/Down-to-the-detail/</guid>
+      </item>
+    
+      <item>
+        <title>Ideas need an axis to be tested against.</title>
+        <description>&lt;p&gt;When we argue about ‘better’ most likely, we’re not having the same conversation. We need to start by clarifying what form of better we’re seeking. What change are you trying to make with ‘better’? List attributes you care about and pick the two you care about the most. Draw an axis and map the new idea against what’s currently available.&lt;/p&gt;
+
+&lt;p&gt;Without a list of attributes, we pick the attribute that we care about the most. And it’s often better, we think, to pick a common attribute that everyone cares about. Instead of an attribute towards the edge that those we seek to serve care about. And that’s not often the same as everyone else.&lt;/p&gt;
+
+&lt;p&gt;Stop internalizing and normalizing your views of how things stack up in the world. Communicate your axis and see how your axis stacks up against what change you’re trying to make. Then choose your own axis and connect with those underserved people who can’t wait to find you at the edges.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 23 Sep 2019 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2019/09/23/Ideas-need-an-axis/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/09/23/Ideas-need-an-axis/</guid>
+      </item>
     
       <item>
         <title>Starting up a site: What’s it for?</title>
@@ -22,7 +138,7 @@
       </item>
     
       <item>
-        <title>Migrating from Squarespace to Github</title>
+        <title>Migrating from Squarespace to GitHub</title>
         <description>&lt;h3 id=&quot;squarespace-hosting&quot;&gt;Squarespace Hosting&lt;/h3&gt;
 &lt;p&gt;In comparison with strong alternatives, Squarespace offers a &amp;gt;sound deal at $144/ year for a beautiful, simple website. With an outstanding minimalist path for creating your own website, Squarespace is perfect for creatives. Squarespace manages all the technical aspects of creating and managing a website and saves you a lot of time and money compared to more complex web builders.&lt;/p&gt;
 
