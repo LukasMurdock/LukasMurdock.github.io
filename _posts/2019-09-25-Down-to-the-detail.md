@@ -2,7 +2,7 @@
 layout: post
 title: 'Down to the detail.'
 description: 
-image: LM-portrait.jpg
+image: 
 caption: What makes an expert?
 date: September 25, 2019
 ---
