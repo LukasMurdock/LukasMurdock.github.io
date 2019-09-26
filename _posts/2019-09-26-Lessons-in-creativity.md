@@ -85,4 +85,15 @@ Audio is truly one of the most elusive parts of a creative project. It's somethi
 ### Shipping it
 It's not perfect, it needs a lot of polish... but it exists. And there's pride to be had in that. Now on to the next one. View the final project here.
 
+<div id="video">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5C4NV5wVapc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<script src="/js/jquery.min.js"></script>
+<script src="/js/jquery.fitvids.js"></script>
+<script>
+  $(document).ready(function(){
+    // Target your .container, .wrapper, .post, etc.
+    $("#video").fitVids();
+  });
+</script>

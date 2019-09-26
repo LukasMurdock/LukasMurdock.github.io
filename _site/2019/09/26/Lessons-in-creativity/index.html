@@ -78,7 +78,7 @@ Finding the right music is nearly impossible.</p>
 </figure>
 
 <h3 id="idea-breakdown">Idea Breakdown</h3>
-<p>I started with the basic idea that I wanted to make an animated video for the project. From there I started making a list of things we’ve done within ESP 103. Scribbling random icons and ideas that I could possible use to animate. The goal was to slowly build a case for the importance of creativity for the future, drawing from course concepts, activities, and discussions.</p>
+<p>I started with the basic idea that I wanted to make an animated video for the project. From there I started making a list of things we’ve done within ESP 103. Scribbling random icons and ideas that I could possibly use to animate. The goal was to slowly build a case for the importance of creativity for the future, drawing from course concepts, activities, and discussions.</p>
 
 <figure class="blog-figure image component image-big image-fullbleed body-copy-wide">
 <img class="picture-image" src="/images/posts/scribble02.jpeg" alt="second scribbles" />
@@ -133,8 +133,9 @@ Finding the right music is nearly impossible.</p>
 <h3 id="shipping-it">Shipping it</h3>
 <p>It’s not perfect, it needs a lot of polish… but it exists. And there’s pride to be had in that. Now on to the next one. View the final project here.</p>
 
+<div class="video">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5C4NV5wVapc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-
+</div>
         </div>
       </article>
 
@@ -165,5 +166,14 @@ Finding the right music is nearly impossible.</p>
   <script src="/js/evil-icons.min.js">              </script>
   <link rel="stylesheet" href="//cdn.materialdesignicons.com/3.8.95/css/materialdesignicons.min.css">
 </body>
+
+<script src="/js/jquery.min.js"></script>
+<script src="/js/jquery.fitvids.js"></script>
+<script>
+  $(document).ready(function(){
+    // Target your .container, .wrapper, .post, etc.
+    $("#thing-with-videos").fitVids();
+  });
+</script>
 
 </html>
