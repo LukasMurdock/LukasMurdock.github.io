@@ -8,7 +8,7 @@ date: September 26, 2019
 ---
 
 
-The First-Year Integrated Core at Miami University focuses on thinking critically, creatively and conceptually. ESP 103 within the core is about creativity, Innovation, and Entrepreneurial Thinking. Every student was tasked with building a creative mindset project. This is the breakdown and process of creating _Lessons in Creativity_.
+The First-Year Integrated Core at Miami University focuses on thinking critically, creatively and conceptually. ESP 103 within the core is about Creativity, Innovation, and Entrepreneurial Thinking. Every student was tasked with building a creative mindset project. This is the breakdown and process of creating _Lessons in Creativity_.
 
 ### The Process
 <span style="color: rgba(51,51,51,.5);">01 Idea Breakdown</span>  
@@ -83,4 +83,6 @@ My MacBook was running up against its drive space limits as the After Effects ca
 Audio is truly one of the most elusive parts of a creative project. It's something that so easily makes or breaks an entire project for getting the emotional response of the viewer you seek. After hours of searching, worn down and beaten from the countless _no, nos, not this one either, oh hell no.... uuuuggggh_, I selected a track.
 
 ### Shipping it
-It's not perfect, but it exists. And there's pride to be had in that. Now on to the next one. View the final project here.
+It's not perfect, it needs a lot of polish... but it exists. And there's pride to be had in that. Now on to the next one. View the final project here.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5C4NV5wVapc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
