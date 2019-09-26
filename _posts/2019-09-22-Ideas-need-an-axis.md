@@ -3,7 +3,7 @@ layout: post
 title: 'Ideas need an axis to be tested against.'
 description: 
 image: 
-caption: We can use the internet to explore the places that we know we should be exploring.
+caption:
 date: September 23, 2019
 ---
 
