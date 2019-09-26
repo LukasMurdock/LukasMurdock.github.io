@@ -21,7 +21,7 @@ Sketch out the flow of ideas and animations.
 Create vector boards to use as reference panels.
 
 <span style="color: rgba(51,51,51,.5);">04 Animation</span>  
-Bring in reference panels and begin key framing.
+Bring in reference panels and begin keyframing.
 
 <span style="color: rgba(51,51,51,.5);">05 Audio</span>  
 Finding the right music is nearly impossible.
@@ -75,12 +75,12 @@ Animating all the titles became menial real quick. I ran into some setbacks by f
 
 After giving it a few days of rest to work on other assignments I came back to finish off the rest of the scenes. At this point, I was starting to hit the limitations of my technology. In 2016 I built my own computer to get some more power for cheaper than what Apple offers. I left my computer on as I left for class and I came back to an unresponsive black screen. I thought that was strange but these things usually fix themselves with time. _Not this time._
 
-It's still hard to talk about... I'm planning on taking it home sometime and troubleshooting more.
+It's still hard to talk about... I'm planning on taking it home sometime and troubleshooting more. It still won't boot.
 
 My MacBook was running up against its drive space limits as the After Effects cache built up to over 50GB on my 256GB drive, in which 100GB is used up by applications alone. Of course, I could clear the cache but having it there gives me more 1:1 playback speeds that help me accurately determine where keyframes should go. Within the time allotted I believe that some of the keyframes could be cleaned up for a less jarring effect. But deadlines are deadlines, and shipping is part of the job.
 
 ### Audio
-Audio is truly one of the most elusive parts of a creative project. It's something that so easily makes or breaks an entire project for getting the emotional response of the viewer you seek. After hours of searching, worn down and beaten from the countless _no, nos, not this one either, oh hell no.... uuuuggggh_, I selected a track.
+Audio is truly one of the most elusive parts of a creative project. It's something that so easily makes or breaks an entire project for getting the emotional response you seek from  the viewer After hours of searching, worn down and beaten from the countless _no, nos, not this one either, oh hell no.... uuuuggggh_, I selected a track.
 
 ### Shipping it
 It's not perfect, it needs a lot of polish... but it exists. And there's pride to be had in that. Now on to the next one. View the final project here.
