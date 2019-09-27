@@ -3,9 +3,11 @@
     <div class="index-grid">
       <article class="index-item">
           <!-- <div class="index-padding"> -->
+          {% if post.image %}
           <figure class="index-item-image-wrapper">
             <img class="index-item-image"  alt='{{ post.image }}' src='{{ post.image | prepend: "/images/posts/" | prepend: site.baseurl }}'>
           </figure>
+          {% endif %}
           <!-- </div> -->
       </article>
     <div class="index-text full-underline">
