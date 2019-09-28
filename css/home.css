@@ -249,3 +249,8 @@ nav #nav:checked ~ menu{
   }
 }
 
+footer {
+	margin: auto;
+    width: 87.5%;
+    padding-top: 15px;
+}

@@ -86,7 +86,7 @@ description: Brand Strategy Design Consultant. Helping align the goals of organi
 }
 </style>
 <div class="pagebody-content">
-    <a class= "link" href="/principles" style="">View Principles</a>
+    <a class= "link" href="/principles">View Principles</a>
   <div class="grid-container">
     {% for d in site.data.resources.fulldata %}
     <div class="grid-item">
@@ -95,7 +95,7 @@ description: Brand Strategy Design Consultant. Helping align the goals of organi
           {% for Title in d.List %}
           <li>
             <a class="item" target="_blank" href="{{ Title.Link }}" rel="noopener">
-              <img alt="{{ Title.Link}}" src="https://s2.googleusercontent.com/s2/favicons?domain_url={{ Title.Link}}">
+              <img alt="{{ Title.Link }}" src="https://s2.googleusercontent.com/s2/favicons?domain_url={{ Title.Link }}">
               {{ Title.Title }}
             </a>
           </li>
