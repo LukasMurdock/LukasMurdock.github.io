@@ -79,6 +79,10 @@ description: Brand Strategy Design Consultant. Helping align the goals of organi
       font-size: 44px!important;
       padding-bottom: 20px;
     }
+
+    a.item{
+      padding: 14px 0;
+    }
 }
 </style>
 <div class="pagebody-content">
@@ -90,8 +94,8 @@ description: Brand Strategy Design Consultant. Helping align the goals of organi
         <ol>
           {% for Title in d.List %}
           <li>
-            <a class="item" target="_blank" href="{{ Title.Link }}">
-              <img src="https://s2.googleusercontent.com/s2/favicons?domain_url={{ Title.Link}}">
+            <a class="item" target="_blank" href="{{ Title.Link }}" rel="noopener">
+              <img alt="{{ Title.Link}}" src="https://s2.googleusercontent.com/s2/favicons?domain_url={{ Title.Link}}">
               {{ Title.Title }}
             </a>
           </li>
