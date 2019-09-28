@@ -38,11 +38,6 @@ section:nth-of-type(2n) {
 }
 */
 
-#container{
-	max-width: 571px;
-	padding-top: 100px;
-}
-
 .more-btn {
 	cursor: pointer;
 	font-size: 16px;
@@ -63,6 +58,11 @@ section:nth-of-type(2n) {
 
 .more-btn:hover {
 	background: rgba(0, 0, 0, 0.15);
+}
+
+.section-container{
+	max-width: 571px;
+	padding-top: 100px;
 }
 
 /* Layout 02 */
