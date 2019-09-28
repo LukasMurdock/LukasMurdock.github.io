@@ -286,13 +286,16 @@ footer {
         text-indent: 0;
     }
 
-    /*
+    .post:last-of-type{
+        margin-bottom: 60px;
+    }
+
     .pagebody-content, .hero-headline, footer{
         margin-left: auto!important;
         margin-right: auto!important;
         width: 87.5%!important;
     }
-    */
+
 
     .index-title {
         margin-top: -9px;

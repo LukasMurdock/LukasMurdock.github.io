@@ -286,6 +286,9 @@ footer {
         text-indent: 0;
     }
 
+    .post:last-of-type{
+        margin-bottom: 60px;
+    }
 
     .pagebody-content, .hero-headline, footer{
         margin-left: auto!important;
