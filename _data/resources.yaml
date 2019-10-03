@@ -109,6 +109,16 @@ fulldata:
       Comment: ""
       Category: UIUX
 
+    - Title: UX Frameworks
+      Link: https://www.uxframeworks.design
+      Comment:
+      Category: UIUX
+
+    - Title: Web Gradients
+      Link: https://webgradients.com
+      Comment: ""
+      Category: UIUX
+
     - Title: Stripe
       Link: https://stripe.com/
       Comment: ""
@@ -201,11 +211,6 @@ fulldata:
 
     - Title: Built With
       Link: https://builtwith.com/
-      Comment: ""
-      Category: Software
-
-    - Title: Web Gradients
-      Link: https://webgradients.com
       Comment: ""
       Category: Software
       
@@ -305,11 +310,6 @@ fulldata:
 
     - Title: 80000 Hours
       Link: https://80000hours.org/
-      Comment:
-      Category: Guides
-
-    - Title: UX Frameworks
-      Link: https://www.uxframeworks.design
       Comment:
       Category: Guides
 
