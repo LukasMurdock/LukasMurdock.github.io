@@ -204,6 +204,12 @@ fulldata:
       Comment: ""
       Category: Software
 
+    - Title: Web Gradients
+      Link: https://webgradients.com
+      Comment: ""
+      Category: Software
+      
+
 
 #Chrome Apps
   - Type: Chrome Apps
@@ -299,6 +305,16 @@ fulldata:
 
     - Title: 80000 Hours
       Link: https://80000hours.org/
+      Comment:
+      Category: Guides
+
+    - Title: UX Frameworks
+      Link: https://www.uxframeworks.design
+      Comment:
+      Category: Guides
+
+    - Title: Early User Growth
+      Link: https://earlyusergrowth.com/startups/
       Comment:
       Category: Guides
 
