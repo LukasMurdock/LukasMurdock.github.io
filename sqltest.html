@@ -1,0 +1,211 @@
+---
+layout: default
+title: SQL Test
+description: Brand Strategy Design Consultant. Helping align the goals of organization to the needs of their customers— creating exceptional brand experiences.
+---
+
+<style>
+.highlight .hll { background-color: #ffffcc }
+.highlight .c { color: #008000 } /* Comment */
+.highlight .err { border: 1px solid #FF0000 } /* Error */
+.highlight .k { color: #0000ff } /* Keyword */
+.highlight .cm { color: #008000 } /* Comment.Multiline */
+.highlight .cp { color: #0000ff } /* Comment.Preproc */
+.highlight .c1 { color: #008000 } /* Comment.Single */
+.highlight .cs { color: #008000 } /* Comment.Special */
+.highlight .ge { font-style: italic } /* Generic.Emph */
+.highlight .gh { font-weight: bold } /* Generic.Heading */
+.highlight .gp { font-weight: bold } /* Generic.Prompt */
+.highlight .gs { font-weight: bold } /* Generic.Strong */
+.highlight .gu { font-weight: bold } /* Generic.Subheading */
+.highlight .kc { color: #0000ff } /* Keyword.Constant */
+.highlight .kd { color: #0000ff } /* Keyword.Declaration */
+.highlight .kn { color: #0000ff } /* Keyword.Namespace */
+.highlight .kp { color: #0000ff } /* Keyword.Pseudo */
+.highlight .kr { color: #0000ff } /* Keyword.Reserved */
+.highlight .kt { color: #2b91af } /* Keyword.Type */
+.highlight .s { color: #a31515 } /* Literal.String */
+.highlight .nc { color: #2b91af } /* Name.Class */
+.highlight .ow { color: #0000ff } /* Operator.Word */
+.highlight .sb { color: #a31515 } /* Literal.String.Backtick */
+.highlight .sc { color: #a31515 } /* Literal.String.Char */
+.highlight .sd { color: #a31515 } /* Literal.String.Doc */
+.highlight .s2 { color: #a31515 } /* Literal.String.Double */
+.highlight .se { color: #a31515 } /* Literal.String.Escape */
+.highlight .sh { color: #a31515 } /* Literal.String.Heredoc */
+.highlight .si { color: #a31515 } /* Literal.String.Interpol */
+.highlight .sx { color: #a31515 } /* Literal.String.Other */
+.highlight .sr { color: #a31515 } /* Literal.String.Regex */
+.highlight .s1 { color: #a31515 } /* Literal.String.Single */
+.highlight .ss { color: #a31515 } /* Literal.String.Symbol */
+
+.highlight {
+    background-color: #ddd;
+    padding:20px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Code&display=swap');
+pre {
+  white-space: pre;
+  overflow: auto;
+  font-size:13px;
+  line-height: 1.3;
+  }
+/*
+code{
+  font-family: 'Fira Code', monospace;
+}
+*/
+
+
+
+  h1{
+    text-align: center;
+  }
+
+  h3{
+    font-size: 22px;
+    padding-left: 20px;
+  }
+  img {
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+    margin-top: 2px;
+    float: left;
+  }
+
+  td:first-child {
+    border-right: 2px solid #d9d9d9;
+    padding-right: 4px;
+  }
+
+  td:nth-child(2), th:nth-child(2){
+    padding-left: 4px;
+  }
+
+  table {
+    table-layout: auto;
+    width: 100%;
+    border-spacing: 0px;
+  }
+
+  th, td {
+    border-bottom: 2px solid #d9d9d9;
+    text-align: left;
+  }
+
+  @media screen and (max-width: 735px) {
+    .grid-container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    h1{
+      font-size: 44px!important;
+      padding-bottom: 44px;
+    }
+    h2{
+      padding: 0;
+      margin:0;
+    }
+}
+</style>
+<div class="pagebody-content">
+  <h2>Getting better at SQL through trial and error </h2>
+  <p>Ok so in an attempt to get better at SQL I wanted to find a result I wanted from the data and work out how to get it in SQL. </p>
+  <p>I decided to try to find out how the amount of profit each supplier is currently bringing in.</p>
+  <p>To do this I would need to find the products sold by each supplier and the profit of those item by subtracting the UNITCOST by the UNITPRICE and then multiply that by the amount of units ordered.</p>
+  {% highlight sql %}
+  unitsonorder * (unitprice - unitcost){% endhighlight %}
+  <p>Seems simple enough…</p>
+
+{% highlight sql %}
+SELECT companyname, unitsonorder * (unitprice - unitcost)
+FROM northwinds.products
+JOIN northwinds.suppliers ON products.supplierid = suppliers.supplierid;
+{% endhighlight %}
+
+  <table>
+      <tr>
+        <th valign="bottom">Company</th>
+        <th valign="bottom">Current Item Profit</th>
+      </tr>
+      <tr>
+        <td>Exotic Liquids</td>
+        <td>0</td>
+     </tr>
+     <tr>
+        <td>Exotic Liquids</td>
+        <td>126.8</td>
+     </tr>
+     <tr>
+        <td>Exotic Liquids</td>
+        <td>39.9</td>
+     </tr>
+</table><span style="font-size:13px;"><i>Note: I'm only showing the results for the first company to reduce table size.</i></span><br>
+<p>Ah okay now we need to get the sum of the units by each company…</p>
+
+{% highlight sql %}
+SELECT companyname, unitsonorder * (unitprice - unitcost)
+FROM northwinds.products
+JOIN northwinds.suppliers ON products.supplierid = suppliers.supplierid
+GROUP BY companyname;
+{% endhighlight %}
+
+<p><i><u>Error:</u> “not a GROUP BY expression”</i></p>
+<p>Well shit.<br>After trying a bunch of things, I finally got something to work.</p>
+
+{% highlight sql %}
+SELECT companyname, SUM(currentordertotal) AS ORDERPROFIT
+FROM (
+  SELECT companyname, (unitsonorder * (unitprice - unitcost))
+  AS CURRENTORDERTOTAL FROM northwinds.products
+  JOIN northwinds.suppliers
+  ON products.supplierid = suppliers.supplierid
+  )
+GROUP BY companyname;
+{% endhighlight %}
+
+<table>
+    <tr>
+      <th valign="bottom">Company</th>
+      <th valign="bottom">Current Order Profit</th>
+    </tr>
+   <tr>
+      <td>Exotic Liquids</td>
+      <td>166.7</td>
+   </tr>
+</table><span style="font-size:13px;"><i>Note: I'm only showing the results for one company to reduce table size.</i></span><br>
+<p>And while that awkward nesting works… after a little more tinkering I realized this is what it really should be.</p>
+
+{% highlight sql %}
+SELECT companyname, SUM(unitsonorder * (unitprice - unitcost))
+FROM northwinds.products
+JOIN northwinds.suppliers
+ON products.supplierid = suppliers.supplierid
+GROUP BY companyname;
+{% endhighlight %}
+<p>Much cleaner to read and execute.<br>Now we can sort the output by adding this:</p>
+
+{% highlight sql %}
+SELECT companyname, SUM(unitsonorder * (unitprice - unitcost))
+FROM northwinds.products
+JOIN northwinds.suppliers
+ON products.supplierid = suppliers.supplierid
+GROUP BY companyname
+ORDER BY SUM(unitsonorder * (unitprice - unitcost)) DESC;
+{% endhighlight %}
+
+<p>Now let's clean up the column names...</p>
+
+{% highlight sql %}
+SELECT companyname, SUM(unitsonorder * (unitprice - unitcost))
+AS ORDERPROFIT
+FROM northwinds.products
+JOIN northwinds.suppliers
+ON products.supplierid = suppliers.supplierid
+GROUP BY companyname ORDER BY orderprofit DESC;
+{% endhighlight %}
+
+<p>And that's it! Successfully calculated all supplier current order profits.<br>You can paste the above code into FSBoracle and see the values.</p>
+</div>
+

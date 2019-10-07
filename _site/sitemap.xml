@@ -45,6 +45,9 @@
 <loc>http://localhost:4000/resources/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/sqltest/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/strategy.html</loc>
 </url>
 <url>
