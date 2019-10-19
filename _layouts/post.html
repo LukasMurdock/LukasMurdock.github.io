@@ -7,7 +7,7 @@ layout: default
 {% assign author = site.authors[page.author] %}
 
 {% if page.image %}
-  <meta itemprop='og:image' content='{{ base_path }}{{ page.image }}'>
+  <meta itemprop='og:image' content='{{ base_path }}/{{ page.image }}'>
 {% endif %}
 
 <main>
@@ -16,14 +16,14 @@ layout: default
 
         <p class="summary-copy">{{ page.description }}</p>
         
-
+        {% if page.image %}
         <div class="figure-container">
           <figure class="blog-figure image component image-big image-fullbleed body-copy-wide">
             <img class="picture-image"  alt='{{ page.image }}' src='{{ page.image | prepend: "/images/posts/" | prepend: site.baseurl }}'>
             <figcaption class="image-text">{{ page.caption }}</figcaption>
           </figure>
         </div>
-
+        {% endif %}
 
           {{ content }}
         </div>
