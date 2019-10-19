@@ -5,10 +5,43 @@
     <description>Virtual portfolio of Lukas Murdock</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 19 Oct 2019 15:42:10 -0400</pubDate>
-    <lastBuildDate>Sat, 19 Oct 2019 15:42:10 -0400</lastBuildDate>
+    <pubDate>Sat, 19 Oct 2019 19:43:17 -0400</pubDate>
+    <lastBuildDate>Sat, 19 Oct 2019 19:43:17 -0400</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
 
+    
+      <item>
+        <title>Overemphasis is pollution</title>
+        <description>&lt;p&gt;Let’s take a moment to talk about noise. For those seeking attention, making a lot of noise is the easiest path to get it. If you want to bring attention to something, make it scream. You can pretty much see and feel this everywhere today.&lt;/p&gt;
+
+&lt;figure class=&quot;blog-figure image component image-big image-fullbleed body-copy-wide&quot;&gt;
+&lt;img class=&quot;picture-image&quot; src=&quot;https://www.howtogeek.com/wp-content/uploads/2018/04/xyoutube-face.jpg.pagespeed.gp+jp+jw+pj+ws+js+rj+rp+rw+ri+cp+md.ic.EOK058K-rR.jpg&quot; alt=&quot;Overemphasis-on-social-media&quot; /&gt;
+&lt;figcaption class=&quot;image-text&quot;&gt;YouTube Face Thumbnails: Surprised distorted faces stand out… and now they’re everywhere.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=PRkqOl002BE&quot;&gt;Screaming memes: Loudness really gets our attention&lt;/a&gt; &lt;span class=&quot;full-underline&quot; style=&quot;font-size: 12px;&quot;&gt;Volume warning&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.nytimes.com/2019/02/07/opinion/what-these-grammy-songs-tell-us-about-the-loudness-wars.html&quot;&gt;Loudness again: we like our music loud&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Social media is a stage for the loudest voices and convinces other people that being loud, opinionated, and closed-minded is the right way to be. Who needs facts when you’ve got likes and attention. We see how many likes and comments posts have and give higher credibility and weight to those with higher counts. The internet is the best thing to happen to &lt;a href=&quot;https://www.youtube.com/watch?v=rE3j_RHkqJc&quot;&gt;thought germs&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;We have to be able to discern what’s loud merely because it’s angry and personal, and what’s loud because it’s important.&lt;/p&gt;
+
+&lt;p&gt;Letters are an art form. Your brain remembers the shapes of words so as you read your eyes scan words for ascenders and descenders and recognize the word from its shape. All-caps text without the ascenders and descenders register as rectangle blocks, so reading becomes slower and demands more focus to process. Designing a typeface requires careful attention to make each letter distinguishable yet invisible to not distract the user.&lt;/p&gt;
+
+&lt;p&gt;Let’s move on to emphasis. &lt;strong&gt;Some people just can’t get enough bold and italic. When they feel strongly about the point being made they display their passion with entire paragraphs in bold type. Reading this is exhausting. It wears down our retinas and patience. It also leaves you with nothing to emphasize with. That’s no problem for overemphasizers, cause they can &lt;u&gt;underline bold text&lt;/u&gt; or use &lt;em&gt;bold italic&lt;/em&gt;. &lt;em&gt;&lt;u&gt;These are both bad ideas.&lt;/u&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In a world where everybody screams, silence is noticeable.&lt;/p&gt;
+
+&lt;figure class=&quot;blog-figure image component image-big image-fullbleed body-copy-wide&quot;&gt;
+&lt;img class=&quot;picture-image&quot; src=&quot;https://imgs.xkcd.com/comics/brand_identity.png&quot; alt=&quot;Relevant-xkcd&quot; /&gt;
+&lt;figcaption class=&quot;image-text&quot;&gt;Relevant xkcd&lt;/figcaption&gt;
+&lt;/figure&gt;
+</description>
+        <pubDate>Sat, 19 Oct 2019 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2019/10/19/Overemphasis-is-pollution/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/10/19/Overemphasis-is-pollution/</guid>
+      </item>
     
       <item>
         <title>Making a book list</title>
