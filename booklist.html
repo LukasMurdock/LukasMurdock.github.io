@@ -94,15 +94,16 @@ description: Brand Strategy Design Consultant. Helping align the goals of organi
   
   
 <script>
-var book_url
+var book_url;
+var isbnslist = [];
 var imageLink;
-var i=0
+var i=0;
 {% assign isbncheck = site.data.booklist.books | jsonify %}
 var isbns = {{ isbncheck }}
 
-var isbnslist = []
 
-var listlength = Object.keys(isbns).length
+
+//var listlength = Object.keys(isbns).length
 
 for ( i = 0; i < isbns.length; i++)
     {
@@ -113,6 +114,8 @@ const url = isbnslist.reduce(
   (res, isbnslist, index) => res + (index ? '+OR+' : '') + 'isbn:' + isbnslist,
   'https://www.googleapis.com/books/v1/volumes?q='
 )
+
+
 
 book_url = url + "+&fields=items(volumeInfo/description,volumeInfo/title,volumeInfo/authors,volumeInfo/imageLinks/thumbnail,volumeInfo/industryIdentifiers/identifier)+&maxResults=40"
 

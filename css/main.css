@@ -341,10 +341,13 @@ figure {
 
     .index-grid {
     display: grid;
-    grid-template-columns: 33% 66%;
+    grid-template-columns: 1fr 2fr;
     margin: 20px 0px;
     }
 
+    .index-grid > div {
+        box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
+    }
 
   @media screen and (max-width: 735px) {
     .grid-container {
@@ -376,13 +379,21 @@ figure {
 
 .full-underline{
     background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
-	background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+	background-position: 0 100%;
+	transition: background-size 0.25s ease-in-out;
+}
+
+.transition-underline{
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    background-repeat: no-repeat;
 	background-size: 100% 0.2em;
 	background-position: 0 100%;
 	transition: background-size 0.25s ease-in-out;
 }
 
-.post:hover .full-underline{
+.post:hover .transition-underline{
     background-size: 100% 100%;
 }
 

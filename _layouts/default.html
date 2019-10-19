@@ -3,6 +3,12 @@
 
 {% include head.html %}
 
+{% if page.code %}
+<style>
+{% include highlight.css %}
+</style>
+{% endif %}
+
 <body>
 
   {% include analytics.html %}
