@@ -104,6 +104,11 @@ fulldata:
       Comment: ""
       Category: UIUX
 
+    - Title: A collection of design systems
+      Link: https://github.com/alexpate/awesome-design-systems
+      Comment: ""
+      Category: UIUX
+
     - Title: Starbucks Creative
       Link: https://creative.starbucks.com
       Comment: ""
@@ -283,6 +288,11 @@ fulldata:
       Comment: ""
       Category: Guides
 
+    - Title: Multiple Currency Accounting
+      Link: https://www.mathstat.dal.ca/~selinger/accounting/tutorial.html
+      Comment:
+      Category: Guides
+
     - Title: Best SEO Tools
       Link: https://saijogeorge.com/best-marketing-tools/
       Comment: ""
@@ -290,6 +300,26 @@ fulldata:
 
     - Title: Wistia Learn
       Link: https://wistia.com/learn
+      Comment:
+      Category: Guides
+
+    - Title: Developer Roadmap
+      Link: https://roadmap.sh
+      Comment:
+      Category: Guides
+
+    - Title: Visual intro to probability and statistics
+      Link: https://seeing-theory.brown.edu
+      Comment:
+      Category: Guides
+
+    - Title: Javascript references
+      Link: https://github.com/mdjsn/references/blob/master/README.md
+      Comment:
+      Category: Guides
+
+    - Title: Guides for frontend developers
+      Link: https://www.learnstorybook.com/
       Comment:
       Category: Guides
 
