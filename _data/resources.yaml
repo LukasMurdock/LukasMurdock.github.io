@@ -54,6 +54,11 @@ fulldata:
 #Website
   - Type: Website
     List:
+    - Title: Political advertising transparency
+      Link: https://transparencyreport.google.com/political-ads/home
+      Comment: ""
+      Category: Website
+
     - Title: Project Gutenburg
       Link: https://www.gutenberg.org/
       Comment: ""
@@ -101,6 +106,11 @@ fulldata:
 
     - Title: Material Design Icons
       Link: https://materialdesignicons.com
+      Comment: ""
+      Category: UIUX
+
+    - Title: User Onboarding
+      Link: https://www.useronboard.com/
       Comment: ""
       Category: UIUX
 
@@ -159,6 +169,16 @@ fulldata:
  #Software
   - Type: Software
     List:
+    - Title: Tools for makers
+      Link: https://hoard.fyi/
+      Comment: ""
+      Category: Software
+
+    - Title: Free tools for devs
+      Link: https://free-for.dev/
+      Comment: ""
+      Category: Software
+
     - Title: Google Drive
       Link: https://www.google.com/drive/
       Comment: ""
@@ -166,6 +186,11 @@ fulldata:
 
     - Title: Webflow
       Link: https://webflow.com/
+      Comment: ""
+      Category: Software
+
+    - Title: Write With Transformer
+      Link: https://transformer.huggingface.co
       Comment: ""
       Category: Software
 
@@ -261,6 +286,11 @@ fulldata:
 
     - Title: Fontface Ninja
       Link: https://chrome.google.com/webstore/detail/fontface-ninja/eljapbgkmlngdpckoiiibecpemleclhh?hl=en
+      Comment: ""
+      Category: Chrome add-ons
+
+    - Title: Bullshit js
+      Link: https://mourner.github.io/bullshit.js/
       Comment: ""
       Category: Chrome add-ons
 
@@ -362,13 +392,33 @@ fulldata:
       Comment: 
       Category: Newsletter
 
+    - Title: Farnam Street
+      Link: https://fs.blog/
+      Comment: 
+      Category: Newsletter
+
+    - Title: Hacker News
+      Link: https://hackernewsletter.com/
+      Comment: 
+      Category: Newsletter
+
     - Title: SSRN
       Link: https://www.ssrn.com
       Comment: 
       Category: Newsletter
 
+    - Title: Product Hunt
+      Link: https://www.producthunt.com
+      Comment: 
+      Category: Newsletter
+
     - Title: AJ & Smart
       Link: https://ajsmart.com/
+      Comment: 
+      Category: Newsletter
+
+    - Title: Industry Dive
+      Link: https://www.industrydive.com/
       Comment: 
       Category: Newsletter
 
@@ -397,23 +447,8 @@ fulldata:
       Comment: 
       Category: Newsletter
 
-    - Title: Hacker News
-      Link: https://hackernewsletter.com/
-      Comment: 
-      Category: Newsletter
-
     - Title: Effectivology
       Link: https://effectiviology.com/
-      Comment: 
-      Category: Newsletter
-
-    - Title: Industry Dive
-      Link: https://www.industrydive.com/
-      Comment: 
-      Category: Newsletter
-
-    - Title: Product Hunt
-      Link: https://www.producthunt.com
       Comment: 
       Category: Newsletter
 
@@ -424,6 +459,11 @@ fulldata:
 
     - Title: Demand progress
       Link: https://demandprogress.org
+      Comment: 
+      Category: Newsletter
+
+    - Title: Awesome developer newsletters
+      Link: https://github.com/zudochkin/awesome-newsletters/blob/master/README.md
       Comment: 
       Category: Newsletter
 
