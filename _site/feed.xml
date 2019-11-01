@@ -5,10 +5,21 @@
     <description>Virtual portfolio of Lukas Murdock</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 21 Oct 2019 10:49:11 -0400</pubDate>
-    <lastBuildDate>Mon, 21 Oct 2019 10:49:11 -0400</lastBuildDate>
+    <pubDate>Thu, 31 Oct 2019 23:04:51 -0400</pubDate>
+    <lastBuildDate>Thu, 31 Oct 2019 23:04:51 -0400</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
 
+    
+      <item>
+        <title>Just start making</title>
+        <description>&lt;p&gt;We don’t put enough out into the world. We don’t hold any implementation intentions within ourselves and we hardly stick to any. We need a shift in how we think about and handle projects. To focus on making things in the open, to invite collaboration where everyone benefits. To start more projects for ourselves. We look to characters and cast to endlessly consume and live vicariously through them. I’m afraid of not becoming everything I could be, I look up to people who do work that makes a positive change yet I remain still with worry about not becoming someone like that. I seek to do work that is recognized and be proud of my work. To change from sitting alone in a dark room to having deep conversations with strangers. So I’ll measure. And I’ll measure projects. It’s time I got started, I’ll feel proud after I stick to it.&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;This was written utilizing &lt;a href=&quot;&quot;&gt;&lt;span class=&quot;full-underline&quot; style=&quot;color:#333333&quot;&gt;Project CORE&lt;/span&gt;&lt;/a&gt;, a framework developed to help me put more out into the world.&lt;/span&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 31 Oct 2019 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2019/10/31/Just-start-making/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/10/31/Just-start-making/</guid>
+      </item>
     
       <item>
         <title>Overemphasis is pollution</title>
