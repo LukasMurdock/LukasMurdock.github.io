@@ -5,10 +5,25 @@
     <description>Virtual portfolio of Lukas Murdock</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 31 Oct 2019 23:04:51 -0400</pubDate>
-    <lastBuildDate>Thu, 31 Oct 2019 23:04:51 -0400</lastBuildDate>
+    <pubDate>Fri, 01 Nov 2019 20:25:11 -0400</pubDate>
+    <lastBuildDate>Fri, 01 Nov 2019 20:25:11 -0400</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
 
+    
+      <item>
+        <title>Enroll yourself</title>
+        <description>&lt;p&gt;Enrollment is not what happens when you sign up with the nearby school and then they threaten to throw the parents in jail if the kid doesn’t show up in class. Enrollment is what we call it when someone is eagerly present. When a consultant has enrollment from a client, the client is saying to her, “Yes, we want to move forward. Show us how.” As opposed to the consultant having to cajole and push and basically encourage the client to go forward.&lt;/p&gt;
+
+&lt;p&gt;There’s an important distinction because most of the education that most of us have had is not education we enrolled for. Or if we did enroll, we enrolled once at the beginning and then we were waiting for the two-year MBA to be over or we were waiting for the driver ed class to be over. We weren’t actually seeking to engage in the work itself.&lt;/p&gt;
+
+&lt;p&gt;So what we have to figure out how to do, whether it’s for third graders or for a MOOC, is continue to amplify the cycle of enrollment. Continue to create an environment where people would miss it if there was a snow day. They would miss it if someone said we don’t have to do that page.&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;This is an excerpt from &lt;a href=&quot;sethgodin.com&quot;&gt;Seth Godin&lt;/a&gt; on the &lt;a href=&quot;https://tim.blog/2016/08/03/seth-godin-on-how-to-think-small-to-go-big/&quot;&gt;Tim Ferris show #177&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 31 Oct 2019 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2019/10/31/Enroll-yourself/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/10/31/Enroll-yourself/</guid>
+      </item>
     
       <item>
         <title>Just start making</title>
