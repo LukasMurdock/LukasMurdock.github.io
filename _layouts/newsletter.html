@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+
+<style>
+body{
+  margin: 40px auto;
+  max-width: 571px;
+  line-height: 1.6;
+  font-size: 18px;
+  color: #454545;
+  padding: 0 0px;
+  font-synthesis: none;
+  -moz-font-feature-settings: 'kern';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f2f2f2;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+
+footer > a > svg {
+    top: .25em;
+    position: relative;
+    width: 24px;
+    height: 24px;
+}
+
+footer > a:link, a:visited {
+    text-decoration: none;
+}
+
+a {
+    color: #0070c9;
+}
+</style>
+
+
+<body>
+
+  {% if page.subtitle %}
+    <h1 class="hero-headline" style="margin-bottom:0;">{{ page.title }}</h1>
+    <p class="summary-copy">{{ page.subtitle }}</p>
+  {% else %}
+    <h1 class="hero-headline">{{ page.title }}</h1>
+  {% endif %}
+
+    {{ content }}
+
+    {% include footer.html %}
+  </div>
+</body>
+
+</html>

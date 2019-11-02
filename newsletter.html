@@ -1,0 +1,18 @@
+---
+layout: newsletter
+title: Updates from Lukas Murdock
+description: Updates from Lukas Murdock — We can use the internet to explore the places that we know we should be exploring.
+---
+
+{% assign timeframe = 604800 %}
+
+{% for post in site.posts %}
+  {% assign post_in_seconds = post.date | date: "%s" | plus: 0 %}
+  {% assign recent_posts = "now" | date: "%s" | minus: timeframe  %}
+
+  {% if post_in_seconds > recent_posts %}
+  <h2 class="index-title" style="margin-bottom:0px;">{{ post.title }}<p style="font-size: 17px; font-weight: 400; margin-bottom:0px;">{{ post.date | date: '%B %d, %Y' }}</p></h2>
+  {{ post.content }}
+  {% endif %}
+{% endfor %}
+         
