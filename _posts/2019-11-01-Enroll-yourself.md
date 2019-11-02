@@ -4,7 +4,7 @@ title: 'Enroll yourself'
 description: Enrollment is what we call it when someone is eagerly present.
 image: enrollyourself.jpg
 caption: 
-date: October 31, 2019
+date: 'November 01, 2019'
 ---
 
 Enrollment is not what happens when you sign up with the nearby school and then they threaten to throw the parents in jail if the kid doesn’t show up in class. Enrollment is what we call it when someone is eagerly present. When a consultant has enrollment from a client, the client is saying to her, “Yes, we want to move forward. Show us how.” As opposed to the consultant having to cajole and push and basically encourage the client to go forward.
