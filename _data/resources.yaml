@@ -13,81 +13,99 @@
 # Music
 
 
-fulldata: 
-  - Type: Applications
+fulldata:
+#Guides
+  - Type: Guides
     List:
-    - Title: VS Code
-      Link: https://code.visualstudio.com/
+    - Title: Webflow Freelancer Journey
+      Link: https://university.webflow.com/freelancer
       Comment: ""
-      Category: Application
+      Category: Guides
 
-    - Title: Affinity Designer
-      Link: https://affinity.serif.com/en-us/designer/
-      Comment: ""
-      Category: Application
-
-    - Title: Adobe Illustrator
-      Link: https://www.adobe.com/products/illustrator.html
-      Comment: ""
-      Category: Application
-
-    - Title: Adobe After Effects
-      Link: https://www.adobe.com/products/aftereffects.html
-      Comment: ""
-      Category: Application
-      
-    - Title: Adobe Premiere Pro
-      Link: https://www.adobe.com/products/premiere.html
-      Comment: ""
-      Category: Application
-
-    - Title: Final Cut Pro X
-      Link: https://www.apple.com/final-cut-pro/
-      Comment: ""
-      Category: Application
-
-    - Title: Motion 5
-      Link: https://www.apple.com/final-cut-pro/motion/
-      Comment: ""
-      Category: Application
-
-#Website
-  - Type: Website
-    List:
-    - Title: Political advertising transparency
-      Link: https://transparencyreport.google.com/political-ads/home
-      Comment: ""
+    - Title: Google Project Aristotle
+      Link: https://rework.withgoogle.com/guides/understanding-team-effectiveness/steps/introduction/
+      Comment: "A guide to understanding team effectiveness at Google."
       Category: Website
 
-    - Title: Project Gutenburg
-      Link: https://www.gutenberg.org/
+    - Title: A guide to type styles
+      Link: https://www.fontsmith.com/blog/2019/06/24/a-guide-to-type-styles
       Comment: ""
-      Category: Website
-      
-    - Title: Standard Ebooks
-      Link: https://standardebooks.org/
-      Comment: ""
-      Category: Website
+      Category: Guides
 
-    - Title: MF Website
-      Link: http://motherfuckingwebsite.com/
+    - Title: Degreeless Design
+      Link: https://www.degreeless.design/
       Comment: ""
-      Category: Website
+      Category: Guides
 
-    - Title: Better MF Website
-      Link: http://bettermotherfuckingwebsite.com/
+    - Title: AIGA Design Business and Ethics
+      Link: https://www.aiga.org/design-business-and-ethics
       Comment: ""
-      Category: Website
+      Category: Guides
 
-    - Title: Best MF Website
-      Link: https://bestmotherfucking.website/
-      Comment: ""
-      Category: Website
+    - Title: Multiple Currency Accounting
+      Link: https://www.mathstat.dal.ca/~selinger/accounting/tutorial.html
+      Comment:
+      Category: Guides
 
-    - Title: The Best MF Website
-      Link: https://thebestmotherfucking.website/
+    - Title: Best SEO Tools
+      Link: https://saijogeorge.com/best-marketing-tools/
       Comment: ""
-      Category: Website
+      Category: Guides
+
+    - Title: Wistia Learn
+      Link: https://wistia.com/learn
+      Comment:
+      Category: Guides
+
+    - Title: Developer Roadmap
+      Link: https://roadmap.sh
+      Comment:
+      Category: Guides
+
+    - Title: Visual intro to probability and statistics
+      Link: https://seeing-theory.brown.edu
+      Comment:
+      Category: Guides
+
+    - Title: Javascript references
+      Link: https://github.com/mdjsn/references/blob/master/README.md
+      Comment:
+      Category: Guides
+
+    - Title: Guides for frontend developers
+      Link: https://www.learnstorybook.com/
+      Comment:
+      Category: Guides
+
+    - Title: Free resources for Freelancers
+      Link: https://usefyi.com/templates/freelancer-templates/
+      Comment:
+      Category: Guides
+
+    - Title: Typewolf
+      Link: https://www.typewolf.com
+      Comment:
+      Category: Guides
+
+    - Title: TheFutur
+      Link: https://www.thefutur.com/
+      Comment:
+      Category: Guides
+
+    - Title: Sheets for Marketers
+      Link: https://sheetsformarketers.com/
+      Comment:
+      Category: Guides
+
+    - Title: 80000 Hours
+      Link: https://80000hours.org/
+      Comment:
+      Category: Guides
+
+    - Title: Early User Growth
+      Link: https://earlyusergrowth.com/startups/
+      Comment:
+      Category: Guides
 
 
 #UIUX
@@ -102,7 +120,6 @@ fulldata:
       Link: https://material.io/design/
       Comment: ""
       Category: UIUX
-
 
     - Title: Material Design Icons
       Link: https://materialdesignicons.com
@@ -153,7 +170,6 @@ fulldata:
       Link: https://wistia.com/
       Comment: ""
       Category: UIUX
-
 
     - Title: Slack
       Link: https://slack.com/
@@ -243,140 +259,6 @@ fulldata:
       Link: https://builtwith.com/
       Comment: ""
       Category: Software
-      
-
-
-#Chrome Apps
-  - Type: Chrome Apps
-    List:
-    - Title: 77X
-      Link: https://chrome.google.com/webstore/detail/77x/lgnkmlgloomjfbmdenogdehhphnhaihb?hl=en
-      Comment: ""
-      Category: Chrome add-ons
-
-    - Title: BuiltWith
-      Link: https://chrome.google.com/webstore/detail/builtwith-technology-prof/dapjbgnjinbpoindlpdmhochffioedbn?hl=en
-      Comment: ""
-      Category: Chrome add-ons
-
-    - Title: SVG Grabber
-      Link: https://chrome.google.com/webstore/detail/svg-grabber-get-all-the-s/ndakggdliegnegeclmfgodmgemdokdmg?hl=en
-      Comment: ""
-      Category: Chrome add-ons
-
-    - Title: AdBlock
-      Link: https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom?hl=en
-      Comment: ""
-      Category: Chrome add-ons
-
-    - Title: Grammarly
-      Link: https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen?hl=en
-      Comment: ""
-      Category: Chrome add-ons
-
-    - Title: The Great Suspender
-      Link: https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg?hl=en
-      Comment: ""
-      Category: Chrome add-ons
-
-    - Title: CSS Peeper
-      Link: https://chrome.google.com/webstore/detail/css-peeper/mbnbehikldjhnfehhnaidhjhoofhpehk?hl=en
-      Comment: ""
-      Category: Chrome add-ons
-
-    - Title: Fontface Ninja
-      Link: https://chrome.google.com/webstore/detail/fontface-ninja/eljapbgkmlngdpckoiiibecpemleclhh?hl=en
-      Comment: ""
-      Category: Chrome add-ons
-
-    - Title: Bullshit js
-      Link: https://mourner.github.io/bullshit.js/
-      Comment: ""
-      Category: Chrome add-ons
-
-
-#Guides
-  - Type: Guides
-    List:
-    - Title: Webflow Freelancer Journey
-      Link: https://university.webflow.com/freelancer
-      Comment: ""
-      Category: Guides
-
-    - Title: A guide to type styles
-      Link: https://www.fontsmith.com/blog/2019/06/24/a-guide-to-type-styles
-      Comment: ""
-      Category: Guides
-
-    - Title: Degreeless Design
-      Link: https://www.degreeless.design/
-      Comment: ""
-      Category: Guides
-
-    - Title: AIGA Design Business and Ethics
-      Link: https://www.aiga.org/design-business-and-ethics
-      Comment: ""
-      Category: Guides
-
-    - Title: Multiple Currency Accounting
-      Link: https://www.mathstat.dal.ca/~selinger/accounting/tutorial.html
-      Comment:
-      Category: Guides
-
-    - Title: Best SEO Tools
-      Link: https://saijogeorge.com/best-marketing-tools/
-      Comment: ""
-      Category: Guides
-
-    - Title: Wistia Learn
-      Link: https://wistia.com/learn
-      Comment:
-      Category: Guides
-
-    - Title: Developer Roadmap
-      Link: https://roadmap.sh
-      Comment:
-      Category: Guides
-
-    - Title: Visual intro to probability and statistics
-      Link: https://seeing-theory.brown.edu
-      Comment:
-      Category: Guides
-
-    - Title: Javascript references
-      Link: https://github.com/mdjsn/references/blob/master/README.md
-      Comment:
-      Category: Guides
-
-    - Title: Guides for frontend developers
-      Link: https://www.learnstorybook.com/
-      Comment:
-      Category: Guides
-
-    - Title: Typewolf
-      Link: https://www.typewolf.com
-      Comment:
-      Category: Guides
-
-    - Title: TheFutur
-      Link: https://www.thefutur.com/
-      Comment:
-      Category: Guides
-
-    - Title: Sheets for Marketers
-      Link: https://sheetsformarketers.com/
-      Comment:
-      Category: Guides
-
-    - Title: 80000 Hours
-      Link: https://80000hours.org/
-      Comment:
-      Category: Guides
-
-    - Title: Early User Growth
-      Link: https://earlyusergrowth.com/startups/
-      Comment:
-      Category: Guides
 
 
 #Newsletters
@@ -466,6 +348,172 @@ fulldata:
       Link: https://github.com/zudochkin/awesome-newsletters/blob/master/README.md
       Comment: 
       Category: Newsletter
+
+#Applications
+  - Type: Applications
+    List:
+    - Title: VS Code
+      Link: https://code.visualstudio.com/
+      Comment: ""
+      Category: Application
+
+    - Title: Affinity Designer
+      Link: https://affinity.serif.com/en-us/designer/
+      Comment: ""
+      Category: Application
+
+    - Title: Affinity Photo
+      Link: https://affinity.serif.com/en-us/photo/
+      Comment: ""
+      Category: Application
+
+    - Title: Affinity Publisher
+      Link: https://affinity.serif.com/en-us/publisher/
+      Comment: ""
+      Category: Application
+
+    - Title: Adobe Illustrator
+      Link: https://www.adobe.com/products/illustrator.html
+      Comment: ""
+      Category: Application
+
+    - Title: Adobe After Effects
+      Link: https://www.adobe.com/products/aftereffects.html
+      Comment: ""
+      Category: Application
+      
+    - Title: Adobe Premiere Pro
+      Link: https://www.adobe.com/products/premiere.html
+      Comment: ""
+      Category: Application
+
+    - Title: Final Cut Pro X
+      Link: https://www.apple.com/final-cut-pro/
+      Comment: ""
+      Category: Application
+
+    - Title: Motion 5
+      Link: https://www.apple.com/final-cut-pro/motion/
+      Comment: ""
+      Category: Application
+
+#Chrome Apps
+  - Type: Chrome Apps
+    List:
+    - Title: 77X
+      Link: https://chrome.google.com/webstore/detail/77x/lgnkmlgloomjfbmdenogdehhphnhaihb?hl=en
+      Comment: ""
+      Category: Chrome add-ons
+
+    - Title: BuiltWith
+      Link: https://chrome.google.com/webstore/detail/builtwith-technology-prof/dapjbgnjinbpoindlpdmhochffioedbn?hl=en
+      Comment: ""
+      Category: Chrome add-ons
+
+    - Title: SVG Grabber
+      Link: https://chrome.google.com/webstore/detail/svg-grabber-get-all-the-s/ndakggdliegnegeclmfgodmgemdokdmg?hl=en
+      Comment: ""
+      Category: Chrome add-ons
+
+    - Title: AdBlock
+      Link: https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom?hl=en
+      Comment: ""
+      Category: Chrome add-ons
+
+    - Title: Grammarly
+      Link: https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen?hl=en
+      Comment: ""
+      Category: Chrome add-ons
+
+    - Title: The Great Suspender
+      Link: https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg?hl=en
+      Comment: ""
+      Category: Chrome add-ons
+
+    - Title: CSS Peeper
+      Link: https://chrome.google.com/webstore/detail/css-peeper/mbnbehikldjhnfehhnaidhjhoofhpehk?hl=en
+      Comment: ""
+      Category: Chrome add-ons
+
+    - Title: Fontface Ninja
+      Link: https://chrome.google.com/webstore/detail/fontface-ninja/eljapbgkmlngdpckoiiibecpemleclhh?hl=en
+      Comment: ""
+      Category: Chrome add-ons
+
+    - Title: Bullshit js
+      Link: https://mourner.github.io/bullshit.js/
+      Comment: ""
+      Category: Chrome add-ons
+
+
+#Website
+  - Type: Website
+    List:
+    - Title: Political advertising transparency
+      Link: https://transparencyreport.google.com/political-ads/home
+      Comment: ""
+      Category: Website
+
+    - Title: Project Gutenburg
+      Link: https://www.gutenberg.org/
+      Comment: ""
+      Category: Website
+      
+    - Title: Standard Ebooks
+      Link: https://standardebooks.org/
+      Comment: ""
+      Category: Website
+
+    - Title: MF Website
+      Link: http://motherfuckingwebsite.com/
+      Comment: ""
+      Category: Website
+
+    - Title: Better MF Website
+      Link: http://bettermotherfuckingwebsite.com/
+      Comment: ""
+      Category: Website
+
+    - Title: Best MF Website
+      Link: https://bestmotherfucking.website/
+      Comment: ""
+      Category: Website
+
+    - Title: The Best MF Website
+      Link: https://thebestmotherfucking.website/
+      Comment: ""
+      Category: Website
+      
+
+
+
+#Podcast
+  - Type: Podcast
+    List:
+    - Title: Revisionist History
+      Link: http://revisionisthistory.com/
+      Comment: 
+      Category: Podcast
+
+    - Title: 99% Invisible
+      Link: https://99percentinvisible.org/
+      Comment: 
+      Category: Podcast
+
+    - Title: Akimbo
+      Link: https://www.akimbo.me/
+      Comment: 
+      Category: Podcast
+
+    - Title: How I Built This
+      Link: https://www.npr.org/podcasts/510313/how-i-built-this
+      Comment: 
+      Category: Podcast
+
+    - Title: Story Break
+      Link: https://www.maximumfun.org/shows/story-break
+      Comment: 
+      Category: Podcast
 
 
 #Books
@@ -572,7 +620,6 @@ fulldata:
       Category: Book
 
 
-
 #Youtube
   - Type: Youtube
     List:
@@ -635,35 +682,6 @@ fulldata:
       Link: https://www.youtube.com/channel/UCnvgtzmvlb6d58d9BbOKuMA
       Comment: 
       Category: Youtube
-
-
-#Podcast
-  - Type: Podcast
-    List:
-    - Title: Revisionist History
-      Link: http://revisionisthistory.com/
-      Comment: 
-      Category: Podcast
-
-    - Title: 99% Invisible
-      Link: https://99percentinvisible.org/
-      Comment: 
-      Category: Podcast
-
-    - Title: Akimbo
-      Link: https://www.akimbo.me/
-      Comment: 
-      Category: Podcast
-
-    - Title: How I Built This
-      Link: https://www.npr.org/podcasts/510313/how-i-built-this
-      Comment: 
-      Category: Podcast
-
-    - Title: Story Break
-      Link: https://www.maximumfun.org/shows/story-break
-      Comment: 
-      Category: Podcast
 
 
 #Movies

@@ -71,6 +71,46 @@ description: Designer Resources — We can use the internet to explore the place
     text-align:center;
   }
 
+
+  .tooltip {
+  position: relative;
+  display: block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 235px;
+  background-color: #555;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 20px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 0%;
+  margin-left: 0;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+
   @media screen and (max-width: 735px) {
     .grid-container {
       grid-template-columns: repeat(1, 1fr);
@@ -84,6 +124,7 @@ description: Designer Resources — We can use the internet to explore the place
       padding: 14px 0;
     }
 }
+
 </style>
 <div class="pagebody-content">
     <a class= "link" style="margin-right:5px;" href="{{ '/principles' | prepend: site.baseurl }}">View principles</a><a style="margin-left:5px;" href="{{ '/booklist' | prepend: site.baseurl }}">View book list</a>
@@ -93,10 +134,11 @@ description: Designer Resources — We can use the internet to explore the place
         <h3>{{ d.Type }}</h3>
         <ol>
           {% for Title in d.List %}
-          <li>
+          <li class="tooltip">
             <a class="item" target="_blank" href="{{ Title.Link }}" rel="noopener">
               <img alt="{{ Title.Link }}" src="https://s2.googleusercontent.com/s2/favicons?domain_url={{ Title.Link }}">
               {{ Title.Title }}
+              <span class="tooltiptext">{{ Title.Comment}}</span>
             </a>
           </li>
           {% endfor %}
