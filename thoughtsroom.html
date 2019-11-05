@@ -87,7 +87,7 @@ textbox.addEventListener("keyup", function (e) {
         hold = 1
         validate(e);
         document.getElementById('textbox').value = ""
-        console.log("Enter")
+        //console.log("Enter")
     } else if (hold == 0) {
         document.querySelector('.ml13').innerHTML = document.getElementById('textbox').value;
     }
@@ -102,9 +102,9 @@ function reset(r) {
 
 function validate(e) {
     var text = e.target.value;
-    console.log(text)
+    //console.log(text)
     //textbox.value = '';
-    console.log(document.querySelector('.ml13').innerHTML)
+    //console.log(document.querySelector('.ml13').innerHTML)
 // Wrap every letter in a span
 var textWrapper = document.querySelector('.ml13');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
@@ -121,6 +121,7 @@ anime.timeline({loop: false})
   setTimeout(function() { reset(); }, 1200);
     //validation of the input...
 }
+
   </script>
 </body>
 </html>
