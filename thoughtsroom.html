@@ -1,0 +1,126 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Rez</title>
+  <meta name="description" content="Rez">
+  <meta name="author" content="Lukas Murdock">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <style>
+  body {
+    min-width: 100%;
+    min-height: 100%;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+
+
+input{
+    font-size: 16px;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    color: rgba(0, 0, 0, 0);
+    outline: none;
+}
+
+
+
+.center {
+    top: 50%;
+    left: 30%;
+    width: 40%;
+    margin: auto;
+    position: absolute;
+}
+
+.ml13 {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 0;
+    color: #aaa;
+    transition: 0.3s;
+    z-index: 1;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+@media screen and (max-width: 735px) {
+    input{
+        font-size: 24px;
+    }
+
+    .center {
+        top: 50%;
+        left: 10%;
+        width: 80%;
+    }
+}
+  </style>
+
+</head>
+
+<body>
+
+
+<div class="center">
+    <input id="textbox" type="text" placeholder="" autocomplete="off" autofocus>
+    <label class="ml13">Begin typing</label>
+</div>
+
+
+
+  <script>
+  var textbox = document.getElementById("textbox");
+var hold = 0
+
+window.onclick = function() {
+    document.getElementById("textbox").focus();
+  };
+
+textbox.addEventListener("keyup", function (e) {
+    document.getElementById("textbox").focus();
+    if (e.keyCode === 13) {  //checks whether the pressed key is "Enter"
+        hold = 1
+        validate(e);
+        document.getElementById('textbox').value = ""
+        console.log("Enter")
+    } else if (hold == 0) {
+        document.querySelector('.ml13').innerHTML = document.getElementById('textbox').value;
+    }
+});
+
+
+
+function reset(r) {
+    hold = 0
+}
+
+
+function validate(e) {
+    var text = e.target.value;
+    console.log(text)
+    //textbox.value = '';
+    console.log(document.querySelector('.ml13').innerHTML)
+// Wrap every letter in a span
+var textWrapper = document.querySelector('.ml13');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: false})
+.add({
+    targets: '.ml13 .letter',
+    translateY: [0,-100],
+    opacity: [1,0],
+    easing: "easeInExpo",
+    duration: 1200,
+    delay: (el, i) => 100 + 30 * i
+  });
+  setTimeout(function() { reset(); }, 1200);
+    //validation of the input...
+}
+  </script>
+</body>
+</html>
