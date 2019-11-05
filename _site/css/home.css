@@ -38,28 +38,6 @@ section:nth-of-type(2n) {
 }
 */
 
-.more-btn {
-	cursor: pointer;
-	font-size: 16px;
-	background: rgba(0, 0, 0, 0.05);
-	border-radius: 50px;
-	display: inline-block;
-	position: relative;
-	height: 42px;
-	line-height: 42px;
-	padding: 0px 24px;
-	margin: 0;
-	margin-bottom: 48px;
-	vertical-align: text-top;
-	opacity: 1;
-	transform: scale(.9);
-	transition: 150ms all cubic-bezier(.2, .8, .4, 1);
-}
-
-.more-btn:hover {
-	background: rgba(0, 0, 0, 0.1);
-}
-
 .section-container{
 	max-width: 571px;
 	padding-top: 100px;
