@@ -371,6 +371,12 @@ figure {
         background: rgba(0, 0, 0, 0.1);
     }
 
+    blockquote:before {
+            content: '“';
+            position: absolute;
+            margin-left: -.4em;
+    }
+
   @media screen and (max-width: 735px) {
     .grid-container {
       grid-template-columns: repeat(1, 1fr);
@@ -383,6 +389,11 @@ figure {
     h2{
         font-size: 18px;
         padding-bottom: 20px;
+    }
+
+    blockquote{
+    margin-inline-start: 24px;
+    margin-inline-end: 24px;
     }
 }
 
