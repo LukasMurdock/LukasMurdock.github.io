@@ -9,6 +9,7 @@
   <meta name="author" content="Lukas Murdock">
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <script src="jquery-3.4.1.min.js"></script>
   <style>
   body {
     min-width: 100%;
@@ -123,6 +124,17 @@ anime.timeline({loop: false})
     //validation of the input...
 }
 
+
+$(document).ready(function() {
+     document.ontouchmove = function(e){
+          e.preventDefault();
+          }
+ });
+
+ input.onfocus = function () {
+    window.scrollTo(0, 0);
+    document.body.scrollTop = 0;
+}
   </script>
 </body>
 </html>
