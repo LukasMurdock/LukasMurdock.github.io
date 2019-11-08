@@ -11,6 +11,7 @@
 # UI/UX
 # Movies
 # Music
+# Personal sites
 
 
 fulldata:
@@ -24,8 +25,18 @@ fulldata:
 
     - Title: Google Project Aristotle
       Link: https://rework.withgoogle.com/guides/understanding-team-effectiveness/steps/introduction/
+      Comment: "Online courses, designed for you to grow your career or business."
+      Category: Guides
+
+    - Title: Google Digital Garage
+      Link: https://learndigital.withgoogle.com/digitalgarage
       Comment: "A guide to understanding team effectiveness at Google."
-      Category: Website
+      Category: Guides
+
+    - Title: Almanac
+      Link: https://askalmanac.com/
+      Comment: "Access to tools, templates, and guides from top startup minds."
+      Category: Guides
 
     - Title: A guide to type styles
       Link: https://www.fontsmith.com/blog/2019/06/24/a-guide-to-type-styles
@@ -60,6 +71,11 @@ fulldata:
     - Title: Developer Roadmap
       Link: https://roadmap.sh
       Comment:
+      Category: Guides
+
+    - Title: Guide to HTML <head> elements
+      Link: https://htmlhead.dev/
+      Comment: "A free guide to HTML5 <head> elements"
       Category: Guides
 
     - Title: Visual intro to probability and statistics
@@ -136,6 +152,11 @@ fulldata:
       Comment: ""
       Category: UIUX
 
+    - Title: Design systems
+      Link: https://www.designsystems.com/
+      Comment: "A Figma publication for design systems creators, designers, developers, and managers"
+      Category: UIUX
+
     - Title: Starbucks Creative
       Link: https://creative.starbucks.com
       Comment: ""
@@ -148,6 +169,16 @@ fulldata:
 
     - Title: Web Gradients
       Link: https://webgradients.com
+      Comment: ""
+      Category: UIUX
+
+    - Title: Humaaans
+      Link: https://www.humaaans.com/
+      Comment: "Mix-&-match illustrations of people with a design library"
+      Category: UIUX
+
+    - Title: Free illustrations, for everything
+      Link: https://www.glazestock.com/
       Comment: ""
       Category: UIUX
 
@@ -193,6 +224,10 @@ fulldata:
     - Title: Free tools for devs
       Link: https://free-for.dev/
       Comment: ""
+
+    - Title: Leaderboard for the best new products
+      Link: https://pragli.com/leaderboard-for-product-hunt/
+      Comment: "Product Hunt leaderboard"
       Category: Software
 
     - Title: Google Drive
@@ -229,6 +264,10 @@ fulldata:
       Link: https://relatedwords.org/
       Comment: ""
       Category: Software
+
+    - Title: Wordoid
+      Link: https://wordoid.com
+      Comment: "Creative way to find a catchy name for your new venture."
 
     - Title: Web.dev
       Link: https://web.dev/
@@ -725,3 +764,40 @@ fulldata:
       Link: https://elohimxelohim.com/
       Comment: 
       Category: Music
+
+
+# Personal Sites
+  - Type: Personal sites
+    List:
+    - Title: Humans.fyi
+      Link: https://humans.fyi/
+      Comment: Design inspiration from some of the best humans on the web.
+
+    - Title: Brody Maclean
+      Link: https://brody.com/
+      Comment: ""
+
+    - Title: Tom Macwright
+      Link: macwright.org
+      Comment: "Inspired reading list"
+
+    - Title: Craig Mod
+      Link: https://craigmod.com/
+      Comment: "Inspired around the web"
+
+    - Title: Mario Depicolzuane
+      Link: https://depicolzuane.com/
+      Comment: ""
+
+    - Title: Ryan Johnson
+      Link: https://brentryanjohnson.com/
+      Comment: "Inspired reading list"
+
+    - Title: Brittany Chiang
+      Link: https://brittanychiang.com
+      Comment: "Nice portfolio"
+
+    - Title: Kelly Sutton
+      Link: https://kellysutton.com/
+      Comment: ""
+
