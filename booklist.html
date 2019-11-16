@@ -81,12 +81,18 @@ description: Book list — We can use the internet to explore the places that we
     }
     h1{
       font-size: 44px!important;
-      padding-bottom: 44px;
+      padding-bottom: 20px;
     }
 }
 </style>
 
 <div class="pagebody-content">
+  <div style="text-align: center;">
+    <a style="margin-bottom: 10px; color: #000; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" class="more-btn" href="{{ '/principles' | prepend: site.baseurl }}">View principles</a>
+    <a style="margin-bottom: 10px; color: #000; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" class="more-btn" href="{{ '/resources' | prepend: site.baseurl }}">View resources</a>
+    <a style="margin-bottom: 10px; color: #000; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" class="more-btn" href="{{ '/aroundtheweb' | prepend: site.baseurl }}">View around the web</a>
+  </div>
+
   <div id="grid-container" class="grid-container">
   </div>
 </div>
