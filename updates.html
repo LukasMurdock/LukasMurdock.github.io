@@ -25,6 +25,14 @@ img{
   clear: both;
 }
 
+@media screen and (max-width: 735px) {
+    h1{
+      text-align: center;
+      font-size: 44px!important;
+      padding-bottom: 20px;
+    }
+}
+
 </style>
 <!--
 <div class="pagebody-content">
@@ -56,7 +64,8 @@ img{
 </div>
 </div>
 -->
-<p class= "pagebody-content"><a href="{{ '/booklist' | prepend: site.baseurl }}">View book list</a></p>
+
+
     {% for post in site.posts %}
       {% include post-card.html %}
     {% endfor %}
