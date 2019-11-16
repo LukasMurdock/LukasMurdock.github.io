@@ -25,6 +25,33 @@
 </body>
 <hr>
 
+<div id="bottomnav" class="bottomnav">
+
+  <div class="logo">
+      <a href="/" aria-label="Home"><svg class="icon" width="42px" height="42px" viewBox="0 0 1000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><path d="M523.761,600.435l-0.031,49.829l0,0.003c0,26.496 -10.525,51.906 -29.261,70.641c-18.735,18.736 -44.145,29.261 -70.641,29.261l-0.196,0c-26.496,0 -51.906,-10.525 -70.641,-29.261c-18.736,-18.735 -29.261,-44.145 -29.261,-70.641l0,-0.003c0,-26.496 10.525,-51.906 29.261,-70.641c18.735,-18.736 44.145,-29.261 70.641,-29.261l0.196,0c1.673,0 50.952,0.126 50.952,0.126l0.063,-100.585l-1.291,0c0,0 0,0 0,0c-55.228,0 -100,-44.771 -100,-99.999l0,-0.001l50.001,0c0.096,27.632 22.524,50 50.177,50l1.144,0l0.032,-50.167l0,-0.003c0,-26.496 10.525,-51.906 29.26,-70.641c18.736,-18.736 44.146,-29.261 70.642,-29.261l0.196,0c26.496,0 51.906,10.525 70.641,29.261c18.735,18.735 29.261,44.145 29.261,70.641l0,0.003c0,26.496 -10.526,51.906 -29.261,70.641c-18.735,18.736 -44.145,29.261 -70.641,29.261l-0.196,0c-1.673,0 -50.952,-0.126 -50.952,-0.126l-0.063,100.621c24.513,0.128 60.8,0.302 76.586,0.302c27.653,0 50.081,-22.37 50.177,-50l50,0c0,0 0,0 0,0c0,55.228 -44.771,100 -100,100c0,0 0,0 0,0l-76.795,0Zm-100.031,99.782c13.262,0 25.979,-5.268 35.355,-14.644c9.377,-9.377 14.645,-22.095 14.645,-35.356l0,-49.903l-50.05,0c-13.247,0 -25.952,5.262 -35.32,14.63c-9.367,9.367 -14.63,22.072 -14.63,35.32c0,0.001 0,0.002 0,0.003c0,13.248 5.263,25.953 14.63,35.32c9.368,9.368 22.073,14.63 35.32,14.63l0.05,0Zm101.176,-350.434c0,-13.261 5.268,-25.979 14.645,-35.356c9.376,-9.377 22.094,-14.644 35.355,-14.644l0.05,0c13.247,0 25.952,5.262 35.32,14.63c9.367,9.367 14.63,22.072 14.63,35.32c0,0.001 0,0.002 0,0.003c0,13.248 -5.263,25.953 -14.63,35.32c-9.368,9.368 -22.073,14.63 -35.32,14.63l-50.05,0l0,-49.903Z"/></svg></a>
+  </div>
+  <div class="sandwich" onclick="menuOpen(this)">
+      <div class="bottom-nav">
+          <div class="topbar"></div>
+          <div class="bottombar"></div>
+      </div>
+  </div>
+  <div id="menu" class="menu">
+      <a href="/about" class="bottomnav_link">About</a>
+      <a href="/updates" class="bottomnav_link">Updates</a>
+      <a href="/contact" class="bottomnav_link">Contact</a>
+      <a href="/resources" class="bottomnav_link">Resources</a>
+  </div>
+
+</div>
+
+<script>
+  function menuOpen(x) {
+    document.getElementById("bottomnav").classList.toggle('menu_open');
+    x.classList.toggle("menu_cross");
+  }
+</script>
+
     <h1 class="hero-headline">Helping brands and businesses make bold, strategy-informed decisions.</h1>
 	
 
