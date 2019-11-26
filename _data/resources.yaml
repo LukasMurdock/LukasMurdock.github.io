@@ -436,6 +436,11 @@ fulldata:
       Comment: ""
       Category: Application
 
+    - Title: Httrack
+      Link: https://www.httrack.com/
+      Comment: "Download sites to a local computer."
+      Category: Application
+
 #Chrome Apps
   - Type: Chrome Apps
     List:
