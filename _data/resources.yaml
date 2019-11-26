@@ -68,6 +68,11 @@ fulldata:
       Comment:
       Category: Guides
 
+    - Title: Programming project based learning
+      Link: https://github.com/tuvtran/project-based-learning/blob/master/README.md?utm_source=share&utm_medium=ios_app&utm_name=iossmf#javascript
+      Comment: "A list of programming tutorials in which learners build an application from scratch."
+      Category: Guides
+
     - Title: Developer Roadmap
       Link: https://roadmap.sh
       Comment:
@@ -179,6 +184,11 @@ fulldata:
 
     - Title: Free illustrations, for everything
       Link: https://www.glazestock.com/
+      Comment: ""
+      Category: UIUX
+
+    - Title: Segment
+      Link: https://segment.com/
       Comment: ""
       Category: UIUX
 
@@ -391,6 +401,11 @@ fulldata:
 #Applications
   - Type: Applications
     List:
+    - Title: Ethical.net
+      Link: https://ethical.net/resources/
+      Comment: "Ethical Alternatives & Resources"
+      Category: Application
+
     - Title: VS Code
       Link: https://code.visualstudio.com/
       Comment: ""
