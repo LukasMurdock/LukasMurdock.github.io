@@ -13,811 +13,827 @@
 # Music
 # Personal sites
 
-
 fulldata:
-#Guides
+  #Guides
   - Type: Guides
     List:
-    - Title: Webflow Freelancer Journey
-      Link: https://university.webflow.com/freelancer
-      Comment: ""
-      Category: Guides
+      - Title: Road to Scale
+        Link: https://roadtoscale.com/
+        Comment: "A curated knowledge library for every stage of your startup journey. From idea to scaling up."
+        Category: Guides
 
-    - Title: Google Project Aristotle
-      Link: https://rework.withgoogle.com/guides/understanding-team-effectiveness/steps/introduction/
-      Comment: "Online courses, designed for you to grow your career or business."
-      Category: Guides
+      - Title: Webflow Freelancer Journey
+        Link: https://university.webflow.com/freelancer
+        Comment: ""
+        Category: Guides
 
-    - Title: Google Digital Garage
-      Link: https://learndigital.withgoogle.com/digitalgarage
-      Comment: "A guide to understanding team effectiveness at Google."
-      Category: Guides
+      - Title: Google Project Aristotle
+        Link: https://rework.withgoogle.com/guides/understanding-team-effectiveness/steps/introduction/
+        Comment: "Online courses, designed for you to grow your career or business."
+        Category: Guides
 
-    - Title: Almanac
-      Link: https://askalmanac.com/
-      Comment: "Access to tools, templates, and guides from top startup minds."
-      Category: Guides
+      - Title: Google Digital Garage
+        Link: https://learndigital.withgoogle.com/digitalgarage
+        Comment: "A guide to understanding team effectiveness at Google."
+        Category: Guides
 
-    - Title: A guide to type styles
-      Link: https://www.fontsmith.com/blog/2019/06/24/a-guide-to-type-styles
-      Comment: ""
-      Category: Guides
+      - Title: Almanac
+        Link: https://askalmanac.com/
+        Comment: "Access to tools, templates, and guides from top startup minds."
+        Category: Guides
 
-    - Title: Degreeless Design
-      Link: https://www.degreeless.design/
-      Comment: ""
-      Category: Guides
+      - Title: A guide to type styles
+        Link: https://www.fontsmith.com/blog/2019/06/24/a-guide-to-type-styles
+        Comment: ""
+        Category: Guides
 
-    - Title: AIGA Design Business and Ethics
-      Link: https://www.aiga.org/design-business-and-ethics
-      Comment: ""
-      Category: Guides
+      - Title: Degreeless Design
+        Link: https://www.degreeless.design/
+        Comment: ""
+        Category: Guides
 
-    - Title: Multiple Currency Accounting
-      Link: https://www.mathstat.dal.ca/~selinger/accounting/tutorial.html
-      Comment:
-      Category: Guides
+      - Title: AIGA Design Business and Ethics
+        Link: https://www.aiga.org/design-business-and-ethics
+        Comment: ""
+        Category: Guides
 
-    - Title: Best SEO Tools
-      Link: https://saijogeorge.com/best-marketing-tools/
-      Comment: ""
-      Category: Guides
+      - Title: Multiple Currency Accounting
+        Link: https://www.mathstat.dal.ca/~selinger/accounting/tutorial.html
+        Comment:
+        Category: Guides
 
-    - Title: Wistia Learn
-      Link: https://wistia.com/learn
-      Comment:
-      Category: Guides
+      - Title: Best SEO Tools
+        Link: https://saijogeorge.com/best-marketing-tools/
+        Comment: ""
+        Category: Guides
 
-    - Title: Programming project based learning
-      Link: https://github.com/tuvtran/project-based-learning/blob/master/README.md?utm_source=share&utm_medium=ios_app&utm_name=iossmf#javascript
-      Comment: "A list of programming tutorials in which learners build an application from scratch."
-      Category: Guides
+      - Title: Wistia Learn
+        Link: https://wistia.com/learn
+        Comment:
+        Category: Guides
 
-    - Title: Developer Roadmap
-      Link: https://roadmap.sh
-      Comment:
-      Category: Guides
+      - Title: Programming project based learning
+        Link: https://github.com/tuvtran/project-based-learning/blob/master/README.md?utm_source=share&utm_medium=ios_app&utm_name=iossmf#javascript
+        Comment: "A list of programming tutorials in which learners build an application from scratch."
+        Category: Guides
 
-    - Title: Guide to HTML <head> elements
-      Link: https://htmlhead.dev/
-      Comment: "A free guide to HTML5 <head> elements"
-      Category: Guides
+      - Title: Developer Roadmap
+        Link: https://roadmap.sh
+        Comment:
+        Category: Guides
 
-    - Title: Visual intro to probability and statistics
-      Link: https://seeing-theory.brown.edu
-      Comment:
-      Category: Guides
+      - Title: Guide to HTML <head> elements
+        Link: https://htmlhead.dev/
+        Comment: "A free guide to HTML5 <head> elements"
+        Category: Guides
 
-    - Title: Javascript references
-      Link: https://github.com/mdjsn/references/blob/master/README.md
-      Comment:
-      Category: Guides
+      - Title: Visual intro to probability and statistics
+        Link: https://seeing-theory.brown.edu
+        Comment:
+        Category: Guides
 
-    - Title: Guides for frontend developers
-      Link: https://www.learnstorybook.com/
-      Comment:
-      Category: Guides
+      - Title: Javascript references
+        Link: https://github.com/mdjsn/references/blob/master/README.md
+        Comment:
+        Category: Guides
 
-    - Title: Free resources for Freelancers
-      Link: https://usefyi.com/templates/freelancer-templates/
-      Comment:
-      Category: Guides
+      - Title: Guides for frontend developers
+        Link: https://www.learnstorybook.com/
+        Comment:
+        Category: Guides
 
-    - Title: Typewolf
-      Link: https://www.typewolf.com
-      Comment:
-      Category: Guides
+      - Title: Free resources for Freelancers
+        Link: https://usefyi.com/templates/freelancer-templates/
+        Comment:
+        Category: Guides
 
-    - Title: TheFutur
-      Link: https://www.thefutur.com/
-      Comment:
-      Category: Guides
+      - Title: Project Engineering Lead Expectations
+        Link: https://docs.google.com/document/d/1kngKHUCS0DHNvZAO8PfkcsTD4Mq7b11L09RIaVpQnwI/
+        Comment: "Uber project lead expectations Gergely Orosz team has been using at Uber."
+        Category: Guides
 
-    - Title: Sheets for Marketers
-      Link: https://sheetsformarketers.com/
-      Comment:
-      Category: Guides
+      - Title: Typewolf
+        Link: https://www.typewolf.com
+        Comment:
+        Category: Guides
 
-    - Title: 80000 Hours
-      Link: https://80000hours.org/
-      Comment:
-      Category: Guides
+      - Title: TheFutur
+        Link: https://www.thefutur.com/
+        Comment:
+        Category: Guides
 
-    - Title: Early User Growth
-      Link: https://earlyusergrowth.com/startups/
-      Comment:
-      Category: Guides
+      - Title: "Speaking.io"
+        Link: https://speaking.io/
+        Comment: "Because <i>imagine everyone's naked</i> is terrible advice."
+        Category: Guides.
 
+      - Title: Sheets for Marketers
+        Link: https://sheetsformarketers.com/
+        Comment:
+        Category: Guides
 
-#UIUX
+      - Title: 80000 Hours
+        Link: https://80000hours.org/
+        Comment:
+        Category: Guides
+
+      - Title: Early User Growth
+        Link: https://earlyusergrowth.com/startups/
+        Comment:
+        Category: Guides
+
+  #UIUX
   - Type: UIUX
     List:
-    - Title: Human Interface
-      Link: https://developer.apple.com/design/human-interface-guidelines/
-      Comment: ""
-      Category: UIUX
+      - Title: Human Interface
+        Link: https://developer.apple.com/design/human-interface-guidelines/
+        Comment: ""
+        Category: UIUX
 
-    - Title: Material Design
-      Link: https://material.io/design/
-      Comment: ""
-      Category: UIUX
+      - Title: Material Design
+        Link: https://material.io/design/
+        Comment: ""
+        Category: UIUX
 
-    - Title: Material Design Icons
-      Link: https://materialdesignicons.com
-      Comment: ""
-      Category: UIUX
+      - Title: Material Design Icons
+        Link: https://materialdesignicons.com
+        Comment: ""
+        Category: UIUX
 
-    - Title: User Onboarding
-      Link: https://www.useronboard.com/
-      Comment: ""
-      Category: UIUX
+      - Title: growth.design
+        Link: https://growth.design/
+        Comment: "Learn how to craft experiences so delightful that your customers will be happy to spread the word for you."
+        Category: Guides
 
-    - Title: A collection of design systems
-      Link: https://github.com/alexpate/awesome-design-systems
-      Comment: ""
-      Category: UIUX
+      - Title: User Onboarding
+        Link: https://www.useronboard.com/
+        Comment: ""
+        Category: UIUX
 
-    - Title: Design systems
-      Link: https://www.designsystems.com/
-      Comment: "A Figma publication for design systems creators, designers, developers, and managers"
-      Category: UIUX
+      - Title: A collection of design systems
+        Link: https://github.com/alexpate/awesome-design-systems
+        Comment: ""
+        Category: UIUX
 
-    - Title: Starbucks Creative
-      Link: https://creative.starbucks.com
-      Comment: ""
-      Category: UIUX
+      - Title: Design systems
+        Link: https://www.designsystems.com/
+        Comment: "A Figma publication for design systems creators, designers, developers, and managers"
+        Category: UIUX
 
-    - Title: UX Frameworks
-      Link: https://www.uxframeworks.design
-      Comment:
-      Category: UIUX
+      - Title: Starbucks Creative
+        Link: https://creative.starbucks.com
+        Comment: ""
+        Category: UIUX
 
-    - Title: Web Gradients
-      Link: https://webgradients.com
-      Comment: ""
-      Category: UIUX
+      - Title: UX Frameworks
+        Link: https://www.uxframeworks.design
+        Comment:
+        Category: UIUX
 
-    - Title: Humaaans
-      Link: https://www.humaaans.com/
-      Comment: "Mix-&-match illustrations of people with a design library"
-      Category: UIUX
+      - Title: Web Gradients
+        Link: https://webgradients.com
+        Comment: ""
+        Category: UIUX
 
-    - Title: Free illustrations, for everything
-      Link: https://www.glazestock.com/
-      Comment: ""
-      Category: UIUX
+      - Title: Humaaans
+        Link: https://www.humaaans.com/
+        Comment: "Mix-&-match illustrations of people with a design library"
+        Category: UIUX
 
-    - Title: Segment
-      Link: https://segment.com/
-      Comment: ""
-      Category: UIUX
+      - Title: Free illustrations, for everything
+        Link: https://www.glazestock.com/
+        Comment: ""
+        Category: UIUX
 
-    - Title: Stripe
-      Link: https://stripe.com/
-      Comment: ""
-      Category: UIUX
+      - Title: Can't Unsee
+        Link: https://cantunsee.space/
+        Comment: "Select the design that is most correct"
+        Category: UIUX
 
-    - Title: Privacy
-      Link: https://privacy.com/
-      Comment: ""
-      Category: UIUX
+      - Title: Segment
+        Link: https://segment.com/
+        Comment: ""
+        Category: UIUX
 
-    - Title: My Fitness Pal
-      Link: https://www.myfitnesspal.com/
-      Comment: ""
-      Category: UIUX
-      
-    - Title: Wista
-      Link: https://wistia.com/
-      Comment: ""
-      Category: UIUX
+      - Title: Stripe
+        Link: https://stripe.com/
+        Comment: ""
+        Category: UIUX
 
-    - Title: Slack
-      Link: https://slack.com/
-      Comment: 
-      Category: UIUX
+      - Title: Privacy
+        Link: https://privacy.com/
+        Comment: ""
+        Category: UIUX
 
-    - Title: Maven
-      Link: https://www.mavenclinic.com
-      Comment: ""
-      Category: UIUX
+      - Title: My Fitness Pal
+        Link: https://www.myfitnesspal.com/
+        Comment: ""
+        Category: UIUX
 
+      - Title: Wista
+        Link: https://wistia.com/
+        Comment: ""
+        Category: UIUX
 
- #Software
+      - Title: Slack
+        Link: https://slack.com/
+        Comment:
+        Category: UIUX
+
+      - Title: Maven
+        Link: https://www.mavenclinic.com
+        Comment: ""
+        Category: UIUX
+
+  #Software
   - Type: Software
     List:
-    - Title: Tools for makers
-      Link: https://hoard.fyi/
-      Comment: ""
-      Category: Software
+      - Title: Tools for makers
+        Link: https://hoard.fyi/
+        Comment: ""
+        Category: Software
 
-    - Title: Free tools for devs
-      Link: https://free-for.dev/
-      Comment: ""
+      - Title: Free tools for devs
+        Link: https://free-for.dev/
+        Comment: ""
 
-    - Title: Leaderboard for the best new products
-      Link: https://pragli.com/leaderboard-for-product-hunt/
-      Comment: "Product Hunt leaderboard"
-      Category: Software
+      - Title: Leaderboard for the best new products
+        Link: https://pragli.com/leaderboard-for-product-hunt/
+        Comment: "Product Hunt leaderboard"
+        Category: Software
 
-    - Title: Google Drive
-      Link: https://www.google.com/drive/
-      Comment: ""
-      Category: Software
+      - Title: Google Drive
+        Link: https://www.google.com/drive/
+        Comment: ""
+        Category: Software
 
-    - Title: Webflow
-      Link: https://webflow.com/
-      Comment: ""
-      Category: Software
+      - Title: Webflow
+        Link: https://webflow.com/
+        Comment: ""
+        Category: Software
 
-    - Title: Write With Transformer
-      Link: https://transformer.huggingface.co
-      Comment: ""
-      Category: Software
+      - Title: Write With Transformer
+        Link: https://transformer.huggingface.co
+        Comment: ""
+        Category: Software
 
-    - Title: Hemingway
-      Link: http://www.hemingwayapp.com
-      Comment: ""
-      Category: Software
+      - Title: Hemingway
+        Link: http://www.hemingwayapp.com
+        Comment: ""
+        Category: Software
 
-    - Title: Grammarly
-      Link: https://www.grammarly.com/
-      Comment: ""
-      Category: Software
+      - Title: Grammarly
+        Link: https://www.grammarly.com/
+        Comment: ""
+        Category: Software
 
-    - Title: Formal Founder
-      Link: https://www.formalfounder.com/
-      Comment: ""
-      Category: Software
-      
-    - Title: Related Words
-      Link: https://relatedwords.org/
-      Comment: ""
-      Category: Software
+      - Title: Formal Founder
+        Link: https://www.formalfounder.com/
+        Comment: ""
+        Category: Software
 
-    - Title: Wordoid
-      Link: https://wordoid.com
-      Comment: "Creative way to find a catchy name for your new venture."
+      - Title: Related Words
+        Link: https://relatedwords.org/
+        Comment: ""
+        Category: Software
 
-    - Title: Web.dev
-      Link: https://web.dev/
-      Comment: ""
-      Category: Software
+      - Title: Wordoid
+        Link: https://wordoid.com
+        Comment: "Creative way to find a catchy name for your new venture."
 
-    - Title: Sharpen Design
-      Link: https://sharpen.design/
-      Comment: ""
-      Category: Software
+      - Title: Web.dev
+        Link: https://web.dev/
+        Comment: ""
+        Category: Software
 
-    - Title: IUBenda
-      Link: https://www.iubenda.com/
-      Comment: ""
-      Category: Software
+      - Title: Sharpen Design
+        Link: https://sharpen.design/
+        Comment: ""
+        Category: Software
 
-    - Title: This person does not exist
-      Link: https://thispersondoesnotexist.com/
-      Comment: ""
-      Category: Software
+      - Title: IUBenda
+        Link: https://www.iubenda.com/
+        Comment: ""
+        Category: Software
 
-    - Title: Similar Web
-      Link: https://similarweb.com/
-      Comment: ""
-      Category: Software
+      - Title: This person does not exist
+        Link: https://thispersondoesnotexist.com/
+        Comment: ""
+        Category: Software
 
-    - Title: Built With
-      Link: https://builtwith.com/
-      Comment: ""
-      Category: Software
+      - Title: Similar Web
+        Link: https://similarweb.com/
+        Comment: ""
+        Category: Software
 
+      - Title: Built With
+        Link: https://builtwith.com/
+        Comment: ""
+        Category: Software
 
-#Newsletters
+  #Newsletters
   - Type: Newsletter
     List:
-    - Title: Seth Godin
-      Link: https://seths.blog/
-      Comment: 
-      Category: Newsletter
+      - Title: Seth Godin
+        Link: https://seths.blog/
+        Comment:
+        Category: Newsletter
 
-    - Title: Taco from Trello
-      Link: https://blog.trello.com/
-      Comment: 
-      Category: Newsletter
+      - Title: Taco from Trello
+        Link: https://blog.trello.com/
+        Comment:
+        Category: Newsletter
 
-    - Title: Farnam Street
-      Link: https://fs.blog/
-      Comment: 
-      Category: Newsletter
+      - Title: Farnam Street
+        Link: https://fs.blog/
+        Comment:
+        Category: Newsletter
 
-    - Title: Hacker News
-      Link: https://hackernewsletter.com/
-      Comment: 
-      Category: Newsletter
+      - Title: Hacker News
+        Link: https://hackernewsletter.com/
+        Comment:
+        Category: Newsletter
 
-    - Title: SSRN
-      Link: https://www.ssrn.com
-      Comment: 
-      Category: Newsletter
+      - Title: SSRN
+        Link: https://www.ssrn.com
+        Comment:
+        Category: Newsletter
 
-    - Title: Product Hunt
-      Link: https://www.producthunt.com
-      Comment: 
-      Category: Newsletter
+      - Title: Product Hunt
+        Link: https://www.producthunt.com
+        Comment:
+        Category: Newsletter
 
-    - Title: AJ & Smart
-      Link: https://ajsmart.com/
-      Comment: 
-      Category: Newsletter
+      - Title: AJ & Smart
+        Link: https://ajsmart.com/
+        Comment:
+        Category: Newsletter
 
-    - Title: Industry Dive
-      Link: https://www.industrydive.com/
-      Comment: 
-      Category: Newsletter
+      - Title: Industry Dive
+        Link: https://www.industrydive.com/
+        Comment:
+        Category: Newsletter
 
-    - Title: Google Trends
-      Link: https://trends.google.com/trends/
-      Comment: 
-      Category: Newsletter
+      - Title: Google Trends
+        Link: https://trends.google.com/trends/
+        Comment:
+        Category: Newsletter
 
-    - Title: TorrentFreak
-      Link: https://torrentfreak.com/
-      Comment: 
-      Category: Newsletter
+      - Title: TorrentFreak
+        Link: https://torrentfreak.com/
+        Comment:
+        Category: Newsletter
 
-    - Title: Inside Design by Invision
-      Link: https://www.invisionapp.com/inside-design/
-      Comment: 
-      Category: Newsletter
+      - Title: Inside Design by Invision
+        Link: https://www.invisionapp.com/inside-design/
+        Comment:
+        Category: Newsletter
 
-    - Title: Drop (formerly Massdrop)
-      Link: https://drop.com/
-      Comment: 
-      Category: Newsletter
+      - Title: Drop (formerly Massdrop)
+        Link: https://drop.com/
+        Comment:
+        Category: Newsletter
 
-    - Title: ReallyGoodEmails
-      Link: https://reallygoodemails.com/
-      Comment: 
-      Category: Newsletter
+      - Title: ReallyGoodEmails
+        Link: https://reallygoodemails.com/
+        Comment:
+        Category: Newsletter
 
-    - Title: Effectivology
-      Link: https://effectiviology.com/
-      Comment: 
-      Category: Newsletter
+      - Title: Effectivology
+        Link: https://effectiviology.com/
+        Comment:
+        Category: Newsletter
 
-    - Title: James Clear
-      Link: https://jamesclear.com
-      Comment: 
-      Category: Newsletter
+      - Title: James Clear
+        Link: https://jamesclear.com
+        Comment:
+        Category: Newsletter
 
-    - Title: Demand progress
-      Link: https://demandprogress.org
-      Comment: 
-      Category: Newsletter
+      - Title: Demand progress
+        Link: https://demandprogress.org
+        Comment:
+        Category: Newsletter
 
-    - Title: Awesome developer newsletters
-      Link: https://github.com/zudochkin/awesome-newsletters/blob/master/README.md
-      Comment: 
-      Category: Newsletter
+      - Title: Awesome developer newsletters
+        Link: https://github.com/zudochkin/awesome-newsletters/blob/master/README.md
+        Comment:
+        Category: Newsletter
 
-#Applications
+  #Applications
   - Type: Applications
     List:
-    - Title: Ethical.net
-      Link: https://ethical.net/resources/
-      Comment: "Ethical Alternatives & Resources"
-      Category: Application
+      - Title: Ethical.net
+        Link: https://ethical.net/resources/
+        Comment: "Ethical Alternatives & Resources"
+        Category: Application
 
-    - Title: VS Code
-      Link: https://code.visualstudio.com/
-      Comment: ""
-      Category: Application
+      - Title: VS Code
+        Link: https://code.visualstudio.com/
+        Comment: ""
+        Category: Application
 
-    - Title: Affinity Designer
-      Link: https://affinity.serif.com/en-us/designer/
-      Comment: ""
-      Category: Application
+      - Title: Affinity Designer
+        Link: https://affinity.serif.com/en-us/designer/
+        Comment: ""
+        Category: Application
 
-    - Title: Affinity Photo
-      Link: https://affinity.serif.com/en-us/photo/
-      Comment: ""
-      Category: Application
+      - Title: Affinity Photo
+        Link: https://affinity.serif.com/en-us/photo/
+        Comment: ""
+        Category: Application
 
-    - Title: Affinity Publisher
-      Link: https://affinity.serif.com/en-us/publisher/
-      Comment: ""
-      Category: Application
+      - Title: Affinity Publisher
+        Link: https://affinity.serif.com/en-us/publisher/
+        Comment: ""
+        Category: Application
 
-    - Title: Adobe Illustrator
-      Link: https://www.adobe.com/products/illustrator.html
-      Comment: ""
-      Category: Application
+      - Title: Adobe Illustrator
+        Link: https://www.adobe.com/products/illustrator.html
+        Comment: ""
+        Category: Application
 
-    - Title: Adobe After Effects
-      Link: https://www.adobe.com/products/aftereffects.html
-      Comment: ""
-      Category: Application
-      
-    - Title: Adobe Premiere Pro
-      Link: https://www.adobe.com/products/premiere.html
-      Comment: ""
-      Category: Application
+      - Title: Adobe After Effects
+        Link: https://www.adobe.com/products/aftereffects.html
+        Comment: ""
+        Category: Application
 
-    - Title: Final Cut Pro X
-      Link: https://www.apple.com/final-cut-pro/
-      Comment: ""
-      Category: Application
+      - Title: Adobe Premiere Pro
+        Link: https://www.adobe.com/products/premiere.html
+        Comment: ""
+        Category: Application
 
-    - Title: Motion 5
-      Link: https://www.apple.com/final-cut-pro/motion/
-      Comment: ""
-      Category: Application
+      - Title: Final Cut Pro X
+        Link: https://www.apple.com/final-cut-pro/
+        Comment: ""
+        Category: Application
 
-    - Title: Httrack
-      Link: https://www.httrack.com/
-      Comment: "Download sites to a local computer."
-      Category: Application
+      - Title: Motion 5
+        Link: https://www.apple.com/final-cut-pro/motion/
+        Comment: ""
+        Category: Application
 
-#Chrome Apps
+      - Title: Httrack
+        Link: https://www.httrack.com/
+        Comment: "Download sites to a local computer."
+        Category: Application
+
+  #Chrome Apps
   - Type: Chrome Apps
     List:
-    - Title: 77X
-      Link: https://chrome.google.com/webstore/detail/77x/lgnkmlgloomjfbmdenogdehhphnhaihb?hl=en
-      Comment: ""
-      Category: Chrome add-ons
+      - Title: 77X
+        Link: https://chrome.google.com/webstore/detail/77x/lgnkmlgloomjfbmdenogdehhphnhaihb?hl=en
+        Comment: ""
+        Category: Chrome add-ons
 
-    - Title: BuiltWith
-      Link: https://chrome.google.com/webstore/detail/builtwith-technology-prof/dapjbgnjinbpoindlpdmhochffioedbn?hl=en
-      Comment: ""
-      Category: Chrome add-ons
+      - Title: BuiltWith
+        Link: https://chrome.google.com/webstore/detail/builtwith-technology-prof/dapjbgnjinbpoindlpdmhochffioedbn?hl=en
+        Comment: ""
+        Category: Chrome add-ons
 
-    - Title: SVG Grabber
-      Link: https://chrome.google.com/webstore/detail/svg-grabber-get-all-the-s/ndakggdliegnegeclmfgodmgemdokdmg?hl=en
-      Comment: ""
-      Category: Chrome add-ons
+      - Title: SVG Grabber
+        Link: https://chrome.google.com/webstore/detail/svg-grabber-get-all-the-s/ndakggdliegnegeclmfgodmgemdokdmg?hl=en
+        Comment: ""
+        Category: Chrome add-ons
 
-    - Title: AdBlock
-      Link: https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom?hl=en
-      Comment: ""
-      Category: Chrome add-ons
+      - Title: AdBlock
+        Link: https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom?hl=en
+        Comment: ""
+        Category: Chrome add-ons
 
-    - Title: Grammarly
-      Link: https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen?hl=en
-      Comment: ""
-      Category: Chrome add-ons
+      - Title: Grammarly
+        Link: https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen?hl=en
+        Comment: ""
+        Category: Chrome add-ons
 
-    - Title: The Great Suspender
-      Link: https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg?hl=en
-      Comment: ""
-      Category: Chrome add-ons
+      - Title: The Great Suspender
+        Link: https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg?hl=en
+        Comment: ""
+        Category: Chrome add-ons
 
-    - Title: CSS Peeper
-      Link: https://chrome.google.com/webstore/detail/css-peeper/mbnbehikldjhnfehhnaidhjhoofhpehk?hl=en
-      Comment: ""
-      Category: Chrome add-ons
+      - Title: CSS Peeper
+        Link: https://chrome.google.com/webstore/detail/css-peeper/mbnbehikldjhnfehhnaidhjhoofhpehk?hl=en
+        Comment: ""
+        Category: Chrome add-ons
 
-    - Title: Fontface Ninja
-      Link: https://chrome.google.com/webstore/detail/fontface-ninja/eljapbgkmlngdpckoiiibecpemleclhh?hl=en
-      Comment: ""
-      Category: Chrome add-ons
+      - Title: Fontface Ninja
+        Link: https://chrome.google.com/webstore/detail/fontface-ninja/eljapbgkmlngdpckoiiibecpemleclhh?hl=en
+        Comment: ""
+        Category: Chrome add-ons
 
-    - Title: Bullshit js
-      Link: https://mourner.github.io/bullshit.js/
-      Comment: ""
-      Category: Chrome add-ons
+      - Title: Bullshit js
+        Link: https://mourner.github.io/bullshit.js/
+        Comment: ""
+        Category: Chrome add-ons
 
-
-#Website
+  #Website
   - Type: Website
     List:
-    - Title: Political advertising transparency
-      Link: https://transparencyreport.google.com/political-ads/home
-      Comment: ""
-      Category: Website
+      - Title: Political advertising transparency
+        Link: https://transparencyreport.google.com/political-ads/home
+        Comment: ""
+        Category: Website
 
-    - Title: Project Gutenburg
-      Link: https://www.gutenberg.org/
-      Comment: ""
-      Category: Website
-      
-    - Title: Standard Ebooks
-      Link: https://standardebooks.org/
-      Comment: ""
-      Category: Website
+      - Title: Project Gutenburg
+        Link: https://www.gutenberg.org/
+        Comment: ""
+        Category: Website
 
-    - Title: MF Website
-      Link: http://motherfuckingwebsite.com/
-      Comment: ""
-      Category: Website
+      - Title: Standard Ebooks
+        Link: https://standardebooks.org/
+        Comment: ""
+        Category: Website
 
-    - Title: Better MF Website
-      Link: http://bettermotherfuckingwebsite.com/
-      Comment: ""
-      Category: Website
+      - Title: "*privacy not included"
+        Link: https://foundation.mozilla.org/en/privacynotincluded/
+        Comment: "Guide to help you shop for safe, secure connected products."
+        Category: Website
 
-    - Title: Best MF Website
-      Link: https://bestmotherfucking.website/
-      Comment: ""
-      Category: Website
+      - Title: MF Website
+        Link: http://motherfuckingwebsite.com/
+        Comment: ""
+        Category: Website
 
-    - Title: The Best MF Website
-      Link: https://thebestmotherfucking.website/
-      Comment: ""
-      Category: Website
-      
+      - Title: Better MF Website
+        Link: http://bettermotherfuckingwebsite.com/
+        Comment: ""
+        Category: Website
 
+      - Title: Best MF Website
+        Link: https://bestmotherfucking.website/
+        Comment: ""
+        Category: Website
 
+      - Title: The Best MF Website
+        Link: https://thebestmotherfucking.website/
+        Comment: ""
+        Category: Website
 
-#Podcast
+  #Podcast
   - Type: Podcast
     List:
-    - Title: Revisionist History
-      Link: http://revisionisthistory.com/
-      Comment: 
-      Category: Podcast
+      - Title: Revisionist History
+        Link: http://revisionisthistory.com/
+        Comment:
+        Category: Podcast
 
-    - Title: 99% Invisible
-      Link: https://99percentinvisible.org/
-      Comment: 
-      Category: Podcast
+      - Title: 99% Invisible
+        Link: https://99percentinvisible.org/
+        Comment:
+        Category: Podcast
 
-    - Title: Akimbo
-      Link: https://www.akimbo.me/
-      Comment: 
-      Category: Podcast
+      - Title: Akimbo
+        Link: https://www.akimbo.me/
+        Comment:
+        Category: Podcast
 
-    - Title: How I Built This
-      Link: https://www.npr.org/podcasts/510313/how-i-built-this
-      Comment: 
-      Category: Podcast
+      - Title: How I Built This
+        Link: https://www.npr.org/podcasts/510313/how-i-built-this
+        Comment:
+        Category: Podcast
 
-    - Title: Story Break
-      Link: https://www.maximumfun.org/shows/story-break
-      Comment: 
-      Category: Podcast
+      - Title: Story Break
+        Link: https://www.maximumfun.org/shows/story-break
+        Comment:
+        Category: Podcast
 
-
-#Books
+  #Books
   - Type: Books
     List:
-    - Title: Designing Design
-      Link: https://www.lars-mueller-publishers.com/designing-design
-      Comment: 
-      Category: Book
+      - Title: Designing Design
+        Link: https://www.lars-mueller-publishers.com/designing-design
+        Comment:
+        Category: Book
 
-    - Title: This is Marketing
-      Link: https://800ceoread.com/products/this-is-marketing-seth-godin-english?selected=814184
-      Comment: 
-      Category: Book
+      - Title: This is Marketing
+        Link: https://800ceoread.com/products/this-is-marketing-seth-godin-english?selected=814184
+        Comment:
+        Category: Book
 
-    - Title: The Design of Everyday Things
-      Link: https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654/ref=pd_lpo_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=Y3FV89Z21CH2WRPYGZVW
-      Comment: 
-      Category: Book
+      - Title: The Design of Everyday Things
+        Link: https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654/ref=pd_lpo_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=Y3FV89Z21CH2WRPYGZVW
+        Comment:
+        Category: Book
 
-    - Title: New Thinking
-      Link: https://www.amazon.com/Cold-Fusion-Presents-Intelligence-Transformed/dp/1633537501/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=&sr=
-      Comment: 
-      Category: Book
+      - Title: New Thinking
+        Link: https://www.amazon.com/Cold-Fusion-Presents-Intelligence-Transformed/dp/1633537501/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=&sr=
+        Comment:
+        Category: Book
 
-    - Title: Ultralearning
-      Link: https://www.scotthyoung.com/blog/ultralearning/
-      Comment: 
-      Category: Book
+      - Title: Ultralearning
+        Link: https://www.scotthyoung.com/blog/ultralearning/
+        Comment:
+        Category: Book
 
-    - Title: Sapiens
-      Link: https://www.amazon.com/Sapiens-Humankind-Yuval-Noah-Harari/dp/0062316095
-      Comment: 
-      Category: Book
+      - Title: Sapiens
+        Link: https://www.amazon.com/Sapiens-Humankind-Yuval-Noah-Harari/dp/0062316095
+        Comment:
+        Category: Book
 
-    - Title: When Breath Becomes Air
-      Link: https://www.amazon.com/When-Breath-Becomes-Paul-Kalanithi/dp/081298840X
-      Comment: 
-      Category: Book
+      - Title: When Breath Becomes Air
+        Link: https://www.amazon.com/When-Breath-Becomes-Paul-Kalanithi/dp/081298840X
+        Comment:
+        Category: Book
 
-    - Title: Brave New World
-      Link: https://www.amazon.com/Brave-New-World-Aldous-Huxley/dp/0060850523
-      Comment: 
-      Category: Book
+      - Title: Brave New World
+        Link: https://www.amazon.com/Brave-New-World-Aldous-Huxley/dp/0060850523
+        Comment:
+        Category: Book
 
-    - Title: The E-Myth Revisited
-      Link: https://www.amazon.com/Myth-Revisited-Small-Businesses-About-ebook/dp/B000RO9VJK
-      Comment: 
-      Category: Book
+      - Title: The E-Myth Revisited
+        Link: https://www.amazon.com/Myth-Revisited-Small-Businesses-About-ebook/dp/B000RO9VJK
+        Comment:
+        Category: Book
 
-    - Title: Stop Stealing Sheep & find out how type works
-      Link: https://www.amazon.com/Stealing-Graphic-Design-Communication-Courses/dp/0321934288/ref=dp_ob_title_bk
-      Comment: 
-      Category: Book
+      - Title: Stop Stealing Sheep & find out how type works
+        Link: https://www.amazon.com/Stealing-Graphic-Design-Communication-Courses/dp/0321934288/ref=dp_ob_title_bk
+        Comment:
+        Category: Book
 
-    - Title: Value Design Proposition
-      Link: https://www.amazon.com/Value-Proposition-Design-Customers-Strategyzer-ebook/dp/B00MI47IL0
-      Comment: 
-      Category: Book
+      - Title: Value Design Proposition
+        Link: https://www.amazon.com/Value-Proposition-Design-Customers-Strategyzer-ebook/dp/B00MI47IL0
+        Comment:
+        Category: Book
 
-    - Title: The Decision Book
-      Link: https://www.amazon.com/Decision-Book-Models-Strategic-Thinking/dp/0393079619
-      Comment: 
-      Category: Book
+      - Title: The Decision Book
+        Link: https://www.amazon.com/Decision-Book-Models-Strategic-Thinking/dp/0393079619
+        Comment:
+        Category: Book
 
-    - Title: Designing Brand Identity
-      Link: https://www.amazon.com/Designing-Brand-Identity-Essential-Branding/dp/1118099206
-      Comment: 
-      Category: Book
+      - Title: Designing Brand Identity
+        Link: https://www.amazon.com/Designing-Brand-Identity-Essential-Branding/dp/1118099206
+        Comment:
+        Category: Book
 
-    - Title: Identity Designed
-      Link: https://identitydesigned.com/book/
-      Comment: 
-      Category: Book
+      - Title: Identity Designed
+        Link: https://identitydesigned.com/book/
+        Comment:
+        Category: Book
 
-    - Title: Logo Design Love
-      Link: https://www.logodesignlove.com/book
-      Comment: 
-      Category: Book
+      - Title: Logo Design Love
+        Link: https://www.logodesignlove.com/book
+        Comment:
+        Category: Book
 
-    - Title: Tribes
-      Link: https://www.amazon.com/Tribes-Seth-Godin/dp/0749939753/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=
-      Comment: 
-      Category: Book
+      - Title: Tribes
+        Link: https://www.amazon.com/Tribes-Seth-Godin/dp/0749939753/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=
+        Comment:
+        Category: Book
 
-    - Title: The Brand Gap
-      Link: https://www.amazon.com/Brand-Gap-Distance-Business-Strategy/dp/0321348109/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=
-      Comment: 
-      Category: Book
+      - Title: The Brand Gap
+        Link: https://www.amazon.com/Brand-Gap-Distance-Business-Strategy/dp/0321348109/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=
+        Comment:
+        Category: Book
 
-    - Title: The Win Without Pitching Manifesto
-      Link: https://www.amazon.com/Win-Without-Pitching-Manifesto/dp/1999523504/ref=dp_ob_title_bk
-      Comment: 
-      Category: Book
+      - Title: The Win Without Pitching Manifesto
+        Link: https://www.amazon.com/Win-Without-Pitching-Manifesto/dp/1999523504/ref=dp_ob_title_bk
+        Comment:
+        Category: Book
 
-    - Title: Surely You’re Joking Mr Feynman
-      Link: https://www.amazon.com/Surely-Youre-Joking-Mr-Feynman-ebook/dp/B003V1WXKU
-      Comment: 
-      Category: Book
+      - Title: Surely You’re Joking Mr Feynman
+        Link: https://www.amazon.com/Surely-Youre-Joking-Mr-Feynman-ebook/dp/B003V1WXKU
+        Comment:
+        Category: Book
 
-    - Title: Atomic Habits
-      Link: https://jamesclear.com/atomic-habits
-      Comment: 
-      Category: Book
+      - Title: Atomic Habits
+        Link: https://jamesclear.com/atomic-habits
+        Comment:
+        Category: Book
 
-
-#Youtube
+  #Youtube
   - Type: Youtube
     List:
-    - Title: The Futur
-      Link: https://www.youtube.com/channel/UC-b3c7kxa5vU-bnmaROgvog
-      Comment: 
-      Category: Youtube
+      - Title: The Futur
+        Link: https://www.youtube.com/channel/UC-b3c7kxa5vU-bnmaROgvog
+        Comment:
+        Category: Youtube
 
-    - Title: Kurzgesagt
-      Link: https://www.youtube.com/channel/UCsXVk37bltHxD1rDPwtNM8Q
-      Comment: 
-      Category: Youtube
+      - Title: Kurzgesagt
+        Link: https://www.youtube.com/channel/UCsXVk37bltHxD1rDPwtNM8Q
+        Comment:
+        Category: Youtube
 
-    - Title: Polymatter
-      Link: https://www.youtube.com/channel/UCgNg3vwj3xt7QOrcIDaHdFg
-      Comment: 
-      Category: Youtube
+      - Title: Polymatter
+        Link: https://www.youtube.com/channel/UCgNg3vwj3xt7QOrcIDaHdFg
+        Comment:
+        Category: Youtube
 
-    - Title: Linus Tech Tips
-      Link: https://www.youtube.com/user/LinusTechTips
-      Comment: 
-      Category: Youtube
+      - Title: Linus Tech Tips
+        Link: https://www.youtube.com/user/LinusTechTips
+        Comment:
+        Category: Youtube
 
-    - Title: Marques Brownlee
-      Link: https://www.youtube.com/user/marquesbrownlee
-      Comment: 
-      Category: Youtube
+      - Title: Marques Brownlee
+        Link: https://www.youtube.com/user/marquesbrownlee
+        Comment:
+        Category: Youtube
 
-    - Title: Corridor Crew
-      Link: https://www.youtube.com/channel/UCSpFnDQr88xCZ80N-X7t0nQ
-      Comment: 
-      Category: Youtube
+      - Title: Corridor Crew
+        Link: https://www.youtube.com/channel/UCSpFnDQr88xCZ80N-X7t0nQ
+        Comment:
+        Category: Youtube
 
-    - Title: Academy of Ideas
-      Link: https://www.youtube.com/user/academyofideas
-      Comment: 
-      Category: Youtube
-      
-    - Title: Smarter Every Day
-      Link: https://www.youtube.com/channel/UC6107grRI4m0o2-emgoDnAA
-      Comment: 
-      Category: Youtube
+      - Title: Academy of Ideas
+        Link: https://www.youtube.com/user/academyofideas
+        Comment:
+        Category: Youtube
 
-    - Title: Google Chrome Developers
-      Link: https://www.youtube.com/channel/UCnUYZLuoy1rq1aVMwx4aTzw
-      Comment: 
-      Category: Youtube
+      - Title: Smarter Every Day
+        Link: https://www.youtube.com/channel/UC6107grRI4m0o2-emgoDnAA
+        Comment:
+        Category: Youtube
 
-    - Title: ColdFusion
-      Link: https://www.youtube.com/channel/UC4QZ_LsYcvcq7qOsOhpAX4A
-      Comment: 
-      Category: Youtube
+      - Title: Google Chrome Developers
+        Link: https://www.youtube.com/channel/UCnUYZLuoy1rq1aVMwx4aTzw
+        Comment:
+        Category: Youtube
 
-    - Title: The Coding Train
-      Link: https://youtube.com/user/shiffman/videos
-      Comment: 
-      Category: Youtube
+      - Title: ColdFusion
+        Link: https://www.youtube.com/channel/UC4QZ_LsYcvcq7qOsOhpAX4A
+        Comment:
+        Category: Youtube
 
-    - Title: FStoppers
-      Link: https://www.youtube.com/channel/UCnvgtzmvlb6d58d9BbOKuMA
-      Comment: 
-      Category: Youtube
+      - Title: The Coding Train
+        Link: https://youtube.com/user/shiffman/videos
+        Comment:
+        Category: Youtube
 
+      - Title: FStoppers
+        Link: https://www.youtube.com/channel/UCnvgtzmvlb6d58d9BbOKuMA
+        Comment:
+        Category: Youtube
 
-#Movies
+  #Movies
   - Type: Movies
     List:
-    - Title: Rams
-      Link: https://www.hustwit.com/rams
-      Comment: 
-      Category: Movie
-      
-    - Title: Helvetica
-      Link: https://www.hustwit.com/helvetica
-      Comment: 
-      Category: Movie
+      - Title: Rams
+        Link: https://www.hustwit.com/rams
+        Comment:
+        Category: Movie
 
-    - Title: Plastic China
-      Link: https://www.plasticchina.org/
-      Comment: 
-      Category: Movie
+      - Title: Helvetica
+        Link: https://www.hustwit.com/helvetica
+        Comment:
+        Category: Movie
 
-    - Title: Tron
-      Link: https://movies.disney.com/tron
-      Comment: 
-      Category: Movie
+      - Title: Plastic China
+        Link: https://www.plasticchina.org/
+        Comment:
+        Category: Movie
 
+      - Title: Tron
+        Link: https://movies.disney.com/tron
+        Comment:
+        Category: Movie
 
-#Music
+  #Music
   - Type: Music
     List:
-    - Title: Jon Bellion
-      Link: http://www.jonbellion.com/
-      Comment: 
-      Category: Music
+      - Title: Jon Bellion
+        Link: http://www.jonbellion.com/
+        Comment:
+        Category: Music
 
-    - Title: Eden
-      Link: http://iameden.eu/
-      Comment: 
-      Category: Music
+      - Title: Eden
+        Link: http://iameden.eu/
+        Comment:
+        Category: Music
 
-    - Title: Elohim
-      Link: https://elohimxelohim.com/
-      Comment: 
-      Category: Music
+      - Title: Elohim
+        Link: https://elohimxelohim.com/
+        Comment:
+        Category: Music
 
-
-# Personal Sites
+  # Personal Sites
   - Type: Personal sites
     List:
-    - Title: Humans.fyi
-      Link: https://humans.fyi/
-      Comment: Design inspiration from some of the best humans on the web.
+      - Title: Humans.fyi
+        Link: https://humans.fyi/
+        Comment: Design inspiration from some of the best humans on the web.
 
-    - Title: Brody Maclean
-      Link: https://brody.com/
-      Comment: ""
+      - Title: Brody Maclean
+        Link: https://brody.com/
+        Comment: ""
 
-    - Title: Tom Macwright
-      Link: macwright.org
-      Comment: "Inspired reading list"
+      - Title: Tom Macwright
+        Link: macwright.org
+        Comment: "Inspired reading list"
 
-    - Title: Craig Mod
-      Link: https://craigmod.com/
-      Comment: "Inspired around the web"
+      - Title: Craig Mod
+        Link: https://craigmod.com/
+        Comment: "Inspired around the web"
 
-    - Title: Mario Depicolzuane
-      Link: https://depicolzuane.com/
-      Comment: ""
+      - Title: Mario Depicolzuane
+        Link: https://depicolzuane.com/
+        Comment: ""
 
-    - Title: Ryan Johnson
-      Link: https://brentryanjohnson.com/
-      Comment: "Inspired reading list"
+      - Title: Ryan Johnson
+        Link: https://brentryanjohnson.com/
+        Comment: "Inspired reading list"
 
-    - Title: Brittany Chiang
-      Link: https://brittanychiang.com
-      Comment: "Nice portfolio"
+      - Title: Brittany Chiang
+        Link: https://brittanychiang.com
+        Comment: "Nice portfolio"
 
-    - Title: Kelly Sutton
-      Link: https://kellysutton.com/
-      Comment: ""
-
+      - Title: Kelly Sutton
+        Link: https://kellysutton.com/
+        Comment: ""
