@@ -17,15 +17,30 @@ fulldata:
   #Guides
   - Type: Guides
     List:
+
+      - Title: High Performance Computing Systems
+        Link: https://safari.ethz.ch/courses/
+        Comment: "Research computer architecture, systems, security, and bioinformatics."
+
+      - Title: Elements of AI
+        Link: https://course.elementsofai.com/
+        Comment: "Demystify AI with this free online course."
+
+      - Title: Paul Graham Infographics
+        Link: https://blog.adioma.com/tag/paul-graham/
+        Comment: "Paul Graham's Essays Visualized as Infographic Series."
+
+      - Title: Calm tech
+        Link: https://calmtech.com/
+        Comment: "Principles of Calm Technology."
+
       - Title: Road to Scale
         Link: https://roadtoscale.com/
         Comment: "A curated knowledge library for every stage of your startup journey. From idea to scaling up."
-        Category: Guides
 
       - Title: Webflow Freelancer Journey
         Link: https://university.webflow.com/freelancer
         Comment: ""
-        Category: Guides
 
       - Title: Google Project Aristotle
         Link: https://rework.withgoogle.com/guides/understanding-team-effectiveness/steps/introduction/
@@ -148,37 +163,38 @@ fulldata:
       - Title: Human Interface
         Link: https://developer.apple.com/design/human-interface-guidelines/
         Comment: ""
-        Category: UIUX
 
       - Title: Material Design
         Link: https://material.io/design/
         Comment: ""
-        Category: UIUX
 
       - Title: Material Design Icons
         Link: https://materialdesignicons.com
         Comment: ""
-        Category: UIUX
 
       - Title: Color by Cloudflare Design
         Link: https://cloudflare.design/color
-        Comment: "Generate accessible color combinations"
-        Category: UIUX
+        Comment: "Generate accessible color combinations."
         
       - Title: Color & Contrast Picker
         Link: https://kevingutowski.github.io/color.html
-        Comment: "View closest accessible colors"
-        Category: UIUX
+        Comment: "View closest accessible colors."
 
       - Title: Accessible Color Matrix
         Link: https://jxnblk.github.io/colorable/demos/matrix/
-        Comment: "See accessiblity of color palette"
-        Category: UIUX
+        Comment: "See accessiblity of color palette."
+
+      - Title: Colors and Fonts
+        Link: https://www.colorsandfonts.com/
+        Comment: "Curated library of colors, fonts, and resources for Web Developers & Digital Designers."
+
+      - Title: Checklist Design
+        Link: https://www.checklist.design/
+        Comment: "A collection of the best UX and UI practices."
 
       - Title: growth.design
         Link: https://growth.design/
         Comment: "Learn how to craft experiences so delightful that your customers will be happy to spread the word for you."
-        Category: Guides
 
       - Title: User Onboarding
         Link: https://www.useronboard.com/
@@ -263,10 +279,22 @@ fulldata:
   #Software
   - Type: Software
     List:
+
+      - Title: Code Sandbox
+        Link: https://codesandbox.io/
+        Comment: "An instant IDE and prototyping tool for rapid web development."
+
+      - Title: Exploding Topics
+        Link: https://explodingtopics.com/
+        Comment: "Discover rapidly growing topics before they take off."
+
+      - Title: Top Trend Books
+        Link: https://toptrendbooks.com/
+        Comment: "Data-driven book recommendation site where trends are collected and aggregated from over 100,000 Reddit posts and comments."
+
       - Title: Tools for makers
         Link: https://hoard.fyi/
         Comment: ""
-        Category: Software
 
       - Title: Free tools for devs
         Link: https://free-for.dev/
@@ -825,8 +853,20 @@ fulldata:
         Link: https://humans.fyi/
         Comment: Design inspiration from some of the best humans on the web.
 
+      - Title: Adam Silver
+        Link: https://adamsilver.io/
+        Comment: ""
+
+      - Title: Ari Stathopoulos
+        Link: https://aristath.github.io/
+        Comment: ""
+
       - Title: Brody Maclean
         Link: https://brody.com/
+        Comment: ""
+
+      - Title: Marko Saric
+        Link: https://markosaric.com/
         Comment: ""
 
       - Title: Tom Macwright

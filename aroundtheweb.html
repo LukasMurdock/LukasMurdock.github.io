@@ -5,40 +5,52 @@ description: Links from around the web — We can use the internet to explore th
 ---
 
 <style>
-  a:hover{
-    color: #0070c9!important;
+  a:hover {
+    color: #0070c9 !important;
+  }
+
+  h1{
+    text-align: center;
   }
 
   @media screen and (max-width: 735px) {
-    h1{
-      font-size: 44px!important;
+    h1 {
+      font-size: 44px !important;
       padding-bottom: 20px;
     }
   }
-
 </style>
+
+<p style="margin-top:0; text-align:center;">Links I really don't want to forget.</p>
+
 <div class="pagebody-content">
-    <div style="text-align: center;">
-      <a style="margin-bottom: 10px; color: #000; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" class="more-btn" href="{{ '/principles' | prepend: site.baseurl }}">View principles</a>
-      <a style="margin-bottom: 10px; color: #000; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" class="more-btn" href="{{ '/booklist' | prepend: site.baseurl }}">View booklist</a>
-      <a style="margin-bottom: 10px; color: #000; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" class="more-btn" href="{{ '/resources' | prepend: site.baseurl }}">View resources</a>
-    </div>
+  <div style="text-align: center;">
+    <a style="margin-bottom: 10px; color: #000; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;"
+      class="more-btn" href="{{ '/principles' | prepend: site.baseurl }}">View principles</a>
+    <a style="margin-bottom: 10px; color: #000; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;"
+      class="more-btn" href="{{ '/booklist' | prepend: site.baseurl }}">View booklist</a>
+    <a style="margin-bottom: 10px; color: #000; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;"
+      class="more-btn" href="{{ '/resources' | prepend: site.baseurl }}">View resources</a>
+  </div>
 
   <div class="grid-container">
     {% for d in site.data.links.linkslist %}
     <div class="grid-item">
       <p>{{ d.Date }}</p>
-        <ol style="list-style: none; margin:0;">
-          {% for link in d.Links %}
-          <li>
-            <a style="color: #333; text-decoration:none!important;" class="item" target="_blank" href="{{ link.Link }}" rel="noopener">
+      <ol style="list-style: none; margin:0;">
+        {% for link in d.Links %}
+        <li>
+          <a style="color: #333; text-decoration:none!important;" class="item" target="_blank" href="{{ link.Link }}"
+            rel="noopener">
             <h3 style="margin:0; font-size: 1.8em;" class="item">{{ link.Title }}</h3>
-            <i><p style="margin-top:0; margin-bottom: 30px;">{{ link.Comment }}</p></i>
-            </a>
-          </li>
-          {% endfor %}
-          </ol>
+            <i>
+              <p style="margin-top:0; margin-bottom: 30px;">{{ link.Comment }}</p>
+            </i>
+          </a>
+        </li>
+        {% endfor %}
+      </ol>
     </div>
     {% endfor %}
   </div>
-  </div>
+</div>
