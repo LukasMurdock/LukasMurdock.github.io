@@ -23,6 +23,15 @@ h1	{
 	font-size: calc(1rem + 10vw);
 }
 
+h2{
+	position: relative;
+    text-align: left;
+    color: black;
+    width: 100%;
+    left: 0;
+    font-size: calc(1rem + 10vw);
+}
+
 section {
     width: 100%;
     padding: 0 7%;
@@ -222,7 +231,7 @@ nav #nav:checked ~ menu{
 
   @media screen and (max-width: 735px) {
 
-  .sub--long h4{
+  .sub--long p{
 	font-size: 40px!important;
   }
 }

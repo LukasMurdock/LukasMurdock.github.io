@@ -5,8 +5,8 @@
     <description>Virtual portfolio of Lukas Murdock</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 16 Dec 2019 21:21:47 -0500</pubDate>
-    <lastBuildDate>Mon, 16 Dec 2019 21:21:47 -0500</lastBuildDate>
+    <pubDate>Wed, 18 Dec 2019 14:08:29 -0500</pubDate>
+    <lastBuildDate>Wed, 18 Dec 2019 14:08:29 -0500</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
 
     
@@ -243,8 +243,8 @@ isbn:9780525540830+
 &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;catch&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;err&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;({{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isbn&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;isbn&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;}});&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;throw&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;err&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;});&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 </description>
         <pubDate>Sat, 19 Oct 2019 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2019/10/19/Making-a-book-list/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/10/19/Making-a-book-list/</guid>
+        <link>http://localhost:4000/2019/10/19/making-a-book-list/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/10/19/making-a-book-list/</guid>
       </item>
     
       <item>
@@ -333,8 +333,8 @@ Finding the right music is nearly impossible.&lt;/p&gt;
 &lt;/div&gt;
 </description>
         <pubDate>Thu, 26 Sep 2019 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2019/09/26/Lessons-in-creativity/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/09/26/Lessons-in-creativity/</guid>
+        <link>http://localhost:4000/2019/09/26/lessons-in-creativity/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/09/26/lessons-in-creativity/</guid>
       </item>
     
       <item>
@@ -350,8 +350,8 @@ Finding the right music is nearly impossible.&lt;/p&gt;
 &lt;p&gt;On the other hand, if we choose to acknowledge what we don’t know and what we know, we can move past restrictions we placed on ourselves. Start valuing what you know.&lt;/p&gt;
 </description>
         <pubDate>Wed, 25 Sep 2019 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2019/09/25/Down-to-the-detail/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/09/25/Down-to-the-detail/</guid>
+        <link>http://localhost:4000/2019/09/25/down-to-the-detail/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/09/25/down-to-the-detail/</guid>
       </item>
     
       <item>
@@ -363,8 +363,8 @@ Finding the right music is nearly impossible.&lt;/p&gt;
 &lt;p&gt;Stop internalizing and normalizing your views of how things stack up in the world. Communicate your axis and see how your axis stacks up against what change you’re trying to make. Then choose your own axis and connect with those underserved people who can’t wait to find you at the edges.&lt;/p&gt;
 </description>
         <pubDate>Mon, 23 Sep 2019 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2019/09/23/Ideas-need-an-axis/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/09/23/Ideas-need-an-axis/</guid>
+        <link>http://localhost:4000/2019/09/23/ideas-need-an-axis/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/09/23/ideas-need-an-axis/</guid>
       </item>
     
       <item>
@@ -374,8 +374,8 @@ Finding the right music is nearly impossible.&lt;/p&gt;
 &lt;p&gt;If you had a chance to teach us, what would we learn?&lt;/p&gt;
 </description>
         <pubDate>Sat, 21 Sep 2019 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2019/09/21/Start-up/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/09/21/Start-up/</guid>
+        <link>http://localhost:4000/2019/09/21/start-up/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/09/21/start-up/</guid>
       </item>
     
       <item>
@@ -437,8 +437,8 @@ Finding the right music is nearly impossible.&lt;/p&gt;
 &lt;p&gt;If that’s you, today is the day you step up and take your site to the next level.&lt;/p&gt;
 </description>
         <pubDate>Wed, 03 Jul 2019 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2019/07/03/squarespaceToGithub/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/07/03/squarespaceToGithub/</guid>
+        <link>http://localhost:4000/2019/07/03/squarespace-to-github/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/07/03/squarespace-to-github/</guid>
       </item>
     
 
