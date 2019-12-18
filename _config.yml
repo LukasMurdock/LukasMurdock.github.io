@@ -11,7 +11,7 @@ logo:               # Logo image URL
 email:              lukas.murdock@gmail.com
 description:        Virtual portfolio of Lukas Murdock
 baseurl:            '' # The subpath of your site, e.g. /blog
-url:                'http://lukasmurdock.com' # The base hostname & protocol for your site
+url:                'https://lukasmurdock.com' # The base hostname & protocol for your site
 twitter_username:   Lukasauras_Rex
 instagram_username: lukasauras.rex
 linkedin_username: lukas-murdock
