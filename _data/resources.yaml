@@ -97,9 +97,9 @@ fulldata:
         Comment:
         Category: Guides
 
-      - Title: Guide to HTML <head> elements
+      - Title: Guide to HTML head elements
         Link: https://htmlhead.dev/
-        Comment: "A free guide to HTML5 <head> elements"
+        Comment: "A free guide to HTML5 head tag elements"
         Category: Guides
 
       - Title: Visual intro to probability and statistics
