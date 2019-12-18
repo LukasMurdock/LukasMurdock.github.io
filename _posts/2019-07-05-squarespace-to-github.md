@@ -8,7 +8,7 @@ date: July 03, 2019
 ---
 
 ### Squarespace Hosting
-In comparison with strong alternatives, Squarespace offers a >sound deal at $144/ year for a beautiful, simple website. With an outstanding minimalist path for creating your own website, Squarespace is perfect for creatives. Squarespace manages all the technical aspects of creating and managing a website and saves you a lot of time and money compared to more complex web builders.
+In comparison with strong alternatives, Squarespace offers a sound deal at $144/ year for a beautiful, simple website. With an outstanding minimalist path for creating your own website, Squarespace is perfect for creatives. Squarespace manages all the technical aspects of creating and managing a website and saves you a lot of time and money compared to more complex web builders.
 
 At $144 annually, you get
 
