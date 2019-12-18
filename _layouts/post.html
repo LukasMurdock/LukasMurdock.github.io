@@ -1,6 +1,14 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang='en'>
+
+{% include head.html %}
+
+<body class="pagebody">
+
+  {% include analytics.html %}
+  {% include header.html %}
+
+
 
 {% include base_path %}
 
@@ -13,7 +21,13 @@ layout: default
 <main>
   <div class="pagebody-content">
       <article class='c-post' itemscope itemtype='http://schema.org/BlogPosting'>
-
+        
+        {% if page.subtitle %}
+        <h1 class="hero-headline" style="margin-bottom:0;">{{ page.title }}</h1>
+        <p class="summary-copy">{{ page.subtitle }}</p>
+        {% else %}
+        <h1 class="hero-headline">{{ page.title }}</h1>
+        {% endif %}
         <p class="summary-copy">{{ page.description }}</p>
         
         {% if page.image %}
@@ -38,3 +52,12 @@ layout: default
         <a style="color: #000; text-align: right; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" class="prev more-btn" href="{{page.previous.url}}">{{page.previous.title}} &raquo;</a>
         {% endif %}
       </div>
+
+
+  {{ content }}
+
+  {% include footer.html %}
+
+</body>
+
+</html>
