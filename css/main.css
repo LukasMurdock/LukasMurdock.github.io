@@ -157,7 +157,6 @@ figure {
 .index-title {
     margin:0;
     margin-bottom: 50px;
-    padding: 24px;
 }
 
 .index-item-logo {
@@ -441,6 +440,7 @@ figure {
 
     .index-text{
         background: #fff;
+        padding: 24px;
     }
 
     .index-grid {
@@ -449,7 +449,7 @@ figure {
     margin: 20px 0px;
     }
 
-    .index-grid > div {
+    .index-grid > div:nth-child(2) {
         box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
     }
 
