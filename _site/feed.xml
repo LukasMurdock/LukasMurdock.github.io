@@ -5,8 +5,8 @@
     <description>Virtual portfolio of Lukas Murdock</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 20 Dec 2019 01:25:02 -0500</pubDate>
-    <lastBuildDate>Fri, 20 Dec 2019 01:25:02 -0500</lastBuildDate>
+    <pubDate>Fri, 20 Dec 2019 01:34:34 -0500</pubDate>
+    <lastBuildDate>Fri, 20 Dec 2019 01:34:34 -0500</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
 
     
@@ -178,7 +178,7 @@ isbn:9780525540830+
 
 &lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;loadedBooks&lt;/code&gt; array saves ISBNs that returned from the Google Books API. The &lt;code class=&quot;highlighter-rouge&quot;&gt;Array.prototype.diff&lt;/code&gt; compares the &lt;code class=&quot;highlighter-rouge&quot;&gt;loadedBooks&lt;/code&gt; against our &lt;code class=&quot;highlighter-rouge&quot;&gt;isbnslist&lt;/code&gt; and logs any left out ISBNs to the console.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/booklist&quot;&gt;View the book list&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/booklist/&quot;&gt;View the book list&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;full-code&quot;&gt;Full code&lt;/h3&gt;
 

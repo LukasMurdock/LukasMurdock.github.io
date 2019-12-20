@@ -9,7 +9,7 @@
   {% include header.html %}
 
   {% if page.subtitle %}
-    <h1 class="hero-headline" style="margin-bottom:0;">{{ page.title }}</h1>
+    <h1 class="hero-headline" style="margin-bottom:0;">{{ page.title | downcase}}</h1>
     <p class="summary-copy">{{ page.subtitle }}</p>
   {% else %}
     <h1 class="hero-headline">{{ page.title }}</h1>
