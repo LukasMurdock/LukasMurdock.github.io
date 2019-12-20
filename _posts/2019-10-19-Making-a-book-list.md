@@ -198,7 +198,7 @@ To add some error handling in case the ISBN provided does not show up within the
 
 The `loadedBooks` array saves ISBNs that returned from the Google Books API. The `Array.prototype.diff` compares the `loadedBooks` against our `isbnslist` and logs any left out ISBNs to the console.
 
-[View the book list]({{ "/booklist" | prepend: site.baseurl }})
+[View the book list]({{ "/booklist/" | prepend: site.baseurl }})
 
 ### Full code
 {% highlight java %}
