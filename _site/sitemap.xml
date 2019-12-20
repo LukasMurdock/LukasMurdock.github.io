@@ -25,6 +25,9 @@
 <lastmod>2019-10-19T00:00:00-04:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/404</loc>
+</url>
+<url>
 <loc>http://localhost:4000/about/</loc>
 </url>
 <url>
@@ -34,13 +37,13 @@
 <loc>http://localhost:4000/booklist/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/branding.html</loc>
+<loc>http://localhost:4000/branding</loc>
 </url>
 <url>
 <loc>http://localhost:4000/contact/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/digital.html</loc>
+<loc>http://localhost:4000/digital</loc>
 </url>
 <url>
 <loc>http://localhost:4000/eyman/</loc>
@@ -61,10 +64,10 @@
 <loc>http://localhost:4000/sqltest/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/strategy.html</loc>
+<loc>http://localhost:4000/strategy</loc>
 </url>
 <url>
-<loc>http://localhost:4000/tbsinstruments.html</loc>
+<loc>http://localhost:4000/tbsinstruments</loc>
 </url>
 <url>
 <loc>http://localhost:4000/ultralearning/</loc>
@@ -76,7 +79,7 @@
 <loc>http://localhost:4000/work/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/zota.html</loc>
+<loc>http://localhost:4000/zota</loc>
 </url>
 <url>
 <loc>http://localhost:4000/thoughtsroom.html</loc>
