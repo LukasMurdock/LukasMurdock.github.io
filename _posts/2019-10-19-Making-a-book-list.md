@@ -66,7 +66,7 @@ books:
   - isbn: 9780525540830
 {% endhighlight %}
 
-Now we can pass this YAML formatted document as a JSON file and assign it to a variable on the `/booklist` page.
+Now we can pass this YAML formatted document as a JSON file and assign it to a variable on the `/booklist/` page.
 
 {% highlight java %}
 {% raw %}

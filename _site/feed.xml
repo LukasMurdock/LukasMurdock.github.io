@@ -5,8 +5,8 @@
     <description>Virtual portfolio of Lukas Murdock</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 20 Dec 2019 01:08:58 -0500</pubDate>
-    <lastBuildDate>Fri, 20 Dec 2019 01:08:58 -0500</lastBuildDate>
+    <pubDate>Fri, 20 Dec 2019 01:18:01 -0500</pubDate>
+    <lastBuildDate>Fri, 20 Dec 2019 01:18:01 -0500</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
 
     
@@ -72,7 +72,7 @@
   &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;isbn&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;9780316478526&lt;/span&gt;
   &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;isbn&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;9780525540830&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Now we can pass this YAML formatted document as a JSON file and assign it to a variable on the &lt;code class=&quot;highlighter-rouge&quot;&gt;/booklist&lt;/code&gt; page.&lt;/p&gt;
+&lt;p&gt;Now we can pass this YAML formatted document as a JSON file and assign it to a variable on the &lt;code class=&quot;highlighter-rouge&quot;&gt;/booklist/&lt;/code&gt; page.&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// Initializing variables for later&lt;/span&gt;
 &lt;span class=&quot;kt&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;book_url&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
