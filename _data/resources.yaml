@@ -2,6 +2,7 @@
 # Application
 # Website
 # Software
+# Evaluation
 # Chrome add-ons
 # Guides
 # Newsletter
@@ -229,7 +230,10 @@ fulldata:
       - Title: Humaaans
         Link: https://www.humaaans.com/
         Comment: "Mix-&-match illustrations of people with a design library"
-        Category: UIUX
+
+      - Title: Mixkit
+        Link: https://www.humaaans.com/
+        Comment: "Completely free HD video & art for you to use, anywhere."
 
       - Title: Free illustrations, for everything
         Link: https://www.glazestock.com/
@@ -329,11 +333,6 @@ fulldata:
         Comment: ""
         Category: Software
 
-      - Title: Grammarly
-        Link: https://www.grammarly.com/
-        Comment: ""
-        Category: Software
-
       - Title: Formal Founder
         Link: https://www.formalfounder.com/
         Comment: ""
@@ -347,11 +346,6 @@ fulldata:
       - Title: Wordoid
         Link: https://wordoid.com
         Comment: "Creative way to find a catchy name for your new venture."
-
-      - Title: Web.dev
-        Link: https://web.dev/
-        Comment: ""
-        Category: Software
 
       - Title: Sharpen Design
         Link: https://sharpen.design/
@@ -377,6 +371,32 @@ fulldata:
         Link: https://builtwith.com/
         Comment: ""
         Category: Software
+
+
+ # Evaluation
+  - Type: Evaluation
+    List:
+
+      - Title: Web.dev
+        Link: https://web.dev/
+        Comment: "See how well your website performs. Then, get tips to improve your user experience."
+
+      - Title: Checkbot
+        Link: https://www.checkbot.io/
+        Comment: "Fix broken links, duplicate titles, insecure pages, invalid HTML & more."
+
+      - Title: Wave — Web Accessibility 
+        Link: https://wave.webaim.org/
+        Comment: "Web Accessibility Evaluation Tool by WebAIM."
+
+      - Title: W3C Validator
+        Link: https://validator.w3.org/
+        Comment: "Check the markup of Web documents."
+
+      - Title: Grammarly
+        Link: https://www.grammarly.com/
+        Comment: "Eliminate errors and find the perfect words to express yourself."
+
 
   #Newsletters
   - Type: Newsletter
@@ -517,7 +537,10 @@ fulldata:
       - Title: Motion 5
         Link: https://www.apple.com/final-cut-pro/motion/
         Comment: ""
-        Category: Application
+
+      - Title: INK
+        Link: https://inkforall.com/
+        Comment: "AI Web Content Optimization Platform."
 
       - Title: Httrack
         Link: https://www.httrack.com/
@@ -527,10 +550,13 @@ fulldata:
   #Chrome Apps
   - Type: Chrome Apps
     List:
+      - Title: ANDI — Accessibility testing tool
+        Link: https://www.ssa.gov/accessibility/andi/help/install.html
+        Comment: "Accessible Name & Description Inspector."
+
       - Title: 77X
         Link: https://chrome.google.com/webstore/detail/77x/lgnkmlgloomjfbmdenogdehhphnhaihb?hl=en
         Comment: ""
-        Category: Chrome add-ons
 
       - Title: BuiltWith
         Link: https://chrome.google.com/webstore/detail/builtwith-technology-prof/dapjbgnjinbpoindlpdmhochffioedbn?hl=en
@@ -565,7 +591,10 @@ fulldata:
       - Title: Fontface Ninja
         Link: https://chrome.google.com/webstore/detail/fontface-ninja/eljapbgkmlngdpckoiiibecpemleclhh?hl=en
         Comment: ""
-        Category: Chrome add-ons
+
+      - Title: Checkbot
+        Link: https://www.checkbot.io/
+        Comment: "Fix broken links, duplicate titles, insecure pages, invalid HTML & more."
 
       - Title: Bullshit js
         Link: https://mourner.github.io/bullshit.js/
@@ -819,11 +848,6 @@ fulldata:
 
       - Title: Helvetica
         Link: https://www.hustwit.com/helvetica
-        Comment:
-        Category: Movie
-
-      - Title: Plastic China
-        Link: https://www.plasticchina.org/
         Comment:
         Category: Movie
 
