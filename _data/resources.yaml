@@ -393,6 +393,14 @@ fulldata:
         Link: https://validator.w3.org/
         Comment: "Check the markup of Web documents."
 
+      - Title: GTMetrix
+        Link: https://gtmetrix.com/
+        Comment: "See how your site performs, reveal why it's slow and discover optimization opportunities."
+
+      - Title: Pingdom
+        Link: https://tools.pingdom.com/
+        Comment: "Test the page load time, analyze it, and find bottlenecks."
+
       - Title: Grammarly
         Link: https://www.grammarly.com/
         Comment: "Eliminate errors and find the perfect words to express yourself."
