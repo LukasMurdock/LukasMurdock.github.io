@@ -84,6 +84,7 @@ Audio is truly one of the most elusive parts of a creative project. It's somethi
 
 ### Shipping it
 It's not perfect, it needs a lot of polish... but it exists. And there's pride to be had in that. Now on to the next one. View the final project here.
+[View the Slide Deck](https://drive.google.com/open?id=1C7fzPOjihnuJ1K73W1m9OZDnlbcJTDi3)
 
 <div class="videoWrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5C4NV5wVapc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
