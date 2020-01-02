@@ -51,7 +51,8 @@ h3{
 
 
 .nav-menu{
-	display: flex;
+    display: flex;
+    margin:0;
 	justify-content: space-around;
 	}
 
