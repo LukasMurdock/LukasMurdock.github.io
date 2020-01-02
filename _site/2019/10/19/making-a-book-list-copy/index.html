@@ -6,10 +6,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Making a book list</title>
   <meta name="description" content="Learning how to make a book list with Jekyll.">
-  <link rel='canonical' href="http://localhost:4000/2019/10/19/making-a-book-list/">
+  <link rel='canonical' href="http://localhost:4000/2019/10/19/making-a-book-list-copy/">
   <link rel="stylesheet" type="text/css" href="/css/main.css" />
   <link rel="shortcut icon" type="image/png" href="/favicon.png">
   <meta name="google-site-verification" content="fPk8VHNqhVzOb2qHw5K0bg3w8WrInKiLQeqZBOteVFA" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-155085538-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-155085538-1');
+</script>
+
   
     <style>
     .highlight .hll { background-color: #ffffcc }
@@ -374,242 +384,12 @@ isbn:9780525540830+
 
       <div style="display: grid; grid-template-columns: 50% 50%;" class="PageNavigation">
         
+        <a style="color: #000; text-align: left; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" class="next more-btn" href="/2019/12/31/work-in-2019/">&laquo; Work in 2019</a>
+        
         
         <a style="color: #000; text-align: right; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" class="prev more-btn" href="/2019/09/26/lessons-in-creativity/">Lessons in creativity. &raquo;</a>
         
       </div>
-
-
-  <p><span style="color: rgba(51,51,51,.5);">The Problem: </span>finding all the information on books is annoying and time consuming.</p>
-
-<p><span style="color: rgba(51,51,51,.5);">The Solution: </span>make technology do all the heavy lifting.</p>
-
-<h3 id="some-things-we-need-to-get">Some things we need to get</h3>
-<ul>
-  <li>Title</li>
-  <li>Author</li>
-  <li>Book cover image</li>
-</ul>
-
-<h3 id="how-to-get-them">How to get them</h3>
-<p>Now that we have some vague ideas of what we need to get, let’s explore <em>how we’re going to get them.</em></p>
-
-<p>My first thought and the one I see implemented on other sites is <a href="https://www.goodreads.com">Goodreads</a>. Complete with <a href="https://www.goodreads.com/api">it’s own API</a> Goodreads is the choice for being in-sync. I’ve seen people implement progress updates, book reviews and ratings. But that’s all more than I’m looking to do with this. Also the Goodreads API is <em>very slow</em>.</p>
-
-<p>Instead of fumbling around searching how to easily get an image for nearly any book cover like I did (cause hunting down an image for every update <em>seriously sucks</em>) I’ll lay out all the details here.</p>
-
-<p>The solution: <a href="https://developers.google.com/books/docs/v1/using">Google Books API</a>.
-<br /><span style="font-size: 12px;">Honestly I should’ve thought of that, thanks Google.</span></p>
-
-<p>Google Books API is able to return the following information:</p>
-<ul>
-  <li>The kind of book</li>
-  <li>Google Books link</li>
-  <li>Title <span class="full-underline" style="font-size: 12px;">Yes!</span></li>
-  <li>Subtitle</li>
-  <li>Authors <span class="full-underline" style="font-size: 12px;">Yes!</span></li>
-  <li>Publisher</li>
-  <li>Published date</li>
-  <li>Description</li>
-  <li>Industry identifiers (ISBN, ASIN)</li>
-  <li>Page count</li>
-  <li>Print type</li>
-  <li>Categories</li>
-  <li>Average rating (from Google Books)</li>
-  <li>Ratings count (from Google Books)</li>
-  <li>Maturity rating</li>
-  <li>Image thumbnails <span class="full-underline" style="font-size: 12px;">Yes!</span></li>
-  <li>Text snippit
-<br /><span style="font-size: 12px;">They’re really all yesses.</span></li>
-</ul>
-
-<h3 id="getting-the-information">Getting the information</h3>
-
-<p>That all sounds cool but I’ve never dealt with an API before. What’s the least amount of information we can use to extract all the data from the API?</p>
-
-<p>My thoughts: ISBN codes.</p>
-
-<p>Jekyll supports <a href="https://jekyllrb.com/docs/datafiles/">YAML</a> for it’s <code class="highlighter-rouge">_data</code> directory and the structure is <a href="https://idratherbewriting.com/documentation-theme-jekyll/mydoc_yaml_tutorial">relatively simple</a>. To add a book the only thing I need to find is the ISBN code. Everything else auto populates from that.</p>
-
-<p><code class="highlighter-rouge">booklist.yaml</code></p>
-
-<figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="nn">---</span>
-<span class="c1">#Book List</span>
-<span class="na">books</span><span class="pi">:</span>
-  <span class="pi">-</span> <span class="na">isbn</span><span class="pi">:</span> <span class="m">9781250237231</span>
-  <span class="pi">-</span> <span class="na">isbn</span><span class="pi">:</span> <span class="m">9780316478526</span>
-  <span class="pi">-</span> <span class="na">isbn</span><span class="pi">:</span> <span class="s">9780525540830</span></code></pre></figure>
-
-<p>Now we can pass this YAML formatted document as a JSON file and assign it to a variable on the <code class="highlighter-rouge">/booklist/</code> page.</p>
-
-<figure class="highlight"><pre><code class="language-java" data-lang="java"><span class="c1">// Initializing variables for later</span>
-<span class="kt">var</span> <span class="n">book_url</span><span class="o">;</span>
-<span class="kt">var</span> <span class="n">imageLink</span><span class="o">;</span>
-<span class="kt">var</span> <span class="n">isbnslist</span> <span class="o">=</span> <span class="o">[];</span>
-<span class="kt">var</span> <span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="o">;</span>
-
-<span class="o">{%</span> <span class="n">assign</span> <span class="n">isbncheck</span> <span class="o">=</span> <span class="n">site</span><span class="o">.</span><span class="na">data</span><span class="o">.</span><span class="na">booklist</span><span class="o">.</span><span class="na">books</span> <span class="o">|</span> <span class="n">jsonify</span> <span class="o">%}</span>
-
-<span class="kt">var</span> <span class="n">isbns</span> <span class="o">=</span> <span class="o">{{</span> <span class="n">isbncheck</span> <span class="o">}}</span></code></pre></figure>
-
-<p>I had to do a lot of looking to figure out how to optimize performance and query every book in a single request. I couldn’t find <a href="https://www.sitepoint.com/community/t/how-to-solve-google-books-api-403-restriction/286374/2">this solution</a> anywhere in the docs. Glad those errors are over with.</p>
-
-<figure class="highlight"><pre><code class="language-java" data-lang="java"><span class="k">for</span> <span class="o">(</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">isbns</span><span class="o">.</span><span class="na">length</span><span class="o">;</span> <span class="n">i</span><span class="o">++)</span>
-    <span class="o">{</span>
-      <span class="n">isbnslist</span><span class="o">.</span><span class="na">push</span><span class="o">(</span><span class="nc">String</span><span class="o">(</span><span class="n">isbns</span><span class="o">[</span><span class="n">i</span><span class="o">].</span><span class="na">isbn</span><span class="o">));</span>
-    <span class="o">}</span>
-
-<span class="kd">const</span> <span class="n">url</span> <span class="o">=</span> <span class="n">isbnslist</span><span class="o">.</span><span class="na">reduce</span><span class="o">(</span>
-  <span class="o">(</span><span class="n">res</span><span class="o">,</span> <span class="n">isbnslist</span><span class="o">,</span> <span class="n">index</span><span class="o">)</span> <span class="o">=&gt;</span> <span class="n">res</span> <span class="o">+</span> <span class="o">(</span><span class="n">index</span> <span class="o">?</span> <span class="s">"+OR+"</span> <span class="o">:</span> <span class="s">""</span><span class="o">)</span> <span class="o">+</span> <span class="s">"isbn:"</span> <span class="o">+</span> <span class="n">isbnslist</span><span class="o">,</span>
-  <span class="s">"https://www.googleapis.com/books/v1/volumes?q="</span>
-<span class="o">)</span>
-
-<span class="n">book_url</span> <span class="o">=</span> <span class="n">url</span> <span class="o">+</span> <span class="s">"+&amp;fields=items(volumeInfo/description,volumeInfo/title,volumeInfo/authors,volumeInfo/imageLinks/thumbnail,volumeInfo/industryIdentifiers/identifier)+&amp;maxResults=40"</span></code></pre></figure>
-
-<p>Just to show a little bit of what’s going on here without explaining it.</p>
-
-<figure class="highlight"><pre><code class="language-java" data-lang="java"><span class="c1">// ISBN list is now an array</span>
-<span class="n">console</span><span class="o">.</span><span class="na">log</span><span class="o">(</span><span class="n">isbnslist</span><span class="o">)</span>
-<span class="o">[</span>
-  <span class="s">"9781250237231"</span><span class="o">,</span>
-  <span class="s">"9780316478526"</span><span class="o">,</span>
-  <span class="s">"9780525540830"</span>
-<span class="o">]</span>
-
-<span class="c1">// All books full data return</span>
-<span class="n">console</span><span class="o">.</span><span class="na">log</span><span class="o">(</span><span class="n">url</span><span class="o">)</span>
-<span class="s">"https://www.googleapis.com/books/v1/volumes
-?q=isbn:9781250237231+OR+
-isbn:9780316478526+OR+
-isbn:9780525540830"</span>
-
-<span class="c1">// Filter fields for only needed data</span>
-<span class="n">console</span><span class="o">.</span><span class="na">log</span><span class="o">(</span><span class="n">book_url</span><span class="o">)</span>
-<span class="s">"https://www.googleapis.com/books/v1/volumes
-?q=isbn:9781250237231+OR+
-isbn:9780316478526+OR+
-isbn:9780525540830+
-&amp;fields=items(
-  volumeInfo/description,
-  volumeInfo/title,
-  volumeInfo/authors,
-  volumeInfo/imageLinks/thumbnail,
-  volumeInfo/industryIdentifiers/identifier
-)
-+&amp;maxResults=40"</span></code></pre></figure>
-
-<p>Now that we have the URLs to the data, all we have to do fetch it and plug it where we want it.</p>
-
-<figure class="highlight"><pre><code class="language-java" data-lang="java"><span class="n">fetch</span><span class="o">(</span><span class="n">book_url</span><span class="o">)</span>
-<span class="o">.</span><span class="na">then</span><span class="o">(</span><span class="n">res</span> <span class="o">=&gt;</span> <span class="n">res</span><span class="o">.</span><span class="na">json</span><span class="o">())</span>
-<span class="o">.</span><span class="na">then</span><span class="o">((</span><span class="n">out</span><span class="o">)</span> <span class="o">=&gt;</span> <span class="o">{</span>
-
-  <span class="k">for</span> <span class="o">(</span><span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">out</span><span class="o">.</span><span class="na">items</span><span class="o">.</span><span class="na">length</span><span class="o">;</span> <span class="n">i</span><span class="o">++){</span>
-  <span class="n">document</span><span class="o">.</span><span class="na">getElementById</span><span class="o">(</span><span class="s">"grid-container"</span><span class="o">).</span><span class="na">innerHTML</span> <span class="o">+=</span> <span class="s">"&lt;div class="</span><span class="n">grid</span><span class="o">-</span><span class="n">item</span><span class="s">"&gt; &lt;a rel="</span><span class="n">nofollow</span><span class="s">" target="</span><span class="n">_blank</span><span class="s">" href="</span><span class="nl">https:</span><span class="c1">//www.google.com/search?q=" + out.items[i].volumeInfo.title.replace(/ /g, "+") + "+by+" + out.items[i].volumeInfo.authors[0].replace(/ /g, "+") + ""&gt; &lt;div&gt; &lt;img alt="" + out.items[i].volumeInfo.title + " book cover" src="" + out.items[i].volumeInfo.imageLinks.thumbnail.replace("&amp;edge=curl","") + ""&gt; &lt;/div&gt;&lt;/a&gt; &lt;div&gt; &lt;h3&gt;&lt;a rel="nofollow" target="_blank" href="https://www.google.com/search?q=" + out.items[i].volumeInfo.title.replace(/ /g, "+") + "+by+" + out.items[i].volumeInfo.authors[0].replace(/ /g, "+") + ""&gt;" + out.items[i].volumeInfo.title + "&lt;/a&gt;&lt;/h3&gt; &lt;p class="item"&gt;by " + out.items[i].volumeInfo.authors[0] + "&lt;/p&gt; &lt;/div&gt; &lt;/div&gt;";</span>
-<span class="o">}</span></code></pre></figure>
-
-<p>That super long ‘<code class="highlighter-rouge">document.getElementByID</code>’ provides the entire HTML structure of the books selection. It loops for every book returned from the Google Books API (so it adds that HTML for every book). For a cheat sheet on what the variables link to:</p>
-
-<figure class="highlight"><pre><code class="language-java" data-lang="java"><span class="cm">/*
-  Title: out.items[0].volumeInfo.title
-  Author: out.items[0].volumeInfo.authors[0]
-  Thumbnail: out.items[0].volumeInfo.imageLinks.thumbnail
-  Description: out.items[0].volumeInfo.description
-*/</span></code></pre></figure>
-
-<p>To add some error handling in case the ISBN provided does not show up within the Google API I managed to throw an error to the console to determine which ISBN would need to be fixed.</p>
-
-<figure class="highlight"><pre><code class="language-java" data-lang="java">  <span class="n">i</span><span class="o">=</span><span class="mi">0</span>
-  <span class="kt">var</span> <span class="n">loadedBooks</span> <span class="o">=</span> <span class="o">[]</span>
-  <span class="k">while</span> <span class="o">(</span><span class="n">i</span> <span class="o">&lt;</span> <span class="nc">Object</span><span class="o">.</span><span class="na">keys</span><span class="o">(</span><span class="n">out</span><span class="o">.</span><span class="na">items</span><span class="o">).</span><span class="na">length</span><span class="o">){</span>
-    <span class="c1">//(Google API Supports ISBN_10, ISBN_13, ASIN...)</span>
-    <span class="c1">// Find and save only ISBN 13 codes to loadedBooks array</span>
-    <span class="k">if</span> <span class="o">(</span><span class="n">out</span><span class="o">.</span><span class="na">items</span><span class="o">[</span><span class="n">i</span><span class="o">].</span><span class="na">volumeInfo</span><span class="o">.</span><span class="na">industryIdentifiers</span><span class="o">[</span><span class="mi">0</span><span class="o">].</span><span class="na">identifier</span><span class="o">.</span><span class="na">length</span> <span class="o">&gt;</span> <span class="mi">10</span><span class="o">){</span>
-      <span class="n">loadedBooks</span><span class="o">.</span><span class="na">push</span><span class="o">(</span><span class="n">out</span><span class="o">.</span><span class="na">items</span><span class="o">[</span><span class="n">i</span><span class="o">].</span><span class="na">volumeInfo</span><span class="o">.</span><span class="na">industryIdentifiers</span><span class="o">[</span><span class="mi">0</span><span class="o">].</span><span class="na">identifier</span><span class="o">)</span>
-    <span class="o">}</span> <span class="k">else</span> <span class="o">{</span>
-      <span class="n">loadedBooks</span><span class="o">.</span><span class="na">push</span><span class="o">(</span><span class="n">out</span><span class="o">.</span><span class="na">items</span><span class="o">[</span><span class="n">i</span><span class="o">].</span><span class="na">volumeInfo</span><span class="o">.</span><span class="na">industryIdentifiers</span><span class="o">[</span><span class="mi">1</span><span class="o">].</span><span class="na">identifier</span><span class="o">)</span>
-    <span class="o">}</span>
-    <span class="n">i</span><span class="o">++;</span>
-  <span class="o">}</span>
-
-  <span class="nc">Array</span><span class="o">.</span><span class="na">prototype</span><span class="o">.</span><span class="na">diff</span> <span class="o">=</span> <span class="n">function</span><span class="o">(</span><span class="n">a</span><span class="o">)</span> <span class="o">{</span>
-    <span class="k">if</span> <span class="o">(</span><span class="k">this</span><span class="o">.</span><span class="na">filter</span><span class="o">(</span><span class="n">function</span><span class="o">(</span><span class="n">i</span><span class="o">)</span> <span class="o">{</span><span class="k">return</span> <span class="n">a</span><span class="o">.</span><span class="na">indexOf</span><span class="o">(</span><span class="n">i</span><span class="o">)</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="o">;}).</span><span class="na">length</span> <span class="o">!==</span> <span class="mi">0</span><span class="o">){</span>
-      <span class="n">console</span><span class="o">.</span><span class="na">log</span><span class="o">(</span><span class="k">this</span><span class="o">.</span><span class="na">filter</span><span class="o">(</span><span class="n">function</span><span class="o">(</span><span class="n">i</span><span class="o">)</span> <span class="o">{</span><span class="k">return</span> <span class="n">a</span><span class="o">.</span><span class="na">indexOf</span><span class="o">(</span><span class="n">i</span><span class="o">)</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="o">;}))</span>
-    <span class="o">}</span><span class="k">else</span><span class="o">{</span>
-      <span class="k">return</span> <span class="s">"All books indexed"</span><span class="o">;</span>
-    <span class="o">}</span>
-  <span class="o">};</span>
-
-  <span class="n">console</span><span class="o">.</span><span class="na">log</span><span class="o">(</span><span class="n">isbnslist</span><span class="o">.</span><span class="na">diff</span><span class="o">(</span><span class="n">loadedBooks</span><span class="o">))</span>
-<span class="o">})</span>
-<span class="o">.</span><span class="na">catch</span><span class="o">(</span><span class="n">err</span> <span class="o">=&gt;</span> <span class="o">{</span> <span class="n">console</span><span class="o">.</span><span class="na">log</span><span class="o">({{</span> <span class="n">isbn</span><span class="o">.</span><span class="na">isbn</span> <span class="o">}});</span> <span class="k">throw</span> <span class="n">err</span> <span class="o">});</span></code></pre></figure>
-
-<p>The <code class="highlighter-rouge">loadedBooks</code> array saves ISBNs that returned from the Google Books API. The <code class="highlighter-rouge">Array.prototype.diff</code> compares the <code class="highlighter-rouge">loadedBooks</code> against our <code class="highlighter-rouge">isbnslist</code> and logs any left out ISBNs to the console.</p>
-
-<p><a href="/booklist/">View the book list</a></p>
-
-<h3 id="full-code">Full code</h3>
-
-<figure class="highlight"><pre><code class="language-java" data-lang="java"><span class="c1">// Initializing variables for later</span>
-<span class="kt">var</span> <span class="n">book_url</span><span class="o">;</span>
-<span class="kt">var</span> <span class="n">imageLink</span><span class="o">;</span>
-<span class="kt">var</span> <span class="n">isbnslist</span> <span class="o">=</span> <span class="o">[];</span>
-<span class="kt">var</span> <span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="o">;</span>
-
-<span class="o">{%</span> <span class="n">assign</span> <span class="n">isbncheck</span> <span class="o">=</span> <span class="n">site</span><span class="o">.</span><span class="na">data</span><span class="o">.</span><span class="na">booklist</span><span class="o">.</span><span class="na">books</span> <span class="o">|</span> <span class="n">jsonify</span> <span class="o">%}</span>
-
-<span class="kt">var</span> <span class="n">isbns</span> <span class="o">=</span> <span class="o">{{</span> <span class="n">isbncheck</span> <span class="o">}}</span>
-
-<span class="k">for</span> <span class="o">(</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">isbns</span><span class="o">.</span><span class="na">length</span><span class="o">;</span> <span class="n">i</span><span class="o">++)</span>
-    <span class="o">{</span>
-      <span class="n">isbnslist</span><span class="o">.</span><span class="na">push</span><span class="o">(</span><span class="nc">String</span><span class="o">(</span><span class="n">isbns</span><span class="o">[</span><span class="n">i</span><span class="o">].</span><span class="na">isbn</span><span class="o">));</span>
-    <span class="o">}</span>
-
-<span class="kd">const</span> <span class="n">url</span> <span class="o">=</span> <span class="n">isbnslist</span><span class="o">.</span><span class="na">reduce</span><span class="o">(</span>
-  <span class="o">(</span><span class="n">res</span><span class="o">,</span> <span class="n">isbnslist</span><span class="o">,</span> <span class="n">index</span><span class="o">)</span> <span class="o">=&gt;</span> <span class="n">res</span> <span class="o">+</span> <span class="o">(</span><span class="n">index</span> <span class="o">?</span> <span class="s">"+OR+"</span> <span class="o">:</span> <span class="s">""</span><span class="o">)</span> <span class="o">+</span> <span class="s">"isbn:"</span> <span class="o">+</span> <span class="n">isbnslist</span><span class="o">,</span>
-  <span class="s">"https://www.googleapis.com/books/v1/volumes?q="</span>
-<span class="o">)</span>
-
-<span class="n">book_url</span> <span class="o">=</span> <span class="n">url</span> <span class="o">+</span> <span class="s">"+&amp;fields=items(volumeInfo/description,volumeInfo/title,volumeInfo/authors,volumeInfo/imageLinks/thumbnail,volumeInfo/industryIdentifiers/identifier)+&amp;maxResults=40"</span>
-
-<span class="n">fetch</span><span class="o">(</span><span class="n">book_url</span><span class="o">)</span>
-<span class="o">.</span><span class="na">then</span><span class="o">(</span><span class="n">res</span> <span class="o">=&gt;</span> <span class="n">res</span><span class="o">.</span><span class="na">json</span><span class="o">())</span>
-<span class="o">.</span><span class="na">then</span><span class="o">((</span><span class="n">out</span><span class="o">)</span> <span class="o">=&gt;</span> <span class="o">{</span>
-
-  <span class="k">for</span> <span class="o">(</span><span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">out</span><span class="o">.</span><span class="na">items</span><span class="o">.</span><span class="na">length</span><span class="o">;</span> <span class="n">i</span><span class="o">++){</span>
-  <span class="n">document</span><span class="o">.</span><span class="na">getElementById</span><span class="o">(</span><span class="s">"grid-container"</span><span class="o">).</span><span class="na">innerHTML</span> <span class="o">+=</span> <span class="s">"&lt;div class="</span><span class="n">grid</span><span class="o">-</span><span class="n">item</span><span class="s">"&gt; &lt;a rel="</span><span class="n">nofollow</span><span class="s">" target="</span><span class="n">_blank</span><span class="s">" href="</span><span class="nl">https:</span><span class="c1">//www.google.com/search?q=" + out.items[i].volumeInfo.title.replace(/ /g, "+") + "+by+" + out.items[i].volumeInfo.authors[0].replace(/ /g, "+") + ""&gt; &lt;div&gt; &lt;img alt="" + out.items[i].volumeInfo.title + " book cover" src="" + out.items[i].volumeInfo.imageLinks.thumbnail.replace("&amp;edge=curl","") + ""&gt; &lt;/div&gt;&lt;/a&gt; &lt;div&gt; &lt;h3&gt;&lt;a rel="nofollow" target="_blank" href="https://www.google.com/search?q=" + out.items[i].volumeInfo.title.replace(/ /g, "+") + "+by+" + out.items[i].volumeInfo.authors[0].replace(/ /g, "+") + ""&gt;" + out.items[i].volumeInfo.title + "&lt;/a&gt;&lt;/h3&gt; &lt;p class="item"&gt;by " + out.items[i].volumeInfo.authors[0] + "&lt;/p&gt; &lt;/div&gt; &lt;/div&gt;";</span>
-<span class="o">}</span>
-
-<span class="cm">/*
-  Title: out.items[0].volumeInfo.title
-  Author: out.items[0].volumeInfo.authors[0]
-  Thumbnail: out.items[0].volumeInfo.imageLinks.thumbnail
-  Description: out.items[0].volumeInfo.description
-*/</span>
-
-  <span class="n">i</span><span class="o">=</span><span class="mi">0</span>
-  <span class="kt">var</span> <span class="n">loadedBooks</span> <span class="o">=</span> <span class="o">[]</span>
-  <span class="k">while</span> <span class="o">(</span><span class="n">i</span> <span class="o">&lt;</span> <span class="nc">Object</span><span class="o">.</span><span class="na">keys</span><span class="o">(</span><span class="n">out</span><span class="o">.</span><span class="na">items</span><span class="o">).</span><span class="na">length</span><span class="o">){</span>
-    <span class="k">if</span> <span class="o">(</span><span class="n">out</span><span class="o">.</span><span class="na">items</span><span class="o">[</span><span class="n">i</span><span class="o">].</span><span class="na">volumeInfo</span><span class="o">.</span><span class="na">industryIdentifiers</span><span class="o">[</span><span class="mi">0</span><span class="o">].</span><span class="na">identifier</span><span class="o">.</span><span class="na">length</span> <span class="o">&gt;</span> <span class="mi">10</span><span class="o">){</span>
-      <span class="n">loadedBooks</span><span class="o">.</span><span class="na">push</span><span class="o">(</span><span class="n">out</span><span class="o">.</span><span class="na">items</span><span class="o">[</span><span class="n">i</span><span class="o">].</span><span class="na">volumeInfo</span><span class="o">.</span><span class="na">industryIdentifiers</span><span class="o">[</span><span class="mi">0</span><span class="o">].</span><span class="na">identifier</span><span class="o">)</span>
-    <span class="o">}</span> <span class="k">else</span> <span class="o">{</span>
-      <span class="n">loadedBooks</span><span class="o">.</span><span class="na">push</span><span class="o">(</span><span class="n">out</span><span class="o">.</span><span class="na">items</span><span class="o">[</span><span class="n">i</span><span class="o">].</span><span class="na">volumeInfo</span><span class="o">.</span><span class="na">industryIdentifiers</span><span class="o">[</span><span class="mi">1</span><span class="o">].</span><span class="na">identifier</span><span class="o">)</span>
-    <span class="o">}</span>
-    <span class="n">i</span><span class="o">++;</span>
-  <span class="o">}</span>
-
-  <span class="nc">Array</span><span class="o">.</span><span class="na">prototype</span><span class="o">.</span><span class="na">diff</span> <span class="o">=</span> <span class="n">function</span><span class="o">(</span><span class="n">a</span><span class="o">)</span> <span class="o">{</span>
-    <span class="k">if</span> <span class="o">(</span><span class="k">this</span><span class="o">.</span><span class="na">filter</span><span class="o">(</span><span class="n">function</span><span class="o">(</span><span class="n">i</span><span class="o">)</span> <span class="o">{</span><span class="k">return</span> <span class="n">a</span><span class="o">.</span><span class="na">indexOf</span><span class="o">(</span><span class="n">i</span><span class="o">)</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="o">;}).</span><span class="na">length</span> <span class="o">!==</span> <span class="mi">0</span><span class="o">){</span>
-      <span class="n">console</span><span class="o">.</span><span class="na">log</span><span class="o">(</span><span class="k">this</span><span class="o">.</span><span class="na">filter</span><span class="o">(</span><span class="n">function</span><span class="o">(</span><span class="n">i</span><span class="o">)</span> <span class="o">{</span><span class="k">return</span> <span class="n">a</span><span class="o">.</span><span class="na">indexOf</span><span class="o">(</span><span class="n">i</span><span class="o">)</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="o">;}))</span>
-    <span class="o">}</span><span class="k">else</span><span class="o">{</span>
-      <span class="k">return</span> <span class="s">"All books indexed"</span><span class="o">;</span>
-    <span class="o">}</span>
-  <span class="o">};</span>
-
-  <span class="n">console</span><span class="o">.</span><span class="na">log</span><span class="o">(</span><span class="n">isbnslist</span><span class="o">.</span><span class="na">diff</span><span class="o">(</span><span class="n">loadedBooks</span><span class="o">))</span>
-<span class="o">})</span>
-<span class="o">.</span><span class="na">catch</span><span class="o">(</span><span class="n">err</span> <span class="o">=&gt;</span> <span class="o">{</span> <span class="n">console</span><span class="o">.</span><span class="na">log</span><span class="o">({{</span> <span class="n">isbn</span><span class="o">.</span><span class="na">isbn</span> <span class="o">}});</span> <span class="k">throw</span> <span class="n">err</span> <span class="o">});</span></code></pre></figure>
-
 
   <footer>
   <a
@@ -762,7 +542,7 @@ isbn:9780525540830+
   </form>
   -->
 
-  <p>&copy; 2019 Lukas Murdock</p>
+  <p>&copy; 2020 Lukas Murdock</p>
 
 </footer>
 
