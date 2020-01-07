@@ -5,8 +5,8 @@
     <description>Virtual portfolio of Lukas Murdock</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 07 Jan 2020 04:36:58 -0500</pubDate>
-    <lastBuildDate>Tue, 07 Jan 2020 04:36:58 -0500</lastBuildDate>
+    <pubDate>Tue, 07 Jan 2020 04:49:19 -0500</pubDate>
+    <lastBuildDate>Tue, 07 Jan 2020 04:49:19 -0500</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
 
     
@@ -299,7 +299,7 @@ First iPad introduced by Apple&lt;/p&gt;
     
       <item>
         <title>Work in 2019</title>
-        <description>&lt;h3 id=&quot;new-brand-identity-and-messaging-for-olsd&quot;&gt;New Brand Identity and Messaging for OLSD&lt;/h3&gt;
+        <description>&lt;h2 id=&quot;new-brand-identity-and-messaging-for-olsd&quot;&gt;New Brand Identity and Messaging for OLSD&lt;/h2&gt;
 &lt;p&gt;You can &lt;a href=&quot;https://www.olentangy.k12.oh.us/cms/lib/OH01914664/Centricity/Domain/55/OLSD_BrandGuide-v01d-web.pdf&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;view the brand style guide here.&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;This was a joint effort among companies, organizations, and individuals, &lt;a href=&quot;https://cultmarketing.com/portfolio-item/olentangy-schools/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;view the case study here.&lt;/a&gt;&lt;/p&gt;
@@ -307,7 +307,7 @@ First iPad introduced by Apple&lt;/p&gt;
 &lt;p&gt;&lt;img class=&quot;picture-image&quot; src=&quot;https://www.olentangy.k12.oh.us/cms/lib/OH01914664/Centricity/template/8/images/OLSD_logo_long.png&quot; alt=&quot;Olentangy Local Schools new logo&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h3 id=&quot;new-website-and-brand-identity-for-infinite-smiles&quot;&gt;New Website and Brand Identity for Infinite Smiles&lt;/h3&gt;
+&lt;h2 id=&quot;new-website-and-brand-identity-for-infinite-smiles&quot;&gt;New Website and Brand Identity for Infinite Smiles&lt;/h2&gt;
 
 &lt;p&gt;You can &lt;a href=&quot;https://www.infinitesmiles.com/blog/the-new-infinite-smiles/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;view the announcement here.&lt;/a&gt;&lt;/p&gt;
 
@@ -317,14 +317,14 @@ First iPad introduced by Apple&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;youtube-ads-for-infinite-smiles&quot;&gt;Youtube Ads for Infinite Smiles&lt;/h3&gt;
+&lt;h2 id=&quot;youtube-ads-for-infinite-smiles&quot;&gt;Youtube Ads for Infinite Smiles&lt;/h2&gt;
 
 &lt;div class=&quot;videoWrapper&quot;&gt;
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mnBcXX_80fM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;lessons-in-creativity&quot;&gt;Lessons in Creativity&lt;/h3&gt;
+&lt;h2 id=&quot;lessons-in-creativity&quot;&gt;Lessons in Creativity&lt;/h2&gt;
 &lt;p&gt;You can &lt;a href=&quot;/2019/09/26/Lessons-in-creativity/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;view my write up of the project here&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://drive.google.com/open?id=1C7fzPOjihnuJ1K73W1m9OZDnlbcJTDi3&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;View the Slide Deck here&lt;/a&gt; &lt;span style=&quot;font-size: 12px;&quot;&gt;(I recommend this).&lt;/span&gt;&lt;/p&gt;
@@ -336,7 +336,7 @@ First iPad introduced by Apple&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;new-website-for-palonix&quot;&gt;New Website for Palonix&lt;/h3&gt;
+&lt;h2 id=&quot;new-website-for-palonix&quot;&gt;New Website for Palonix&lt;/h2&gt;
 
 &lt;p&gt;Responsible for the following:&lt;/p&gt;
 &lt;ul&gt;
@@ -350,7 +350,7 @@ First iPad introduced by Apple&lt;/p&gt;
 
 &lt;p&gt;You can &lt;a href=&quot;https://palonix.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;view the site here.&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;new-website-for-lifetime-dental-educators&quot;&gt;New Website for Lifetime Dental Educators&lt;/h3&gt;
+&lt;h2 id=&quot;new-website-for-lifetime-dental-educators&quot;&gt;New Website for Lifetime Dental Educators&lt;/h2&gt;
 &lt;p&gt;Fast client work, not in favor of all design decisions.&lt;/p&gt;
 
 &lt;p&gt;Responsible for the following:&lt;/p&gt;
