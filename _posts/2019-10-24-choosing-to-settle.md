@@ -19,5 +19,5 @@ Alexander the Great admired his spirit and said, "If I were not Alexander, I wou
 
 When we choose to settle with ourselves we choose to acknowledge ourselves. To stop reaching for things out of reach.
 
-[You can read more about Diogenes here.](https://www.ancient.eu/amp/1-13144/)
+[You can read more about Diogenes here.](https://www.ancient.eu/amp/1-13144/){:target="_blank"}{:rel="noopener"}
 
