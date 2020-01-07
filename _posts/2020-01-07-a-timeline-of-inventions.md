@@ -2,7 +2,7 @@
 layout: post
 title: 'A Timeline of Inventions'
 description: A list of some human miracles over the centuries.
-image: 2019work.jpg
+image: a-timeline-of-inventions.jpg
 
 date: January 07, 2020
 ---
