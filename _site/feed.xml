@@ -5,8 +5,8 @@
     <description>Virtual portfolio of Lukas Murdock</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 07 Jan 2020 13:51:07 -0500</pubDate>
-    <lastBuildDate>Tue, 07 Jan 2020 13:51:07 -0500</lastBuildDate>
+    <pubDate>Tue, 07 Jan 2020 14:03:28 -0500</pubDate>
+    <lastBuildDate>Tue, 07 Jan 2020 14:03:28 -0500</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
 
     
@@ -295,6 +295,39 @@ First iPad introduced by Apple&lt;/p&gt;
         <pubDate>Tue, 07 Jan 2020 00:00:00 -0500</pubDate>
         <link>http://localhost:4000/2020/01/07/a-timeline-of-inventions/</link>
         <guid isPermaLink="true">http://localhost:4000/2020/01/07/a-timeline-of-inventions/</guid>
+      </item>
+    
+      <item>
+        <title>Anatomy of Performing Content</title>
+        <description>&lt;p&gt;A nice reminder that the longer the better, headlines are important, building links requires effort, and people love lists.&lt;/p&gt;
+
+&lt;h2 id=&quot;long-reads&quot;&gt;Long reads&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Pages with 3000+ words get x3 more traffic, x4 more shares and x3.5 more backlinks than articles of average length (901-1200 words).&lt;/li&gt;
+  &lt;li&gt;Short (300-900 words) articles are not shared at all x4.5 more often than long reads of 3000+ words.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;lists&quot;&gt;Lists&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Listicles get the most shares and traffic (up to 2x more than other types of blog posts), followed by guides and “how to” articles.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;long-headlines&quot;&gt;Long Headlines&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Articles with long headlines (14+ words) get x2 more traffic, x2 more shares and x5 more backlinks than articles with short headlines (7-10 words).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;structure&quot;&gt;Structure&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Well-structured articles with h2 and h3 are more likely to be high performing (36% of articles with h2+h3 have high performance in terms of traffic, shares and backlinks).&lt;/li&gt;
+  &lt;li&gt;Articles with 5 lists per 500 words get up to x4 more traffic and up to x2 more shares than articles with no lists.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This data is from &lt;a href=&quot;https://gallery.mailchimp.com/7e5c71131a2313cd9939e3ac4/files/e632c370-e52a-4373-966d-7ab3dda379fe/2019_state_of_content_marketing_semrush.pdf?mindbox-click-id=a0a42d1a-7e87-48af-8554-147a3e5d60fb&quot;&gt;SEMrush analysis of 450,000+ tweets, hundreds of thousands of search queries, 700,000+ blog posts, and 1,200+ surveyed marketers across the globe.&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 06 Jan 2020 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2020/01/06/anatomy-of-performing-content/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/01/06/anatomy-of-performing-content/</guid>
       </item>
     
       <item>
