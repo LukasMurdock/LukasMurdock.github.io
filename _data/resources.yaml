@@ -19,6 +19,19 @@ fulldata:
   - Type: Guides
     List:
 
+      - Title: Learn Anything
+        Link: https://learn-anything.xyz/
+        Comment: "You can learn anything."
+
+      - Title: Google Skillshop
+        Link: https://safari.ethz.ch/courses/
+        Comment: "The one-stop-shop for every kind of learner who wants to succeed with Google professional tools and solutions."
+
+      - Title: Google Analytics Academy
+        Link: https://analytics.google.com/analytics/academy/
+        Comment: "Learn Google Analytics with free online courses"
+
+
       - Title: High Performance Computing Systems
         Link: https://safari.ethz.ch/courses/
         Comment: "Research computer architecture, systems, security, and bioinformatics."
@@ -412,12 +425,18 @@ fulldata:
       - Title: Seth Godin
         Link: https://seths.blog/
         Comment:
-        Category: Newsletter
+
+      - Title: News from Google
+        Link: https://www.google.com/press/blog-social-directory.html
+        Comment: "Blogs and social media of Google products."
+
+      - Title: Google Webmaster Central Blog
+        Link: https://webmasters.googleblog.com/
+        Comment: "Official news on crawling and indexing sites for the Google index."
 
       - Title: Taco from Trello
         Link: https://blog.trello.com/
         Comment:
-        Category: Newsletter
 
       - Title: Farnam Street
         Link: https://fs.blog/
@@ -789,12 +808,10 @@ fulldata:
       - Title: The Futur
         Link: https://www.youtube.com/channel/UC-b3c7kxa5vU-bnmaROgvog
         Comment:
-        Category: Youtube
 
       - Title: Kurzgesagt
         Link: https://www.youtube.com/channel/UCsXVk37bltHxD1rDPwtNM8Q
         Comment:
-        Category: Youtube
 
       - Title: Polymatter
         Link: https://www.youtube.com/channel/UCgNg3vwj3xt7QOrcIDaHdFg
@@ -849,10 +866,14 @@ fulldata:
   #Movies
   - Type: Movies
     List:
+
+      - Title: The Century of the Self
+        Link: https://www.youtube.com/watch?v=eJ3RzGoQC4s
+        Comment: "This series is about how those in power have used Freud's theories to try and control the dangerous crowd in an age of mass democracy."
+
       - Title: Rams
         Link: https://www.hustwit.com/rams
         Comment:
-        Category: Movie
 
       - Title: Helvetica
         Link: https://www.hustwit.com/helvetica
