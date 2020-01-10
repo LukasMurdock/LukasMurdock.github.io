@@ -90,12 +90,12 @@ Only candidates with $12,000,000+ in campaign fundraising were traced. In order 
 2. 0.9 MB: Joe Biden
 3. 2.8 MB: Cory Booker
 4. 2.9 MB: Bernie Sanders
-5. 3.6 MB: John Delaney
-6. 3.5 MB: Kamala Harris
-7. 4.3 MB: Elizabeth Warren
-8. 5.1 MB: Amy Klobuchar
-9. 5.9 MB: Pete Buttigieg
-10. 3.8 MB: Andrew Yang
+5. 3.5 MB: Kamala Harris
+6. 3.6 MB: John Delaney
+7. 3.8 MB: Andrew Yang
+8. 4.3 MB: Elizabeth Warren
+9. 5.1 MB: Amy Klobuchar
+20. 5.9 MB: Pete Buttigieg
 11. 7.0 MB: Tom Steyer
 
 ## URL
