@@ -426,9 +426,10 @@ fulldata:
   #Newsletters
   - Type: Newsletter
     List:
+
       - Title: Seth Godin
         Link: https://seths.blog/
-        Comment:
+        Comment: "Seth Godin's Blog on marketing, tribes and respect."
 
       - Title: News from Google
         Link: https://www.google.com/press/blog-social-directory.html
@@ -438,6 +439,10 @@ fulldata:
         Link: https://webmasters.googleblog.com/
         Comment: "Official news on crawling and indexing sites for the Google index."
 
+      - Title: The New Paper
+        Link: https://www.thenewpaper.co/
+        Comment: "The daily news in as few words as possible, delivered by email each weekday morning."
+
       - Title: Taco from Trello
         Link: https://blog.trello.com/
         Comment:
@@ -445,77 +450,62 @@ fulldata:
       - Title: Farnam Street
         Link: https://fs.blog/
         Comment:
-        Category: Newsletter
 
       - Title: Hacker News
         Link: https://hackernewsletter.com/
         Comment:
-        Category: Newsletter
 
       - Title: SSRN
         Link: https://www.ssrn.com
         Comment:
-        Category: Newsletter
 
       - Title: Product Hunt
         Link: https://www.producthunt.com
         Comment:
-        Category: Newsletter
 
       - Title: AJ & Smart
         Link: https://ajsmart.com/
         Comment:
-        Category: Newsletter
 
       - Title: Industry Dive
         Link: https://www.industrydive.com/
         Comment:
-        Category: Newsletter
 
       - Title: Google Trends
         Link: https://trends.google.com/trends/
         Comment:
-        Category: Newsletter
 
       - Title: TorrentFreak
         Link: https://torrentfreak.com/
         Comment:
-        Category: Newsletter
 
       - Title: Inside Design by Invision
         Link: https://www.invisionapp.com/inside-design/
         Comment:
-        Category: Newsletter
 
       - Title: Drop (formerly Massdrop)
         Link: https://drop.com/
         Comment:
-        Category: Newsletter
 
       - Title: ReallyGoodEmails
         Link: https://reallygoodemails.com/
         Comment:
-        Category: Newsletter
 
       - Title: Effectivology
         Link: https://effectiviology.com/
         Comment:
-        Category: Newsletter
 
       - Title: James Clear
         Link: https://jamesclear.com
         Comment:
-        Category: Newsletter
 
       - Title: Demand progress
         Link: https://demandprogress.org
         Comment:
-        Category: Newsletter
 
       - Title: Awesome developer newsletters
         Link: https://github.com/zudochkin/awesome-newsletters/blob/master/README.md
         Comment:
-        Category: Newsletter
 
   #Applications
   - Type: Applications
@@ -523,12 +513,18 @@ fulldata:
       - Title: Ethical.net
         Link: https://ethical.net/resources/
         Comment: "Ethical Alternatives & Resources"
-        Category: Application
+
+      - Title: Brave Browser
+        Link: https://brave.com/
+        Comment: "A fast, private and secure web browser for PC, Mac and mobile."
+
+      - Title: Express VPN
+        Link: https://www.expressvpn.com/
+        Comment: "The VPN that just works."
 
       - Title: VS Code
         Link: https://code.visualstudio.com/
         Comment: ""
-        Category: Application
 
       - Title: Affinity Designer
         Link: https://affinity.serif.com/en-us/designer/
@@ -568,6 +564,10 @@ fulldata:
       - Title: Motion 5
         Link: https://www.apple.com/final-cut-pro/motion/
         Comment: ""
+
+      - Title: Vector Magic
+        Link: https://vectormagic.com/
+        Comment: "Easily convert JPG, PNG, GIF files to PDF, SVG, EPS vectors."
 
       - Title: INK
         Link: https://inkforall.com/
