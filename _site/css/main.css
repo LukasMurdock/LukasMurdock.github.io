@@ -360,8 +360,8 @@ footer {
       }
       
       .menu_cross .topbar {
-        -webkit-transform: rotate(-45deg) translate(-3px, 3px);
-        transform: rotate(-45deg) translate(-3px, 3px);
+        -webkit-transform: rotate(-44deg) translate(-3px, 3.5px);
+        transform: rotate(-44deg) translate(-3px, 3.5px);
       }
       
       .menu_cross .bottombar {
