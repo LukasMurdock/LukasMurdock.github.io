@@ -5,10 +5,135 @@
     <description>Virtual portfolio of Lukas Murdock</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 10 Jan 2020 05:23:31 -0500</pubDate>
-    <lastBuildDate>Fri, 10 Jan 2020 05:23:31 -0500</lastBuildDate>
+    <pubDate>Sat, 11 Jan 2020 01:50:38 -0500</pubDate>
+    <lastBuildDate>Sat, 11 Jan 2020 01:50:38 -0500</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
 
+    
+      <item>
+        <title>2020 Presidential Candidate Donate Form Comparison</title>
+        <description>&lt;style&gt;
+
+ol {
+  margin: 0 0 1.5em;
+  padding: 0;
+  counter-reset: item;
+}
+
+ol &gt; li {
+  margin: 0;
+  padding: 0 0 0 34px;
+  text-indent: -25px;
+  list-style-type: none;
+  counter-increment: item;
+}
+
+ol &gt; li:before {
+  display: inline-block;
+  font-variant-numeric: tabular-nums;
+  width: 1em;
+  padding-right: 0.5em;
+  font-weight: 800;
+  text-align: right;
+  /* content: counter(item) &quot;.&quot;; */
+}
+
+ol &gt; li:before {
+  content: &quot;0&quot; counter(item)&quot;.&quot;;
+}
+ol &gt; li:nth-child(n+10):before {
+  content: counter(item)&quot;.&quot;;
+}
+
+.w3-content {
+  max-height: 667px;
+  overflow: scroll;
+}
+
+.mySlides {
+  display:none
+  }
+
+&lt;/style&gt;
+
+&lt;p&gt;In my research for &lt;a href=&quot;/2020/01/10/2020-presidential-website-comparison/&quot;&gt;2020 Presidential Candidate Website Comparison&lt;/a&gt; I realized that each party had their own fundraising tool called WinRed and ActBlue. These tools allow donors to save their information to give again with a single-click automatic payment. &lt;strong&gt;Each party has their own Amazon Buy now with 1-click button.&lt;/strong&gt; Except instead of going back to Amazon products time and time again, the idea is you repeatedly support party-line members. And just like Amazon 1-click buttons, Candidates (their campaign teams) will A/B test every contribution form to maximize conversion rates.&lt;/p&gt;
+
+&lt;h2 id=&quot;tool-google-index&quot;&gt;Tool Google Index&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;ActBlue: About 107,000 results&lt;/li&gt;
+  &lt;li&gt;WinRed: About 1,200 results&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;candidate-google-index&quot;&gt;Candidate Google Index&lt;/h2&gt;
+&lt;p&gt;This search was done using respective party tools (ActBlue/WinRed) sites and Candidate last names to account for some variability in naming.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;About 4,240 results: Warren&lt;/li&gt;
+  &lt;li&gt;About 617 results: Booker&lt;/li&gt;
+  &lt;li&gt;About 390 results: Trump&lt;/li&gt;
+  &lt;li&gt;About 359 results: Biden&lt;/li&gt;
+  &lt;li&gt;About 213 results: Yang&lt;/li&gt;
+  &lt;li&gt;About 45 results: Buttigieg&lt;/li&gt;
+  &lt;li&gt;About 29 results: Klobuchar&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;form-previews&quot;&gt;Form Previews&lt;/h2&gt;
+
+&lt;div class=&quot;w3-content&quot; style=&quot;max-width:800px&quot;&gt;
+  &lt;img class=&quot;mySlides&quot; src=&quot;/images/posts/trump_mobile_donate.png&quot; style=&quot;width:100%&quot; alt=&quot;Donald Trump 2020 Campaign mobile donation preview&quot; /&gt;
+  &lt;img class=&quot;mySlides&quot; src=&quot;/images/posts/bernie_mobile_donate.png&quot; style=&quot;width:100%&quot; alt=&quot;Bernie Sanders 2020 Campaign mobile donation preview&quot; /&gt;
+  &lt;img class=&quot;mySlides&quot; src=&quot;/images/posts/warren_mobile_donate.png&quot; style=&quot;width:100%&quot; alt=&quot;Elizabeth Warren 2020 Campaign mobile donation preview&quot; /&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;w3-center&quot;&gt;
+  &lt;div class=&quot;w3-section&quot;&gt;
+    &lt;button class=&quot;w3-button w3-light-grey&quot; onclick=&quot;plusDivs(-1)&quot;&gt;❮ Prev&lt;/button&gt;
+    &lt;button class=&quot;w3-button w3-light-grey&quot; onclick=&quot;plusDivs(1)&quot;&gt;Next ❯&lt;/button&gt;
+  &lt;/div&gt;
+  &lt;button class=&quot;w3-button demo&quot; onclick=&quot;currentDiv(1)&quot;&gt;Donald Trump&lt;/button&gt; 
+  &lt;button class=&quot;w3-button demo&quot; onclick=&quot;currentDiv(2)&quot;&gt;Bernie Sanders&lt;/button&gt; 
+  &lt;button class=&quot;w3-button demo&quot; onclick=&quot;currentDiv(3)&quot;&gt;Elizabeth Warren&lt;/button&gt; 
+&lt;/div&gt;
+
+&lt;h2 id=&quot;form-evaluation&quot;&gt;Form Evaluation&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/trump_edit.png&quot; style=&quot;width:100%&quot; alt=&quot;Donald Trump 2020 Campaign mobile donation form evaluation&quot; /&gt;
+  &lt;img src=&quot;/images/posts/bernie_edit.png&quot; style=&quot;width:100%&quot; alt=&quot;Bernie Sanders 2020 Campaign mobile donation form evaluation&quot; /&gt;
+  &lt;img src=&quot;/images/posts/warren_edit.png&quot; style=&quot;width:100%&quot; alt=&quot;Elizabeth Warren 2020 Campaign mobile donation form evaluation&quot; /&gt;&lt;/p&gt;
+
+&lt;script&gt;
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName(&quot;mySlides&quot;);
+  var dots = document.getElementsByClassName(&quot;demo&quot;);
+  if (n &gt; x.length) {slideIndex = 1}    
+  if (n &lt; 1) {slideIndex = x.length}
+  for (i = 0; i &lt; x.length; i++) {
+    x[i].style.display = &quot;none&quot;;  
+  }
+  for (i = 0; i &lt; dots.length; i++) {
+    dots[i].className = dots[i].className.replace(&quot; w3-red&quot;, &quot;&quot;);
+  }
+  x[slideIndex-1].style.display = &quot;block&quot;;  
+  dots[slideIndex-1].className += &quot; w3-red&quot;;
+}
+&lt;/script&gt;
+
+</description>
+        <pubDate>Sat, 11 Jan 2020 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2020/01/11/2020-presidential-form-comparison/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/01/11/2020-presidential-form-comparison/</guid>
+      </item>
     
       <item>
         <title>2020 Presidential Candidate Website Comparison</title>
@@ -103,12 +228,12 @@ ol &gt; li:nth-child(n+10):before {
   &lt;li&gt;0.9 MB: Joe Biden&lt;/li&gt;
   &lt;li&gt;2.8 MB: Cory Booker&lt;/li&gt;
   &lt;li&gt;2.9 MB: Bernie Sanders&lt;/li&gt;
-  &lt;li&gt;3.6 MB: John Delaney&lt;/li&gt;
   &lt;li&gt;3.5 MB: Kamala Harris&lt;/li&gt;
+  &lt;li&gt;3.6 MB: John Delaney&lt;/li&gt;
+  &lt;li&gt;3.8 MB: Andrew Yang&lt;/li&gt;
   &lt;li&gt;4.3 MB: Elizabeth Warren&lt;/li&gt;
   &lt;li&gt;5.1 MB: Amy Klobuchar&lt;/li&gt;
   &lt;li&gt;5.9 MB: Pete Buttigieg&lt;/li&gt;
-  &lt;li&gt;3.8 MB: Andrew Yang&lt;/li&gt;
   &lt;li&gt;7.0 MB: Tom Steyer&lt;/li&gt;
 &lt;/ol&gt;
 
