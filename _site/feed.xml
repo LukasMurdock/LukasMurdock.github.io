@@ -5,8 +5,8 @@
     <description>Virtual portfolio of Lukas Murdock</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 11 Jan 2020 01:50:38 -0500</pubDate>
-    <lastBuildDate>Sat, 11 Jan 2020 01:50:38 -0500</lastBuildDate>
+    <pubDate>Sat, 11 Jan 2020 08:01:56 -0500</pubDate>
+    <lastBuildDate>Sat, 11 Jan 2020 08:01:56 -0500</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
 
     
@@ -133,6 +133,134 @@ function showDivs(n) {
         <pubDate>Sat, 11 Jan 2020 00:00:00 -0500</pubDate>
         <link>http://localhost:4000/2020/01/11/2020-presidential-form-comparison/</link>
         <guid isPermaLink="true">http://localhost:4000/2020/01/11/2020-presidential-form-comparison/</guid>
+      </item>
+    
+      <item>
+        <title>2020 Presidential Candidate Font Comparison</title>
+        <description>&lt;style&gt;
+
+h3 {
+  font-size: 20px;
+}
+
+&lt;/style&gt;
+
+&lt;p&gt;Part One: &lt;a href=&quot;/2020/01/10/2020-presidential-website-comparison/&quot;&gt;2020 Presidential Candidate Website Comparison&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Part Two: &lt;a href=&quot;/2020/01/10/2020-presidential-website-comparison/&quot;&gt;2020 Presidential Candidate Donate Form Comparison&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Font specimens are sourced from &lt;a href=&quot;https://www.typewolf.com/&quot;&gt;Typewolf.&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;candidates&quot;&gt;Candidates&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Donald Trump: Geometric sans-serif&lt;/li&gt;
+  &lt;li&gt;Bernie Sanders: Slab serif&lt;/li&gt;
+  &lt;li&gt;Elizabeth Warren: Sans-serif&lt;/li&gt;
+  &lt;li&gt;Pete Buttigieg: Geometric sans-serif&lt;/li&gt;
+  &lt;li&gt;Tom Steyer: Geometric sans-serif&lt;/li&gt;
+  &lt;li&gt;Joe Biden: Geometric sans-serif&lt;/li&gt;
+  &lt;li&gt;Kamala Harris: Grotesque sans-serif&lt;/li&gt;
+  &lt;li&gt;Cory Booker: Sans-serif&lt;/li&gt;
+  &lt;li&gt;Amy Klobuchar: Geometric sans-serif&lt;/li&gt;
+  &lt;li&gt;Andrew Yang: Geometric sans-serif&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;donald-trump&quot;&gt;Donald Trump&lt;/h2&gt;
+
+&lt;h3 id=&quot;headline--body-montserrat-regularbold&quot;&gt;&lt;strong&gt;Headline &amp;amp; Body:&lt;/strong&gt; Montserrat (Regular/Bold)&lt;/h3&gt;
+
+&lt;p&gt;Montserrat is a geometric sans-serif typeface designed by Argentinian designer Julieta Ulanovsky in 2011, inspired by posters and signs in the Montserrat neighborhood of Buenos Aires. Montserrat is often mentioned as the closest free alternative to Gotham and Proxima Nova. Available for free in Google Fonts.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.typewolf.com/assets/img/specimens/montserrat-specimen.png&quot; style=&quot;padding-bottom: 10px; max-width:200px;&quot; alt=&quot;Montserrat Type Specimen&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://fonts.google.com/specimen/Montserrat&quot;&gt;Get Montserrat →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;bernie-sanders&quot;&gt;Bernie Sanders&lt;/h2&gt;
+
+&lt;h3 id=&quot;headline-jubilat-bold&quot;&gt;&lt;strong&gt;Headline:&lt;/strong&gt; Jubilat (Bold)&lt;/h3&gt;
+&lt;p&gt;Jubilat is a slab serif typeface designed by Joshua Darden and released through Darden Studio in 2008. Bernie Sanders has featured Jubilat since his 2016 presidential campaign. The family comes in an impressive 11 weights with matching italics, making it one of the most versatile slab serifs available. Adobe Fonts includes this family for both desktop and web&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.typewolf.com/assets/img/specimens/jubilat-specimen.png&quot; style=&quot;padding-bottom: 10px; max-width:200px;&quot; alt=&quot;Jubilat Type Specimen&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;body-gibson-regularmediumsemi-bold&quot;&gt;&lt;strong&gt;Body:&lt;/strong&gt; Gibson (Regular/Medium/Semi-bold)&lt;/h3&gt;
+
+&lt;p&gt;Gibson is a humanist sans-serif typeface designed in 2011 by Canadian type designer Rod McDonald. Intended to be an affordable alternative to design students. All revenue is donated to the Society of Graphic Designers of Canada to help support design education in Canada. Adobe Fonts includes this family for both desktop and web.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.typewolf.com/assets/img/specimens/gibson-specimen.png&quot; style=&quot;padding-bottom: 10px; max-width:200px;&quot; alt=&quot;Gibson Type Specimen&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;elizabeth-warren&quot;&gt;Elizabeth Warren&lt;/h2&gt;
+
+&lt;h3 id=&quot;headline-ringside-compressed-a-a-regularbold&quot;&gt;&lt;strong&gt;Headline:&lt;/strong&gt; Ringside (Compressed A, A Regular/Bold)&lt;/h3&gt;
+&lt;p&gt;Ringside is a sans-serif type family released by Hoefler &amp;amp; Co. in 2017. The design is a continuation of the ideas behind Knockout, a wood type-influenced grotesque released by H&amp;amp;Co over 20 years earlier. Whereas Knockout was designed as a display face for setting headlines, Ringside was designed to handle setting text. With 172 styles, Ringside is the largest family to date in H&amp;amp;Co’s catalog.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.typewolf.com/assets/img/specimens/ringside-specimen.png&quot; style=&quot;padding-bottom: 10px; max-width:200px;&quot; alt=&quot;Ringside Type Specimen&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;body-freight-text-pro-book&quot;&gt;&lt;strong&gt;Body:&lt;/strong&gt; Freight Text Pro (Book)&lt;/h3&gt;
+&lt;p&gt;Freight Text is a serif typeface designed by Joshua Darden and published through GarageFonts in 2005. Freight is an extremely versatile superfamily with many different versions available, making it suitable for a wide range of typographic challenges. Other members of the superfamily include Freight Sans, Freight Neo, Freight Display and Freight Big. Freight Text is available in five weights—light, book, medium, bold and black—each with matching italics and small caps styles.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.typewolf.com/assets/img/specimens/freight-text-specimen.png&quot; style=&quot;padding-bottom: 10px; max-width:200px;&quot; alt=&quot;Freight Text Type Specimen&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;pete-buttigieg&quot;&gt;Pete Buttigieg&lt;/h2&gt;
+
+&lt;h3 id=&quot;headline--body-futura&quot;&gt;&lt;strong&gt;Headline &amp;amp; Body:&lt;/strong&gt; Futura&lt;/h3&gt;
+&lt;p&gt;Released in 1927, Futura is a geometric sans-serif typeface designed by German type designer Paul Renner. It was a revolutionary design for its time, as most books in Germany were still being printed in heavy blackletter scripts. Futura has remained consistently popular since its release over 85 years ago. It’s the favorite typeface of directors Wes Anderson and Stanley Kubrick and has been the main advertising typeface of Volkswagen since the 1960s. Futura continues to be one of the most popular fonts used on the web.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.typewolf.com/assets/img/specimens/futura-specimen.png&quot; style=&quot;padding-bottom: 10px; max-width:200px;&quot; alt=&quot;Futura Type Specimen&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;tom-steyer&quot;&gt;Tom Steyer&lt;/h2&gt;
+
+&lt;h3 id=&quot;headline-centra-no2&quot;&gt;&lt;strong&gt;Headline:&lt;/strong&gt; Centra No2&lt;/h3&gt;
+&lt;p&gt;Centra No2 is a geometric sans-serif typeface designed by Josh Finklea and published through Sharp Type in 2018. The design was inspired by the modernist typefaces of the twentieth century but with a focus on texture and readability rather than pure geometry. The family is available in eight weights with matching italics. There is also a sister family available, Centra No1, that draws on the work of Eric Gill and Edward Johnston.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.typewolf.com/assets/img/specimens/centra-no2-specimen.png&quot; style=&quot;padding-bottom: 10px; max-width:200px;&quot; alt=&quot;Centra No2 Type Specimen&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For some reason the homepage also houses Galaxie Copernicus for a quote block and Trade Gothic Next Compressed for all capitalized text…&lt;/p&gt;
+
+&lt;h2 id=&quot;joe-biden&quot;&gt;Joe Biden&lt;/h2&gt;
+
+&lt;h3 id=&quot;headline-brother-1816&quot;&gt;&lt;strong&gt;Headline:&lt;/strong&gt; Brother 1816&lt;/h3&gt;
+&lt;p&gt;Released in 2016, Borther 1816 is a Geometric sans-serif typeface designed by Fernando Díaz and Ignacio Corbo at Tipotype. Tipotype is the first foundry to call Uruguay home. Founded in 2009 by Fernando Díaz, Vicente Lamónaca and Martin Sommaruga with the mission of creating contemporary typefaces and also a platform for type designers to easily commercialize their work. Adobe Fonts includes this family for both desktop and web.&lt;/p&gt;
+
+&lt;h2 id=&quot;kamala-harris&quot;&gt;Kamala Harris&lt;/h2&gt;
+
+&lt;h3 id=&quot;headline-bureau-grotesque&quot;&gt;&lt;strong&gt;Headline:&lt;/strong&gt; Bureau Grotesque&lt;/h3&gt;
+&lt;p&gt;Bureau Grotesque is a grotesque sans-serif typeface first developed by David Berlow in 1989. The design was modeled after grotesques from the nineteenth-century. The Bureau Grotesque family was later expanded upon by other designers and the name shortened to Bureau Grot. Adobe Fonts includes this family for both desktop and web.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.typewolf.com/assets/img/specimens/bureau-grotesque-specimen.png&quot; style=&quot;padding-bottom: 10px; max-width:200px;&quot; alt=&quot;Bureau Grotesque Type Specimen&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;body-ivy-journal&quot;&gt;&lt;strong&gt;Body:&lt;/strong&gt; Ivy Journal&lt;/h3&gt;
+&lt;p&gt;Ivy Journal is a serif typeface designed by Jan Maack from Ivy Foundry in 2016. The design is loosely based on both the seminal Roman inscriptional capitals and classic movable type in the vein of Bembo, Baskerville, and Times New Roman. Adobe Fonts includes this family for both desktop and web.&lt;/p&gt;
+
+&lt;h3 id=&quot;links-roc-grotesk&quot;&gt;&lt;strong&gt;Links:&lt;/strong&gt; Roc Grotesk&lt;/h3&gt;
+&lt;p&gt;Roc Grotesk is a sans-serif typeface designed by Nikola Kostić and released in 2012 through father-and-son Serbian foundry Kostić Type Foundry. The design was inspired by late nineteenth-century American wood types. The family is available in nine weights, each in five widths (regular, condensed, compressed, wide and extra-wide), for a total of 45 styles. Adobe Fonts includes this family for both desktop and web.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.typewolf.com/assets/img/specimens/roc-grotesk-specimen.png&quot; style=&quot;padding-bottom: 10px; max-width:200px;&quot; alt=&quot;Roc Grotesk Type Specimen&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;cory-booker&quot;&gt;Cory Booker&lt;/h2&gt;
+
+&lt;h3 id=&quot;headline-conductor-condensed&quot;&gt;&lt;strong&gt;Headline:&lt;/strong&gt; Conductor Condensed&lt;/h3&gt;
+&lt;p&gt;Released in 2018, Conductor is a sans-serif typeface designed by Tobias Frere-Jones and Nina Stössinger at Frere-Jones Type Foundry. Conductor is a commanding display family, inspired by a diverse range of historical references and structural game-playing. Originally based on the delicate, blocky numerals from vintage Bulgarian lottery tickets, it also incorporates elements of vernacular shopfront lettering and mid-century type design.&lt;/p&gt;
+
+&lt;h3 id=&quot;body-dapifer&quot;&gt;&lt;strong&gt;Body:&lt;/strong&gt; Dapifer&lt;/h3&gt;
+&lt;p&gt;Dapifer is a slab serif typeface designed by Joshua Darden and released through Darden Studio in 2012. Commissioned by Mucca Design for One Atlantic. Design and production assistance by Thomas Jockin, Scott Kellum, Noam Berg, and Lucas Sharp. Adobe Fonts includes this family for both desktop and web.&lt;/p&gt;
+
+&lt;h2 id=&quot;amy-klobuchar&quot;&gt;Amy Klobuchar&lt;/h2&gt;
+
+&lt;h3 id=&quot;headline--body-avenir-next&quot;&gt;&lt;strong&gt;Headline &amp;amp; Body:&lt;/strong&gt; Avenir Next&lt;/h3&gt;
+&lt;p&gt;Released in 1988, Avenir is a geometric sans-serif typeface designed by legendary type designer Adrian Frutiger, best known for his Univers and Frutiger designs. Although modeled after Futura (Avenir is the French word for future) and classified as a geometric sans, Avenir has some slightly humanist features that add warmth to the face, such as the tail on the t and the o that isn’t a perfect circle. Frutiger considered Avenir his finest work and is available in six weights—light, book, roman, medium, heavy and black—each with corresponding oblique styles.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.typewolf.com/assets/img/specimens/bureau-grotesque-specimen.png&quot; style=&quot;padding-bottom: 10px; max-width:200px;&quot; alt=&quot;Bureau Grotesque Type Specimen&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;andrew-yang&quot;&gt;Andrew Yang&lt;/h2&gt;
+
+&lt;h3 id=&quot;headline--body-montserrat&quot;&gt;&lt;strong&gt;Headline &amp;amp; Body:&lt;/strong&gt; Montserrat&lt;/h3&gt;
+
+&lt;p&gt;Montserrat is a geometric sans-serif typeface designed by Argentinian designer Julieta Ulanovsky in 2011, inspired by posters and signs in the Montserrat neighborhood of Buenos Aires. Montserrat is often mentioned as the closest free alternative to Gotham and Proxima Nova. Available for free in Google Fonts.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.typewolf.com/assets/img/specimens/montserrat-specimen.png&quot; style=&quot;padding-bottom: 10px; max-width:200px;&quot; alt=&quot;Montserrat Type Specimen&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 11 Jan 2020 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2020/01/11/2020-presidential-font-comparison/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/01/11/2020-presidential-font-comparison/</guid>
       </item>
     
       <item>
