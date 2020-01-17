@@ -157,7 +157,7 @@ nav input {
 	transform-origin: 26px 4px;
 	top: 25px;
   }
-  nav menu {
+  nav ul {
 	margin:0;
 	padding:0;
 	background: #212121;
@@ -170,18 +170,18 @@ nav input {
 	z-index: -1;
 	top: 0;
   }
-  nav menu li {
+  nav ul li {
 	margin: 0;
 	list-style: none;
 	width: 100%;
   }
-  nav menu li:first-child {
+  nav ul li:first-child {
 	margin-top: 100px;
   }
-  nav menu li:first-child a {
+  nav ul li:first-child a {
 	/* border-top: rgba(255, 255, 255, 0.2) 1px solid; */ 
   }
-  nav menu li a {
+  nav ul li a {
 	padding: 20px 0;
 	text-decoration: none;
 	text-align: center;
@@ -190,11 +190,11 @@ nav input {
 	/* border-bottom: rgba(255, 255, 255, 0.2) 1px solid; */
   }
 
-nav #nav:checked ~ menu{
+nav #nav:checked ~ ul{
 	z-index: 998!important;
 }
 
-  nav menu li a:hover {
+  nav ul li a:hover {
 	/* background: rgba(0, 0, 0, 0.1); */
 	color: rgba(255, 255, 255, 0.7);
 	text-decoration: none!important;
@@ -218,7 +218,7 @@ nav #nav:checked ~ menu{
 	transform: rotate(-45deg) translate(10px, -14px);
 	background: #fff;
   }
-  nav #nav:checked ~ menu {
+  nav #nav:checked ~ ul {
 	opacity: 1;
   }
   
