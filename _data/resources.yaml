@@ -186,6 +186,10 @@ fulldata:
         Link: https://materialdesignicons.com
         Comment: ""
 
+      - Title: Color.review
+        Link: https://color.review/
+        Comment: "Colors that look and work great for everyone."
+
       - Title: Color by Cloudflare Design
         Link: https://cloudflare.design/color
         Comment: "Generate accessible color combinations."
@@ -201,6 +205,10 @@ fulldata:
       - Title: Colors and Fonts
         Link: https://www.colorsandfonts.com/
         Comment: "Curated library of colors, fonts, and resources for Web Developers & Digital Designers."
+
+      - Title: Design System Checklist
+        Link: https://designsystemchecklist.com/
+        Comment: "An open-source checklist to help you plan, build and grow your design system."
 
       - Title: Checklist Design
         Link: https://www.checklist.design/
@@ -334,7 +342,10 @@ fulldata:
       - Title: Webflow
         Link: https://webflow.com/
         Comment: ""
-        Category: Software
+
+      - Title: Wealthfront
+        Link: https://www.wealthfront.com/
+        Comment: "Save, plan and invest all in one place, on autopilot."
 
       - Title: Write With Transformer
         Link: https://transformer.huggingface.co
@@ -421,6 +432,10 @@ fulldata:
       - Title: Grammarly
         Link: https://www.grammarly.com/
         Comment: "Eliminate errors and find the perfect words to express yourself."
+
+      - Title: CSS Stats
+        Link: https://cssstats.com/
+        Comment: "Analytics and visualizations for your stylesheets"
 
 
   #Newsletters
@@ -638,27 +653,26 @@ fulldata:
       - Title: Political advertising transparency
         Link: https://transparencyreport.google.com/political-ads/home
         Comment: ""
-        Category: Website
 
       - Title: Project Gutenburg
         Link: https://www.gutenberg.org/
         Comment: ""
-        Category: Website
 
       - Title: Standard Ebooks
         Link: https://standardebooks.org/
         Comment: ""
-        Category: Website
 
       - Title: "*privacy not included"
         Link: https://foundation.mozilla.org/en/privacynotincluded/
         Comment: "Guide to help you shop for safe, secure connected products."
-        Category: Website
+
+      - Title: Explorable Explanations
+        Link: https://explorabl.es/
+        Comment: "A hub for learning through play."
 
       - Title: MF Website
         Link: http://motherfuckingwebsite.com/
         Comment: ""
-        Category: Website
 
       - Title: Better MF Website
         Link: http://bettermotherfuckingwebsite.com/
@@ -871,6 +885,10 @@ fulldata:
   - Type: Movies
     List:
 
+      - Title: Thought Maybe
+        Link: http://thoughtmaybe.com/
+        Comment: "An online library of films focused on topics challenging modern society, industrial civilisation, globalisation and dominant culture."
+
       - Title: The Century of the Self
         Link: https://thoughtmaybe.com/the-century-of-the-self/
         Comment: "This 4 part series is about how those in power have used Freud's theories to try and control the dangerous crowd in an age of mass democracy."
@@ -937,6 +955,10 @@ fulldata:
       - Title: Craig Mod
         Link: https://craigmod.com/
         Comment: "Inspired around the web"
+
+      - Title: Jonnie Hallman
+        Link: https://destroytoday.com/
+        Comment: ""
 
       - Title: Mario Depicolzuane
         Link: https://depicolzuane.com/
