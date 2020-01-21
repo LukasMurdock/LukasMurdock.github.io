@@ -235,8 +235,11 @@ fulldata:
 
       - Title: Starbucks Creative
         Link: https://creative.starbucks.com
-        Comment: ""
-        Category: UIUX
+        Comment: "It all starts here. Use this guide as a high-level overview of how the Starbucks brand comes to life."
+
+      - Title: Uber Brand
+        Link: https://brand.uber.com/
+        Comment: "A bold new brand awaits."
 
       - Title: UX Frameworks
         Link: https://www.uxframeworks.design
