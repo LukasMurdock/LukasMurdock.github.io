@@ -613,8 +613,11 @@ fulldata:
 
       - Title: BuiltWith
         Link: https://chrome.google.com/webstore/detail/builtwith-technology-prof/dapjbgnjinbpoindlpdmhochffioedbn?hl=en
-        Comment: ""
-        Category: Chrome add-ons
+        Comment: "Find out what websites are Built With."
+
+      - Title: Wappalyzer
+        Link: https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg?hl=en
+        Comment: "Identify technology on websites."
 
       - Title: SVG Grabber
         Link: https://chrome.google.com/webstore/detail/svg-grabber-get-all-the-s/ndakggdliegnegeclmfgodmgemdokdmg?hl=en
