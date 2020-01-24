@@ -599,6 +599,10 @@ fulldata:
   #Chrome Apps
   - Type: Chrome Apps
     List:
+      - Title: Extension Rank
+        Link: https://www.ssa.gov/accessibility/andi/help/install.html
+        Comment: "Discover the best extensions ranked by users and reviews."
+
       - Title: ANDI
         Link: https://www.ssa.gov/accessibility/andi/help/install.html
         Comment: "Accessible Name & Description Inspector."
@@ -653,6 +657,10 @@ fulldata:
   #Website
   - Type: Website
     List:
+      - Title: Dataset Search
+        Link: https://datasetsearch.research.google.com/
+        Comment: "Find datasets stored across the Web through a simple keyword search."
+
       - Title: Political advertising transparency
         Link: https://transparencyreport.google.com/political-ads/home
         Comment: ""
