@@ -389,15 +389,17 @@ fulldata:
         Comment: ""
         Category: Software
 
+      - Title: GoatCounter
+        Link: https://www.goatcounter.com/
+        Comment: "Simple web statistics. No tracking of personal data."
+
       - Title: Similar Web
         Link: https://similarweb.com/
         Comment: ""
-        Category: Software
 
       - Title: Built With
         Link: https://builtwith.com/
         Comment: ""
-        Category: Software
 
 
  # Evaluation
@@ -600,7 +602,7 @@ fulldata:
   - Type: Chrome Apps
     List:
       - Title: Extension Rank
-        Link: https://www.ssa.gov/accessibility/andi/help/install.html
+        Link: https://extensionrank.com/
         Comment: "Discover the best extensions ranked by users and reviews."
 
       - Title: ANDI
