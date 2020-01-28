@@ -6,6 +6,7 @@ date: January 28, 2020
 ---
 
 Input => Output => Feedback/Measurement => Alter input
+
 Cue => Craving => Response => Reward
 
 The Feynman Technique is often referred to as the best way to learn.
@@ -13,6 +14,7 @@ The Feynman Technique is often referred to as the best way to learn.
 2. Teach it to somebody else.
 3. Identify gaps in your explanation, review to better understand it.
 4. Enhance and simplify.
+
 [Read more about this technique on Farnam Street](https://fs.blog/2012/04/feynman-technique/)
 
 
@@ -32,6 +34,6 @@ Make high intensity, rapid feedback situations. It’s hard, it’s uncomfortabl
 
 [Read more about Learning here](https://lukasmurdock.com/ultralearning/)
 
-Improving is bottlenecked by feedback loops. To improve faster create faster feedback loops. AI has the fastest feedback loop ever seen. The process and scale from input to alteration is faster than anything humans are remotely capable of. 
+Improving is bottlenecked by feedback loops. To improve faster, create faster feedback loops. AI has the fastest feedback loop ever seen. The process and scale from input to alteration is faster than anything humans are remotely capable of. 
 
 Moving forward we need to see how we can enhance our own feedback loops. Just because we have machines doesn’t mean we can stop improving what we know.
