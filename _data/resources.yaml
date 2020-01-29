@@ -59,117 +59,122 @@ fulldata:
       - Title: Google Project Aristotle
         Link: https://rework.withgoogle.com/guides/understanding-team-effectiveness/steps/introduction/
         Comment: "Online courses, designed for you to grow your career or business."
-        Category: Guides
+        
 
       - Title: Google Digital Garage
         Link: https://learndigital.withgoogle.com/digitalgarage
         Comment: "A guide to understanding team effectiveness at Google."
-        Category: Guides
+        
 
       - Title: Almanac
         Link: https://askalmanac.com/
         Comment: "Access to tools, templates, and guides from top startup minds."
-        Category: Guides
+        
 
       - Title: A guide to type styles
         Link: https://www.fontsmith.com/blog/2019/06/24/a-guide-to-type-styles
         Comment: ""
-        Category: Guides
+        
 
       - Title: Degreeless Design
         Link: https://www.degreeless.design/
         Comment: ""
-        Category: Guides
+        
 
       - Title: AIGA Design Business and Ethics
         Link: https://www.aiga.org/design-business-and-ethics
         Comment: ""
-        Category: Guides
+        
 
       - Title: Multiple Currency Accounting
         Link: https://www.mathstat.dal.ca/~selinger/accounting/tutorial.html
         Comment:
-        Category: Guides
+        
 
       - Title: Best SEO Tools
         Link: https://saijogeorge.com/best-marketing-tools/
         Comment: ""
-        Category: Guides
+        
 
       - Title: Wistia Learn
         Link: https://wistia.com/learn
         Comment:
-        Category: Guides
+        
 
       - Title: Programming project based learning
         Link: https://github.com/tuvtran/project-based-learning/blob/master/README.md?utm_source=share&utm_medium=ios_app&utm_name=iossmf#javascript
         Comment: "A list of programming tutorials in which learners build an application from scratch."
-        Category: Guides
+        
 
       - Title: Developer Roadmap
         Link: https://roadmap.sh
         Comment:
-        Category: Guides
+        
 
       - Title: Guide to HTML head elements
         Link: https://htmlhead.dev/
         Comment: "A free guide to HTML5 head tag elements"
-        Category: Guides
+        
 
       - Title: Visual intro to probability and statistics
         Link: https://seeing-theory.brown.edu
         Comment:
-        Category: Guides
+        
 
       - Title: Javascript references
         Link: https://github.com/mdjsn/references/blob/master/README.md
         Comment:
-        Category: Guides
+        
 
       - Title: Guides for frontend developers
         Link: https://www.learnstorybook.com/
         Comment:
-        Category: Guides
+        
 
       - Title: Free resources for Freelancers
         Link: https://usefyi.com/templates/freelancer-templates/
         Comment:
-        Category: Guides
+        
 
       - Title: Project Engineering Lead Expectations
         Link: https://docs.google.com/document/d/1kngKHUCS0DHNvZAO8PfkcsTD4Mq7b11L09RIaVpQnwI/
         Comment: "Uber project lead expectations Gergely Orosz team has been using at Uber."
-        Category: Guides
+        
 
       - Title: Typewolf
         Link: https://www.typewolf.com
         Comment:
-        Category: Guides
+        
 
       - Title: TheFutur
         Link: https://www.thefutur.com/
         Comment:
-        Category: Guides
+        
 
       - Title: "Speaking.io"
         Link: https://speaking.io/
         Comment: "Because <i>imagine everyone's naked</i> is terrible advice."
-        Category: Guides.
 
       - Title: Sheets for Marketers
         Link: https://sheetsformarketers.com/
         Comment:
-        Category: Guides
 
       - Title: 80000 Hours
         Link: https://80000hours.org/
         Comment:
-        Category: Guides
+
+      - Title: The book on video workflows
+        Link: https://earlyusergrowth.com/startups/
+        Comment: "Everything you need to know, from capture to delivery, with contributions from the world’s most brilliant post-production minds."
 
       - Title: Early User Growth
         Link: https://earlyusergrowth.com/startups/
         Comment:
-        Category: Guides
+
+      - Title: Precious Plastic
+        Link: https://preciousplastic.com/
+        Comment: "Start a business from plastic waste!"
+        
 
   #UIUX
   - Type: UIUX
@@ -226,12 +231,14 @@ fulldata:
       - Title: A collection of design systems
         Link: https://github.com/alexpate/awesome-design-systems
         Comment: ""
-        Category: UIUX
+
+      - Title: Dark Patterns
+        Link: https://www.darkpatterns.org/
+        Comment: "Dark Patterns are tricks used in websites and apps that make you do things that you didn't mean to, like buying or signing up for something."
 
       - Title: Design systems
         Link: https://www.designsystems.com/
         Comment: "A Figma publication for design systems creators, designers, developers, and managers"
-        Category: UIUX
 
       - Title: Starbucks Creative
         Link: https://creative.starbucks.com
@@ -244,12 +251,10 @@ fulldata:
       - Title: UX Frameworks
         Link: https://www.uxframeworks.design
         Comment:
-        Category: UIUX
 
       - Title: Web Gradients
         Link: https://webgradients.com
         Comment: ""
-        Category: UIUX
 
       - Title: Humaaans
         Link: https://www.humaaans.com/
@@ -473,6 +478,10 @@ fulldata:
 
       - Title: Hacker News
         Link: https://hackernewsletter.com/
+        Comment:
+
+      - Title: Hacker News Digest
+        Link: https://yahnd.com/
         Comment:
 
       - Title: SSRN
@@ -897,6 +906,61 @@ fulldata:
         Comment:
         Category: Youtube
 
+  # Personal Sites
+  - Type: Personal sites
+    List:
+      - Title: Humans.fyi
+        Link: https://humans.fyi/
+        Comment: Design inspiration from some of the best humans on the web.
+
+      - Title: Adam Silver
+        Link: https://adamsilver.io/
+        Comment: ""
+
+      - Title: Ari Stathopoulos
+        Link: https://aristath.github.io/
+        Comment: ""
+
+      - Title: Brody Maclean
+        Link: https://brody.com/
+        Comment: ""
+
+      - Title: Marko Saric
+        Link: https://markosaric.com/
+        Comment: ""
+
+      - Title: Tom Macwright
+        Link: https://macwright.org/
+        Comment: "Inspired reading list"
+
+      - Title: Craig Mod
+        Link: https://craigmod.com/
+        Comment: "Inspired around the web"
+
+      - Title: Jonnie Hallman
+        Link: https://destroytoday.com/
+        Comment: ""
+
+      - Title: Mario Depicolzuane
+        Link: https://depicolzuane.com/
+        Comment: ""
+
+      - Title: Robb Owen
+        Link: https://robbowen.digital/
+        Comment: ""
+
+      - Title: Ryan Johnson
+        Link: https://brentryanjohnson.com/
+        Comment: "Inspired reading list"
+
+      - Title: Brittany Chiang
+        Link: https://brittanychiang.com
+        Comment: "Nice portfolio"
+
+      - Title: Kelly Sutton
+        Link: https://kellysutton.com/
+        Comment: ""
+
   #Movies
   - Type: Movies
     List:
@@ -941,53 +1005,4 @@ fulldata:
         Comment:
         Category: Music
 
-  # Personal Sites
-  - Type: Personal sites
-    List:
-      - Title: Humans.fyi
-        Link: https://humans.fyi/
-        Comment: Design inspiration from some of the best humans on the web.
 
-      - Title: Adam Silver
-        Link: https://adamsilver.io/
-        Comment: ""
-
-      - Title: Ari Stathopoulos
-        Link: https://aristath.github.io/
-        Comment: ""
-
-      - Title: Brody Maclean
-        Link: https://brody.com/
-        Comment: ""
-
-      - Title: Marko Saric
-        Link: https://markosaric.com/
-        Comment: ""
-
-      - Title: Tom Macwright
-        Link: https://macwright.org/
-        Comment: "Inspired reading list"
-
-      - Title: Craig Mod
-        Link: https://craigmod.com/
-        Comment: "Inspired around the web"
-
-      - Title: Jonnie Hallman
-        Link: https://destroytoday.com/
-        Comment: ""
-
-      - Title: Mario Depicolzuane
-        Link: https://depicolzuane.com/
-        Comment: ""
-
-      - Title: Ryan Johnson
-        Link: https://brentryanjohnson.com/
-        Comment: "Inspired reading list"
-
-      - Title: Brittany Chiang
-        Link: https://brittanychiang.com
-        Comment: "Nice portfolio"
-
-      - Title: Kelly Sutton
-        Link: https://kellysutton.com/
-        Comment: ""
