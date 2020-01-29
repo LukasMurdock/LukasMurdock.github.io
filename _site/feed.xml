@@ -9,19 +9,22 @@
     <webfeeds:accentColor>F94643</webfeeds:accentColor>
     <webfeeds:related layout="card" target="browser"/>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 29 Jan 2020 06:58:59 -0500</pubDate>
-    <lastBuildDate>Wed, 29 Jan 2020 06:58:59 -0500</lastBuildDate>
+    <pubDate>Wed, 29 Jan 2020 07:06:59 -0500</pubDate>
+    <lastBuildDate>Wed, 29 Jan 2020 07:06:59 -0500</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
 
     
       <item>
         <title>Transcript &amp; College Course Alternatives</title>
-        <description>&lt;h1 id=&quot;semester-01&quot;&gt;Semester 01&lt;/h1&gt;
+        <description>&lt;p&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Last Updated: January 29, 2020&lt;/span&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;semester-01&quot;&gt;Semester 01&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Foundations of Business&lt;/strong&gt;&lt;br /&gt;
 BUS 101 — 2 Credit Hours&lt;br /&gt;
 Terrible class to explain working in groups.&lt;br /&gt;
-&lt;span class=&quot;full-underline&quot; style=&quot;font-size: 12px;&quot;&gt;Way better alternative to&lt;/span&gt;&lt;a href=&quot;https://www.amazon.com/dp/B01MSY1Y6Z/ref=dp-kindle-redirect?_encoding=UTF8&amp;amp;btkr=1&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt; Group work&lt;/a&gt;&lt;/p&gt;
+&lt;span class=&quot;full-underline&quot; style=&quot;font-size: 12px;&quot;&gt;Way better alternative to&lt;/span&gt;&lt;a href=&quot;https://www.amazon.com/dp/B01MSY1Y6Z/ref=dp-kindle-redirect?_encoding=UTF8&amp;amp;btkr=1&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt; Group work&lt;/a&gt;&lt;br /&gt;
+&lt;span class=&quot;full-underline&quot; style=&quot;font-size: 12px;&quot;&gt;Way better alternative to&lt;/span&gt;&lt;a href=&quot;hhttps://rework.withgoogle.com/guides/understanding-team-effectiveness/steps/introduction/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt; Group Effectiveness&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Foundations BUS Communication&lt;/strong&gt;&lt;br /&gt;
 BUS 102 — 2 Credit Hours&lt;br /&gt;
@@ -48,7 +51,7 @@ MTH 151 — 5 Credit Hours&lt;br /&gt;
 PHY 101 — 3 Credit Hours&lt;br /&gt;
 &lt;span class=&quot;full-underline&quot; style=&quot;font-size: 12px;&quot;&gt;Way better alternative to&lt;/span&gt; &lt;a href=&quot;https://www.khanacademy.org/science/physics&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt; Physics&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;semester-02&quot;&gt;Semester 02&lt;/h1&gt;
+&lt;h2 id=&quot;semester-02&quot;&gt;Semester 02&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Intro To Financial Accounting&lt;/strong&gt;&lt;br /&gt;
 ACC 221 — 3 Credit Hours&lt;br /&gt;
@@ -72,9 +75,9 @@ MTH 151 — 5 Credit Hours&lt;br /&gt;
 PHY 103 — 1 Credit Hour&lt;br /&gt;
 TBD&lt;/p&gt;
 </description>
-        <pubDate>Tue, 28 Jan 2020 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2020/01/28/2020-transcript/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/01/28/2020-transcript/</guid>
+        <pubDate>Wed, 29 Jan 2020 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2020/01/29/2020-transcript/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/01/29/2020-transcript/</guid>
       </item>
     
       <item>
