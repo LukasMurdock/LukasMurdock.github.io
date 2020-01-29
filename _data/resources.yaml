@@ -602,10 +602,23 @@ fulldata:
         Link: https://inkforall.com/
         Comment: "AI Web Content Optimization Platform."
 
+      - Title: Screaming Frog SEO Spider
+        Link: https://www.screamingfrog.co.uk/seo-spider/
+        Comment: "Industry leading website crawler."
+
       - Title: Httrack
         Link: https://www.httrack.com/
         Comment: "Download sites to a local computer."
-        Category: Application
+
+      - Title: Transmission
+        Link: https://transmissionbt.com/
+        Comment: "A fast, easy, and free BitTorrent client."
+
+      - Title: Malwarebytes
+        Link: https://www.malwarebytes.com/
+        Comment: "Protects you against malware, ransomware, malicious websites, and other advanced online threats."
+
+        
 
   #Chrome Apps
   - Type: Chrome Apps
