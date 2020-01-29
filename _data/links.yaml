@@ -9,6 +9,9 @@
 linkslist:
   - Date: January 2020
     Links:
+      - Title: Things I believe
+        Link: https://gist.github.com/stettix/5bb2d99e50fdbbd15dd9622837d14e2b
+        Comment: A collection of things @JanStette believes about software development.
       - Title: Simple Made Easy
         Link: https://www.infoq.com/presentations/simple-made-easy/
         Comment: Rich Hickey emphasizes simplicity's virtues over easiness', showing that while many choose easiness they may end up with complexity, and the better way is to choose easiness along the simplicity path.
