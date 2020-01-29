@@ -1,14 +1,122 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0">
   <channel>
     <title>Lukas Murdock</title>
     <description>Virtual portfolio of Lukas Murdock</description>
     <link>http://localhost:4000/</link>
+    <webfeeds:icon>https://lukasmurdock.com/safari-pinned-tab.svg</webfeeds:icon>
+    <webfeeds:logo>https://lukasmurdock.com/safari-pinned-tab.svg</webfeeds:logo>
+    <webfeeds:accentColor>F94643</webfeeds:accentColor>
+    <webfeeds:related layout="card" target="browser"/>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 22 Jan 2020 07:50:18 -0500</pubDate>
-    <lastBuildDate>Wed, 22 Jan 2020 07:50:18 -0500</lastBuildDate>
+    <pubDate>Wed, 29 Jan 2020 06:58:59 -0500</pubDate>
+    <lastBuildDate>Wed, 29 Jan 2020 06:58:59 -0500</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
 
+    
+      <item>
+        <title>Transcript &amp; College Course Alternatives</title>
+        <description>&lt;h1 id=&quot;semester-01&quot;&gt;Semester 01&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Foundations of Business&lt;/strong&gt;&lt;br /&gt;
+BUS 101 — 2 Credit Hours&lt;br /&gt;
+Terrible class to explain working in groups.&lt;br /&gt;
+&lt;span class=&quot;full-underline&quot; style=&quot;font-size: 12px;&quot;&gt;Way better alternative to&lt;/span&gt;&lt;a href=&quot;https://www.amazon.com/dp/B01MSY1Y6Z/ref=dp-kindle-redirect?_encoding=UTF8&amp;amp;btkr=1&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt; Group work&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Foundations BUS Communication&lt;/strong&gt;&lt;br /&gt;
+BUS 102 — 2 Credit Hours&lt;br /&gt;
+&lt;span class=&quot;full-underline&quot; style=&quot;font-size: 12px;&quot;&gt;Way better alternative to&lt;/span&gt;&lt;a href=&quot;https://speaking.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt; Communication&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Computational Thinking&lt;/strong&gt;&lt;br /&gt;
+BUS 104 — 2 Credit Hours&lt;br /&gt;
+&lt;span class=&quot;full-underline&quot; style=&quot;font-size: 12px;&quot;&gt;Way better alternative to&lt;/span&gt; &lt;a href=&quot;https://www.w3schools.com/js/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt; Javascript&lt;/a&gt;&lt;br /&gt;
+&lt;span class=&quot;full-underline&quot; style=&quot;font-size: 12px;&quot;&gt;Way better alternative to&lt;/span&gt; &lt;a href=&quot;https://www.w3schools.com/sql/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt; SQL&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FSB Success Strategies&lt;/strong&gt; &lt;br /&gt;
+BUS 106 — 1 Credit Hour&lt;br /&gt;
+&lt;em&gt;Terrible class to explain terrible systems at Miami.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Creativity and Innovation&lt;/strong&gt; &lt;br /&gt;
+ESP 103 — 2 Credit Hours&lt;br /&gt;
+&lt;span class=&quot;full-underline&quot; style=&quot;font-size: 12px;&quot;&gt;Way better alternative to&lt;/span&gt; &lt;a href=&quot;https://www.amazon.com/Principles-Product-Management-Launch-Career-ebook/dp/B083D667N2&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt; Principles and product development&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Calculus I&lt;/strong&gt; &lt;br /&gt;
+MTH 151 — 5 Credit Hours&lt;br /&gt;
+&lt;span class=&quot;full-underline&quot; style=&quot;font-size: 12px;&quot;&gt;Way better alternative to&lt;/span&gt; &lt;a href=&quot;https://www.khanacademy.org/math/calculus-1&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt; Calculus&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Physics &amp;amp; Society&lt;/strong&gt;&lt;br /&gt;
+PHY 101 — 3 Credit Hours&lt;br /&gt;
+&lt;span class=&quot;full-underline&quot; style=&quot;font-size: 12px;&quot;&gt;Way better alternative to&lt;/span&gt; &lt;a href=&quot;https://www.khanacademy.org/science/physics&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt; Physics&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;semester-02&quot;&gt;Semester 02&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Intro To Financial Accounting&lt;/strong&gt;&lt;br /&gt;
+ACC 221 — 3 Credit Hours&lt;br /&gt;
+&lt;span class=&quot;full-underline&quot; style=&quot;font-size: 12px;&quot;&gt;Way better alternative to&lt;/span&gt; &lt;a href=&quot;https://www.youtube.com/watch?v=56xscQ4viWE&amp;amp;list=PL5zKSeS09l339nB6ujJPQ9Rsv99_b-aTb&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt; Accounting&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Business Computing&lt;/strong&gt;&lt;br /&gt;
+CSE 148 — 3 Credit Hours&lt;br /&gt;
+&lt;span class=&quot;full-underline&quot; style=&quot;font-size: 12px;&quot;&gt;Way better alternative to&lt;/span&gt; &lt;a href=&quot;https://www.youtube.com/watch?v=0nbkaYsR94c&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt; Excel&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Composition and Rhetoric&lt;/strong&gt;&lt;br /&gt;
+ENG 111 — 3 Credit Hours&lt;br /&gt;
+TBD&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Calculus I&lt;/strong&gt;&lt;br /&gt;
+MTH 151 — 5 Credit Hours&lt;br /&gt;
+&lt;span class=&quot;full-underline&quot; style=&quot;font-size: 12px;&quot;&gt;Way better alternative to&lt;/span&gt; &lt;a href=&quot;http://pages.stat.wisc.edu/~ifischer/calculus.pdf&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt; Calculus Refresher&lt;/a&gt;&lt;br /&gt;
+&lt;span class=&quot;full-underline&quot; style=&quot;font-size: 12px;&quot;&gt;Way better alternative to&lt;/span&gt; &lt;a href=&quot;https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt; Essense of Calculus&lt;/a&gt;&lt;br /&gt;
+&lt;span class=&quot;full-underline&quot; style=&quot;font-size: 12px;&quot;&gt;Way better alternative to&lt;/span&gt; &lt;a href=&quot;https://www.google.com/search?biw=1680&amp;amp;bih=840&amp;amp;tbm=isch&amp;amp;sxsrf=ACYBGNRtYk73x-d34apKpsVKq_KL8dIIAw%3A1580204858271&amp;amp;sa=1&amp;amp;ei=OgMwXo6UENCEsAWluqy4DQ&amp;amp;q=differentiation+rules&amp;amp;oq=differe+rules&amp;amp;gs_l=img.3.0.0i7i30l10.5654.6289..6890...0.0..0.67.618.10......0....1..gws-wiz-img.......35i39j0.C-1YbasupQU#imgrc=KYS4xEanf9upPM:&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt; Derivative Rules&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Concepts in Physics Laboratory&lt;/strong&gt;&lt;br /&gt;
+PHY 103 — 1 Credit Hour&lt;br /&gt;
+TBD&lt;/p&gt;
+</description>
+        <pubDate>Tue, 28 Jan 2020 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2020/01/28/2020-transcript/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/01/28/2020-transcript/</guid>
+      </item>
+    
+      <item>
+        <title>Feedback Loops</title>
+        <description>&lt;p&gt;Input =&amp;gt; Output =&amp;gt; Feedback/Measurement =&amp;gt; Alter input&lt;/p&gt;
+
+&lt;p&gt;Cue =&amp;gt; Craving =&amp;gt; Response =&amp;gt; Reward&lt;/p&gt;
+
+&lt;p&gt;The Feynman Technique is often referred to as the best way to learn.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Learn with intent to teach it to somebody else.&lt;/li&gt;
+  &lt;li&gt;Teach it to somebody else.&lt;/li&gt;
+  &lt;li&gt;Identify gaps in your explanation, review to better understand it.&lt;/li&gt;
+  &lt;li&gt;Enhance and simplify.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://fs.blog/2012/04/feynman-technique/&quot;&gt;Read more about this technique on Farnam Street&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;When you teach you get feedback on your articulation.&lt;/p&gt;
+
+&lt;p&gt;You’re often not even aware of your own process. To better understand your process and what’s missing, articulate it.&lt;/p&gt;
+
+&lt;p&gt;Feedback allows you to find gaps you couldn’t see before. To improve something, create better feedback loops.&lt;/p&gt;
+
+&lt;p&gt;Noisy feedback can ruin you. Carefully select the feedback you pay attention and reduce the noise to get more of the signal.&lt;/p&gt;
+
+&lt;p&gt;Your own perspective is valuable, but don’t assume you know it all. Adjust so you’re not able to predict success or failure.&lt;/p&gt;
+
+&lt;p&gt;Compare to see which works better. Evaluate the overall success of the strategy you’re using. Decide when you should focus on the strategy you’re already using and when you should experiment with other methods.&lt;/p&gt;
+
+&lt;p&gt;Make high intensity, rapid feedback situations. It’s hard, it’s uncomfortable, but you’ll get over that initial aversion much faster than if you wait months or years before getting feedback.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lukasmurdock.com/ultralearning/&quot;&gt;Read more about Learning here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Improving is bottlenecked by feedback loops. To improve faster, create faster feedback loops. AI has the fastest feedback loop ever seen. The process and scale from input to alteration is faster than anything humans are remotely capable of.&lt;/p&gt;
+
+&lt;p&gt;Moving forward we need to see how we can enhance our own feedback loops. Just because we have machines doesn’t mean we can stop improving what we know.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 28 Jan 2020 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2020/01/28/2020-feedback-loops-copy/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/01/28/2020-feedback-loops-copy/</guid>
+      </item>
     
       <item>
         <title>2020 Presidential Candidate Donate Form Comparison</title>
@@ -131,8 +239,8 @@ function showDivs(n) {
 
 </description>
         <pubDate>Sat, 11 Jan 2020 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2020/01/11/2020-presidential-form-comparison/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/01/11/2020-presidential-form-comparison/</guid>
+        <link>http://localhost:4000/2020/01/11/2020-presidential-form-comparison-copy/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/01/11/2020-presidential-form-comparison-copy/</guid>
       </item>
     
       <item>
