@@ -9,8 +9,8 @@
     <webfeeds:accentColor>F94643</webfeeds:accentColor>
     <webfeeds:related layout="card" target="browser"/>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 31 Jan 2020 07:18:30 -0500</pubDate>
-    <lastBuildDate>Fri, 31 Jan 2020 07:18:30 -0500</lastBuildDate>
+    <pubDate>Fri, 31 Jan 2020 12:59:00 -0500</pubDate>
+    <lastBuildDate>Fri, 31 Jan 2020 12:59:00 -0500</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
 
     
