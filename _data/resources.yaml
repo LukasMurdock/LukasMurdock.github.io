@@ -13,6 +13,7 @@
 # Movies
 # Music
 # Personal sites
+# Niche resources / Collator
 
 fulldata:
   #Guides
@@ -64,100 +65,62 @@ fulldata:
       - Title: Google Digital Garage
         Link: https://learndigital.withgoogle.com/digitalgarage
         Comment: "A guide to understanding team effectiveness at Google."
-        
-
-      - Title: Almanac
-        Link: https://askalmanac.com/
-        Comment: "Access to tools, templates, and guides from top startup minds."
-        
 
       - Title: A guide to type styles
         Link: https://www.fontsmith.com/blog/2019/06/24/a-guide-to-type-styles
         Comment: ""
         
-
       - Title: Degreeless Design
         Link: https://www.degreeless.design/
         Comment: ""
         
-
       - Title: AIGA Design Business and Ethics
         Link: https://www.aiga.org/design-business-and-ethics
         Comment: ""
         
-
       - Title: Multiple Currency Accounting
         Link: https://www.mathstat.dal.ca/~selinger/accounting/tutorial.html
         Comment:
-        
-
-      - Title: Best SEO Tools
-        Link: https://saijogeorge.com/best-marketing-tools/
-        Comment: ""
-        
 
       - Title: Wistia Learn
         Link: https://wistia.com/learn
         Comment:
         
-
       - Title: Programming project based learning
         Link: https://github.com/tuvtran/project-based-learning/blob/master/README.md?utm_source=share&utm_medium=ios_app&utm_name=iossmf#javascript
         Comment: "A list of programming tutorials in which learners build an application from scratch."
         
-
       - Title: Developer Roadmap
         Link: https://roadmap.sh
         Comment:
-        
+
+      - Title: Hacker Roadmap
+        Link: https://sundowndev.github.io/hacker-roadmap/
+        Comment: "A guide for amateurs pen testers and a collection of hacking tools, resources and references to practice ethical hacking, pen testing and web security."
 
       - Title: Guide to HTML head elements
         Link: https://htmlhead.dev/
         Comment: "A free guide to HTML5 head tag elements"
         
-
       - Title: Visual intro to probability and statistics
         Link: https://seeing-theory.brown.edu
         Comment:
         
-
       - Title: Javascript references
         Link: https://github.com/mdjsn/references/blob/master/README.md
-        Comment:
-        
-
-      - Title: Guides for frontend developers
-        Link: https://www.learnstorybook.com/
-        Comment:
-        
-
-      - Title: Free resources for Freelancers
-        Link: https://usefyi.com/templates/freelancer-templates/
-        Comment:
-        
+        Comment:  
 
       - Title: Project Engineering Lead Expectations
         Link: https://docs.google.com/document/d/1kngKHUCS0DHNvZAO8PfkcsTD4Mq7b11L09RIaVpQnwI/
-        Comment: "Uber project lead expectations Gergely Orosz team has been using at Uber."
-        
-
-      - Title: Typewolf
-        Link: https://www.typewolf.com
-        Comment:
-        
+        Comment: "Uber project lead expectations Gergely Orosz team has been using at Uber."        
 
       - Title: TheFutur
         Link: https://www.thefutur.com/
         Comment:
         
-
       - Title: "Speaking.io"
         Link: https://speaking.io/
         Comment: "Because <i>imagine everyone's naked</i> is terrible advice."
-
-      - Title: Sheets for Marketers
-        Link: https://sheetsformarketers.com/
-        Comment:
 
       - Title: 80000 Hours
         Link: https://80000hours.org/
@@ -309,17 +272,13 @@ fulldata:
         Comment: ""
         Category: UIUX
 
-  #Software
-  - Type: Software
+
+  #Niche resources
+  - Type: Niche Resources
     List:
-
-      - Title: Basecamp
-        Link: https://basecamp.com/
-        Comment: "Get it together and manage projects the right way."
-
-      - Title: Code Sandbox
-        Link: https://codesandbox.io/
-        Comment: "An instant IDE and prototyping tool for rapid web development."
+      - Title: Makerpad
+        Link: https://www.makerpad.co/
+        Comment: "Build tools & automate at work without code."
 
       - Title: Exploding Topics
         Link: https://explodingtopics.com/
@@ -340,7 +299,87 @@ fulldata:
       - Title: Leaderboard for the best new products
         Link: https://pragli.com/leaderboard-for-product-hunt/
         Comment: "Product Hunt leaderboard"
-        Category: Software
+
+      - Title: Almanac
+        Link: https://askalmanac.com/
+        Comment: "Access to tools, templates, and guides from top startup minds."
+
+      - Title: Best SEO Tools
+        Link: https://saijogeorge.com/best-marketing-tools/
+        Comment: ""
+
+      - Title: Guides for frontend developers
+        Link: https://www.learnstorybook.com/
+        Comment:
+        
+      - Title: Free resources for Freelancers
+        Link: https://usefyi.com/templates/freelancer-templates/
+        Comment:
+
+      - Title: Typewolf
+        Link: https://www.typewolf.com
+        Comment:
+
+      - Title: Sheets for Marketers
+        Link: https://sheetsformarketers.com/
+        Comment:
+
+
+
+
+# Evaluation
+  - Type: Evaluation
+    List:
+
+      - Title: Web.dev
+        Link: https://web.dev/
+        Comment: "See how well your website performs. Then, get tips to improve your user experience."
+
+      - Title: Checkbot
+        Link: https://www.checkbot.io/
+        Comment: "Fix broken links, duplicate titles, insecure pages, invalid HTML & more."
+
+      - Title: Wave — Web Accessibility 
+        Link: https://wave.webaim.org/
+        Comment: "Web Accessibility Evaluation Tool by WebAIM."
+
+      - Title: ANDI
+        Link: https://www.ssa.gov/accessibility/andi/help/install.html
+        Comment: "Accessible Name & Description Inspector."
+
+      - Title: W3C Validator
+        Link: https://validator.w3.org/
+        Comment: "Check the markup of Web documents."
+
+      - Title: GTMetrix
+        Link: https://gtmetrix.com/
+        Comment: "See how your site performs, reveal why it's slow and discover optimization opportunities."
+
+      - Title: Pingdom
+        Link: https://tools.pingdom.com/
+        Comment: "Test the page load time, analyze it, and find bottlenecks."
+
+      - Title: Grammarly
+        Link: https://www.grammarly.com/
+        Comment: "Eliminate errors and find the perfect words to express yourself."
+
+      - Title: CSS Stats
+        Link: https://cssstats.com/
+        Comment: "Analytics and visualizations for your stylesheets"
+
+
+
+  #Software
+  - Type: Software
+    List:
+
+      - Title: Basecamp
+        Link: https://basecamp.com/
+        Comment: "Get it together and manage projects the right way."
+
+      - Title: Code Sandbox
+        Link: https://codesandbox.io/
+        Comment: "An instant IDE and prototyping tool for rapid web development."
 
       - Title: Google Drive
         Link: https://www.google.com/drive/
@@ -407,45 +446,151 @@ fulldata:
         Comment: ""
 
 
- # Evaluation
-  - Type: Evaluation
+
+#Chrome Apps
+  - Type: Chrome Apps
     List:
-
-      - Title: Web.dev
-        Link: https://web.dev/
-        Comment: "See how well your website performs. Then, get tips to improve your user experience."
-
-      - Title: Checkbot
-        Link: https://www.checkbot.io/
-        Comment: "Fix broken links, duplicate titles, insecure pages, invalid HTML & more."
-
-      - Title: Wave — Web Accessibility 
-        Link: https://wave.webaim.org/
-        Comment: "Web Accessibility Evaluation Tool by WebAIM."
+      - Title: Extension Rank
+        Link: https://extensionrank.com/
+        Comment: "Discover the best extensions ranked by users and reviews."
 
       - Title: ANDI
         Link: https://www.ssa.gov/accessibility/andi/help/install.html
         Comment: "Accessible Name & Description Inspector."
 
-      - Title: W3C Validator
-        Link: https://validator.w3.org/
-        Comment: "Check the markup of Web documents."
+      - Title: 77X
+        Link: https://chrome.google.com/webstore/detail/77x/lgnkmlgloomjfbmdenogdehhphnhaihb?hl=en
+        Comment: ""
 
-      - Title: GTMetrix
-        Link: https://gtmetrix.com/
-        Comment: "See how your site performs, reveal why it's slow and discover optimization opportunities."
+      - Title: BuiltWith
+        Link: https://chrome.google.com/webstore/detail/builtwith-technology-prof/dapjbgnjinbpoindlpdmhochffioedbn?hl=en
+        Comment: "Find out what websites are Built With."
 
-      - Title: Pingdom
-        Link: https://tools.pingdom.com/
-        Comment: "Test the page load time, analyze it, and find bottlenecks."
+      - Title: Wappalyzer
+        Link: https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg?hl=en
+        Comment: "Identify technology on websites."
+
+      - Title: SVG Grabber
+        Link: https://chrome.google.com/webstore/detail/svg-grabber-get-all-the-s/ndakggdliegnegeclmfgodmgemdokdmg?hl=en
+        Comment: ""
+        Category: Chrome add-ons
+
+      - Title: AdBlock
+        Link: https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom?hl=en
+        Comment: ""
+        Category: Chrome add-ons
 
       - Title: Grammarly
-        Link: https://www.grammarly.com/
-        Comment: "Eliminate errors and find the perfect words to express yourself."
+        Link: https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen?hl=en
+        Comment: ""
+        Category: Chrome add-ons
 
-      - Title: CSS Stats
-        Link: https://cssstats.com/
-        Comment: "Analytics and visualizations for your stylesheets"
+      - Title: The Great Suspender
+        Link: https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg?hl=en
+        Comment: ""
+        Category: Chrome add-ons
+
+      - Title: CSS Peeper
+        Link: https://chrome.google.com/webstore/detail/css-peeper/mbnbehikldjhnfehhnaidhjhoofhpehk?hl=en
+        Comment: ""
+        Category: Chrome add-ons
+
+      - Title: Fontface Ninja
+        Link: https://chrome.google.com/webstore/detail/fontface-ninja/eljapbgkmlngdpckoiiibecpemleclhh?hl=en
+        Comment: ""
+
+      - Title: Checkbot
+        Link: https://www.checkbot.io/
+        Comment: "Fix broken links, duplicate titles, insecure pages, invalid HTML & more."
+
+      - Title: Bullshit js
+        Link: https://mourner.github.io/bullshit.js/
+        Comment: ""
+        Category: Chrome add-ons
+
+
+
+#Applications
+  - Type: Applications
+    List:
+      - Title: Ethical.net
+        Link: https://ethical.net/resources/
+        Comment: "Ethical Alternatives & Resources"
+
+      - Title: Brave Browser
+        Link: https://brave.com/
+        Comment: "A fast, private and secure web browser for PC, Mac and mobile."
+
+      - Title: Express VPN
+        Link: https://www.expressvpn.com/
+        Comment: "The VPN that just works."
+
+      - Title: VS Code
+        Link: https://code.visualstudio.com/
+        Comment: ""
+
+      - Title: Affinity Designer
+        Link: https://affinity.serif.com/en-us/designer/
+        Comment: ""
+        Category: Application
+
+      - Title: Affinity Photo
+        Link: https://affinity.serif.com/en-us/photo/
+        Comment: ""
+        Category: Application
+
+      - Title: Affinity Publisher
+        Link: https://affinity.serif.com/en-us/publisher/
+        Comment: ""
+        Category: Application
+
+      - Title: Adobe Illustrator
+        Link: https://www.adobe.com/products/illustrator.html
+        Comment: ""
+        Category: Application
+
+      - Title: Adobe After Effects
+        Link: https://www.adobe.com/products/aftereffects.html
+        Comment: ""
+        Category: Application
+
+      - Title: Adobe Premiere Pro
+        Link: https://www.adobe.com/products/premiere.html
+        Comment: ""
+        Category: Application
+
+      - Title: Final Cut Pro X
+        Link: https://www.apple.com/final-cut-pro/
+        Comment: ""
+        Category: Application
+
+      - Title: Motion 5
+        Link: https://www.apple.com/final-cut-pro/motion/
+        Comment: ""
+
+      - Title: Vector Magic
+        Link: https://vectormagic.com/
+        Comment: "Easily convert JPG, PNG, GIF files to PDF, SVG, EPS vectors."
+
+      - Title: INK
+        Link: https://inkforall.com/
+        Comment: "AI Web Content Optimization Platform."
+
+      - Title: Screaming Frog SEO Spider
+        Link: https://www.screamingfrog.co.uk/seo-spider/
+        Comment: "Industry leading website crawler."
+
+      - Title: Httrack
+        Link: https://www.httrack.com/
+        Comment: "Download sites to a local computer."
+
+      - Title: Transmission
+        Link: https://transmissionbt.com/
+        Comment: "A fast, easy, and free BitTorrent client."
+
+      - Title: Malwarebytes
+        Link: https://www.malwarebytes.com/
+        Comment: "Protects you against malware, ransomware, malicious websites, and other advanced online threats."
 
 
   #Newsletters
@@ -540,150 +685,7 @@ fulldata:
         Link: https://github.com/zudochkin/awesome-newsletters/blob/master/README.md
         Comment:
 
-  #Applications
-  - Type: Applications
-    List:
-      - Title: Ethical.net
-        Link: https://ethical.net/resources/
-        Comment: "Ethical Alternatives & Resources"
-
-      - Title: Brave Browser
-        Link: https://brave.com/
-        Comment: "A fast, private and secure web browser for PC, Mac and mobile."
-
-      - Title: Express VPN
-        Link: https://www.expressvpn.com/
-        Comment: "The VPN that just works."
-
-      - Title: VS Code
-        Link: https://code.visualstudio.com/
-        Comment: ""
-
-      - Title: Affinity Designer
-        Link: https://affinity.serif.com/en-us/designer/
-        Comment: ""
-        Category: Application
-
-      - Title: Affinity Photo
-        Link: https://affinity.serif.com/en-us/photo/
-        Comment: ""
-        Category: Application
-
-      - Title: Affinity Publisher
-        Link: https://affinity.serif.com/en-us/publisher/
-        Comment: ""
-        Category: Application
-
-      - Title: Adobe Illustrator
-        Link: https://www.adobe.com/products/illustrator.html
-        Comment: ""
-        Category: Application
-
-      - Title: Adobe After Effects
-        Link: https://www.adobe.com/products/aftereffects.html
-        Comment: ""
-        Category: Application
-
-      - Title: Adobe Premiere Pro
-        Link: https://www.adobe.com/products/premiere.html
-        Comment: ""
-        Category: Application
-
-      - Title: Final Cut Pro X
-        Link: https://www.apple.com/final-cut-pro/
-        Comment: ""
-        Category: Application
-
-      - Title: Motion 5
-        Link: https://www.apple.com/final-cut-pro/motion/
-        Comment: ""
-
-      - Title: Vector Magic
-        Link: https://vectormagic.com/
-        Comment: "Easily convert JPG, PNG, GIF files to PDF, SVG, EPS vectors."
-
-      - Title: INK
-        Link: https://inkforall.com/
-        Comment: "AI Web Content Optimization Platform."
-
-      - Title: Screaming Frog SEO Spider
-        Link: https://www.screamingfrog.co.uk/seo-spider/
-        Comment: "Industry leading website crawler."
-
-      - Title: Httrack
-        Link: https://www.httrack.com/
-        Comment: "Download sites to a local computer."
-
-      - Title: Transmission
-        Link: https://transmissionbt.com/
-        Comment: "A fast, easy, and free BitTorrent client."
-
-      - Title: Malwarebytes
-        Link: https://www.malwarebytes.com/
-        Comment: "Protects you against malware, ransomware, malicious websites, and other advanced online threats."
-
         
-
-  #Chrome Apps
-  - Type: Chrome Apps
-    List:
-      - Title: Extension Rank
-        Link: https://extensionrank.com/
-        Comment: "Discover the best extensions ranked by users and reviews."
-
-      - Title: ANDI
-        Link: https://www.ssa.gov/accessibility/andi/help/install.html
-        Comment: "Accessible Name & Description Inspector."
-
-      - Title: 77X
-        Link: https://chrome.google.com/webstore/detail/77x/lgnkmlgloomjfbmdenogdehhphnhaihb?hl=en
-        Comment: ""
-
-      - Title: BuiltWith
-        Link: https://chrome.google.com/webstore/detail/builtwith-technology-prof/dapjbgnjinbpoindlpdmhochffioedbn?hl=en
-        Comment: "Find out what websites are Built With."
-
-      - Title: Wappalyzer
-        Link: https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg?hl=en
-        Comment: "Identify technology on websites."
-
-      - Title: SVG Grabber
-        Link: https://chrome.google.com/webstore/detail/svg-grabber-get-all-the-s/ndakggdliegnegeclmfgodmgemdokdmg?hl=en
-        Comment: ""
-        Category: Chrome add-ons
-
-      - Title: AdBlock
-        Link: https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom?hl=en
-        Comment: ""
-        Category: Chrome add-ons
-
-      - Title: Grammarly
-        Link: https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen?hl=en
-        Comment: ""
-        Category: Chrome add-ons
-
-      - Title: The Great Suspender
-        Link: https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg?hl=en
-        Comment: ""
-        Category: Chrome add-ons
-
-      - Title: CSS Peeper
-        Link: https://chrome.google.com/webstore/detail/css-peeper/mbnbehikldjhnfehhnaidhjhoofhpehk?hl=en
-        Comment: ""
-        Category: Chrome add-ons
-
-      - Title: Fontface Ninja
-        Link: https://chrome.google.com/webstore/detail/fontface-ninja/eljapbgkmlngdpckoiiibecpemleclhh?hl=en
-        Comment: ""
-
-      - Title: Checkbot
-        Link: https://www.checkbot.io/
-        Comment: "Fix broken links, duplicate titles, insecure pages, invalid HTML & more."
-
-      - Title: Bullshit js
-        Link: https://mourner.github.io/bullshit.js/
-        Comment: ""
-        Category: Chrome add-ons
 
   #Website
   - Type: Website
@@ -758,13 +760,6 @@ fulldata:
         Link: https://www.maximumfun.org/shows/story-break
         Comment:
         Category: Podcast
-
-  #Books
-  - Type: Books
-    List:
-      - Title: New page for Book List!
-        Link: https://lukasmurdock.com/booklist/
-        Comment:
 
 
   #Youtube
@@ -908,6 +903,15 @@ fulldata:
         Link: https://movies.disney.com/tron
         Comment:
         Category: Movie
+
+
+
+  #Books
+  - Type: Books
+    List:
+      - Title: New page for Book List!
+        Link: https://lukasmurdock.com/booklist/
+        Comment:
 
   #Music
   - Type: Music

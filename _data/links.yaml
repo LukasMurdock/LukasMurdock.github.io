@@ -9,6 +9,9 @@
 linkslist:
   - Date: January 2020
     Links:
+      - Title: Inversion
+        Link: https://jamesclear.com/inversion
+        Comment: The Crucial Thinking Skill Nobody Ever Taught You
       - Title: Things I believe
         Link: https://gist.github.com/stettix/5bb2d99e50fdbbd15dd9622837d14e2b
         Comment: A collection of things @JanStette believes about software development.

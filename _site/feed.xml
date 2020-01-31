@@ -9,8 +9,8 @@
     <webfeeds:accentColor>F94643</webfeeds:accentColor>
     <webfeeds:related layout="card" target="browser"/>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 29 Jan 2020 07:06:59 -0500</pubDate>
-    <lastBuildDate>Wed, 29 Jan 2020 07:06:59 -0500</lastBuildDate>
+    <pubDate>Fri, 31 Jan 2020 07:05:52 -0500</pubDate>
+    <lastBuildDate>Fri, 31 Jan 2020 07:05:52 -0500</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
 
     
@@ -1133,17 +1133,37 @@ First iPad introduced by Apple&lt;/p&gt;
     
       <item>
         <title>Website Plans</title>
-        <description>&lt;p&gt;As with most things digital there are near infinite ways of creating a website. Listed are common ways and technologies for you to look into if you don’t know where to start.&lt;/p&gt;
+        <description>&lt;p&gt;As with most things digital there are near infinite ways of creating a website. Generally there are a two things you’ll want to consider:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Hosting provider&lt;/li&gt;
+  &lt;li&gt;Content Management System (CMS)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_content_management_systems&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;See large list of content management systems here&lt;/a&gt; 
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Category:Web_hosting&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;See more about hosting here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Listed are common ways and technologies for you to look into if you don’t know where to start.&lt;/p&gt;
 
 &lt;h2 id=&quot;the-free-0&quot;&gt;The Free ($0)&lt;/h2&gt;
 &lt;p&gt;Pro: It’s free.&lt;/p&gt;
 
-&lt;p&gt;Con: More technical setup required, static site limits, scale limits.&lt;/p&gt;
+&lt;p&gt;Con: More technical setup required, site limits, scale limits.&lt;/p&gt;
 
+&lt;p&gt;Hosting:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;GitHub Pages&lt;/li&gt;
+  &lt;li&gt;Zeit&lt;/li&gt;
+  &lt;li&gt;Heroku&lt;/li&gt;
+  &lt;li&gt;Netlify&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;CMS:&lt;/p&gt;
+&lt;ul&gt;
   &lt;li&gt;Jekyll&lt;/li&gt;
+  &lt;li&gt;Hugo&lt;/li&gt;
+  &lt;li&gt;Eleventy&lt;/li&gt;
   &lt;li&gt;Netlify CMS&lt;/li&gt;
+  &lt;li&gt;Gatsbys&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;the-done-for-you-4-74-a-month&quot;&gt;The Done-For-You ($4-74+ a month)&lt;/h2&gt;
@@ -1151,6 +1171,7 @@ First iPad introduced by Apple&lt;/p&gt;
 
 &lt;p&gt;Con: Custom design limits (more templates).&lt;/p&gt;
 
+&lt;p&gt;Hosting &amp;amp; CMS:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Wordpress.com ($4-45+)&lt;/li&gt;
   &lt;li&gt;Duda ($14-74)&lt;/li&gt;
@@ -1159,22 +1180,32 @@ First iPad introduced by Apple&lt;/p&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;the-all-in-one&quot;&gt;The All-In-One&lt;/h2&gt;
-&lt;p&gt;Pro: Amazing no-code site customizability with options for code, no hosting, you know what you’re paying.&lt;/p&gt;
+&lt;p&gt;Pro: Amazing no-code site customizability with options for code, no hosting setup, you know what you’re paying.&lt;/p&gt;
 
 &lt;p&gt;Con: No more excuses for not having things done except the fact you haven’t put the time in.&lt;/p&gt;
 
+&lt;p&gt;Hosting &amp;amp; CMS:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Webflow ($12-36)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;the-integration-king-10-300-a-month&quot;&gt;The Integration King ($10-300+ a month)&lt;/h2&gt;
-&lt;p&gt;Pro: The most popular platform on the web, if there’s integrations you’ll have it, if you want to learn how to do something there’s a plugin and tutorials for it.&lt;/p&gt;
+&lt;p&gt;Pro: The most popular platform on the web, if there’s integrations you’ll have it, if you want to do something there’s plugind and tutorials for it.&lt;/p&gt;
 
 &lt;p&gt;Con: You’ll pay for it. And the costs will only go up.&lt;/p&gt;
+
+&lt;p&gt;Hosting:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Kinsta ($30-∞)&lt;/li&gt;
+  &lt;li&gt;WP Engine ($30-∞)&lt;/li&gt;
+  &lt;li&gt;Siteground ($12-35)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;CMS:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Wordpress.org (Free — But plugins will take you to ∞)&lt;/li&gt;
-  &lt;li&gt;Kinsta/WP Engine ($30-∞)&lt;/li&gt;
 &lt;/ul&gt;
+
 </description>
         <pubDate>Thu, 19 Dec 2019 00:00:00 -0500</pubDate>
         <link>http://localhost:4000/2019/12/19/website-plans/</link>
