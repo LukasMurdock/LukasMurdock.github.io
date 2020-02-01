@@ -9,7 +9,7 @@ date: February 01, 2020
 Soak up everything you can, learn everything and try everything. The reason we’re here is to solve the hard problems, find where you can make change. If you haven’t started, then taking action is more important than finding a better strategy. If you’re already taking action, then ensuring you’re working on the right thing is more important than working harder. Manage your focus, not your time. Your effort sets your floor. Your strategy sets your ceiling.
 
 
-## Drops making waves in the ocean
+## Drops make waves in the ocean
 It’s the small habits and things that matter. Whatever you repeat, you reinforce. That goes for thoughts and actions. Life is just today, over and over and over again. A series of short terms; that’s what makes the long term. If all you’re doing is maximizing in the short term, you’re going to break the system, because the system is not the short term. The system is the life you’ve chosen to live. 
 
 ## Good habits make time your ally. Bad habits make time your enemy.
@@ -43,7 +43,7 @@ Bernays did not ask, “How do I sell more cigarettes to women?” Instead, he w
 
 
 ## Unknown
-Stop worrying about work or what you want to work as, and spend time playing. Engage with the world rather than constantly thinking about it. Confidence won’t automatically get you results, but self-doubt sets your ceiling. Show up, work hard, and listen. That's it. It requires no talent, no special genetics, or any skill whatsoever to show up, work hard, and listen.
+Stop worrying about work or what you want to work as, and spend time playing. You can wish away forever but you’ll never find a thing like today. Engage with the world rather than constantly thinking about it. Confidence won’t automatically get you results, but self-doubt sets your ceiling. Show up, work hard, and listen. That's it. It requires no talent, no special genetics, or any skill whatsoever to show up, work hard, and listen.
 
 Once you free your mind of ‘correct’ you can do whatever you want with no preconception of what to do.
 
@@ -51,7 +51,7 @@ Once you free your mind of ‘correct’ you can do whatever you want with no pr
 ## Better
 Being better than most of the competition used to be fine. In the world of Google it’s useless because all of your competition is just a click away, whatever it is you do. The only position you can count on now is best in the world.
 
-If you want to be in the top 1% of a particular domain, then you can’t take your cues from and follow the social norms of 99% of people. This is harder than it sounds. We are wired to imitate. The further you want to climb, the more carefully you need to construct your tribe.
+If you want to be in the top 1% of a particular domain, then you can’t take your cues from and follow the social norms of 99% of people. This is harder than it sounds. We are wired to imitate. The further you want to climb, the more carefully you need to construct your resources.
 
 Success comes from doing what others are not willing to do. Real success goes to those who obsess.
 
@@ -67,7 +67,7 @@ If you want to make a long-term impact, build the roads.
 
 Most failures are one-time costs. Most regrets are recurring costs.
 
-Worlds of scarcity are made out of things. Worlds of abundance are made out of dependencies. Think for yourself. Build for yourself.
+Worlds of scarcity are made out of things. Worlds of abundance are made out of dependencies.
 
 
 ## Don’t fool yourself
