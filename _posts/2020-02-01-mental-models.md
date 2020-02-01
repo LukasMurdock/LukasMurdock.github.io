@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Mental Models and Principles'
-description: A few of my favorite mental models and principles.
+description: A few of my personal mental models and principles.
 date: February 01, 2020
 ---
 
