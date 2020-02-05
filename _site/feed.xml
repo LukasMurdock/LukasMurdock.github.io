@@ -9,10 +9,97 @@
     <webfeeds:accentColor>F94643</webfeeds:accentColor>
     <webfeeds:related layout="card" target="browser"/>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 05 Feb 2020 05:14:52 -0500</pubDate>
-    <lastBuildDate>Wed, 05 Feb 2020 05:14:52 -0500</lastBuildDate>
+    <pubDate>Wed, 05 Feb 2020 06:18:12 -0500</pubDate>
+    <lastBuildDate>Wed, 05 Feb 2020 06:18:12 -0500</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
 
+    
+      <item>
+        <title>Redesign</title>
+        <description>&lt;p&gt;This was always meant to be a very simple website. Simple where the users experience it and simple in the code it’s built with. The first commit to this website was on July 3, 2019. Since then I’ve thought more about how I want this site to be structured.&lt;/p&gt;
+
+&lt;p&gt;It it’s most basic form the structure is now:&lt;/p&gt;
+
+&lt;p&gt;About&lt;br /&gt;
+      &amp;gt; Capabilities&lt;br /&gt;
+Resources&lt;br /&gt;
+      &amp;gt; Book list&lt;br /&gt;
+      &amp;gt; Principles&lt;br /&gt;
+Writing&lt;br /&gt;
+Contact&lt;/p&gt;
+
+&lt;p&gt;In the beginning I decided I would use system fonts on this site, &lt;a href=&quot;https://css-tricks.com/snippets/css/system-font-stack/&quot;&gt;thanks to this article.&lt;/a&gt; That means no fancy or unique font choices. Which in the current state of the web turns out to be quite unique. This means I get to use Apple’s trademark font &lt;a href=&quot;https://developer.apple.com/fonts/&quot;&gt;San Francisco&lt;/a&gt; (a font only available on Apple systems), &lt;a href=&quot;https://docs.microsoft.com/en-us/typography/font-list/segoe-ui&quot;&gt;Segoe UI&lt;/a&gt; for Windows, and &lt;a href=&quot;https://fonts.google.com/specimen/Roboto&quot;&gt;Roboto&lt;/a&gt; on Android.&lt;/p&gt;
+
+&lt;p&gt;Throwing that consistency away, a deliberate choice taken by many to be unique, I take on the attached feelings to the platform the user visits on (And I do love San Francisco).&lt;/p&gt;
+
+&lt;p&gt;I started off thinking about how I could simplify the top navigation. It was nearly as simple as it could be but it was still too much.&lt;/p&gt;
+
+&lt;p&gt;Easy, remind the users of where they are (an expectation of top navigation) and remove that dumb separator.&lt;/p&gt;
+
+&lt;p&gt;I used &lt;a href=&quot;https://cssstats.com/&quot;&gt;CSS Stats&lt;/a&gt; and &lt;a href=&quot;https://www.projectwallace.com/analyze-css&quot;&gt;Wallace&lt;/a&gt; to learn more about my poor css styling by analyzing the information. I went through and cleaned up my HTML and CSS structures, as one cannot be clean without the other. I ended up installing &lt;a href=&quot;https://github.com/bartveneman/wallace-cli&quot;&gt;Wallace CLI&lt;/a&gt; to analyze my refactored CSS as I was working on it. I was able to get pretty CSS analytics in my terminal with Wallace.&lt;/p&gt;
+
+&lt;p&gt;I decided I needed to pick styles to use consistently as variables.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Type sizes&lt;/li&gt;
+  &lt;li&gt;Colors&lt;/li&gt;
+  &lt;li&gt;Max width (you see the chosen width on desktop)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For now I have settled on:&lt;br /&gt;
+    &lt;span style=&quot;font-size: var(--font-extra-small);&quot;&gt;Extra small&lt;/span&gt;&lt;br /&gt;
+    &lt;span style=&quot;font-size: var(--font-small);&quot;&gt;Small&lt;/span&gt;&lt;br /&gt;
+    &lt;span style=&quot;font-size: var(--font-medium);&quot;&gt;Medium&lt;/span&gt;&lt;br /&gt;
+    &lt;span style=&quot;font-size: var(--font-reg);&quot;&gt;Text Size&lt;/span&gt;&lt;br /&gt;
+    &lt;span style=&quot;font-size: var(--font-medium-large);&quot;&gt;Medium-Large&lt;/span&gt;&lt;br /&gt;
+    &lt;span style=&quot;font-size: var(--font-large);&quot;&gt;Large&lt;/span&gt;&lt;br /&gt;
+    &lt;span style=&quot;font-size: var(--font-extralarge);&quot;&gt;Extra Large&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;And colors of:
+    &lt;!-- --color-blue: #0070c9;
+    --color-text: #333333;
+    --color-accent-green: #84fab0;
+    --color-accent-blue: #8fd3f4; --&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin: 0;&quot;&gt;
+&lt;li style=&quot;list-style-type:none;&quot;&gt;
+    &lt;p&gt;Primary Colors&lt;/p&gt;
+    &lt;div style=&quot;background-color: #0070c9; color: #FFFFFF; padding: 20px; margin-bottom: 10px; float:left; display: inline-block;&quot;&gt;&lt;p&gt;&lt;div class=&quot;colorname&quot;&gt;Blue&lt;/div&gt; Hex: #0070c9&lt;/p&gt;&lt;/div&gt;
+    &lt;div style=&quot;background-color: #333333; color: #FFFFFF; padding: 20px; margin-bottom: 10px; display: inline-block;&quot;&gt;&lt;p&gt;&lt;div&gt;Text&lt;/div&gt; Hex: #333333&lt;/p&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li style=&quot;list-style-type:none;&quot;&gt;
+    &lt;p&gt;Accent Colors&lt;/p&gt;
+    &lt;div style=&quot;background-color: #84fab0; color: #333333; padding: 20px; margin-bottom: 10px; float:left; display: inline-block;&quot;&gt;&lt;p&gt;&lt;div class=&quot;colorname&quot;&gt;Green&lt;/div&gt; Hex: #84fab0&lt;/p&gt;&lt;/div&gt;
+    &lt;div style=&quot;background-color: #8fd3f4; color: #333333; padding: 20px; margin-bottom: 10px; display: inline-block;&quot;&gt;&lt;p&gt;&lt;div&gt;Blue&lt;/div&gt; Hex: #8fd3f4&lt;/p&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I went from from:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;139 Rules&lt;/li&gt;
+  &lt;li&gt;512 Declarations&lt;/li&gt;
+  &lt;li&gt;8 ID’s&lt;/li&gt;
+  &lt;li&gt;89 Classes&lt;/li&gt;
+  &lt;li&gt;24 Unique colors&lt;/li&gt;
+  &lt;li&gt;16 total color declarations&lt;/li&gt;
+  &lt;li&gt;12 unique font sizes&lt;/li&gt;
+  &lt;li&gt;23 font size declarations&lt;/li&gt;
+  &lt;li&gt;11 margin resets&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And reduced it to:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;87 Rules &lt;span class=&quot;full-underline&quot; style=&quot;font-size: var(--font-small);&quot;&gt;37% reduction&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;354 Declarations &lt;span class=&quot;full-underline&quot; style=&quot;font-size: var(--font-small);&quot;&gt;30% reduction&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;0 ID’s &lt;span class=&quot;full-underline&quot; style=&quot;font-size: var(--font-small);&quot;&gt;100% reduction&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;62 Classes &lt;span class=&quot;full-underline&quot; style=&quot;font-size: var(--font-small);&quot;&gt;30% reduction&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;18 unique colors &lt;span class=&quot;full-underline&quot; style=&quot;font-size: var(--font-small);&quot;&gt;25% reduction&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;7 unique font sizes &lt;span class=&quot;full-underline&quot; style=&quot;font-size: var(--font-small);&quot;&gt;42% reduction&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 05 Feb 2020 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2020/02/05/redesign/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/02/05/redesign/</guid>
+      </item>
     
       <item>
         <title>Mental Models and Principles</title>
