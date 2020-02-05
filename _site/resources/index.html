@@ -34,14 +34,16 @@
 
 <body class="pagebody">
 
-  <!-- Google Analytics Code -->
-    <ul class="nav-menu">
-    <a href="/about/">About</a>
+
+    <!-- <script data-goatcounter="https://lukasmurdock.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script> -->
+      <div class="nav-menu" style="font-weight: bold;">Lukas Murdock</div>
+  <ul class="nav-menu">
+    <a href="/">About</a>
     <a href="/resources/">Resources</a>
-    <a href="/updates/">Updates</a>
+    <a href="/writing/">Writing</a>
     <a href="/contact/">Contact</a>
   </ul>
-<hr>
 
 <div id="bottomnav" class="bottomnav">
 
@@ -56,8 +58,8 @@
   </div>
   <div id="menu" class="menu">
       <a href="/resources/" class="bottomnav_link">Resources</a>
-      <a href="/updates/" class="bottomnav_link">Updates</a>
-      <a href="/about/" class="bottomnav_link">About</a>
+      <a href="/writing/" class="bottomnav_link">Writing</a>
+      <a href="/" class="bottomnav_link">About</a>
       <a href="/contact/" class="bottomnav_link">Contact</a>
       
   </div>
@@ -71,12 +73,14 @@
   }
 </script>
 
-  
-    <h1 class="hero-headline">Resources</h1>
-  
+
+  <article>
+    
+      <h1>Resources</h1>
+    
 
     <style>
-  h1{
+  h1 {
     text-align: center;
   }
 
@@ -90,7 +94,7 @@
     padding: 5px;
     font-size: 14px;
   }
-  h3{
+  h2{
     font-size: 22px;
     padding-left: 20px;
     text-align:left;
@@ -193,10 +197,6 @@
     .grid-container {
       grid-template-columns: repeat(1, 1fr);
     }
-    h1{
-      font-size: 44px!important;
-      padding-bottom: 20px;
-    }
 
     a.item{
       padding: 14px 0;
@@ -215,7 +215,7 @@
   <div class="grid-container">
     
     <div class="grid-item">
-        <h3>Guides</h3>
+        <h2>Guides</h2>
         <ol>
           
           <li title="You can learn anything." rel="tooltip">
@@ -425,7 +425,7 @@
     </div>
     
     <div class="grid-item">
-        <h3>UIUX</h3>
+        <h2>UIUX</h2>
         <ol>
           
           <li title="" rel="tooltip">
@@ -642,7 +642,7 @@
     </div>
     
     <div class="grid-item">
-        <h3>Niche Resources</h3>
+        <h2>Niche Resources</h2>
         <ol>
           
           <li title="Build tools & automate at work without code." rel="tooltip">
@@ -733,7 +733,7 @@
     </div>
     
     <div class="grid-item">
-        <h3>Evaluation</h3>
+        <h2>Evaluation</h2>
         <ol>
           
           <li title="See how well your website performs. Then, get tips to improve your user experience." rel="tooltip">
@@ -803,7 +803,7 @@
     </div>
     
     <div class="grid-item">
-        <h3>Software</h3>
+        <h2>Software</h2>
         <ol>
           
           <li title="Get it together and manage projects the right way." rel="tooltip">
@@ -922,7 +922,7 @@
     </div>
     
     <div class="grid-item">
-        <h3>Chrome Apps</h3>
+        <h2>Chrome Apps</h2>
         <ol>
           
           <li title="Discover the best extensions ranked by users and reviews." rel="tooltip">
@@ -1020,7 +1020,7 @@
     </div>
     
     <div class="grid-item">
-        <h3>Applications</h3>
+        <h2>Applications</h2>
         <ol>
           
           <li title="Ethical Alternatives & Resources" rel="tooltip">
@@ -1153,7 +1153,7 @@
     </div>
     
     <div class="grid-item">
-        <h3>Newsletter</h3>
+        <h2>Newsletter</h2>
         <ol>
           
           <li title="Seth Godin's Blog on marketing, tribes and respect." rel="tooltip">
@@ -1314,7 +1314,7 @@
     </div>
     
     <div class="grid-item">
-        <h3>Website</h3>
+        <h2>Website</h2>
         <ol>
           
           <li title="Find datasets stored across the Web through a simple keyword search." rel="tooltip">
@@ -1391,7 +1391,7 @@
     </div>
     
     <div class="grid-item">
-        <h3>Podcast</h3>
+        <h2>Podcast</h2>
         <ol>
           
           <li title="" rel="tooltip">
@@ -1433,7 +1433,7 @@
     </div>
     
     <div class="grid-item">
-        <h3>Youtube</h3>
+        <h2>Youtube</h2>
         <ol>
           
           <li title="" rel="tooltip">
@@ -1524,7 +1524,7 @@
     </div>
     
     <div class="grid-item">
-        <h3>Personal sites</h3>
+        <h2>Personal sites</h2>
         <ol>
           
           <li title="Design inspiration from some of the best humans on the web." rel="tooltip">
@@ -1622,7 +1622,7 @@
     </div>
     
     <div class="grid-item">
-        <h3>Movies</h3>
+        <h2>Movies</h2>
         <ol>
           
           <li title="An online library of films focused on topics challenging modern society, industrial civilisation, globalisation and dominant culture." rel="tooltip">
@@ -1664,7 +1664,7 @@
     </div>
     
     <div class="grid-item">
-        <h3>Books</h3>
+        <h2>Books</h2>
         <ol>
           
           <li title="" rel="tooltip">
@@ -1678,7 +1678,7 @@
     </div>
     
     <div class="grid-item">
-        <h3>Music</h3>
+        <h2>Music</h2>
         <ol>
           
           <li title="" rel="tooltip">
@@ -1790,6 +1790,7 @@ $( function()
     });
 });
 </script>
+  </article>
 
     <footer>
   <a
@@ -1836,8 +1837,7 @@ $( function()
     </svg>
   </a>
   <a style="font-size: 17px; margin-left:20px;" href="/resources/"
-    ><span>View resources</span></a
-  >
+    ><span>View resources</span></a>
 
 <!-- Begin Mailchimp Signup Form -->
 
@@ -1910,7 +1910,8 @@ $( function()
 </div>
 
 <!--End mc_embed_signup-->
-  
+
+
 
 <!-- BEGIN TINYLETTER EMBED SIGNUP 
   <form
@@ -1945,9 +1946,6 @@ $( function()
   <p>Copyright &copy; 2020 Lukas Murdock. All rights reserved.</p>
 
 </footer>
-
-<script data-goatcounter="https://lukasmurdock.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
 
 
   <!-- <script src="/js/masonry.pkgd.min.js"></script>

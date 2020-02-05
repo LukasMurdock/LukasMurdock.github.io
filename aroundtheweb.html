@@ -13,13 +13,6 @@ last_modified_at: 2020-01-10
   h1{
     text-align: center;
   }
-
-  @media screen and (max-width: 735px) {
-    h1 {
-      font-size: 44px !important;
-      padding-bottom: 20px;
-    }
-  }
 </style>
 
 <p style="margin-top:0; text-align:center;">Links I really don't want to forget.</p>
@@ -38,12 +31,12 @@ last_modified_at: 2020-01-10
     {% for d in site.data.links.linkslist %}
     <div class="grid-item">
       <p>{{ d.Date }}</p>
-      <ol style="list-style: none; margin:0;">
+      <ol style="list-style: none;" class="zero-margin">
         {% for link in d.Links %}
         <li>
           <a style="color: #333; text-decoration:none!important;" class="item" target="_blank" href="{{ link.Link }}"
             rel="noopener">
-            <h3 style="margin:0; font-size: 1.8em;" class="item">{{ link.Title }}</h3>
+            <h2 class="item zero-margin">{{ link.Title }}</h2>
               <p style="margin-top:0; margin-bottom: 30px;"><i>{{ link.Comment }}</i></p>
           </a>
         </li>

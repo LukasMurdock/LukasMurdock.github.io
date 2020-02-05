@@ -1,7 +1,7 @@
 <div class="post">
   <a href='{{ post.url | prepend: site.baseurl }}'>
     <div class="index-grid">
-      <article class="index-item">
+      <div class="index-item">
           <!-- <div class="index-padding"> -->
           {% if post.image %}
           <figure class="index-item-image-wrapper">
@@ -10,13 +10,13 @@
           {% endif %}
           <!-- </div> -->
       
-      <div class="index-text mobile-transition-underline">
-        <h2 class="index-title" style="margin-bottom:0px;">{{ post.title }}</h2>
-        <p>{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | truncatewords: 16 }}{% endif %}</p>
+          <div class="index-text mobile-transition-underline">
+            <h2 class="index-title" style="margin:0px;">{{ post.title }}</h2>
+            <p style="margin: 0px;">{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | truncatewords: 16 }}{% endif %}</p>
 
-        <p class="index-title" style="font-size: 14px; font-weight: 400; margin-bottom:0px;">{{ post.date | date: '%B %d, %Y' }}</p>
+            <p class="index-title" style="font-size: var(--font-small); font-weight: 400; margin:0px;">{{ post.date | date: '%B %d, %Y' }}</p>
+          </div>
       </div>
-    </article>
     </div>
   </a>
 </div>

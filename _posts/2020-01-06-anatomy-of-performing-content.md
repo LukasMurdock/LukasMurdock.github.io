@@ -1,13 +1,11 @@
 ---
 layout: post
 title: 'Anatomy of Performing Content'
-description: 
+description: A nice reminder that the longer the better, headlines are important, building links requires effort, and people love lists.
 image:
 
 date: January 06, 2020
 ---
-
-A nice reminder that the longer the better, headlines are important, building links requires effort, and people love lists.
 
 ## Long reads
 * Pages with 3000+ words get x3 more traffic, x4 more shares and x3.5 more backlinks than articles of average length (901-1200 words).

@@ -34,14 +34,16 @@
 
 <body class="pagebody">
 
-  <!-- Google Analytics Code -->
-    <ul class="nav-menu">
-    <a href="/about/">About</a>
+
+    <!-- <script data-goatcounter="https://lukasmurdock.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script> -->
+      <div class="nav-menu" style="font-weight: bold;">Lukas Murdock</div>
+  <ul class="nav-menu">
+    <a href="/">About</a>
     <a href="/resources/">Resources</a>
-    <a href="/updates/">Updates</a>
+    <a href="/writing/">Writing</a>
     <a href="/contact/">Contact</a>
   </ul>
-<hr>
 
 <div id="bottomnav" class="bottomnav">
 
@@ -56,8 +58,8 @@
   </div>
   <div id="menu" class="menu">
       <a href="/resources/" class="bottomnav_link">Resources</a>
-      <a href="/updates/" class="bottomnav_link">Updates</a>
-      <a href="/about/" class="bottomnav_link">About</a>
+      <a href="/writing/" class="bottomnav_link">Writing</a>
+      <a href="/" class="bottomnav_link">About</a>
       <a href="/contact/" class="bottomnav_link">Contact</a>
       
   </div>
@@ -71,9 +73,11 @@
   }
 </script>
 
-  
-    <h1 class="hero-headline">Book list</h1>
-  
+
+  <article>
+    
+      <h1>Book list</h1>
+    
 
     <style>
   h1{
@@ -90,8 +94,9 @@
     padding: 5px;
     font-size: 14px;
   }
-  h3{
+  h2{
     font-size: 22px;
+    margin: 0;
   }
   img {
     width: 80px;
@@ -142,19 +147,11 @@
 }
 
 
-
-
-
-
   @media screen and (max-width: 735px) {
     .grid-container {
       grid-template-columns: repeat(1, 1fr);
     }
-    h1{
-      font-size: 44px!important;
-      padding-bottom: 20px;
-    }
-}
+  }
 </style>
 
 <p style="text-align:center; margin-top: 0;">Books I really don't want to forget.</p>
@@ -214,7 +211,7 @@ fetch(book_url)
   //console.log(thumbnail.replace('http:','https:'))
   for (i=0; i < out.items.length; i++){
   thumbnail = out.items[i].volumeInfo.imageLinks.thumbnail.replace('&edge=curl','')
-  document.getElementById("grid-container").innerHTML += '<div class="grid-item"> <a rel="nofollow" target="_blank" href="https://www.google.com/search?q=' + out.items[i].volumeInfo.title.replace(/ /g, "+") + "+by+" + out.items[i].volumeInfo.authors[0].replace(/ /g, "+") + '"> <div> <img alt="' + out.items[i].volumeInfo.title + ' book cover" src="' + thumbnail.replace('http:','https:') + '"> </div></a> <div> <h3><a rel="nofollow" target="_blank" href="https://www.google.com/search?q=' + out.items[i].volumeInfo.title.replace(/ /g, "+") + '+by+' + out.items[i].volumeInfo.authors[0].replace(/ /g, "+") + '">' + out.items[i].volumeInfo.title + '</a></h3> <p class="item">by ' + out.items[i].volumeInfo.authors[0] + '</p> </div> </div>';
+  document.getElementById("grid-container").innerHTML += '<div class="grid-item"> <a rel="nofollow" target="_blank" href="https://www.google.com/search?q=' + out.items[i].volumeInfo.title.replace(/ /g, "+") + "+by+" + out.items[i].volumeInfo.authors[0].replace(/ /g, "+") + '"> <div> <img alt="' + out.items[i].volumeInfo.title + ' book cover" src="' + thumbnail.replace('http:','https:') + '"> </div></a> <div> <h2><a rel="nofollow" target="_blank" href="https://www.google.com/search?q=' + out.items[i].volumeInfo.title.replace(/ /g, "+") + '+by+' + out.items[i].volumeInfo.authors[0].replace(/ /g, "+") + '">' + out.items[i].volumeInfo.title + '</a></h2> <p class="item">by ' + out.items[i].volumeInfo.authors[0] + '</p> </div> </div>';
 }
   i=0
   var loadedBooks = []
@@ -249,6 +246,7 @@ console.log(isbnslist.diff(loadedBooks))
 .catch(err => { console.log(); throw err });
 
 </script>
+  </article>
 
     <footer>
   <a
@@ -295,8 +293,7 @@ console.log(isbnslist.diff(loadedBooks))
     </svg>
   </a>
   <a style="font-size: 17px; margin-left:20px;" href="/resources/"
-    ><span>View resources</span></a
-  >
+    ><span>View resources</span></a>
 
 <!-- Begin Mailchimp Signup Form -->
 
@@ -369,7 +366,8 @@ console.log(isbnslist.diff(loadedBooks))
 </div>
 
 <!--End mc_embed_signup-->
-  
+
+
 
 <!-- BEGIN TINYLETTER EMBED SIGNUP 
   <form
@@ -404,9 +402,6 @@ console.log(isbnslist.diff(loadedBooks))
   <p>Copyright &copy; 2020 Lukas Murdock. All rights reserved.</p>
 
 </footer>
-
-<script data-goatcounter="https://lukasmurdock.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
 
 
   <!-- <script src="/js/masonry.pkgd.min.js"></script>

@@ -9,8 +9,8 @@
     <webfeeds:accentColor>F94643</webfeeds:accentColor>
     <webfeeds:related layout="card" target="browser"/>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 01 Feb 2020 08:14:06 -0500</pubDate>
-    <lastBuildDate>Sat, 01 Feb 2020 08:14:06 -0500</lastBuildDate>
+    <pubDate>Wed, 05 Feb 2020 05:14:52 -0500</pubDate>
+    <lastBuildDate>Wed, 05 Feb 2020 05:14:52 -0500</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
 
     
@@ -1096,9 +1096,7 @@ First iPad introduced by Apple&lt;/p&gt;
     
       <item>
         <title>Anatomy of Performing Content</title>
-        <description>&lt;p&gt;A nice reminder that the longer the better, headlines are important, building links requires effort, and people love lists.&lt;/p&gt;
-
-&lt;h2 id=&quot;long-reads&quot;&gt;Long reads&lt;/h2&gt;
+        <description>&lt;h2 id=&quot;long-reads&quot;&gt;Long reads&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;Pages with 3000+ words get x3 more traffic, x4 more shares and x3.5 more backlinks than articles of average length (901-1200 words).&lt;/li&gt;
   &lt;li&gt;Short (300-900 words) articles are not shared at all x4.5 more often than long reads of 3000+ words.&lt;/li&gt;

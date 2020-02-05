@@ -19,8 +19,9 @@ description: Book list — We can use the internet to explore the places that we
     padding: 5px;
     font-size: 14px;
   }
-  h3{
+  h2{
     font-size: 22px;
+    margin: 0;
   }
   img {
     width: 80px;
@@ -71,19 +72,11 @@ description: Book list — We can use the internet to explore the places that we
 }
 
 
-
-
-
-
   @media screen and (max-width: 735px) {
     .grid-container {
       grid-template-columns: repeat(1, 1fr);
     }
-    h1{
-      font-size: 44px!important;
-      padding-bottom: 20px;
-    }
-}
+  }
 </style>
 
 <p style="text-align:center; margin-top: 0;">Books I really don't want to forget.</p>
@@ -143,7 +136,7 @@ fetch(book_url)
   //console.log(thumbnail.replace('http:','https:'))
   for (i=0; i < out.items.length; i++){
   thumbnail = out.items[i].volumeInfo.imageLinks.thumbnail.replace('&edge=curl','')
-  document.getElementById("grid-container").innerHTML += '<div class="grid-item"> <a rel="nofollow" target="_blank" href="https://www.google.com/search?q=' + out.items[i].volumeInfo.title.replace(/ /g, "+") + "+by+" + out.items[i].volumeInfo.authors[0].replace(/ /g, "+") + '"> <div> <img alt="' + out.items[i].volumeInfo.title + ' book cover" src="' + thumbnail.replace('http:','https:') + '"> </div></a> <div> <h3><a rel="nofollow" target="_blank" href="https://www.google.com/search?q=' + out.items[i].volumeInfo.title.replace(/ /g, "+") + '+by+' + out.items[i].volumeInfo.authors[0].replace(/ /g, "+") + '">' + out.items[i].volumeInfo.title + '</a></h3> <p class="item">by ' + out.items[i].volumeInfo.authors[0] + '</p> </div> </div>';
+  document.getElementById("grid-container").innerHTML += '<div class="grid-item"> <a rel="nofollow" target="_blank" href="https://www.google.com/search?q=' + out.items[i].volumeInfo.title.replace(/ /g, "+") + "+by+" + out.items[i].volumeInfo.authors[0].replace(/ /g, "+") + '"> <div> <img alt="' + out.items[i].volumeInfo.title + ' book cover" src="' + thumbnail.replace('http:','https:') + '"> </div></a> <div> <h2><a rel="nofollow" target="_blank" href="https://www.google.com/search?q=' + out.items[i].volumeInfo.title.replace(/ /g, "+") + '+by+' + out.items[i].volumeInfo.authors[0].replace(/ /g, "+") + '">' + out.items[i].volumeInfo.title + '</a></h2> <p class="item">by ' + out.items[i].volumeInfo.authors[0] + '</p> </div> </div>';
 }
   i=0
   var loadedBooks = []

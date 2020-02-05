@@ -6,7 +6,7 @@ last_modified_at: 2020-01-10
 ---
 
 <style>
-  h1{
+  h1 {
     text-align: center;
   }
 
@@ -20,7 +20,7 @@ last_modified_at: 2020-01-10
     padding: 5px;
     font-size: 14px;
   }
-  h3{
+  h2{
     font-size: 22px;
     padding-left: 20px;
     text-align:left;
@@ -123,10 +123,6 @@ last_modified_at: 2020-01-10
     .grid-container {
       grid-template-columns: repeat(1, 1fr);
     }
-    h1{
-      font-size: 44px!important;
-      padding-bottom: 20px;
-    }
 
     a.item{
       padding: 14px 0;
@@ -145,7 +141,7 @@ last_modified_at: 2020-01-10
   <div class="grid-container">
     {% for d in site.data.resources.fulldata %}
     <div class="grid-item">
-        <h3>{{ d.Type }}</h3>
+        <h2>{{ d.Type }}</h2>
         <ol>
           {% for Title in d.List %}
           <li title="{{ Title.Comment }}" rel="tooltip">
