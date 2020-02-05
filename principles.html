@@ -42,7 +42,7 @@ last_modified_at: 2020-01-10
     padding-left: 20px;
   }
   
-  li::before {
+  ol:not(.nav-menu) li::before {
     counter-increment: dopeCounter 1;
     content: counter(dopeCounter,decimal-leading-zero);
     position: absolute;
