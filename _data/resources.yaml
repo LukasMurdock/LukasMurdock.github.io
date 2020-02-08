@@ -74,6 +74,10 @@ fulldata:
         Link: https://www.degreeless.design/
         Comment: ""
         
+      - Title: Best Practices in Branding
+        Link: https://polyatlas.app/wiki/
+        Comment: A step-by-step guide to the Branding process including practical tips, case studies, template files, and many other useful resources.
+
       - Title: AIGA Design Business and Ethics
         Link: https://www.aiga.org/design-business-and-ethics
         Comment: ""
@@ -292,6 +296,10 @@ fulldata:
         Link: https://hoard.fyi/
         Comment: ""
 
+      - Title: iHateRegex
+        Link: https://ihateregex.io/
+        Comment: "A regex cheatsheet."
+
       - Title: Free tools for devs
         Link: https://free-for.dev/
         Comment: ""
@@ -303,6 +311,10 @@ fulldata:
       - Title: Almanac
         Link: https://askalmanac.com/
         Comment: "Access to tools, templates, and guides from top startup minds."
+
+      - Title: Related subreddits
+        Link: https://anvaka.github.io/sayit/?query=
+        Comment: This website shows you a graph of related subreddits for any given one.
 
       - Title: Best SEO Tools
         Link: https://saijogeorge.com/best-marketing-tools/
@@ -319,6 +331,10 @@ fulldata:
       - Title: Typewolf
         Link: https://www.typewolf.com
         Comment:
+
+      - Title: The Design Sprint
+        Link: https://www.gv.com/sprint/
+        Comment: The sprint is a five-day process for answering critical business questions through design, prototyping, and testing ideas with customers.
 
       - Title: Sheets for Marketers
         Link: https://sheetsformarketers.com/
