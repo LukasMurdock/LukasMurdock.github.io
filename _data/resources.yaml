@@ -604,6 +604,10 @@ fulldata:
         Link: https://www.httrack.com/
         Comment: "Download sites to a local computer."
 
+      - Title: Carbon Copy Cloner
+        Link: https://bombich.com/
+        Comment: "The first bootable backup solution that works with Apple’s new APFS filesystem."
+
       - Title: Transmission
         Link: https://transmissionbt.com/
         Comment: "A fast, easy, and free BitTorrent client."
@@ -660,6 +664,10 @@ fulldata:
       - Title: The Product Person
         Link: https://theproductperson.com/
         Comment: "An article a week to improve your product skills."
+
+      - Title: Unsupervised Learning
+        Link: https://danielmiessler.com/newsletter/
+        Comment: "Articles around the intersection of security, technology, and humans.."
 
       - Title: AJ & Smart
         Link: https://ajsmart.com/
@@ -734,6 +742,10 @@ fulldata:
         Link: https://explorabl.es/
         Comment: "A hub for learning through play."
 
+      - Title: Hckr News
+        Link: https://hckrnews.com/
+        Comment: "An unofficial alternative hacker news interface."
+
       - Title: MF Website
         Link: http://motherfuckingwebsite.com/
         Comment: ""
@@ -756,30 +768,33 @@ fulldata:
   #Podcast
   - Type: Podcast
     List:
+      - Title: Akimbo
+        Link: https://www.akimbo.me/
+        Comment:
+
       - Title: Revisionist History
         Link: http://revisionisthistory.com/
         Comment:
-        Category: Podcast
 
       - Title: 99% Invisible
         Link: https://99percentinvisible.org/
         Comment:
-        Category: Podcast
 
-      - Title: Akimbo
-        Link: https://www.akimbo.me/
-        Comment:
-        Category: Podcast
+      - Title: The Knowledge Project
+        Link: https://fs.blog/the-knowledge-project/
+        Comment: "Master the best of what other people have already figured out."
 
       - Title: How I Built This
         Link: https://www.npr.org/podcasts/510313/how-i-built-this
         Comment:
-        Category: Podcast
+
+      - Title: Rework
+        Link: https://rework.fm/
+        Comment: "A podcast about a better way to work and run your business."
 
       - Title: Story Break
         Link: https://www.maximumfun.org/shows/story-break
         Comment:
-        Category: Podcast
 
 
   #Youtube
