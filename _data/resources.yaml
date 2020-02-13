@@ -304,6 +304,10 @@ fulldata:
         Link: https://ihateregex.io/
         Comment: "A regex cheatsheet."
 
+      - Title: Remark
+        Link: https://remarkapp.io/
+        Comment: "Turn long text to one sentence"
+
       - Title: Free tools for devs
         Link: https://free-for.dev/
         Comment: ""
@@ -607,6 +611,10 @@ fulldata:
       - Title: Carbon Copy Cloner
         Link: https://bombich.com/
         Comment: "The first bootable backup solution that works with Apple’s new APFS filesystem."
+
+      - Title: Clear Todos
+        Link: https://apps.apple.com/us/app/clear-todos/id493136154
+        Comment: "Remarkably simple lists."
 
       - Title: Transmission
         Link: https://transmissionbt.com/
