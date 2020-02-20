@@ -9,16 +9,16 @@
     <webfeeds:accentColor>F94643</webfeeds:accentColor>
     <webfeeds:related layout="card" target="browser"/>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 05 Feb 2020 07:19:54 -0500</pubDate>
-    <lastBuildDate>Wed, 05 Feb 2020 07:19:54 -0500</lastBuildDate>
+    <pubDate>Wed, 19 Feb 2020 19:21:39 -0500</pubDate>
+    <lastBuildDate>Wed, 19 Feb 2020 19:21:39 -0500</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
 
     
       <item>
         <title>Redesign</title>
-        <description>&lt;p&gt;This was always meant to be a very simple website. Simple where the users experience it and simple in the code it’s built with. The first commit to this website was on July 3, 2019. Since then I’ve thought more about how I want this site to be structured.&lt;/p&gt;
+        <description>&lt;p&gt;This was always meant to be a very simple website. Simple from a user experience and simple in the code it’s built with. The first commit to this website was on July 3, 2019. Since then I’ve thought more about how I want this site to be structured.&lt;/p&gt;
 
-&lt;p&gt;It it’s most basic form the structure is now:&lt;/p&gt;
+&lt;p&gt;The structure now (in it’s most basic form):&lt;/p&gt;
 
 &lt;p&gt;About&lt;br /&gt;
       &amp;gt; Capabilities&lt;br /&gt;
@@ -28,15 +28,15 @@ Resources&lt;br /&gt;
 Writing&lt;br /&gt;
 Contact&lt;/p&gt;
 
-&lt;p&gt;In the beginning I decided I would use system fonts on this site, &lt;a href=&quot;https://css-tricks.com/snippets/css/system-font-stack/&quot;&gt;thanks to this article.&lt;/a&gt; That means no fancy or unique font choices. Which in the current state of the web turns out to be quite unique. This means I get to use Apple’s trademark font &lt;a href=&quot;https://developer.apple.com/fonts/&quot;&gt;San Francisco&lt;/a&gt; (a font only available on Apple systems), &lt;a href=&quot;https://docs.microsoft.com/en-us/typography/font-list/segoe-ui&quot;&gt;Segoe UI&lt;/a&gt; for Windows, and &lt;a href=&quot;https://fonts.google.com/specimen/Roboto&quot;&gt;Roboto&lt;/a&gt; on Android.&lt;/p&gt;
+&lt;p&gt;In the beginning I decided I would use system fonts on this site, &lt;a href=&quot;https://css-tricks.com/snippets/css/system-font-stack/&quot;&gt;thanks to this article.&lt;/a&gt; That means no fancy or unique font choices. Which in the current state of the web turns out to be quite unique. This means I get to use Apple’s trademark font &lt;a href=&quot;https://developer.apple.com/fonts/&quot;&gt;San Francisco&lt;/a&gt; on Apple devices, &lt;a href=&quot;https://docs.microsoft.com/en-us/typography/font-list/segoe-ui&quot;&gt;Segoe UI&lt;/a&gt; for Windows, and &lt;a href=&quot;https://fonts.google.com/specimen/Roboto&quot;&gt;Roboto&lt;/a&gt; on Android.&lt;/p&gt;
 
 &lt;p&gt;Throwing that consistency away, a deliberate choice taken by many to be unique, I take on the attached feelings to the platform the user visits on (And I do love San Francisco).&lt;/p&gt;
 
-&lt;p&gt;I started off thinking about how I could simplify the top navigation. It was nearly as simple as it could be but it was still too much.&lt;/p&gt;
+&lt;p&gt;I thought about how I could simplify the top navigation. It was nearly as simple as it could be but it was still too much.&lt;/p&gt;
 
 &lt;p&gt;Easy, remind the users of where they are (an expectation of top navigation) and remove that dumb separator.&lt;/p&gt;
 
-&lt;p&gt;I used &lt;a href=&quot;https://cssstats.com/&quot;&gt;CSS Stats&lt;/a&gt; and &lt;a href=&quot;https://www.projectwallace.com/analyze-css&quot;&gt;Wallace&lt;/a&gt; to learn more about my poor css styling by analyzing the information. I went through and cleaned up my HTML and CSS structures, as one cannot be clean without the other. I ended up installing &lt;a href=&quot;https://github.com/bartveneman/wallace-cli&quot;&gt;Wallace CLI&lt;/a&gt; to analyze my refactored CSS as I was working on it. I was able to get pretty CSS analytics in my terminal with Wallace.&lt;/p&gt;
+&lt;p&gt;I used &lt;a href=&quot;https://cssstats.com/&quot;&gt;CSS Stats&lt;/a&gt; and &lt;a href=&quot;https://www.projectwallace.com/analyze-css&quot;&gt;Wallace&lt;/a&gt; to learn more about my poor css styling by analyzing the information. Then I went through and cleaned up my HTML and CSS structures (one cannot be clean without the other). I ended up installing &lt;a href=&quot;https://github.com/bartveneman/wallace-cli&quot;&gt;Wallace CLI&lt;/a&gt; to analyze my refactored CSS as I was working on it. I was able to get pretty CSS analytics in my terminal through this.&lt;/p&gt;
 
 &lt;p&gt;I decided I needed to pick styles to use consistently as variables.&lt;/p&gt;
 &lt;ul&gt;
@@ -190,6 +190,8 @@ BUS 102 — 2 Credit Hours&lt;br /&gt;
 &lt;p&gt;&lt;strong&gt;Computational Thinking&lt;/strong&gt;&lt;br /&gt;
 BUS 104 — 2 Credit Hours&lt;br /&gt;
 &lt;span class=&quot;full-underline&quot; style=&quot;font-size: 12px;&quot;&gt;Way better alternative to&lt;/span&gt; &lt;a href=&quot;https://www.w3schools.com/js/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt; Javascript&lt;/a&gt;&lt;br /&gt;
+&lt;span class=&quot;full-underline&quot; style=&quot;font-size: 12px;&quot;&gt;Way better alternative to&lt;/span&gt; &lt;a href=&quot;https://www.ecma-international.org/publications/standards/Ecma-262.htm&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt; Javascript Standard&lt;/a&gt;&lt;br /&gt;
+&lt;span class=&quot;full-underline&quot; style=&quot;font-size: 12px;&quot;&gt;Way better alternative to&lt;/span&gt; &lt;a href=&quot;https://github.com/getify/You-Dont-Know-JS&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt; Learning what you don’t know about Javascript&lt;/a&gt;&lt;br /&gt;
 &lt;span class=&quot;full-underline&quot; style=&quot;font-size: 12px;&quot;&gt;Way better alternative to&lt;/span&gt; &lt;a href=&quot;https://www.w3schools.com/sql/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt; SQL&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;FSB Success Strategies&lt;/strong&gt; &lt;br /&gt;
@@ -224,6 +226,7 @@ TBD&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Calculus I&lt;/strong&gt;&lt;br /&gt;
 MTH 151 — 5 Credit Hours&lt;br /&gt;
+&lt;span class=&quot;full-underline&quot; style=&quot;font-size: 12px;&quot;&gt;Way better alternative to&lt;/span&gt; &lt;a href=&quot;https://betterexplained.com/guides/calculus/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt; Calculus Better Explained&lt;/a&gt;&lt;br /&gt;
 &lt;span class=&quot;full-underline&quot; style=&quot;font-size: 12px;&quot;&gt;Way better alternative to&lt;/span&gt; &lt;a href=&quot;http://pages.stat.wisc.edu/~ifischer/calculus.pdf&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt; Calculus Refresher&lt;/a&gt;&lt;br /&gt;
 &lt;span class=&quot;full-underline&quot; style=&quot;font-size: 12px;&quot;&gt;Way better alternative to&lt;/span&gt; &lt;a href=&quot;https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt; Essense of Calculus&lt;/a&gt;&lt;br /&gt;
 &lt;span class=&quot;full-underline&quot; style=&quot;font-size: 12px;&quot;&gt;Way better alternative to&lt;/span&gt; &lt;a href=&quot;https://www.google.com/search?biw=1680&amp;amp;bih=840&amp;amp;tbm=isch&amp;amp;sxsrf=ACYBGNRtYk73x-d34apKpsVKq_KL8dIIAw%3A1580204858271&amp;amp;sa=1&amp;amp;ei=OgMwXo6UENCEsAWluqy4DQ&amp;amp;q=differentiation+rules&amp;amp;oq=differe+rules&amp;amp;gs_l=img.3.0.0i7i30l10.5654.6289..6890...0.0..0.67.618.10......0....1..gws-wiz-img.......35i39j0.C-1YbasupQU#imgrc=KYS4xEanf9upPM:&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt; Derivative Rules&lt;/a&gt;&lt;/p&gt;
@@ -274,8 +277,8 @@ TBD&lt;/p&gt;
 &lt;p&gt;Moving forward we need to see how we can enhance our own feedback loops. Just because we have machines doesn’t mean we can stop improving what we know.&lt;/p&gt;
 </description>
         <pubDate>Tue, 28 Jan 2020 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2020/01/28/2020-feedback-loops-copy/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/01/28/2020-feedback-loops-copy/</guid>
+        <link>http://localhost:4000/2020/01/28/2020-feedback-loops/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/01/28/2020-feedback-loops/</guid>
       </item>
     
       <item>
@@ -399,8 +402,8 @@ function showDivs(n) {
 
 </description>
         <pubDate>Sat, 11 Jan 2020 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2020/01/11/2020-presidential-form-comparison-copy/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/01/11/2020-presidential-form-comparison-copy/</guid>
+        <link>http://localhost:4000/2020/01/11/2020-presidential-form-comparison/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/01/11/2020-presidential-form-comparison/</guid>
       </item>
     
       <item>
@@ -1177,8 +1180,8 @@ First iPad introduced by Apple&lt;/p&gt;
 &lt;p&gt;Ideas spread through society in cycles, sometimes seemingly randomly taking off in a storm. Hopefully you were able to look back and imagine life without the things we use without a second thought.&lt;/p&gt;
 </description>
         <pubDate>Tue, 07 Jan 2020 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2020/01/07/a-timeline-of-inventions-copy/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/01/07/a-timeline-of-inventions-copy/</guid>
+        <link>http://localhost:4000/2020/01/07/a-timeline-of-inventions/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/01/07/a-timeline-of-inventions/</guid>
       </item>
     
       <item>
@@ -1620,8 +1623,8 @@ isbn:9780525540830+
 &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;catch&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;err&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;({{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isbn&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;isbn&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;}});&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;throw&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;err&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;});&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 </description>
         <pubDate>Sat, 19 Oct 2019 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2019/10/19/making-a-book-list-copy/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/10/19/making-a-book-list-copy/</guid>
+        <link>http://localhost:4000/2019/10/19/making-a-book-list/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/10/19/making-a-book-list/</guid>
       </item>
     
       <item>

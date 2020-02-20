@@ -32,6 +32,9 @@ fulldata:
         Link: https://analytics.google.com/analytics/academy/
         Comment: "Learn Google Analytics with free online courses"
 
+      - Title: Digital Marketing Education
+        Link: https://acadium.com/
+        Comment: "Gain the skills, work experience, and industry relationships you need to get hired. Entirely remote. Always free."
 
       - Title: High Performance Computing Systems
         Link: https://safari.ethz.ch/courses/
@@ -102,9 +105,17 @@ fulldata:
         Link: https://sundowndev.github.io/hacker-roadmap/
         Comment: "A guide for amateurs pen testers and a collection of hacking tools, resources and references to practice ethical hacking, pen testing and web security."
 
+      - Title: How These Things Work
+        Link: https://ultimateelectronicsbook.com/
+        Comment: "A gentle, yet comprehensive introduction to how these things work."
+
+      - Title: Ultimate Electronics
+        Link: https://ultimateelectronicsbook.com/
+        Comment: "A free, interactive book for electronics hobbyists and electrical engineering students."
+
       - Title: Guide to HTML head elements
         Link: https://htmlhead.dev/
-        Comment: "A free guide to HTML5 head tag elements"
+        Comment: "A free guide to HTML5 head tag elements."
         
       - Title: Visual intro to probability and statistics
         Link: https://seeing-theory.brown.edu
@@ -118,6 +129,10 @@ fulldata:
         Link: https://docs.google.com/document/d/1kngKHUCS0DHNvZAO8PfkcsTD4Mq7b11L09RIaVpQnwI/
         Comment: "Uber project lead expectations Gergely Orosz team has been using at Uber."        
 
+      - Title: Essay Writing Guide
+        Link: https://docs.google.com/viewer?url=https%3A%2F%2Fjordanbpeterson.com%2Fwp-content%2Fuploads%2F2018%2F02%2FEssay_Writing_Guide.docx&mc_cid=d3c67fadf9&mc_eid=1a15f04338
+        Comment: A document by Jordan B Peterson to write an excellent essay from beginning to end, using a ten-step process.
+
       - Title: TheFutur
         Link: https://www.thefutur.com/
         Comment:
@@ -125,6 +140,10 @@ fulldata:
       - Title: "Speaking.io"
         Link: https://speaking.io/
         Comment: "Because <i>imagine everyone's naked</i> is terrible advice."
+
+      - Title: 1 on 1 Meeting Questions
+        Link: https://github.com/VGraupera/1on1-questions
+        Comment:
 
       - Title: 80000 Hours
         Link: https://80000hours.org/
@@ -338,6 +357,10 @@ fulldata:
 
       - Title: Typewolf
         Link: https://www.typewolf.com
+        Comment:
+
+      - Title: Google Fonts Analytics
+        Link: https://fonts.google.com/analytics
         Comment:
 
       - Title: The Design Sprint
@@ -596,9 +619,9 @@ fulldata:
         Link: https://vectormagic.com/
         Comment: "Easily convert JPG, PNG, GIF files to PDF, SVG, EPS vectors."
 
-      - Title: INK
-        Link: https://inkforall.com/
-        Comment: "AI Web Content Optimization Platform."
+      - Title: iA Writer
+        Link: https://ia.net/writer
+        Comment: "Plain text. Full ownership. Total focus. The original iA Writer."
 
       - Title: Screaming Frog SEO Spider
         Link: https://www.screamingfrog.co.uk/seo-spider/
@@ -607,6 +630,10 @@ fulldata:
       - Title: Httrack
         Link: https://www.httrack.com/
         Comment: "Download sites to a local computer."
+
+      - Title: Keyboard Maestro
+        Link: https://www.keyboardmaestro.com/main/
+        Comment: "Automate applications or web sites, text or images, simple or complex, on command or scheduled. You can automate virtually anything."
 
       - Title: Carbon Copy Cloner
         Link: https://bombich.com/
@@ -652,6 +679,10 @@ fulldata:
       - Title: Farnam Street
         Link: https://fs.blog/
         Comment:
+
+      - Title: Money Stuff
+        Link: http://link.mail.bloombergbusiness.com/join/4wm/moneystuff-signup&hash=54223001ca3ffcf40f2629c25acea67a
+        Comment: A daily take on Wall Street, finance, companies and other stuff.
 
       - Title: Hacker News
         Link: https://hackernewsletter.com/
@@ -896,6 +927,10 @@ fulldata:
       - Title: Craig Mod
         Link: https://craigmod.com/
         Comment: "Inspired around the web"
+
+      - Title: Paul Stamatiou
+        Link: https://paulstamatiou.com/
+        Comment: ""
 
       - Title: Jonnie Hallman
         Link: https://destroytoday.com/

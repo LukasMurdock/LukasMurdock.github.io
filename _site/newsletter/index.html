@@ -25,6 +25,7 @@ footer > a > svg {
     height: 24px;
 }
 
+
 footer > a:link, a:visited {
     text-decoration: none;
 }
@@ -48,156 +49,9 @@ a {
   
 
   
-  <h2 class="index-title" style="margin-bottom:0px;">Redesign<p style="font-size: 17px; font-weight: 400; margin-bottom:0px;">February 05, 2020</p></h2>
-  <p>This was always meant to be a very simple website. Simple where the users experience it and simple in the code it’s built with. The first commit to this website was on July 3, 2019. Since then I’ve thought more about how I want this site to be structured.</p>
-
-<p>It it’s most basic form the structure is now:</p>
-
-<p>About<br />
-      &gt; Capabilities<br />
-Resources<br />
-      &gt; Book list<br />
-      &gt; Principles<br />
-Writing<br />
-Contact</p>
-
-<p>In the beginning I decided I would use system fonts on this site, <a href="https://css-tricks.com/snippets/css/system-font-stack/">thanks to this article.</a> That means no fancy or unique font choices. Which in the current state of the web turns out to be quite unique. This means I get to use Apple’s trademark font <a href="https://developer.apple.com/fonts/">San Francisco</a> (a font only available on Apple systems), <a href="https://docs.microsoft.com/en-us/typography/font-list/segoe-ui">Segoe UI</a> for Windows, and <a href="https://fonts.google.com/specimen/Roboto">Roboto</a> on Android.</p>
-
-<p>Throwing that consistency away, a deliberate choice taken by many to be unique, I take on the attached feelings to the platform the user visits on (And I do love San Francisco).</p>
-
-<p>I started off thinking about how I could simplify the top navigation. It was nearly as simple as it could be but it was still too much.</p>
-
-<p>Easy, remind the users of where they are (an expectation of top navigation) and remove that dumb separator.</p>
-
-<p>I used <a href="https://cssstats.com/">CSS Stats</a> and <a href="https://www.projectwallace.com/analyze-css">Wallace</a> to learn more about my poor css styling by analyzing the information. I went through and cleaned up my HTML and CSS structures, as one cannot be clean without the other. I ended up installing <a href="https://github.com/bartveneman/wallace-cli">Wallace CLI</a> to analyze my refactored CSS as I was working on it. I was able to get pretty CSS analytics in my terminal with Wallace.</p>
-
-<p>I decided I needed to pick styles to use consistently as variables.</p>
-<ul>
-  <li>Type sizes</li>
-  <li>Colors</li>
-  <li>Max width (you see the chosen width on desktop)</li>
-</ul>
-
-<p>For now I have settled on:<br />
-    <span style="font-size: var(--font-extra-small);">Extra small</span><br />
-    <span style="font-size: var(--font-small);">Small</span><br />
-    <span style="font-size: var(--font-medium);">Medium</span><br />
-    <span style="font-size: var(--font-reg);">Text Size</span><br />
-    <span style="font-size: var(--font-medium-large);">Medium-Large</span><br />
-    <span style="font-size: var(--font-large);">Large</span><br />
-    <span style="font-size: var(--font-extralarge);">Extra Large</span></p>
-
-<p>And colors of:
-    <!-- --color-blue: #0070c9;
-    --color-text: #333333;
-    --color-accent-green: #84fab0;
-    --color-accent-blue: #8fd3f4; --></p>
-<ul style="margin: 0;">
-<li style="list-style-type:none;">
-    <p>Primary Colors</p>
-    <div style="background-color: #0070c9; color: #FFFFFF; padding: 20px; margin-bottom: 10px; float:left; display: inline-block;"><p><div class="colorname">Blue</div> Hex: #0070c9</p></div>
-    <div style="background-color: #333333; color: #FFFFFF; padding: 20px; margin-bottom: 10px; display: inline-block;"><p><div>Text</div> Hex: #333333</p></div>
-</li>
-<li style="list-style-type:none;">
-    <p>Accent Colors</p>
-    <div style="background-color: #84fab0; color: #333333; padding: 20px; margin-bottom: 10px; float:left; display: inline-block;"><p><div class="colorname">Green</div> Hex: #84fab0</p></div>
-    <div style="background-color: #8fd3f4; color: #333333; padding: 20px; margin-bottom: 10px; display: inline-block;"><p><div>Blue</div> Hex: #8fd3f4</p></div>
-</li>
-</ul>
-
-<p>I went from from:</p>
-<ul>
-  <li>139 Rules</li>
-  <li>512 Declarations</li>
-  <li>8 ID’s</li>
-  <li>89 Classes</li>
-  <li>24 Unique colors</li>
-  <li>16 total color declarations</li>
-  <li>12 unique font sizes</li>
-  <li>23 font size declarations</li>
-  <li>11 margin resets</li>
-</ul>
-
-<p>And reduced it to:</p>
-
-<ul>
-  <li>87 Rules <span class="full-underline" style="font-size: var(--font-small);">37% reduction</span></li>
-  <li>354 Declarations <span class="full-underline" style="font-size: var(--font-small);">30% reduction</span></li>
-  <li>0 ID’s <span class="full-underline" style="font-size: var(--font-small);">100% reduction</span></li>
-  <li>62 Classes <span class="full-underline" style="font-size: var(--font-small);">30% reduction</span></li>
-  <li>18 unique colors <span class="full-underline" style="font-size: var(--font-small);">25% reduction</span></li>
-  <li>7 unique font sizes <span class="full-underline" style="font-size: var(--font-small);">42% reduction</span></li>
-</ul>
-
-  
 
   
   
-
-  
-  <h2 class="index-title" style="margin-bottom:0px;">Mental Models and Principles<p style="font-size: 17px; font-weight: 400; margin-bottom:0px;">February 01, 2020</p></h2>
-  <h2 id="gain-perspective-discover-strengths-focus-action">Gain perspective. Discover strengths. Focus action.</h2>
-<p>Soak up everything you can, learn everything and try everything. The reason we’re here is to solve the hard problems, find where you can make change. If you haven’t started, then taking action is more important than finding a better strategy. If you’re already taking action, then ensuring you’re working on the right thing is more important than working harder. Manage your focus, not your time. Your effort sets your floor. Your strategy sets your ceiling.</p>
-
-<h2 id="drops-make-waves-in-the-ocean">Drops make waves in the ocean</h2>
-<p>It’s the small habits and things that matter. Whatever you repeat, you reinforce. That goes for thoughts and actions. Life is just today, over and over and over again. A series of short terms; that’s what makes the long term. If all you’re doing is maximizing in the short term, you’re going to break the system, because the system is not the short term. The system is the life you’ve chosen to live.</p>
-
-<h2 id="good-habits-make-time-your-ally-bad-habits-make-time-your-enemy">Good habits make time your ally. Bad habits make time your enemy.</h2>
-<p>Rigorously eliminate everything from your life which doesn’t fit inside your top X critical priorities. Where X is as small as possible, and seek to cull it further by combining equivalents and trying to identify why some ‘important’ things might actually be utter wastes of time in the first place. Increase your output by just a tiny fraction on a consistent basis.</p>
-
-<p>When making plans, think big. When making progress, think small.</p>
-
-<h2 id="however-they-think-you-are-thats-who-you-are">However they think you are, that’s who you are.</h2>
-<p>You know yourself mostly by your thoughts. Everyone else knows you only by your actions. It would be easy if everyone thought the way you do. If you want to be chosen, begin by understanding why people don’t choose you and what you have to offer them. Until you can be honest about why, you’re going to waste time and money.</p>
-
-<p>Get clear on the story you tell and connect the dots for people using the dots they know.</p>
-
-<h2 id="embrace-and-pivot">Embrace and pivot.</h2>
-<p>If you’re not satisfied, get in a position of authority and change it. Accept and decide how you’re going to move forward. Distractions will always exist; managing them is our responsibility.</p>
-
-<p>If you care enough about your work to be willing to be criticized for it then you have done a good days work.</p>
-
-<h2 id="its-about-the-process">It’s about the process</h2>
-<p>Amateurs have a goal. Professionals have a process. Process gets you up to speed when you’re not familiar with it. It allows you to do good work even when you’re not particularly inspired. You do not rise to the level of your goals. You fall to the level of your systems. Employ rapid feedback strategies. Take more swings.</p>
-
-<p>Intensity makes a good story. Consistency makes progress.</p>
-
-<h2 id="invert">Invert</h2>
-<p>Approach situations from the opposite end of the natural starting point.</p>
-
-<p>Bernays did not ask, “How do I sell more cigarettes to women?” Instead, he wondered, if women bought and smoked cigarettes, what else would have to be true? What would have to change in the world to make smoking desirable to women and socially acceptable?</p>
-
-<h2 id="unknown">Unknown</h2>
-<p>Stop worrying about work or what you want to work as, and spend time playing. You can wish away forever but you’ll never find a thing like today. Engage with the world rather than constantly thinking about it. Confidence won’t automatically get you results, but self-doubt sets your ceiling. Show up, work hard, and listen. That’s it. It requires no talent, no special genetics, or any skill whatsoever to show up, work hard, and listen.</p>
-
-<p>Once you free your mind of ‘correct’ you can do whatever you want with no preconception of what to do.</p>
-
-<h2 id="better">Better</h2>
-<p>Being better than most of the competition used to be fine. In the world of Google it’s useless because all of your competition is just a click away, whatever it is you do. The only position you can count on now is best in the world.</p>
-
-<p>If you want to be in the top 1% of a particular domain, then you can’t take your cues from and follow the social norms of 99% of people. This is harder than it sounds. We are wired to imitate. The further you want to climb, the more carefully you need to construct your resources.</p>
-
-<p>Success comes from doing what others are not willing to do. Real success goes to those who obsess.</p>
-
-<h2 id="change">Change</h2>
-<p>The truth is, you change effortlessly and all the time. The primary job of the brain is to adjust your behavior based on the environment. Your willpower will never beat out your environment. Design a better environment. Change will happen naturally.</p>
-
-<p>If you want to make a long-term impact, build the roads.</p>
-
-<h2 id="failure">Failure</h2>
-<p>“The master has failed more times than the beginner has even tried” or, the more simplified version from Adventure Time, “Sucking at something is the first step towards being sorta good at something”</p>
-
-<p>Most failures are one-time costs. Most regrets are recurring costs.</p>
-
-<p>Worlds of scarcity are made out of things. Worlds of abundance are made out of dependencies.</p>
-
-<h2 id="dont-fool-yourself">Don’t fool yourself</h2>
-<p>There is a large difference between knowing the name of something and knowing something. The most dangerous phrase is “I know that.” We’re built to believe convenient delusions, not to be accurate. Your brain was designed for survival, not truth, and it’s wise to be wary of your own intuition. Assume you’re wrong and try to prove yourself less wrong.</p>
-
-<p>“The ability to distract or delude yourself has never been greater, and as a result we are facing crises of both privacy and politics. Though those dangers are real, there is also opportunity created in their wake. For those who know how to use technology wisely, it is the easiest time in history to teach yourself something new. An amount of information vaster than was held by the Library of Alexandria is freely accessible to anyone with a device and an internet connection. Top universities such as Harvard, MIT, and Yale are publishing their best courses for free online. Forums and discussion platforms mean that you can learn in groups without ever leaving your home.” — Scott Young</p>
-
-<h2 id="people-are-meant-to-be-respected-ideas-are-not">People are meant to be respected, ideas are not.</h2>
-<p>“Always remember that to argue, and win, is to break down the reality of the person you are arguing against. It is painful to lose your reality, so be kind, even if you are right.” — Haruki Murakami</p>
 
   
 
@@ -291,7 +145,187 @@ Contact</p>
 
   
 
-         
+
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+
+
+<div class="grid-item">
+  <p>Articles from February 2020</p>
+  <ol style="list-style: none; padding: 0;" class="zero-margin">
+    
+    <li>
+      <a style="color: #333; text-decoration:none!important;" class="item" target="_blank" href="https://www.bryanlehrer.com/entries/costco/"
+        rel="noopener">
+        <h2 class="item zero-margin" style="margin: 0; line-height: 1.2;">Costco Capitalism</h2>
+          <p style="margin-top:0; margin-bottom: 30px;"><i>How Costco can sell things for the lowest prices and step on the least amount of toes.</i></p>
+      </a>
+    </li>
+    
+    <li>
+      <a style="color: #333; text-decoration:none!important;" class="item" target="_blank" href="http://kiriakakis.net/comics/mused/a-day-at-the-park"
+        rel="noopener">
+        <h2 class="item zero-margin" style="margin: 0; line-height: 1.2;">A day at the park</h2>
+          <p style="margin-top:0; margin-bottom: 30px;"><i>The only way a question can prove itself unworthy is by attracting a better question.</i></p>
+      </a>
+    </li>
+    
+    <li>
+      <a style="color: #333; text-decoration:none!important;" class="item" target="_blank" href="https://seths.blog/2020/01/the-only-one-who-has-heard-all-of-it/"
+        rel="noopener">
+        <h2 class="item zero-margin" style="margin: 0; line-height: 1.2;">You're the only one who has heard all of it</h2>
+          <p style="margin-top:0; margin-bottom: 30px;"><i>Tell us what we need to know. Not because you need to hear yourself repeat it, but because you believe we need to hear it.</i></p>
+      </a>
+    </li>
+    
+    <li>
+      <a style="color: #333; text-decoration:none!important;" class="item" target="_blank" href="https://idlewords.com/talks/web_design_first_100_years.htm"
+        rel="noopener">
+        <h2 class="item zero-margin" style="margin: 0; line-height: 1.2;">Web Design: The First 100 Years</h2>
+          <p style="margin-top:0; margin-bottom: 30px;"><i>However much we insist that it will get swept away by a new generation of better technology, it stubbornly refuses to go. Our industry has deep roots in the past that we should celebrate and acknowledge.</i></p>
+      </a>
+    </li>
+    
+    <li>
+      <a style="color: #333; text-decoration:none!important;" class="item" target="_blank" href="http://jsomers.net/blog/dictionary"
+        rel="noopener">
+        <h2 class="item zero-margin" style="margin: 0; line-height: 1.2;">You’re probably using the wrong dictionary</h2>
+          <p style="margin-top:0; margin-bottom: 30px;"><i>Your destination is the dictionary.</i></p>
+      </a>
+    </li>
+    
+    <li>
+      <a style="color: #333; text-decoration:none!important;" class="item" target="_blank" href="https://newrepublic.com/article/156000/educated-fools-democrats-misunderstand-politics-social-class"
+        rel="noopener">
+        <h2 class="item zero-margin" style="margin: 0; line-height: 1.2;">Educated Fools</h2>
+          <p style="margin-top:0; margin-bottom: 30px;"><i>Why democratic leaders still misunderstand the politics of social class.</i></p>
+      </a>
+    </li>
+    
+    <li>
+      <a style="color: #333; text-decoration:none!important;" class="item" target="_blank" href="https://www.scotthyoung.com/blog/2020/02/03/work-meaning/"
+        rel="noopener">
+        <h2 class="item zero-margin" style="margin: 0; line-height: 1.2;">How important is work?</h2>
+          <p style="margin-top:0; margin-bottom: 30px;"><i>How important should work be in your life? What kind of relationship should you have with your career? If you don’t feel like you have that, what should you do about it?</i></p>
+      </a>
+    </li>
+    
+  </ol>
+</div>
+
+
+
+
+
+
+
+
+
+
 
     <footer>
   <a

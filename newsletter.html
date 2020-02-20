@@ -15,4 +15,37 @@ description: Updates from Lukas Murdock — We can use the internet to explore t
   {{ post.content }}
   {% endif %}
 {% endfor %}
-         
+
+{% for post in site.posts %}
+  {% assign post_in_seconds = post.date | date: "%s" | plus: 0 %}
+  {% assign recent_posts = "now" | date: "%s" | minus: timeframe  %}
+
+  {% if post_in_seconds > recent_posts %}
+  <h2 class="index-title" style="margin-bottom:0px;">{{ post.title }}<p style="font-size: 17px; font-weight: 400; margin-bottom:0px;">{{ post.date | date: '%B %d, %Y' }}</p></h2>
+  {{ post.content }}
+  {% endif %}
+{% endfor %}
+
+
+
+{% assign timeSet = site.time | date: '%B %Y' %}
+
+{% for d in site.data.links.linkslist %}
+{% if d.Date == timeSet %}
+<div class="grid-item">
+  <p>Articles from {{ d.Date }}</p>
+  <ol style="list-style: none; padding: 0;" class="zero-margin">
+    {% for link in d.Links %}
+    <li>
+      <a style="color: #333; text-decoration:none!important;" class="item" target="_blank" href="{{ link.Link }}"
+        rel="noopener">
+        <h2 class="item zero-margin" style="margin: 0; line-height: 1.2;">{{ link.Title }}</h2>
+          <p style="margin-top:0; margin-bottom: 30px;"><i>{{ link.Comment }}</i></p>
+      </a>
+    </li>
+    {% endfor %}
+  </ol>
+</div>
+{% endif %}
+{% endfor %}
+

@@ -114,7 +114,7 @@
     padding-left: 20px;
   }
   
-  li::before {
+  ol:not(.nav-menu) li::before {
     counter-increment: dopeCounter 1;
     content: counter(dopeCounter,decimal-leading-zero);
     position: absolute;
