@@ -106,7 +106,7 @@ fulldata:
         Comment: "A guide for amateurs pen testers and a collection of hacking tools, resources and references to practice ethical hacking, pen testing and web security."
 
       - Title: How These Things Work
-        Link: https://ultimateelectronicsbook.com/
+        Link: https://reasonablypolymorphic.com/book/preface
         Comment: "A gentle, yet comprehensive introduction to how these things work."
 
       - Title: Ultimate Electronics
@@ -366,6 +366,14 @@ fulldata:
       - Title: The Design Sprint
         Link: https://www.gv.com/sprint/
         Comment: The sprint is a five-day process for answering critical business questions through design, prototyping, and testing ideas with customers.
+
+      - Title: Design Sprint Kit
+        Link: https://designsprintkit.withgoogle.com/
+        Comment: Learn, plan, and contribute to the Design Sprint Methodology.
+
+      - Title: Google Design Resources
+        Link: https://design.google/resources/
+        Comment: A directory of essential design tools and resources to keep your projects moving forward.
 
       - Title: Sheets for Marketers
         Link: https://sheetsformarketers.com/
