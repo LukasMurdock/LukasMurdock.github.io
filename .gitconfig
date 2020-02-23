@@ -1,0 +1,1 @@
+resource-changes = !git blame -s --since=3.weeks -- _data/resources.yaml | grep -v '^\^'

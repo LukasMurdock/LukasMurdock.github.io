@@ -20,6 +20,10 @@ fulldata:
   - Type: Guides
     List:
 
+      - Title: MIT Open Courseware
+        Link: https://ocw.mit.edu/index.htm
+        Comment: "A web-based publication of virtually all MIT course content. OCW is open and available to the world and is a permanent MIT activity."
+
       - Title: Learn Anything
         Link: https://learn-anything.xyz/
         Comment: "You can learn anything."
@@ -84,10 +88,6 @@ fulldata:
       - Title: AIGA Design Business and Ethics
         Link: https://www.aiga.org/design-business-and-ethics
         Comment: ""
-        
-      - Title: Multiple Currency Accounting
-        Link: https://www.mathstat.dal.ca/~selinger/accounting/tutorial.html
-        Comment:
 
       - Title: Wistia Learn
         Link: https://wistia.com/learn
