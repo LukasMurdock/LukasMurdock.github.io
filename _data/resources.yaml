@@ -29,7 +29,7 @@ fulldata:
         Comment: "You can learn anything."
 
       - Title: Google Skillshop
-        Link: https://safari.ethz.ch/courses/
+        Link: https://skillshop.withgoogle.com/
         Comment: "The one-stop-shop for every kind of learner who wants to succeed with Google professional tools and solutions."
 
       - Title: Google Analytics Academy
@@ -62,12 +62,11 @@ fulldata:
 
       - Title: Webflow Freelancer Journey
         Link: https://university.webflow.com/freelancer
-        Comment: ""
+        Comment: "A free, comprehensive course that teaches you how to succeed as a freelance web designer."
 
       - Title: Google Project Aristotle
         Link: https://rework.withgoogle.com/guides/understanding-team-effectiveness/steps/introduction/
         Comment: "Online courses, designed for you to grow your career or business."
-        
 
       - Title: Google Digital Garage
         Link: https://learndigital.withgoogle.com/digitalgarage
@@ -75,11 +74,15 @@ fulldata:
 
       - Title: A guide to type styles
         Link: https://www.fontsmith.com/blog/2019/06/24/a-guide-to-type-styles
-        Comment: ""
+        Comment: "Instead of focusing on the existing systems or trying to come up with a new system, this piece looks to demystify some useful terminology to help you recognise the most common Latin type styles."
         
+      - Title: "Thinking with type"
+        Link: http://thinkingwithtype.com/
+        Comment: "Letter, text, grid and extras."
+
       - Title: Degreeless Design
         Link: https://www.degreeless.design/
-        Comment: ""
+        Comment: "A list of everything for budding UX, UI, Interaction, or whatever other title designers."
         
       - Title: Best Practices in Branding
         Link: https://polyatlas.app/wiki/
@@ -87,11 +90,11 @@ fulldata:
 
       - Title: AIGA Design Business and Ethics
         Link: https://www.aiga.org/design-business-and-ethics
-        Comment: ""
+        Comment: "Outlines the critical ethical and professional issues encountered by designers and their clients."
 
       - Title: Wistia Learn
         Link: https://wistia.com/learn
-        Comment:
+        Comment: "Wistia provides video marketing tips and education along with video production tips."
         
       - Title: Programming project based learning
         Link: https://github.com/tuvtran/project-based-learning/blob/master/README.md?utm_source=share&utm_medium=ios_app&utm_name=iossmf#javascript
@@ -99,7 +102,7 @@ fulldata:
         
       - Title: Developer Roadmap
         Link: https://roadmap.sh
-        Comment:
+        Comment: "Community driven roadmaps, articles, guides, quizzes, tips and resources for developers to learn from, identify their career paths, know what they don't know, find out the knowledge gaps, learn and improve."
 
       - Title: Hacker Roadmap
         Link: https://sundowndev.github.io/hacker-roadmap/
@@ -119,11 +122,11 @@ fulldata:
         
       - Title: Visual intro to probability and statistics
         Link: https://seeing-theory.brown.edu
-        Comment:
+        Comment: "Making statistics more accessible through interactive visualizations."
         
       - Title: Javascript references
         Link: https://github.com/mdjsn/references/blob/master/README.md
-        Comment:  
+        Comment: "All the references used by the community - quick courses for the javascript engineers."
 
       - Title: Project Engineering Lead Expectations
         Link: https://docs.google.com/document/d/1kngKHUCS0DHNvZAO8PfkcsTD4Mq7b11L09RIaVpQnwI/
@@ -135,7 +138,7 @@ fulldata:
 
       - Title: TheFutur
         Link: https://www.thefutur.com/
-        Comment:
+        Comment: "An online education platform loaded with content, courses, and tools to help you build better design skills and better creative businesses."
         
       - Title: "Speaking.io"
         Link: https://speaking.io/
@@ -143,11 +146,11 @@ fulldata:
 
       - Title: 1 on 1 Meeting Questions
         Link: https://github.com/VGraupera/1on1-questions
-        Comment:
+        Comment: "Mega list of 1 on 1 meeting questions compiled from a variety to sources."
 
       - Title: 80000 Hours
         Link: https://80000hours.org/
-        Comment:
+        Comment: "You have 80,000 hours in your career. How can you best use them to help solve the world’s most pressing problems?"
 
       - Title: The book on video workflows
         Link: https://workflow.frame.io/
@@ -155,7 +158,7 @@ fulldata:
 
       - Title: Early User Growth
         Link: https://earlyusergrowth.com/startups/
-        Comment:
+        Comment: "How successful companies got their first users."
 
       - Title: Precious Plastic
         Link: https://preciousplastic.com/
@@ -167,15 +170,15 @@ fulldata:
     List:
       - Title: Human Interface
         Link: https://developer.apple.com/design/human-interface-guidelines/
-        Comment: ""
+        Comment: "Get in-depth information and UI resources for designing great apps that integrate seamlessly with Apple platforms."
 
       - Title: Material Design
         Link: https://material.io/design/
-        Comment: ""
+        Comment: "Material is an adaptable system of guidelines, components, and tools that support the best practices of user interface design."
 
       - Title: Material Design Icons
         Link: https://materialdesignicons.com
-        Comment: ""
+        Comment: "View all the Material Design icons."
 
       - Title: Color.review
         Link: https://color.review/
@@ -191,7 +194,7 @@ fulldata:
 
       - Title: Accessible Color Matrix
         Link: https://jxnblk.github.io/colorable/demos/matrix/
-        Comment: "See accessiblity of color palette."
+        Comment: "See accessibility of color palette."
 
       - Title: Colors and Fonts
         Link: https://www.colorsandfonts.com/
@@ -211,12 +214,11 @@ fulldata:
 
       - Title: User Onboarding
         Link: https://www.useronboard.com/
-        Comment: ""
-        Category: UIUX
+        Comment: "The ultimate source for User Onboarding teardowns, tips, & thoughts."
 
       - Title: A collection of design systems
         Link: https://github.com/alexpate/awesome-design-systems
-        Comment: ""
+        Comment: "A curated list of design systems, pattern libraries, and everything between."
 
       - Title: Dark Patterns
         Link: https://www.darkpatterns.org/
@@ -236,11 +238,11 @@ fulldata:
 
       - Title: UX Frameworks
         Link: https://www.uxframeworks.design
-        Comment:
+        Comment: "Find and share frameworks for design research, synthesis, and ideation."
 
       - Title: Web Gradients
         Link: https://webgradients.com
-        Comment: ""
+        Comment: "Free collection of beautiful gradients."
 
       - Title: Humaaans
         Link: https://www.humaaans.com/
@@ -252,48 +254,39 @@ fulldata:
 
       - Title: Free illustrations, for everything
         Link: https://www.glazestock.com/
-        Comment: ""
-        Category: UIUX
+        Comment: "A curated royalty-free illustration library."
 
       - Title: Can't Unsee
         Link: https://cantunsee.space/
         Comment: "Select the design that is most correct"
-        Category: UIUX
 
       - Title: Segment
         Link: https://segment.com/
-        Comment: ""
-        Category: UIUX
+        Comment: "A customer data platform that helps you collect, clean, and control your customer data."
 
       - Title: Stripe
         Link: https://stripe.com/
-        Comment: ""
-        Category: UIUX
+        Comment: "Online payment processing for internet businesses."
 
       - Title: Privacy
         Link: https://privacy.com/
-        Comment: ""
-        Category: UIUX
+        Comment: "Make a unique debit card number for every single purchase online with just 1 click."
 
       - Title: My Fitness Pal
         Link: https://www.myfitnesspal.com/
-        Comment: ""
-        Category: UIUX
+        Comment: "Free online calorie counter and diet plan."
 
       - Title: Wista
         Link: https://wistia.com/
-        Comment: ""
-        Category: UIUX
+        Comment: "Build Brand Affinity with Video Marketing Software."
 
       - Title: Slack
         Link: https://slack.com/
-        Comment:
-        Category: UIUX
+        Comment: "Slack replaces email inside your company."
 
       - Title: Maven
         Link: https://www.mavenclinic.com
-        Comment: ""
-        Category: UIUX
+        Comment: "Women’s and family healthcare the way it should be."
 
 
   #Niche resources
@@ -317,7 +310,7 @@ fulldata:
 
       - Title: Tools for makers
         Link: https://hoard.fyi/
-        Comment: ""
+        Comment: "Curated tools & resources for web designers, developers & makers."
 
       - Title: iHateRegex
         Link: https://ihateregex.io/
@@ -329,7 +322,7 @@ fulldata:
 
       - Title: Free tools for devs
         Link: https://free-for.dev/
-        Comment: ""
+        Comment: "A list of software and other offerings with free tiers for developers."
 
       - Title: Leaderboard for the best new products
         Link: https://pragli.com/leaderboard-for-product-hunt/
@@ -339,29 +332,33 @@ fulldata:
         Link: https://askalmanac.com/
         Comment: "Access to tools, templates, and guides from top startup minds."
 
+      - Title: Semantic Scholar
+        Link: https://www.semanticscholar.org/
+        Comment: "Find peer-reviewed research from the world's most trusted sources."
+
       - Title: Related subreddits
         Link: https://anvaka.github.io/sayit/?query=
         Comment: This website shows you a graph of related subreddits for any given one.
 
       - Title: Best SEO Tools
         Link: https://saijogeorge.com/best-marketing-tools/
-        Comment: ""
+        Comment: "Curated links to various marketing websites."
 
       - Title: Guides for frontend developers
         Link: https://www.learnstorybook.com/
-        Comment:
+        Comment: "Free in-depth guides for professional frontend developers."
         
       - Title: Free resources for Freelancers
         Link: https://usefyi.com/templates/freelancer-templates/
-        Comment:
+        Comment: "All the free resources and templates you need to get work done as a freelancer."
 
       - Title: Typewolf
         Link: https://www.typewolf.com
-        Comment:
+        Comment: "Web fonts in the wild, font recommendations and learning resources."
 
       - Title: Google Fonts Analytics
         Link: https://fonts.google.com/analytics
-        Comment:
+        Comment: "Making the web more beautiful, fast, and open through great typography."
 
       - Title: The Design Sprint
         Link: https://www.gv.com/sprint/
@@ -377,7 +374,7 @@ fulldata:
 
       - Title: Sheets for Marketers
         Link: https://sheetsformarketers.com/
-        Comment:
+        Comment: "Learn how to make SEO tools, automate boring tasks and up your marketing game, without ever leaving Google Sheets."
 
 
 
@@ -438,12 +435,11 @@ fulldata:
 
       - Title: Google Drive
         Link: https://www.google.com/drive/
-        Comment: ""
-        Category: Software
+        Comment: "Safely store and share your photos, videos, files and more in the cloud."
 
       - Title: Webflow
         Link: https://webflow.com/
-        Comment: ""
+        Comment: "The top drag-and-drop website builder for creating professional responsive websites."
 
       - Title: Wealthfront
         Link: https://www.wealthfront.com/
@@ -451,23 +447,23 @@ fulldata:
 
       - Title: Write With Transformer
         Link: https://transformer.huggingface.co
-        Comment: ""
-        Category: Software
+        Comment: "See how a modern neural network auto-completes your text."
 
       - Title: Hemingway
         Link: http://www.hemingwayapp.com
-        Comment: ""
-        Category: Software
+        Comment: "Makes your writing bold and clear."
 
       - Title: Formal Founder
         Link: https://www.formalfounder.com/
-        Comment: ""
-        Category: Software
+        Comment: "A free business name availability search tool used to help entrepreneurs find available businesses names, trademarks, patents, domains, and social media handles nationwide."
+
+      - Title: Namewink
+        Link: https://namewink.com/
+        Comment: "Business Name Generator for Unique and Creative Name Ideas."
 
       - Title: Related Words
         Link: https://relatedwords.org/
-        Comment: ""
-        Category: Software
+        Comment: "Find words related to another word."
 
       - Title: Wordoid
         Link: https://wordoid.com
@@ -475,18 +471,15 @@ fulldata:
 
       - Title: Sharpen Design
         Link: https://sharpen.design/
-        Comment: ""
-        Category: Software
+        Comment: "Millions of practice design prompts to challenge you to think outside the box."
 
       - Title: IUBenda
         Link: https://www.iubenda.com/
-        Comment: ""
-        Category: Software
+        Comment: "Compliance Solutions for Websites, Apps and Organizations."
 
       - Title: This person does not exist
         Link: https://thispersondoesnotexist.com/
-        Comment: ""
-        Category: Software
+        Comment: "Computer generated people. Refresh to get a new one."
 
       - Title: GoatCounter
         Link: https://www.goatcounter.com/
@@ -494,11 +487,11 @@ fulldata:
 
       - Title: Similar Web
         Link: https://similarweb.com/
-        Comment: ""
+        Comment: "Compare any website traffic statistics & analytics."
 
       - Title: Built With
         Link: https://builtwith.com/
-        Comment: ""
+        Comment: "Web technology information profiler tool. Find out what a website is built with."
 
 
 
@@ -515,7 +508,7 @@ fulldata:
 
       - Title: 77X
         Link: https://chrome.google.com/webstore/detail/77x/lgnkmlgloomjfbmdenogdehhphnhaihb?hl=en
-        Comment: ""
+        Comment: "Open a tab, get a thing. Each tab generates a random "thing" from 77 Things a design handbook published by Uber Design."
 
       - Title: BuiltWith
         Link: https://chrome.google.com/webstore/detail/builtwith-technology-prof/dapjbgnjinbpoindlpdmhochffioedbn?hl=en
@@ -527,32 +520,27 @@ fulldata:
 
       - Title: SVG Grabber
         Link: https://chrome.google.com/webstore/detail/svg-grabber-get-all-the-s/ndakggdliegnegeclmfgodmgemdokdmg?hl=en
-        Comment: ""
-        Category: Chrome add-ons
+        Comment: "Get all the svg's from a site"
 
       - Title: AdBlock
         Link: https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom?hl=en
-        Comment: ""
-        Category: Chrome add-ons
+        Comment: "Best ad blocker"
 
       - Title: Grammarly
         Link: https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen?hl=en
-        Comment: ""
-        Category: Chrome add-ons
+        Comment: "Eliminate writing errors and find the perfect words to express yourself."
 
       - Title: The Great Suspender
         Link: https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg?hl=en
-        Comment: ""
-        Category: Chrome add-ons
+        Comment: "Make your computer run smoothly by suspending the tabs you aren't using."
 
       - Title: CSS Peeper
         Link: https://chrome.google.com/webstore/detail/css-peeper/mbnbehikldjhnfehhnaidhjhoofhpehk?hl=en
-        Comment: ""
-        Category: Chrome add-ons
+        Comment: "Extract CSS and build beautiful styleguides."
 
       - Title: Fontface Ninja
         Link: https://chrome.google.com/webstore/detail/fontface-ninja/eljapbgkmlngdpckoiiibecpemleclhh?hl=en
-        Comment: ""
+        Comment: "Identify fonts on any website."
 
       - Title: Checkbot
         Link: https://www.checkbot.io/
@@ -560,8 +548,7 @@ fulldata:
 
       - Title: Bullshit js
         Link: https://mourner.github.io/bullshit.js/
-        Comment: ""
-        Category: Chrome add-ons
+        Comment: "Bullshit.js is a mission-critical enterprise JavaScript bookmarklet that will empower you to evaluate the high impact of market-driven text on any page."
 
 
 
@@ -582,46 +569,39 @@ fulldata:
 
       - Title: VS Code
         Link: https://code.visualstudio.com/
-        Comment: ""
+        Comment: "Code editing. Free. Built on open source. Runs everywhere."
 
       - Title: Affinity Designer
         Link: https://affinity.serif.com/en-us/designer/
-        Comment: ""
-        Category: Application
+        Comment: "An award-winning vector graphics software setting the new industry standard in the world of design."
 
       - Title: Affinity Photo
         Link: https://affinity.serif.com/en-us/photo/
-        Comment: ""
-        Category: Application
+        Comment: "The only fully loaded photo editor integrated across Mac, Windows and iOS."
 
       - Title: Affinity Publisher
         Link: https://affinity.serif.com/en-us/publisher/
-        Comment: ""
-        Category: Application
+        Comment: "Bring your vision to life with Affinity Publisher, the next generation of professional publishing software."
 
       - Title: Adobe Illustrator
         Link: https://www.adobe.com/products/illustrator.html
-        Comment: ""
-        Category: Application
+        Comment: "Create logos, icons, sketches, typography and other vector art."
 
       - Title: Adobe After Effects
         Link: https://www.adobe.com/products/aftereffects.html
-        Comment: ""
-        Category: Application
+        Comment: "Create motion graphics and visual effects."
 
       - Title: Adobe Premiere Pro
         Link: https://www.adobe.com/products/premiere.html
-        Comment: ""
-        Category: Application
+        Comment: "Industry standard video editing."
 
       - Title: Final Cut Pro X
         Link: https://www.apple.com/final-cut-pro/
-        Comment: ""
-        Category: Application
+        Comment: "Apple's take on post-production."
 
       - Title: Motion 5
         Link: https://www.apple.com/final-cut-pro/motion/
-        Comment: ""
+        Comment: "Apple's simple motion graphics tool."
 
       - Title: Vector Magic
         Link: https://vectormagic.com/
@@ -682,83 +662,91 @@ fulldata:
 
       - Title: Taco from Trello
         Link: https://blog.trello.com/
-        Comment:
+        Comment: "The official Trello blog."
 
       - Title: Farnam Street
         Link: https://fs.blog/
-        Comment:
+        Comment: "Live a better life by mastering the best of what other people have already figured out."
 
       - Title: Money Stuff
         Link: http://link.mail.bloombergbusiness.com/join/4wm/moneystuff-signup&hash=54223001ca3ffcf40f2629c25acea67a
-        Comment: A daily take on Wall Street, finance, companies and other stuff.
+        Comment: "A daily take on Wall Street, finance, companies and other stuff."
+
+      - Title: Alex Danco
+        Link: https://hackernewsletter.com/
+        Comment: "Fresh thinking and provocative takes on the innovation economy, in your inbox every Sunday. Now in its second season."
 
       - Title: Hacker News
         Link: https://hackernewsletter.com/
-        Comment:
+        Comment: "A weekly newsletter of the best articles curated by hand from Hacker News."
 
       - Title: Hacker News Digest
         Link: https://yahnd.com/
-        Comment:
+        Comment: "YaHNd is a collection of experimental data-mining projects over the Hacker News discussion forum."
 
       - Title: SSRN
         Link: https://www.ssrn.com
-        Comment:
+        Comment: "Tomorrow´s Research Today."
 
       - Title: Product Hunt
         Link: https://www.producthunt.com
-        Comment:
+        Comment: "A curation of the best new products, every day."
 
       - Title: The Product Person
         Link: https://theproductperson.com/
         Comment: "An article a week to improve your product skills."
 
+      - Title: Better Explained
+        Link: https://theproductperson.com/
+        Comment: "For everyone interested in deep, intuitive learning."
+
       - Title: Unsupervised Learning
         Link: https://danielmiessler.com/newsletter/
-        Comment: "Articles around the intersection of security, technology, and humans.."
+        Comment: "Articles around the intersection of security, technology, and humans."
 
       - Title: AJ & Smart
-        Link: https://ajsmart.com/
-        Comment:
+        Link: https://pages.convertkit.com/706830c7d2/e7cce14a7a
+        Comment: "Product Innovation Newsletter."
 
       - Title: Industry Dive
         Link: https://www.industrydive.com/
-        Comment:
+        Comment: "Business journalism for decision makers in the most competitive industries, helping spark ideas and innovation, shape agendas and empower confident decisions."
 
       - Title: Google Trends
         Link: https://trends.google.com/trends/
-        Comment:
+        Comment: "Explore what the world is searching."
 
       - Title: TorrentFreak
         Link: https://torrentfreak.com/
-        Comment:
+        Comment: "A publication dedicated to bringing the latest news about copyright, privacy, and everything related to filesharing."
 
       - Title: Inside Design by Invision
         Link: https://www.invisionapp.com/inside-design/
-        Comment:
+        Comment: "InVision’s official blog that discusses design thinking, design teams, and design inspiration."
 
       - Title: Drop (formerly Massdrop)
         Link: https://drop.com/
-        Comment:
+        Comment: "Discover innovative products, made possible by users."
 
       - Title: ReallyGoodEmails
         Link: https://reallygoodemails.com/
-        Comment:
+        Comment: "The web’s best, and most attractive, curated collection of over 5,101 emails, showing off both design and code."
 
       - Title: Effectivology
         Link: https://effectiviology.com/
-        Comment:
+        Comment: "Articles that help you understand the world better, and show you how to think and act more effectively."
 
       - Title: James Clear
-        Link: https://jamesclear.com
-        Comment:
+        Link: https://jamesclear.com/newsletter
+        Comment: "Self-improvement tips based on proven scientific research."
 
       - Title: Demand progress
         Link: https://demandprogress.org
-        Comment:
+        Comment: "Demand Progress and our more than two million members seek to protect the democratic character of the internet — and wield it to make government accountable and contest concentrated corporate power."
 
       - Title: Awesome developer newsletters
         Link: https://github.com/zudochkin/awesome-newsletters/blob/master/README.md
-        Comment:
+        Comment: "A curated list of awesome newsletters."
 
         
 
@@ -771,15 +759,15 @@ fulldata:
 
       - Title: Political advertising transparency
         Link: https://transparencyreport.google.com/political-ads/home
-        Comment: ""
+        Comment: "To help everyone understand the ads they see online."
 
       - Title: Project Gutenburg
         Link: https://www.gutenberg.org/
-        Comment: ""
+        Comment: "A library of over 60,000 free eBooks available online."
 
       - Title: Standard Ebooks
         Link: https://standardebooks.org/
-        Comment: ""
+        Comment: "Free and liberated ebooks, carefully produced for the true book lover."
 
       - Title: "*privacy not included"
         Link: https://foundation.mozilla.org/en/privacynotincluded/
@@ -795,37 +783,34 @@ fulldata:
 
       - Title: MF Website
         Link: http://motherfuckingwebsite.com/
-        Comment: ""
+        Comment: "This is a motherfucking website. And it's fucking perfect."
 
       - Title: Better MF Website
         Link: http://bettermotherfuckingwebsite.com/
-        Comment: ""
-        Category: Website
+        Comment: "This is still a motherfucking website. And it's more fucking perfect than the last guy's."
 
       - Title: Best MF Website
         Link: https://bestmotherfucking.website/
-        Comment: ""
-        Category: Website
+        Comment: "This is the best motherfucking website. And it’s fucking perfect."
 
       - Title: The Best MF Website
         Link: https://thebestmotherfucking.website/
-        Comment: ""
-        Category: Website
+        Comment: "This is the best motherfucking website. Really, it is."
 
   #Podcast
   - Type: Podcast
     List:
       - Title: Akimbo
-        Link: https://www.akimbo.me/
-        Comment:
+        Link: https://www.akimbo.link/
+        Comment: "The official site of Seth Godin's podcast, Akimbo."
 
       - Title: Revisionist History
         Link: http://revisionisthistory.com/
-        Comment:
+        Comment: "Revisionist History is Malcolm Gladwell's journey through the overlooked and the misunderstood."
 
       - Title: 99% Invisible
         Link: https://99percentinvisible.org/
-        Comment:
+        Comment: "99% Invisible with Roman Mars is a tiny radio show about design, architecture & the ninety-nine percent invisible activity that shapes our world."
 
       - Title: The Knowledge Project
         Link: https://fs.blog/the-knowledge-project/
@@ -833,7 +818,7 @@ fulldata:
 
       - Title: How I Built This
         Link: https://www.npr.org/podcasts/510313/how-i-built-this
-        Comment:
+        Comment: "The stories behind some of the world's best known companies."
 
       - Title: Rework
         Link: https://rework.fm/
@@ -841,7 +826,7 @@ fulldata:
 
       - Title: Story Break
         Link: https://www.maximumfun.org/shows/story-break
-        Comment:
+        Comment: "A show where three Hollywood pros have one hour to turn a humble idea into cinematic gold."
 
 
   #Youtube
@@ -849,61 +834,51 @@ fulldata:
     List:
       - Title: The Futur
         Link: https://www.youtube.com/channel/UC-b3c7kxa5vU-bnmaROgvog
-        Comment:
+        Comment: "The Futur of education, design, business and learning."
 
       - Title: Kurzgesagt
         Link: https://www.youtube.com/channel/UCsXVk37bltHxD1rDPwtNM8Q
-        Comment:
+        Comment: "Videos explaining things in a nutshell."
 
       - Title: Polymatter
         Link: https://www.youtube.com/channel/UCgNg3vwj3xt7QOrcIDaHdFg
-        Comment:
-        Category: Youtube
+        Comment: "A channel about technology, economics, China, and more."
 
       - Title: Linus Tech Tips
         Link: https://www.youtube.com/user/LinusTechTips
-        Comment:
-        Category: Youtube
+        Comment: "Tech can be complicated; let's make it easy."
 
       - Title: Marques Brownlee
         Link: https://www.youtube.com/user/marquesbrownlee
-        Comment:
-        Category: Youtube
+        Comment: "Quality Tech Videos."
 
       - Title: Corridor Crew
         Link: https://www.youtube.com/channel/UCSpFnDQr88xCZ80N-X7t0nQ
-        Comment:
-        Category: Youtube
+        Comment: "The ups and downs of creators at a professional production studio."
 
       - Title: Academy of Ideas
         Link: https://www.youtube.com/user/academyofideas
-        Comment:
-        Category: Youtube
+        Comment: "Videos explaining the ideas of history's great thinkers."
 
       - Title: Smarter Every Day
         Link: https://www.youtube.com/channel/UC6107grRI4m0o2-emgoDnAA
-        Comment:
-        Category: Youtube
+        Comment: "Explore the world using science."
 
       - Title: Google Chrome Developers
         Link: https://www.youtube.com/channel/UCnUYZLuoy1rq1aVMwx4aTzw
-        Comment:
-        Category: Youtube
+        Comment: "Making the web more awesome."
 
       - Title: ColdFusion
         Link: https://www.youtube.com/channel/UC4QZ_LsYcvcq7qOsOhpAX4A
-        Comment:
-        Category: Youtube
+        Comment: "Learn the captivating stories about how our world came to be and also learn what's happening in the cutting edge today."
 
       - Title: The Coding Train
         Link: https://youtube.com/user/shiffman/videos
-        Comment:
-        Category: Youtube
+        Comment: "Creative coding video tutorials on subjects ranging from the basics of programming languages like JavaScript to algorithmic art, machine learning, simulation, generative poetry, and more."
 
-      - Title: FStoppers
-        Link: https://www.youtube.com/channel/UCnvgtzmvlb6d58d9BbOKuMA
-        Comment:
-        Category: Youtube
+      - Title: Film Riot
+        Link: https://www.youtube.com/user/filmriot
+        Comment: "A how-to trip through filmmaking from the hyper-active minds of the Connolly Brothers."
 
   # Personal Sites
   - Type: Personal sites
@@ -914,19 +889,19 @@ fulldata:
 
       - Title: Adam Silver
         Link: https://adamsilver.io/
-        Comment: ""
+        Comment: "Interaction designer and author of Form Design Patterns."
 
       - Title: Ari Stathopoulos
         Link: https://aristath.github.io/
-        Comment: ""
+        Comment: "WordPress Developer, Accessibility & Sustainability evangelist, Human."
 
       - Title: Brody Maclean
         Link: https://brody.com/
-        Comment: ""
+        Comment: "A Product Designer based in Sydney."
 
       - Title: Marko Saric
         Link: https://markosaric.com/
-        Comment: ""
+        Comment: "Blogger And Content Marketer."
 
       - Title: Tom Macwright
         Link: https://macwright.org/
@@ -934,35 +909,35 @@ fulldata:
 
       - Title: Craig Mod
         Link: https://craigmod.com/
-        Comment: "Inspired around the web"
+        Comment: "Books and essays on walking, Japan, photography, and publishing."
 
       - Title: Paul Stamatiou
         Link: https://paulstamatiou.com/
-        Comment: ""
+        Comment: "Technology, Design and Photography."
 
       - Title: Jonnie Hallman
         Link: https://destroytoday.com/
-        Comment: ""
+        Comment: "A designer and developer based in Brooklyn."
 
       - Title: Mario Depicolzuane
         Link: https://depicolzuane.com/
-        Comment: ""
+        Comment: "Observations on creativity, life & other curiosities."
 
       - Title: Robb Owen
         Link: https://robbowen.digital/
-        Comment: ""
+        Comment: "Independent Creative Developer."
 
       - Title: Ryan Johnson
         Link: https://brentryanjohnson.com/
-        Comment: "Inspired reading list"
+        Comment: "Content strategy, communication, writing, design, and GIS. Inspired reading list"
 
       - Title: Brittany Chiang
         Link: https://brittanychiang.com
-        Comment: "Nice portfolio"
+        Comment: "A software engineer based in Boston."
 
       - Title: Kelly Sutton
         Link: https://kellysutton.com/
-        Comment: ""
+        Comment: "A software engineer living in San Francisco."
 
   #Movies
   - Type: Movies
@@ -978,17 +953,15 @@ fulldata:
 
       - Title: Rams
         Link: https://www.hustwit.com/rams
-        Comment:
+        Comment: "A documentary portrait of Dieter Rams, one of the most influential designers alive, and a rumination on consumerism, sustainability, and the future of design."
 
       - Title: Helvetica
         Link: https://www.hustwit.com/helvetica
-        Comment:
-        Category: Movie
+        Comment: "A feature-length documentary about typography, graphic design and global visual culture."
 
       - Title: Tron
         Link: https://movies.disney.com/tron
-        Comment:
-        Category: Movie
+        Comment: "The 1982 original classic."
 
 
 
@@ -997,24 +970,21 @@ fulldata:
     List:
       - Title: New page for Book List!
         Link: https://lukasmurdock.com/booklist/
-        Comment:
+        Comment: "Books I really don't want to forget."
 
   #Music
   - Type: Music
     List:
       - Title: Jon Bellion
         Link: http://www.jonbellion.com/
-        Comment:
-        Category: Music
+        Comment: "American rapper, singer, songwriter and record producer."
 
       - Title: Eden
         Link: http://iameden.eu/
-        Comment:
-        Category: Music
+        Comment: "An Irish singer, songwriter, multi-instrumentalist, record producer, and occasional model."
 
       - Title: Elohim
         Link: https://elohimxelohim.com/
         Comment:
-        Category: Music
 
 
