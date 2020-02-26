@@ -308,6 +308,10 @@ fulldata:
         Link: https://www.websters1913.com/
         Comment: "Connoisseur's reference to American English - a dictionary for writers and wordsmiths."
 
+      - Title: Etymonline
+        Link: https://www.etymonline.com/
+        Comment: "Origin, history and meaning of English words."
+
       - Title: Tools for makers
         Link: https://hoard.fyi/
         Comment: "Curated tools & resources for web designers, developers & makers."
@@ -335,6 +339,10 @@ fulldata:
       - Title: Semantic Scholar
         Link: https://www.semanticscholar.org/
         Comment: "Find peer-reviewed research from the world's most trusted sources."
+
+      - Title: Smithsonian Open Access
+        Link: https://www.si.edu/openaccess
+        Comment: "Download, share, and reuse millions of the Smithsonian’s images."
 
       - Title: Related subreddits
         Link: https://anvaka.github.io/sayit/?query=
@@ -673,7 +681,7 @@ fulldata:
         Comment: "A daily take on Wall Street, finance, companies and other stuff."
 
       - Title: Alex Danco
-        Link: https://hackernewsletter.com/
+        Link: https://danco.substack.com/
         Comment: "Fresh thinking and provocative takes on the innovation economy, in your inbox every Sunday. Now in its second season."
 
       - Title: Hacker News
