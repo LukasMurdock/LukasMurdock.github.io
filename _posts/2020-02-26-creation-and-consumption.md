@@ -12,12 +12,15 @@ Around the age of six, I would fasten an earnest and prolonged gaze on the overh
 
 Enough of that prose. No screens to monitor for updates bring a forgotten feeling of calm and relief. This new cycle of consumption and creation has advanced the gradual failure of the health, strength, and soundness of those powerless to employ it.
 
-We can model consumption and creation as input and output.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Consumption:</b> Consuming by use, waste, etc.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Creation:</b> Creating or causing to exist.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>becomes</i>  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Input:</b> Feed data into a machine.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Output:</b> Data produced by a machine.
+We can model consumption and creation as input and output.
+
+<b>Consumption:</b> Consuming by use, waste, etc.  
+<b>Creation:</b> Creating or causing to exist.
+
+<i>becomes</i>
+
+<b>Input:</b> Feed data into a machine.  
+<b>Output:</b> Data produced by a machine.
 
 The intervening body between the two, that's you. Specifically, it's your judgments, reasoning, and perspective. Scale this up and your outputs now have the opportunity to enter someone else's inputs — granted you enter their circle of awareness. Your outputs will only have an effect by passing through the filter of the mind — it's judgments, reasoning, and perspective. It may not lead to another output but it can change the mind it reaches.
 
