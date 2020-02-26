@@ -92,7 +92,8 @@ h1{
 	opacity: 1;
     transition: opacity 500ms ease-in 200ms;
 	color: var(--color-text);
-	text-decoration: none!important;
+    text-decoration: none!important;
+    padding: 20px 0 20px 0;
 }
 
 .nav-menu a:hover{
