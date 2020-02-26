@@ -387,47 +387,6 @@ fulldata:
 
 
 
-# Evaluation
-  - Type: Evaluation
-    List:
-
-      - Title: Web.dev
-        Link: https://web.dev/
-        Comment: "See how well your website performs. Then, get tips to improve your user experience."
-
-      - Title: Checkbot
-        Link: https://www.checkbot.io/
-        Comment: "Fix broken links, duplicate titles, insecure pages, invalid HTML & more."
-
-      - Title: Wave — Web Accessibility 
-        Link: https://wave.webaim.org/
-        Comment: "Web Accessibility Evaluation Tool by WebAIM."
-
-      - Title: ANDI
-        Link: https://www.ssa.gov/accessibility/andi/help/install.html
-        Comment: "Accessible Name & Description Inspector."
-
-      - Title: W3C Validator
-        Link: https://validator.w3.org/
-        Comment: "Check the markup of Web documents."
-
-      - Title: GTMetrix
-        Link: https://gtmetrix.com/
-        Comment: "See how your site performs, reveal why it's slow and discover optimization opportunities."
-
-      - Title: Pingdom
-        Link: https://tools.pingdom.com/
-        Comment: "Test the page load time, analyze it, and find bottlenecks."
-
-      - Title: Grammarly
-        Link: https://www.grammarly.com/
-        Comment: "Eliminate errors and find the perfect words to express yourself."
-
-      - Title: CSS Stats
-        Link: https://cssstats.com/
-        Comment: "Analytics and visualizations for your stylesheets"
-
-
 
   #Software
   - Type: Software
@@ -501,6 +460,50 @@ fulldata:
         Link: https://builtwith.com/
         Comment: "Web technology information profiler tool. Find out what a website is built with."
 
+
+
+# Evaluation
+  - Type: Evaluation
+    List:
+
+      - Title: Web.dev
+        Link: https://web.dev/
+        Comment: "See how well your website performs. Then, get tips to improve your user experience."
+
+      - Title: Checkbot
+        Link: https://www.checkbot.io/
+        Comment: "Fix broken links, duplicate titles, insecure pages, invalid HTML & more."
+
+      - Title: Wave — Web Accessibility 
+        Link: https://wave.webaim.org/
+        Comment: "Web Accessibility Evaluation Tool by WebAIM."
+
+      - Title: ANDI
+        Link: https://www.ssa.gov/accessibility/andi/help/install.html
+        Comment: "Accessible Name & Description Inspector."
+
+      - Title: W3C Validator
+        Link: https://validator.w3.org/
+        Comment: "Check the markup of Web documents."
+
+      - Title: GTMetrix
+        Link: https://gtmetrix.com/
+        Comment: "See how your site performs, reveal why it's slow and discover optimization opportunities."
+
+      - Title: Pingdom
+        Link: https://tools.pingdom.com/
+        Comment: "Test the page load time, analyze it, and find bottlenecks."
+
+      - Title: Grammarly
+        Link: https://www.grammarly.com/
+        Comment: "Eliminate errors and find the perfect words to express yourself."
+
+      - Title: CSS Stats
+        Link: https://cssstats.com/
+        Comment: "Analytics and visualizations for your stylesheets"
+
+
+        
 
 
 #Chrome Apps
