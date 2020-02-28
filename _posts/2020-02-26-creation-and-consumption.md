@@ -29,5 +29,5 @@ It's your natural duty to:
 2. Makes your outputs more valuable and penetrative of the minds you seek to serve, which in turn
 3. It provides information about the results of your process as inputs and furthers the minds of those you reach.
 
-> Stop allowing your mind to be a slave, to be jerked about by selfish impulses, to kick against fate and the present, and to mistrust the future.”<br>
-— Meditations by Marcus Aurelius
+> [Whitehead’s] capacity for concentration on work was quite extraordinary. One hot summer’s day, when I was staying with him at Grantchester, our friend Crompton Davies arrived and I took him into the garden to say how-do-you-do to his host. Whitehead was sitting writing mathematics. Davies and I stood in front of him at a distance of no more than a yard and watched him covering page after page with symbols. He never saw us, and after a time we went away with a feeling of awe.”<br>
+— Bertrand Russell's autobiography giving a glimpse of Alfred North Whitehead's Focus
