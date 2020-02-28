@@ -14,6 +14,8 @@
 # Music
 # Personal sites
 # Niche resources / Collator
+# Creative Coding
+# Brands
 
 fulldata:
   #Guides
@@ -303,6 +305,10 @@ fulldata:
       - Title: Top Trend Books
         Link: https://toptrendbooks.com/
         Comment: "Data-driven book recommendation site where trends are collected and aggregated from over 100,000 Reddit posts and comments."
+
+      - Title: Booklets.io
+        Link: https://www.booklets.io/
+        Comment: "Browse hundreds of booklets on design, business, freelancing & more. Learn new skills & insights, fast."
 
       - Title: Webster's 1913
         Link: https://www.websters1913.com/
@@ -687,6 +693,10 @@ fulldata:
         Link: https://danco.substack.com/
         Comment: "Fresh thinking and provocative takes on the innovation economy, in your inbox every Sunday. Now in its second season."
 
+      - Title: Aeon
+        Link: https://aeon.co/
+        Comment: "In-depth essays, incisive articles, and a mix of original and curated videos."
+
       - Title: Hacker News
         Link: https://hackernewsletter.com/
         Comment: "A weekly newsletter of the best articles curated by hand from Hacker News."
@@ -950,6 +960,33 @@ fulldata:
         Link: https://kellysutton.com/
         Comment: "A software engineer living in San Francisco."
 
+  #Creative Coding
+  - Type: Creative Coding
+    List:
+
+      - Title: Tinker Synth
+        Link: https://tinkersynth.com/slopes
+        Comment: "Create unique designs by manipulating whimsical machines and making serendipitous discoveries."
+
+
+  # Brands
+  - Type: Brands
+    List:
+      - Title: teenage engineering
+        Link: https://teenage.engineering/products
+        Comment: it's teenage engineering.
+
+      - Title: American Giant
+        Link: https://www.american-giant.com/
+        Comment: American Made Apparel & Active Wear.
+
+      - Title: Panic
+        Link: https://panic.com/
+        Comment: Shockingly Good Software.
+
+
+
+
   #Movies
   - Type: Movies
     List:
@@ -997,5 +1034,9 @@ fulldata:
       - Title: Elohim
         Link: https://elohimxelohim.com/
         Comment:
+
+      - Title: Brian Eno
+        Link: https://brian-eno.net/
+        Comment: "English musician, record producer, visual artist, and theorist best known for his pioneering work in ambient music."
 
 
