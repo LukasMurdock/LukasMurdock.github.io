@@ -74,6 +74,10 @@ fulldata:
         Link: https://learndigital.withgoogle.com/digitalgarage
         Comment: "A guide to understanding team effectiveness at Google."
 
+      - Title: Practical Typography
+        Link: https://practicaltypography.com/
+        Comment: "Matthew Butterick's practical typography book."
+
       - Title: A guide to type styles
         Link: https://www.fontsmith.com/blog/2019/06/24/a-guide-to-type-styles
         Comment: "Instead of focusing on the existing systems or trying to come up with a new system, this piece looks to demystify some useful terminology to help you recognise the most common Latin type styles."
