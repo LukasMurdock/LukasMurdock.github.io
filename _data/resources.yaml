@@ -16,6 +16,7 @@
 # Niche resources / Collator
 # Creative Coding
 # Brands
+# Email
 
 fulldata:
   #Guides
@@ -154,6 +155,10 @@ fulldata:
         Link: https://github.com/VGraupera/1on1-questions
         Comment: "Mega list of 1 on 1 meeting questions compiled from a variety to sources."
 
+      - Title: More 1 on 1 Meeting Questions
+        Link: https://www.peoplebox.ai/t/one-on-one-meeting-template-manager-questions-list
+        Comment: "1-on-1 Meeting Questions Template for managers to build high achieving and motivated teams."
+
       - Title: 80000 Hours
         Link: https://80000hours.org/
         Comment: "You have 80,000 hours in your career. How can you best use them to help solve the world’s most pressing problems?"
@@ -246,6 +251,10 @@ fulldata:
         Link: https://www.uxframeworks.design
         Comment: "Find and share frameworks for design research, synthesis, and ideation."
 
+      - Title: Saas Landing Pages
+        Link: https://saaslandingpage.com/
+        Comment: "Discover the best landing page examples created by top-class SaaS companies, and get ideas and inspiration for your next design project."
+
       - Title: Web Gradients
         Link: https://webgradients.com
         Comment: "Free collection of beautiful gradients."
@@ -302,6 +311,10 @@ fulldata:
         Link: https://www.makerpad.co/
         Comment: "Build tools & automate at work without code."
 
+      - Title: MoneyMade
+        Link: https://moneymade.io/
+        Comment: "Find and compare investment opportunities"
+
       - Title: Exploding Topics
         Link: https://explodingtopics.com/
         Comment: "Discover rapidly growing topics before they take off."
@@ -322,13 +335,21 @@ fulldata:
         Link: https://www.etymonline.com/
         Comment: "Origin, history and meaning of English words."
 
+      - Title: Poolside.fm
+        Link: https://poolside.fm/
+        Comment: "The sunniest spot on the internet. Poolside FM is an online radio station, playing an infinity pool of summer sounds. Swimwear optional."
+
       - Title: Tools for makers
         Link: https://hoard.fyi/
         Comment: "Curated tools & resources for web designers, developers & makers."
 
-      - Title: iHateRegex
+      - Title: Regex cheatsheet
         Link: https://ihateregex.io/
         Comment: "A regex cheatsheet."
+
+      - Title: Online regex tester
+        Link: https://regex101.com/
+        Comment: "Online regex tester and debugger: PHP, PCRE, Python, Golang and JavaScript."
 
       - Title: Remark
         Link: https://remarkapp.io/
@@ -821,6 +842,45 @@ fulldata:
       - Title: The Best MF Website
         Link: https://thebestmotherfucking.website/
         Comment: "This is the best motherfucking website. Really, it is."
+
+  #Email
+  - Type: Email
+    List:
+
+      - Title: Bulletproof email buttons
+        Link: https://buttons.cm/
+        Comment: "Campaign Monitors button designer using progressively enhanced VML and CSS."
+
+      - Title: Campaign Monitor Email Client CSS Support
+        Link: https://www.campaignmonitor.com/css/
+        Comment: "A complete breakdown of the CSS support for the most popular mobile, web and desktop email clients on the planet."
+
+      - Title: Litmus Email Client Market Share
+        Link: https://www.emailclientmarketshare.com/
+        Comment: "Email client usage worldwide, collected from 871 million email opens."
+
+      - Title: Can I Email
+        Link: https://www.caniemail.com/
+        Comment: "Support tables for HTML and CSS in emails."
+
+      - Title: Can I Use
+        Link: https://caniuse.email/
+        Comment: "Compatibility tables for CSS support in HTML emails."
+
+      - Title: HTML Crush
+        Link: https://htmlcrush.com/
+        Comment: "Minify HTML mixed with anything."
+
+      - Title: Email Comb
+        Link: https://emailcomb.com/
+        Comment: "Removes unused CSS from email templates."
+
+     - Title: Premailer
+        Link: http://premailer.dialect.ca/
+        Comment: "Preflight for HTML email. Inline CSS, convert links and warns about unsupported code."
+
+
+
 
   #Podcast
   - Type: Podcast
