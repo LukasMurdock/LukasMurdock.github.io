@@ -846,7 +846,6 @@ fulldata:
   #Email
   - Type: Email
     List:
-
       - Title: Bulletproof email buttons
         Link: https://buttons.cm/
         Comment: "Campaign Monitors button designer using progressively enhanced VML and CSS."
@@ -875,12 +874,9 @@ fulldata:
         Link: https://emailcomb.com/
         Comment: "Removes unused CSS from email templates."
 
-     - Title: Premailer
+      - Title: Premailer
         Link: http://premailer.dialect.ca/
         Comment: "Preflight for HTML email. Inline CSS, convert links and warns about unsupported code."
-
-
-
 
   #Podcast
   - Type: Podcast
