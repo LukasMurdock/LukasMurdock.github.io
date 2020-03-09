@@ -545,8 +545,12 @@ fulldata:
   - Type: Chrome Apps
     List:
       - Title: Extension Rank
-        Link: https://extensionrank.com/
+        Link: https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm/related?hl=en-US
         Comment: "Discover the best extensions ranked by users and reviews."
+
+      - Title: Web Developer
+        Link: https://extensionrank.com/
+        Comment: "Adds a toolbar button with various web developer tools."
 
       - Title: ANDI
         Link: https://www.ssa.gov/accessibility/andi/help/install.html
