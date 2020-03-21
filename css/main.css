@@ -31,12 +31,11 @@ a {
 }
 
 body{
-	margin: 20px auto 40px auto;
-	max-width: var(--max-width);
 	line-height: 1.6;
 	font-size: var(--font-reg);
 	color: var(--color-text);
-    padding: 0 0px;
+    padding: 0;
+    margin:0;
     font-synthesis: none;
     -moz-font-feature-settings: 'kern';
     -webkit-font-smoothing: antialiased;
@@ -46,6 +45,8 @@ body{
 }
 
 article {
+    margin: 20px auto 40px auto;
+    max-width: var(--max-width);
     line-height: 1.47059;
     font-weight: 400;
     letter-spacing: -.022em;
@@ -210,6 +211,8 @@ img {
 }
 
 footer {
+    margin: 20px auto 40px auto;
+    max-width: var(--max-width);
     font-size: var(--font-extra-small);
     line-height: 1.33341;
     font-weight: 400;

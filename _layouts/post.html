@@ -45,7 +45,7 @@
 </main>
       
 
-      <div style="display: grid; grid-template-columns: 50% 50%;" class="PageNavigation">
+      <div style="display: grid; grid-template-columns: 50% 50%; margin: 20px auto 40px auto; max-width: var(--max-width);" class="PageNavigation">
         {% if page.next.url %}
         <a style="color: #000; text-align: left; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" class="next more-btn" href="{{page.next.url}}">&laquo; {{page.next.title}}</a>
         {% endif %}
