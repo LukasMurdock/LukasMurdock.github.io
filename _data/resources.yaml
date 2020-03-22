@@ -237,7 +237,11 @@ fulldata:
 
       - Title: Design systems
         Link: https://www.designsystems.com/
-        Comment: "A Figma publication for design systems creators, designers, developers, and managers"
+        Comment: "A Figma publication for design systems creators, designers, developers, and managers."
+
+      - Title: UI Goodies
+        Link: https://www.uigoodies.com/
+        Comment: "The best resources for designers in one place."
 
       - Title: Starbucks Creative
         Link: https://creative.starbucks.com
@@ -471,6 +475,14 @@ fulldata:
         Link: https://sharpen.design/
         Comment: "Millions of practice design prompts to challenge you to think outside the box."
 
+      - Title: Photopea
+        Link: https://www.photopea.com/
+        Comment: "Photoshop in your browser."
+
+      - Title: Screely
+        Link: https://www.screely.com/
+        Comment: "Instantly Turn a Screenshot into a Beautiful Mockup."
+
       - Title: IUBenda
         Link: https://www.iubenda.com/
         Comment: "Compliance Solutions for Websites, Apps and Organizations."
@@ -536,6 +548,10 @@ fulldata:
       - Title: CSS Stats
         Link: https://cssstats.com/
         Comment: "Analytics and visualizations for your stylesheets"
+
+      - Title: Web Performance Tools
+        Link: https://www.swyx.io/writing/webperf-tests/
+        Comment: "Every Web Performance Test Tool"
 
 
         
@@ -757,6 +773,10 @@ fulldata:
       - Title: Unsupervised Learning
         Link: https://danielmiessler.com/newsletter/
         Comment: "Articles around the intersection of security, technology, and humans."
+
+      - Title: The Uncertainty Mindset
+        Link: https://uncertaintymindset.substack.com/
+        Comment: "On uncertainty—what it is, how it affects us, and how to respond to it."
 
       - Title: AJ & Smart
         Link: https://pages.convertkit.com/706830c7d2/e7cce14a7a
