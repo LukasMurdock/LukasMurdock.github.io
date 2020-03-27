@@ -220,8 +220,13 @@ footer {
 }
 
 .mobile-show{
-    display:none;
+    display: none;
 }
+
+.mobile-hide{
+    display: block;
+}
+
 
 .bottomnav {
     display: none;
@@ -234,7 +239,7 @@ footer {
         display: none;
     }
     .mobile-show{
-        display: inline;
+        display: block;
     }
     
     .image.body-copy-wide.image-fullbleed .image-text{
