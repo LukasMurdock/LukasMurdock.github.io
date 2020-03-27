@@ -27,6 +27,10 @@ fulldata:
         Link: https://ocw.mit.edu/index.htm
         Comment: "A web-based publication of virtually all MIT course content. OCW is open and available to the world and is a permanent MIT activity."
 
+      - Title: Technical Writing
+        Link: https://developers.google.com/tech-writing
+        Comment: "Google Developers Technical Writing Course for Engineers."
+
       - Title: Learn Anything
         Link: https://learn-anything.xyz/
         Comment: "You can learn anything."
@@ -338,6 +342,10 @@ fulldata:
       - Title: Etymonline
         Link: https://www.etymonline.com/
         Comment: "Origin, history and meaning of English words."
+
+      - Title: Every Noise at Once
+        Link: http://everynoise.com/
+        Comment: "An algorithmically-generated, readability-adjusted scatter-plot of the musical genre-space."
 
       - Title: Poolside.fm
         Link: https://poolside.fm/
@@ -874,6 +882,14 @@ fulldata:
   #Email
   - Type: Email
     List:
+      - Title: HTML to Text Email
+        Link: https://templates.mailchimp.com/resources/html-to-text/
+        Comment: "Mailchimp's Email Design HTML to Text Email Converter."
+
+      - Title: CSS Inliner Tool
+        Link: https://templates.mailchimp.com/resources/inline-css/
+        Comment: "Mailchimp's Email Design CSS Inliner Tool."
+
       - Title: Bulletproof email buttons
         Link: https://buttons.cm/
         Comment: "Campaign Monitors button designer using progressively enhanced VML and CSS."
@@ -905,6 +921,16 @@ fulldata:
       - Title: Premailer
         Link: http://premailer.dialect.ca/
         Comment: "Preflight for HTML email. Inline CSS, convert links and warns about unsupported code."
+
+      - Title: Email Drips
+        Link: https://www.emaildrips.com/
+        Comment: "82 email drip campaign examples."
+
+      - Title: Email Love
+        Link: https://emaillove.com/
+        Comment: "Email inspiration, resources and discovery."
+
+        
 
   #Podcast
   - Type: Podcast
@@ -1055,6 +1081,16 @@ fulldata:
   #Creative Coding
   - Type: Creative Coding
     List:
+
+
+
+      - Title: WebGL Fluid Simulation
+        Link: https://paveldogreat.github.io/WebGL-Fluid-Simulation/
+        Comment: "A WebGL fluid simulation that works in mobile browsers."
+
+      - Title: WebGL Water
+        Link: http://madebyevan.com/webgl-water/
+        Comment: "An experiment in realtime water rendering with WebGL."
 
       - Title: Tinker Synth
         Link: https://tinkersynth.com/slopes
