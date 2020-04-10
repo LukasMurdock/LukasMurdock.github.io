@@ -269,7 +269,7 @@ fulldata:
 
       - Title: Humaaans
         Link: https://www.humaaans.com/
-        Comment: "Mix-&-match illustrations of people with a design library"
+        Comment: "Mix-&-match illustrations of people with a design library."
 
       - Title: Mixkit
         Link: https://www.humaaans.com/
@@ -278,6 +278,14 @@ fulldata:
       - Title: Free illustrations, for everything
         Link: https://www.glazestock.com/
         Comment: "A curated royalty-free illustration library."
+
+      - Title: Free Mockups
+        Link: https://malli.graphics/
+        Comment: "A collection of free mockups."
+
+      - Title: Image Placeholder Service
+        Link: http://placehold.jp/en.html
+        Comment: "Create placeholder images quickly and easily."
 
       - Title: Can't Unsee
         Link: https://cantunsee.space/
@@ -374,6 +382,10 @@ fulldata:
       - Title: Leaderboard for the best new products
         Link: https://pragli.com/leaderboard-for-product-hunt/
         Comment: "Product Hunt leaderboard"
+
+      - Title: Physics Travel Guide
+        Link: https://physicstravelguide.com/
+        Comment: "Intuitive, concrete, and abstract physics explanations"
 
       - Title: Almanac
         Link: https://askalmanac.com/
