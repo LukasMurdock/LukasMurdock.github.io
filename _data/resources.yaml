@@ -27,6 +27,10 @@ fulldata:
         Link: https://ocw.mit.edu/index.htm
         Comment: "A web-based publication of virtually all MIT course content. OCW is open and available to the world and is a permanent MIT activity."
 
+      - Title: How to Speak
+        Link: https://ocw.mit.edu/resources/res-tll-005-how-to-speak-january-iap-2018/how-to-speak/index.htm
+        Comment: "Maximize the opportunity to have your ideas valued and accepted by the people you speak with."
+
       - Title: Technical Writing
         Link: https://developers.google.com/tech-writing
         Comment: "Google Developers Technical Writing Course for Engineers."
@@ -147,6 +151,10 @@ fulldata:
         Link: https://docs.google.com/viewer?url=https%3A%2F%2Fjordanbpeterson.com%2Fwp-content%2Fuploads%2F2018%2F02%2FEssay_Writing_Guide.docx&mc_cid=d3c67fadf9&mc_eid=1a15f04338
         Comment: A document by Jordan B Peterson to write an excellent essay from beginning to end, using a ten-step process.
 
+      - Title: "Microsoft Digital Storytelling Handbook"
+        Link: https://news.microsoft.com/handbook/
+        Comment: "How to tell stories that delight your audience and make an impact for your brand."
+
       - Title: TheFutur
         Link: https://www.thefutur.com/
         Comment: "An online education platform loaded with content, courses, and tools to help you build better design skills and better creative businesses."
@@ -245,6 +253,10 @@ fulldata:
 
       - Title: UI Goodies
         Link: https://www.uigoodies.com/
+        Comment: "Weekly UI resources straight to your inbox."
+
+      - Title: UI Design Daily
+        Link: https://uidesigndaily.com/
         Comment: "The best resources for designers in one place."
 
       - Title: Starbucks Creative
@@ -809,6 +821,10 @@ fulldata:
       - Title: AJ & Smart
         Link: https://pages.convertkit.com/706830c7d2/e7cce14a7a
         Comment: "Product Innovation Newsletter."
+
+      - Title: Product Disrupt
+        Link: https://productdisrupt.com/
+        Comment: "Curated list of product design resources."
 
       - Title: Industry Dive
         Link: https://www.industrydive.com/
