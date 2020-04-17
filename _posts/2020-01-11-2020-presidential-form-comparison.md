@@ -50,7 +50,7 @@ ol > li:nth-child(n+10):before {
 
 </style>
 
-In my research for [2020 Presidential Candidate Website Comparison](/2020/01/10/2020-presidential-website-comparison/) I realized that each party had their own fundraising tool called WinRed and ActBlue. These tools allow donors to save their information to give again with a single-click automatic payment. **Each party has their own Amazon Buy now with 1-click button.** Except instead of going back to Amazon products time and time again, the idea is you repeatedly support party-line members. And just like Amazon 1-click buttons, Candidates (their campaign teams) will A/B test every contribution form to maximize conversion rates.
+In my research for [2020 Presidential Candidate Website Comparison](/2020-presidential-website-comparison/) I realized that each party had their own fundraising tool called WinRed and ActBlue. These tools allow donors to save their information to give again with a single-click automatic payment. **Each party has their own Amazon Buy now with 1-click button.** Except instead of going back to Amazon products time and time again, the idea is you repeatedly support party-line members. And just like Amazon 1-click buttons, Candidates (their campaign teams) will A/B test every contribution form to maximize conversion rates.
 
 ## Tool Google Index
 1. ActBlue: About 107,000 results

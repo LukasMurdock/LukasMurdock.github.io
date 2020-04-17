@@ -14,9 +14,9 @@ h3 {
 
 </style>
 
-Part One: [2020 Presidential Candidate Website Comparison](/2020/01/10/2020-presidential-website-comparison/)
+Part One: [2020 Presidential Candidate Website Comparison](/2020-presidential-website-comparison/)
 
-Part Two: [2020 Presidential Candidate Donate Form Comparison](/2020/01/10/2020-presidential-website-comparison/)
+Part Two: [2020 Presidential Candidate Donate Form Comparison](/2020-presidential-website-comparison/)
 
 Font specimens are sourced from [Typewolf.](https://www.typewolf.com/)
 ## Candidates

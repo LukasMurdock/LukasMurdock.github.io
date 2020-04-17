@@ -17,7 +17,8 @@ instagram_username: lukasauras.rex
 linkedin_username: lukas-murdock
 
 markdown:  kramdown
-permalink: pretty
+permalink: /:title/
+# permalink: pretty
 paginate:  13
 sass:
   style: compressed
