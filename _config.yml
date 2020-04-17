@@ -19,6 +19,7 @@ linkedin_username: lukas-murdock
 markdown:  kramdown
 permalink: /:title/
 # permalink: pretty
+highlighter: rouge
 paginate:  13
 sass:
   style: compressed
