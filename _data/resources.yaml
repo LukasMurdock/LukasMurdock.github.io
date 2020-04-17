@@ -327,6 +327,10 @@ fulldata:
         Link: https://www.makerpad.co/
         Comment: "Build tools & automate at work without code."
 
+      - Title: "Hack/r/dot"
+        Link: https://www.hackrdot.com/
+        Comment: "A reader for Hacker News, r/programming, and Slashdot."
+
       - Title: MoneyMade
         Link: https://moneymade.io/
         Comment: "Find and compare investment opportunities"
@@ -414,6 +418,10 @@ fulldata:
       - Title: Free resources for Freelancers
         Link: https://usefyi.com/templates/freelancer-templates/
         Comment: "All the free resources and templates you need to get work done as a freelancer."
+
+      - Title: Letterform Archive
+        Link: http://oa.letterformarchive.org/search?dims=Decade&vals0=1960s
+        Comment: "View letterforms by decades, countries, formats, and more."
 
       - Title: Typewolf
         Link: https://www.typewolf.com
@@ -831,7 +839,7 @@ fulldata:
         Comment: "Articles that help you understand the world better, and show you how to think and act more effectively."
 
       - Title: James Clear
-        Link: https://jamesclear.com/newsletter
+        Link: https://jamesclear.com/3-2-1/refer?rh_ref=44709395
         Comment: "Self-improvement tips based on proven scientific research."
 
       - Title: Demand progress
@@ -1134,6 +1142,10 @@ fulldata:
       - Title: Thought Maybe
         Link: http://thoughtmaybe.com/
         Comment: "An online library of films focused on topics challenging modern society, industrial civilisation, globalisation and dominant culture."
+
+      - Title: Connections
+        Link: https://archive.org/details/ConnectionsByJamesBurke
+        Comment: "An interdisciplinary approach to the history of science and invention."
 
       - Title: The Century of the Self
         Link: https://thoughtmaybe.com/the-century-of-the-self/
