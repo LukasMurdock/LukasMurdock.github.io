@@ -5,6 +5,7 @@ description:
 image: 
 caption:
 date: September 25, 2019
+redirect_from: /2019/09/25/down-to-the-detail/
 ---
 
 What makes an expert? What level of detail do you need to be aware of to move things forward? What awareness might you be missing?

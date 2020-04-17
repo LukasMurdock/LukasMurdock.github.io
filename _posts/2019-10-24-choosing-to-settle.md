@@ -3,8 +3,8 @@ layout: post
 title: 'Choosing to settle'
 description: We're always reaching for things we don't need.
 image: 
-
 date: September 24, 2019
+redirect_from: /2019/09/24/choosing-to-settle/
 ---
 
 Humanity seems cursed to spend forever reaching for things just out of reach. But the real curse is that we don’t need those things.

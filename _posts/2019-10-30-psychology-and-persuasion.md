@@ -5,6 +5,7 @@ description: Key ways people can be influenced.
 image: 
 
 date: September 30, 2019
+redirect_from: /2019/09/30/squarespace-to-github
 ---
 
 Influence by Robert Cialdini

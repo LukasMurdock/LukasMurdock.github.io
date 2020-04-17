@@ -27,6 +27,7 @@ plugins:
   - jekyll-paginate
   - jekyll/tagging
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 include:
   - _pages

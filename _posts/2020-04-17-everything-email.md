@@ -27,6 +27,32 @@ These lists are created from simple forms and incentives such as:
 - Social media —> linked to landing pages
 - Ads —> linked to landing pages
 
+Remember it’s our job to create the doors for those events to occur. So we need a few things:
+1. Content for people to find and share.
+2. People to find and share our content.
+3. A way to follow up with people who want to write the future, together.
+
+Our job is a cycle of:
+1. Brand creation
+2. Content creation
+3. Content reach
+
+Brand and content are tied closely together — remember we have to earn permission to follow up, earn enrollment to teach — to organize and lead — to build confidence in writing the future. Together. And that comes down to trust and making good on our promises. 
+
+Our goal is to build a connection to serve as a foundation and grow from there. We primarily discover things through digital interaction, coming across content by searching Google or browsing platforms such as LinkedIn, Facebook, etc.​
+
+To have a business, people need to be aware of our business. So we need our name to reach them through content created by our business and we need people talking about our business.​
+
+To do this right we need to understand what our ideal customers want. We say ideal customers because the type and style of the content we create affects the type and style of the customers we attract.​
+
+To add value to our audience, we need to answer questions like:​
+- What does our audience want?​
+- How can I best convey our message to them?​
+- Do they understand what we’re selling?​
+- Are they on board with our vision?​
+- How can we speak to them personally?​
+
+
 
 ## Dev Environment
 I use Google Chrome, VS Code, and Github Desktop on my 2018 MacBook Pro (Yes I am that lazy. It’s faster than changing the directory 5 times). I would like to set up some remote dev environment but I have yet to find an easy free solution to do so. 

@@ -5,6 +5,7 @@ description: And saving $152 a year on hosting fees.
 image: squarespace-to-github.jpg
 caption: Not for the faint of heart, time is money and money saves you time.
 date: July 03, 2019
+redirect_from: /2019/07/03/squarespace-to-github/
 ---
 
 ### Squarespace Hosting

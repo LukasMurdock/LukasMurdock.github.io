@@ -5,6 +5,7 @@ description:
 image: 
 caption:
 date: September 23, 2019
+redirect_from: /2019/09/23/ideas-need-an-axis/
 ---
 
 When we argue about ‘better’ most likely, we’re not having the same conversation. We need to start by clarifying what form of better we’re seeking. What change are you trying to make with ‘better’? List attributes you care about and pick the two you care about the most. Draw an axis and map the new idea against what’s currently available.
