@@ -25,9 +25,9 @@ These lists are created from simple forms and incentives such as:
 - Social media —> linked to landing pages
 - Ads —> linked to landing pages
 
-Remember it’s our job to create the doors for those events to occur. So you need a few things:
+Remember it’s your job to create the doors for those events to occur. So you need a few things:
 1. Content for people to find and share.
-2. People to find and share our content.
+2. People to find and share your content.
 3. A way to follow up with people who want to write the future, together.
 
 Your job is a cycle of:
@@ -35,19 +35,19 @@ Your job is a cycle of:
 2. Content creation
 3. Content reach
 
-Brand and content are tied closely together — remember you have to earn permission to follow up, earn enrollment to teach — to organize and lead — to build confidence in writing the future. Together. And that comes down to trust and making good on our promises. 
+Brand and content are tied closely together — remember you have to earn permission to follow up, earn enrollment to teach — to organize and lead — to build confidence in writing the future. Together. And that comes down to trust and making good on your promises. 
 
 Your goal is to build a connection to serve as a foundation and grow from there. We primarily discover things through digital interaction, coming across content by searching Google or browsing platforms such as LinkedIn, Facebook, etc.​
 
-To have a business, people need to be aware of your business. So you need your name to reach them through content created by our business and you need people talking about your business.​
+To have a business, people need to be aware of your business. So you need your name to reach them through content created by your business and you need people talking about your business.​
 
 To do this right you need to understand what your ideal customers want. I say ideal customers because the type and style of the content you create affects the type and style of the customers you attract.​
 
 To add value to your audience, you need to answer questions like:​
-- What does our audience want?​
-- How can I best convey our message to them?​
+- What does your audience want?​
+- How can you best convey your message to them?​
 - Do they understand what you're selling?​
-- Are they on board with our vision?​
+- Are they on board with your vision?​
 - How can you speak to them personally?​
 
 Keep in mind, that unless the people you are targeting have a previous connection to you, they don't care about you, your dreams, or your company. Even if you have the right solution and you’re excited to share it, people don’t want your solution. People want any solution that works for them. 
@@ -58,7 +58,7 @@ Often companies struggle because people don't trust the organization or the prom
 
 Before you spend your time and your money on “marketing,” dig a little deeper and figure out what marketing problem you're trying to solve.​
 
-It helps to use data and analytics to see what our current customers are spending their time on or engaging the most with. Identify a specific customer that you seek to change. Then answer this:​
+It helps to use data and analytics to see what your current customers are spending their time on or engaging the most with. Identify a specific customer that you seek to change. Then answer this:​
 - What does this person believe that you don’t believe?​
 - What do they see that you don’t see?​
 - What do they want that you don’t want?​
@@ -73,7 +73,7 @@ Never focus on talking about how you’re “better than the competition.” Get
 
 Your goal is to keep moving closer to the foundational need. When the promise you make and the story you tell resonate with one of our core beliefs, they’ll have a larger impact. 
 
-When our customers hear what you do, some of them will say “that’s exactly what I’ve been waiting for, tell me more about it.” ​
+When your customers hear what you do, some of them will say “that’s exactly what I’ve been waiting for, tell me more about it.” ​
 
 We tell stories. We make connections. We create experiences. Your business, your brand, your campaign, your project, will benefit from what's happening now, which is marketing, not advertising, which is connection, not interruption.​
 
@@ -81,7 +81,7 @@ We tell stories. We make connections. We create experiences. Your business, your
 ## Email Marketing
 Over the past decade, email marketing has proven to be significantly more prosperous than social media marketing. A McKinsey study found that it is more than 40 times more effective at acquiring new customers than Facebook and Twitter combined. It’s permission based and revolves around regular contact that builds trust.
 
-Email marketing is a tool that allows us to communicate with our audience through targeted, relatable, and humanized content. It’s not about sending as many promotional emails as you can, instead, we use email marketing as a tool for building relationships with our audience. This makes an email marketing list a valuable asset for any business because it provides a direct line of communication with customers.
+Email marketing is a tool that allows your to communicate with your audience through targeted, relatable, and humanized content. It’s not about sending as many promotional emails as you can, instead, use email marketing as a tool for building relationships with your audience. This makes an email marketing list a valuable asset for any business because it provides a direct line of communication with customers.
 
 The best way to get people to join a list is to offer an incentive. For example, you’ll often see a free ebook or an industry report. There are three common types of incentives:
 1. **Case Study:** a story about people and brands in a particular niche.
@@ -183,9 +183,9 @@ That’s a lot to take in. Let’s explain why there are so many HTML tags:
 
 The first ```<table>``` sets the background color for the email section. 
 
-The empty ```<td></td>``` with no content allows the center to format properly by creating cells to fill in the sides of our content. 
+The empty ```<td></td>``` with no content allows the center to format properly by creating cells to fill in the sides of your content. 
 
-The ```<td style=“width=“600”>``` provides a fluid width that acts as a max-width for our content while still allowing the text to wrap on smaller screens.
+The ```<td style=“width=“600”>``` provides a fluid width that acts as a max-width for your content while still allowing the text to wrap on smaller screens.
 
 By designing with fluid design in mind we allow content to adjust automatically based on the user’s set up. 
 
