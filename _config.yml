@@ -24,6 +24,8 @@ paginate:  13
 sass:
   style: compressed
 
+# last_modified_date: iso 8601 current time
+
 plugins:
   - jekyll-paginate
   - jekyll/tagging
