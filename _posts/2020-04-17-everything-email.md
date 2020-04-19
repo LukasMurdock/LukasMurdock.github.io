@@ -196,22 +196,6 @@ If you’re working with enterprise clients, Outlook for Windows is most likely 
 
 This makes things hard as looking up solutions online often results in solutions that are ignored by Outlook.
 
-### A few more tips
-**Preview Text:**
-To write custom preview text, place hidden text in the top of the email in a ```<div>``` element.
-
-**Responsive images:** Most email clients (i.e. not Outlook) will follow ```style="100%"``` and keep it fluid while outlook will use ```width="600"``` — sadly this means that there is no such thing as fluid images in Outlook.  
-```<img width="600" style="width: 100%;">```
-
-<span style="color: rgba(51,51,51,.5);">Note: Images should be double the pixel size of their container (the container is 600 pixels in this case) in order to maintain a crisp quality.</span>
-
-**Buttons:**
-Don’t. Just copy some template styling or use [Campaign Monitors button tool](https://buttons.cm/).
-
-**Plain Text Emails:**
-Although most email clients use HTML messages some clients and devices can't display HTML or in rare cases people block HTML emails. To help email deliverability we send a text-only version along with the HTML version. You can use the built in Pardot tool to generate the plain text version or another tool like [the converter from Mailchimp](https://templates.mailchimp.com/resources/html-to-text/). Either way make sure to review the plain text version and fix the formatting before sending it out.
-
----
 A few things to take note of when designing for Outlook for Windows:
 - Margin and padding are ignored and removed on images and text.
 - Padding is only supported on ```<td>``` elements.
@@ -225,31 +209,60 @@ A few things to take note of when designing for Outlook for Windows:
 - ```<td>``` defaults to minimum 17px height.
 - To define a visited link color you can either style it individually by wrapping it in ```<strong style=“color:#ff000f;”>Link text here </strong>``` tags or define it across the email by declaring ```<body vlink="#ff000f">``` for the body tag.
 
+### A few more tips
+**Preview Text:**
+```<div>[Preview Text]</div>```  
+To write custom preview text, place hidden text in the top of the email in a ```<div>``` element.
+
+**Responsive images:** ```<img width="600" style="width: 100%;">```  
+Most email clients (i.e. not Outlook) will follow ```style="100%"``` and keep it fluid while outlook will use ```width="600"``` — sadly this means that there is no such thing as fluid images in Outlook.  
+
+
+<span style="color: rgba(51,51,51,.5);">Note: Images should be double the pixel size of their container (the container is 600 pixels in this case) in order to maintain a crisp quality.</span>
+
+**Buttons:**
+Don’t. Buttons like to break often and solutions I found were not Pardot friendly. You’re better off copying some template styling or using [Campaign Monitors button tool](https://buttons.cm/).
+
+**Plain Text Emails:**
+Although most email clients use HTML messages some clients and devices can't display HTML or in rare cases people block HTML emails. To help email deliverability we send a text-only version along with the HTML version. You can use the built in Pardot tool to generate the plain text version or another tool like [the converter from Mailchimp](https://templates.mailchimp.com/resources/html-to-text/). Either way make sure to review the plain text version and fix the formatting before sending it out.
+
 ---
 ### Sending emails from within Outlook:
 
 There are two main ways to send HTML emails from Outlook.
 
-1. Open the HTML file in a browser and CTRL + A the page and copy-and-paste it into Outlook. This will break some styles—what Outlook is doing is converting HTML styles into the Outlook format.
+#### Method 01: Copy and Paste
+1. Open saved HTML document in a browser 
+2. CTRL + A to select everything on the page 
+3. CTRL + C to copy 
+4. Create a new email in Outlook 
+5. CTRL + V to paste email into Outlook
+6. Edit text as normal  
 
-2. Using Outlook for Windows customize the Quick Access Toolbar (the down-arrow in the top left)
-  - Select “More Commands…”
-  - Then Choose Commands from “Compose Tools \| Message Tab”
-  - Find the “Attach File” function without an arrow.  
-  - Now when composing an email you can insert an HTML file as text using the new Attach File button in the Quick Access Toolbar.  
-  (This option only available on Outlook for Windows) 
+This is the simplest method. However, if your HTML is not written with Outlook in mind this will break some things. As Outlook is converting the HTML to be editable with Outlook styles.
+
+#### Method 02: Insert as Text
+1. Using Outlook for Windows customize the Quick Access Toolbar by clicking the utmost top left down-arrow.
+2. Select “More Commands…”
+3. Then Choose Commands from “Compose Tools \| Message Tab”
+4. Find the “Attach File” function without an arrow. 
+5. Create a new email in Outlook
+6. Click the new Attach File button in the Quick Access TOolbar (located in the utmost top left) 
+7. Select the HTML file and insert it as text
+8. Edit text as normal
+
 
 
 ## Email for People
-Always remember your goal. All the elements visible upon loading are designed primarily to do one thing and one thing only: get people to read the first sentence. The sole purpose of the first sentence is to get people to read the second sentence.
+Always remember your goal. All the elements visible upon loading should be designed to do one thing and one thing only: get people to read the first sentence. The sole purpose of the first sentence is to get people to read the second sentence.
 
 A few things to keep in mind when writing:
-- The email layout and first content blocks must create an environment most conductive for your goal.
+- The email layout and first content blocks have to create an environment most conductive to your goal.
 - Always keep the copy interesting and the reader curious.
 - Never sell products or services — sell a concept and the benefits it brings.
-- Content is never too long or too short, you only want enough to cause the reader to take the action you request. Don’t be afraid of long — be afraid of boring.
+- Content is never too long or too short, you want enough to cause the reader to take the action you request. Don’t be afraid of long — be afraid of boring.
 - Every act of communication should be personal.
-- Content should flow logically, anticipating the readers questions and answering them as if they were asked face to face.
+- Content should flow logically, anticipating readers questions and answering them as if they were asked face-to-face.
 - Every word has an associated emotion and tells a story.
 - Remember we do things because of emotions and back it up with logic. The two most powerful tools of persuasion is the ability to validate and fascinate.
 
@@ -281,4 +294,4 @@ Always consider the following:
 
 <span class="full-underline" style="font-size: 12px;">Thanks for reading!</span>
 
-
+Note: Experience in Pardot and Salesforce has been excluded.
