@@ -9,7 +9,7 @@
 title:              Lukas Murdock
 logo:               # Logo image URL
 email:              lukas.murdock@gmail.com
-description:        Virtual portfolio of Lukas Murdock
+description:        The personal site of Lukas Murdock, designer and human trying to do work that matters for people who care.
 baseurl:            '' # The subpath of your site, e.g. /blog
 url:                'https://lukasmurdock.com' # The base hostname & protocol for your site
 twitter_username:   Lukasauras_Rex
@@ -26,11 +26,12 @@ sass:
 
 # last_modified_date: iso 8601 current time
 
-plugins:
+gems:
   - jekyll-paginate
   - jekyll/tagging
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-feed
 
 include:
   - _pages
