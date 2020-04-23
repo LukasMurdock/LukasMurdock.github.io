@@ -14,25 +14,24 @@ layout: null
     <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+
     <generator>Jekyll v{{ jekyll.version }}</generator>
+{% assign timeframe = 604800 %}
 
       <item>
         <title>Writing</title>
         <description>
-        {% assign timeframe = 604800 %}
-
-{% for post in site.posts %}
-  {% assign post_in_seconds = post.date | date: "%s" | plus: 0 %}
-  {% assign recent_posts = "now" | date: "%s" | minus: timeframe  %}
-
-  {% if post_in_seconds > recent_posts %}
+          {% for post in site.posts %}
+            {% assign post_in_seconds = post.date | date: "%s" | plus: 0 %}
+              {% assign recent_posts = "now" | date: "%s" | minus: timeframe  %}
+              {% if post_in_seconds > recent_posts %}
         &lt;h2&gt;{{ post.title | xml_escape }}&lt;/h2&gt;
         &lt;a href=&apos;{{ post.url | prepend: site.baseurl | prepend: site.url | xml_escape }}&apos; target=&apos;_blank&apos; style=&apos;color:#3399ff&apos;&gt;&lt;u&gt;View in Browser&lt;/u&gt;&lt;/a&gt;
         &lt;br /&gt;
         {{ post.content | xml_escape }}
         &lt;hr&gt;
-  {% endif %}
-{% endfor %}
+          {% endif %}
+        {% endfor %}
         </description>
         {% for post in site.posts limit:1 %}
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
@@ -71,7 +70,7 @@ layout: null
     {% for data in site.data.links.linkslist limit:1 %}
     {% for link in data.Links %}
 
-        &lt;a href=&apos;{{ link.Link | xml_escape }}&apos; target=&apos;_blank&apos;&gt;{{ link.Title | xml_escape }} →&lt;/a&gt;
+        &lt;a href=&apos;{{ link.Link | xml_escape }}&apos; target=&apos;_blank&apos;&gt;&lt;strong&gt;&lt;u&gt;{{ link.Title | xml_escape }} →&lt;/u&gt;&lt;/strong&gt;&lt;/a&gt;
         &lt;br /&gt;
         {{ link.Comment | xml_escape }}
         &lt;br /&gt;
