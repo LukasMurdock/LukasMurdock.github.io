@@ -12,7 +12,6 @@ linkslist:
       - Title: It’s Time to Build
         Link: https://a16z.com/2020/04/18/its-time-to-build/
         Comment: "Every step of the way, to everyone around us, we should be asking the question, what are you building?"
-        Date: April 2020
 
       - Title: The Risk of Discovery
         Link: http://www.paulgraham.com/disc.html
@@ -45,6 +44,7 @@ linkslist:
       - Title: "The History of the URL"
         Link: "https://blog.cloudflare.com/the-history-of-the-url/"
         Comment: "On the 11th of January 1982 twenty-two computer scientists met to discuss an issue with ‘computer mail’ (now known as email)."
+        
   - Date: March 2020
     Links:
       - Title: The Core Ideas of Self-Improvement

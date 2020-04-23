@@ -19,14 +19,21 @@ layout: null
       <item>
         <title>Writing</title>
         <description>
-        {% for post in site.posts %}
+        {% assign timeframe = 604800 %}
+
+{% for post in site.posts %}
+  {% assign post_in_seconds = post.date | date: "%s" | plus: 0 %}
+  {% assign recent_posts = "now" | date: "%s" | minus: timeframe  %}
+
+  {% if post_in_seconds > recent_posts %}
         &lt;h2&gt;{{ post.title | xml_escape }}&lt;/h2&gt;
         &lt;br /&gt;
         &lt;a href=&apos;{{ post.url | prepend: site.baseurl | prepend: site.url | xml_escape }}&apos; target=&apos;_blank&apos;&gt;View in Browser&lt;/a&gt;
         &lt;br /&gt;
         {{ post.content | xml_escape }}
         &lt;hr&gt;
-        {% endfor %}
+  {% endif %}
+{% endfor %}
         </description>
         {% for post in site.posts limit:1 %}
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
@@ -38,12 +45,18 @@ layout: null
         <title>Resources</title>
         <description>
         {% for data in site.data.resources.fulldata %}
-        {% for item in data.List %}
+          {% assign sorted = data.List | sort: 'date' | reverse %} 
+            {% for item in sorted %}
+              {% assign resource_in_seconds = item.Date | date: "%s" | plus: 0 %}
+                {% if resource_in_seconds > recent_posts %}
+
         &lt;a href=&apos;{{ item.Link | xml_escape }}&apos; target=&apos;_blank&apos;&gt;{{ item.Title | xml_escape }} →&lt;/a&gt;
         &lt;br /&gt;
-        {{ post.content | xml_escape }}
-        &lt;hr&gt;
+        {{ item.Comment | xml_escape }}
+        &lt;br /&gt;
+        {% endif %}
         {% endfor %}
+        &lt;hr&gt;
         {% endfor %}
         </description>
         {% for post in site.posts limit:1 %}
@@ -51,6 +64,27 @@ layout: null
         {% endfor %}
        
         <link>{{ "/resources" | prepend: site.baseurl | prepend: site.url }}</link>
+      </item>
+
+      <item>
+        <title>Around the Web</title>
+        <description>
+    {% for data in site.data.links.linkslist limit:1 %}
+    {% for link in data.Links %}
+
+        &lt;a href=&apos;{{ link.Link | xml_escape }}&apos; target=&apos;_blank&apos;&gt;{{ link.Title | xml_escape }} →&lt;/a&gt;
+        &lt;br /&gt;
+        {{ link.Comment | xml_escape }}
+        &lt;br /&gt;
+        {% endfor %}
+        &lt;hr&gt;
+        {% endfor %}
+        </description>
+        {% for post in site.posts limit:1 %}
+        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+        {% endfor %}
+       
+        <link>{{ "/aroundtheweb" | prepend: site.baseurl | prepend: site.url }}</link>
       </item>
 
   </channel>
