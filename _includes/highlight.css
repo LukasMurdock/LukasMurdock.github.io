@@ -39,7 +39,8 @@
 .highlight .o { color: #d4d4d4 } /* Javascript Symbols */
 .highlight .mi { color: #b5cea8 } /* Javascript Numbers */
 .highlight .nt { color: #569cd6; } /* HTML tag */
-.highlight .language-html { color: #ce9178;; } /* HTML text */
+.highlight .language-html { color: #ce9178; } /* HTML text */
+.highlight .language-liquid { color: #d4d4d4; } /* Liquid text */
 
 
 .highlight {
@@ -54,3 +55,12 @@ pre {
   line-height: 1.3;
   padding: 20px 0px;
   }
+
+code.highlighter-rouge {
+  background-color: #eeeeee;
+  color: #F94643;
+}
+
+code {
+  /* padding: 1px 5px; */
+}

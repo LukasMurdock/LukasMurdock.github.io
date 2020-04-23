@@ -33,15 +33,13 @@ layout: null
           {% endif %}
         {% endfor %}
         </description>
-        {% for post in site.posts limit:1 %}
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        {% endfor %}
         <link>{{ "/writing" | prepend: site.baseurl | prepend: site.url }}</link>
       </item>
 
       <item>
         <title>Resources</title>
         <description>
+        &lt;a href=&apos;{{ "/resources" | prepend: site.baseurl | prepend: site.url }}&apos; target=&apos;_blank&apos; style=&apos;color:#3399ff&apos;&gt;&lt;u&gt;View in Browser&lt;/u&gt;&lt;/a&gt;
         {% for data in site.data.resources.fulldata %}
           {% assign sorted = data.List | sort: 'date' | reverse %} 
             {% for item in sorted %}
@@ -57,10 +55,6 @@ layout: null
         &lt;hr&gt;
         {% endfor %}
         </description>
-        {% for post in site.posts limit:1 %}
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        {% endfor %}
-       
         <link>{{ "/resources" | prepend: site.baseurl | prepend: site.url }}</link>
       </item>
 
@@ -78,10 +72,6 @@ layout: null
         &lt;hr&gt;
         {% endfor %}
         </description>
-        {% for post in site.posts limit:1 %}
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        {% endfor %}
-       
         <link>{{ "/aroundtheweb" | prepend: site.baseurl | prepend: site.url }}</link>
       </item>
 
