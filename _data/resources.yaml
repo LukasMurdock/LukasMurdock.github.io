@@ -26,170 +26,213 @@ fulldata:
       - Title: MIT Open Courseware
         Link: https://ocw.mit.edu/index.htm
         Comment: "A web-based publication of virtually all MIT course content. OCW is open and available to the world and is a permanent MIT activity."
+        Date: Apr 22, 2020
+
 
       - Title: How to Speak
         Link: https://ocw.mit.edu/resources/res-tll-005-how-to-speak-january-iap-2018/how-to-speak/index.htm
         Comment: "Maximize the opportunity to have your ideas valued and accepted by the people you speak with."
+        Date: Apr 22, 2020
 
       - Title: Technical Writing
         Link: https://developers.google.com/tech-writing
         Comment: "Google Developers Technical Writing Course for Engineers."
+        Date: Apr 22, 2020
 
       - Title: Learn Anything
         Link: https://learn-anything.xyz/
         Comment: "You can learn anything."
+        Date: Apr 22, 2020
 
       - Title: Google Skillshop
         Link: https://skillshop.withgoogle.com/
         Comment: "The one-stop-shop for every kind of learner who wants to succeed with Google professional tools and solutions."
+        Date: Apr 22, 2020
 
       - Title: Google Analytics Academy
         Link: https://analytics.google.com/analytics/academy/
         Comment: "Learn Google Analytics with free online courses"
+        Date: Apr 22, 2020
 
       - Title: Digital Marketing Education
         Link: https://acadium.com/
         Comment: "Gain the skills, work experience, and industry relationships you need to get hired. Entirely remote. Always free."
+        Date: Apr 22, 2020
 
       - Title: High Performance Computing Systems
         Link: https://safari.ethz.ch/courses/
         Comment: "Research computer architecture, systems, security, and bioinformatics."
+        Date: Apr 22, 2020
 
       - Title: Elements of AI
         Link: https://course.elementsofai.com/
         Comment: "Demystify AI with this free online course."
+        Date: Apr 22, 2020
 
       - Title: Paul Graham Infographics
         Link: https://blog.adioma.com/tag/paul-graham/
         Comment: "Paul Graham's Essays Visualized as Infographic Series."
+        Date: Apr 22, 2020
 
       - Title: Calm tech
         Link: https://calmtech.com/
         Comment: "Principles of Calm Technology."
+        Date: Apr 22, 2020
 
       - Title: Road to Scale
         Link: https://roadtoscale.com/
         Comment: "A curated knowledge library for every stage of your startup journey. From idea to scaling up."
+        Date: Apr 22, 2020
 
       - Title: Webflow Freelancer Journey
         Link: https://university.webflow.com/freelancer
         Comment: "A free, comprehensive course that teaches you how to succeed as a freelance web designer."
+        Date: Apr 22, 2020
 
       - Title: Google Project Aristotle
         Link: https://rework.withgoogle.com/guides/understanding-team-effectiveness/steps/introduction/
         Comment: "Online courses, designed for you to grow your career or business."
+        Date: Apr 22, 2020
 
       - Title: Google Digital Garage
         Link: https://learndigital.withgoogle.com/digitalgarage
         Comment: "A guide to understanding team effectiveness at Google."
+        Date: Apr 22, 2020
 
       - Title: Practical Typography
         Link: https://practicaltypography.com/
         Comment: "Matthew Butterick's practical typography book."
+        Date: Apr 22, 2020
 
       - Title: A guide to type styles
         Link: https://www.fontsmith.com/blog/2019/06/24/a-guide-to-type-styles
         Comment: "Instead of focusing on the existing systems or trying to come up with a new system, this piece looks to demystify some useful terminology to help you recognise the most common Latin type styles."
-        
+        Date: Apr 22, 2020
+
       - Title: "Thinking with type"
         Link: http://thinkingwithtype.com/
         Comment: "Letter, text, grid and extras."
+        Date: Apr 22, 2020
 
       - Title: Degreeless Design
         Link: https://www.degreeless.design/
         Comment: "A list of everything for budding UX, UI, Interaction, or whatever other title designers."
+        Date: Apr 22, 2020
         
       - Title: Best Practices in Branding
         Link: https://polyatlas.app/wiki/
         Comment: A step-by-step guide to the Branding process including practical tips, case studies, template files, and many other useful resources.
+        Date: Apr 22, 2020
 
       - Title: AIGA Design Business and Ethics
         Link: https://www.aiga.org/design-business-and-ethics
         Comment: "Outlines the critical ethical and professional issues encountered by designers and their clients."
+        Date: Apr 22, 2020
 
       - Title: Wistia Learn
         Link: https://wistia.com/learn
         Comment: "Wistia provides video marketing tips and education along with video production tips."
+        Date: Apr 22, 2020
         
       - Title: Programming project based learning
         Link: https://github.com/tuvtran/project-based-learning/blob/master/README.md?utm_source=share&utm_medium=ios_app&utm_name=iossmf#javascript
         Comment: "A list of programming tutorials in which learners build an application from scratch."
+        Date: Apr 22, 2020
         
       - Title: Developer Roadmap
         Link: https://roadmap.sh
         Comment: "Community driven roadmaps, articles, guides, quizzes, tips and resources for developers to learn from, identify their career paths, know what they don't know, find out the knowledge gaps, learn and improve."
+        Date: Apr 22, 2020
 
       - Title: Hacker Roadmap
         Link: https://sundowndev.github.io/hacker-roadmap/
         Comment: "A guide for amateurs pen testers and a collection of hacking tools, resources and references to practice ethical hacking, pen testing and web security."
+        Date: Apr 22, 2020
 
       - Title: How These Things Work
         Link: https://reasonablypolymorphic.com/book/preface
         Comment: "A gentle, yet comprehensive introduction to how these things work."
+        Date: Apr 22, 2020
 
       - Title: Ultimate Electronics
         Link: https://ultimateelectronicsbook.com/
         Comment: "A free, interactive book for electronics hobbyists and electrical engineering students."
+        Date: Apr 22, 2020
 
       - Title: Guide to HTML head elements
         Link: https://htmlhead.dev/
         Comment: "A free guide to HTML5 head tag elements."
+        Date: Apr 22, 2020
         
       - Title: Visual intro to probability and statistics
         Link: https://seeing-theory.brown.edu
         Comment: "Making statistics more accessible through interactive visualizations."
+        Date: Apr 22, 2020
         
       - Title: Javascript references
         Link: https://github.com/mdjsn/references/blob/master/README.md
         Comment: "All the references used by the community - quick courses for the javascript engineers."
+        Date: Apr 22, 2020
 
       - Title: Project Engineering Lead Expectations
         Link: https://docs.google.com/document/d/1kngKHUCS0DHNvZAO8PfkcsTD4Mq7b11L09RIaVpQnwI/
-        Comment: "Uber project lead expectations Gergely Orosz team has been using at Uber."        
+        Comment: "Uber project lead expectations Gergely Orosz team has been using at Uber." 
+        Date: Apr 22, 2020       
 
       - Title: Essay Writing Guide
         Link: https://docs.google.com/viewer?url=https%3A%2F%2Fjordanbpeterson.com%2Fwp-content%2Fuploads%2F2018%2F02%2FEssay_Writing_Guide.docx&mc_cid=d3c67fadf9&mc_eid=1a15f04338
         Comment: A document by Jordan B Peterson to write an excellent essay from beginning to end, using a ten-step process.
+        Date: Apr 22, 2020
 
       - Title: "Microsoft Digital Storytelling Handbook"
         Link: https://news.microsoft.com/handbook/
         Comment: "How to tell stories that delight your audience and make an impact for your brand."
+        Date: Apr 22, 2020
 
       - Title: TheFutur
         Link: https://www.thefutur.com/
         Comment: "An online education platform loaded with content, courses, and tools to help you build better design skills and better creative businesses."
-        
+        Date: Apr 22, 2020
+
       - Title: "Speaking.io"
         Link: https://speaking.io/
         Comment: "Because <i>imagine everyone's naked</i> is terrible advice."
+        Date: Apr 22, 2020
 
       - Title: 1 on 1 Meeting Questions
         Link: https://github.com/VGraupera/1on1-questions
         Comment: "Mega list of 1 on 1 meeting questions compiled from a variety to sources."
+        Date: Apr 22, 2020
 
       - Title: More 1 on 1 Meeting Questions
         Link: https://www.peoplebox.ai/t/one-on-one-meeting-template-manager-questions-list
         Comment: "1-on-1 Meeting Questions Template for managers to build high achieving and motivated teams."
+        Date: Apr 22, 2020
 
       - Title: 80000 Hours
         Link: https://80000hours.org/
         Comment: "You have 80,000 hours in your career. How can you best use them to help solve the world’s most pressing problems?"
+        Date: Apr 22, 2020
 
       - Title: The book on video workflows
         Link: https://workflow.frame.io/
         Comment: "Everything you need to know, from capture to delivery, with contributions from the world’s most brilliant post-production minds."
+        Date: Apr 22, 2020
 
       - Title: Early User Growth
         Link: https://earlyusergrowth.com/startups/
         Comment: "How successful companies got their first users."
+        Date: Apr 22, 2020
 
       - Title: iTunes Artwork Finder
         Link: https://bendodson.com/projects/itunes-artwork-finder/index.html
         Comment: "Find and download high resolution iTunes artwork."
+        Date: Apr 22, 2020
 
       - Title: Precious Plastic
         Link: https://preciousplastic.com/
         Comment: "Start a business from plastic waste!"
+        Date: Apr 22, 2020
         
 
   #UIUX
@@ -198,142 +241,177 @@ fulldata:
       - Title: Human Interface
         Link: https://developer.apple.com/design/human-interface-guidelines/
         Comment: "Get in-depth information and UI resources for designing great apps that integrate seamlessly with Apple platforms."
+        Date: Apr 22, 2020
 
       - Title: Material Design
         Link: https://material.io/design/
         Comment: "Material is an adaptable system of guidelines, components, and tools that support the best practices of user interface design."
+        Date: Apr 22, 2020
 
       - Title: Material Design Icons
         Link: https://materialdesignicons.com
         Comment: "View all the Material Design icons."
+        Date: Apr 22, 2020
 
       - Title: Color.review
         Link: https://color.review/
         Comment: "Colors that look and work great for everyone."
+        Date: Apr 22, 2020
 
       - Title: Color by Cloudflare Design
         Link: https://cloudflare.design/color
         Comment: "Generate accessible color combinations."
+        Date: Apr 22, 2020
         
       - Title: Color & Contrast Picker
         Link: https://kevingutowski.github.io/color.html
         Comment: "View closest accessible colors."
+        Date: Apr 22, 2020
 
       - Title: Accessible Color Matrix
         Link: https://jxnblk.github.io/colorable/demos/matrix/
         Comment: "See accessibility of color palette."
+        Date: Apr 22, 2020
 
       - Title: Colors and Fonts
         Link: https://www.colorsandfonts.com/
         Comment: "Curated library of colors, fonts, and resources for Web Developers & Digital Designers."
+        Date: Apr 22, 2020
 
       - Title: Design System Checklist
         Link: https://designsystemchecklist.com/
         Comment: "An open-source checklist to help you plan, build and grow your design system."
+        Date: Apr 22, 2020
 
       - Title: Checklist Design
         Link: https://www.checklist.design/
         Comment: "A collection of the best UX and UI practices."
+        Date: Apr 22, 2020
 
       - Title: growth.design
         Link: https://growth.design/
         Comment: "Learn how to craft experiences so delightful that your customers will be happy to spread the word for you."
+        Date: Apr 22, 2020
 
       - Title: User Onboarding
         Link: https://www.useronboard.com/
         Comment: "The ultimate source for User Onboarding teardowns, tips, & thoughts."
+        Date: Apr 22, 2020
 
       - Title: A collection of design systems
         Link: https://github.com/alexpate/awesome-design-systems
         Comment: "A curated list of design systems, pattern libraries, and everything between."
+        Date: Apr 22, 2020
 
       - Title: Dark Patterns
         Link: https://www.darkpatterns.org/
         Comment: "Dark Patterns are tricks used in websites and apps that make you do things that you didn't mean to, like buying or signing up for something."
+        Date: Apr 22, 2020
 
       - Title: Design systems
         Link: https://www.designsystems.com/
         Comment: "A Figma publication for design systems creators, designers, developers, and managers."
+        Date: Apr 22, 2020
 
       - Title: UI Goodies
         Link: https://www.uigoodies.com/
         Comment: "Weekly UI resources straight to your inbox."
+        Date: Apr 22, 2020
 
       - Title: UI Design Daily
         Link: https://uidesigndaily.com/
         Comment: "The best resources for designers in one place."
+        Date: Apr 22, 2020
 
       - Title: Starbucks Creative
         Link: https://creative.starbucks.com
         Comment: "It all starts here. Use this guide as a high-level overview of how the Starbucks brand comes to life."
+        Date: Apr 22, 2020
 
       - Title: Uber Brand
         Link: https://brand.uber.com/
         Comment: "A bold new brand awaits."
+        Date: Apr 22, 2020
 
       - Title: UX Frameworks
         Link: https://www.uxframeworks.design
         Comment: "Find and share frameworks for design research, synthesis, and ideation."
+        Date: Apr 22, 2020
 
       - Title: Saas Landing Pages
         Link: https://saaslandingpage.com/
         Comment: "Discover the best landing page examples created by top-class SaaS companies, and get ideas and inspiration for your next design project."
+        Date: Apr 22, 2020
 
       - Title: Web Gradients
         Link: https://webgradients.com
         Comment: "Free collection of beautiful gradients."
+        Date: Apr 22, 2020
 
       - Title: Humaaans
         Link: https://www.humaaans.com/
         Comment: "Mix-&-match illustrations of people with a design library."
+        Date: Apr 22, 2020
 
       - Title: Mixkit
         Link: https://www.humaaans.com/
         Comment: "Completely free HD video & art for you to use, anywhere."
+        Date: Apr 22, 2020
 
       - Title: Free illustrations, for everything
         Link: https://www.glazestock.com/
         Comment: "A curated royalty-free illustration library."
+        Date: Apr 22, 2020
 
       - Title: Free Mockups
         Link: https://malli.graphics/
         Comment: "A collection of free mockups."
+        Date: Apr 22, 2020
 
       - Title: Image Placeholder Service
         Link: http://placehold.jp/en.html
         Comment: "Create placeholder images quickly and easily."
+        Date: Apr 22, 2020
 
       - Title: Can't Unsee
         Link: https://cantunsee.space/
         Comment: "Select the design that is most correct"
+        Date: Apr 22, 2020
 
       - Title: Segment
         Link: https://segment.com/
         Comment: "A customer data platform that helps you collect, clean, and control your customer data."
+        Date: Apr 22, 2020
 
       - Title: Stripe
         Link: https://stripe.com/
         Comment: "Online payment processing for internet businesses."
+        Date: Apr 22, 2020
 
       - Title: Privacy
         Link: https://privacy.com/
         Comment: "Make a unique debit card number for every single purchase online with just 1 click."
+        Date: Apr 22, 2020
 
       - Title: My Fitness Pal
         Link: https://www.myfitnesspal.com/
         Comment: "Free online calorie counter and diet plan."
+        Date: Apr 22, 2020
 
       - Title: Wista
         Link: https://wistia.com/
         Comment: "Build Brand Affinity with Video Marketing Software."
+        Date: Apr 22, 2020
 
       - Title: Slack
         Link: https://slack.com/
         Comment: "Slack replaces email inside your company."
+        Date: Apr 22, 2020
 
       - Title: Maven
         Link: https://www.mavenclinic.com
         Comment: "Women’s and family healthcare the way it should be."
+        Date: Apr 22, 2020
 
 
   #Niche resources
@@ -342,126 +420,157 @@ fulldata:
       - Title: Makerpad
         Link: https://www.makerpad.co/
         Comment: "Build tools & automate at work without code."
+        Date: Apr 22, 2020
 
       - Title: "Hack/r/dot"
         Link: https://www.hackrdot.com/
         Comment: "A reader for Hacker News, r/programming, and Slashdot."
+        Date: Apr 22, 2020
 
       - Title: MoneyMade
         Link: https://moneymade.io/
         Comment: "Find and compare investment opportunities"
+        Date: Apr 22, 2020
 
       - Title: Exploding Topics
         Link: https://explodingtopics.com/
         Comment: "Discover rapidly growing topics before they take off."
+        Date: Apr 22, 2020
 
       - Title: Top Trend Books
         Link: https://toptrendbooks.com/
         Comment: "Data-driven book recommendation site where trends are collected and aggregated from over 100,000 Reddit posts and comments."
+        Date: Apr 22, 2020
 
       - Title: Booklets.io
         Link: https://www.booklets.io/
         Comment: "Browse hundreds of booklets on design, business, freelancing & more. Learn new skills & insights, fast."
+        Date: Apr 22, 2020
 
       - Title: Webster's 1913
         Link: https://www.websters1913.com/
         Comment: "Connoisseur's reference to American English - a dictionary for writers and wordsmiths."
+        Date: Apr 22, 2020
 
       - Title: Etymonline
         Link: https://www.etymonline.com/
         Comment: "Origin, history and meaning of English words."
+        Date: Apr 22, 2020
 
       - Title: Every Noise at Once
         Link: http://everynoise.com/
         Comment: "An algorithmically-generated, readability-adjusted scatter-plot of the musical genre-space."
+        Date: Apr 22, 2020
 
       - Title: Poolside.fm
         Link: https://poolside.fm/
         Comment: "The sunniest spot on the internet. Poolside FM is an online radio station, playing an infinity pool of summer sounds. Swimwear optional."
+        Date: Apr 22, 2020
 
       - Title: Tools for makers
         Link: https://hoard.fyi/
         Comment: "Curated tools & resources for web designers, developers & makers."
+        Date: Apr 22, 2020
 
       - Title: Regex cheatsheet
         Link: https://ihateregex.io/
         Comment: "A regex cheatsheet."
+        Date: Apr 22, 2020
 
       - Title: Online regex tester
         Link: https://regex101.com/
         Comment: "Online regex tester and debugger: PHP, PCRE, Python, Golang and JavaScript."
+        Date: Apr 22, 2020
 
       - Title: Remark
         Link: https://remarkapp.io/
         Comment: "Turn long text to one sentence"
+        Date: Apr 22, 2020
 
       - Title: Free tools for devs
         Link: https://free-for.dev/
         Comment: "A list of software and other offerings with free tiers for developers."
+        Date: Apr 22, 2020
 
       - Title: Leaderboard for the best new products
         Link: https://pragli.com/leaderboard-for-product-hunt/
         Comment: "Product Hunt leaderboard"
+        Date: Apr 22, 2020
 
       - Title: Physics Travel Guide
         Link: https://physicstravelguide.com/
         Comment: "Intuitive, concrete, and abstract physics explanations"
+        Date: Apr 22, 2020
 
       - Title: Almanac
         Link: https://askalmanac.com/
         Comment: "Access to tools, templates, and guides from top startup minds."
+        Date: Apr 22, 2020
 
       - Title: Semantic Scholar
         Link: https://www.semanticscholar.org/
         Comment: "Find peer-reviewed research from the world's most trusted sources."
+        Date: Apr 22, 2020
 
       - Title: Smithsonian Open Access
         Link: https://www.si.edu/openaccess
         Comment: "Download, share, and reuse millions of the Smithsonian’s images."
+        Date: Apr 22, 2020
 
       - Title: Related subreddits
         Link: https://anvaka.github.io/sayit/?query=
         Comment: This website shows you a graph of related subreddits for any given one.
+        Date: Apr 22, 2020
 
       - Title: Best SEO Tools
         Link: https://saijogeorge.com/best-marketing-tools/
         Comment: "Curated links to various marketing websites."
+        Date: Apr 22, 2020
 
       - Title: Guides for frontend developers
         Link: https://www.learnstorybook.com/
         Comment: "Free in-depth guides for professional frontend developers."
+        Date: Apr 22, 2020
         
       - Title: Free resources for Freelancers
         Link: https://usefyi.com/templates/freelancer-templates/
         Comment: "All the free resources and templates you need to get work done as a freelancer."
+        Date: Apr 22, 2020
 
       - Title: Letterform Archive
         Link: http://oa.letterformarchive.org/search?dims=Decade&vals0=1960s
         Comment: "View letterforms by decades, countries, formats, and more."
+        Date: Apr 22, 2020
 
       - Title: Typewolf
         Link: https://www.typewolf.com
         Comment: "Web fonts in the wild, font recommendations and learning resources."
+        Date: Apr 22, 2020
 
       - Title: Google Fonts Analytics
         Link: https://fonts.google.com/analytics
         Comment: "Making the web more beautiful, fast, and open through great typography."
+        Date: Apr 22, 2020
 
       - Title: The Design Sprint
         Link: https://www.gv.com/sprint/
         Comment: The sprint is a five-day process for answering critical business questions through design, prototyping, and testing ideas with customers.
+        Date: Apr 22, 2020
 
       - Title: Design Sprint Kit
         Link: https://designsprintkit.withgoogle.com/
         Comment: Learn, plan, and contribute to the Design Sprint Methodology.
+        Date: Apr 22, 2020
 
       - Title: Google Design Resources
         Link: https://design.google/resources/
         Comment: A directory of essential design tools and resources to keep your projects moving forward.
+        Date: Apr 22, 2020
 
       - Title: Sheets for Marketers
         Link: https://sheetsformarketers.com/
         Comment: "Learn how to make SEO tools, automate boring tasks and up your marketing game, without ever leaving Google Sheets."
+        Date: Apr 22, 2020
 
 
 
@@ -474,78 +583,97 @@ fulldata:
       - Title: Basecamp
         Link: https://basecamp.com/
         Comment: "Get it together and manage projects the right way."
+        Date: Apr 22, 2020
 
       - Title: Code Sandbox
         Link: https://codesandbox.io/
         Comment: "An instant IDE and prototyping tool for rapid web development."
+        Date: Apr 22, 2020
 
       - Title: Google Drive
         Link: https://www.google.com/drive/
         Comment: "Safely store and share your photos, videos, files and more in the cloud."
+        Date: Apr 22, 2020
 
       - Title: Webflow
         Link: https://webflow.com/
         Comment: "The top drag-and-drop website builder for creating professional responsive websites."
+        Date: Apr 22, 2020
 
       - Title: Wealthfront
         Link: https://www.wealthfront.com/
         Comment: "Save, plan and invest all in one place, on autopilot."
+        Date: Apr 22, 2020
 
       - Title: Write With Transformer
         Link: https://transformer.huggingface.co
         Comment: "See how a modern neural network auto-completes your text."
+        Date: Apr 22, 2020
 
       - Title: Hemingway
         Link: http://www.hemingwayapp.com
         Comment: "Makes your writing bold and clear."
+        Date: Apr 22, 2020
 
       - Title: Formal Founder
         Link: https://www.formalfounder.com/
         Comment: "A free business name availability search tool used to help entrepreneurs find available businesses names, trademarks, patents, domains, and social media handles nationwide."
+        Date: Apr 22, 2020
 
       - Title: Namewink
         Link: https://namewink.com/
         Comment: "Business Name Generator for Unique and Creative Name Ideas."
+        Date: Apr 22, 2020
 
       - Title: Related Words
         Link: https://relatedwords.org/
         Comment: "Find words related to another word."
+        Date: Apr 22, 2020
 
       - Title: Wordoid
         Link: https://wordoid.com
         Comment: "Creative way to find a catchy name for your new venture."
+        Date: Apr 22, 2020
 
       - Title: Sharpen Design
         Link: https://sharpen.design/
         Comment: "Millions of practice design prompts to challenge you to think outside the box."
+        Date: Apr 22, 2020
 
       - Title: Photopea
         Link: https://www.photopea.com/
         Comment: "Photoshop in your browser."
+        Date: Apr 22, 2020
 
       - Title: Screely
         Link: https://www.screely.com/
         Comment: "Instantly Turn a Screenshot into a Beautiful Mockup."
+        Date: Apr 22, 2020
 
       - Title: IUBenda
         Link: https://www.iubenda.com/
         Comment: "Compliance Solutions for Websites, Apps and Organizations."
+        Date: Apr 22, 2020
 
       - Title: This person does not exist
         Link: https://thispersondoesnotexist.com/
         Comment: "Computer generated people. Refresh to get a new one."
+        Date: Apr 22, 2020
 
       - Title: GoatCounter
         Link: https://www.goatcounter.com/
         Comment: "Simple web statistics. No tracking of personal data."
+        Date: Apr 22, 2020
 
       - Title: Similar Web
         Link: https://similarweb.com/
         Comment: "Compare any website traffic statistics & analytics."
+        Date: Apr 22, 2020
 
       - Title: Built With
         Link: https://builtwith.com/
         Comment: "Web technology information profiler tool. Find out what a website is built with."
+        Date: Apr 22, 2020
 
 
 
@@ -556,46 +684,57 @@ fulldata:
       - Title: Web.dev
         Link: https://web.dev/
         Comment: "See how well your website performs. Then, get tips to improve your user experience."
+        Date: Apr 22, 2020
 
       - Title: Checkbot
         Link: https://www.checkbot.io/
         Comment: "Fix broken links, duplicate titles, insecure pages, invalid HTML & more."
+        Date: Apr 22, 2020
 
       - Title: Wave — Web Accessibility 
         Link: https://wave.webaim.org/
         Comment: "Web Accessibility Evaluation Tool by WebAIM."
+        Date: Apr 22, 2020
 
       - Title: ANDI
         Link: https://www.ssa.gov/accessibility/andi/help/install.html
         Comment: "Accessible Name & Description Inspector."
+        Date: Apr 22, 2020
 
       - Title: GSC Mobile-Friendly Test
         Link: https://search.google.com/test/mobile-friendly
         Comment: "Is your web page mobile-friendly?"
+        Date: Apr 22, 2020
 
       - Title: W3C Validator
         Link: https://validator.w3.org/
         Comment: "Check the markup of Web documents."
+        Date: Apr 22, 2020
 
       - Title: GTMetrix
         Link: https://gtmetrix.com/
         Comment: "See how your site performs, reveal why it's slow and discover optimization opportunities."
+        Date: Apr 22, 2020
 
       - Title: Pingdom
         Link: https://tools.pingdom.com/
         Comment: "Test the page load time, analyze it, and find bottlenecks."
+        Date: Apr 22, 2020
 
       - Title: Grammarly
         Link: https://www.grammarly.com/
         Comment: "Eliminate errors and find the perfect words to express yourself."
+        Date: Apr 22, 2020
 
       - Title: CSS Stats
         Link: https://cssstats.com/
         Comment: "Analytics and visualizations for your stylesheets"
+        Date: Apr 22, 2020
 
       - Title: Web Performance Tools
         Link: https://www.swyx.io/writing/webperf-tests/
         Comment: "Every Web Performance Test Tool"
+        Date: Apr 22, 2020
 
 
         
@@ -607,58 +746,72 @@ fulldata:
       - Title: Extension Rank
         Link: https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm/related?hl=en-US
         Comment: "Discover the best extensions ranked by users and reviews."
+        Date: Apr 22, 2020
 
       - Title: Web Developer
         Link: https://extensionrank.com/
         Comment: "Adds a toolbar button with various web developer tools."
+        Date: Apr 22, 2020
 
       - Title: ANDI
         Link: https://www.ssa.gov/accessibility/andi/help/install.html
         Comment: "Accessible Name & Description Inspector."
+        Date: Apr 22, 2020
 
       - Title: 77X
         Link: https://chrome.google.com/webstore/detail/77x/lgnkmlgloomjfbmdenogdehhphnhaihb?hl=en
         Comment: "Open a tab, get a thing. Each tab generates a random thing from 77 Things a design handbook published by Uber Design."
+        Date: Apr 22, 2020
 
       - Title: BuiltWith
         Link: https://chrome.google.com/webstore/detail/builtwith-technology-prof/dapjbgnjinbpoindlpdmhochffioedbn?hl=en
         Comment: "Find out what websites are Built With."
+        Date: Apr 22, 2020
 
       - Title: Wappalyzer
         Link: https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg?hl=en
         Comment: "Identify technology on websites."
+        Date: Apr 22, 2020
 
       - Title: SVG Grabber
         Link: https://chrome.google.com/webstore/detail/svg-grabber-get-all-the-s/ndakggdliegnegeclmfgodmgemdokdmg?hl=en
         Comment: "Get all the svg's from a site"
+        Date: Apr 22, 2020
 
       - Title: AdBlock
         Link: https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom?hl=en
         Comment: "Best ad blocker"
+        Date: Apr 22, 2020
 
       - Title: Grammarly
         Link: https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen?hl=en
         Comment: "Eliminate writing errors and find the perfect words to express yourself."
+        Date: Apr 22, 2020
 
       - Title: The Great Suspender
         Link: https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg?hl=en
         Comment: "Make your computer run smoothly by suspending the tabs you aren't using."
+        Date: Apr 22, 2020
 
       - Title: CSS Peeper
         Link: https://chrome.google.com/webstore/detail/css-peeper/mbnbehikldjhnfehhnaidhjhoofhpehk?hl=en
         Comment: "Extract CSS and build beautiful styleguides."
+        Date: Apr 22, 2020
 
       - Title: Fontface Ninja
         Link: https://chrome.google.com/webstore/detail/fontface-ninja/eljapbgkmlngdpckoiiibecpemleclhh?hl=en
         Comment: "Identify fonts on any website."
+        Date: Apr 22, 2020
 
       - Title: Checkbot
         Link: https://www.checkbot.io/
         Comment: "Fix broken links, duplicate titles, insecure pages, invalid HTML & more."
+        Date: Apr 22, 2020
 
       - Title: Bullshit js
         Link: https://mourner.github.io/bullshit.js/
         Comment: "Bullshit.js is a mission-critical enterprise JavaScript bookmarklet that will empower you to evaluate the high impact of market-driven text on any page."
+        Date: Apr 22, 2020
 
 
 
@@ -668,86 +821,107 @@ fulldata:
       - Title: Ethical.net
         Link: https://ethical.net/resources/
         Comment: "Ethical Alternatives & Resources"
+        Date: Apr 22, 2020
 
       - Title: Brave Browser
         Link: https://brave.com/
         Comment: "A fast, private and secure web browser for PC, Mac and mobile."
+        Date: Apr 22, 2020
 
       - Title: Express VPN
         Link: https://www.expressvpn.com/
         Comment: "The VPN that just works."
+        Date: Apr 22, 2020
 
       - Title: VS Code
         Link: https://code.visualstudio.com/
         Comment: "Code editing. Free. Built on open source. Runs everywhere."
+        Date: Apr 22, 2020
 
       - Title: Affinity Designer
         Link: https://affinity.serif.com/en-us/designer/
         Comment: "An award-winning vector graphics software setting the new industry standard in the world of design."
+        Date: Apr 22, 2020
 
       - Title: Affinity Photo
         Link: https://affinity.serif.com/en-us/photo/
         Comment: "The only fully loaded photo editor integrated across Mac, Windows and iOS."
+        Date: Apr 22, 2020
 
       - Title: Affinity Publisher
         Link: https://affinity.serif.com/en-us/publisher/
         Comment: "Bring your vision to life with Affinity Publisher, the next generation of professional publishing software."
+        Date: Apr 22, 2020
 
       - Title: Adobe Illustrator
         Link: https://www.adobe.com/products/illustrator.html
         Comment: "Create logos, icons, sketches, typography and other vector art."
+        Date: Apr 22, 2020
 
       - Title: Adobe After Effects
         Link: https://www.adobe.com/products/aftereffects.html
         Comment: "Create motion graphics and visual effects."
+        Date: Apr 22, 2020
 
       - Title: Adobe Premiere Pro
         Link: https://www.adobe.com/products/premiere.html
         Comment: "Industry standard video editing."
+        Date: Apr 22, 2020
 
       - Title: Final Cut Pro X
         Link: https://www.apple.com/final-cut-pro/
         Comment: "Apple's take on post-production."
+        Date: Apr 22, 2020
 
       - Title: Motion 5
         Link: https://www.apple.com/final-cut-pro/motion/
         Comment: "Apple's simple motion graphics tool."
+        Date: Apr 22, 2020
 
       - Title: Vector Magic
         Link: https://vectormagic.com/
         Comment: "Easily convert JPG, PNG, GIF files to PDF, SVG, EPS vectors."
+        Date: Apr 22, 2020
 
       - Title: iA Writer
         Link: https://ia.net/writer
         Comment: "Plain text. Full ownership. Total focus. The original iA Writer."
+        Date: Apr 22, 2020
 
       - Title: Screaming Frog SEO Spider
         Link: https://www.screamingfrog.co.uk/seo-spider/
         Comment: "Industry leading website crawler."
+        Date: Apr 22, 2020
 
       - Title: Httrack
         Link: https://www.httrack.com/
         Comment: "Download sites to a local computer."
+        Date: Apr 22, 2020
 
       - Title: Keyboard Maestro
         Link: https://www.keyboardmaestro.com/main/
         Comment: "Automate applications or web sites, text or images, simple or complex, on command or scheduled. You can automate virtually anything."
+        Date: Apr 22, 2020
 
       - Title: Carbon Copy Cloner
         Link: https://bombich.com/
         Comment: "The first bootable backup solution that works with Apple’s new APFS filesystem."
+        Date: Apr 22, 2020
 
       - Title: Clear Todos
         Link: https://apps.apple.com/us/app/clear-todos/id493136154
         Comment: "Remarkably simple lists."
+        Date: Apr 22, 2020
 
       - Title: Transmission
         Link: https://transmissionbt.com/
         Comment: "A fast, easy, and free BitTorrent client."
+        Date: Apr 22, 2020
 
       - Title: Malwarebytes
         Link: https://www.malwarebytes.com/
         Comment: "Protects you against malware, ransomware, malicious websites, and other advanced online threats."
+        Date: Apr 22, 2020
 
 
   #Newsletters
@@ -757,118 +931,147 @@ fulldata:
       - Title: Seth Godin
         Link: https://seths.blog/
         Comment: "Seth Godin's Blog on marketing, tribes and respect."
+        Date: Apr 22, 2020
 
       - Title: News from Google
         Link: https://www.google.com/press/blog-social-directory.html
         Comment: "Blogs and social media of Google products."
+        Date: Apr 22, 2020
 
       - Title: Google Webmaster Central Blog
         Link: https://webmasters.googleblog.com/
         Comment: "Official news on crawling and indexing sites for the Google index."
+        Date: Apr 22, 2020
 
       - Title: The New Paper
         Link: https://www.thenewpaper.co/
         Comment: "The daily news in as few words as possible, delivered by email each weekday morning."
+        Date: Apr 22, 2020
 
       - Title: Taco from Trello
         Link: https://blog.trello.com/
         Comment: "The official Trello blog."
+        Date: Apr 22, 2020
 
       - Title: Farnam Street
         Link: https://fs.blog/
         Comment: "Live a better life by mastering the best of what other people have already figured out."
+        Date: Apr 22, 2020
 
       - Title: Money Stuff
         Link: https://link.mail.bloombergbusiness.com/join/4wm/moneystuff-signup&hash=54223001ca3ffcf40f2629c25acea67a
         Comment: "A daily take on Wall Street, finance, companies and other stuff."
+        Date: Apr 22, 2020
 
       - Title: Alex Danco
         Link: https://danco.substack.com/
         Comment: "Fresh thinking and provocative takes on the innovation economy, in your inbox every Sunday. Now in its second season."
+        Date: Apr 22, 2020
 
       - Title: Aeon
         Link: https://aeon.co/
         Comment: "In-depth essays, incisive articles, and a mix of original and curated videos."
+        Date: Apr 22, 2020
 
       - Title: Hacker News
         Link: https://hackernewsletter.com/
         Comment: "A weekly newsletter of the best articles curated by hand from Hacker News."
+        Date: Apr 22, 2020
 
       - Title: Hacker News Digest
         Link: https://yahnd.com/
         Comment: "YaHNd is a collection of experimental data-mining projects over the Hacker News discussion forum."
+        Date: Apr 22, 2020
 
       - Title: SSRN
         Link: https://www.ssrn.com
         Comment: "Tomorrow´s Research Today."
+        Date: Apr 22, 2020
 
       - Title: Product Hunt
         Link: https://www.producthunt.com
         Comment: "A curation of the best new products, every day."
+        Date: Apr 22, 2020
 
       - Title: The Product Person
         Link: https://theproductperson.com/
         Comment: "An article a week to improve your product skills."
+        Date: Apr 22, 2020
 
       - Title: Better Explained
         Link: https://betterexplained.com/newsletter/
         Comment: "For everyone interested in deep, intuitive learning."
+        Date: Apr 22, 2020
 
       - Title: Unsupervised Learning
         Link: https://danielmiessler.com/newsletter/
         Comment: "Articles around the intersection of security, technology, and humans."
+        Date: Apr 22, 2020
 
       - Title: The Uncertainty Mindset
         Link: https://uncertaintymindset.substack.com/
         Comment: "On uncertainty—what it is, how it affects us, and how to respond to it."
+        Date: Apr 22, 2020
 
       - Title: AJ & Smart
         Link: https://pages.convertkit.com/706830c7d2/e7cce14a7a
         Comment: "Product Innovation Newsletter."
+        Date: Apr 22, 2020
 
       - Title: Product Disrupt
         Link: https://productdisrupt.com/
         Comment: "Curated list of product design resources."
+        Date: Apr 22, 2020
 
       - Title: Industry Dive
         Link: https://www.industrydive.com/
         Comment: "Business journalism for decision makers in the most competitive industries, helping spark ideas and innovation, shape agendas and empower confident decisions."
+        Date: Apr 22, 2020
 
       - Title: Google Trends
         Link: https://trends.google.com/trends/
         Comment: "Explore what the world is searching."
+        Date: Apr 22, 2020
 
       - Title: TorrentFreak
         Link: https://torrentfreak.com/
         Comment: "A publication dedicated to bringing the latest news about copyright, privacy, and everything related to filesharing."
+        Date: Apr 22, 2020
 
       - Title: Inside Design by Invision
         Link: https://www.invisionapp.com/inside-design/
         Comment: "InVision’s official blog that discusses design thinking, design teams, and design inspiration."
+        Date: Apr 22, 2020
 
       - Title: Drop (formerly Massdrop)
         Link: https://drop.com/
         Comment: "Discover innovative products, made possible by users."
+        Date: Apr 22, 2020
 
       - Title: ReallyGoodEmails
         Link: https://reallygoodemails.com/
         Comment: "The web’s best, and most attractive, curated collection of over 5,101 emails, showing off both design and code."
+        Date: Apr 22, 2020
 
       - Title: Effectivology
         Link: https://effectiviology.com/
         Comment: "Articles that help you understand the world better, and show you how to think and act more effectively."
+        Date: Apr 22, 2020
 
       - Title: James Clear
         Link: https://jamesclear.com/3-2-1/refer?rh_ref=44709395
         Comment: "Self-improvement tips based on proven scientific research."
+        Date: Apr 22, 2020
 
       - Title: Demand progress
         Link: https://demandprogress.org
         Comment: "Demand Progress and our more than two million members seek to protect the democratic character of the internet — and wield it to make government accountable and contest concentrated corporate power."
+        Date: Apr 22, 2020
 
       - Title: Awesome developer newsletters
         Link: https://github.com/zudochkin/awesome-newsletters/blob/master/README.md
         Comment: "A curated list of awesome newsletters."
+        Date: Apr 22, 2020
 
         
 
@@ -878,46 +1081,57 @@ fulldata:
       - Title: Dataset Search
         Link: https://datasetsearch.research.google.com/
         Comment: "Find datasets stored across the Web through a simple keyword search."
+        Date: Apr 22, 2020
 
       - Title: Political advertising transparency
         Link: https://transparencyreport.google.com/political-ads/home
         Comment: "To help everyone understand the ads they see online."
+        Date: Apr 22, 2020
 
       - Title: Project Gutenburg
         Link: https://www.gutenberg.org/
         Comment: "A library of over 60,000 free eBooks available online."
+        Date: Apr 22, 2020
 
       - Title: Standard Ebooks
         Link: https://standardebooks.org/
         Comment: "Free and liberated ebooks, carefully produced for the true book lover."
+        Date: Apr 22, 2020
 
       - Title: "*privacy not included"
         Link: https://foundation.mozilla.org/en/privacynotincluded/
         Comment: "Guide to help you shop for safe, secure connected products."
+        Date: Apr 22, 2020
 
       - Title: Explorable Explanations
         Link: https://explorabl.es/
         Comment: "A hub for learning through play."
+        Date: Apr 22, 2020
 
       - Title: Hckr News
         Link: https://hckrnews.com/
         Comment: "An unofficial alternative hacker news interface."
+        Date: Apr 22, 2020
 
       - Title: MF Website
         Link: http://motherfuckingwebsite.com/
         Comment: "This is a motherfucking website. And it's fucking perfect."
+        Date: Apr 22, 2020
 
       - Title: Better MF Website
         Link: http://bettermotherfuckingwebsite.com/
         Comment: "This is still a motherfucking website. And it's more fucking perfect than the last guy's."
+        Date: Apr 22, 2020
 
       - Title: Best MF Website
         Link: https://bestmotherfucking.website/
         Comment: "This is the best motherfucking website. And it’s fucking perfect."
+        Date: Apr 22, 2020
 
       - Title: The Best MF Website
         Link: https://thebestmotherfucking.website/
         Comment: "This is the best motherfucking website. Really, it is."
+        Date: Apr 22, 2020
 
   #Email
   - Type: Email
@@ -925,50 +1139,62 @@ fulldata:
       - Title: HTML to Text Email
         Link: https://templates.mailchimp.com/resources/html-to-text/
         Comment: "Mailchimp's Email Design HTML to Text Email Converter."
+        Date: Apr 22, 2020
 
       - Title: CSS Inliner Tool
         Link: https://templates.mailchimp.com/resources/inline-css/
         Comment: "Mailchimp's Email Design CSS Inliner Tool."
+        Date: Apr 22, 2020
 
       - Title: Bulletproof email buttons
         Link: https://buttons.cm/
         Comment: "Campaign Monitors button designer using progressively enhanced VML and CSS."
+        Date: Apr 22, 2020
 
       - Title: Campaign Monitor Email Client CSS Support
         Link: https://www.campaignmonitor.com/css/
         Comment: "A complete breakdown of the CSS support for the most popular mobile, web and desktop email clients on the planet."
+        Date: Apr 22, 2020
 
       - Title: Litmus Email Client Market Share
         Link: https://www.emailclientmarketshare.com/
         Comment: "Email client usage worldwide, collected from 871 million email opens."
+        Date: Apr 22, 2020
 
       - Title: Can I Email
         Link: https://www.caniemail.com/
         Comment: "Support tables for HTML and CSS in emails."
+        Date: Apr 22, 2020
 
       - Title: Can I Use
         Link: https://caniuse.email/
         Comment: "Compatibility tables for CSS support in HTML emails."
+        Date: Apr 22, 2020
 
       - Title: HTML Crush
         Link: https://htmlcrush.com/
         Comment: "Minify HTML mixed with anything."
+        Date: Apr 22, 2020
 
       - Title: Email Comb
         Link: https://emailcomb.com/
         Comment: "Removes unused CSS from email templates."
+        Date: Apr 22, 2020
 
       - Title: Premailer
         Link: http://premailer.dialect.ca/
         Comment: "Preflight for HTML email. Inline CSS, convert links and warns about unsupported code."
+        Date: Apr 22, 2020
 
       - Title: Email Drips
         Link: https://www.emaildrips.com/
         Comment: "82 email drip campaign examples."
+        Date: Apr 22, 2020
 
       - Title: Email Love
         Link: https://emaillove.com/
         Comment: "Email inspiration, resources and discovery."
+        Date: Apr 22, 2020
 
         
 
@@ -978,30 +1204,37 @@ fulldata:
       - Title: Akimbo
         Link: https://www.akimbo.link/
         Comment: "The official site of Seth Godin's podcast, Akimbo."
+        Date: Apr 22, 2020
 
       - Title: Revisionist History
         Link: http://revisionisthistory.com/
         Comment: "Revisionist History is Malcolm Gladwell's journey through the overlooked and the misunderstood."
+        Date: Apr 22, 2020
 
       - Title: 99% Invisible
         Link: https://99percentinvisible.org/
         Comment: "99% Invisible with Roman Mars is a tiny radio show about design, architecture & the ninety-nine percent invisible activity that shapes our world."
+        Date: Apr 22, 2020
 
       - Title: The Knowledge Project
         Link: https://fs.blog/the-knowledge-project/
         Comment: "Master the best of what other people have already figured out."
+        Date: Apr 22, 2020
 
       - Title: How I Built This
         Link: https://www.npr.org/podcasts/510313/how-i-built-this
         Comment: "The stories behind some of the world's best known companies."
+        Date: Apr 22, 2020
 
       - Title: Rework
         Link: https://rework.fm/
         Comment: "A podcast about a better way to work and run your business."
+        Date: Apr 22, 2020
 
       - Title: Story Break
         Link: https://www.maximumfun.org/shows/story-break
         Comment: "A show where three Hollywood pros have one hour to turn a humble idea into cinematic gold."
+        Date: Apr 22, 2020
 
 
   #Youtube
@@ -1010,50 +1243,62 @@ fulldata:
       - Title: The Futur
         Link: https://www.youtube.com/channel/UC-b3c7kxa5vU-bnmaROgvog
         Comment: "The Futur of education, design, business and learning."
+        Date: Apr 22, 2020
 
       - Title: Kurzgesagt
         Link: https://www.youtube.com/channel/UCsXVk37bltHxD1rDPwtNM8Q
         Comment: "Videos explaining things in a nutshell."
+        Date: Apr 22, 2020
 
       - Title: Polymatter
         Link: https://www.youtube.com/channel/UCgNg3vwj3xt7QOrcIDaHdFg
         Comment: "A channel about technology, economics, China, and more."
+        Date: Apr 22, 2020
 
       - Title: Linus Tech Tips
         Link: https://www.youtube.com/user/LinusTechTips
         Comment: "Tech can be complicated; let's make it easy."
+        Date: Apr 22, 2020
 
       - Title: Marques Brownlee
         Link: https://www.youtube.com/user/marquesbrownlee
         Comment: "Quality Tech Videos."
+        Date: Apr 22, 2020
 
       - Title: Corridor Crew
         Link: https://www.youtube.com/channel/UCSpFnDQr88xCZ80N-X7t0nQ
         Comment: "The ups and downs of creators at a professional production studio."
+        Date: Apr 22, 2020
 
       - Title: Academy of Ideas
         Link: https://www.youtube.com/user/academyofideas
         Comment: "Videos explaining the ideas of history's great thinkers."
+        Date: Apr 22, 2020
 
       - Title: Smarter Every Day
         Link: https://www.youtube.com/channel/UC6107grRI4m0o2-emgoDnAA
         Comment: "Explore the world using science."
+        Date: Apr 22, 2020
 
       - Title: Google Chrome Developers
         Link: https://www.youtube.com/channel/UCnUYZLuoy1rq1aVMwx4aTzw
         Comment: "Making the web more awesome."
+        Date: Apr 22, 2020
 
       - Title: ColdFusion
         Link: https://www.youtube.com/channel/UC4QZ_LsYcvcq7qOsOhpAX4A
         Comment: "Learn the captivating stories about how our world came to be and also learn what's happening in the cutting edge today."
+        Date: Apr 22, 2020
 
       - Title: The Coding Train
         Link: https://youtube.com/user/shiffman/videos
         Comment: "Creative coding video tutorials on subjects ranging from the basics of programming languages like JavaScript to algorithmic art, machine learning, simulation, generative poetry, and more."
+        Date: Apr 22, 2020
 
       - Title: Film Riot
         Link: https://www.youtube.com/user/filmriot
         Comment: "A how-to trip through filmmaking from the hyper-active minds of the Connolly Brothers."
+        Date: Apr 22, 2020
 
   # Personal Sites
   - Type: Personal sites
@@ -1061,62 +1306,78 @@ fulldata:
       - Title: Humans.fyi
         Link: https://humans.fyi/
         Comment: Design inspiration from some of the best humans on the web.
+        Date: Apr 22, 2020
 
       - Title: Adam Silver
         Link: https://adamsilver.io/
         Comment: "Interaction designer and author of Form Design Patterns."
+        Date: Apr 22, 2020
 
       - Title: Ari Stathopoulos
         Link: https://aristath.github.io/
         Comment: "WordPress Developer, Accessibility & Sustainability evangelist, Human."
+        Date: Apr 22, 2020
 
       - Title: Brody Maclean
         Link: https://brody.com/
         Comment: "A Product Designer based in Sydney."
+        Date: Apr 22, 2020
 
       - Title: Marko Saric
         Link: https://markosaric.com/
         Comment: "Blogger And Content Marketer."
+        Date: Apr 22, 2020
 
       - Title: Tom Macwright
         Link: https://macwright.org/
         Comment: "Inspired reading list"
+        Date: Apr 22, 2020
 
       - Title: Craig Mod
         Link: https://craigmod.com/
         Comment: "Books and essays on walking, Japan, photography, and publishing."
+        Date: Apr 22, 2020
 
       - Title: Chris Pederick
         Link: https://chrispederick.com/
         Comment: "A web developer originally from London, England, but now living in San Francisco, California."
+        Date: Apr 22, 2020
 
       - Title: Paul Stamatiou
         Link: https://paulstamatiou.com/
         Comment: "Technology, Design and Photography."
+        Date: Apr 22, 2020
+        
 
       - Title: Jonnie Hallman
         Link: https://destroytoday.com/
         Comment: "A designer and developer based in Brooklyn."
+        Date: Apr 22, 2020
 
       - Title: Mario Depicolzuane
         Link: https://depicolzuane.com/
         Comment: "Observations on creativity, life & other curiosities."
+        Date: Apr 22, 2020
 
       - Title: Robb Owen
         Link: https://robbowen.digital/
         Comment: "Independent Creative Developer."
+        Date: Apr 22, 2020
 
       - Title: Ryan Johnson
         Link: https://brentryanjohnson.com/
         Comment: "Content strategy, communication, writing, design, and GIS. Inspired reading list"
+        Date: Apr 22, 2020
 
       - Title: Brittany Chiang
         Link: https://brittanychiang.com
         Comment: "A software engineer based in Boston."
+        Date: Apr 22, 2020
 
       - Title: Kelly Sutton
         Link: https://kellysutton.com/
         Comment: "A software engineer living in San Francisco."
+        Date: Apr 22, 2020
 
   #Creative Coding
   - Type: Creative Coding
@@ -1127,14 +1388,17 @@ fulldata:
       - Title: WebGL Fluid Simulation
         Link: https://paveldogreat.github.io/WebGL-Fluid-Simulation/
         Comment: "A WebGL fluid simulation that works in mobile browsers."
+        Date: Apr 22, 2020
 
       - Title: WebGL Water
         Link: http://madebyevan.com/webgl-water/
         Comment: "An experiment in realtime water rendering with WebGL."
+        Date: Apr 22, 2020
 
       - Title: Tinker Synth
         Link: https://tinkersynth.com/slopes
         Comment: "Create unique designs by manipulating whimsical machines and making serendipitous discoveries."
+        Date: Apr 22, 2020
 
 
   # Brands
@@ -1143,14 +1407,17 @@ fulldata:
       - Title: teenage engineering
         Link: https://teenage.engineering/products
         Comment: it's teenage engineering.
+        Date: Apr 22, 2020
 
       - Title: American Giant
         Link: https://www.american-giant.com/
         Comment: American Made Apparel & Active Wear.
+        Date: Apr 22, 2020
 
       - Title: Panic
         Link: https://panic.com/
         Comment: Shockingly Good Software.
+        Date: Apr 22, 2020
 
 
 
@@ -1162,30 +1429,37 @@ fulldata:
       - Title: Thought Maybe
         Link: https://thoughtmaybe.com/
         Comment: "An online library of films focused on topics challenging modern society, industrial civilisation, globalisation and dominant culture."
+        Date: Apr 22, 2020
 
       - Title: Connections
         Link: https://archive.org/details/ConnectionsByJamesBurke
         Comment: "An interdisciplinary approach to the history of science and invention."
+        Date: Apr 22, 2020
 
       - Title: The Century of the Self
         Link: https://thoughtmaybe.com/the-century-of-the-self/
         Comment: "This 4 part series is about how those in power have used Freud's theories to try and control the dangerous crowd in an age of mass democracy."
+        Date: Apr 22, 2020
 
       - Title: Rams
         Link: https://www.hustwit.com/rams
         Comment: "A documentary portrait of Dieter Rams, one of the most influential designers alive, and a rumination on consumerism, sustainability, and the future of design."
+        Date: Apr 22, 2020
 
       - Title: Helvetica
         Link: https://www.hustwit.com/helvetica
         Comment: "A feature-length documentary about typography, graphic design and global visual culture."
+        Date: Apr 22, 2020
 
       - Title: Tron
         Link: https://movies.disney.com/tron
         Comment: "The 1982 original classic."
+        Date: Apr 22, 2020
 
       - Title: The best documentaries for designers
         Link: https://designers.watch/
         Comment: "Must-See Design & Art Documentaries."
+        Date: Apr 22, 2020
 
 
 
@@ -1195,6 +1469,7 @@ fulldata:
       - Title: New page for Book List!
         Link: https://lukasmurdock.com/booklist/
         Comment: "Books I really don't want to forget."
+        Date: Apr 22, 2020
 
   #Music
   - Type: Music
@@ -1202,17 +1477,21 @@ fulldata:
       - Title: Jon Bellion
         Link: http://www.jonbellion.com/
         Comment: "American rapper, singer, songwriter and record producer."
+        Date: Apr 22, 2020
 
       - Title: Eden
         Link: http://iameden.eu/
         Comment: "An Irish singer, songwriter, multi-instrumentalist, record producer, and occasional model."
+        Date: Apr 22, 2020
 
       - Title: Elohim
         Link: https://elohimxelohim.com/
-        Comment:
+        Comment: ""
+        Date: Apr 22, 2020
 
       - Title: Brian Eno
         Link: https://brian-eno.net/
         Comment: "English musician, record producer, visual artist, and theorist best known for his pioneering work in ambient music."
+        Date: Apr 22, 2020
 
 
