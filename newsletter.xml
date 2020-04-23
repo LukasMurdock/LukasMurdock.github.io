@@ -27,7 +27,6 @@ layout: null
 
   {% if post_in_seconds > recent_posts %}
         &lt;h2&gt;{{ post.title | xml_escape }}&lt;/h2&gt;
-        &lt;br /&gt;
         &lt;a href=&apos;{{ post.url | prepend: site.baseurl | prepend: site.url | xml_escape }}&apos; target=&apos;_blank&apos;&gt;View in Browser&lt;/a&gt;
         &lt;br /&gt;
         {{ post.content | xml_escape }}
@@ -50,7 +49,7 @@ layout: null
               {% assign resource_in_seconds = item.Date | date: "%s" | plus: 0 %}
                 {% if resource_in_seconds > recent_posts %}
 
-        &lt;a href=&apos;{{ item.Link | xml_escape }}&apos; target=&apos;_blank&apos;&gt;{{ item.Title | xml_escape }} →&lt;/a&gt;
+        &lt;a href=&apos;{{ item.Link | xml_escape }}&apos; target=&apos;_blank&apos; style=&apos;color:#3399ff&apos;&gt;&lt;strong&gt;&lt;u&gt;{{ item.Title | xml_escape }} →&lt;/u&gt;&lt;/strong&gt;&lt;/a&gt;
         &lt;br /&gt;
         {{ item.Comment | xml_escape }}
         &lt;br /&gt;
