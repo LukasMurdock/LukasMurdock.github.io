@@ -1,0 +1,57 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0">
+  <channel>
+    <title>{{ site.title | xml_escape }}</title>
+    <description>{{ site.description | xml_escape }}</description>
+    <link>{{ site.url }}{{ site.baseurl }}/</link>
+    <webfeeds:icon>https://lukasmurdock.com/safari-pinned-tab.svg</webfeeds:icon>
+    <webfeeds:logo>https://lukasmurdock.com/safari-pinned-tab.svg</webfeeds:logo>
+    <webfeeds:accentColor>F94643</webfeeds:accentColor>
+    <webfeeds:related layout="card" target="browser"/>
+    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
+    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <generator>Jekyll v{{ jekyll.version }}</generator>
+
+      <item>
+        <title>Writing</title>
+        <description>
+        {% for post in site.posts %}
+        &lt;h2&gt;{{ post.title | xml_escape }}&lt;/h2&gt;
+        &lt;br /&gt;
+        &lt;a href=&apos;{{ post.url | prepend: site.baseurl | prepend: site.url | xml_escape }}&apos; target=&apos;_blank&apos;&gt;View in Browser&lt;/a&gt;
+        &lt;br /&gt;
+        {{ post.content | xml_escape }}
+        &lt;hr&gt;
+        {% endfor %}
+        </description>
+        {% for post in site.posts limit:1 %}
+        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+        {% endfor %}
+        <link>{{ "/writing" | prepend: site.baseurl | prepend: site.url }}</link>
+      </item>
+
+      <item>
+        <title>Resources</title>
+        <description>
+        {% for data in site.data.resources.fulldata %}
+        {% for item in data.List %}
+        &lt;a href=&apos;{{ item.Link | xml_escape }}&apos; target=&apos;_blank&apos;&gt;{{ item.Title | xml_escape }} →&lt;/a&gt;
+        &lt;br /&gt;
+        {{ post.content | xml_escape }}
+        &lt;hr&gt;
+        {% endfor %}
+        {% endfor %}
+        </description>
+        {% for post in site.posts limit:1 %}
+        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+        {% endfor %}
+       
+        <link>{{ "/resources" | prepend: site.baseurl | prepend: site.url }}</link>
+      </item>
+
+  </channel>
+</rss>

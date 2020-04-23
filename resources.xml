@@ -19,8 +19,8 @@ layout: null
     {% for data in site.data.resources.fulldata %}
     {% for item in data.List %}
     <item>
-      <title>{{ data.Type | xml_escape }}</title>
-      <description>{{ item.Title | xml_escape }}</description>
+      <title>{{ item.Title | xml_escape }}</title>
+      <description>{{ item.Comment | xml_escape }}</description>
       <pubDate>{{ item.Date | date_to_rfc822 }}</pubDate>
       <link>{{ item.Link | xml_escape }}</link>
     </item>
