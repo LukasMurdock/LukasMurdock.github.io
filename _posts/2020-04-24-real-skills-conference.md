@@ -79,10 +79,10 @@ Next, Stephen tells us a tip for connecting better. We rename ourselves and appe
 ## BREAKOUT 01 — Name, where are you from, and what inspired you to be here today?
 Here I meet my first group: Verónica from Panama City, Jonathan from New York, and Sylvie from Belgium. This was a good ice breaker and the first opportunity to connect.
 
-We reconvene into the main group. Stephen dings the bell, signalizing the start of the first chapter out of four.
+We reconvene into the main group. Stephen dings the bell, signaling the start of the first chapter out of four.
 
 ## Chapter 1: Commitment is step one
-Soft skills are just as important as hard skills. Why do you think developing real skills is overlooked and undervalued? We break out into the same groups from before.
+Soft skills are just as important as hard skills. **Why do you think developing real skills is overlooked and undervalued?** We break out into the same groups from before.
 
 *Notes from break out group*  
 Because we take real skills for granted and we’re not completely conscious of them.  
@@ -140,7 +140,7 @@ You can’t communicate that. You’re not creative. Impostor syndrome.
 “That’s a big lizard.”  
 No one will understand what you’re saying.  
 No one will like you if you tell them no.  
-If you know it, everyone else knows it.  
+If you know it, everyone else knows it too.  
 
 *End Call.* Back to the main group.
 
@@ -188,7 +188,7 @@ This workshop provided a space for nonstop sharing and listening. A space to eng
 ”Thank you to all of you for your input and choice to show up. Thank you for the opportunity to connect.”
 
 ## Note from Seth
-When you’re in the middle of a slog, it feels like there all there is and there’s never going be another side. But then out of the blue, somebody shows up and makes something a little bit better. And if enough people make something a little bit better it starts to compound.
+When you’re in the middle of a slog, it feels like that’s all there is and there’s never going be another side. But then out of the blue, somebody shows up and makes something a little bit better. And if enough people make something a little bit better it starts to compound.
 
 It doesn’t take authority to make something better, it never comes from where you expect—from the top, from the people who are supposedly responsible. It always, always comes from someone who cares. Someone who has chosen to see possibility as opposed to just despair.
 
@@ -206,4 +206,4 @@ It’s hard to describe the benefits gained. That’s the point. Don’t wait fo
 
 When you find your conversations becoming quiet, ask each other “And what else?”
 
-#realskillsconference
+[#realskillsconference](https://twitter.com/hashtag/realskillsconference)
