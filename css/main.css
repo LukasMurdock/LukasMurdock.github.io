@@ -347,6 +347,7 @@ footer {
 
       .bottomnav {
         display: flex;
+        max-width: var(--max-width);
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
