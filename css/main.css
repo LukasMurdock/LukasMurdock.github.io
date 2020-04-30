@@ -40,7 +40,7 @@ body{
     -moz-font-feature-settings: 'kern';
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: #f2f2f2;
+    background-color: #ffffff;
     font-family: var(--sans);
 }
 
