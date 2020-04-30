@@ -9,6 +9,10 @@
 linkslist:
   - Date: April 2020
     Links:
+      - Title: "68 Bits of Unsolicited Advice"
+        Link: https://kk.org/thetechnium/68-bits-of-unsolicited-advice/
+        Comment: "Kevin Kelly, the founding editor of Wired, turns 68 and shares 68 bits of unsolicited advice."
+
       - Title: "The Changing World Order"
         Link: https://www.principles.com/the-changing-world-order/#introduction
         Comment: "An online series by Ray Dalio that studies the rise and fall of past leading empires that puts today’s economic, political, and policy situation into perspective of the big picture."
@@ -17,7 +21,7 @@ linkslist:
         Link: https://www.npr.org/2020/04/21/839900926/how-i-built-resilience-live-with-guy-and-simon-sinek
         Comment: "A conversation with Simon Sinek, whose books about business offer guidance to founders that is especially timely right now."
 
-      - Title: "Wealth shown to scale"
+      - Title: "Wealth Shown to Scale"
         Link: https://mkorostoff.github.io/1-pixel-wealth/
         Comment: "Inequality in the United States is out of control."
 
