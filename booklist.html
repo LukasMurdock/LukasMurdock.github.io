@@ -7,6 +7,7 @@ description: Book list — We can use the internet to explore the places that we
 <style>
   h1{
     text-align: center;
+    margin-bottom: 0;
   }
 
   .grid-container {
@@ -37,6 +38,7 @@ description: Book list — We can use the internet to explore the places that we
     list-style: none; counter-reset: li;
     margin-left: 0;
     padding-left: 20px;
+    margin-top: 0;
   }
   
   ol:not(.nav-menu) li::before {
@@ -79,13 +81,11 @@ description: Book list — We can use the internet to explore the places that we
   }
 </style>
 
-<p style="text-align:center; margin-top: 0;">Books I really don't want to forget.</p>
+<p style="text-align:center; margin-top: 2px;">Books I really don't want to forget.</p>
 
 <div class="pagebody-content">
   <div style="text-align: center;">
-    <a style="margin-bottom: 10px; color: #000; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" class="more-btn" href="{{ '/principles/' | prepend: site.baseurl }}">View principles</a>
-    <a style="margin-bottom: 10px; color: #000; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" class="more-btn" href="{{ '/resources/' | prepend: site.baseurl }}">View resources</a>
-    <a style="margin-bottom: 10px; color: #000; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" class="more-btn" href="{{ '/aroundtheweb/' | prepend: site.baseurl }}">View around the web</a>
+    <a style="margin-bottom: 10px; color: #000; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" class="more-btn" href="{{ '/resources/' | prepend: site.baseurl }}">View all resources</a>
   </div>
 
   <div id="grid-container" class="grid-container">

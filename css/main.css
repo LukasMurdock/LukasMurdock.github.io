@@ -6,6 +6,7 @@
     --font-medium: 0.9rem;
     --font-reg: 1.0625rem;
     --font-medium-large: 1.2rem;
+    --font-moderately-large: 2rem;
     --font-large: 2.25rem;
     --font-extralarge: 3rem;
     --color-blue: #0070c9;
@@ -237,6 +238,41 @@ footer {
     display: none;
 }
 
+.resource-text{
+    padding: 16px 16px 0 16px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 0 0 1.8em;
+}
+
+.resource-text p:nth-child(2) {
+    margin: 0;
+    padding: 2px 0;
+}
+
+.resource-card {
+    display: block;
+    margin: 10px 10px;
+    /* box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28); */
+    box-shadow:
+        0 1px 1px rgba(32, 33, 36, 0.09),
+        0 2px 2px rgba(32, 33, 36, 0.09),
+        0 4px 4px rgba(32, 33, 36, 0.09),
+        0 8px 8px rgba(32, 33, 36, 0.09);
+    border-radius: 20px;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.resource-card:hover {
+    box-shadow:
+        0 1px 1px rgba(32, 33, 36, 0.18),
+        0 2px 2px rgba(32, 33, 36, 0.18),
+        0 4px 4px rgba(32, 33, 36, 0.18),
+        0 8px 8px rgba(32, 33, 36, 0.18);
+    opacity: .95;
+}
+
+
   @media screen and (max-width: 735px) {
 
  
@@ -299,6 +335,15 @@ footer {
 
     h2.index-title {
         font-size: var(--font-medium-large)
+    }
+
+    h2.resource-title {
+        font-size: var(--font-moderately-large);
+        text-align: center;
+    }
+
+    .resource-text{
+        margin: 0 0 1em;
     }
 
     .bottom-nav {

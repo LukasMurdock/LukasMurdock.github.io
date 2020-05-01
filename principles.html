@@ -9,6 +9,7 @@ last_modified_at: 2020-01-10
 
   h1 {
     text-align: center;
+    margin-bottom: 0;
   }
 
   .grid-container {
@@ -24,6 +25,7 @@ last_modified_at: 2020-01-10
   h2{
     font-size: 22px;
     padding-left: 20px;
+    margin-bottom: .4em;
   }
   img {
     width: 16px;
@@ -40,6 +42,7 @@ last_modified_at: 2020-01-10
     list-style: none; counter-reset: li;
     margin-left: 0;
     padding-left: 20px;
+    margin-top: 0;
   }
   
   ol:not(.nav-menu) li::before {
@@ -70,14 +73,12 @@ last_modified_at: 2020-01-10
 }
 </style>
 
-<p style="text-align:center; margin-top: 0;">Mental models and new ways to think.</p>
+<p style="text-align:center; margin-top: 2px;">Mental models and new ways to think.</p>
 
 <div class="pagebody-content">
     <div style="text-align: center;">
-        <a style="margin-bottom: 10px; color: #000; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" class="more-btn" href="{{ '/resources/' | prepend: site.baseurl }}">View resources</a>
-        <a style="margin-bottom: 10px; color: #000; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" class="more-btn" href="{{ '/booklist/' | prepend: site.baseurl }}">View book list</a>
-        <a style="margin-bottom: 10px; color: #000; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" class="more-btn" href="{{ '/aroundtheweb/' | prepend: site.baseurl }}">View around the web</a>
-      </div>
+      <a style="margin-bottom: 10px; color: #000; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" class="more-btn" href="{{ '/resources/' | prepend: site.baseurl }}">View all resources</a>
+    </div>
 
   <div class="grid-container">
     {% for d in site.data.principles.principlelist %}
