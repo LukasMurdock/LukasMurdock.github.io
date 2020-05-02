@@ -87,6 +87,7 @@ h4 {
 
 .nav-menu{
     display: flex;
+    flex-wrap: wrap;
     margin:0;
     justify-content: space-between;
 	}
