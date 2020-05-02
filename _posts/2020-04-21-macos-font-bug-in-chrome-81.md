@@ -13,7 +13,7 @@ Turns out Chrome 81 breaks the ability to bold system fonts on macOS.
 
 Many sites (including this one) simply utilize system fonts available on the device. The goal is to use whatever native system font is available. 
 
-This is most commonly done by declaring:  
+This is most commonly done by:  
 
 {% highlight CSS %}
 --font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
