@@ -61,6 +61,8 @@ code.highlighter-rouge {
   color: #d12421;
   padding: 4px 8px;
   border-radius: 5px;
+  white-space: nowrap;
+  overflow: scroll;
 }
 
 code {

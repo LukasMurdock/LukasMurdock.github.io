@@ -15,6 +15,44 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
+  <script type="application/ld+json">
+    {
+      "@context": "http://www.schema.org",
+      "@graph":
+      [
+        {
+          "@type": "person",
+          "name": "Lukas Murdock",
+          "url": "https://lukasmurdock.com/",
+          "birthDate": "2000-12-09",
+          "gender": "male",
+          "jobTitle": "Marketing Strategy Consultant",
+          "image": "https://lukasmurdock.com/images/LM-portrait.jpg",
+          "description": "Lukas Murdock is a human trying to do work that matters. Exploring design, development, and marketing.",
+          "sameAs": [
+            "https://www.linkedin.com/in/lukas-murdock/",
+            "https://twitter.com/Lukasauras_Rex",
+            "https://github.com/LukasMurdock",
+            "https://www.facebook.com/lukas.rex.murdock",
+            "https://www.instagram.com/lukasauras.rex/",
+            "https://www.youtube.com/channel/UCG8ZhvCtKlnPXkoJG2u52lw"
+            ],
+          "email": "lukas.murdock@gmail.com",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Columbus",
+            "addressRegion": "Ohio",
+            "postalCode": "43035",
+            "addressCountry": "USA"
+            }
+        }
+
+  {% if page.layout == 'post' %}
+    ,{% include postSchema.html %}
+  {% endif %}
+]}
+</script>
+
   <meta name="google-site-verification" content="fPk8VHNqhVzOb2qHw5K0bg3w8WrInKiLQeqZBOteVFA" />
   <!-- Global site tag (gtag.js) - Google Analytics -->
 <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155085538-1"></script>
