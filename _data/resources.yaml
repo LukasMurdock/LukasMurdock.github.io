@@ -39,6 +39,11 @@ fulldata:
         Comment: "Google Developers Technical Writing Course for Engineers."
         Date: Apr 22, 2020
 
+      - Title: The Content Marketing Handbook
+        Link: https://priceonomics.com/the-content-marketing-handbook/
+        Comment: "A 30,000+ word blog post about how to write about information and make it spread."
+        Date: May 03, 2020
+
       - Title: Learn Anything
         Link: https://learn-anything.xyz/
         Comment: "You can learn anything."
@@ -456,6 +461,11 @@ fulldata:
         Link: https://www.etymonline.com/
         Comment: "Origin, history and meaning of English words."
         Date: Apr 22, 2020
+
+      - Title: The Design Squiggle
+        Link: https://thedesignsquiggle.com/
+        Comment: "The journey of researching, uncovering insights, generating creative concepts, iteration of prototypes and eventually concluding in one single designed solution."
+        Date: May 04, 2020
 
       - Title: Every Noise at Once
         Link: http://everynoise.com/
