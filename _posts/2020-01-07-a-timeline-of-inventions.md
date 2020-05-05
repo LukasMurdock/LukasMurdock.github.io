@@ -5,6 +5,7 @@ description: A list of some human miracles over the centuries.
 image: a-timeline-of-inventions.jpg
 
 date: January 07, 2020
+redirect_from: /2020/01/07/a-timeline-of-inventions/
 ---
 
 ## Inventions and Discoveries
