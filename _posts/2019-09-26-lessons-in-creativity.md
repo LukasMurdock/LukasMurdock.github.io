@@ -5,7 +5,9 @@ description:
 image: first-lesson-in-creativity.png
 caption: First lesson in creativity
 date: September 26, 2019
-redirect_from: /2019/09/26/lessons-in-creativity/
+redirect_from:
+    - /2019/09/26/lessons-in-creativity/
+    - /2019/09/26/Lessons-in-creativity/
 ---
 
 

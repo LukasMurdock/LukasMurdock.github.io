@@ -3,6 +3,7 @@ layout: post
 title: 'Mental Models and Principles'
 description: A few of my personal mental models and principles.
 date: February 01, 2020
+redirect_from: /2020/02/01/mental-models/
 ---
 
 ## Gain perspective. Discover strengths. Focus action.

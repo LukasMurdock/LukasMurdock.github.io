@@ -3,6 +3,7 @@ layout: post
 title: 'Feedback Loops'
 description: How do you get better at something? What makes AI so valuable?
 date: January 28, 2020
+redirect_from: /2020/01/28/2020-feedback-loops-copy/
 ---
 
 Input => Output => Feedback/Measurement => Alter input

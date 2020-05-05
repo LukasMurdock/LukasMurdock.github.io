@@ -3,6 +3,7 @@ layout: post
 title: 'Transcript & College Course Alternatives'
 description: My college courses and better alternatives that are mostly free.
 date: January 29, 2020
+redirect_from: /2020/01/29/2020-transcript/
 ---
 
 <span style="font-size: 12px;">Last Updated: {{ page.date | date: '%B %d, %Y' }}</span>

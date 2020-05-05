@@ -4,6 +4,7 @@ title: '2020 Presidential Candidate Font Comparison'
 description: In a race over donations from a nation how do the players compare?
 
 date: January 11, 2020
+redirect_from: /2020/01/11/2020-presidential-font-comparison/
 ---
 
 <style>

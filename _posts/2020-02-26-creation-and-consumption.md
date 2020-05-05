@@ -3,6 +3,7 @@ layout: post
 title: 'Creation and Consumption'
 description: Distinguish that from which is artificial, forced, or remote from actual experience.
 date: February 26, 2020
+redirect_from: /2020/02/26/creation-and-consumption/
 ---
 
 

@@ -6,7 +6,9 @@ image: gbooksapi.jpg
 caption: Google Developer APIs to the rescue.
 date: October 19, 2019
 code: true
-redirect_from: /2019/10/19/making-a-book-list/
+redirect_from:
+  - /2019/10/19/making-a-book-list/
+  - /2019/10/19/Making-a-book-list/
 ---
 
 

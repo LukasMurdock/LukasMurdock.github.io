@@ -4,6 +4,7 @@ title: '2020 Presidential Candidate Website Comparison'
 description: In a race over power of a nation how do the players compare?
 
 date: January 10, 2020
+redirect_from: /2020/01/10/2020-presidential-website-comparison/
 ---
 
 <style>
