@@ -23,6 +23,7 @@ layout: null
       <description>{{ item.Comment | xml_escape }}</description>
       <pubDate>{{ item.Date | date_to_rfc822 }}</pubDate>
       <link>{{ item.Link | xml_escape }}</link>
+      <guid isPermaLink="true">{{ item.Link }}</guid>
     </item>
     {% endfor %}
     {% endfor %}
