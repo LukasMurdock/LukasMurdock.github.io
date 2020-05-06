@@ -20,6 +20,19 @@
       "@context": "http://www.schema.org",
       "@graph":
       [
+      {
+        "@type": "WebPage",
+        "name": "Lukas Murdock",
+        "speakable":
+        {
+         "@type": "SpeakableSpecification",
+         "xpath": [
+           "/html/head/title",
+           "/html/head/meta[@name='description']/@content"
+           ]
+         },
+        "url": "https://lukasmurdock.com/"
+        },
         {
           "@type": "person",
           "name": "Lukas Murdock",
