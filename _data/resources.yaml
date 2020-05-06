@@ -214,6 +214,11 @@ fulldata:
         Comment: "1-on-1 Meeting Questions Template for managers to build high achieving and motivated teams."
         Date: Apr 22, 2020
 
+      - Title: Managers Playbook
+        Link: https://github.com/ksindi/managers-playbook
+        Comment: "Heuristics for effective management"
+        Date: May 06, 2020
+
       - Title: 80000 Hours
         Link: https://80000hours.org/
         Comment: "You have 80,000 hours in your career. How can you best use them to help solve the world’s most pressing problems?"
@@ -256,6 +261,11 @@ fulldata:
       - Title: Material Design Icons
         Link: https://materialdesignicons.com
         Comment: "View all the Material Design icons."
+        Date: Apr 22, 2020
+
+      - Title: Carbon Design
+        Link: https://carbondesignsystem.com/
+        Comment: "IBM’s open-source design system for products and experiences."
         Date: Apr 22, 2020
 
       - Title: Color.review
@@ -1052,6 +1062,11 @@ fulldata:
         Link: https://www.invisionapp.com/inside-design/
         Comment: "InVision’s official blog that discusses design thinking, design teams, and design inspiration."
         Date: Apr 22, 2020
+
+      - Title: Hey Designer
+        Link: https://heydesigner.com/
+        Comment: "Daily curated design knowledge."
+        Date: May 06, 2020
 
       - Title: Drop (formerly Massdrop)
         Link: https://drop.com/
