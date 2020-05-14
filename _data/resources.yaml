@@ -242,7 +242,7 @@ fulldata:
       - Title: Publish Something Online
         Link: https://publishsomething.online/
         Comment: "How to make things that live on the internet."
-        Date: May 15, 2020
+        Date: May 14, 2020
 
       - Title: Precious Plastic
         Link: https://preciousplastic.com/
@@ -276,7 +276,7 @@ fulldata:
       - Title: Shopify Polaris
         Link: https://polaris.shopify.com/
         Comment: "Shopify design system."
-        Date: May 15, 2020
+        Date: May 14, 2020
 
       - Title: Color.review
         Link: https://color.review/
@@ -501,7 +501,7 @@ fulldata:
       - Title: Superhighway 98
         Link: https://www.superhighway98.com/
         Comment: "An oasis for those who are tired of clickbait, fake news, excessive advertisements and a big brother who watches everything."
-        Date: May 15, 2020
+        Date: May 14, 2020
 
       - Title: Poolside.fm
         Link: https://poolside.fm/
@@ -581,7 +581,7 @@ fulldata:
       - Title: Top Open Source SSGs
         Link: https://www.staticgen.com/
         Comment: "A list of static site generators for JAMStack sites."
-        Date: May 15, 2020
+        Date: May 14, 2020
 
       - Title: Letterform Archive
         Link: http://oa.letterformarchive.org/search?dims=Decade&vals0=1960s
@@ -684,7 +684,7 @@ fulldata:
       - Title: Word Counter
         Link: https://wordcounter.net/
         Comment: "Count words and characters, check keyword density, and correct writing mistakes."
-        Date: May 15, 2020
+        Date: May 14, 2020
 
       - Title: Sharpen Design
         Link: https://sharpen.design/
@@ -1424,10 +1424,15 @@ fulldata:
         Comment: "Content strategy, communication, writing, design, and GIS. Inspired reading list"
         Date: Apr 22, 2020
 
+      - Title: Jet Holt
+        Link: https://jetholt.com/micro/identity/
+        Comment: "Co-Founder of Your Auto Advocate"
+        Date: May 14, 2020
+
       - Title: Zach Shefska
         Link: https://shefska.com/
         Comment: "Co-Founder of Your Auto Advocate"
-        Date: Apr 22, 2020
+        Date: May 14, 2020
 
       - Title: Brittany Chiang
         Link: https://brittanychiang.com
