@@ -239,6 +239,11 @@ fulldata:
         Comment: "Find and download high resolution iTunes artwork."
         Date: Apr 22, 2020
 
+      - Title: Publish Something Online
+        Link: https://publishsomething.online/
+        Comment: "How to make things that live on the internet."
+        Date: May 15, 2020
+
       - Title: Precious Plastic
         Link: https://preciousplastic.com/
         Comment: "Start a business from plastic waste!"
@@ -267,6 +272,11 @@ fulldata:
         Link: https://carbondesignsystem.com/
         Comment: "IBM’s open-source design system for products and experiences."
         Date: Apr 22, 2020
+
+      - Title: Shopify Polaris
+        Link: https://polaris.shopify.com/
+        Comment: "Shopify design system."
+        Date: May 15, 2020
 
       - Title: Color.review
         Link: https://color.review/
@@ -307,6 +317,11 @@ fulldata:
         Link: https://growth.design/
         Comment: "Learn how to craft experiences so delightful that your customers will be happy to spread the word for you."
         Date: Apr 22, 2020
+
+      - Title: 101 Cognitive Biases
+        Link: https://growth.design/psychology/
+        Comment: "A list of cognitive biases and design principles with tons of examples, checklists and quizzes."
+        Date: May 14, 2020
 
       - Title: User Onboarding
         Link: https://www.useronboard.com/
@@ -482,6 +497,12 @@ fulldata:
         Comment: "An algorithmically-generated, readability-adjusted scatter-plot of the musical genre-space."
         Date: Apr 22, 2020
 
+
+      - Title: Superhighway 98
+        Link: https://www.superhighway98.com/
+        Comment: "An oasis for those who are tired of clickbait, fake news, excessive advertisements and a big brother who watches everything."
+        Date: May 15, 2020
+
       - Title: Poolside.fm
         Link: https://poolside.fm/
         Comment: "The sunniest spot on the internet. Poolside FM is an online radio station, playing an infinity pool of summer sounds. Swimwear optional."
@@ -556,6 +577,11 @@ fulldata:
         Link: https://usefyi.com/templates/freelancer-templates/
         Comment: "All the free resources and templates you need to get work done as a freelancer."
         Date: Apr 22, 2020
+
+      - Title: Top Open Source SSGs
+        Link: https://www.staticgen.com/
+        Comment: "A list of static site generators for JAMStack sites."
+        Date: May 15, 2020
 
       - Title: Letterform Archive
         Link: http://oa.letterformarchive.org/search?dims=Decade&vals0=1960s
@@ -654,6 +680,11 @@ fulldata:
         Link: https://wordoid.com
         Comment: "Creative way to find a catchy name for your new venture."
         Date: Apr 22, 2020
+
+      - Title: Word Counter
+        Link: https://wordcounter.net/
+        Comment: "Count words and characters, check keyword density, and correct writing mistakes."
+        Date: May 15, 2020
 
       - Title: Sharpen Design
         Link: https://sharpen.design/
@@ -1372,7 +1403,6 @@ fulldata:
         Link: https://paulstamatiou.com/
         Comment: "Technology, Design and Photography."
         Date: Apr 22, 2020
-        
 
       - Title: Jonnie Hallman
         Link: https://destroytoday.com/
@@ -1392,6 +1422,11 @@ fulldata:
       - Title: Ryan Johnson
         Link: https://brentryanjohnson.com/
         Comment: "Content strategy, communication, writing, design, and GIS. Inspired reading list"
+        Date: Apr 22, 2020
+
+      - Title: Zach Shefska
+        Link: https://shefska.com/
+        Comment: "Co-Founder of Your Auto Advocate"
         Date: Apr 22, 2020
 
       - Title: Brittany Chiang
