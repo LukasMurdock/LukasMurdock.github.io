@@ -1424,14 +1424,14 @@ fulldata:
         Comment: "Content strategy, communication, writing, design, and GIS. Inspired reading list"
         Date: Apr 22, 2020
 
-      - Title: Jet Holt
-        Link: https://jetholt.com/micro/identity/
-        Comment: "The personal site for Jet 'Jetroid' Holt"
-        Date: May 14, 2020
-
       - Title: Zach Shefska
         Link: https://shefska.com/
         Comment: "Co-Founder of Your Auto Advocate"
+        Date: May 14, 2020
+
+      - Title: Jet Holt
+        Link: https://jetholt.com/micro/identity/
+        Comment: "The personal site for Jet 'Jetroid' Holt"
         Date: May 14, 2020
 
       - Title: Brittany Chiang
