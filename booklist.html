@@ -97,7 +97,7 @@ description: Books I really don't want to forget.
       <a rel="nofollow" target="_blank" href="https://www.google.com/search?q={{ book.volumeInfo.title | append: '+by+'}}{{ book.volumeInfo.authors[0] }}" >
         <!-- out.items[i].volumeInfo.title.replace(/ /g, +) + +by+ + out.items[i].volumeInfo.authors[0].replace(/ /g, +) -->
         <div>
-         <img alt="' + out.items[i].volumeInfo.title + ' book cover" src="{{ book.volumeInfo.imageLinks.thumbnail | replace: 'http:','https:' | replace: '&edge=curl','' }}">
+         <img alt="{{ book.volumeInfo.title }} book cover" src="{{ book.volumeInfo.imageLinks.thumbnail | replace: 'http:','https:' | replace: '&edge=curl','' }}">
         </div>
       </a>
 
@@ -116,61 +116,37 @@ description: Books I really don't want to forget.
   </div>
 </div>
   
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   
 <script>
-var book_url;
-var isbnslist = [];
-var imageLink;
-var i=0;
-{% assign isbncheck = site.data.booklist.books | jsonify %}
-var isbns = {{ isbncheck }}
+
+// var book_url;
+// var isbnslist = [];
+// var imageLink;
+// var i=0;
+// {% assign isbncheck = site.data.booklist.books | jsonify %}
+// var isbns = {{ isbncheck }}
+
+
+// for ( i = 0; i < isbns.length; i++)
+//     {
+//       isbnslist.push(String(isbns[i].isbn));
+//     }
+
+// const url = isbnslist.reduce(
+//   (res, isbnslist, index) => res + (index ? '+OR+' : '') + 'isbn:' + isbnslist,
+//   'https://www.googleapis.com/books/v1/volumes?q='
+// )
 
 
 
-//var listlength = Object.keys(isbns).length
+// book_url = url + "+&fields=items(volumeInfo/description,volumeInfo/title,volumeInfo/authors,volumeInfo/imageLinks/thumbnail,volumeInfo/industryIdentifiers/identifier)+&maxResults=40"
 
-for ( i = 0; i < isbns.length; i++)
-    {
-      isbnslist.push(String(isbns[i].isbn));
-    }
+// console.log(book_url)
 
-const url = isbnslist.reduce(
-  (res, isbnslist, index) => res + (index ? '+OR+' : '') + 'isbn:' + isbnslist,
-  'https://www.googleapis.com/books/v1/volumes?q='
-)
-
-
-
-book_url = url + "+&fields=items(volumeInfo/description,volumeInfo/title,volumeInfo/authors,volumeInfo/imageLinks/thumbnail,volumeInfo/industryIdentifiers/identifier)+&maxResults=40"
-
-console.log(book_url)
-
-fetch(book_url)
-.then(res => res.json())
-.then((out) => {
+// fetch(book_url)
+// .then(res => res.json())
+// .then((out) => {
   /*
   Title: out.items[0].volumeInfo.title
   Author: out.items[0].volumeInfo.authors[0]
@@ -178,42 +154,42 @@ fetch(book_url)
   Description: out.items[0].volumeInfo.description
   Google Search: "https://www.google.com/search?q=" + out.items[0].volumeInfo.title.replace(/ /g, "+") + "+by+" + out.items[0].volumeInfo.authors[0].replace(/ /g, "+"))
   */
-  var thumbnail
-  //console.log(thumbnail.replace('http:','https:'))
-  for (i=0; i < out.items.length; i++){
-  thumbnail = out.items[i].volumeInfo.imageLinks.thumbnail.replace('&edge=curl','')
-  document.getElementById("grid-container").innerHTML += '<div class="grid-item"> <a rel="nofollow" target="_blank" href="https://www.google.com/search?q=' + out.items[i].volumeInfo.title.replace(/ /g, "+") + "+by+" + out.items[i].volumeInfo.authors[0].replace(/ /g, "+") + '"> <div> <img alt="' + out.items[i].volumeInfo.title + ' book cover" src="' + thumbnail.replace('http:','https:') + '"> </div></a> <div> <h2><a rel="nofollow" target="_blank" href="https://www.google.com/search?q=' + out.items[i].volumeInfo.title.replace(/ /g, "+") + '+by+' + out.items[i].volumeInfo.authors[0].replace(/ /g, "+") + '">' + out.items[i].volumeInfo.title + '</a></h2> <p class="item">by ' + out.items[i].volumeInfo.authors[0] + '</p> </div> </div>';
-}
-  i=0
-  var loadedBooks = []
-  while (i < Object.keys(out.items).length){
 
-    if (out.items[i].volumeInfo.industryIdentifiers[0].identifier.length > 10){
-      loadedBooks.push(out.items[i].volumeInfo.industryIdentifiers[0].identifier)
-    } else {
-      loadedBooks.push(out.items[i].volumeInfo.industryIdentifiers[1].identifier)
-    }
-    i++;
-  }
+//   var thumbnail
+//   for (i=0; i < out.items.length; i++){
+//   thumbnail = out.items[i].volumeInfo.imageLinks.thumbnail.replace('&edge=curl','')
+//   document.getElementById("grid-container").innerHTML += '<div class="grid-item"> <a rel="nofollow" target="_blank" href="https://www.google.com/search?q=' + out.items[i].volumeInfo.title.replace(/ /g, "+") + "+by+" + out.items[i].volumeInfo.authors[0].replace(/ /g, "+") + '"> <div> <img alt="' + out.items[i].volumeInfo.title + ' book cover" src="' + thumbnail.replace('http:','https:') + '"> </div></a> <div> <h2><a rel="nofollow" target="_blank" href="https://www.google.com/search?q=' + out.items[i].volumeInfo.title.replace(/ /g, "+") + '+by+' + out.items[i].volumeInfo.authors[0].replace(/ /g, "+") + '">' + out.items[i].volumeInfo.title + '</a></h2> <p class="item">by ' + out.items[i].volumeInfo.authors[0] + '</p> </div> </div>';
+// }
+//   i=0
+//   var loadedBooks = []
+//   while (i < Object.keys(out.items).length){
+
+//     if (out.items[i].volumeInfo.industryIdentifiers[0].identifier.length > 10){
+//       loadedBooks.push(out.items[i].volumeInfo.industryIdentifiers[0].identifier)
+//     } else {
+//       loadedBooks.push(out.items[i].volumeInfo.industryIdentifiers[1].identifier)
+//     }
+//     i++;
+//   }
 
 //book_url: Google Books API fetch URL
 //isbnslist: array of booklist
 //loadedBooks: array of indexed books
 
 
-Array.prototype.diff = function(a) {
-    if (this.filter(function(i) {return a.indexOf(i) < 0;}).length !== 0){
-      console.log(this.filter(function(i) {return a.indexOf(i) < 0;}))
-    }else{
-      return "All books indexed";
-    }
+// Array.prototype.diff = function(a) {
+//     if (this.filter(function(i) {return a.indexOf(i) < 0;}).length !== 0){
+//       console.log(this.filter(function(i) {return a.indexOf(i) < 0;}))
+//     }else{
+//       return "All books indexed";
+//     }
   
-};
+// };
 
-console.log(isbnslist.diff(loadedBooks))
+// console.log(isbnslist.diff(loadedBooks))
 
 
-})
-.catch(err => { console.log({{ isbn.isbn }}); throw err });
+// })
+// .catch(err => { console.log({{ isbn.isbn }}); throw err });
 
 </script>
