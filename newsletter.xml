@@ -43,19 +43,21 @@ layout: null
         <title>Resources</title>
         <description>
         &lt;a href=&apos;{{ "/resources" | prepend: site.baseurl | prepend: site.url }}&apos; target=&apos;_blank&apos; style=&apos;color:#3399ff&apos;&gt;&lt;u&gt;View in Browser&lt;/u&gt;&lt;/a&gt;
+        &lt;br &gt;&lt;br &gt;
         {% for data in site.data.resources.fulldata %}
           {% assign sorted = data.List | sort: 'date' | reverse %} 
             {% for item in sorted %}
               {% assign resource_in_seconds = item.Date | date: "%s" | plus: 0 %}
                 {% if resource_in_seconds > recent_posts %}
 
-        &lt;a href=&apos;{{ item.Link | xml_escape }}&apos; target=&apos;_blank&apos;&gt;&lt;strong&gt;&lt;u&gt;{{ item.Title | xml_escape }} →&lt;/u&gt;&lt;/strong&gt;&lt;/a&gt;
-        &lt;br /&gt;
-        {{ item.Comment | xml_escape }}
-        &lt;br /&gt;
-        {% endif %}
-        {% endfor %}
-        &lt;hr&gt;
+                &lt;a href=&apos;{{ item.Link | xml_escape }}&apos; target=&apos;_blank&apos;&gt;&lt;strong&gt;&lt;u&gt;{{ item.Title | xml_escape }} →&lt;/u&gt;&lt;/strong&gt;&lt;/a&gt;
+                &lt;br /&gt;
+                {{ item.Comment | xml_escape }}
+                &lt;br /&gt;
+                &lt;hr&gt;
+                {% endif %}
+            {% endfor %}
+        
         {% endfor %}
         </description>
         {% for post in site.posts limit:1 %}
@@ -74,8 +76,8 @@ layout: null
         &lt;br /&gt;
         {{ link.Comment | xml_escape }}
         &lt;br /&gt;
-        {% endfor %}
         &lt;hr&gt;
+        {% endfor %}
         {% endfor %}
         </description>
         {% for post in site.posts limit:1 %}
