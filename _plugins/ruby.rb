@@ -1,9 +1,7 @@
 require 'rubygems'
 require 'bundler/setup'
-
 require 'yaml'
 require 'json'
-
 require 'httparty'
 
 
@@ -12,10 +10,6 @@ require 'httparty'
 # Pull isbns of missing books
 # Hit google api
 # Push info to booklist.json
-
-
-
-
 
 # https://www.googleapis.com/books/v1/volumes?q=
 # isbn:9781250237231
@@ -26,8 +20,7 @@ require 'httparty'
 # +OR+isbn:9780812968255
 # +&fields=items(volumeInfo/description,volumeInfo/title,volumeInfo/authors,volumeInfo/imageLinks/thumbnail,volumeInfo/industryIdentifiers/identifier)+&maxResults=40
 
-#  + "/_data"
-
+# Set directories
 root_dir =  File.expand_path(".", Dir.pwd)
 
 yaml_dir = File.join(root_dir, "_data/newbooklist.yaml")
@@ -45,31 +38,22 @@ file = File.open(json_dir, "r+")
 books = JSON.load file
 file.close
 
-# print books["items"][0]["volumeInfo"]["industryIdentifiers"]
+## print books["items"][1]["volumeInfo"]["industryIdentifiers"][1].keys
 
-# print books["items"].size
+## p books["items"][0]["volumeInfo"]["industryIdentifiers"][0]
 
 
-
-# print books["items"][1]["volumeInfo"]["industryIdentifiers"][1].keys
-
-p books["items"][0]["volumeInfo"]["industryIdentifiers"][0]
-
-# Put all >10 character ISBNS into an array
-# remove duplicates, .uniq (anything remaining was not included!)
 
 ## print books["items"][1]["volumeInfo"]["industryIdentifiers"][1]["identifier"]
-# id_array = []
+
+
+# Collect ISBNs from booklist.json
 collected_ids = { "industryIdentifiers" => [] }
-
-
-
 
 i = 0
 while i < books["items"].size
 
     # id_array.push(books["items"][i]["volumeInfo"]["industryIdentifiers"][1].values)
-
 
     books["items"][i]["volumeInfo"]["industryIdentifiers"].each do |industryIdentifiers|
         collected_ids["industryIdentifiers"] << industryIdentifiers["identifier"]
@@ -78,37 +62,33 @@ while i < books["items"].size
 
     i += 1
 end
-puts collected_ids["industryIdentifiers"].length
-puts collected_ids["industryIdentifiers"][1].length
-
-# id_array = id_array.select { |x| x.length > 10 }
+## puts collected_ids["industryIdentifiers"].length
+## puts collected_ids["industryIdentifiers"][1].length
 
 
+# Put all > 10 character ISBNS into a clean array
+# Remove duplicates,
 clean_array = []
 
 i = 0
 while i < collected_ids["industryIdentifiers"].size
     if collected_ids["industryIdentifiers"][i].length > 10 then
-#        print "FUck"
         clean_array.push( collected_ids["industryIdentifiers"][i])
     end
     i += 1
 end
 
-puts clean_array.length
-# print clean_array
+## puts clean_array.length
+## print clean_array
 
-
+# Find missing ISBNs by substracting cleaned booklist.json by booklist.yaml
 compare_array = (clean_array + isbn_array.map { |s| "#{s.gsub("isbn: ", "")}"}) - (clean_array & isbn_array.map { |s| "#{s.gsub("isbn: ", "")}"})
 
 print "Missing: "
 p compare_array
-# id_array = id_array.reject {}
 
-
-
-# print id_array
-# print books["items"]["volumeInfo"]["industryIdentifiers"]
+## print id_array
+## print books["items"]["volumeInfo"]["industryIdentifiers"]
 
 
 # If missing ISBNs (new ISBNs)
@@ -142,8 +122,8 @@ if compare_array.length > 0 then
 
     sendData = books["items"].push(checklist)
 
-    puts sendData.class
-    puts books["items"].class
+    # puts sendData.class
+    # puts books["items"].class
 
     # id_array.push(books["items"][i]["volumeInfo"]["industryIdentifiers"][1].values)
 
@@ -165,18 +145,18 @@ if compare_array.length > 0 then
 end
 
 
-# Sort booklist.json by booklist.yaml
+
 
 clean_yaml_array =  isbn_array.map { |s| "#{s.gsub("isbn: ", "")}"}
 
-# Check booklist order
-if clean_yaml_array != clean_array then
+# Check booklist order (reverse because I want newest displayed first)
+if clean_yaml_array != clean_array.reverse
 puts "Booklist needs organized!"
 
     sorted_array = []
 
+    # Sort booklist.json by booklist.yaml
     i = 0
-
     while sorted_array.size < books["items"].size do
 
             f = 0
