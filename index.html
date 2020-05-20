@@ -1,17 +1,41 @@
 ---
-layout: home
+layout: none
 title: Lukas Murdock
 description: This is the home page of Lukas Murdock, designer and marketer trying to do work that matters for people who care.
 last_modified_at: 2020-02-07
 ---
-<figure>
-	<img src="/images/LM-portrait.jpg" alt="Lukas-Murdock-Portrait">
-	<figcaption>Hey, nice to meet you. My name is Lukas Murdock — a human trying to do work that matters for people who care.</figcaption>
-</figure>
+<!DOCTYPE html>
+<html lang='en'>
 
-<main>
+{% include head.html %}
+
+<body class="pagebody">
+
+
+    {% include analytics.html %}
+	{% include header.html %}
+	<main style="margin: 20px auto 40px auto;
+	max-width: var(--max-width);
+	line-height: 1.47059;
+	font-weight: 400;
+	letter-spacing: -.022em;
+	color: var(--color-text);">
+
+	<div style="margin-left: auto!important; margin-right: auto!important; width: 87.5%!important; margin-top: 60px; margin-bottom: 30px;">
+		<h1 style="font-size: 2.5rem; text-align: left; margin: 0; padding-bottom: 10px;">Hello, I’m Lukas.</h1>
+		<p style="margin: 0; font-size: 1.0625rem;">I’m currently exploring design, development, and marketing.</p>
+	</div>
+
+
+
+
+	<figure style="margin: 0;">
+		<img src="/images/LM-portrait.jpg" alt="Lukas-Murdock-Portrait">
+		<figcaption>Hey, nice to meet you. My name is Lukas Murdock — a human trying to do work that matters for people who care.</figcaption>
+	</figure>
+
 	<div class="mobile-margin">
-		<h2 style="margin-bottom:0; font-size:var(--font-large)">Exploring design, development, and marketing.</h2>
+
 		
 		<h2>Links</h2>
 		<p><a href="{{site.baseurl}}/writing/">&#9997;&#65039; Writing</a></p>
@@ -20,6 +44,8 @@ last_modified_at: 2020-02-07
 		<p><a href="{{site.baseurl}}/booklist/">📚 Book list</a></p>
 		<p><a href="{{site.baseurl}}/principles/">🔰 Principles</a></p>
 
+
+		
 		<h2>About</h2>
 		<a href="/about-this-website/">How I built this site and what runs it.</a>
 		<p>I’ve been building websites and coding since 2007, designing identities since 2017, and marketing since 2018. Yes, you can call me young, I won’t be offended. I was born and raised by the web. I’m passionate about crafting better experiences and finding ways to make tasks more efficient.</p>
@@ -40,4 +66,12 @@ last_modified_at: 2020-02-07
 
 
 	</div>
+
 </main>
+
+
+{% include footer.html %}
+
+</body>
+
+</html>
