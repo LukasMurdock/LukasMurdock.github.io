@@ -69,6 +69,11 @@ fulldata:
         Comment: "Research computer architecture, systems, security, and bioinformatics."
         Date: Apr 22, 2020
 
+      - Title: Modern CSS Solutions
+        Link: https://moderncss.dev/
+        Comment: "A series examining modern CSS solutions to problems"
+        Date: May 21, 2020
+
       - Title: Elements of AI
         Link: https://course.elementsofai.com/
         Comment: "Demystify AI with this free online course."
@@ -1448,6 +1453,11 @@ fulldata:
         Link: https://kellysutton.com/
         Comment: "A software engineer living in San Francisco."
         Date: Apr 22, 2020
+
+      - Title: Ayman Jaddaa
+        Link: https://aymanjaddaa.com/
+        Comment: "Designer at Apple"
+        Date: May 21, 2020
 
   #Creative Coding
   - Type: Creative Coding

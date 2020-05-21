@@ -25,4 +25,4 @@ Instead, listen without assuming you’re right, listen to change yourself, and 
 > Don’t be irritated at people’s smell or bad breath. What’s the point? With that mouth, with those armpits, they’re going to produce that odor.
 —But they have a brain! Can’t they figure it out? Can’t they recognize the problem?
 So you have a brain as well. Good for you. Then use your logic to awaken his. Show him. Make him realize it. If he’ll listen, then you’ll have solved the problem. Without anger.”
-— The Meditations
+—&nbsp;The Meditations
