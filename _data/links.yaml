@@ -9,6 +9,14 @@
 linkslist:
   - Date: May 2020
     Links:
+      - Title: "Tiny websites are great"
+        Link: "https://tinyprojects.dev/posts/tiny_websites_are_great"
+        Comment: "Why building your own tiny website is a really great project that you should do."
+
+      - Title: "Why bother?"
+        Link: "https://salman.io/posts/why-bother/"
+        Comment: "Why bother building a digital garden?"
+
       - Title: "Sell yourself, sell your work"
         Link: "https://www.solipsys.co.uk/new/SellYourselfSellYourWork.html"
         Comment: "If you've done great work without telling anyone you may as well not have bothered."

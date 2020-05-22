@@ -23,6 +23,11 @@ fulldata:
   - Type: Guides
     List:
 
+      - Title: Digital Marketing Strategy Guide
+        Link: https://www.clickminded.com/digital-marketing-strategy/
+        Comment: "A down-to-earth step-by-step guide on how to create a digital marketing strategy."
+        Date: May 22, 2020
+
       - Title: MIT Open Courseware
         Link: https://ocw.mit.edu/index.htm
         Comment: "A web-based publication of virtually all MIT course content. OCW is open and available to the world and is a permanent MIT activity."
@@ -787,7 +792,7 @@ fulldata:
         Comment: "Analytics and visualizations for your stylesheets"
         Date: Apr 22, 2020
 
-      - Title: https://webpagetest.org/
+      - Title: Web Page Test
         Link: https://webpagetest.org/
         Comment: "Website Performance and Optimization Test "
         Date: May 15, 2020
@@ -1251,6 +1256,11 @@ fulldata:
         Link: http://premailer.dialect.ca/
         Comment: "Preflight for HTML email. Inline CSS, convert links and warns about unsupported code."
         Date: Apr 22, 2020
+
+      - Title: Headline Analyzer
+        Link: https://coschedule.com/headline-analyzer
+        Comment: "Score your overall headline quality and rate its ability to result in social shares, increased traffic, and SEO value."
+        Date: May 22, 2020
 
       - Title: Email Drips
         Link: https://www.emaildrips.com/
