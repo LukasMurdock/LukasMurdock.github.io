@@ -158,6 +158,11 @@ fulldata:
         Link: https://github.com/tuvtran/project-based-learning/blob/master/README.md?utm_source=share&utm_medium=ios_app&utm_name=iossmf#javascript
         Comment: "A list of programming tutorials in which learners build an application from scratch."
         Date: Apr 22, 2020
+
+      - Title: Discovering AWS
+        Link: "https://adayinthelifeof.nl/2020/05/20/aws.html"
+        Comment: "Currently, there are 163 (!) different services that are available from the Amazon Dashboard, each with their own way of working, difficulties, catches and best practices."
+        Date: May 27, 2020
         
       - Title: Developer Roadmap
         Link: https://roadmap.sh
@@ -258,11 +263,6 @@ fulldata:
         Link: https://starthouse.xyz/
         Comment: "The largest collection of startup pitch decks."
         Date: May 26, 2020
-
-      - Title: iTunes Artwork Finder
-        Link: https://bendodson.com/projects/itunes-artwork-finder/index.html
-        Comment: "Find and download high resolution iTunes artwork."
-        Date: Apr 22, 2020
 
       - Title: Publish Something Online
         Link: https://publishsomething.online/
@@ -472,6 +472,11 @@ fulldata:
   #Niche resources
   - Type: Niche Resources
     List:
+      - Title: Tools for better thinking
+        Link: "https://untools.co/"
+        Comment: "Collection of thinking tools and frameworks to help you solve problems, make decisions and understand systems."
+        Date: May 27, 2020
+
       - Title: Makerpad
         Link: https://www.makerpad.co/
         Comment: "Build tools & automate at work without code."
@@ -646,6 +651,11 @@ fulldata:
       - Title: Sheets for Marketers
         Link: https://sheetsformarketers.com/
         Comment: "Learn how to make SEO tools, automate boring tasks and up your marketing game, without ever leaving Google Sheets."
+        Date: Apr 22, 2020
+
+      - Title: iTunes Artwork Finder
+        Link: https://bendodson.com/projects/itunes-artwork-finder/index.html
+        Comment: "Find and download high resolution iTunes artwork."
         Date: Apr 22, 2020
 
 
