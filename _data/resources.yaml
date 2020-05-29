@@ -716,10 +716,10 @@ fulldata:
         Comment: "Get all the svg's from a site"
         Date: Apr 22, 2020
 
-      - Title: AdBlock
-        Link: https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom?hl=en
-        Comment: "Best ad blocker"
-        Date: Apr 22, 2020
+      - Title: uBlock Origin
+        Link: https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en
+        Comment: "An efficient ad blocker."
+        Date: May 29, 2020
 
       - Title: Grammarly
         Link: https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen?hl=en
@@ -745,6 +745,26 @@ fulldata:
         Link: https://www.checkbot.io/
         Comment: "Fix broken links, duplicate titles, insecure pages, invalid HTML & more."
         Date: Apr 22, 2020
+
+      - Title: Redirect Path
+        Link: https://chrome.google.com/webstore/detail/redirect-path/aomidfkchockcldhbkggjokdkkebmdll
+        Comment: "HTTP Header & Redirect Checker"
+        Date: May 29, 2020
+
+      - Title: Alexa Traffic Rank
+        Link: https://chrome.google.com/webstore/detail/alexa-traffic-rank/cknebhggccemgcnbidipinkifmmegdel?hl=en
+        Comment: "Get quick and easy access to a site's Alexa Traffic Rank and sites linking in."
+        Date: May 29, 2020
+
+      - Title: Detailed SEO Extension
+        Link: https://chrome.google.com/webstore/detail/detailed-seo-extension/pfjdepjjfjjahkjfpkcgfmfhmnakjfba
+        Comment: "SEO insights at the click of a button."
+        Date: May 29, 2020
+
+      - Title: Reader Mode
+        Link: https://readermode.io/
+        Comment: "Distraction-free online web reader"
+        Date: May 29, 2020
 
       - Title: Bullshit js
         Link: https://mourner.github.io/bullshit.js/
