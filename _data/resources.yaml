@@ -2,6 +2,7 @@
 # Application
 # Website
 # Software
+# SEO
 # Evaluation
 # Chrome add-ons
 # Guides
@@ -598,11 +599,6 @@ fulldata:
         Comment: This website shows you a graph of related subreddits for any given one.
         Date: Apr 22, 2020
 
-      - Title: Best SEO Tools
-        Link: https://saijogeorge.com/best-marketing-tools/
-        Comment: "Curated links to various marketing websites."
-        Date: Apr 22, 2020
-
       - Title: Guides for frontend developers
         Link: https://www.learnstorybook.com/
         Comment: "Free in-depth guides for professional frontend developers."
@@ -768,6 +764,66 @@ fulldata:
 
 
 
+# SEO
+  - Type: SEO
+    List:
+
+      - Title: Ahrefs
+        Link: "https://ahrefs.com/"
+        Comment: "Tools to grow your search traffic, research your competitors and monitor your niche"
+        Date: May 29, 2020
+
+      - Title: SEMRush
+        Link: "https://www.semrush.com/dashboard/"
+        Comment: "All-in-one Marketing Toolkit for digital marketing professionals"
+        Date: May 29, 2020
+
+      - Title: Screaming Frog SEO Spider
+        Link: https://www.screamingfrog.co.uk/seo-spider/
+        Comment: "Industry leading website crawler."
+        Date: Apr 22, 2020
+
+      - Title: Nightwatch
+        Link: "https://nightwatch.io/"
+        Comment: "Rank tracking, backlink monitoring, and site auditing designed for companies focused on scaling."
+        Date: May 29, 2020
+
+      - Title: Majestic
+        Link: "https://majestic.com/"
+        Comment: "Backlink Checker & Link Building Toolset"
+        Date: May 29, 2020
+
+      - Title: Serpstat
+        Link: "https://serpstat.com/"
+        Comment: "Backlinks analysis, rank tracking, keyword research, competitor analysis, site audit."
+        Date: May 29, 2020
+
+      - Title: "Siteliner"
+        Link: "https://www.siteliner.com/"
+        Comment: "Find duplicate content, broken links, internal page rank, redirections and more."
+        Date: May 29, 2020
+
+      - Title: "Web Master Site Information"
+        Link: "https://www.wmtips.com/tools/info/"
+        Comment: "Free rankings and SEO analysis, Whois, PageRank, Alexa Rank, IP Info."
+        Date: May 29, 2020
+
+      - Title: Detailed
+        Link: "https://detailed.com/"
+        Comment: "SEO analysis, tools, and insights."
+        Date: May 29, 2020
+
+      - Title: Entity Explorer
+        Link: "https://entityexplorer.com/"
+        Comment: "Produce more authoritative content with deep entity research and visual entity maps."
+        Date: May 29, 2020
+
+      - Title: "List of SEO Tools"
+        Link: "https://saijogeorge.com/best-marketing-tools/"
+        Comment: "Curated links handpicked by Saijo George."
+        Date: May 29, 2020
+
+
 # Evaluation
   - Type: Evaluation
     List:
@@ -850,7 +906,7 @@ fulldata:
         Date: Apr 22, 2020
 
       - Title: Web Developer
-        Link: https://extensionrank.com/
+        Link: https://chrispederick.com/work/web-developer/
         Comment: "Adds a toolbar button with various web developer tools."
         Date: Apr 22, 2020
 
@@ -912,6 +968,11 @@ fulldata:
       - Title: Bullshit js
         Link: https://mourner.github.io/bullshit.js/
         Comment: "Bullshit.js is a mission-critical enterprise JavaScript bookmarklet that will empower you to evaluate the high impact of market-driven text on any page."
+        Date: Apr 22, 2020
+
+      - Title: Discover Extensions
+        Link: https://extensionrank.com/
+        Comment: "The best extensions in ranked by users and reviews"
         Date: Apr 22, 2020
 
 
@@ -987,11 +1048,6 @@ fulldata:
       - Title: iA Writer
         Link: https://ia.net/writer
         Comment: "Plain text. Full ownership. Total focus. The original iA Writer."
-        Date: Apr 22, 2020
-
-      - Title: Screaming Frog SEO Spider
-        Link: https://www.screamingfrog.co.uk/seo-spider/
-        Comment: "Industry leading website crawler."
         Date: Apr 22, 2020
 
       - Title: Httrack
