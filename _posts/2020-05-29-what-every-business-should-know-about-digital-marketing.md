@@ -18,14 +18,13 @@ Your goal is to have a few people care enough about you and what you do that the
 SEO is for making the most of people searching for you.
 
 ## Pay-per-click advertising
-Pay-per-click (PPC) is a form of direct marketing advertising. It leads directly to sales. It’s action-oriented and if you’re not measuring everything don’t run them. Measure and assign values to each step of the process.
-
+Pay-per-click (PPC) is a form of direct marketing advertising. It leads directly to sales. It’s action-oriented and if you’re not measuring everything don’t run them. You need to measure and assign values to each step of the process:
 1. The goal of an ad is to get a click.
 2. The goal of the click is to make a sale or earn permission.
 3. The goal of the sale is to lead to another sale or word of mouth.
 4. The goal of permission is to teach and lead to a sale.
 
-Make sure you’re targeting the right people. Make sure what makes them click aligns with what they get. Reinforce their dreams and justify their fears. Give those who successfully engaged a tool to tell the others.
+Make sure you’re targeting the right people. Make sure what makes them click aligns with what they get. Reinforce their dreams, justify their fears, and soften their failures. Give those who successfully engaged a tool to tell the others.
 
 
 ## Brand marketing
@@ -38,7 +37,7 @@ With brand ads you have to be consistent and patient. Instead of measuring, you 
 
 ## What your business needs
 
-2 things every business needs to have:
+**Two things every business needs to have:**
 1. Something worth making.
 2. A story worth telling.
 
@@ -46,7 +45,7 @@ When you have those, a few people will benefit and care about what you do. You n
 
 Something that is exactly what a few people have been waiting for. (A few people because we’re all waiting for something different.) Something this small group of people will care enough about to make it happen.
 
-To make them care you need to deliver messages they want to hear, messages they’re waiting to hear. You need to invest in them. Gain empathy for them. Understand the stories they tell others, and themselves—their internal narratives. Everyone always acts according to their internal narratives.
+To make them care you need to deliver messages they want to hear, messages they’re waiting to hear. You need to invest in them. Gain empathy for them. Understand the stories they tell others, and themselves—their internal narratives. *Everyone always acts according to their internal narratives.*
 
 Good stories:
 1. Connect us to our purpose and vision for our career or business.
