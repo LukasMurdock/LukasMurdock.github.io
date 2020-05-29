@@ -2,6 +2,7 @@
 # Application
 # Website
 # Software
+# Words
 # SEO
 # Evaluation
 # Chrome add-ons
@@ -470,48 +471,9 @@ fulldata:
         Date: Apr 22, 2020
 
 
-  #Niche resources
-  - Type: Niche Resources
+  #Words
+  - Type: Words
     List:
-      - Title: Tools for better thinking
-        Link: "https://untools.co/"
-        Comment: "Collection of thinking tools and frameworks to help you solve problems, make decisions and understand systems."
-        Date: May 27, 2020
-
-      - Title: Makerpad
-        Link: https://www.makerpad.co/
-        Comment: "Build tools & automate at work without code."
-        Date: Apr 22, 2020
-
-      - Title: "Hack/r/dot"
-        Link: https://www.hackrdot.com/
-        Comment: "A reader for Hacker News, r/programming, and Slashdot."
-        Date: Apr 22, 2020
-
-      - Title: MoneyMade
-        Link: https://moneymade.io/
-        Comment: "Find and compare investment opportunities"
-        Date: Apr 22, 2020
-
-      - Title: Exploding Topics
-        Link: https://explodingtopics.com/
-        Comment: "Discover rapidly growing topics before they take off."
-        Date: Apr 22, 2020
-
-      - Title: Top Trend Books
-        Link: https://toptrendbooks.com/
-        Comment: "Data-driven book recommendation site where trends are collected and aggregated from over 100,000 Reddit posts and comments."
-        Date: Apr 22, 2020
-
-      - Title: Booklets.io
-        Link: https://www.booklets.io/
-        Comment: "Browse hundreds of booklets on design, business, freelancing & more. Learn new skills & insights, fast."
-        Date: Apr 22, 2020
-
-      - Title: Book Summaries
-        Link: "https://www.samuelthomasdavies.com/book-summaries/"
-        Comment: "Learn the key points of the best non-fiction books of all-time–in five minutes or less"
-        Date: May 26, 2020
 
       - Title: Webster's 1913
         Link: https://www.websters1913.com/
@@ -523,173 +485,9 @@ fulldata:
         Comment: "Origin, history and meaning of English words."
         Date: Apr 22, 2020
 
-      - Title: The Design Squiggle
-        Link: https://thedesignsquiggle.com/
-        Comment: "The journey of researching, uncovering insights, generating creative concepts, iteration of prototypes and eventually concluding in one single designed solution."
-        Date: May 04, 2020
-
-      - Title: Every Noise at Once
-        Link: http://everynoise.com/
-        Comment: "An algorithmically-generated, readability-adjusted scatter-plot of the musical genre-space."
-        Date: Apr 22, 2020
-
-
-      - Title: Superhighway 98
-        Link: https://www.superhighway98.com/
-        Comment: "An oasis for those who are tired of clickbait, fake news, excessive advertisements and a big brother who watches everything."
-        Date: May 14, 2020
-
-      - Title: Poolside.fm
-        Link: https://poolside.fm/
-        Comment: "The sunniest spot on the internet. Poolside FM is an online radio station, playing an infinity pool of summer sounds. Swimwear optional."
-        Date: Apr 22, 2020
-
-      - Title: Tools for makers
-        Link: https://hoard.fyi/
-        Comment: "Curated tools & resources for web designers, developers & makers."
-        Date: Apr 22, 2020
-
-      - Title: Regex cheatsheet
-        Link: https://ihateregex.io/
-        Comment: "A regex cheatsheet."
-        Date: Apr 22, 2020
-
-      - Title: Online regex tester
-        Link: https://regex101.com/
-        Comment: "Online regex tester and debugger: PHP, PCRE, Python, Golang and JavaScript."
-        Date: Apr 22, 2020
-
-      - Title: Remark
-        Link: https://remarkapp.io/
-        Comment: "Turn long text to one sentence"
-        Date: Apr 22, 2020
-
-      - Title: Free tools for devs
-        Link: https://free-for.dev/
-        Comment: "A list of software and other offerings with free tiers for developers."
-        Date: Apr 22, 2020
-
-      - Title: Leaderboard for the best new products
-        Link: https://pragli.com/leaderboard-for-product-hunt/
-        Comment: "Product Hunt leaderboard"
-        Date: Apr 22, 2020
-
-      - Title: Physics Travel Guide
-        Link: https://physicstravelguide.com/
-        Comment: "Intuitive, concrete, and abstract physics explanations"
-        Date: Apr 22, 2020
-
-      - Title: Almanac
-        Link: https://askalmanac.com/
-        Comment: "Access to tools, templates, and guides from top startup minds."
-        Date: Apr 22, 2020
-
-      - Title: Semantic Scholar
-        Link: https://www.semanticscholar.org/
-        Comment: "Find peer-reviewed research from the world's most trusted sources."
-        Date: Apr 22, 2020
-
-      - Title: Smithsonian Open Access
-        Link: https://www.si.edu/openaccess
-        Comment: "Download, share, and reuse millions of the Smithsonian’s images."
-        Date: Apr 22, 2020
-
-      - Title: Related subreddits
-        Link: https://anvaka.github.io/sayit/?query=
-        Comment: This website shows you a graph of related subreddits for any given one.
-        Date: Apr 22, 2020
-
-      - Title: Guides for frontend developers
-        Link: https://www.learnstorybook.com/
-        Comment: "Free in-depth guides for professional frontend developers."
-        Date: Apr 22, 2020
-        
-      - Title: Free resources for Freelancers
-        Link: https://usefyi.com/templates/freelancer-templates/
-        Comment: "All the free resources and templates you need to get work done as a freelancer."
-        Date: Apr 22, 2020
-
-      - Title: Top Open Source SSGs
-        Link: https://www.staticgen.com/
-        Comment: "A list of static site generators for JAMStack sites."
-        Date: May 14, 2020
-
-      - Title: Letterform Archive
-        Link: http://oa.letterformarchive.org/search?dims=Decade&vals0=1960s
-        Comment: "View letterforms by decades, countries, formats, and more."
-        Date: Apr 22, 2020
-
-      - Title: Typewolf
-        Link: https://www.typewolf.com
-        Comment: "Web fonts in the wild, font recommendations and learning resources."
-        Date: Apr 22, 2020
-
-      - Title: Google Fonts Analytics
-        Link: https://fonts.google.com/analytics
-        Comment: "Making the web more beautiful, fast, and open through great typography."
-        Date: Apr 22, 2020
-
-      - Title: The Design Sprint
-        Link: https://www.gv.com/sprint/
-        Comment: The sprint is a five-day process for answering critical business questions through design, prototyping, and testing ideas with customers.
-        Date: Apr 22, 2020
-
-      - Title: Design Sprint Kit
-        Link: https://designsprintkit.withgoogle.com/
-        Comment: Learn, plan, and contribute to the Design Sprint Methodology.
-        Date: Apr 22, 2020
-
-      - Title: Google Design Resources
-        Link: https://design.google/resources/
-        Comment: A directory of essential design tools and resources to keep your projects moving forward.
-        Date: Apr 22, 2020
-
-      - Title: Sheets for Marketers
-        Link: https://sheetsformarketers.com/
-        Comment: "Learn how to make SEO tools, automate boring tasks and up your marketing game, without ever leaving Google Sheets."
-        Date: Apr 22, 2020
-
-      - Title: iTunes Artwork Finder
-        Link: https://bendodson.com/projects/itunes-artwork-finder/index.html
-        Comment: "Find and download high resolution iTunes artwork."
-        Date: Apr 22, 2020
-
-
-
-
-
-  #Software
-  - Type: Software
-    List:
-
-      - Title: Basecamp
-        Link: https://basecamp.com/
-        Comment: "Get it together and manage projects the right way."
-        Date: Apr 22, 2020
-
-      - Title: Code Sandbox
-        Link: https://codesandbox.io/
-        Comment: "An instant IDE and prototyping tool for rapid web development."
-        Date: Apr 22, 2020
-
-      - Title: Google Drive
-        Link: https://www.google.com/drive/
-        Comment: "Safely store and share your photos, videos, files and more in the cloud."
-        Date: Apr 22, 2020
-
-      - Title: Webflow
-        Link: https://webflow.com/
-        Comment: "The top drag-and-drop website builder for creating professional responsive websites."
-        Date: Apr 22, 2020
-
-      - Title: Wealthfront
-        Link: https://www.wealthfront.com/
-        Comment: "Save, plan and invest all in one place, on autopilot."
-        Date: Apr 22, 2020
-
-      - Title: Write With Transformer
-        Link: https://transformer.huggingface.co
-        Comment: "See how a modern neural network auto-completes your text."
+      - Title: Related Words
+        Link: https://relatedwords.org/
+        Comment: "Find words related to another word."
         Date: Apr 22, 2020
 
       - Title: Hemingway
@@ -697,24 +495,9 @@ fulldata:
         Comment: "Makes your writing bold and clear."
         Date: Apr 22, 2020
 
-      - Title: Formal Founder
-        Link: https://www.formalfounder.com/
-        Comment: "A free business name availability search tool used to help entrepreneurs find available businesses names, trademarks, patents, domains, and social media handles nationwide."
-        Date: Apr 22, 2020
-
-      - Title: Namewink
-        Link: https://namewink.com/
-        Comment: "Business Name Generator for Unique and Creative Name Ideas."
-        Date: Apr 22, 2020
-
-      - Title: Related Words
-        Link: https://relatedwords.org/
-        Comment: "Find words related to another word."
-        Date: Apr 22, 2020
-
-      - Title: Wordoid
-        Link: https://wordoid.com
-        Comment: "Creative way to find a catchy name for your new venture."
+      - Title: Grammarly
+        Link: https://www.grammarly.com/
+        Comment: "Eliminate errors and find the perfect words to express yourself."
         Date: Apr 22, 2020
 
       - Title: Word Counter
@@ -722,47 +505,15 @@ fulldata:
         Comment: "Count words and characters, check keyword density, and correct writing mistakes."
         Date: May 14, 2020
 
-      - Title: Sharpen Design
-        Link: https://sharpen.design/
-        Comment: "Millions of practice design prompts to challenge you to think outside the box."
+      - Title: Remark
+        Link: https://remarkapp.io/
+        Comment: "Turn long text to one sentence"
         Date: Apr 22, 2020
 
-      - Title: Photopea
-        Link: https://www.photopea.com/
-        Comment: "Photoshop in your browser."
+      - Title: Write With Transformer
+        Link: https://transformer.huggingface.co
+        Comment: "See how a modern neural network auto-completes your text."
         Date: Apr 22, 2020
-
-      - Title: Screely
-        Link: https://www.screely.com/
-        Comment: "Instantly Turn a Screenshot into a Beautiful Mockup."
-        Date: Apr 22, 2020
-
-      - Title: IUBenda
-        Link: https://www.iubenda.com/
-        Comment: "Compliance Solutions for Websites, Apps and Organizations."
-        Date: Apr 22, 2020
-
-      - Title: This person does not exist
-        Link: https://thispersondoesnotexist.com/
-        Comment: "Computer generated people. Refresh to get a new one."
-        Date: Apr 22, 2020
-
-      - Title: GoatCounter
-        Link: https://www.goatcounter.com/
-        Comment: "Simple web statistics. No tracking of personal data."
-        Date: Apr 22, 2020
-
-      - Title: Similar Web
-        Link: https://similarweb.com/
-        Comment: "Compare any website traffic statistics & analytics."
-        Date: Apr 22, 2020
-
-      - Title: Built With
-        Link: https://builtwith.com/
-        Comment: "Web technology information profiler tool. Find out what a website is built with."
-        Date: Apr 22, 2020
-
-
 
 # SEO
   - Type: SEO
@@ -818,6 +569,31 @@ fulldata:
         Comment: "Produce more authoritative content with deep entity research and visual entity maps."
         Date: May 29, 2020
 
+      - Title: Answer the public
+        Link: "https://answerthepublic.com/"
+        Comment: "Search listening tool for market, customer & content research"
+        Date: May 29, 2020
+
+      - Title: "Question Database"
+        Link: "https://questiondb.io/"
+        Comment: "Search a massive collection of user questions to get original ideas for new content."
+        Date: May 29, 2020
+
+      - Title: "Soovle"
+        Link: "https://soovle.com/"
+        Comment: "Search suggestions and completions from the top providers on the internet."
+        Date: May 29, 2020
+
+      - Title: Related subreddits
+        Link: https://anvaka.github.io/sayit/?query=
+        Comment: "This website shows you a graph of related subreddits for any given one."
+        Date: Apr 22, 2020
+
+      - Title: Reddit Keyword Research Tool
+        Link: "https://www.highervisibility.com/free-seo-tools/keyworddit/"
+        Comment: "Just enter in a subreddit name to generate keywords."
+        Date: May 29, 2020
+
       - Title: "List of SEO Tools"
         Link: "https://saijogeorge.com/best-marketing-tools/"
         Comment: "Curated links handpicked by Saijo George."
@@ -868,11 +644,6 @@ fulldata:
         Comment: "Test the page load time, analyze it, and find bottlenecks."
         Date: Apr 22, 2020
 
-      - Title: Grammarly
-        Link: https://www.grammarly.com/
-        Comment: "Eliminate errors and find the perfect words to express yourself."
-        Date: Apr 22, 2020
-
       - Title: CSS Stats
         Link: https://cssstats.com/
         Comment: "Analytics and visualizations for your stylesheets"
@@ -887,6 +658,16 @@ fulldata:
         Link: https://www.browseo.net/
         Comment: "View any web page like search engines see it, identify issues with your site and with competitors' sites, 100% free."
         Date: May 26, 2020
+
+      - Title: Built With
+        Link: https://builtwith.com/
+        Comment: "Web technology information profiler tool. Find out what a website is built with."
+        Date: Apr 22, 2020
+
+      - Title: Similar Web
+        Link: https://similarweb.com/
+        Comment: "Compare any website traffic statistics & analytics."
+        Date: Apr 22, 2020
 
       - Title: Web Performance Tools
         Link: https://www.swyx.io/writing/webperf-tests/
@@ -1247,7 +1028,247 @@ fulldata:
         Comment: "A curated list of awesome newsletters."
         Date: Apr 22, 2020
 
+#Niche resources
+  - Type: Niche Resources
+    List:
+      - Title: Tools for better thinking
+        Link: "https://untools.co/"
+        Comment: "Collection of thinking tools and frameworks to help you solve problems, make decisions and understand systems."
+        Date: May 27, 2020
+
+      - Title: Makerpad
+        Link: https://www.makerpad.co/
+        Comment: "Build tools & automate at work without code."
+        Date: Apr 22, 2020
+
+      - Title: "Hack/r/dot"
+        Link: https://www.hackrdot.com/
+        Comment: "A reader for Hacker News, r/programming, and Slashdot."
+        Date: Apr 22, 2020
+
+      - Title: MoneyMade
+        Link: https://moneymade.io/
+        Comment: "Find and compare investment opportunities"
+        Date: Apr 22, 2020
+
+      - Title: Exploding Topics
+        Link: https://explodingtopics.com/
+        Comment: "Discover rapidly growing topics before they take off."
+        Date: Apr 22, 2020
+
+      - Title: Top Trend Books
+        Link: https://toptrendbooks.com/
+        Comment: "Data-driven book recommendation site where trends are collected and aggregated from over 100,000 Reddit posts and comments."
+        Date: Apr 22, 2020
+
+      - Title: Booklets.io
+        Link: https://www.booklets.io/
+        Comment: "Browse hundreds of booklets on design, business, freelancing & more. Learn new skills & insights, fast."
+        Date: Apr 22, 2020
+
+      - Title: Book Summaries
+        Link: "https://www.samuelthomasdavies.com/book-summaries/"
+        Comment: "Learn the key points of the best non-fiction books of all-time–in five minutes or less"
+        Date: May 26, 2020
+
+      - Title: The Design Squiggle
+        Link: https://thedesignsquiggle.com/
+        Comment: "The journey of researching, uncovering insights, generating creative concepts, iteration of prototypes and eventually concluding in one single designed solution."
+        Date: May 04, 2020
+
+      - Title: Every Noise at Once
+        Link: http://everynoise.com/
+        Comment: "An algorithmically-generated, readability-adjusted scatter-plot of the musical genre-space."
+        Date: Apr 22, 2020
+
+
+      - Title: Superhighway 98
+        Link: https://www.superhighway98.com/
+        Comment: "An oasis for those who are tired of clickbait, fake news, excessive advertisements and a big brother who watches everything."
+        Date: May 14, 2020
+
+      - Title: Poolside.fm
+        Link: https://poolside.fm/
+        Comment: "The sunniest spot on the internet. Poolside FM is an online radio station, playing an infinity pool of summer sounds. Swimwear optional."
+        Date: Apr 22, 2020
+
+      - Title: Tools for makers
+        Link: https://hoard.fyi/
+        Comment: "Curated tools & resources for web designers, developers & makers."
+        Date: Apr 22, 2020
+
+      - Title: Regex cheatsheet
+        Link: https://ihateregex.io/
+        Comment: "A regex cheatsheet."
+        Date: Apr 22, 2020
+
+      - Title: Online regex tester
+        Link: https://regex101.com/
+        Comment: "Online regex tester and debugger: PHP, PCRE, Python, Golang and JavaScript."
+        Date: Apr 22, 2020
+
+      - Title: Free tools for devs
+        Link: https://free-for.dev/
+        Comment: "A list of software and other offerings with free tiers for developers."
+        Date: Apr 22, 2020
+
+      - Title: Leaderboard for the best new products
+        Link: https://pragli.com/leaderboard-for-product-hunt/
+        Comment: "Product Hunt leaderboard"
+        Date: Apr 22, 2020
+
+      - Title: Physics Travel Guide
+        Link: https://physicstravelguide.com/
+        Comment: "Intuitive, concrete, and abstract physics explanations"
+        Date: Apr 22, 2020
+
+      - Title: Almanac
+        Link: https://askalmanac.com/
+        Comment: "Access to tools, templates, and guides from top startup minds."
+        Date: Apr 22, 2020
+
+      - Title: Semantic Scholar
+        Link: https://www.semanticscholar.org/
+        Comment: "Find peer-reviewed research from the world's most trusted sources."
+        Date: Apr 22, 2020
+
+      - Title: Smithsonian Open Access
+        Link: https://www.si.edu/openaccess
+        Comment: "Download, share, and reuse millions of the Smithsonian’s images."
+        Date: Apr 22, 2020
+
+      - Title: Guides for frontend developers
+        Link: https://www.learnstorybook.com/
+        Comment: "Free in-depth guides for professional frontend developers."
+        Date: Apr 22, 2020
         
+      - Title: Free resources for Freelancers
+        Link: https://usefyi.com/templates/freelancer-templates/
+        Comment: "All the free resources and templates you need to get work done as a freelancer."
+        Date: Apr 22, 2020
+
+      - Title: Top Open Source SSGs
+        Link: https://www.staticgen.com/
+        Comment: "A list of static site generators for JAMStack sites."
+        Date: May 14, 2020
+
+      - Title: Letterform Archive
+        Link: http://oa.letterformarchive.org/search?dims=Decade&vals0=1960s
+        Comment: "View letterforms by decades, countries, formats, and more."
+        Date: Apr 22, 2020
+
+      - Title: Typewolf
+        Link: https://www.typewolf.com
+        Comment: "Web fonts in the wild, font recommendations and learning resources."
+        Date: Apr 22, 2020
+
+      - Title: Google Fonts Analytics
+        Link: https://fonts.google.com/analytics
+        Comment: "Making the web more beautiful, fast, and open through great typography."
+        Date: Apr 22, 2020
+
+      - Title: The Design Sprint
+        Link: https://www.gv.com/sprint/
+        Comment: The sprint is a five-day process for answering critical business questions through design, prototyping, and testing ideas with customers.
+        Date: Apr 22, 2020
+
+      - Title: Design Sprint Kit
+        Link: https://designsprintkit.withgoogle.com/
+        Comment: Learn, plan, and contribute to the Design Sprint Methodology.
+        Date: Apr 22, 2020
+
+      - Title: Google Design Resources
+        Link: https://design.google/resources/
+        Comment: A directory of essential design tools and resources to keep your projects moving forward.
+        Date: Apr 22, 2020
+
+      - Title: Sheets for Marketers
+        Link: https://sheetsformarketers.com/
+        Comment: "Learn how to make SEO tools, automate boring tasks and up your marketing game, without ever leaving Google Sheets."
+        Date: Apr 22, 2020
+
+      - Title: iTunes Artwork Finder
+        Link: https://bendodson.com/projects/itunes-artwork-finder/index.html
+        Comment: "Find and download high resolution iTunes artwork."
+        Date: Apr 22, 2020
+
+
+
+
+
+  #Software
+  - Type: Software
+    List:
+
+      - Title: Basecamp
+        Link: https://basecamp.com/
+        Comment: "Get it together and manage projects the right way."
+        Date: Apr 22, 2020
+
+      - Title: Code Sandbox
+        Link: https://codesandbox.io/
+        Comment: "An instant IDE and prototyping tool for rapid web development."
+        Date: Apr 22, 2020
+
+      - Title: Google Drive
+        Link: https://www.google.com/drive/
+        Comment: "Safely store and share your photos, videos, files and more in the cloud."
+        Date: Apr 22, 2020
+
+      - Title: Webflow
+        Link: https://webflow.com/
+        Comment: "The top drag-and-drop website builder for creating professional responsive websites."
+        Date: Apr 22, 2020
+
+      - Title: Wealthfront
+        Link: https://www.wealthfront.com/
+        Comment: "Save, plan and invest all in one place, on autopilot."
+        Date: Apr 22, 2020
+
+      - Title: Formal Founder
+        Link: https://www.formalfounder.com/
+        Comment: "A free business name availability search tool used to help entrepreneurs find available businesses names, trademarks, patents, domains, and social media handles nationwide."
+        Date: Apr 22, 2020
+
+      - Title: Namewink
+        Link: https://namewink.com/
+        Comment: "Business Name Generator for Unique and Creative Name Ideas."
+        Date: Apr 22, 2020
+
+      - Title: Wordoid
+        Link: https://wordoid.com
+        Comment: "Creative way to find a catchy name for your new venture."
+        Date: Apr 22, 2020
+
+      - Title: Sharpen Design
+        Link: https://sharpen.design/
+        Comment: "Millions of practice design prompts to challenge you to think outside the box."
+        Date: Apr 22, 2020
+
+      - Title: Photopea
+        Link: https://www.photopea.com/
+        Comment: "Photoshop in your browser."
+        Date: Apr 22, 2020
+
+      - Title: Screely
+        Link: https://www.screely.com/
+        Comment: "Instantly Turn a Screenshot into a Beautiful Mockup."
+        Date: Apr 22, 2020
+
+      - Title: IUBenda
+        Link: https://www.iubenda.com/
+        Comment: "Compliance Solutions for Websites, Apps and Organizations."
+        Date: Apr 22, 2020
+
+      - Title: This person does not exist
+        Link: https://thispersondoesnotexist.com/
+        Comment: "Computer generated people. Refresh to get a new one."
+        Date: Apr 22, 2020
+
+      - Title: GoatCounter
+        Link: https://www.goatcounter.com/
+        Comment: "Simple web statistics. No tracking of personal data."
+        Date: Apr 22, 2020   
 
   #Website
   - Type: Website
