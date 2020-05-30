@@ -176,6 +176,11 @@ fulldata:
         Comment: "A guide for amateurs pen testers and a collection of hacking tools, resources and references to practice ethical hacking, pen testing and web security."
         Date: Apr 22, 2020
 
+      - Title: Practical Python
+        Link: "https://dabeaz-course.github.io/practical-python/"
+        Comment: "A no-nonsense treatment of Python that has been actively taught to more than 400 in-person groups since 2007."
+        Date: May 26, 2020
+
       - Title: How These Things Work
         Link: https://reasonablypolymorphic.com/book/preface
         Comment: "A gentle, yet comprehensive introduction to how these things work."
@@ -557,6 +562,11 @@ fulldata:
       - Title: "Web Master Site Information"
         Link: "https://www.wmtips.com/tools/info/"
         Comment: "Free rankings and SEO analysis, Whois, PageRank, Alexa Rank, IP Info."
+        Date: May 29, 2020
+
+      - Title: "Whois Lookup"
+        Link: "https://whois.domaintools.com/"
+        Comment: "Get ownership info, IP address history, rank, traffic, SEO & more."
         Date: May 29, 2020
 
       - Title: Detailed
@@ -1280,6 +1290,11 @@ fulldata:
         Comment: "Compliance Solutions for Websites, Apps and Organizations."
         Date: Apr 22, 2020
 
+      - Title: Basecamp policies, terms, and legal
+        Link: https://github.com/basecamp/policies
+        Comment: "Basecamp policies, terms, and legal. Share them; reuse them; contribute to them."
+        Date: May 29, 2020
+
       - Title: This person does not exist
         Link: https://thispersondoesnotexist.com/
         Comment: "Computer generated people. Refresh to get a new one."
@@ -1528,6 +1543,11 @@ fulldata:
         Comment: Design inspiration from some of the best humans on the web.
         Date: Apr 22, 2020
 
+      - Title: Awesomeblog.club
+        Link: "https://awesomeblog.club/"
+        Comment: "Discover awesome small and personal blogs."
+        Date: May 29, 2020
+
       - Title: Adam Silver
         Link: https://adamsilver.io/
         Comment: "Interaction designer and author of Form Design Patterns."
@@ -1542,6 +1562,11 @@ fulldata:
         Link: https://brody.com/
         Comment: "A Product Designer based in Sydney."
         Date: Apr 22, 2020
+
+      - Title: Derek Sivers
+        Link: https://sivers.org/
+        Comment: "Writer, entrepreneur, avid student of life."
+        Date: May 26, 2020
 
       - Title: Marko Saric
         Link: https://markosaric.com/
@@ -1602,6 +1627,11 @@ fulldata:
         Link: https://www.samuelthomasdavies.com/
         Comment: "Takes brief but concise notes from the best books of all-time."
         Date: May 26, 2020
+
+      - Title: Daniel Gauthier
+        Link: "https://danielgauthier.me/"
+        Comment: "A little personal website about building apps and stuff."
+        Date: May 29, 2020
 
       - Title: Brittany Chiang
         Link: https://brittanychiang.com
