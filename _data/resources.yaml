@@ -25,6 +25,11 @@ fulldata:
   - Type: Guides
     List:
 
+      - Title: "Science and Statistics"
+        Link: http://www-sop.inria.fr/members/Ian.Jermyn/philosophy/writings/Boxonmaths.pdf
+        Comment: "We make tentative assumptions about the real world which we know are false but which we believe may be useful nonetheless."
+        Date: May 31, 2020
+
       - Title: Digital Marketing Strategy Guide
         Link: https://www.clickminded.com/digital-marketing-strategy/
         Comment: "A down-to-earth step-by-step guide on how to create a digital marketing strategy."
@@ -190,6 +195,11 @@ fulldata:
         Link: https://ultimateelectronicsbook.com/
         Comment: "A free, interactive book for electronics hobbyists and electrical engineering students."
         Date: Apr 22, 2020
+
+      - Title: "Simplifier"
+        Link: "https://simplifier.neocities.org/"
+        Comment: "Creating a stable foundation of technology that is reliable, understandable, and practical for an individual to build for themselves."
+        Date: May 31, 2020
 
       - Title: Guide to HTML head elements
         Link: https://htmlhead.dev/
@@ -557,6 +567,11 @@ fulldata:
       - Title: "Siteliner"
         Link: "https://www.siteliner.com/"
         Comment: "Find duplicate content, broken links, internal page rank, redirections and more."
+        Date: May 29, 2020
+
+      - Title: "Buzzsumo"
+        Link: "https://buzzsumo.com/"
+        Comment: "Quickly discover content ideas, uncover platform insights, identify passionate influencers and more."
         Date: May 29, 2020
 
       - Title: "Web Master Site Information"
@@ -1303,7 +1318,17 @@ fulldata:
       - Title: GoatCounter
         Link: https://www.goatcounter.com/
         Comment: "Simple web statistics. No tracking of personal data."
-        Date: Apr 22, 2020   
+        Date: Apr 22, 2020
+
+      - Title: Copyscape Compare
+        Link: "https://www.copyscape.com/compare.php"
+        Comment: "Enter any two web pages or articles below to see how they match up."
+        Date: May 31, 2020
+
+      - Title: Carrd
+        Link: "https://carrd.co/"
+        Comment: "Simple, free, fully responsive one-page sites for pretty much anything."
+        Date: May 31, 2020
 
   #Website
   - Type: Website
@@ -1633,6 +1658,11 @@ fulldata:
         Comment: "A little personal website about building apps and stuff."
         Date: May 29, 2020
 
+      - Title: Pratt Delzenne
+        Link: "https://prattdelzenne.com/"
+        Comment: "Eesearch, design, and build valuable software products to empower users and increase business growth"
+        Date: May 31, 2020
+
       - Title: Brittany Chiang
         Link: https://brittanychiang.com
         Comment: "A software engineer based in Boston."
@@ -1772,3 +1802,33 @@ fulldata:
         Date: Apr 22, 2020
 
 
+
+
+  #Music
+  - Type: Speedtest
+    List:
+
+      - Title: Speed.cloudflare
+        Link: "https://speed.cloudflare.com/"
+        Comment: "Speedtest by Cloudflare."
+        Date: May 31, 2020
+
+      - Title: Fast.com
+        Link: "https://fast.com/"
+        Comment: "Speedtest by Netflix."
+        Date: May 31, 2020
+
+      - Title: DSL Reports
+        Link: "http://www.dslreports.com/speedtest"
+        Comment: "Speedtest by DSL Reports."
+        Date: May 31, 2020
+
+      - Title: Digital Ocean
+        Link: "http://speedtest-nyc1.digitalocean.com/"
+        Comment: "Speedtest by Digital Ocean."
+        Date: May 31, 2020
+
+      - Title: Google
+        Link: "https://www.google.com/search?q=speedtest"
+        Comment: "Speedtest by Google."
+        Date: May 31, 2020
