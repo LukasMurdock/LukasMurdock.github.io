@@ -395,6 +395,11 @@ fulldata:
         Comment: "The best resources for designers in one place."
         Date: Apr 22, 2020
 
+      - Title: "SaaSFrame"
+        Link: "https://www.saasframe.io/"
+        Comment: "Inspiration for SaaS Marketers & Product Designers"
+        Date: June 9, 2020
+
       - Title: Starbucks Creative
         Link: https://creative.starbucks.com
         Comment: "It all starts here. Use this guide as a high-level overview of how the Starbucks brand comes to life."
@@ -1076,6 +1081,11 @@ fulldata:
 #Niche resources
   - Type: Niche Resources
     List:
+      - Title: Less Wrong
+        Link: "https://www.lesswrong.com/"
+        Comment: "A community dedicated to improving reasoning and decision-making."
+        Date: June 9, 2020
+
       - Title: Tools for better thinking
         Link: "https://untools.co/"
         Comment: "Collection of thinking tools and frameworks to help you solve problems, make decisions and understand systems."
@@ -1131,6 +1141,11 @@ fulldata:
         Link: https://www.superhighway98.com/
         Comment: "An oasis for those who are tired of clickbait, fake news, excessive advertisements and a big brother who watches everything."
         Date: May 14, 2020
+
+      - Title: What every Browser knows about you
+        Link: "https://webkay.robinlinus.com/"
+        Comment: "a demonstration of all the data your browser knows about you."
+        Date: June 9, 2020
 
       - Title: Poolside.fm
         Link: https://poolside.fm/
