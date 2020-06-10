@@ -599,6 +599,16 @@ fulldata:
         Comment: "Produce more authoritative content with deep entity research and visual entity maps."
         Date: May 29, 2020
 
+      - Title: Google Trends
+        Link: "https://trends.google.com/"
+        Comment: "Explore what the world is searching"
+        Date: June 10, 2020
+
+      - Title: Google Test My Site
+        Link: "https://www.thinkwithgoogle.com/feature/testmysite/"
+        Comment: "See how your mobile site speed ranks compared to other top brands and learn how you can provide a faster, more frictionless mobile experience."
+        Date: June 10, 2020
+
       - Title: Answer the public
         Link: "https://answerthepublic.com/"
         Comment: "Search listening tool for market, customer & content research"
@@ -1136,6 +1146,10 @@ fulldata:
         Comment: "An algorithmically-generated, readability-adjusted scatter-plot of the musical genre-space."
         Date: Apr 22, 2020
 
+      - Title: Corporate Flights
+        Link: "https://www.quiverquant.com/sources/corporateflights"
+        Comment: "Tracking flights by jets registered to publicly-traded companies"
+        Date: June 10, 2020
 
       - Title: Superhighway 98
         Link: https://www.superhighway98.com/
