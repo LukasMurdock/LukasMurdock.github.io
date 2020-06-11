@@ -4,6 +4,7 @@ title: 'Transcript & College Course Alternatives'
 description: My college courses and better alternatives that are mostly free.
 date: January 29, 2020
 redirect_from: /2020/01/29/2020-transcript/
+last_modified_at: 2020-06-11T17:56:39+0000
 ---
 
 <span style="font-size: 12px;">Last Updated: {{ page.date | date: '%B %d, %Y' }}</span>
@@ -59,7 +60,7 @@ CSE 148 — 3 Credit Hours
 
 **Composition and Rhetoric**  
 ENG 111 — 3 Credit Hours  
-TBD
+<span style="text-decoration: line-through;">TBD</span> This class was actually good. H/T to Dhanuka Bandara.
 
 **Calculus I**  
 MTH 151 — 5 Credit Hours  
@@ -73,4 +74,4 @@ MTH 151 — 5 Credit Hours
 
 **Concepts in Physics Laboratory**  
 PHY 103 — 1 Credit Hour  
-TBD
+<span style="text-decoration: line-through;">TBD</span> 🧀

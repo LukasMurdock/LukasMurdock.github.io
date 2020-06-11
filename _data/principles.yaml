@@ -14,6 +14,38 @@ principlelist:
     - list: Good design is environmentally friendly
     - list: Good design is as little design as possible
 
+  - Title: Gestalt
+    Principles:
+    - list: No object is perceived in isolation
+    - list: Objects are always perceived as simply as possible
+    - list: Sections that are the shortest distance apart are perceived as belonging together
+    - list: Objects similar to each other are perceived as one unit
+    - list: Incomplete figures are seen as coherent
+    - list: Elements that move in a common direction are perceived as one unit
+    - list: Elements linked spatially or chronologically are perceived as one unit
+    - list: Symmetrical elements are perceived as a unit
+    - list: The object simpler in form becomes the figure, the object with the more complex form becomes the ground
+
+  - Title: Grice’s Maxims
+    Principles:
+    - list: "<b>Maxim of Quantity</b>: Give as much information as required, and no more"
+    - list: "<b>Maxim of Quality</b>: Tell the truth"
+    - list: "<b>Maxim of Relation</b>: Be relevant"
+    - list: "<b>Maxim of Manner</b>: Be clear in what you’re saying"
+
+  - Title: S. H. Schwartz Universal Values
+    Principles:
+    - list: "<b>Self-direction</b>: independent thought and action–choosing, creating, exploring"
+    - list: "<b>Stimulation</b>: excitement, novelty, and challenge in life, exciting life"
+    - list: "<b>Hedonism</b>: pleasure; enjoying life"
+    - list: "<b>Achievement</b>: personal success through demonstrating competence according to social standards"
+    - list: "<b>Power</b>: social status and prestige, control or dominance over people and resources"
+    - list: "<b>Security</b>: safety, harmony, and stability of society, of relationships, and of self"
+    - list: "<b>Conformity</b>: self-discipline; obedience, restraint of actions"
+    - list: "<b>Tradition</b>: respect, commitment, and acceptance of the customs and ideas that one’s culture or religion provides"
+    - list: "<b>Benevolence</b>: preserving and enhancing the welfare of those with whom one is in frequent personal contact (the ‘in-group’)"
+    - list: "<b>Universalism</b>: understanding, appreciation, tolerance, and protection for the welfare of all people and for nature"
+
   - Title: David Olgivy
     Principles:
     - list: Give the facts, and give them early
@@ -24,20 +56,6 @@ principlelist:
     - list: Understand your customer
     - list: Stay true to your brand
 
-  - Title: Disney
-    Principles:
-    - list: Squash and stretch
-    - list: Anticipation
-    - list: Staging
-    - list: Straight ahead actions and pose to pose
-    - list: Follow through and overlapping
-    - list: Slow in and slow out
-    - list: Arc
-    - list: Secondary action
-    - list: Timing
-    - list: Exaggeration
-    - list: Solid drawing
-    - list: Appeal
 
   - Title: Xerox
     Principles:
@@ -74,14 +92,17 @@ principlelist:
     - list: Emphasis
     - list: Contrast
 
-  - Title: Gestalt
+  - Title: Disney
     Principles:
-    - list: No object is perceived in isolation
-    - list: Objects are always perceived as simply as possible
-    - list: Sections that are the shortest distance apart are perceived as belonging together
-    - list: Objects similar to each other are perceived as one unit
-    - list: Incomplete figures are seen as coherent
-    - list: Elements that move in a common direction are perceived as one unit
-    - list: Elements linked spatially or chronologically are perceived as one unit
-    - list: Symmetrical elements are perceived as a unit
-    - list: The object simpler in form becomes the figure, the object with the more complex form becomes the ground
+    - list: Squash and stretch
+    - list: Anticipation
+    - list: Staging
+    - list: Straight ahead actions and pose to pose
+    - list: Follow through and overlapping
+    - list: Slow in and slow out
+    - list: Arc
+    - list: Secondary action
+    - list: Timing
+    - list: Exaggeration
+    - list: Solid drawing
+    - list: Appeal

@@ -6,11 +6,13 @@ image: gbooksapi.jpg
 caption: Google Developer APIs to the rescue.
 date: October 19, 2019
 code: true
+last_modified_at: 2020-06-11T17:48:03+0000
 redirect_from:
   - /2019/10/19/making-a-book-list/
   - /2019/10/19/Making-a-book-list/
 ---
 
+**2020 Update:** [I have now optimized the book list for static loading]({{site.baseurl}}/optimizing-my-book-list/)
 
 <span style="color: rgba(51,51,51,.5);">The Problem: </span>finding all the information on books is annoying and time consuming.
 

@@ -4,9 +4,10 @@ title: 'Optimizing my book list'
 description:  Ruby scripting to start making my book list static.
 date: May 18, 2020
 code: true
+last_modified_at: 2020-06-11T17:48:03+0000
 ---
 
-When I was figuring out how to build a booklist that would let me add a book as easily as possible my solution was writing JavaScript to request the book data from Google Books API. Then another bit of JavaScript would insert that data into an HTML template and write the output onto the booklist page.
+When I was [figuring out how to build a booklist]({{site.baseurl}}/making-a-book-list/) that would let me add a book as easily as possible my solution was writing JavaScript to request the book data from Google Books API. Then another bit of JavaScript would insert that data into an HTML template and write the output onto the booklist page.
 
 But I have a problem with this method. The page starts empty and every time someone loads the page it has to make an API call to get the data!
 
@@ -16,9 +17,9 @@ There’s two files we’re working with here.
 1. `Booklist.yaml`
 2. `Booklist.json`
 
-`Booklist.yaml` is the list of book ISBNs where I can easily add another ISBN.
+`Booklist.yaml` is for a list of book ISBNs that I can easily add to.
 
-`Booklist.json` is all the information I want on the books in booklist.yaml.
+`Booklist.json` is for all the information I want on the books in booklist.yaml.
 
 Right now that `booklist.json` file doesn’t exist, that data is just in the Google Books API call.
 
@@ -33,9 +34,9 @@ And then I need to rewrite the booklist page on my site to build from the local 
 
 My solution is to write the script in Ruby. Now technically this could be done in any programming language like Python, Java, Perl… take your pick.
 
-But I wanted to make something that integrates easily with Jekyll site builds. I needed to find the simplest solution I could think of because I don’t know enough about the asset pipelines, build hooks, or gem plugins in Jekyll. If this site was built on the JAMStack I imagine I could easily just shift when the JavaScript runs and this problem would be solved.
+But I wanted to make something that integrates easily with Jekyll site builds. I needed to find the simplest solution I could think of because I don’t know enough about the asset pipelines, build hooks, or gem plugins in Jekyll. If this site was built on a more “modern” SSG I imagine I could easily just shift when the JavaScript runs and this problem would be solved.
 
-As Jekyll builds in Ruby it can easily run any Ruby file on site build just by placing it in the `_plugins` folder so this is the solution I opted for.
+As Jekyll builds in Ruby, it can easily run any Ruby file on site build just by placing it in the `_plugins` folder so this is the solution I opted for.
 
 With this solution the script should run whenever I build the site locally. It’s worth noting Github Pages does not support building custom plugins but this solution still works because I don’t need the data to update on every site build. The data will update whenever I build the site locally.
 
