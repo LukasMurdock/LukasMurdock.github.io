@@ -142,7 +142,7 @@ last_modified_at: 2020-02-26
 
   <div class="grid-container">
     {% for d in site.data.resources.fulldata %}
-    <div class="grid-item">
+    <div id="{{ d.Type | downcase}}" class="grid-item">
         <h2>{{ d.Type }}</h2>
         <ol>
           {% for Title in d.List %}
