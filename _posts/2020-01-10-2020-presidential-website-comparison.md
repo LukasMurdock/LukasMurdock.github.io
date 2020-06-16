@@ -268,8 +268,8 @@ Only candidates with $12,000,000+ in campaign fundraising were traced. In order 
     </li>
     <li>
         <p>Andrew Yang</p>
-        <div style="background-color: #002D72; color: #FFFFFF; padding: 20px; margin-bottom: 10px; float:left; display: inline-block;"><p><div class="colorname">White</div> Hex: #002D72</p></div>
-        <div style="background-color: #DA3248; color: #FFFFFF; padding: 20px; margin-bottom: 10px; display: inline-block;"><p><div>Blue</div> Hex: #DA3248</p></div>
+        <div style="background-color: #002D72; color: #FFFFFF; padding: 20px; margin-bottom: 10px; float:left; display: inline-block;"><p><div class="colorname">Blue</div> Hex: #002D72</p></div>
+        <div style="background-color: #DA3248; color: #FFFFFF; padding: 20px; margin-bottom: 10px; display: inline-block;"><p><div>Red</div> Hex: #DA3248</p></div>
     </li>
     <li>
         <p>Joe Biden</p>
@@ -293,8 +293,8 @@ Only candidates with $12,000,000+ in campaign fundraising were traced. In order 
     </li>
     <li>
         <p>John Delaney</p>
-        <div style="background-color: #84b8e3; color: #FFFFFF; padding: 20px; margin-bottom: 10px; float:left; display: inline-block;"><p><div class="colorname">White</div> Hex: #84b8e3</p></div>
-        <div style="background-color: #ee283b; color: #FFFFFF; padding: 20px; margin-bottom: 10px; display: inline-block;"><p><div>Blue</div> Hex: #ee283b</p></div>
+        <div style="background-color: #84b8e3; color: #FFFFFF; padding: 20px; margin-bottom: 10px; float:left; display: inline-block;"><p><div class="colorname">Blue</div> Hex: #84b8e3</p></div>
+        <div style="background-color: #ee283b; color: #FFFFFF; padding: 20px; margin-bottom: 10px; display: inline-block;"><p><div>Red</div> Hex: #ee283b</p></div>
     </li>
     <li>
         <p>Amy Klobuchar</p>
