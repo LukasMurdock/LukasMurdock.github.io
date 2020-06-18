@@ -292,9 +292,14 @@ fulldata:
         Date: Apr 22, 2020
         
 
-  #UIUX
+  # UIUX
   - Type: UIUX
     List:
+      - Title: Baymard Institute
+        Link: "https://baymard.com/"
+        Comment: "Researchers of the best ways to improve the online user experience"
+        Date: June 17, 2020
+
       - Title: Human Interface
         Link: https://developer.apple.com/design/human-interface-guidelines/
         Comment: "Get in-depth information and UI resources for designing great apps that integrate seamlessly with Apple platforms."
@@ -320,6 +325,11 @@ fulldata:
         Comment: "Shopify design system."
         Date: May 14, 2020
 
+      - Title: Color & Contrast Picker
+        Link: https://kevingutowski.github.io/color.html
+        Comment: "View closest accessible colors."
+        Date: Apr 22, 2020
+
       - Title: Color.review
         Link: https://color.review/
         Comment: "Colors that look and work great for everyone."
@@ -328,11 +338,6 @@ fulldata:
       - Title: Color by Cloudflare Design
         Link: https://cloudflare.design/color
         Comment: "Generate accessible color combinations."
-        Date: Apr 22, 2020
-        
-      - Title: Color & Contrast Picker
-        Link: https://kevingutowski.github.io/color.html
-        Comment: "View closest accessible colors."
         Date: Apr 22, 2020
 
       - Title: Accessible Color Matrix
@@ -609,6 +614,16 @@ fulldata:
         Comment: "See how your mobile site speed ranks compared to other top brands and learn how you can provide a faster, more frictionless mobile experience."
         Date: June 10, 2020
 
+      - Title: LSI Graph
+        Link: "https://lsigraph.com/"
+        Comment: "Get the most profitable semantically related keywords for all your SEO & paid marketing needs."
+        Date: June 17, 2020
+
+      - Title: Thruuu
+        Link: "https://app.samuelschmitt.com/"
+        Comment: "Get a quick overview of SERP content."
+        Date: June 17, 2020
+
       - Title: Answer the public
         Link: "https://answerthepublic.com/"
         Comment: "Search listening tool for market, customer & content research"
@@ -624,15 +639,30 @@ fulldata:
         Comment: "Search suggestions and completions from the top providers on the internet."
         Date: May 29, 2020
 
+      - Title: Also Asked
+        Link: "https://alsoasked.com/"
+        Comment: "Search listening tool for market, customer & content research"
+        Date: May 29, 2020
+
       - Title: Related subreddits
         Link: https://anvaka.github.io/sayit/?query=
-        Comment: "This website shows you a graph of related subreddits for any given one."
-        Date: Apr 22, 2020
+        Comment: "Discover the questions people are asking"
+        Date: June 17, 2020
 
       - Title: Reddit Keyword Research Tool
         Link: "https://www.highervisibility.com/free-seo-tools/keyworddit/"
         Comment: "Just enter in a subreddit name to generate keywords."
         Date: May 29, 2020
+
+      - Title: GA Checker
+        Link: "http://gachecker.com/"
+        Comment: "Check your entire site for missing Google Analytics or Google AdWords code with one click."
+        Date: June 17, 2020
+
+      - Title: Google Algorithm Update History
+        Link: "https://moz.com/google-algorithm-change"
+        Comment: "A history of major Google algorithm updates from 2000–present"
+        Date: June 17, 2020
 
       - Title: "List of SEO Tools"
         Link: "https://saijogeorge.com/best-marketing-tools/"
@@ -698,6 +728,11 @@ fulldata:
         Link: https://www.browseo.net/
         Comment: "View any web page like search engines see it, identify issues with your site and with competitors' sites, 100% free."
         Date: May 26, 2020
+
+      - Title: Security Headers
+        Link: https://securityheaders.com/
+        Comment: "Quickly and easily assess the security of your HTTP response headers."
+        Date: June 17, 2020
 
       - Title: Built With
         Link: https://builtwith.com/
@@ -1236,6 +1271,11 @@ fulldata:
         Comment: "Web fonts in the wild, font recommendations and learning resources."
         Date: Apr 22, 2020
 
+      - Title: Google Webfonts Helper
+        Link: https://google-webfonts-helper.herokuapp.com/fonts
+        Comment: "A tool to self-host Google Fonts hassle-free."
+        Date: June 17, 2020
+
       - Title: Google Fonts Analytics
         Link: https://fonts.google.com/analytics
         Comment: "Making the web more beautiful, fast, and open through great typography."
@@ -1303,6 +1343,11 @@ fulldata:
         Link: https://www.formalfounder.com/
         Comment: "A free business name availability search tool used to help entrepreneurs find available businesses names, trademarks, patents, domains, and social media handles nationwide."
         Date: Apr 22, 2020
+
+      - Title: Business Name Grader
+        Link: https://www.rewindandcapture.com/brand-grader/
+        Comment: "How strong is your business name?"
+        Date: June 17, 2020
 
       - Title: Namewink
         Link: https://namewink.com/
