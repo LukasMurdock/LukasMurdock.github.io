@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Chrome Extensions'
-description: "The Chrome Extensions I use daily."
+description: "All of my Chrome Extensions."
 date: June 19, 2020
 ---
 
