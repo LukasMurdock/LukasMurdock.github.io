@@ -49,6 +49,13 @@ I have a [Chrome Apps section on my knowledge page](https://lukasmurdock.com/kno
 
 "Chrome extension for XPath operations on current document, reliable and easy to use with fully featured XPath 2.0 support."
 
+## Scraper
+<img loading="lazy" style="max-width:60px" src="https://lh3.googleusercontent.com/MHLkbhxSs4XBZhQJi1E-XHgay0EIbQeh_0fgkhnw4Jyh0Yc7XusuCBJJBEJMb0OBXn3ehNevDqU=w128-h128-e365" alt="Scraper">
+
+[View Scraper in Chrome Web Store](https://chrome.google.com/webstore/detail/scraper/mbigbapnjcgaffohmbkdlecaccepngjd)
+
+"Scraper is a very simple (but limited) data mining extension for facilitating online research when you need to get data into spreadsheet form quickly."
+
 ## Web Developer
 <img loading="lazy" style="max-width:60px" src="https://lh3.googleusercontent.com/ZccCYQft-IxBg8e8B2FsZTPXyu9kYaTKGX4vxVoTVztguJVsrhTlJo_qVd1H1tesz03BxwMdYg=w128-h128-e365" alt="Web Developer">
 
