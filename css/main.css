@@ -41,7 +41,7 @@ body{
     -moz-font-feature-settings: 'kern';
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: #f2f2f2;
+    background-color: #fafafa;
     font-family: var(--sans);
 }
 
@@ -397,13 +397,14 @@ footer {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
-        background-color: #FAFAFA;
+        background-color: #fafafa;
         position: fixed;
         bottom: 0px;
         margin-bottom: -257.5px;
         width: 100%;
         border-radius: 12px 12px 0 0;
         z-index: 1;
+        box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
         -webkit-transition: all 200ms ease-in-out;
         -moz-transition: all 200ms ease-in-out;
          -ms-transition: all 200ms ease-in-out;
