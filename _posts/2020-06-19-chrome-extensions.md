@@ -209,3 +209,10 @@ I have a [Chrome Apps section on my knowledge page](https://lukasmurdock.com/kno
 [View Video Speed Controller in Chrome Web Store](https://chrome.google.com/webstore/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk)
 
 "Speed up, slow down, advance and rewind HTML5 audio/video with shortcuts."
+
+## The Great Suspender
+<img loading="lazy" style="max-width:60px" src="https://lh3.googleusercontent.com/oIL32987xenUeQSnESup1X925FKs5-NsLPX2yK2xFevhYdiJaQiSndTNyJXreFoWUAcdfEh-Tps=w128-h128-e365" alt="The Great Suspender">
+
+[View The Great Suspender in Chrome Web Store](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg?hl=en)
+
+"A lightweight extension to reduce chrome's memory footprint."
