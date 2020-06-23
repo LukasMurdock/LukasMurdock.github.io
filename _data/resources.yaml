@@ -191,6 +191,11 @@ fulldata:
         Comment: "A gentle, yet comprehensive introduction to how these things work."
         Date: Apr 22, 2020
 
+      - Title: Teach Yourself Computer Science
+        Link: https://teachyourselfcs.com/
+        Comment: "All the resources you need to give yourself a world class computer science education."
+        Date: June 23, 2020
+
       - Title: Ultimate Electronics
         Link: https://ultimateelectronicsbook.com/
         Comment: "A free, interactive book for electronics hobbyists and electrical engineering students."
@@ -281,6 +286,16 @@ fulldata:
         Comment: "The largest collection of startup pitch decks."
         Date: May 26, 2020
 
+      - Title: Bruce Clay SEO Checklist
+        Link: https://www.bruceclay.com/blog/seo-checklist/
+        Comment: "The always up-to-date SEO checklist."
+        Date: June 23, 2020
+
+      - Title: Link Building Strategies
+        Link: https://www.theseoproject.org/link-building-strategies/
+        Comment: "180+ strategies and exactly how to execute each one from start-to-finish."
+        Date: June 23, 2020
+
       - Title: Publish Something Online
         Link: https://publishsomething.online/
         Comment: "How to make things that live on the internet."
@@ -344,6 +359,11 @@ fulldata:
         Link: https://jxnblk.github.io/colorable/demos/matrix/
         Comment: "See accessibility of color palette."
         Date: Apr 22, 2020
+
+      - Title: Color Scale Generator
+        Link: https://hihayk.github.io/scale/
+        Comment: "Color scale generator by Hayk An"
+        Date: June 23, 2020
 
       - Title: Colors and Fonts
         Link: https://www.colorsandfonts.com/
@@ -459,6 +479,11 @@ fulldata:
         Link: https://cantunsee.space/
         Comment: "Select the design that is most correct"
         Date: Apr 22, 2020
+
+      - Title: Hex Test
+        Link: https://madebyshape.co.uk/hex-test/play/
+        Comment: "All you’ve got to do is drag the card to the hex you think is correct. Simple, right?"
+        Date: June 23, 2020
 
       - Title: Segment
         Link: https://segment.com/
@@ -663,6 +688,26 @@ fulldata:
         Link: "https://moz.com/google-algorithm-change"
         Comment: "A history of major Google algorithm updates from 2000–present"
         Date: June 17, 2020
+
+      - Title: "Schema.dev"
+        Link: "https://schema.dev/"
+        Comment: "Everything you need to implement structured data - in minutes not months."
+        Date: June 23, 2020
+
+      - Title: "Whitespark Citations by Category"
+        Link: "https://whitespark.ca/best-citations-by-category/"
+        Comment: "Whitespark's definitive list of the best citations by category."
+        Date: June 23, 2020
+
+      - Title: "Moz Citations by Category"
+        Link: "https://moz.com/learn/seo/citations-by-category"
+        Comment: "Citations by category for local SEO."
+        Date: June 23, 2020
+
+      - Title: "Brightlocal Citations by Category"
+        Link: "https://www.brightlocal.com/resources/top-local-citations-by-business-category/"
+        Comment: "A comprehensive list of the top citations by business category and industry."
+        Date: June 23, 2020
 
       - Title: "List of SEO Tools"
         Link: "https://saijogeorge.com/best-marketing-tools/"
@@ -1136,6 +1181,11 @@ fulldata:
         Comment: "Collection of thinking tools and frameworks to help you solve problems, make decisions and understand systems."
         Date: May 27, 2020
 
+      - Title: Travel like a local
+        Link: "https://pudding.cool/2020/05/travel-local/"
+        Comment: "A concise, travel-like-a-local guide to 74,762 attractions, according to 9,526,193 reviews."
+        Date: June 23, 2020
+
       - Title: Makerpad
         Link: https://www.makerpad.co/
         Comment: "Build tools & automate at work without code."
@@ -1311,6 +1361,11 @@ fulldata:
         Comment: "Find and download high resolution iTunes artwork."
         Date: Apr 22, 2020
 
+      - Title: Dieter Rams Wallpapers
+        Link: https://www.arun.is/dieter-rams-wallpapers/
+        Comment: "A selection of free beautiful mobile wallpapers featuring the work of legendary designer Dieter Rams."
+        Date: June 23, 2020
+
 
 
 
@@ -1358,6 +1413,11 @@ fulldata:
         Link: https://namewink.com/
         Comment: "Business Name Generator for Unique and Creative Name Ideas."
         Date: Apr 22, 2020
+
+      - Title: Name Generator
+        Link: https://www.logaster.com/names-generator/
+        Comment: "Logaster business name generator."
+        Date: June 23, 2020
 
       - Title: Wordoid
         Link: https://wordoid.com
@@ -1409,18 +1469,28 @@ fulldata:
         Comment: "Simple, free, fully responsive one-page sites for pretty much anything."
         Date: May 31, 2020
 
-  #Website
+  # Website
   - Type: Website
     List:
-      - Title: Dataset Search
-        Link: https://datasetsearch.research.google.com/
-        Comment: "Find datasets stored across the Web through a simple keyword search."
-        Date: Apr 22, 2020
+      - Title: Google My Activity
+        Link: https://myactivity.google.com/more-activity
+        Comment: "Review and manage your activity, including things you’ve searched for, websites you’ve visited, and videos you’ve watched."
+        Date: June 23, 2020
 
       - Title: Political advertising transparency
         Link: https://transparencyreport.google.com/political-ads/home
         Comment: "To help everyone understand the ads they see online."
         Date: Apr 22, 2020
+
+      - Title: Dataset Search
+        Link: https://datasetsearch.research.google.com/
+        Comment: "Find datasets stored across the Web through a simple keyword search."
+        Date: Apr 22, 2020
+
+      - Title: Free Data Sources
+        Link: https://www.siegemedia.com/creation/data-sources
+        Comment: "106 trustworthy, free data sources."
+        Date: June 23, 2020
 
       - Title: Project Gutenburg
         Link: https://www.gutenberg.org/
@@ -1716,6 +1786,16 @@ fulldata:
         Link: https://brentryanjohnson.com/
         Comment: "Content strategy, communication, writing, design, and GIS. Inspired reading list"
         Date: Apr 22, 2020
+
+      - Title: Arun Venkatesan
+        Link: https://www.arun.is/
+        Comment: "Designer with a background in engineering and co-founder at Carrot."
+        Date: June 23, 2020
+
+      - Title: Ali Abdaal
+        Link: https://aliabdaal.com/
+        Comment: "Doctor, YouTuber and podcaster."
+        Date: June 23, 2020
 
       - Title: Zach Shefska
         Link: https://shefska.com/
