@@ -25,6 +25,11 @@ fulldata:
   - Type: Guides
     List:
 
+      - Title: "Workshop Tactics"
+        Link: https://www.workshoptactics.com/pages/tactics
+        Comment: "A curated list of the best agile workshop exercises, activities, and techniques."
+        Date: July 2, 2020
+
       - Title: "Science and Statistics"
         Link: http://www-sop.inria.fr/members/Ian.Jermyn/philosophy/writings/Boxonmaths.pdf
         Comment: "We make tentative assumptions about the real world which we know are false but which we believe may be useful nonetheless."
@@ -35,16 +40,25 @@ fulldata:
         Comment: "A down-to-earth step-by-step guide on how to create a digital marketing strategy."
         Date: May 22, 2020
 
+      - Title: The Good Service Scale
+        Link: https://good.services/the-good-services-scale
+        Comment: "Assess the quality of your service using the 15 Principles of Good Service Design."
+        Date: July 2, 2020
+
       - Title: MIT Open Courseware
         Link: https://ocw.mit.edu/index.htm
         Comment: "A web-based publication of virtually all MIT course content. OCW is open and available to the world and is a permanent MIT activity."
         Date: Apr 22, 2020
 
-
       - Title: How to Speak
         Link: https://ocw.mit.edu/resources/res-tll-005-how-to-speak-january-iap-2018/how-to-speak/index.htm
         Comment: "Maximize the opportunity to have your ideas valued and accepted by the people you speak with."
         Date: Apr 22, 2020
+
+      - Title: Share Models, Not Beliefs
+        Link: "https://www.lesswrong.com/s/zucjLBpQ9S9eWPWGu"
+        Comment: "An in-progress sequence in praise of both having models and being disagreeable."
+        Date: July 2, 2020
 
       - Title: Technical Writing
         Link: https://developers.google.com/tech-writing
@@ -60,6 +74,11 @@ fulldata:
         Link: https://learn-anything.xyz/
         Comment: "You can learn anything."
         Date: Apr 22, 2020
+
+      - Title: Google Digital Toolkit
+        Link: "https://smallbusiness.withgoogle.com/tools/"
+        Comment: "Marketing tools to grow your business"
+        Date: July 2, 2020
 
       - Title: Google Skillshop
         Link: https://skillshop.withgoogle.com/
@@ -100,6 +119,11 @@ fulldata:
         Link: https://calmtech.com/
         Comment: "Principles of Calm Technology."
         Date: Apr 22, 2020
+
+      - Title: Do things that don’t scale
+        Link: https://www.dothingsthatdontscale.com/
+        Comment: "A crowdsourced collection of unscalable startup hacks and stories"
+        Date: July 2, 2020
 
       - Title: Road to Scale
         Link: https://roadtoscale.com/
@@ -196,6 +220,16 @@ fulldata:
         Comment: "All the resources you need to give yourself a world class computer science education."
         Date: June 23, 2020
 
+      - Title: SQL Bolt
+        Link: https://sqlbolt.com/
+        Comment: "A series of interactive lessons and exercises designed to help you quickly learn SQL right in your browser."
+        Date: July 2, 2020
+
+      - Title: Regex One
+        Link: https://regexone.com/
+        Comment: "A series of interactive lessons and exercises designed to help you quickly learn regular expressions."
+        Date: July 2, 2020
+
       - Title: Ultimate Electronics
         Link: https://ultimateelectronicsbook.com/
         Comment: "A free, interactive book for electronics hobbyists and electrical engineering students."
@@ -286,6 +320,11 @@ fulldata:
         Comment: "The largest collection of startup pitch decks."
         Date: May 26, 2020
 
+      - Title: "Writing SEO Content"
+        Link: "https://www.manaferra.com/how-to-write-seo-friendly-content/"
+        Comment: "If you’ve been searching for a guide that shows you every step of how to write SEO-friendly content, you’ve come to the right place."
+        Date: July 2, 2020
+
       - Title: Bruce Clay SEO Checklist
         Link: https://www.bruceclay.com/blog/seo-checklist/
         Comment: "The always up-to-date SEO checklist."
@@ -319,6 +358,11 @@ fulldata:
         Link: https://developer.apple.com/design/human-interface-guidelines/
         Comment: "Get in-depth information and UI resources for designing great apps that integrate seamlessly with Apple platforms."
         Date: Apr 22, 2020
+
+      - Title: "Apple Design Resources"
+        Link: "https://developer.apple.com/design/resources/"
+        Comment: "Design apps quickly by using Sketch and Photoshop templates, plug-ins, and preconfigured UI elements."
+        Date: July 2, 2020
 
       - Title: Material Design
         Link: https://material.io/design/
@@ -624,6 +668,11 @@ fulldata:
         Comment: "SEO analysis, tools, and insights."
         Date: May 29, 2020
 
+      - Title: Meta Tags
+        Link: "https://metatags.io/"
+        Comment: "Edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more."
+        Date: July 2, 2020
+
       - Title: Entity Explorer
         Link: "https://entityexplorer.com/"
         Comment: "Produce more authoritative content with deep entity research and visual entity maps."
@@ -709,6 +758,11 @@ fulldata:
         Comment: "A comprehensive list of the top citations by business category and industry."
         Date: June 23, 2020
 
+      - Title: "Free visual site map"
+        Link: "https://octopus.do/"
+        Comment: "Fast and easy visual site maps creation, no registration required."
+        Date: July 2, 2020
+
       - Title: "List of SEO Tools"
         Link: "https://saijogeorge.com/best-marketing-tools/"
         Comment: "Curated links handpicked by Saijo George."
@@ -785,7 +839,7 @@ fulldata:
         Date: Apr 22, 2020
 
       - Title: Similar Web
-        Link: https://similarweb.com/
+        Link: https://www.similarweb.com/
         Comment: "Compare any website traffic statistics & analytics."
         Date: Apr 22, 2020
 
@@ -1595,6 +1649,11 @@ fulldata:
         Comment: "Score your overall headline quality and rate its ability to result in social shares, increased traffic, and SEO value."
         Date: May 22, 2020
 
+      - Title: Headlime.io
+        Link: "https://headlime.io/"
+        Comment: "Get access to high converting headlines. Headlime generates hundreds of headlines for you, simply by answering a few questions."
+        Date: July 2, 2020
+
       - Title: Email Drips
         Link: https://www.emaildrips.com/
         Comment: "82 email drip campaign examples."
@@ -1712,6 +1771,11 @@ fulldata:
   # Personal Sites
   - Type: Personal sites
     List:
+      - Title: The Whimsical Web
+        Link: "https://whimsical.club/"
+        Comment: "A curated list of sites with an extra bit of fun."
+        Date: July 2, 2020
+
       - Title: Humans.fyi
         Link: https://humans.fyi/
         Comment: Design inspiration from some of the best humans on the web.
@@ -1761,6 +1825,11 @@ fulldata:
         Link: https://chrispederick.com/
         Comment: "A web developer originally from London, England, but now living in San Francisco, California."
         Date: Apr 22, 2020
+
+      - Title: Cassie Evans
+        Link: "https://www.cassie.codes/"
+        Comment: "Writes and talks about interactivity with code."
+        Date: July 2, 2020
 
       - Title: Paul Stamatiou
         Link: https://paulstamatiou.com/
@@ -1836,6 +1905,11 @@ fulldata:
         Link: https://aymanjaddaa.com/
         Comment: "Designer at Apple"
         Date: May 21, 2020
+
+      - Title: Elliot Jay Stocks
+        Link: "https://elliotjaystocks.com/"
+        Comment: "Designer, musician, writer & speaker."
+        Date: July 2, 2020
 
   #Creative Coding
   - Type: Creative Coding
