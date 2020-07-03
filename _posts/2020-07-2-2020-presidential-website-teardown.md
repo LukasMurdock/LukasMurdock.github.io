@@ -1179,7 +1179,7 @@ Here’s what I found.
 
 As noted in previous analysis, donaldjtrump.com boasts a significantly higher donation default across the board. Taking another moment on forms, donaldjtrump.com hosts a slew of dark patterns within it’s forms. Dark patterns are items carefully crafted to trick users into doing things they might not otherwise do. I’ll call the higher donation defaults a form of dark pattern, but the more prominent one is the opt-out monthly recurring donation. The default on joebiden.com is “No, donate once.”
 
-**Donaldjtrump.com has nearly double the pages as joebiden.com.** The pages on donaldjtrump.com primarily come from the /media/ subfolder.
+**Donaldjtrump.com has nearly double the amount of pages as joebiden.com.** The pages on donaldjtrump.com primarily come from the /media/ subfolder.
 
 **For the most part, pages on donaldjtrump.com have duplicate unique meta descriptions.** Almost all pages contain “Help continue our promise to Keep America Great!”
 
@@ -1205,7 +1205,7 @@ Donaldjtrump.com has three dev login subdomains, while joebiden.com has a test s
 
 Donaldjtrump.com has subfolders for media and assets, while joebiden.com has subfolders for Wordpress content and espanol.
 
-**Donaldjtrump.com has tried MANY tools for analytics and optimization.** MediaMath, an analytics tool still used by joebiden.com, was no longer detected on donaldjtrump.com starting January 2017. Twitter Analytics was also no longer detected starting February 2020. Interestingly Yahoo eb Analytics is still detected on donaldjtrump.com.
+**Donaldjtrump.com has tried MANY tools for analytics and optimization.** MediaMath, an analytics tool still used by joebiden.com, was no longer detected on donaldjtrump.com starting January 2017. Twitter Analytics was also no longer detected starting February 2020. Interestingly Yahoo Web Analytics is still detected on donaldjtrump.com.
 
 **Donaldjtrump.com CMS:** Expression Engine, **Web Host:** Cloudflare  
 **Joebiden.com CMS:** Wordpress, **Web Host:** Pantheon
