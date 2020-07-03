@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '2020 U.S. Presidential Website Teardown'
-description: "Comparing the 2020 Presidential Candidates Websites."
+description: "Comparing the 2020 Presidential Candidate Websites."
 date: July 2, 2020
 ---
 <style>
@@ -1177,7 +1177,7 @@ Here’s what I found.
 
 ## Non-political Analysis
 
-As noted in a previous analysis, donaldjtrump.com boasts a significantly higher donation default across the board. Taking another moment on forms, donaldjtrump.com hosts a slew of dark patterns within its forms. Dark patterns are items carefully crafted to trick users into doing things they might not otherwise do. I’ll call the higher donation defaults a form of a dark pattern, but the more prominent one is the opt-out monthly recurring donation. The default on joebiden.com is “No, donate once.”
+As noted in a previous analysis, donaldjtrump.com boasts a significantly higher donation default across the board. Taking another moment on forms, **donaldjtrump.com hosts a slew of dark patterns within its forms**. Dark patterns are items carefully crafted to trick users into doing things they might not otherwise do. I’ll call the higher donation defaults a form of a dark pattern, but the more prominent one is the opt-out monthly recurring donation. The default on joebiden.com is “No, donate once.”
 
 **Donaldjtrump.com has nearly double the number of pages as joebiden.com.** The pages on donaldjtrump.com primarily come from the /media/ subfolder.
 
