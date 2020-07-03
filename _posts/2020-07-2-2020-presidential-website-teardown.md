@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '2020 U.S. Presidential Website Teardown'
-description: "What I learned by comparing presidential websites."
+description: "Comparing the 2020 Presidential Candidates Websites."
 date: July 2, 2020
 ---
 <style>
