@@ -75,7 +75,7 @@ Here’s what I found.
   <tr>
     <td>
     <div class="tooltip">Minimum Donation Default
-    <span class="tooltiptext">Lowest default on the first homepage popup.</span>
+    <span class="tooltiptext">The lowest default on the first homepage popup.</span>
     </div>
     </td>
     <td class="number">$15</td>
@@ -84,7 +84,7 @@ Here’s what I found.
   <tr>
     <td>
     <div class="tooltip">Maximum Donation Default
-    <span class="tooltiptext">Highest default on the first homepage popup.</span>
+    <span class="tooltiptext">The highest default on the first homepage popup.</span>
     </div>
     </td>
     <td class="number">$1,000</td>
@@ -553,18 +553,18 @@ Here’s what I found.
     </tr>
     <tr>
         <td>Yoast SEO Premium</td>
-        <td>Widgets (Wordpress)</td>
+        <td>Widgets (WordPress)</td>
     </tr>
     <tr>
         <td>Autoptimize</td>
-        <td>Widgets (Wordpress)</td>
+        <td>Widgets (WordPress)</td>
     </tr>
     <tr>
         <td>GStatic</td>
         <td>CDN</td>
     </tr>
     <tr>
-        <td>Wordpress</td>
+        <td>WordPress</td>
         <td>CMS</td>
     </tr>
     <tr>
@@ -1177,15 +1177,15 @@ Here’s what I found.
 
 ## Non-political Analysis
 
-As noted in previous analysis, donaldjtrump.com boasts a significantly higher donation default across the board. Taking another moment on forms, donaldjtrump.com hosts a slew of dark patterns within it’s forms. Dark patterns are items carefully crafted to trick users into doing things they might not otherwise do. I’ll call the higher donation defaults a form of dark pattern, but the more prominent one is the opt-out monthly recurring donation. The default on joebiden.com is “No, donate once.”
+As noted in a previous analysis, donaldjtrump.com boasts a significantly higher donation default across the board. Taking another moment on forms, donaldjtrump.com hosts a slew of dark patterns within its forms. Dark patterns are items carefully crafted to trick users into doing things they might not otherwise do. I’ll call the higher donation defaults a form of a dark pattern, but the more prominent one is the opt-out monthly recurring donation. The default on joebiden.com is “No, donate once.”
 
-**Donaldjtrump.com has nearly double the amount of pages as joebiden.com.** The pages on donaldjtrump.com primarily come from the /media/ subfolder.
+**Donaldjtrump.com has nearly double the number of pages as joebiden.com.** The pages on donaldjtrump.com primarily come from the /media/ subfolder.
 
 **For the most part, pages on donaldjtrump.com have duplicate unique meta descriptions.** Almost all pages contain “Help continue our promise to Keep America Great!”
 
-Donaldjtrump.com opted to use a subdomain for spanish versions of the site, while joebiden.com uses hreflang.
+Donaldjtrump.com opted to use a subdomain for Spanish versions of the site, while joebiden.com uses hreflang.
 
-**Donaldjtrump.com has over double the amount of backlinks compared to joebiden.com.** But joebiden.com has 27 percent more dofollow links.
+**Donaldjtrump.com has over double the number of backlinks compared to joebiden.com.** But joebiden.com has 27 percent more dofollow links.
 
 **Donaldjtrump.com has nearly three times the amount of referring domains** and has the same dofollow percentage as joebiden.com.
 
@@ -1195,7 +1195,7 @@ The top referring page for donaldjtrump.com is an online news site focused prima
 
 **During the week on June 14-21, donaldjtrump.com had seven times more pages indexed than joebiden.com.**
 
-The top two subdomains on donaldjtrump.com are for eCommerce, and a clone of gop.com. While the top two subdomains for joebiden.com are both for form handling.
+The top two subdomains on donaldjtrump.com are for eCommerce and a clone of gop.com. While the top two subdomains for joebiden.com are both for form handling.
 
 **The subdomain donate.donaldjtrump.com has a maximum donation default of $33,900…**
 
@@ -1203,12 +1203,12 @@ Donaldjtrump.com has a slew of subdomains that act as landing pages targeting (i
 
 Donaldjtrump.com has three dev login subdomains, while joebiden.com has a test subdomain.
 
-Donaldjtrump.com has subfolders for media and assets, while joebiden.com has subfolders for Wordpress content and espanol.
+Donaldjtrump.com has subfolders for media and assets, while joebiden.com has subfolders for WordPress content and espanol.
 
-**Donaldjtrump.com has tried MANY tools for analytics and optimization.** MediaMath, an analytics tool still used by joebiden.com, was no longer detected on donaldjtrump.com starting January 2017. Twitter Analytics was also no longer detected starting February 2020. Interestingly Yahoo Web Analytics is still detected on donaldjtrump.com.
+**Donaldjtrump.com has tried MANY tools for analytics and optimization.** MediaMath, an analytics tool still used by joebiden.com, was no longer detected on donaldjtrump.com starting January 2017. Twitter Analytics was also no longer detected starting in February 2020. Interestingly Yahoo Web Analytics is still detected on donaldjtrump.com.
 
 **Donaldjtrump.com CMS:** Expression Engine, **Web Host:** Cloudflare  
-**Joebiden.com CMS:** Wordpress, **Web Host:** Pantheon
+**Joebiden.com CMS:** WordPress, **Web Host:** Pantheon
 
 
 Aside from the candidate, **titles on joebiden.com tend to focus on his team and his campaign**. While **titles on donaldjtrump.com tend to focus on Joe Biden and real news.**
