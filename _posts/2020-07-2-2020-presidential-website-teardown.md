@@ -56,7 +56,7 @@ I dove into the 2020 Presidential candidate websites to breakdown and compare th
 - [Direct Comparison](#direct-comparison): Total pages, backlinks, web vitals, page titles, metadata, duplicate content, robots and directives, and more.
 - [Subdomain Comparison](#subdomain-comparison): Site architecture of subdomains.
 - [Subfolder Comparison](#subfolder-comparison): Site architecture of subfolders.
-- [BuiltWith Comparison](#builtwith-comparison): Breakdown what each website is built with.
+- [BuiltWith Comparison](#builtwith-comparison): What each website is built with.
 - [Title Keyword Density](#title-keyword-density): Number of times a keyword or phrase appears in the title.
 - [Description Keyword Density](#description-keyword-density): Number of times a keyword or phrase appears in the description.
 - [Non-political Analysis](#non-political-analysis)
