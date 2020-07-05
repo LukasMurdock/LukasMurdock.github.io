@@ -16,6 +16,36 @@
 }
 
 
+div.clickEffect {
+    position: fixed;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: #000000;
+    border-radius: 50%;
+    animation: clickEffect 0.4s ease-out;
+    z-index: 99999;
+  }
+  
+  @keyframes clickEffect {
+      0% {
+      opacity: 1;
+      width: 100px;
+      height: 100px;
+      margin: -0.25em;
+      border-width: 10px;
+    }
+      100% {
+      opacity: 0.2;
+      width: 200px;
+      height: 200px;
+      margin: -7.5em;
+      border-width: 20px;
+    }
+  }
+  
+  
+
+
 
 a:hover {
     cursor: pointer;
@@ -29,6 +59,10 @@ a:link, a:visited {
 
 a {
     color: var(--color-blue);
+}
+
+.confetti {
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='32' height='38' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🎉</text></svg>") 16 0, auto;
 }
 
 body{

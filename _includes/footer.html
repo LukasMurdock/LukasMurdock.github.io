@@ -49,4 +49,10 @@
 
   <p>Copyright &copy; {{ site.time | date: '%Y' }} Lukas Murdock. All rights reserved.</p>
 
+
+  <input type="checkbox" id="party" name="party" value="party" onclick="startParty()">
+  <label for="party"> Party</label>
+
 </footer>
+<script src="{{ '/js/app.js' | prepend: site.baseurl }}"></script>
+<script src="https://cdn.jsdelivr.net/npm/ripplet.js@0.2.0/umd/ripplet-declarative.min.js"></script>
