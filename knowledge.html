@@ -134,11 +134,29 @@ last_modified_at: 2020-02-26
 
 </style>
 
+<script>
+function getRandomInt(max) {
+  return Math.floor(Math.random() * Math.floor(max));
+}
+
+  function randomResource() {
+    var resourceData = {{ site.data.resources.fulldata  | jsonify }};
+    console.log(resourceData.length);
+    resourceCategory = getRandomInt(resourceData.length);
+    console.log(resourceData[resourceCategory]);
+    resourceSelectionNumber = getRandomInt(resourceData[resourceCategory]["List"].length);
+    resourceSelection = resourceData[resourceCategory]["List"][resourceSelectionNumber]["Link"];
+    window.open(resourceSelection, '_blank').focus();
+  }
+</script>
+
 <p style="text-align:center; margin-top: 2px;">Explore design, development, and marketing.</p>
 
 <div class="pagebody-content">
 
     <a style="margin-bottom: 10px; color: #000; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" class="more-btn" href="{{ '/resources/' | prepend: site.baseurl }}">View all resources</a>
+  <br />
+    Wow, that’s alot! <a style="margin-bottom: 10px;" href="#" onclick="randomResource()">Give me something random!</a>
 
   <div class="grid-container">
     {% for d in site.data.resources.fulldata %}
