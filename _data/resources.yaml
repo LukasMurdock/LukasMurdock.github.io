@@ -4,6 +4,7 @@
 # Software
 # Words
 # SEO
+# Guides to SEO
 # Evaluation
 # Chrome add-ons
 # Guides
@@ -35,11 +36,6 @@ fulldata:
         Comment: "We make tentative assumptions about the real world which we know are false but which we believe may be useful nonetheless."
         Date: May 31, 2020
 
-      - Title: Digital Marketing Strategy Guide
-        Link: https://www.clickminded.com/digital-marketing-strategy/
-        Comment: "A down-to-earth step-by-step guide on how to create a digital marketing strategy."
-        Date: May 22, 2020
-
       - Title: The Good Service Scale
         Link: https://good.services/the-good-services-scale
         Comment: "Assess the quality of your service using the 15 Principles of Good Service Design."
@@ -64,11 +60,6 @@ fulldata:
         Link: https://developers.google.com/tech-writing
         Comment: "Google Developers Technical Writing Course for Engineers."
         Date: Apr 22, 2020
-
-      - Title: The Content Marketing Handbook
-        Link: https://priceonomics.com/the-content-marketing-handbook/
-        Comment: "A 30,000+ word blog post about how to write about information and make it spread."
-        Date: May 03, 2020
 
       - Title: Learn Anything
         Link: https://learn-anything.xyz/
@@ -139,6 +130,11 @@ fulldata:
         Link: https://university.webflow.com/freelancer
         Comment: "A free, comprehensive course that teaches you how to succeed as a freelance web designer."
         Date: Apr 22, 2020
+
+      - Title: Pricing Freelance Projects
+        Link: "https://mobile.twitter.com/tom_hirst/status/1277933730078785537"
+        Comment: "A thread by Tom Hirst on everything he knows about pricing freelance projects."
+        Date: July 7, 2020
 
       - Title: Google Project Aristotle
         Link: https://rework.withgoogle.com/guides/understanding-team-effectiveness/steps/introduction/
@@ -239,11 +235,6 @@ fulldata:
         Link: "https://simplifier.neocities.org/"
         Comment: "Creating a stable foundation of technology that is reliable, understandable, and practical for an individual to build for themselves."
         Date: May 31, 2020
-
-      - Title: Guide to HTML head elements
-        Link: https://htmlhead.dev/
-        Comment: "A free guide to HTML5 head tag elements."
-        Date: Apr 22, 2020
         
       - Title: Visual intro to probability and statistics
         Link: https://seeing-theory.brown.edu
@@ -320,21 +311,6 @@ fulldata:
         Comment: "The largest collection of startup pitch decks."
         Date: May 26, 2020
 
-      - Title: "Writing SEO Content"
-        Link: "https://www.manaferra.com/how-to-write-seo-friendly-content/"
-        Comment: "If you’ve been searching for a guide that shows you every step of how to write SEO-friendly content, you’ve come to the right place."
-        Date: July 2, 2020
-
-      - Title: Bruce Clay SEO Checklist
-        Link: https://www.bruceclay.com/blog/seo-checklist/
-        Comment: "The always up-to-date SEO checklist."
-        Date: June 23, 2020
-
-      - Title: Link Building Strategies
-        Link: https://www.theseoproject.org/link-building-strategies/
-        Comment: "180+ strategies and exactly how to execute each one from start-to-finish."
-        Date: June 23, 2020
-
       - Title: Publish Something Online
         Link: https://publishsomething.online/
         Comment: "How to make things that live on the internet."
@@ -344,7 +320,61 @@ fulldata:
         Link: https://preciousplastic.com/
         Comment: "Start a business from plastic waste!"
         Date: Apr 22, 2020
+
+  #Guides
+  - Type: Guides to SEO
+    List:
+
+      - Title: The Content Marketing Handbook
+        Link: https://priceonomics.com/the-content-marketing-handbook/
+        Comment: "A 30,000+ word blog post about how to write about information and make it spread."
+        Date: May 03, 2020
+
+      - Title: B2C Content Marketing
+        Link: "https://growandconvert.com/content-marketing/b2c-content-marketing/"
+        Comment: "Case study on SEO done right."
+        Date: July 7, 2020
+
+      - Title: Two Algorithm SEO
+        Link: "https://www.slideshare.net/randfish/onsite-seo-in-2015-an-elegant-weapon-for-a-more-civilized-marketer"
+        Comment: "Presentation by Rand Fishkin about SEO in a Two Algorithm World."
+        Date: July 7, 2020
+
+      - Title: "Writing SEO Content"
+        Link: "https://www.manaferra.com/how-to-write-seo-friendly-content/"
+        Comment: "If you’ve been searching for a guide that shows you every step of how to write SEO-friendly content, you’ve come to the right place."
+        Date: July 2, 2020
+
+      - Title: Digital Marketing Strategy Guide
+        Link: https://www.clickminded.com/digital-marketing-strategy/
+        Comment: "A down-to-earth step-by-step guide on how to create a digital marketing strategy."
+        Date: May 22, 2020
+
+      - Title: Bruce Clay SEO Checklist
+        Link: https://www.bruceclay.com/blog/seo-checklist/
+        Comment: "The always up-to-date SEO checklist."
+        Date: June 23, 2020
+
+      - Title: Link Building SaaS Playbook
+        Link: "https://mygrowthgorilla.com/link-building-saas-playbook/"
+        Comment: "Backlinks for SaaS companies very rarely come naturally. Especially cause everybody and their mom are starting a SaaS company in 2020."
+        Date: July 7, 2020
+
+      - Title: Link Building Strategies
+        Link: https://www.theseoproject.org/link-building-strategies/
+        Comment: "180+ strategies and exactly how to execute each one from start-to-finish."
+        Date: June 23, 2020
+
+      - Title: 22 Link Building Email Templates
+        Link: "https://almanac.io/articles/31972/template-22-link-building-email-templates/"
+        Comment: "22 link-building emails"
+        Date: July 7, 2020
         
+      - Title: Guide to HTML head elements
+        Link: https://htmlhead.dev/
+        Comment: "A free guide to HTML5 head tag elements."
+        Date: Apr 22, 2020
+
 
   # UIUX
   - Type: UIUX
@@ -612,6 +642,11 @@ fulldata:
 # SEO
   - Type: SEO
     List:
+
+      - Title: "199 Point SEO Audit Checklist"
+        Link: "https://www.iqseo.org/seo-audit-checklist/"
+        Comment: "This SEO audit checklist walks you through every single audit point and even which tools you should use to gather your data."
+        Date: July 7, 2020
 
       - Title: Ahrefs
         Link: "https://ahrefs.com/"
@@ -1142,6 +1177,11 @@ fulldata:
         Comment: "An article a week to improve your product skills."
         Date: Apr 22, 2020
 
+      - Title: Scott H. Young
+        Link: "https://www.scotthyoung.com/blog/newsletter/"
+        Comment: "Learn faster, achieve more."
+        Date: July 7, 2020
+
       - Title: Better Explained
         Link: https://betterexplained.com/newsletter/
         Comment: "For everyone interested in deep, intuitive learning."
@@ -1225,6 +1265,11 @@ fulldata:
 #Niche resources
   - Type: Niche Resources
     List:
+      - Title: List of lists of lists
+        Link: "https://en.wikipedia.org/wiki/List_of_lists_of_lists"
+        Comment: "This is a list of lists of lists, a list of list articles that contain other list articles"
+        Date: July 7, 2020
+
       - Title: Less Wrong
         Link: "https://www.lesswrong.com/"
         Comment: "A community dedicated to improving reasoning and decision-making."
@@ -1355,6 +1400,11 @@ fulldata:
         Comment: "Download, share, and reuse millions of the Smithsonian’s images."
         Date: Apr 22, 2020
 
+      - Title: "Scroll to text fragment"
+        Link: "https://mgearon.com/html/text-fragments/"
+        Comment: "How to use text fragments to highlight part of a web page when you link to it without using the ID HTML tag."
+        Date: July 7, 2020
+
       - Title: Guides for frontend developers
         Link: https://www.learnstorybook.com/
         Comment: "Free in-depth guides for professional frontend developers."
@@ -1364,6 +1414,11 @@ fulldata:
         Link: https://usefyi.com/templates/freelancer-templates/
         Comment: "All the free resources and templates you need to get work done as a freelancer."
         Date: Apr 22, 2020
+
+      - Title: Emoji Cursor
+        Link: "https://www.emojicursor.app/"
+        Comment: "Use emojis as mouse cursors by combining SVG with CSS."
+        Date: July 7, 2020
 
       - Title: Top Open Source SSGs
         Link: https://www.staticgen.com/
@@ -1379,6 +1434,11 @@ fulldata:
         Link: https://www.typewolf.com
         Comment: "Web fonts in the wild, font recommendations and learning resources."
         Date: Apr 22, 2020
+
+      - Title: Font Match
+        Link: "https://font-match.netlify.app/"
+        Comment: "Place fonts on top of each other, side by side, or in the same line."
+        Date: July 7, 2020
 
       - Title: Google Webfonts Helper
         Link: https://google-webfonts-helper.herokuapp.com/fonts
