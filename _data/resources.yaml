@@ -1127,6 +1127,21 @@ fulldata:
         Comment: "Seth Godin's Blog on marketing, tribes and respect."
         Date: Apr 22, 2020
 
+      - Title: James Clear
+        Link: https://jamesclear.com/3-2-1/refer?rh_ref=44709395
+        Comment: "Self-improvement tips based on proven scientific research."
+        Date: Apr 22, 2020
+
+      - Title: Scott H. Young
+        Link: "https://www.scotthyoung.com/blog/newsletter/"
+        Comment: "Learn faster, achieve more."
+        Date: July 7, 2020
+
+      - Title: Alex Danco
+        Link: https://danco.substack.com/
+        Comment: "Fresh thinking and provocative takes on the innovation economy, in your inbox every Sunday. Now in its second season."
+        Date: Apr 22, 2020
+
       - Title: News from Google
         Link: https://www.google.com/press/blog-social-directory.html
         Comment: "Blogs and social media of Google products."
@@ -1155,11 +1170,6 @@ fulldata:
       - Title: Money Stuff
         Link: https://link.mail.bloombergbusiness.com/join/4wm/moneystuff-signup&hash=54223001ca3ffcf40f2629c25acea67a
         Comment: "A daily take on Wall Street, finance, companies and other stuff."
-        Date: Apr 22, 2020
-
-      - Title: Alex Danco
-        Link: https://danco.substack.com/
-        Comment: "Fresh thinking and provocative takes on the innovation economy, in your inbox every Sunday. Now in its second season."
         Date: Apr 22, 2020
 
       - Title: Aeon
@@ -1191,11 +1201,6 @@ fulldata:
         Link: https://theproductperson.com/
         Comment: "An article a week to improve your product skills."
         Date: Apr 22, 2020
-
-      - Title: Scott H. Young
-        Link: "https://www.scotthyoung.com/blog/newsletter/"
-        Comment: "Learn faster, achieve more."
-        Date: July 7, 2020
 
       - Title: Better Explained
         Link: https://betterexplained.com/newsletter/
@@ -1262,10 +1267,10 @@ fulldata:
         Comment: "Articles that help you understand the world better, and show you how to think and act more effectively."
         Date: Apr 22, 2020
 
-      - Title: James Clear
-        Link: https://jamesclear.com/3-2-1/refer?rh_ref=44709395
-        Comment: "Self-improvement tips based on proven scientific research."
-        Date: Apr 22, 2020
+      - Title: Visual Capitalist
+        Link: "https://www.visualcapitalist.com/"
+        Comment: "Rich visual content for the modern investor."
+        Date: July 7, 2020
 
       - Title: Demand progress
         Link: https://demandprogress.org
