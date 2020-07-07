@@ -878,6 +878,16 @@ fulldata:
         Comment: "Compare any website traffic statistics & analytics."
         Date: Apr 22, 2020
 
+      - Title: "Google Structured Data Testing Tool"
+        Link: "https://search.google.com/structured-data/testing-tool/"
+        Comment: "Test your structured data."
+        Date: July 7, 2020
+
+      - Title: "Google Rich Results Test"
+        Link: "https://search.google.com/test/rich-results"
+        Comment: "Does your page support rich results?"
+        Date: July 7, 2020
+
       - Title: Web Performance Tools
         Link: https://www.swyx.io/writing/webperf-tests/
         Comment: "Every Web Performance Test Tool"
