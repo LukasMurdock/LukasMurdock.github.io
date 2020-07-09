@@ -321,60 +321,6 @@ fulldata:
         Comment: "Start a business from plastic waste!"
         Date: Apr 22, 2020
 
-  #Guides
-  - Type: Guides to SEO
-    List:
-
-      - Title: The Content Marketing Handbook
-        Link: https://priceonomics.com/the-content-marketing-handbook/
-        Comment: "A 30,000+ word blog post about how to write about information and make it spread."
-        Date: May 03, 2020
-
-      - Title: B2C Content Marketing
-        Link: "https://growandconvert.com/content-marketing/b2c-content-marketing/"
-        Comment: "Case study on SEO done right."
-        Date: July 7, 2020
-
-      - Title: Two Algorithm SEO
-        Link: "https://www.slideshare.net/randfish/onsite-seo-in-2015-an-elegant-weapon-for-a-more-civilized-marketer"
-        Comment: "Presentation by Rand Fishkin about SEO in a Two Algorithm World."
-        Date: July 7, 2020
-
-      - Title: "Writing SEO Content"
-        Link: "https://www.manaferra.com/how-to-write-seo-friendly-content/"
-        Comment: "If you’ve been searching for a guide that shows you every step of how to write SEO-friendly content, you’ve come to the right place."
-        Date: July 2, 2020
-
-      - Title: Digital Marketing Strategy Guide
-        Link: https://www.clickminded.com/digital-marketing-strategy/
-        Comment: "A down-to-earth step-by-step guide on how to create a digital marketing strategy."
-        Date: May 22, 2020
-
-      - Title: Bruce Clay SEO Checklist
-        Link: https://www.bruceclay.com/blog/seo-checklist/
-        Comment: "The always up-to-date SEO checklist."
-        Date: June 23, 2020
-
-      - Title: Link Building SaaS Playbook
-        Link: "https://mygrowthgorilla.com/link-building-saas-playbook/"
-        Comment: "Backlinks for SaaS companies very rarely come naturally. Especially cause everybody and their mom are starting a SaaS company in 2020."
-        Date: July 7, 2020
-
-      - Title: Link Building Strategies
-        Link: https://www.theseoproject.org/link-building-strategies/
-        Comment: "180+ strategies and exactly how to execute each one from start-to-finish."
-        Date: June 23, 2020
-
-      - Title: 22 Link Building Email Templates
-        Link: "https://almanac.io/articles/31972/template-22-link-building-email-templates/"
-        Comment: "22 link-building emails"
-        Date: July 7, 2020
-        
-      - Title: Guide to HTML head elements
-        Link: https://htmlhead.dev/
-        Comment: "A free guide to HTML5 head tag elements."
-        Date: Apr 22, 2020
-
 
   # UIUX
   - Type: UIUX
@@ -594,6 +540,60 @@ fulldata:
         Comment: "Women’s and family healthcare the way it should be."
         Date: Apr 22, 2020
 
+
+  #Guides
+  - Type: Guides to SEO
+    List:
+
+      - Title: The Content Marketing Handbook
+        Link: https://priceonomics.com/the-content-marketing-handbook/
+        Comment: "A 30,000+ word blog post about how to write about information and make it spread."
+        Date: May 03, 2020
+
+      - Title: B2C Content Marketing
+        Link: "https://growandconvert.com/content-marketing/b2c-content-marketing/"
+        Comment: "Case study on SEO done right."
+        Date: July 7, 2020
+
+      - Title: Two Algorithm SEO
+        Link: "https://www.slideshare.net/randfish/onsite-seo-in-2015-an-elegant-weapon-for-a-more-civilized-marketer"
+        Comment: "Presentation by Rand Fishkin about SEO in a Two Algorithm World."
+        Date: July 7, 2020
+
+      - Title: "Writing SEO Content"
+        Link: "https://www.manaferra.com/how-to-write-seo-friendly-content/"
+        Comment: "If you’ve been searching for a guide that shows you every step of how to write SEO-friendly content, you’ve come to the right place."
+        Date: July 2, 2020
+
+      - Title: Digital Marketing Strategy Guide
+        Link: https://www.clickminded.com/digital-marketing-strategy/
+        Comment: "A down-to-earth step-by-step guide on how to create a digital marketing strategy."
+        Date: May 22, 2020
+
+      - Title: Bruce Clay SEO Checklist
+        Link: https://www.bruceclay.com/blog/seo-checklist/
+        Comment: "The always up-to-date SEO checklist."
+        Date: June 23, 2020
+
+      - Title: Link Building SaaS Playbook
+        Link: "https://mygrowthgorilla.com/link-building-saas-playbook/"
+        Comment: "Backlinks for SaaS companies very rarely come naturally. Especially cause everybody and their mom are starting a SaaS company in 2020."
+        Date: July 7, 2020
+
+      - Title: Link Building Strategies
+        Link: https://www.theseoproject.org/link-building-strategies/
+        Comment: "180+ strategies and exactly how to execute each one from start-to-finish."
+        Date: June 23, 2020
+
+      - Title: 22 Link Building Email Templates
+        Link: "https://almanac.io/articles/31972/template-22-link-building-email-templates/"
+        Comment: "22 link-building emails"
+        Date: July 7, 2020
+        
+      - Title: Guide to HTML head elements
+        Link: https://htmlhead.dev/
+        Comment: "A free guide to HTML5 head tag elements."
+        Date: Apr 22, 2020
 
   #Words
   - Type: Words
