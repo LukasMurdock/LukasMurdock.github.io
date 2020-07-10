@@ -31,6 +31,11 @@ fulldata:
         Comment: "A curated list of the best agile workshop exercises, activities, and techniques."
         Date: July 2, 2020
 
+      - Title: "The Guide To Design"
+        Link: "https://start.uxdesign.cc/"
+        Comment: "A self-guided class to help you get started in UX and answer key questions about craft, design, and career."
+        Date: July 10, 2020
+
       - Title: "Science and Statistics"
         Link: http://www-sop.inria.fr/members/Ian.Jermyn/philosophy/writings/Boxonmaths.pdf
         Comment: "We make tentative assumptions about the real world which we know are false but which we believe may be useful nonetheless."
@@ -60,6 +65,11 @@ fulldata:
         Link: https://developers.google.com/tech-writing
         Comment: "Google Developers Technical Writing Course for Engineers."
         Date: Apr 22, 2020
+
+      - Title: Useful Email Phrases
+        Link: "https://almanac.io/articles/33805/template-150-useful-email-phrases-that-will-make-your-life-easier"
+        Comment: "150+ templates that will make your life easier."
+        Date: July 10, 2020
 
       - Title: Learn Anything
         Link: https://learn-anything.xyz/
@@ -210,6 +220,11 @@ fulldata:
         Link: https://reasonablypolymorphic.com/book/preface
         Comment: "A gentle, yet comprehensive introduction to how these things work."
         Date: Apr 22, 2020
+
+      - Title: Learn Next.js
+        Link: "https://masteringnextjs.com/"
+        Comment: "A free video course for building static and server-side rendered applications with Next.js and React."
+        Date: July 10, 2020
 
       - Title: Teach Yourself Computer Science
         Link: https://teachyourselfcs.com/
@@ -470,6 +485,11 @@ fulldata:
         Comment: "Free collection of beautiful gradients."
         Date: Apr 22, 2020
 
+      - Title: CSS Gradients
+        Link: "https://cssgradient.io/"
+        Comment: "A free css gradient generator tool."
+        Date: July 10, 2020
+
       - Title: Humaaans
         Link: https://www.humaaans.com/
         Comment: "Mix and match illustrations of people with a design library."
@@ -595,7 +615,7 @@ fulldata:
         Comment: "A free guide to HTML5 head tag elements."
         Date: Apr 22, 2020
 
-  #Words
+  # Words
   - Type: Words
     List:
 
@@ -638,6 +658,21 @@ fulldata:
         Link: https://transformer.huggingface.co
         Comment: "See how a modern neural network auto-completes your text."
         Date: Apr 22, 2020
+
+      - Title: AI Writer
+        Link: "http://ai-writer.com/"
+        Comment: "An automatic content generator for everyone."
+        Date: July 10, 2020
+
+      - Title: Headline Analyzer
+        Link: https://coschedule.com/headline-analyzer
+        Comment: "Score your overall headline quality and rate its ability to result in social shares, increased traffic, and SEO value."
+        Date: May 22, 2020
+
+      - Title: Headlime.io
+        Link: "https://headlime.io/"
+        Comment: "Get access to high converting headlines. Headlime generates hundreds of headlines for you, simply by answering a few questions."
+        Date: July 2, 2020
 
 # SEO
   - Type: SEO
@@ -1187,6 +1222,11 @@ fulldata:
         Comment: "YaHNd is a collection of experimental data-mining projects over the Hacker News discussion forum."
         Date: Apr 22, 2020
 
+      - Title: Frontend Focus
+        Link: "https://frontendfoc.us/"
+        Comment: "A once–weekly roundup of the best front-end news, articles and tutorials."
+        Date: July 10, 2020
+
       - Title: SSRN
         Link: https://www.ssrn.com
         Comment: "Tomorrow´s Research Today."
@@ -1724,16 +1764,6 @@ fulldata:
         Comment: "Preflight for HTML email. Inline CSS, convert links and warns about unsupported code."
         Date: Apr 22, 2020
 
-      - Title: Headline Analyzer
-        Link: https://coschedule.com/headline-analyzer
-        Comment: "Score your overall headline quality and rate its ability to result in social shares, increased traffic, and SEO value."
-        Date: May 22, 2020
-
-      - Title: Headlime.io
-        Link: "https://headlime.io/"
-        Comment: "Get access to high converting headlines. Headlime generates hundreds of headlines for you, simply by answering a few questions."
-        Date: July 2, 2020
-
       - Title: Email Drips
         Link: https://www.emaildrips.com/
         Comment: "82 email drip campaign examples."
@@ -2014,6 +2044,11 @@ fulldata:
         Link: "https://www.justmandala.com/"
         Comment: "Relax and draw stunning Mandalas in your browser"
         Date: May 26, 2020
+
+      - Title: XP Paint
+        Link: "https://chowderman.github.io/xp-paint.html"
+        Comment: "Windows XP Paint in your browser."
+        Date: July 10, 2020
 
 
   # Brands
