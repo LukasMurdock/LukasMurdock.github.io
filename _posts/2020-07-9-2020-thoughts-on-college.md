@@ -9,17 +9,17 @@ Education flows down from the needs of employers. Companies outsource their recr
 
 To ease the recruiting process, universities build intimate relationships with employers. They justify exorbitant tuition costs by funneling graduates to respected, well-paying companies, such as big banks and consulting firms. Universities invest in relationships with successful alumni and career development departments to boast about the jobs their graduates get into. Knowing this, aspiring students and parents fight for coveted spots at Universities. 
 
-As colleges lost their monopoly on information, they became less about learning and more about signaling. Whatever value they once provided has continuously diminishing.
+As colleges lost their monopoly on information, they became less about learning and more about signaling. Whatever value they once provided has continuously diminished.
 
 Like multinational conglomerates, the information explosion has crushed university monopolies. Information has moved from a position of scarcity to abundance. As alternatives emerge, universities will lose their stranglehold on consumer dollars. Instead of following the well-worn path of University, students are supporting low-cost alternatives and proving their worth without college degrees. “Paying your dues” isn’t as necessary as it once was. 
 
-An increasingly well trodden path is finding an obscure topic or emerging industry where lack of experience isn’t an issue. Then, researching it obsessively. After building a knowledge base, you can advertise your skills and attract opportunities by sharing knowledge online.
+An increasingly well-trodden path is finding an obscure topic or emerging industry where lack of experience isn’t an issue. Then, researching it obsessively. After building a knowledgebase, you can advertise your skills and attract opportunities by sharing knowledge online.
 
 A few things:
 
 ## 01. The complete move online highlights the uselessness of many colleges.
 
-The move online allowed my parents to finally understand a frustrating dynamic of college for me. It’s a known pain to pay for college. And then colleges tell us if we want to take a class we have to pay for independent third parties to give us the resources. This allowed a near-seamless transition into remote education as the in-person sessions were supplementary to the third party resources from the beginning. The providers of education are not colleges in this dynamic and I hope many people use this moment to reflect on what college is currently being used for and what it could be. Right now it’s accreditation, it’s not the solution, it's the problem. Historically, College gave permission to unparalleled access to information and great minds—with the internet, you no longer need permission for that access (Aside from the medical field and other broken places where information does not flow freely even for professionals).
+The move online allowed my parents to finally understand a frustrating dynamic of college for me. It’s a known pain to pay for college. And then colleges tell us if we want to take a class we have to pay for independent third parties to give us the resources. This allowed a near-seamless transition into remote education as the in-person sessions were supplementary to the third party resources from the beginning. The providers of education are not colleges in this dynamic and I hope many people use this moment to reflect on what college is currently being used for and what it could be. Right now it’s accreditation, it’s not the solution, it's the problem. Historically, College permitted you unparalleled access to information and great minds—with the internet, you no longer need permission for that access (Aside from the medical field and other broken places where information does not flow freely even for professionals).
 
 For many people, I hope this move online is a wake-up call to say “We don’t want you and all your baggage right now.”
 
