@@ -31,6 +31,11 @@ fulldata:
         Comment: "A curated list of the best agile workshop exercises, activities, and techniques."
         Date: July 2, 2020
 
+      - Title: "Google Career Certificates"
+        Link: "https://grow.google/certificates/"
+        Comment: "These certificates developed by Google connect you to top national employers who are hiring for related roles."
+        Date: July 16, 2020
+
       - Title: "The Guide To Design"
         Link: "https://start.uxdesign.cc/"
         Comment: "A self-guided class to help you get started in UX and answer key questions about craft, design, and career."
@@ -261,6 +266,11 @@ fulldata:
         Comment: "All the references used by the community - quick courses for the javascript engineers."
         Date: Apr 22, 2020
 
+      - Title: You might not need JS
+        Link: http://youmightnotneedjs.com/
+        Comment: "Examples of common UI elements and interactions with HTML and CSS alone."
+        Date: July 16, 2020
+
       - Title: Project Engineering Lead Expectations
         Link: https://docs.google.com/document/d/1kngKHUCS0DHNvZAO8PfkcsTD4Mq7b11L09RIaVpQnwI/
         Comment: "Uber project lead expectations Gergely Orosz team has been using at Uber." 
@@ -445,6 +455,11 @@ fulldata:
         Comment: "A Figma publication for design systems creators, designers, developers, and managers."
         Date: Apr 22, 2020
 
+      - Title: Good UI
+        Link: https://goodui.org/
+        Comment: "Learn from what leading companies A/B test."
+        Date: July 16, 2020
+
       - Title: UI Goodies
         Link: https://www.uigoodies.com/
         Comment: "Weekly UI resources straight to your inbox."
@@ -499,6 +514,16 @@ fulldata:
         Link: https://mixkit.co/
         Comment: "Completely free HD video & art for you to use, anywhere."
         Date: Apr 22, 2020
+
+      - Title: Tabler Icons
+        Link: "https://tablericons.com/"
+        Comment: "Fully customizable free SVG icons."
+        Date: July 16, 2020
+
+      - Title: Pixelmob
+        Link: "https://pixelmob.co/"
+        Comment: "Search millions of royalty-free photos."
+        Date: July 16, 2020
 
       - Title: Free illustrations, for everything
         Link: https://www.glazestock.com/
@@ -561,9 +586,24 @@ fulldata:
         Date: Apr 22, 2020
 
 
-  #Guides
+  # Guides to SEO
   - Type: Guides to SEO
     List:
+
+      - Title: Common Sense SEO Checklist
+        Link: "https://css-tricks.com/common-sense-seo-checklist/"
+        Comment: "Set aside all the fancy technical stuff and just use some good ol’ common sense."
+        Date: July 16, 2020
+
+      - Title: SEO Process
+        Link: "https://apollodigital.io/blog/seo-process"
+        Comment: "SEO Process guide by Apollo Digital."
+        Date: July 16, 2020
+
+      - Title: Screaming Frog Guide
+        Link: "https://www.seerinteractive.com/blog/screaming-frog-guide/"
+        Comment: "Learn how to use Screaming Frog for technical site audits, keyword research, competitive analysis, link building and more with this comprehensive guide."
+        Date: July 16, 2020
 
       - Title: The Content Marketing Handbook
         Link: https://priceonomics.com/the-content-marketing-handbook/
@@ -585,6 +625,11 @@ fulldata:
         Comment: "If you’ve been searching for a guide that shows you every step of how to write SEO-friendly content, you’ve come to the right place."
         Date: July 2, 2020
 
+      - Title: "Repurposing Content"
+        Link: "https://buffer.com/resources/repurposing-content-guide/"
+        Comment: "Find out how to breath new life into old posts by repurposing content as ebooks, presentations, guest posts, and more."
+        Date: July 16, 2020
+
       - Title: Digital Marketing Strategy Guide
         Link: https://www.clickminded.com/digital-marketing-strategy/
         Comment: "A down-to-earth step-by-step guide on how to create a digital marketing strategy."
@@ -604,6 +649,11 @@ fulldata:
         Link: https://www.theseoproject.org/link-building-strategies/
         Comment: "180+ strategies and exactly how to execute each one from start-to-finish."
         Date: June 23, 2020
+
+      - Title: Link Building Guide
+        Link: "https://www.basesearchmarketing.com/link-building-guide/"
+        Comment: "Six chapters on link building, starting from the basics and working up to more in-depth strategies."
+        Date: July 16, 2020
 
       - Title: 22 Link Building Email Templates
         Link: "https://almanac.io/articles/31972/template-22-link-building-email-templates/"
@@ -708,6 +758,11 @@ fulldata:
         Comment: "Backlink Checker & Link Building Toolset"
         Date: May 29, 2020
 
+      - Title: Sparktoro
+        Link: "https://sparktoro.com/"
+        Comment: "Instantly discover what your audience reads, watches, listens-to, and follows."
+        Date: July 16, 2020
+
       - Title: Serpstat
         Link: "https://serpstat.com/"
         Comment: "Backlinks analysis, rank tracking, keyword research, competitor analysis, site audit."
@@ -758,6 +813,11 @@ fulldata:
         Comment: "See how your mobile site speed ranks compared to other top brands and learn how you can provide a faster, more frictionless mobile experience."
         Date: June 10, 2020
 
+      - Title: Free Local SEO Tools
+        Link: "https://www.brightlocal.com/free-local-seo-tools/"
+        Comment: "Including Local Search Results Checker, Local Listings Health Scanner, Local RankFlux and Google Review Link Generator."
+        Date: July 16, 2020
+
       - Title: LSI Graph
         Link: "https://lsigraph.com/"
         Comment: "Get the most profitable semantically related keywords for all your SEO & paid marketing needs."
@@ -787,6 +847,11 @@ fulldata:
         Link: "https://alsoasked.com/"
         Comment: "Search listening tool for market, customer & content research"
         Date: May 29, 2020
+
+      - Title: "Keyword Revealer"
+        Link: "https://www.keywordrevealer.com/"
+        Comment: "Find hundreds of long tail keyword ideas in seconds."
+        Date: July 16, 2020
 
       - Title: Related subreddits
         Link: https://anvaka.github.io/sayit/?query=
@@ -1380,6 +1445,11 @@ fulldata:
         Comment: "Learn the key points of the best non-fiction books of all-time–in five minutes or less"
         Date: May 26, 2020
 
+      - Title: Is it worth the cost
+        Link: "https://isitworththecost.com/"
+        Comment: "A simple check on whether purchasing a service is worth the cost."
+        Date: July 16, 2020
+
       - Title: The Design Squiggle
         Link: https://thedesignsquiggle.com/
         Comment: "The journey of researching, uncovering insights, generating creative concepts, iteration of prototypes and eventually concluding in one single designed solution."
@@ -1405,10 +1475,20 @@ fulldata:
         Comment: "An oasis for those who are tired of clickbait, fake news, excessive advertisements and a big brother who watches everything."
         Date: May 14, 2020
 
+      - Title: Style Stage
+        Link: "https://stylestage.dev/"
+        Comment: "A modern CSS showcase styled by community contributions"
+        Date: July 16, 2020
+
       - Title: What every Browser knows about you
         Link: "https://webkay.robinlinus.com/"
         Comment: "a demonstration of all the data your browser knows about you."
         Date: June 9, 2020
+
+      - Title: Sustainable WordPress
+        Link: "https://sustywp.com/"
+        Comment: "Delivering WordPress in 6KB."
+        Date: June 16, 2020
 
       - Title: Poolside.fm
         Link: https://poolside.fm/
@@ -1485,6 +1565,11 @@ fulldata:
         Comment: "A list of static site generators for JAMStack sites."
         Date: May 14, 2020
 
+      - Title: Guide to SSGs
+        Link: "https://bejamas.io/blog/static-site-generators/"
+        Comment: "The beginner’s guide to static site generators."
+        Date: July 16, 2020
+
       - Title: Letterform Archive
         Link: http://oa.letterformarchive.org/search?dims=Decade&vals0=1960s
         Comment: "View letterforms by decades, countries, formats, and more."
@@ -1509,6 +1594,11 @@ fulldata:
         Link: https://fonts.google.com/analytics
         Comment: "Making the web more beautiful, fast, and open through great typography."
         Date: Apr 22, 2020
+
+      - Title: Remote Design Sprint Cheat Sheet
+        Link: "https://medium.com/@jakek/remote-design-sprint-cheat-sheet-6d0bfdf011db"
+        Comment: A cheat sheet to help you run a Design Sprint over video with a distributed team.
+        Date: July 16, 2020
 
       - Title: The Design Sprint
         Link: https://www.gv.com/sprint/
@@ -1655,6 +1745,11 @@ fulldata:
         Link: https://transparencyreport.google.com/political-ads/home
         Comment: "To help everyone understand the ads they see online."
         Date: Apr 22, 2020
+
+      - Title: Google Books Ngram
+        Link: https://books.google.com/ngrams/
+        Comment: "See how often phrases occur in books over time—now updated through 2019."
+        Date: July 16, 2020
 
       - Title: Dataset Search
         Link: https://datasetsearch.research.google.com/
