@@ -14,6 +14,11 @@ Masks are normalized as something un-American. 
 
 So far, over 130,000 people have died. You can say whatever you want about misattribution to COVID-19, but those deaths take up more than two entire Vietnam War Memorials.
 
+<figure class="blog-figure image component image-big image-fullbleed body-copy-wide">
+<img class="picture-image" src="/images/posts/vietnamveteransmemorial.png" alt="vietnam veterans memorial">
+<figcaption class="image-text">Honoring the men and women who served in the controversial Vietnam War, the Vietnam Veterans Memorial chronologically lists the names of 58,318 Americans who gave their lives in service to their country.</figcaption>
+</figure>
+
 Sanitation and protection is the act of taking care of life.
 
 Nobody wants to have doctors that refuse to wash their hands and wear a mask when undergoing surgery. Face masks protect the patient—you and your loved ones—from wound infection and contamination from the surgeon and other surgical staff members.
