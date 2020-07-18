@@ -5,7 +5,7 @@ description: "On being American."
 date: July 14, 2020
 ---
 
-There are currently two camps. One camp has followed the advice from experts, and you can view it as following orders—that’s not a bad thing. The other camp, doesn’t believe the experts, doesn’t want to follow orders, because this is America and here we seek freedom.
+There are currently two camps. One camp has followed the advice from experts, and you can view it as following orders—that’s not a bad thing. Another camp, doesn’t believe the experts, doesn’t want to follow orders, because this is America and here we seek freedom.
 
 Ill-defined freedom.
 
