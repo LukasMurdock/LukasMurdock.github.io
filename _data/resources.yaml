@@ -535,6 +535,11 @@ fulldata:
         Comment: "A collection of free mockups."
         Date: Apr 22, 2020
 
+      - Title: "Tools and resources for UI"
+        Link: "https://dev.to/cruip/50-free-tools-and-resources-to-create-awesome-user-interfaces-part-2-2l02"
+        Comment: "Free tools and resources to create awesome user interfaces."
+        Date: July 19, 2020
+
       - Title: Image Placeholder Service
         Link: http://placehold.jp/en.html
         Comment: "Create placeholder images quickly and easily."
@@ -1215,6 +1220,11 @@ fulldata:
         Comment: "A free and open source RSS reader for Mac and iOS. It’s like podcasts, but for reading."
         Date: May 26, 2020
 
+      - Title: Spark Email
+        Link: "https://sparkmailapp.com/"
+        Comment: "The best personal email client. Revolutionary email for teams."
+        Date: July 19, 2020
+
         
 
 
@@ -1470,6 +1480,11 @@ fulldata:
         Comment: "An oasis for those who are tired of clickbait, fake news, excessive advertisements and a big brother who watches everything."
         Date: May 14, 2020
 
+      - Title: Web Design Museum
+        Link: "https://www.webdesignmuseum.org/"
+        Comment: "Discover forgotten trends in Web Design."
+        Date: July 19, 2020
+
       - Title: Geekring
         Link: https://geekring.net/
         Comment: "An oasis for those who are tired of clickbait, fake news, excessive advertisements and a big brother who watches everything."
@@ -1687,6 +1702,11 @@ fulldata:
         Link: https://wordoid.com
         Comment: "Creative way to find a catchy name for your new venture."
         Date: Apr 22, 2020
+
+      - Title: Influencer Search
+        Link: "https://www.easybloggers.io/"
+        Comment: "Get a cost estimation for your YouTube influencer marketing campaign for FREE."
+        Date: July 19, 2020
 
       - Title: Sharpen Design
         Link: https://sharpen.design/
