@@ -5,11 +5,11 @@ description: "General statements mean a lot of different things and often apply 
 date: July 18, 2020
 ---
 
-“*Masks are ineffective*”
+“*Masks are effective*” or “*Masks are ineffective*”
 
-“*Masks don’t work*”
+“*Masks work*” or “*Masks don’t work*”
 
-“*Masks do more harm*”
+“*Masks help*” or “*Masks harm*”
 
 **General statements.**
 
@@ -162,6 +162,10 @@ This is a real argument and a real problem.
 > [N95 masks are intended to be disposable, but the demand from COVID-19 has led to a global shortage of N95 masks and the reality is that health workers have to reuse them.](https://news.stanford.edu/2020/04/01/researchers-show-how-to-decontaminate-reuse-n95-masks/)”\
 — Stanford
 
-Masks have tangible harms that should not be ignored.
+[Filtration efficiency can be reduced by physical damage to filter or static charge degradation.](https://static1.squarespace.com/static/5e8126f89327941b9453eeef/t/5ea7bbadccc886265eebc288/1588050862097/200427_N95_Schematic_Release_v15.pdf)
 
-But it’s improper to claim “masks are ineffective”, “masks don’t work”, or “masks do more harm.”
+Masks have tangible downfalls that should not be ignored.
+
+Don’t claim “masks are effective/ineffective”, “masks work/don’t work”, or “masks help/harm.”
+
+[The only way a question can prove itself unworthy is by attracting a better question. What does an unworthy answer leave  you with?](http://kiriakakis.net/comics/mused/a-day-at-the-park)
