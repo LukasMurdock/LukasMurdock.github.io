@@ -6,11 +6,11 @@ code: true
 date: July 19, 2020
 ---
 
-When I first updated my 2018 MacBook Pro I had problems—as is due is course when installing ruby.
+When I first updated my 2018 MacBook Pro, I had problems—as is due is course when installing ruby.
 
-After upgrading a 2012 MacBook Pro I had to deal with the same problems so I thought to rehash these notes.
+After upgrading a 2012 MacBook Pro, I had to deal with the same problems so I thought to rehash these notes.
 
-I use Jekyll to build this site and Jekyll runs on ruby. To build the site locally I run `bundle exec jekyll serve`.
+I use Jekyll to build this site, and Jekyll runs on Ruby. To build the site locally I run `bundle exec jekyll serve`.
 
 Console would log errors like:
 
