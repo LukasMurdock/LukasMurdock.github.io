@@ -205,6 +205,11 @@ fulldata:
         Link: "https://adayinthelifeof.nl/2020/05/20/aws.html"
         Comment: "Currently, there are 163 (!) different services that are available from the Amazon Dashboard, each with their own way of working, difficulties, catches and best practices."
         Date: May 27, 2020
+
+      - Title: Front End Interview Handbook
+        Link: "https://yangshun.github.io/front-end-interview-handbook/"
+        Comment: "Almost complete answers you can use to interview potential candidates, test yourself or completely ignore."
+        Date: July 20, 2020
         
       - Title: Developer Roadmap
         Link: https://roadmap.sh
@@ -424,6 +429,11 @@ fulldata:
         Link: https://www.checklist.design/
         Comment: "A collection of the best UX and UI practices."
         Date: Apr 22, 2020
+
+      - Title: Laws of UX
+        Link: https://lawsofux.com/
+        Comment: "a collection of the maxims and principles that designers can consider when building user interfaces."
+        Date: July 20, 2020
 
       - Title: growth.design
         Link: https://growth.design/
@@ -2135,6 +2145,11 @@ fulldata:
         Link: "https://elliotjaystocks.com/"
         Comment: "Designer, musician, writer & speaker."
         Date: July 2, 2020
+
+      - Title: Damian Watracz
+        Link: "https://watracz.com/"
+        Comment: "Website and user interface designer"
+        Date: July 20, 2020
 
   #Creative Coding
   - Type: Creative Coding
