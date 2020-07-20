@@ -42,7 +42,7 @@ With any static webpage, you'll create an index.html, style.css, and javascript.
 
 Once you've built your website with HTML and CSS, your site is live! Since I have already purchased lukasmurdock.com, I wanted to use that domain with GitHub Pages. In order to do this, you have to point the GitHub Pages default domain to your custom domain. In my domain registrar of choice, Google Domains, this was simple to set up.
 
-In the DNS Custom resource records, you must configure an A record to point to [the following IP addresses](https://help.github.com/en/articles/troubleshooting-custom-domains):
+In the DNS Custom resource records, you must configure an A record to point to [the following IP addresses](https://docs.github.com/en/github/working-with-github-pages/troubleshooting-custom-domains-and-github-pages):
 
 - 185.199.108.153
 - 185.199.109.153

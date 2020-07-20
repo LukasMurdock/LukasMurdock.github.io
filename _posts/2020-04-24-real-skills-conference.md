@@ -32,7 +32,7 @@ Shoutout to those I connected with and were seen:
 **Gabrielle**  
 
 **Brandi Bernoskie**  
-[Web Development and Strategist](brandibernoskie.com)
+[Web Development and Strategist](https://brandibernoskie.com)
 
 **Kate**  
 

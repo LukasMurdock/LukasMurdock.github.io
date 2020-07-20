@@ -279,7 +279,7 @@ First iPad introduced by Apple
 
 
 ## Moving into the future
-Woah, shouldn't there be more notable things of the last decade? Yes, and if you feel like this list is lacking something, feel free to [contact me here and let me know.](/contact)
+Woah, shouldn't there be more notable things of the last decade? Yes, and if you feel like this list is lacking something, feel free to [contact me here and let me know.](/contact/)
 
 As science advances, technology becomes more and more outside the realm of common understanding. Many innovative improvements being made in fields don't mean anything to me as I'm not specialized in that specific field. And a lot of “innovations” we see is technology that has already been around for decades. Now that doesn't mean I'm not excited to see VR and AI take over every field, but these inventions aren't necessarily new, more of they're being applied. 
 
