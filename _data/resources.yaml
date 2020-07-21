@@ -2180,6 +2180,11 @@ fulldata:
         Comment: "Windows XP Paint in your browser."
         Date: July 10, 2020
 
+      - Title: Brick Block
+        Link: "http://oskarstalberg.com/game/house/index.html"
+        Comment: "by Oskar Stålberg"
+        Date: July 21, 2020
+
 
   # Brands
   - Type: Brands
