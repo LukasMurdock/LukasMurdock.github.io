@@ -390,6 +390,11 @@ fulldata:
         Comment: "Shopify design system."
         Date: May 14, 2020
 
+      - Title: Mozilla.design
+        Link: "https://mozilla.design/"
+        Comment: "Firefox & Mozilla Brand, resources, and press sssets."
+        Date: July 22, 2020
+
       - Title: Color & Contrast Picker
         Link: https://kevingutowski.github.io/color.html
         Comment: "View closest accessible colors."
