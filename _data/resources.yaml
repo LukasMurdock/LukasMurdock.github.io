@@ -435,6 +435,11 @@ fulldata:
         Comment: "a collection of the maxims and principles that designers can consider when building user interfaces."
         Date: July 20, 2020
 
+      - Title: Component Naming Standardization
+        Link: "https://www.uiguideline.com/"
+        Comment: "The definitive guide to standardize UI Component naming."
+        Date: July 22, 2020
+
       - Title: growth.design
         Link: https://growth.design/
         Comment: "Learn how to craft experiences so delightful that your customers will be happy to spread the word for you."
@@ -574,6 +579,11 @@ fulldata:
         Link: https://stripe.com/
         Comment: "Online payment processing for internet businesses."
         Date: Apr 22, 2020
+
+      - Title: Leon
+        Link: "https://www.myleon.co/"
+        Comment: "The first-ever AI-powered employee performance platform."
+        Date: July 22, 2020
 
       - Title: Privacy
         Link: https://privacy.com/
@@ -2150,6 +2160,11 @@ fulldata:
         Link: "https://watracz.com/"
         Comment: "Website and user interface designer"
         Date: July 20, 2020
+
+      - Title: Trong Nguyen
+        Link: "https://trongnguyen.co/"
+        Comment: "A Singapore-Based Product Designer."
+        Date: July 22, 2020
 
   #Creative Coding
   - Type: Creative Coding
