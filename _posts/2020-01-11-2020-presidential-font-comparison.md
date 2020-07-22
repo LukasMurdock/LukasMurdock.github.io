@@ -2,8 +2,8 @@
 layout: post
 title: '2020 Presidential Candidate Font Comparison'
 description: In a race over donations from a nation how do the players compare?
-
 date: January 11, 2020
+last_updated: July 22, 2020
 redirect_from: /2020/01/11/2020-presidential-font-comparison/
 ---
 
@@ -92,6 +92,12 @@ For some reason the homepage also houses Galaxie Copernicus for a quote block an
 
 ### **Headline:** Brother 1816
 Released in 2016, Borther 1816 is a Geometric sans-serif typeface designed by Fernando Díaz and Ignacio Corbo at Tipotype. Tipotype is the first foundry to call Uruguay home. Founded in 2009 by Fernando Díaz, Vicente Lamónaca and Martin Sommaruga with the mission of creating contemporary typefaces and also a platform for type designers to easily commercialize their work. Adobe Fonts includes this family for both desktop and web.
+
+**Update July 2020**: [Biden campaign rolls out new fonts from typeface powerhouse Hoefler & Co.](https://www.businessinsider.com/biden-campaign-new-fonts-decimal-mercury-hoefler-2020-7)
+
+The new Biden campaign fonts are [Decimal](https://www.typography.com/blog/introducing-decimal) and [Mercury Text](https://www.typography.com/fonts/mercury-text/overview), both from [Hoefler & Co](https://www.typography.com/blog/biden-fonts).
+
+As of July, 2020 the primary campaign website has yet to change from Brother 1816.
 
 
 ## Kamala Harris
