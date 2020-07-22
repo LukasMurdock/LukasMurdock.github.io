@@ -3,7 +3,7 @@ layout: post
 title: '2020 Presidential Candidate Font Comparison'
 description: In a race over donations from a nation how do the players compare?
 date: January 11, 2020
-last_modified_date: 2020-07-22T16:39:41+0000
+last_modified_at: 2020-07-22T16:39:41+0000
 redirect_from: /2020/01/11/2020-presidential-font-comparison/
 ---
 
