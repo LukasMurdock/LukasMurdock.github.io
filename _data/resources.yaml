@@ -390,6 +390,11 @@ fulldata:
         Comment: "Shopify design system."
         Date: May 14, 2020
 
+      - Title: Mozilla.design
+        Link: "https://mozilla.design/"
+        Comment: "Firefox & Mozilla Brand, resources, and press sssets."
+        Date: July 22, 2020
+
       - Title: Color & Contrast Picker
         Link: https://kevingutowski.github.io/color.html
         Comment: "View closest accessible colors."
@@ -681,7 +686,7 @@ fulldata:
         Date: July 16, 2020
 
       - Title: 22 Link Building Email Templates
-        Link: "https://almanac.io/articles/31972/template-22-link-building-email-templates/"
+        Link: "https://almanac.io/articles/31972/template-22-link-building-emails"
         Comment: "22 link-building emails"
         Date: July 7, 2020
         

@@ -24,7 +24,7 @@ paginate:  13
 sass:
   style: compressed
 
-# last_modified_date: iso 8601 current time
+# last_modified_at: iso 8601 current time
 
 gems:
   - jekyll-paginate
