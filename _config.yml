@@ -20,14 +20,14 @@ markdown:  kramdown
 permalink: /:title/
 # permalink: pretty
 highlighter: rouge
-paginate:  13
+# paginate:  13
 sass:
   style: compressed
 
 # last_modified_at: iso 8601 current time
 
 gems:
-  - jekyll-paginate
+  # - jekyll-paginate
   - jekyll/tagging
   - jekyll-sitemap
   - jekyll-redirect-from
