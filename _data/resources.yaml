@@ -445,6 +445,11 @@ fulldata:
         Comment: "The definitive guide to standardize UI Component naming."
         Date: July 22, 2020
 
+      - Title: "Shoelace Components"
+        Link: "https://shoelace.style/"
+        Comment: "A forward-thinking library of web components"
+        Date: July 28, 2020
+
       - Title: growth.design
         Link: https://growth.design/
         Comment: "Learn how to craft experiences so delightful that your customers will be happy to spread the word for you."
@@ -515,6 +520,11 @@ fulldata:
         Comment: "Discover the best landing page examples created by top-class SaaS companies, and get ideas and inspiration for your next design project."
         Date: Apr 22, 2020
 
+      - Title: Ad Pages
+        Link: "https://adpages.xyz/"
+        Comment: "Daily curated showcase of winning ad pages."
+        Date: July 28, 2020
+
       - Title: Web Gradients
         Link: https://webgradients.com
         Comment: "Free collection of beautiful gradients."
@@ -554,6 +564,11 @@ fulldata:
         Link: https://malli.graphics/
         Comment: "A collection of free mockups."
         Date: Apr 22, 2020
+
+      - Title: "Perfect mockups"
+        Link: "https://previewed.app/"
+        Comment: "Perfect screenshots, mockups and videos."
+        Date: July 28, 2020
 
       - Title: "Tools and resources for UI"
         Link: "https://dev.to/cruip/50-free-tools-and-resources-to-create-awesome-user-interfaces-part-2-2l02"
@@ -694,6 +709,16 @@ fulldata:
         Link: https://htmlhead.dev/
         Comment: "A free guide to HTML5 head tag elements."
         Date: Apr 22, 2020
+
+      - Title: "Google Search Quality Guidelines"
+        Link: "https://guidelines.raterhub.com/searchqualityevaluatorguidelines.pdf"
+        Comment: "How google benchmarks the quality of results."
+        Date: July 28, 2020
+
+      - Title: "Backlinko SEO Knowledge Hub"
+        Link: "https://backlinko.com/hub/seo"
+        Comment: "SEO Marketing Hub 2.0"
+        Date: July 28, 2020
 
   # Words
   - Type: Words
@@ -847,6 +872,11 @@ fulldata:
         Link: "https://www.brightlocal.com/free-local-seo-tools/"
         Comment: "Including Local Search Results Checker, Local Listings Health Scanner, Local RankFlux and Google Review Link Generator."
         Date: July 16, 2020
+
+      - Title: Knowledge Graph Search
+        Link: "https://carlhendy.com/knowledge-graph-search/"
+        Comment: "Search the Google Knowledge Graph."
+        Date: July 28, 2020
 
       - Title: LSI Graph
         Link: "https://lsigraph.com/"
@@ -1635,6 +1665,11 @@ fulldata:
         Comment: "Making the web more beautiful, fast, and open through great typography."
         Date: Apr 22, 2020
 
+      - Title: Strategy Directory
+        Link: "https://www.sirstratalot.com/"
+        Comment: "Growing directory of planning and strategy links."
+        Date: July 28, 2020
+
       - Title: Remote Design Sprint Cheat Sheet
         Link: "https://medium.com/@jakek/remote-design-sprint-cheat-sheet-6d0bfdf011db"
         Comment: A cheat sheet to help you run a Design Sprint over video with a distributed team.
@@ -2171,6 +2206,12 @@ fulldata:
         Comment: "A Singapore-Based Product Designer."
         Date: July 22, 2020
 
+      - Title: "Cory Etzkorn"
+        Link: "https://www.coryetzkorn.com/"
+        Comment: "Designer and software engineer living in San Francisco, CA."
+        Date: July 28, 2020
+
+
   #Creative Coding
   - Type: Creative Coding
     List:
@@ -2204,6 +2245,11 @@ fulldata:
         Link: "http://oskarstalberg.com/game/house/index.html"
         Comment: "by Oskar Stålberg"
         Date: July 21, 2020
+
+      - Title: Orb Farm
+        Link: "https://orb.farm/"
+        Comment: "Your personal aquatic ecosystem to nurture, sculpt, and observe."
+        Date: July 28, 2020
 
 
   # Brands
