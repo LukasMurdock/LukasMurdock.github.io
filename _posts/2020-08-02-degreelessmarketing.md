@@ -3,6 +3,7 @@ layout: post
 title: 'Degreeless.marketing'
 description: "You don’t need a degree to make change happen."
 date: August 02, 2020
+image: degreelessmarketing.png
 ---
 
 [Read my working document on degreeless.](https://lukasmurdock.com/degreeless/)
