@@ -36,10 +36,20 @@ fulldata:
         Comment: "These certificates developed by Google connect you to top national employers who are hiring for related roles."
         Date: July 16, 2020
 
+      - Title: Degreeless.marketing
+        Link: https://degreeless.marketing/
+        Comment: "You don’t need a degree to make change happen."
+        Date: August 04, 2020
+
       - Title: "The Guide To Design"
         Link: "https://start.uxdesign.cc/"
         Comment: "A self-guided class to help you get started in UX and answer key questions about craft, design, and career."
         Date: July 10, 2020
+
+      - Title: "The complete guide to usability testing"
+        Link: "https://maze.design/guides/usability-testing"
+        Comment: "Everything you need to know to run usability tests and get actionable insights to create better user experiences."
+        Date: August 04, 2020
 
       - Title: "Science and Statistics"
         Link: http://www-sop.inria.fr/members/Ian.Jermyn/philosophy/writings/Boxonmaths.pdf
@@ -72,7 +82,7 @@ fulldata:
         Date: Apr 22, 2020
 
       - Title: Useful Email Phrases
-        Link: "https://almanac.io/articles/31972/template-22-link-building-emails"
+        Link: "https://almanac.io/articles/33805/template-150-useful-email-phrases-that-will-make-your-life-easier"
         Comment: "150+ templates that will make your life easier."
         Date: July 10, 2020
 
@@ -545,6 +555,11 @@ fulldata:
         Comment: "Completely free HD video & art for you to use, anywhere."
         Date: Apr 22, 2020
 
+      - Title: Teeny Icons
+        Link: "https://teenyicons.com/"
+        Comment: "Tiny minimal 1px icons."
+        Date: August 04, 2020
+
       - Title: Tabler Icons
         Link: "https://tablericons.com/"
         Comment: "Fully customizable free SVG icons."
@@ -579,6 +594,11 @@ fulldata:
         Link: http://placehold.jp/en.html
         Comment: "Create placeholder images quickly and easily."
         Date: Apr 22, 2020
+
+      - Title: CSS Grid Generator
+        Link: https://cssgrid-generator.netlify.app/
+        Comment: "A way for you to use CSS Grid features quickly."
+        Date: August 04, 2020
 
       - Title: Can't Unsee
         Link: https://cantunsee.space/
@@ -710,6 +730,11 @@ fulldata:
         Comment: "A free guide to HTML5 head tag elements."
         Date: Apr 22, 2020
 
+      - Title: Crafting winning SEO proposals
+        Link: https://searchengineland.com/how-to-craft-a-winning-seo-proposal-and-avoid-getting-a-silent-no-338563
+        Comment: "What goes into an SEO proposal? How can you help your customers say a loud ‘Yes’ instead of a silent ‘No’?"
+        Date: August 04, 2020
+
       - Title: "Google Search Quality Guidelines"
         Link: "https://guidelines.raterhub.com/searchqualityevaluatorguidelines.pdf"
         Comment: "How google benchmarks the quality of results."
@@ -719,6 +744,11 @@ fulldata:
         Link: "https://backlinko.com/hub/seo"
         Comment: "SEO Marketing Hub 2.0"
         Date: July 28, 2020
+
+      - Title: "Logfile Analysis"
+        Link: "https://suganthan.com/blog/logfile-analysis-seo/"
+        Comment: "How to do advanced logfile analysis using Cloudflare, Logflare, Bigquery and Google data studio."
+        Date: August 04, 2020
 
   # Words
   - Type: Words
@@ -1485,6 +1515,11 @@ fulldata:
         Comment: "A reader for Hacker News, r/programming, and Slashdot."
         Date: Apr 22, 2020
 
+      - Title: Bogleheads
+        Link: https://www.bogleheads.org/
+        Comment: "Bogleheads investing advice and info."
+        Date: August 04, 2020
+
       - Title: MoneyMade
         Link: https://moneymade.io/
         Comment: "Find and compare investment opportunities"
@@ -1580,10 +1615,25 @@ fulldata:
         Comment: "Online regex tester and debugger: PHP, PCRE, Python, Golang and JavaScript."
         Date: Apr 22, 2020
 
+      - Title: Ruby Hashes Cheat Sheet
+        Link: https://www.shortcutfoo.com/app/dojos/ruby-hashes/cheatsheet
+        Comment: "Ruby hashes cheat sheet of all shortcuts and commands."
+        Date: August 04, 2020
+
+      - Title: Online API Testing Tool
+        Link: https://reqbin.com/
+        Comment: "API Testing Made Easy."
+        Date: August 04, 2020
+
       - Title: Free tools for devs
         Link: https://free-for.dev/
         Comment: "A list of software and other offerings with free tiers for developers."
         Date: Apr 22, 2020
+
+      - Title: VS Code Like a Pro
+        Link: https://youtu.be/utaLkT9YDP0
+        Comment: "How to actually use VS code."
+        Date: August 04, 2020
 
       - Title: Leaderboard for the best new products
         Link: https://pragli.com/leaderboard-for-product-hunt/
@@ -1669,6 +1719,11 @@ fulldata:
         Link: "https://www.sirstratalot.com/"
         Comment: "Growing directory of planning and strategy links."
         Date: July 28, 2020
+
+      - Title: Really Good Texts
+        Link: "https://reallygoodtexts.com/"
+        Comment: "SMS marketing examples from brands who are doing SMS marketing the right way."
+        Date: August 04, 2020
 
       - Title: Remote Design Sprint Cheat Sheet
         Link: "https://medium.com/@jakek/remote-design-sprint-cheat-sheet-6d0bfdf011db"

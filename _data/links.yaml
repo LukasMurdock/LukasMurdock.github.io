@@ -7,6 +7,101 @@
 #        Comment: 
 
 linkslist:
+  - Date: August 2020
+    Links:
+
+      - Title: "The ux of lego interface panels"
+        Link: "https://www.designedbycave.co.uk/2020/LEGO-Interface-UX/"
+        Comment: "Welcome to the world of LEGO UX design."
+
+      - Title: "The value of spare capacity"
+        Link: "https://www.scotthyoung.com/blog/2020/08/03/spare-capacity/"
+        Comment: "The size of a tree depends not only on the seed, but how big is the pot you plant it in. Growth in life requires space, so why do we busy ourselves instead?"
+
+      - Title: "The worst tool for the job"
+        Link: "https://www.johndcook.com/blog/2020/07/25/worst-tool-for-the-job/"
+        Comment: "Using the best tool for a job may slow things down. It may be “best” in a sense you don't need. The actual best tool might be relatively crude."
+
+      - Title: "Introduction to screen readers using voiceover"
+        Link: "https://zenhabits.net/feeling-it/"
+        Comment: "Learn how to get started with VoiceOver, Apple’s built-in screen reader, to read and navigate web pages in this tutorial by Ethan Marcotte."
+
+      - Title: "Reveal culture"
+        Link: "https://www.lesswrong.com/posts/X6zJGshe467nxoWAZ/reveal-culture"
+        Comment: "Because you can tell someone to do something, but you can’t reveal someone to do something."
+
+      - Title: "Showing up even when you’re not feeling it"
+        Link: "https://zenhabits.net/feeling-it/"
+        Comment: "Some days, you’re just not feeling it."
+
+      - Title: "Joel Spolsky on Pricing"
+        Link: "https://www.joelonsoftware.com/2004/12/15/camels-and-rubber-duckies/"
+        Comment: "The more you learn about pricing, the less you seem to know."
+
+      - Title: "Where to find the hours to make it happen"
+        Link: "https://sivers.org/uncomf"
+        Comment: "The hours don’t suddenly appear. You have to steal them from comfort."
+
+      - Title: "Thinking for oneself"
+        Link: "https://fs.blog/2020/07/thinking-for-oneself/"
+        Comment: "Wisdom is earned, not given. When other people give us the answer, it belongs to them and not us. While we might achieve the outcome we desire, it comes from dependence, not insight."
+
+      - Title: "Where to find the hours to make it happen"
+        Link: "https://sivers.org/uncomf"
+        Comment: "The hours don’t suddenly appear. You have to steal them from comfort."
+
+      - Title: "Pain vs discomfort"
+        Link: "https://tinyletter.com/dainsaint/letters/pain-vs-discomfort"
+        Comment: "Is this painful, or just loud?"
+
+      - Title: "Goodbye Serenity by Charles Simic"
+        Link: "https://www.nybooks.com/daily/2011/12/05/goodbye-serenity/"
+        Comment: "I had expected that after everything I had lived through and learned in my life, I would attain a state of Olympian calm and would regard the news of the day with amusement… It hasn’t happened to me yet."
+
+      - Title: "Universal Basic Income is Capitalism 2.0"
+        Link: "https://timjrobinson.com/universal-basic-income-is-capitalism-2-0/"
+        Comment: "Tim Robinson on Universal Basic Income."
+
+      - Title: "Google Earth Timelapse"
+        Link: "https://earthengine.google.com/timelapse/"
+        Comment: "A global, zoomable video that lets you see how the Earth has changed over the past 34 years."
+
+      - Title: "Akimbo S7 EP10"
+        Link: "https://play.acast.com/s/akimbo/liveatcatalyst2010"
+        Comment: "Seth Godin live at Catalyst 2010."
+
+      - Title: "Some CSS comics"
+        Link: "https://jvns.ca/blog/2020/07/25/some-comics-about-css/"
+        Comment: "Learn about CSS features with comics by Julia Evans."
+
+      - Title: "Overcoming content budget pushback"
+        Link: "https://www.frac.tl/overcoming-content-budget-pushback/"
+        Comment: "Running into budget pushback for your content marketing strategy? Listen to find out how to get buy-in by addressing ROI."
+
+      - Title: "Nudge marketing: from theory to practice"
+        Link: "https://cxl.com/blog/nudge-marketing/"
+        Comment: "Nudges are powerful influences in our everyday lives. Here's how to take nudge marketing from theory to practice."
+
+      - Title: "How to find those hard-to-reach audiences"
+        Link: "https://sparktoro.com/blog/how-to-find-those-hard-to-reach-audiences-in-sparktoro-fast/"
+        Comment: "How to use SparkToro."
+
+      - Title: "Lessons from Pricing Creativity"
+        Link: "https://www.peterkang.com/lessons-from-pricing-creativity-by-blair-enns/"
+        Comment: "Peter Kang’s Lessons from Pricing Creativity by Blair Enns."
+
+      - Title: "Catastrotivity"
+        Link: "https://youtu.be/5Tx6U5OhMDg"
+        Comment: "exurb1a on being an artist."
+
+      - Title: "exurb1a on compassion"
+        Link: "https://youtu.be/DJiGuFCzaFo?t=71"
+        Comment: "We’re clearly not going to solve the problems in the centuries ahead with compassion alone. But we could sure end the world without it."
+
+      - Title: "Scenius, or communal genius"
+        Link: "https://kk.org/thetechnium/scenius-or-comm/"
+        Comment: "Scenius stands for the intelligence and the intuition of a whole cultural scene. It is the communal form of the concept of the genius"
+
   - Date: July 2020
     Links:
 
@@ -467,6 +562,10 @@ linkslist:
       - Title: "More Information as a Competitive Advantage"
         Link: https://seths.blog/2020/05/more-information-as-a-competitive-advantage/
         Comment: "More information is a competitive advantage, but it’s not enough."
+
+      - Title: "Two ways to predict the future"
+        Link: https://notboring.substack.com/p/two-ways-to-predict-the-future
+        Comment: "Or, shotcallers versus worldbuilders."
 
   - Date: April 2020
     Links:

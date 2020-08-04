@@ -91,7 +91,6 @@ description: Books I really don't want to forget.
 
   <div id="grid-container" class="grid-container">
 
-
     {% for book in site.data.booklist.items %}
     <div class="grid-item"> 
       <a rel="nofollow" target="_blank" href="https://www.google.com/search?q={{ book.volumeInfo.title | append: '+by+'}}{{ book.volumeInfo.authors[0] }}" >
@@ -110,7 +109,7 @@ description: Books I really don't want to forget.
     </div>
     {% endfor %}
   </div>
-
+  <p style="padding: 20px 0; margin: 0;" ><a href="https://nabeelqu.co/reading-lists">Other Reading Lists</a></p>
 
 
   </div>
