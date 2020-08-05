@@ -1,3 +1,9 @@
+// const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
+// const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0)
+
+const vw = window.innerWidth
+const vh = window.innerHeight
+
 // Variables for referencing the canvas and 2dcanvas context
 var canvas,ctx;
 
@@ -61,6 +67,11 @@ function clearCanvas(canvas,ctx) {
 function sketchpad_mouseDown() {
     mouseDown=1;
     drawLine(ctx,mouseX,mouseY,12);
+    confetti({
+        particleCount: 100,
+        spread: 70,
+        origin: { x: confettiX, y: confettiY }
+      });
 }
 
 // Keep track of the mouse button being released
@@ -80,6 +91,11 @@ function sketchpad_mouseMove(e) {
     // Draw a dot if the mouse button is currently being pressed
     if (mouseDown==1) {
         drawLine(ctx,mouseX,mouseY,12);
+        confetti({
+            particleCount: 100,
+            spread: 70,
+            origin: { x: confettiX, y: confettiY }
+          });
     }
 }
 
@@ -96,7 +112,10 @@ function getMousePos(e) {
         mouseX = e.layerX;
         mouseY = e.layerY;
     }
+    confettiY = mouseY/vh
+    confettiX = mouseX/vw
  }
+
 
 // Draw something when a touch start is detected
 function sketchpad_touchStart() {
@@ -104,6 +123,11 @@ function sketchpad_touchStart() {
     getTouchPos();
 
     drawLine(ctx,touchX,touchY,12);
+    confetti({
+        particleCount: 100,
+        spread: 70,
+        origin: { x: confettiX, y: confettiY }
+      });
 
     // Prevents an additional mousedown event being triggered
     event.preventDefault();
@@ -142,11 +166,23 @@ function getTouchPos(e) {
             touchY=touch.pageY-touch.target.offsetTop;
         }
     }
+
 }
 
 
+function addScript(){
+    var head= document.getElementsByTagName('head')[0];
+    var script= document.createElement('script');
+    script.type= 'text/javascript';
+    script.src= 'https://cdn.jsdelivr.net/npm/canvas-confetti@1.2.0/dist/confetti.browser.min.js';
+    head.appendChild(script);
+}
+
 // Set-up the canvas and add our event handlers after the page has loaded
 function startParty() {
+
+    addScript();
+
     window.scrollTo(0, 0);
   document.body.setAttribute("data-ripplet", "color: rgb(64, 192, 255); spreading-duration: 2s; clearing-delay: 1.8s;");
   document.body.classList.add('confetti');
@@ -177,6 +213,10 @@ myCanvas.style.overflow = 'visible';
 myCanvas.style.position = 'absolute';
 // Add int into the container
 canvasContainer.appendChild(myCanvas);
+
+
+// you should  only initialize a canvas once, so save this function
+// we'll save it to the canvas itself for the purpose of this demo
   
   
     // Get the specific canvas element from the HTML document
@@ -197,5 +237,6 @@ canvasContainer.appendChild(myCanvas);
         canvas.addEventListener('touchstart', sketchpad_touchStart, false);
         canvas.addEventListener('touchend', sketchpad_touchEnd, false);
         canvas.addEventListener('touchmove', sketchpad_touchMove, false);
+        
     }
 }
