@@ -20,7 +20,10 @@ And that’s it. No server, my Content Management System is GitHub and the files
 
 I’ll let you in on a secret to building sites this way. *It’s fast*. Because I create everything by hand, there’s no external junk (aside from GTM tags and pop-ups—sorry) slowing it down.
 
-—web.dev image 
+<figure style="margin: 0;">
+    <img src="/images/posts/degreelessmarketing-webdev.png" alt="Uncategorized performance distribution for PageSpeed, FCP, Speed Index, and TTI.">
+    <figcaption>Performance hits are from Google, Accessibility hits are from small red text and the newsletter pop-up.</figcaption>
+</figure>
 
 I see people everywhere online complaining about PageSpeed scores and slow sites, but building like this makes it a lot harder to make it slow.
 
