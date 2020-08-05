@@ -1,8 +1,6 @@
 // const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
 // const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0)
 
-const vw = window.innerWidth
-const vh = window.innerHeight
 
 // Variables for referencing the canvas and 2dcanvas context
 var canvas,ctx;
@@ -107,8 +105,8 @@ function getMousePos(e) {
         mouseX = e.layerX;
         mouseY = e.layerY;
     }
-    confettiY = mouseY/vh
-    confettiX = mouseX/vw
+    confettiY = mouseY/window.innerHeight
+    confettiX = mouseX/window.innerWidth
  }
 
 
