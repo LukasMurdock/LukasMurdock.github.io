@@ -91,11 +91,6 @@ function sketchpad_mouseMove(e) {
     // Draw a dot if the mouse button is currently being pressed
     if (mouseDown==1) {
         drawLine(ctx,mouseX,mouseY,12);
-        confetti({
-            particleCount: 100,
-            spread: 70,
-            origin: { x: confettiX, y: confettiY }
-          });
     }
 }
 
@@ -146,6 +141,8 @@ function sketchpad_touchMove(e) {
 
     // During a touchmove event, unlike a mousemove event, we don't need to check if the touch is engaged, since there will always be contact with the screen by definition.
     drawLine(ctx,touchX,touchY,12); 
+
+    
 
     // Prevent a scrolling action as a result of this touchmove triggering.
     event.preventDefault();

@@ -252,7 +252,7 @@ img {
 }
 
 footer {
-    margin: 20px auto 40px auto;
+    margin: 20px auto 60px auto;
     max-width: var(--max-width);
     font-size: var(--font-extra-small);
     line-height: 1.33341;
