@@ -41,6 +41,11 @@ fulldata:
         Comment: "You don’t need a degree to make change happen."
         Date: August 04, 2020
 
+      - Title: "Career Launch Guides"
+        Link: "https://crash.co/career-guides"
+        Comment: "Go beyond applications and resumes, and launch a career that makes you come alive."
+        Date: August 11, 2020
+
       - Title: "The Guide To Design"
         Link: "https://start.uxdesign.cc/"
         Comment: "A self-guided class to help you get started in UX and answer key questions about craft, design, and career."
@@ -60,6 +65,16 @@ fulldata:
         Link: https://good.services/the-good-services-scale
         Comment: "Assess the quality of your service using the 15 Principles of Good Service Design."
         Date: July 2, 2020
+
+      - Title: YC’s Startup Library
+        Link: "https://www.ycombinator.com/library"
+        Comment: "YC's library of startup advice: essays, podcasts, and videos created over the past 15 years."
+        Date: August 11, 2020
+
+      - Title: Egghead.io
+        Link: "https://egghead.io/"
+        Comment: "Learn the best JavaScript tools and frameworks from industry pros."
+        Date: August 11, 2020
 
       - Title: MIT Open Courseware
         Link: https://ocw.mit.edu/index.htm
@@ -90,6 +105,11 @@ fulldata:
         Link: https://learn-anything.xyz/
         Comment: "You can learn anything."
         Date: Apr 22, 2020
+
+      - Title: So you want to learn physics
+        Link: "https://www.susanjfowler.com/blog/2016/8/13/so-you-want-to-learn-physics"
+        Comment: "What everyone needs to learn in order to really understand physics."
+        Date: August 11, 2020
 
       - Title: Google Digital Toolkit
         Link: "https://smallbusiness.withgoogle.com/tools/"
@@ -145,6 +165,11 @@ fulldata:
         Link: https://roadtoscale.com/
         Comment: "A curated knowledge library for every stage of your startup journey. From idea to scaling up."
         Date: Apr 22, 2020
+
+      - Title: The Seth Godin Encyclopedia
+        Link: "https://brendancahill.io/brensblog/seth"
+        Comment: "Years of insight put into one spot."
+        Date: August 11, 2020
 
       - Title: Marketing for Engineers
         Link: https://github.com/LisaDziuba/Marketing-for-Engineers
@@ -231,6 +256,11 @@ fulldata:
         Comment: "A guide for amateurs pen testers and a collection of hacking tools, resources and references to practice ethical hacking, pen testing and web security."
         Date: Apr 22, 2020
 
+      - Title: How to get a job after college
+        Link: https://crash.co/content/career-stories/how-to-get-a-job-after-college
+        Comment: "It’s not easy to make that walk of shame from college into the real world."
+        Date: August 11, 2020
+
       - Title: Practical Python
         Link: "https://dabeaz-course.github.io/practical-python/"
         Comment: "A no-nonsense treatment of Python that has been actively taught to more than 400 in-person groups since 2007."
@@ -260,6 +290,11 @@ fulldata:
         Link: https://regexone.com/
         Comment: "A series of interactive lessons and exercises designed to help you quickly learn regular expressions."
         Date: July 2, 2020
+
+      - Title: This vs that
+        Link: https://regexone.com/
+        Comment: "What is the difference between this and that in front-end development?"
+        Date: August 11, 2020
 
       - Title: Ultimate Electronics
         Link: https://ultimateelectronicsbook.com/
@@ -405,6 +440,11 @@ fulldata:
         Comment: "Firefox & Mozilla Brand, resources, and press sssets."
         Date: July 22, 2020
 
+      - Title: WCAG Checklist
+        Link: "https://gerireid.com/wcag-for-designers.html"
+        Comment: "Web Content Accessibility Guidelines checklist."
+        Date: August 11, 2020
+
       - Title: Color & Contrast Picker
         Link: https://kevingutowski.github.io/color.html
         Comment: "View closest accessible colors."
@@ -524,6 +564,11 @@ fulldata:
         Link: https://www.uxframeworks.design
         Comment: "Find and share frameworks for design research, synthesis, and ideation."
         Date: Apr 22, 2020
+
+      - Title: Copy Ipsum
+        Link: "https://www.copyipsum.com/"
+        Comment: "A landing template that shows you how to write unignorable web copy."
+        Date: August 11, 2020
 
       - Title: Saas Landing Pages
         Link: https://saaslandingpage.com/
@@ -744,6 +789,11 @@ fulldata:
         Link: "https://backlinko.com/hub/seo"
         Comment: "SEO Marketing Hub 2.0"
         Date: July 28, 2020
+
+      - Title: "SEO Strategies"
+        Link: "https://backlinko.com/advanced-seo"
+        Comment: "A list of SEO techniques that you can use to get higher search engine rankings."
+        Date: August 11, 2020
 
       - Title: "Logfile Analysis"
         Link: "https://suganthan.com/blog/logfile-analysis-seo/"
@@ -1467,6 +1517,11 @@ fulldata:
         Comment: "Articles that help you understand the world better, and show you how to think and act more effectively."
         Date: Apr 22, 2020
 
+      - Title: Smash Digital
+        Link: "https://staging.smashdigital.com/blog/"
+        Comment: "Signup for weekly(ish) SEO news."
+        Date: August 11, 2020
+
       - Title: Visual Capitalist
         Link: "https://www.visualcapitalist.com/"
         Comment: "Rich visual content for the modern investor."
@@ -1489,6 +1544,11 @@ fulldata:
         Link: "https://en.wikipedia.org/wiki/List_of_lists_of_lists"
         Comment: "This is a list of lists of lists, a list of list articles that contain other list articles"
         Date: July 7, 2020
+
+      - Title: Awesome Concepts
+        Link: "https://github.com/lukasz-madon/awesome-concepts"
+        Comment: "List of all kinds of interesting topics: Laws, Principles, Mental Models, Cognitive Biases."
+        Date: August 11, 2020
 
       - Title: Less Wrong
         Link: "https://www.lesswrong.com/"
@@ -1725,6 +1785,11 @@ fulldata:
         Comment: "SMS marketing examples from brands who are doing SMS marketing the right way."
         Date: August 04, 2020
 
+      - Title: SMS Marketing Examples
+        Link: "https://www.smsmarketingexamples.com/"
+        Comment: "The best SMS marketing case-studies in the world."
+        Date: August 11, 2020
+
       - Title: Remote Design Sprint Cheat Sheet
         Link: "https://medium.com/@jakek/remote-design-sprint-cheat-sheet-6d0bfdf011db"
         Comment: A cheat sheet to help you run a Design Sprint over video with a distributed team.
@@ -1759,6 +1824,16 @@ fulldata:
         Link: https://www.arun.is/dieter-rams-wallpapers/
         Comment: "A selection of free beautiful mobile wallpapers featuring the work of legendary designer Dieter Rams."
         Date: June 23, 2020
+
+      - Title: Fuse.blog
+        Link: "https://fuse.blog/"
+        Comment: "A growing collection of creative reference and entertainment. Discover illustration, design, art, photo, 3D, video, websites, music, & reading."
+        Date: August 11, 2020
+
+      - Title: Starboard notebook
+        Link: "https://starboard.gg/"
+        Comment: "The shareable in-browser notebook."
+        Date: August 11, 2020
 
 
 
@@ -2266,6 +2341,16 @@ fulldata:
         Comment: "Designer and software engineer living in San Francisco, CA."
         Date: July 28, 2020
 
+      - Title: "Jamel Hammound"
+        Link: "https://jamelhammoud.com/"
+        Comment: "Graphic designer, web developer and video editor."
+        Date: August 11, 2020
+
+      - Title: "Aaron Lewis"
+        Link: "https://aaronzlewis.com/"
+        Comment: "Desiging digital products and writing about the feedback loops between our media ecology, our psyches, and our culture."
+        Date: August 11, 2020
+
 
   #Creative Coding
   - Type: Creative Coding
@@ -2305,6 +2390,16 @@ fulldata:
         Link: "https://orb.farm/"
         Comment: "Your personal aquatic ecosystem to nurture, sculpt, and observe."
         Date: July 28, 2020
+
+      - Title: Interstellar puzzle
+        Link: "https://treksit.com/"
+        Comment: "Interstellar puzzle to improve your logic skills."
+        Date: August 11, 2020
+
+      - Title: "Eliza, the Rogerian Therapist"
+        Link: "http://psych.fullerton.edu/mbirnbaum/psych101/Eliza.htm"
+        Comment: "ELIZA is a computer program from the 60’s that emulates a Rogerian psychotherapist."
+        Date: August 11, 2020
 
 
   # Brands
