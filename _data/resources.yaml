@@ -2536,3 +2536,8 @@ fulldata:
         Link: "https://www.google.com/search?q=speedtest"
         Comment: "Speedtest by Google."
         Date: May 31, 2020
+
+      - Title: Guide to Internet Speeds
+        Link: "https://www.frontierinternet.com/gateway/internet-speed-guide/"
+        Comment: "Learn how to measure internet speed, the difference between bits and bytes, download times, what affects internet speed, and more."
+        Date: August 12, 2020
