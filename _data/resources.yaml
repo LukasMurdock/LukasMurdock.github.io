@@ -12,7 +12,7 @@
 # Books
 # Youtube
 # Podcast
-# UI/UX
+# Design (UI/UX)
 # Movies
 # Music
 # Personal sites
@@ -397,8 +397,8 @@ fulldata:
         Date: Apr 22, 2020
 
 
-  # UIUX
-  - Type: UIUX
+  # Design
+  - Type: Design
     List:
       - Title: Baymard Institute
         Link: "https://baymard.com/"
@@ -1364,7 +1364,7 @@ fulldata:
 
 
   #Newsletters
-  - Type: Newsletter
+  - Type: Newsletters
     List:
 
       - Title: Seth Godin
@@ -1944,7 +1944,7 @@ fulldata:
         Date: May 31, 2020
 
   # Website
-  - Type: Website
+  - Type: Websites
     List:
       - Title: Google My Activity
         Link: https://myactivity.google.com/more-activity
@@ -2082,7 +2082,7 @@ fulldata:
         
 
   #Podcast
-  - Type: Podcast
+  - Type: Podcasts
     List:
       - Title: Akimbo
         Link: https://www.akimbo.link/
@@ -2509,7 +2509,7 @@ fulldata:
 
 
   #Music
-  - Type: Speedtest
+  - Type: Speedtests
     List:
 
       - Title: Speed.cloudflare
