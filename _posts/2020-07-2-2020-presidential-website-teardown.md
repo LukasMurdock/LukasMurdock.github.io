@@ -1221,4 +1221,4 @@ Aside from the candidate, **titles on joebiden.com tend to focus on his team and
 
 --- 
 
-If you see a mistake or have a question, feel free to reach out [through this site](/contact/) or on [Twitter](https://www.twitter.com/Lukasauras_Rex).
+If you see a mistake or have a question, feel free to reach out [through this site](/contact/) or on [Twitter](https://twitter.com/MurdockLukas).

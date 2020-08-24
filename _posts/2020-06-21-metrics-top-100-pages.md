@@ -128,4 +128,4 @@ I find it saddening to see News sites performing the worst. Do note: this metric
 
 With [Web Vitals](https://web.dev/vitals/) becoming ranking factors in 2021 I want to collect data on LCP, FID, and CLS at some point . Hopefully those performance numbers will improve in the future, let’s make a better web.
 
-If you see a mistake or have a question, feel free to reach out [through this site](/contact/) or on [Twitter](https://www.twitter.com/Lukasauras_Rex).
+If you see a mistake or have a question, feel free to reach out [through this site](/contact/) or on [Twitter](https://twitter.com/MurdockLukas).

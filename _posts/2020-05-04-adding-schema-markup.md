@@ -156,7 +156,7 @@ First I’ll create an if statement in the `<head>` tag to include  a `postSchem
             "description": "Lukas Murdock is a human trying to do work that matters for people who care. Exploring design, development, and marketing.",
             "sameAs": [
                 "https://www.linkedin.com/in/lukas-murdock/",
-                "https://twitter.com/Lukasauras_Rex",
+                "https://twitter.com/MurdockLukas",
                 "https://github.com/LukasMurdock",
                 "https://www.facebook.com/lukas.rex.murdock",
                 "https://www.instagram.com/lukasauras.rex/",
@@ -220,7 +220,7 @@ I removed the `<script>` tags from `postSchema.html` and the structured data wit
           "description": "Lukas Murdock is a human trying to do work that matters. Exploring design, development, and marketing.",
           "sameAs": [
             "https://www.linkedin.com/in/lukas-murdock/",
-            "https://twitter.com/Lukasauras_Rex",
+            "https://twitter.com/MurdockLukas",
             "https://github.com/LukasMurdock",
             "https://www.facebook.com/lukas.rex.murdock",
             "https://www.instagram.com/lukasauras.rex/",
