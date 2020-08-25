@@ -520,14 +520,19 @@ fulldata:
         Comment: "A curated list of design systems, pattern libraries, and everything between."
         Date: Apr 22, 2020
 
-      - Title: Dark Patterns
-        Link: "https://darkpatterns.org/"
-        Comment: "Dark Patterns are tricks used in websites and apps that make you do things that you didn't mean to, like buying or signing up for something."
-        Date: Apr 22, 2020
-
       - Title: Design systems
         Link: https://www.designsystems.com/
         Comment: "A Figma publication for design systems creators, designers, developers, and managers."
+        Date: Apr 22, 2020
+
+      - Title: Design Systems Tools
+        Link: "https://superfriendlydesign.systems/tools/"
+        Comment: "Assets and resources from SuperFriendly to help you learn and teach design systems."
+        Date: Aug 24, 2020
+
+      - Title: Dark Patterns
+        Link: "https://darkpatterns.org/"
+        Comment: "Dark Patterns are tricks used in websites and apps that make you do things that you didn't mean to, like buying or signing up for something."
         Date: Apr 22, 2020
 
       - Title: Good UI
@@ -644,6 +649,11 @@ fulldata:
         Link: https://cssgrid-generator.netlify.app/
         Comment: "A way for you to use CSS Grid features quickly."
         Date: August 04, 2020
+
+      - Title: The Animated Web
+        Link: https://theanimatedweb.com/
+        Comment: "Amazing animation resources and inspiration from around the web."
+        Date: August 24, 2020
 
       - Title: Can't Unsee
         Link: https://cantunsee.space/
@@ -1580,6 +1590,11 @@ fulldata:
         Comment: "Bogleheads investing advice and info."
         Date: August 04, 2020
 
+      - Title: PubMed
+        Link: https://pubmed.ncbi.nlm.nih.gov/
+        Comment: "Over 30 million citations for biomedical literature from MEDLINE, life science journals, and online books."
+        Date: August 24, 2020
+
       - Title: MoneyMade
         Link: https://moneymade.io/
         Comment: "Find and compare investment opportunities"
@@ -2400,6 +2415,11 @@ fulldata:
         Link: "http://psych.fullerton.edu/mbirnbaum/psych101/Eliza.htm"
         Comment: "ELIZA is a computer program from the 60’s that emulates a Rogerian psychotherapist."
         Date: August 11, 2020
+
+      - Title: "HourOne Turing Test"
+        Link: "http://psych.fullerton.edu/mbirnbaum/psych101/Eliza.htm"
+        Comment: "Can you tell which videos are real?"
+        Date: August 24, 2020
 
 
   # Brands
