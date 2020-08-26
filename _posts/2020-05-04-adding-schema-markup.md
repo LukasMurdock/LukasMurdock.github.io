@@ -226,7 +226,7 @@ I removed the `<script>` tags from `postSchema.html` and the structured data wit
             "https://www.instagram.com/lukasauras.rex/",
             "https://www.youtube.com/channel/UCG8ZhvCtKlnPXkoJG2u52lw"
             ],
-          "email": "lukas.murdock@gmail.com",
+          "email": "lukas@lukasmurdock.com",
           "address": {
             "@type": "PostalAddress",
             "addressLocality": "Columbus",
