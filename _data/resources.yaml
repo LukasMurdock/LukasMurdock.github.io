@@ -386,6 +386,21 @@ fulldata:
         Comment: "The largest collection of startup pitch decks."
         Date: May 26, 2020
 
+      - Title: How to Pitch Your Startup
+        Link: "https://fi.co/pitch-deck"
+        Comment: "Everything you need to know: From pitch deck templates to delivering great presentations."
+        Date: Sep 05, 2020
+
+      - Title: OKR and goal examples
+        Link: "https://soapboxhq.com/goal-examples"
+        Comment: "Library of role-specific and personal development goal examples to inspire your employees."
+        Date: Sep 05, 2020
+
+      - Title: What is AI
+        Link: "https://www.morningbrew.com/emerging-tech/guides/what-is-ai.html"
+        Comment: "The Human's Handbook to Computers that Think."
+        Date: Sep 05, 2020
+
       - Title: Publish Something Online
         Link: https://publishsomething.online/
         Comment: "How to make things that live on the internet."
@@ -489,6 +504,11 @@ fulldata:
         Link: https://lawsofux.com/
         Comment: "a collection of the maxims and principles that designers can consider when building user interfaces."
         Date: July 20, 2020
+
+      - Title: Trendlist
+        Link: "https://trendlist.org/"
+        Comment: "Exploring visual trends in contemporary graphic design."
+        Date: Sep 05, 2020
 
       - Title: Component Naming Standardization
         Link: "https://www.uiguideline.com/"
@@ -714,6 +734,11 @@ fulldata:
         Link: "https://css-tricks.com/common-sense-seo-checklist/"
         Comment: "Set aside all the fancy technical stuff and just use some good ol’ common sense."
         Date: July 16, 2020
+
+      - Title: Visualising SEO
+        Link: "https://www.samunderwood.co.uk/visualising-seo/"
+        Comment: "A collection of illustrations explaining SEO terminology and concepts."
+        Date: Sep 05, 2020
 
       - Title: SEO Process
         Link: "https://apollodigital.io/blog/seo-process"
@@ -1675,6 +1700,11 @@ fulldata:
         Comment: "The sunniest spot on the internet. Poolside FM is an online radio station, playing an infinity pool of summer sounds. Swimwear optional."
         Date: Apr 22, 2020
 
+      - Title: Webamp
+        Link: https://webamp.org/
+        Comment: "Winamp 2 in your browser"
+        Date: Sep 05, 2020
+
       - Title: Tools for makers
         Link: https://hoard.fyi/
         Comment: "Curated tools & resources for web designers, developers & makers."
@@ -1704,6 +1734,11 @@ fulldata:
         Link: https://free-for.dev/
         Comment: "A list of software and other offerings with free tiers for developers."
         Date: Apr 22, 2020
+
+      - Title: Free Resources for Almost Everyone
+        Link: "https://github.com/chasedooley/mostly-free-resources-for-almost-everyone"
+        Comment: "Mostly free resources for almost everyone."
+        Date: Sep 05, 2020
 
       - Title: VS Code Like a Pro
         Link: https://youtu.be/utaLkT9YDP0
@@ -1850,6 +1885,21 @@ fulldata:
         Comment: "The shareable in-browser notebook."
         Date: August 11, 2020
 
+      - Title: Overview how we change the Earth
+        Link: "https://www.over-view.com/"
+        Comment: "Satellite and aerial imagery demonstrating how human activity and natural forces shape our Earth."
+        Date: Sep 05, 2020
+
+      - Title: Electronic Plastic
+        Link: "http://www.electronicplastic.com/"
+        Comment: "A museum of handheld and tabletop games from the 1970s and 1980s."
+        Date: Sep 05, 2020
+
+      - Title: Search the World of Food
+        Link: "https://thesifter.org/"
+        Comment: "A tool for food history research."
+        Date: Sep 05, 2020
+
 
 
 
@@ -1970,6 +2020,11 @@ fulldata:
         Link: https://transparencyreport.google.com/political-ads/home
         Comment: "To help everyone understand the ads they see online."
         Date: Apr 22, 2020
+
+      - Title: "Facebook Ad Library"
+        Link: "https://www.facebook.com/ads/library/"
+        Comment: "Provides advertising transparency by offering a comprehensive, searchable collection of all ads currently running from across Facebook apps and services, including Instagram."
+        Date: Sep 05, 2020
 
       - Title: Google Books Ngram
         Link: https://books.google.com/ngrams/
@@ -2365,6 +2420,11 @@ fulldata:
         Link: "https://aaronzlewis.com/"
         Comment: "Desiging digital products and writing about the feedback loops between our media ecology, our psyches, and our culture."
         Date: August 11, 2020
+
+      - Title: "Bret Victor"
+        Link: "http://worrydream.com/"
+        Comment: "Purveyor of impossible dreams."
+        Date: Sep 05, 2020
 
 
   #Creative Coding
