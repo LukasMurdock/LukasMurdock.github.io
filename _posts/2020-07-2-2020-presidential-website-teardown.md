@@ -479,6 +479,11 @@ Here’s what I found.
     </tr>
 </table>
 
+<figure style="margin: 0;">
+    <img src="/images/posts/joe-biden-subfolders.png" alt="Joe Biden Subfolders">
+    <!-- <figcaption>Search Google for marketing icons and you get a plethora of megaphones.</figcaption> -->
+</figure>
+
 ### Subfolders on donaldjtrump.com
 
 <table>
@@ -507,6 +512,11 @@ Here’s what I found.
         <td class="number">1</td>
     </tr>
 </table>
+
+<figure style="margin: 0;">
+    <img src="/images/posts/donald-trump-subfolders.png" alt="Donald Trump Subfolders">
+    <!-- <figcaption>Search Google for marketing icons and you get a plethora of megaphones.</figcaption> -->
+</figure>
 
 ---
 
