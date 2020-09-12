@@ -8,6 +8,9 @@
 
     {% include analytics.html %}
     {% include header.html %}
+    <style>
+        
+    </style>
 
 
   <article>
@@ -17,8 +20,9 @@
     {% else %}
       <h1>{{ page.title }}</h1>
     {% endif %}
-
+    <div class="pagebody-content">
     {{ content }}
+</div>
   </article>
 
     {% include footer.html %}
