@@ -455,6 +455,11 @@ fulldata:
         Comment: "Firefox & Mozilla Brand, resources, and press sssets."
         Date: July 22, 2020
 
+      - Title: "Design Systems Buy-In Deck"
+        Link: "https://superfriendlydesign.systems/tools/design-systems-buy-in-deck/"
+        Comment: "Free Keynote & Powerpoint with Light & Dark themes."
+        Date: Sep 16, 2020
+
       - Title: WCAG Checklist
         Link: "https://gerireid.com/wcag-for-designers.html"
         Comment: "Web Content Accessibility Guidelines checklist."
@@ -489,6 +494,11 @@ fulldata:
         Link: https://www.colorsandfonts.com/
         Comment: "Curated library of colors, fonts, and resources for Web Developers & Digital Designers."
         Date: Apr 22, 2020
+
+      - Title: How to pick more beautiful colors for your data visualizations
+        Link: https://blog.datawrapper.de/beautifulcolors/
+        Comment: "Common color mistakes and how to avoid them."
+        Date: Sep 16, 2020
 
       - Title: Design System Checklist
         Link: https://designsystemchecklist.com/
@@ -689,6 +699,11 @@ fulldata:
         Link: https://segment.com/
         Comment: "A customer data platform that helps you collect, clean, and control your customer data."
         Date: Apr 22, 2020
+
+      - Title: IKEA kataloger
+        Link: https://ikeamuseum.com/sv/ikea-kataloger/
+        Comment: "IKEA Museum of Catalogs."
+        Date: Sep 16, 2020
 
       - Title: Stripe
         Link: https://stripe.com/
@@ -1087,6 +1102,11 @@ fulldata:
 # Evaluation
   - Type: Evaluation
     List:
+
+      - Title: Top websites performance rankings
+        Link: "https://simpleops.io/websites"
+        Comment: "Top websites performance rankings in 2020 "
+        Date: Sep 16, 2020
 
       - Title: Web.dev
         Link: https://web.dev/
@@ -1785,6 +1805,11 @@ fulldata:
         Comment: "All the free resources and templates you need to get work done as a freelancer."
         Date: Apr 22, 2020
 
+      - Title: Freelanccer Resources
+        Link: "https://www.freelanceresourc.es/"
+        Comment: "A curated list of tools & resources to help early freelancers."
+        Date: Sep 16, 2020
+
       - Title: Emoji Cursor
         Link: "https://www.emojicursor.app/"
         Comment: "Use emojis as mouse cursors by combining SVG with CSS."
@@ -1899,6 +1924,11 @@ fulldata:
         Link: "https://thesifter.org/"
         Comment: "A tool for food history research."
         Date: Sep 05, 2020
+
+      - Title: A11y Coffee
+        Link: "https://a11y.coffee/"
+        Comment: "Pick your serving size of web accessibility information."
+        Date: Sep 16, 2020
 
 
 
@@ -2420,6 +2450,11 @@ fulldata:
         Link: "https://aaronzlewis.com/"
         Comment: "Desiging digital products and writing about the feedback loops between our media ecology, our psyches, and our culture."
         Date: August 11, 2020
+
+      - Title: "Tania Rascia"
+        Link: "https://www.taniarascia.com/"
+        Comment: "Software engineer and open-source creator."
+        Date: Sep 16, 2020
 
       - Title: "Bret Victor"
         Link: "http://worrydream.com/"
