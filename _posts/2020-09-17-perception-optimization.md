@@ -31,7 +31,7 @@ So, Perception Optimization is about making the most out of all the ways we make
 
 *Optimizing the value of what you've created for a specific audience.*
 
-Everything you know, everything you do, everything you say, and everything you buy is influenced by your perception.
+Everything you know, everything you do, everything you say, and everything you buy is influenced by your perception. And that rings true by intuition.
 
 So, I bring to the world **Perception Optimization**.
 
