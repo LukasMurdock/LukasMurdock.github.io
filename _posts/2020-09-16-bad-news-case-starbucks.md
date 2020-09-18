@@ -60,3 +60,15 @@ A prime example of how you miss the point by looking at “the visual design of 
 **April 14, 2018:** [Philadelphia Mayor](https://www.phila.gov/2018-04-14-mayors-statement-on-incident-at-starbucks-in-center-city/) and [Starbucks CEO](https://stories.starbucks.com/stories/2018/starbucks-ceo-reprehensible-outcome-in-philadelphia-incident/) make official statements.
 
 **April 15, 2018:** protests begin at the Starbucks location and the [follow-up video](https://stories.starbucks.com/stories/2018/a-follow-up-message-from-starbucks-ceo-in-philadelphia/) from Starbucks CEO is released.
+
+**April 17, 2018:** Starbucks announces [stores will close nationwide for racial-bias education on May 29](https://stories.starbucks.com/press/2018/starbucks-to-close-stores-nationwide-for-racial-bias-education-may-29/) and Philadelphia Police release [the call of the arrest](https://youtu.be/pFRP7QwlIH0).
+
+**April 19, 2018:** The two arrested men [appear on Good Morning America](https://youtu.be/NWOz3OZ6J9M).
+
+**May 19, 2018:** The two men and Starbucks reach a confidential agreement.
+
+**May 20, 2018:** At the Atlantic Council in Washington, D.C. Starbucks CEO says [“We don't want to become a public bathroom, but we're going to make the right decision 100 percent of the time and give people the key."](https://www.npr.org/sections/thetwo-way/2018/05/11/610337214/starbucks-will-give-people-the-key-to-restroom-regardless-of-purchase-ceo-says)
+
+**May 29, 2018:** Starbucks closes it’s U.S. stores for employee racial-bias training.
+
+**Just 8, 2018:** The Philadelphia Police Department announces [new trespassing policy in response to criticism over Starbucks arrests](https://www.inquirer.com/philly/news/philadelphia-police-starbucks-trespass-policy-20180608.html).
