@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'SEO SaaS Gap'
+title: 'The SEO SaaS Gap'
 description: "Every SEO tool is about data to move forward."
 date: September 18, 2020
 ---
