@@ -76,3 +76,5 @@ When I go to a restaurant and the items on the menu are new to me, I always defe
 So starter tools are all about pushing forward what data you can get from one input URL.
 
 And what data is helpful? Data that tells you *tweak this, create that*.
+
+When we come across new tools, we want them to tell us what to do. And when they don’t, it’s frustrating.
