@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Around the web
-description: Links I really don't want to forget.
+title: Video Resources
+description: Video resources from Lukas Murdock.
 last_modified_at: 2020-09-21
 ---
 
@@ -16,38 +16,22 @@ last_modified_at: 2020-09-21
   }
 </style>
 
-<script>
-  function getRandomInt(max) {
-    return Math.floor(Math.random() * Math.floor(max));
-  }
-  
-    function randomResource() {
-      var resourceData = {{ site.data.links.linkslist | jsonify }};
-      console.log(resourceData.length);
-      resourceDate = getRandomInt(resourceData.length);
-      console.log(resourceData[resourceDate]);
-      resourceSelectionNumber = getRandomInt(resourceData[resourceDate]["Links"].length);
-      resourceSelection = resourceData[resourceDate]["Links"][resourceSelectionNumber]["Link"];
-      window.open(resourceSelection, '_blank').focus();
-    }
-  </script>
 
-<p style="margin-top:2px; text-align:center;">Links I really don't want to forget.</p>
+<p style="margin-top:2px; text-align:center;">A video-only list of resources from around the web and knowledge.</p>
 
 <div class="pagebody-content">
   <div style="text-align: center;">
     <a style="margin-bottom: 10px; color: #000; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" class="more-btn" href="{{ '/resources/' | prepend: site.baseurl }}">View all resources</a>
-    <br />
-    Wow, that’s a lot! <a style="margin-bottom: 10px;" href="#" onclick="randomResource()">Give me something random!</a>
   </div>
   
 
   <div class="grid-container">
-    {% for d in site.data.links.linkslist %}
     <div class="grid-item">
-      <p>{{ d.Date }}</p>
       <ol style="list-style: none;" class="zero-margin">
+    {% for d in site.data.links.linkslist %}
+ 
         {% for link in d.Links %}
+        {% if link.Media == "video" %}
         <li>
           <a style="color: #333; text-decoration:none!important;" class="item" target="_blank" href="{{ link.Link }}"
             rel="noopener">
@@ -55,9 +39,28 @@ last_modified_at: 2020-09-21
               <p style="margin-top:0; margin-bottom: 30px;"><i>{{ link.Comment }}</i></p>
           </a>
         </li>
+        {% endif %}
         {% endfor %}
-      </ol>
-    </div>
     {% endfor %}
+
+
+    {% for d in site.data.resources.fulldata %}
+    {% for Title in d.List %}
+    {% if Title.Media == "video" %}
+    <li>
+      <a style="color: #333; text-decoration:none!important;" class="item" target="_blank" href="{{ Title.Link }}"
+        rel="noopener">
+        <h2 class="item zero-margin">{{ Title.Title }}</h2>
+          <p style="margin-top:0; margin-bottom: 30px;"><i>{{ Title.Comment }}</i></p>
+      </a>
+    </li>
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
+
+  </ol>
+</div>
+
+
   </div>
 </div>

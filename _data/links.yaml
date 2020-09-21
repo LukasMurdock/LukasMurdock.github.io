@@ -11,7 +11,7 @@ linkslist:
     Links:
 
       - Title: "We don’t sell saddles here"
-        Link: "https://seths.blog/2020/09/time-to-get-back-to-magic/"
+        Link: "https://medium.com/@stewart/we-dont-sell-saddles-here-4c59524d650d"
         Comment: "A memo from Stewart Butterfield, The best — maybe the only? — real, direct measure of “innovation” is change in human behavior."
 
       - Title: "Time to get back to magic"
@@ -25,6 +25,7 @@ linkslist:
       - Title: "Logic | Philosophy Tube"
         Link: "https://youtu.be/q8NVy00tfdI"
         Comment: "Start with the conclusion, work your way back, separate the inferences from the rhetoric, and figure out the unstated assumptions."
+        Media: video
 
       - Title: "Pre-tests of your agency’s positioning"
         Link: "https://www.davidcbaker.com/five-pre-tests-of-your-agencys-positioning"
@@ -41,14 +42,17 @@ linkslist:
       - Title: "RSA Shorts - The Attention Economy"
         Link: "https://vimeo.com/453747527"
         Comment: "The Royal Society of Arts commission, based on a lecture of James Williams."
+        Media: video
 
       - Title: "The Attention Economy with James Williams"
         Link: "https://youtu.be/xxyRf3hfRXg"
         Comment: "Freedom of attention in the times of digital distraction."
+        Media: video
 
       - Title: "Kierkegaard's horror of doubt"
         Link: "https://youtu.be/2_fUIm_BUaw"
         Comment: "A state of doubt – disorienting and horrifying as it could sometimes be – is the cornerstone of a sound philosophical practice."
+        Media: video
 
       - Title: "How to make friends as an adult"
         Link: "https://psyche.co/guides/how-to-make-new-friends-when-youre-busy-with-adulthood"
@@ -93,10 +97,7 @@ linkslist:
       - Title: "The lies our culture tells us about what matters"
         Link: "https://youtu.be/iB4MS1hsWXU"
         Comment: "David Brooks on a better way to live."
-
-      - Title: "The lies our culture tells us about what matters"
-        Link: "https://youtu.be/iB4MS1hsWXU"
-        Comment: "David Brooks on a better way to live."
+        Media: video
 
       - Title: "Don't Play Yourself"
         Link: "https://www.reddit.com/r/Entrepreneur/comments/iqtfyz/dont_play_yourself_selling_on_value_instead_of/?utm_source=share&utm_medium=ios_app&utm_name=iossmf"
@@ -109,6 +110,7 @@ linkslist:
       - Title: "Limitless Is A Bonkers Franchise"
         Link: "https://youtu.be/pjrTW7Dw7kY"
         Comment: "America is obsessed with work."
+        Media: video
 
       - Title: "We have the expertise but no clients. How to reach them?"
         Link: "https://www.winwithoutpitching.com/positioning-for-profit/"
@@ -165,10 +167,12 @@ linkslist:
       - Title: "Steve Jobs Lost Interview 1990"
         Link: "https://youtu.be/oNC8LEj5X4U"
         Comment: "“I should probably get going.”"
+        Media: video
 
       - Title: "Rick Steves’ The Story of Fascism"
         Link: "https://youtu.be/JU1IVW6uqM0"
         Comment: "How fascism rose and then fell in Europe."
+        Media: video
 
       - Title: "Unlimited information is transforming society"
         Link: "https://www.scientificamerican.com/article/unlimited-information-is-transforming-society/"
@@ -177,6 +181,7 @@ linkslist:
       - Title: "The Graphing Calculator story"
         Link: "https://youtu.be/Dl643JFJWig"
         Comment: "The story of a software writer who refuses to go away."
+        Media: video
 
       - Title: "Notes on “The Anthropology of Childhood”"
         Link: "https://www.lesswrong.com/posts/vwM7hnT9ysE3suwfk/notes-on-the-anthropology-of-childhood"
@@ -185,6 +190,7 @@ linkslist:
       - Title: "This video will make you angry"
         Link: "https://youtu.be/rE3j_RHkqJc"
         Comment: "I watched this when it first came out in 2015."
+        Media: video
 
       - Title: "Chief Seattle's letter to all"
         Link: "http://www.csun.edu/~vcpsy00h/seattle.htm"
@@ -209,6 +215,7 @@ linkslist:
       - Title: "Bret Victor - Inventing on Principle"
         Link: "https://youtu.be/PUv66718DII"
         Comment: "You can choose to accept the world as it is. But you don't have to."
+        Media: video
 
       - Title: "Bayes Theorem: A Framework for Critical Thinking"
         Link: "https://neilkakkar.com/Bayes-Theorem-Framework-for-Critical-Thinking.html"
@@ -380,6 +387,7 @@ linkslist:
       - Title: "Magical thinking vs. evidence seeking"
         Link: "https://youtu.be/Ca2DSsuE7jI"
         Comment: "A video about Trump, QAnon, and the return of magic."
+        Media: video
 
       - Title: "Whatever scares you, go do it"
         Link: "https://sive.rs/scares"
@@ -492,10 +500,12 @@ linkslist:
       - Title: "Catastrotivity"
         Link: "https://youtu.be/5Tx6U5OhMDg"
         Comment: "exurb1a on being an artist."
+        Media: video
 
       - Title: "exurb1a on compassion"
         Link: "https://youtu.be/DJiGuFCzaFo?t=71"
         Comment: "We’re clearly not going to solve the problems in the centuries ahead with compassion alone. But we could sure end the world without it."
+        Media: video
 
       - Title: "Scenius, or communal genius"
         Link: "https://kk.org/thetechnium/scenius-or-comm/"
@@ -595,6 +605,7 @@ linkslist:
       - Title: "Diamond Dallas Page"
         Link: "https://youtu.be/aB5ys1zsz-o"
         Comment: "Inspiring video from 2014."
+        Media: video
 
       - Title: "Be your own mentor"
         Link: "https://www.weskao.com/blog/be-your-own-mentor"
@@ -619,6 +630,7 @@ linkslist:
       - Title: "Louis Rossmann: A message to the kid who called yesterday"
         Link: "https://www.youtube.com/watch?v=-_jfBYgI48c&feature=youtu.be"
         Comment: "This is why it’s worth it."
+        Media: video
 
       - Title: "Thread on why Steve Jobs was successful"
         Link: "https://twitter.com/wilshipley/status/1282098099997954048"
