@@ -19,6 +19,10 @@ The following is a summary of the [Know Your Team Intro: Managing Remote Teams](
 ### 3. Foster connection (belonging cues)
 Belonging cues have to do not with character or discipline but with building an environment that answers basic questions: Are we connected? Do we share a future? Are we safe?
 
+From The Culture Code by Daniel Coyle:
+
+> One misconception about highly successful cultures is that they are happy, lighthearted places. This is mostly not the case. They are energized and engaged, but at their core their members are oriented less around achieving happiness than around solving hard problems together. This task involves many moments of high-candor feedback, uncomfortable truth-telling, when they confront the gap between where the group is, and where it ought to be.
+
 ## The Basecamp Guide to Internal Communication
 The following is a paraphrased and quoted section from [The Basecamp Guide to Internal Communication](https://basecamp.com/guides/how-we-communicate).
 
