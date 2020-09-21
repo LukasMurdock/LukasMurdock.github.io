@@ -96,6 +96,11 @@ fulldata:
         Comment: "Google Developers Technical Writing Course for Engineers."
         Date: Apr 22, 2020
 
+      - Title: Google’s Conversation Design Guidelines
+        Link: "https://designguidelines.withgoogle.com/conversation/conversation-design/welcome.html#"
+        Comment: "Google’s guide to conversation design."
+        Date: Sep 21, 2020
+
       - Title: Useful Email Phrases
         Link: "https://almanac.io/articles/33805/template-150-useful-email-phrases-that-will-make-your-life-easier"
         Comment: "150+ templates that will make your life easier."
