@@ -41,6 +41,11 @@ fulldata:
         Comment: "You don’t need a degree to make change happen."
         Date: August 04, 2020
 
+      - Title: Stripe guides to running an internet business
+        Link: https://stripe.com/atlas/guides
+        Comment: "Authoritative, actionable guidance on how to run the business side of your company, so that you can focus your efforts on building something people will love."
+        Date: Sep 29, 2020
+
       - Title: "Career Launch Guides"
         Link: "https://crash.co/career-guides"
         Comment: "Go beyond applications and resumes, and launch a career that makes you come alive."
@@ -310,6 +315,11 @@ fulldata:
         Link: https://ultimateelectronicsbook.com/
         Comment: "A free, interactive book for electronics hobbyists and electrical engineering students."
         Date: Apr 22, 2020
+
+      - Title: Web Security Academy
+        Link: https://portswigger.net/web-security
+        Comment: "Free, online web security training from PortSwigger, creators of Burp Suite."
+        Date: Sep 29, 2020
 
       - Title: "Simplifier"
         Link: "https://simplifier.neocities.org/"
@@ -1655,6 +1665,11 @@ fulldata:
         Comment: "Bogleheads investing advice and info."
         Date: August 04, 2020
 
+      - Title: Geekhack
+        Link: https://geekhack.org/index.php
+        Comment: "Keyboard enthusiasts forum."
+        Date: Sep 29, 2020
+
       - Title: PubMed
         Link: https://pubmed.ncbi.nlm.nih.gov/
         Comment: "Over 30 million citations for biomedical literature from MEDLINE, life science journals, and online books."
@@ -1769,6 +1784,11 @@ fulldata:
         Link: https://reqbin.com/
         Comment: "API Testing Made Easy."
         Date: August 04, 2020
+
+      - Title: "30000000000000004"
+        Link: https://0.30000000000000004.com/
+        Comment: "Floating point math."
+        Date: Sep 29, 2020
 
       - Title: Free tools for devs
         Link: https://free-for.dev/
