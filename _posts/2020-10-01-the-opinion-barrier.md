@@ -12,7 +12,7 @@ I increasingly see opinions becoming obstacles stopping people from being able t
 I’m referring to moments when phrases like these are uttered:
 “I can’t understand why anyone would do that.” “Why do they do that?”
 
-These are failures to understand a fellow human bring.
+These are failures to understand a fellow human being.
 
 This failure stems from a shallow understanding of oneself as a human being. Understanding what makes us human allows us to project ourselves into others.
 
