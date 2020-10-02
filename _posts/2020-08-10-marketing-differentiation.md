@@ -3,6 +3,7 @@ layout: post
 title: 'Marketing Differentiation'
 description: "The mess of differentiation."
 date: August 10, 2020
+last_modified_at: 2020-10-02T14:41:07+0000
 ---
 
 Here’s a quick list of types of marketing. This list is only going to get longer as time progresses.
@@ -44,6 +45,9 @@ Now you have people looking for a niche offering that only a select few provide.
 In some cases, specialization does occur and benefits the end service provided. But what I’m more concerned with is how it serves to confuse people looking to learn more about marketing.
 
 Where do you start in that mess? Each differentiation focuses more and more on *how you’ll be discovered*. But that’s not the core of marketing.
+
+On of [Wes Kao’s SPOVs](https://www.weskao.com/blog/my-spiky-points-of-view-15-examples-to-inspire-your-spov) is:
+> There’s so much jargon nowadays that even seasoned marketers don’t know all the marketing jargon. There are literally terms being made up every week. ABM for account based marketing, the flywheel to replace the funnel, product marketing which is just marketing. Don’t get caught up in terminology or let others make you feel out of the loop. It’s a power tactic. All of these terms are the same core principles—recycled and renamed for a particular channel or audience. But it’s still the same core principles. Understand those principles and you can easily grasp whatever new term is the marketing flavor of the week.
 
 So people get lost in hustling to interrupt just the right people and looking to find shortcuts instead of doing the hard work of understanding and executing viable ways forward.
 
