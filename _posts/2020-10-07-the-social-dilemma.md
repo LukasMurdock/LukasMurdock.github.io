@@ -170,9 +170,6 @@ Let’s go back to 1929.
 
 A time where all men were smoking, yet it was seen as corrupt and inappropriate for women. Cigarettes were thought to dirty women into prostitution.
 
-https://en.wikipedia.org/wiki/Torches_of_Freedom
-https://en.wikipedia.org/wiki/Edward_Bernays
-
 Edward Bernays, “the father of public relations” and the nephew of Sigmund Freud, was hired to encourage women to smoke in public and eliminate social taboo of women smoking in public.
 
 Bernays *hired* women to march in the Easter Sunday Parade of 1929. They were to join the march saying, “Women! Light another torch of freedom! Fight another sex taboo!” And then light up their cigarettes, their “torches of freedom.”
