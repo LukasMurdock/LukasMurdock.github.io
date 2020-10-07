@@ -170,11 +170,11 @@ Let’s go back to 1929.
 
 A time where all men were smoking, yet it was seen as corrupt and inappropriate for women. Cigarettes were thought to dirty women into prostitution.
 
-Edward Bernays, “the father of public relations” and the nephew of Sigmund Freud, was hired to encourage women to smoke in public and eliminate social taboo of women smoking in public.
+Edward Bernays, “the father of public relations” and the nephew of Sigmund Freud, was hired to encourage women to smoke in public and eliminate the social taboo of women smoking in public.
 
 Bernays *hired* women to march in the Easter Sunday Parade of 1929. They were to join the march saying, “Women! Light another torch of freedom! Fight another sex taboo!” And then light up their cigarettes, their “torches of freedom.”
 
-He hired photographers make sure to get pictures of the events and the published them around the world. The ensuing targeting of women in tobacco advertising led to higher rates of smoking among women.
+He hired photographers make sure to get pictures of the events and then published them around the world. The ensuing targeting of women in tobacco advertising led to higher rates of smoking among women.
 
 While in 1923 only 5% of cigarettes where sold to women, in 1929 that percentage increased to 12%, in 1935 to 18.1%, peaking in 1965 at 33.3%, and remained there until 1977.
 
@@ -200,7 +200,7 @@ I subscribe to numerous newsletters, a short list can be found on my [knowledge 
 
 I have also recently subscribed to [MailBrew](https://mailbrew.com/), a platform to roll feeds, writers, and newsletters in a single email digest, and a beautiful web app.
 
-A simple filter for consumption is: If it’s vehement, I don’t engage.
+A simple filter I have for consumption is this: If it’s vehement, I don’t engage.
 
 ## Further Reading and Watching
 
