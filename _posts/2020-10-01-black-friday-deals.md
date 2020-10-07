@@ -3,6 +3,7 @@ layout: post
 title: 'Black Friday Deals'
 description: "What does your “deal” change for the people who didn’t choose you before?"
 date: October 01, 2020
+last_modified_at: 2020-10-07T20:15:11+0000
 ---
 
 A few reasons the people you’re looking for didn’t choose you before:
@@ -31,3 +32,54 @@ Are you creating more value for your customers or are you doing the same work bu
 ## Black Friday Deals Are Short Term
 
 Acknowledge that most of the people you’ll be reaching with  deals aren’t going to be with you for the long term. Black Friday was built for short-term boosts, accepting cheaper isn’t a long-term investment. It’s a race to the bottom that few can survive.
+
+## What’s different once you show up?
+
+What’s the difference in people before and after they interact with you? From viewing your website, to becoming an employee, and purchasing your goods or services, what’s changed?
+
+“I thought X, but now Y.”
+
+What change are you seeking to make?
+
+A short list of B2B changes:
+- Customer Attraction
+- Customer Retention
+- Customer Optimization
+- Product Systemization
+- Product Delegation
+- Product Automation
+- New Product
+
+A short list of person-to-person changes (and everything is P2P):
+- Safety
+- Health
+- Belonging
+- Adventure
+- Respect
+- Power
+- Sex
+- Security
+- Good looks
+- Learning new things
+- Avoiding new things
+- Peace of mind
+- Revenge
+- Control
+- Friendship
+- Romance
+- Community
+- Sympathy
+- Delight
+- Luxury
+- Tension
+- Freedom of movement
+- Freedom of expression
+- Nostalgia
+- Affection
+- Participation
+- Reassurance
+- Creativity
+- Obedience
+- Reliability
+- Strength
+- Physical activity
