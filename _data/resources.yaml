@@ -41,6 +41,11 @@ fulldata:
         Comment: "You don’t need a degree to make change happen."
         Date: August 04, 2020
 
+      - Title: The Codex
+        Link: https://www.lesswrong.com/codex
+        Comment: "How good reasoning works, how to learn from the institution of science, and different ways society has been and could be designed."
+        Date: October 07, 2020
+
       - Title: Stripe guides to running an internet business
         Link: https://stripe.com/atlas/guides
         Comment: "Authoritative, actionable guidance on how to run the business side of your company, so that you can focus your efforts on building something people will love."
@@ -1976,6 +1981,11 @@ fulldata:
         Comment: "A growing directory of people — and all of their best content in one place."
         Date: Sep 21, 2020
 
+      - Title: Social Cooling
+        Link: "https://www.socialcooling.com/"
+        Comment: "If you feel you are being watched, you change your behavior."
+        Date: Oct 07, 2020
+
 
 
 
@@ -2561,6 +2571,16 @@ fulldata:
         Link: "http://psych.fullerton.edu/mbirnbaum/psych101/Eliza.htm"
         Comment: "Can you tell which videos are real?"
         Date: August 24, 2020
+
+      - Title: "How Normal Am I?"
+        Link: "https://www.hownormalami.eu/"
+        Comment: "Experience how “artificial intelligence” judges your face."
+        Date: October 07, 2020
+
+      - Title: "100,000 Stars"
+        Link: "https://stars.chromeexperiments.com/"
+        Comment: "An interactive 3D visualization of the stellar neighborhood, including over 100,000 nearby stars. Created for the Google Chrome web browser."
+        Date: October 07, 2020
 
 
   # Brands
