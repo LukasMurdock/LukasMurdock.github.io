@@ -194,7 +194,7 @@ Now we see this power of rallying the public being transferred to anyone, anywhe
 ## How I inform myself
 I won’t tell you how to consume. But I will share with you how I consume information.
 
-I use [NewNewsWire](https://ranchero.com/netnewswire/), a free and open source RSS reader for Mac and iOS to subscribe to various RSS feeds.
+I use [NetNewsWire](https://ranchero.com/netnewswire/), a free and open source RSS reader for Mac and iOS to subscribe to various RSS feeds.
 
 I subscribe to numerous newsletters, a short list can be found on my [knowledge page](https://lukasmurdock.com/knowledge/#newsletters).
 
