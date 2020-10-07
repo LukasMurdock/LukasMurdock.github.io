@@ -7,7 +7,7 @@ date: October 07, 2020
 
 I imagine nobody likes this feeling very much.
 
-I become frustrated when there *is an expected process*, but it’s not externalized. The process lives in the mind of those who perform them. Therefore the process has no standardization and lacks documentation.
+I become frustrated when there is an *expected process*, but it’s not externalized. The process lives in the mind of those who perform them. Therefore the process has no standardization and lacks documentation.
 
 And then, when there is an externalized process, standardization, and documentation—I become frustrated that it’s not automated. I mean, isn’t this what computing and automation is good for? Standardized processes?
 
@@ -18,7 +18,7 @@ I feel that, with the progression in technology and computing, I shouldn’t hav
 ## Standardized processes should be automated
 This is largely how I feel about how educational subjects like math and accounting are taught.
 
-If the goal is to memorize a standardized process instead of intuitively recreating how people came up with this stuff—which is what is the valuable stuff—then why shouldn’t we let computers do it?
+If the goal is to memorize a standardized process instead of intuitively recreating how people came up with this stuff—which is the valuable stuff—then why shouldn’t we let computers do it?
 
 ### But what if that all goes away?
 The most common argument I hear is, *“But what if that all goes away and you have to know it?”*
