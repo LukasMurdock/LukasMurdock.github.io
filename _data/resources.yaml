@@ -958,10 +958,10 @@ fulldata:
         Comment: "Tools to grow your search traffic, research your competitors and monitor your niche"
         Date: May 29, 2020
 
-      - Title: SEMRush
-        Link: "https://www.semrush.com/"
-        Comment: "All-in-one Marketing Toolkit for digital marketing professionals"
-        Date: May 29, 2020
+      # - Title: SEMRush
+      #   Link: "https://www.semrush.com/"
+      #   Comment: "All-in-one Marketing Toolkit for digital marketing professionals"
+      #   Date: May 29, 2020
 
       - Title: Screaming Frog SEO Spider
         Link: https://www.screamingfrog.co.uk/seo-spider/
@@ -973,10 +973,10 @@ fulldata:
         Comment: "Rank tracking, backlink monitoring, and site auditing designed for companies focused on scaling."
         Date: May 29, 2020
 
-      - Title: Majestic
-        Link: "https://majestic.com/"
-        Comment: "Backlink Checker & Link Building Toolset"
-        Date: May 29, 2020
+      # - Title: Majestic
+      #   Link: "https://majestic.com/"
+      #   Comment: "Backlink Checker & Link Building Toolset"
+      #   Date: May 29, 2020
 
       - Title: Sparktoro
         Link: "https://sparktoro.com/"
