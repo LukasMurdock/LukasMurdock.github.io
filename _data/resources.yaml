@@ -1223,6 +1223,11 @@ fulldata:
         Comment: "Does your page support rich results?"
         Date: July 7, 2020
 
+      - Title: "Lighthouse Metrics"
+        Link: "https://lighthouse-metrics.com/"
+        Comment: "Global performance insights for your site."
+        Date: October 12, 2020
+
       - Title: Web Performance Tools
         Link: https://www.swyx.io/writing/webperf-tests/
         Comment: "Every Web Performance Test Tool"
@@ -1986,6 +1991,16 @@ fulldata:
         Comment: "If you feel you are being watched, you change your behavior."
         Date: Oct 07, 2020
 
+      - Title: Typelit.io
+        Link: "https://www.typelit.io/"
+        Comment: "Practice typing by retyping entire classic novels."
+        Date: Oct 12, 2020
+
+      - Title: "Project Implicit"
+        Link: "https://implicit.harvard.edu/implicit/"
+        Comment: "Find out your implicit associations."
+        Date: Oct 12, 2020
+
 
 
 
@@ -2357,6 +2372,11 @@ fulldata:
         Comment: "Discover awesome small and personal blogs."
         Date: May 29, 2020
 
+      - Title: Cameron Coyan
+        Link: "https://cameroncoyan.com/"
+        Comment: "D20-rolling, photo-taking designer with a passion for all things creative."
+        Date: October 12, 2020
+
       - Title: Adam Silver
         Link: https://adamsilver.io/
         Comment: "Interaction designer and author of Form Design Patterns."
@@ -2581,6 +2601,11 @@ fulldata:
         Link: "https://stars.chromeexperiments.com/"
         Comment: "An interactive 3D visualization of the stellar neighborhood, including over 100,000 nearby stars. Created for the Google Chrome web browser."
         Date: October 07, 2020
+
+      - Title: "Roland 808303.studio"
+        Link: "https://808303.studio/"
+        Comment: "Emulate the sound of the TR-808 drum machine and TB-303 bass synthesiser."
+        Date: October 12, 2020
 
 
   # Brands
