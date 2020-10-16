@@ -10,6 +10,34 @@ linkslist:
   - Date: October 2020
     Links:
 
+      - Title: "The Only Way to Grow Huge"
+        Link: "https://blog.samaltman.com/the-only-way-to-grow-huge"
+        Comment: "Have people recommend the product or service to other people."
+
+      - Title: "Where do marketers turn for advice and inspiration?"
+        Link: "https://cxl.com/blog/marketing-advice/"
+        Comment: "Blogs aren’t dead, but marketers are discovering information in new ways."
+
+      - Title: "How to read the news"
+        Link: "https://themargins.substack.com/p/thinking-and-feeling-how-to-read"
+        Comment: "The medium is no longer the message. The path it took to find you is the message."
+
+      - Title: "From Consumer to Creator"
+        Link: "https://durmonski.com/self-improvement/why-you-should-create-stuff/"
+        Comment: "Why you should start creating something, now."
+
+      - Title: "A manifesto for small teams doing important work"
+        Link: "https://seths.blog/2016/02/a-manifesto-for-small-teams-doing-important-work/"
+        Comment: "It works because it’s personal."
+
+      - Title: "Consumers Book"
+        Link: "https://www.consumersbook.net/"
+        Comment: "A book about the people who put stuff inside their head."
+
+      - Title: "A Quarter Century of Hype"
+        Link: "https://vimeo.com/464835556"
+        Comment: "25 Years of the Gartner Hype Cycle."
+        Media: video
 
       - Title: "The Death Of Lunch"
         Link: "https://thomasjbevan.substack.com/p/the-death-of-lunch"
@@ -78,6 +106,7 @@ linkslist:
       - Title: "The first 1960 presidential debate"
         Link: "https://youtu.be/AYP8-oxq8ig"
         Comment: "Kennedy vs. Nixon in the first debate ever to be televised."
+        Media: video
 
       - Title: "How to be professionally visible and valued as a remote worker"
         Link: "https://blog.trello.com/visible-and-valued-remote-worker"

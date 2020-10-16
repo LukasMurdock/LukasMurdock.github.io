@@ -251,6 +251,11 @@ fulldata:
         Comment: "Wistia provides video marketing tips and education along with video production tips."
         Date: Apr 22, 2020
         
+      - Title: Low-Level Academy
+        Link: https://lowlvl.org/
+        Comment: "Learn systems programming by creating small projects from the first principles with visual and intuitive explanations."
+        Date: Oct 15, 2020
+
       - Title: Programming project based learning
         Link: https://github.com/tuvtran/project-based-learning/blob/master/README.md?utm_source=share&utm_medium=ios_app&utm_name=iossmf#javascript
         Comment: "A list of programming tutorials in which learners build an application from scratch."
@@ -640,10 +645,15 @@ fulldata:
         Comment: "A landing template that shows you how to write unignorable web copy."
         Date: August 11, 2020
 
-      - Title: Saas Landing Pages
+      - Title: SaaS Landing Pages
         Link: https://saaslandingpage.com/
         Comment: "Discover the best landing page examples created by top-class SaaS companies, and get ideas and inspiration for your next design project."
         Date: Apr 22, 2020
+
+      - Title: SaaS Pages
+        Link: "https://saaspages.xyz/"
+        Comment: "Screenshots, tips, and tricks to build the best SaaS landing page that actually converts."
+        Date: Oct 15, 2020
 
       - Title: Ad Pages
         Link: "https://adpages.xyz/"
@@ -2136,6 +2146,11 @@ fulldata:
         Link: https://datasetsearch.research.google.com/
         Comment: "Find datasets stored across the Web through a simple keyword search."
         Date: Apr 22, 2020
+
+      - Title: "Journalist Studio"
+        Link: "https://journaliststudio.google.com/"
+        Comment: "A collection of tools to empower journalists to do their work more efficiently, creatively, and securely"
+        Date: Oct 15, 2020
 
       - Title: Free Data Sources
         Link: https://www.siegemedia.com/creation/data-sources
