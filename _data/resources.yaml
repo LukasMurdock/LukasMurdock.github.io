@@ -61,6 +61,16 @@ fulldata:
         Comment: "A self-guided class to help you get started in UX and answer key questions about craft, design, and career."
         Date: July 10, 2020
 
+      - Title: "Product Management World"
+        Link: "https://www.prodmgmt.world/"
+        Comment: "A collection of techniques to help young product teams move forward."
+        Date: Oct 21, 2020
+
+      - Title: "Product Frameworks"
+        Link: "https://www.product-frameworks.com/"
+        Comment: "A collection of resources and techniques to help you create better products."
+        Date: Oct 21, 2020
+
       - Title: "The complete guide to usability testing"
         Link: "https://maze.design/guides/usability-testing"
         Comment: "Everything you need to know to run usability tests and get actionable insights to create better user experiences."
@@ -1755,6 +1765,11 @@ fulldata:
         Comment: "An oasis for those who are tired of clickbait, fake news, excessive advertisements and a big brother who watches everything."
         Date: May 14, 2020
 
+      - Title: The Old Net
+        Link: "http://theoldnet.com/"
+        Comment: "Welcome To The Old Internet Again."
+        Date: Oct 21, 2020
+
       - Title: Style Stage
         Link: "https://stylestage.dev/"
         Comment: "A modern CSS showcase styled by community contributions"
@@ -2010,6 +2025,11 @@ fulldata:
         Link: "https://implicit.harvard.edu/implicit/"
         Comment: "Find out your implicit associations."
         Date: Oct 12, 2020
+
+      - Title: "Time Traveler by Merriam-Webster"
+        Link: "https://www.merriam-webster.com/time-traveler/2020"
+        Comment: "Search Words by First Known Use Date."
+        Date: Oct 21, 2020
 
 
 
@@ -2621,6 +2641,11 @@ fulldata:
         Link: "https://808303.studio/"
         Comment: "Emulate the sound of the TR-808 drum machine and TB-303 bass synthesiser."
         Date: October 12, 2020
+
+      - Title: "aem1k "
+        Link: "https://aem1k.com/"
+        Comment: "JavaScript Hacks and Creative Coding by Martin Kleppe."
+        Date: October 21, 2020
 
 
   # Brands
