@@ -3,6 +3,8 @@ layout: workPages
 title: Zota
 image: Zota.jpeg
 caption: Zota is the newest community event, hosted by the Olentangy Education Foundation.
+sitemap: false
+index: noindex
 ---
 
 Olentangy Education Foundation is a non-profit that hosts annual events to support and fund enhanced educational experiences for students. OEF has funded over $700,000 in grants and scholarships over the years, resulting in a passionate community sharing a singular, incredible experience.

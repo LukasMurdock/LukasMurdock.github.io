@@ -4,6 +4,8 @@ title: Digital
 description: Expressing personality and values to build a consistent experience that resonates with customers and nurtures lasting relationships.
 image: digital.jpg
 caption: Lukas Murdock creates effective strategies, powerful identities and memorable experiences.
+sitemap: false
+index: noindex
 ---
 ### Responsive Web Design and Development
 Carefully crafted comprehensive digital experiences that function consistently and seamlessly across all browsers. From desktop screens to mobile phones and tablets, with websites that scale and adapt smoothly to the ever-changing context of multi-device users and interactions.

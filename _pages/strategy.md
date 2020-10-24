@@ -4,6 +4,8 @@ title: Strategy
 description: Clarify your purpose, find your voice, understand your customers, and define your goals.
 image: Strategy.jpg
 caption: Lukas Murdock creates effective strategies, powerful identities and memorable experiences.
+sitemap: false
+index: noindex
 ---
 
 ### Positioning

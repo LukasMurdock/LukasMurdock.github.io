@@ -4,6 +4,8 @@ title: Branding
 description: Expressing personality and values to build a consistent experience that resonates with customers and nurtures lasting relationships.
 image: branding.png
 caption: Lukas Murdock creates effective strategies, powerful identities and memorable experiences.
+sitemap: false
+index: noindex
 ---
 
 ### Logo Design & Identity Systems
