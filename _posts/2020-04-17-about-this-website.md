@@ -22,14 +22,14 @@ I use Google Chrome, VS Code, and Github Desktop on my 2018 MacBook Pro (Yes I a
 
 
 ## Host
-I host my website directly on [Github Pages](https://lukasmurdock.com/2019/07/03/squarespace-to-github/). Hosting this way means I don’t have to worry about payments but utilization will suffer if I need to scale distribution.  
+I host my website directly on [Github Pages](https://lukasmurdock.com/squarespace-to-github/). Hosting this way means I don’t have to worry about payments but utilization will suffer if I need to scale distribution.  
 <span class="full-underline" style="font-size: 12px;">Did I mention it's free?</span>
 
 
 ## Data Files
 I have four YAML data files: booklist, links, principles, and resources.
 
-I wrote [how I made a book list with only ISBNs](https://lukasmurdock.com/2019/10/19/making-a-book-list/) because finding all that information is too annoying for me.
+I wrote [how I made a book list with only ISBNs](https://lukasmurdock.com/making-a-book-list/) because finding all that information is too annoying for me.
 
 > Jekyll supports [YAML](https://jekyllrb.com/docs/datafiles/) for it's `_data` directory and the structure is [relatively simple](https://idratherbewriting.com/documentation-theme-jekyll/mydoc_yaml_tutorial). To add a book the only thing I need to find is the ISBN code. Everything else auto populates from that."
 

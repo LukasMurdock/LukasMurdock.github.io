@@ -1,14 +1,13 @@
 ---
-layout: default
-title: Ultralearning
-description:  Ultralearning — We can use the internet to explore the places that we know we should be exploring.
+layout: post
+title: 'Ultralearning'
+description: "Master hard skills, outsmart the competition, and accelerate your career."
+date: October 24, 2020
+last_modified_at: 2020-10-24T04:26:18+0000
 ---
 
-<style>
-  h1{
-    text-align: center;
-  }
 
+<style>
   .grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -18,17 +17,6 @@ description:  Ultralearning — We can use the internet to explore the places th
   .grid-item {
     padding: 5px;
     font-size: 14px;
-  }
-  h3{
-    font-size: 22px;
-    padding-left: 20px;
-  }
-  img {
-    width: 16px;
-    height: 16px;
-    margin-right: 4px;
-    margin-top: 2px;
-    float: left;
   }
   div {
     counter-reset: dopeCounter;
@@ -106,13 +94,20 @@ description:  Ultralearning — We can use the internet to explore the places th
     }
 }
 </style>
-<div class="pagebody-content">
-  <h2>Master Hard Skills, Outsmart the Competition, and Accelerate Your Career</h2>
-  <p>“I could go back to school, I thought. Enroll again. Spend another four years working toward a second degree. But taking out student loans and giving up a half decade of my life to repeat the bureaucracy and rules of college didn’t seem very appealing. There had to be a better way to learn what I wanted.”<br>– <a href="https://www.scotthyoung.com/blog/" target="_blank" rel="noopener">Scott Young</a></p>
-  <p>In my research on how we might encourage and inspire new goals and initiate interest in learning new things, I encountered <a href="https://www.scotthyoung.com/blog/ultralearning/" target="_blank" rel="noopener">Ultralearning</a>. I realized we need environments where willing, caring individuals can enroll in experiences to make learning the heart of what they do. Most of us are surrounded by chances to learn. Yet unless it's sold to us under a veil of credentials–or some other form of extrinsic motivation–we would rather continue to do what we usually do. Immersing ourselves in procrastination and distractions in an eerily similar depiction of Aldous Huxley's <a href="https://www.amazon.com/Brave-New-World-Aldous-Huxley/dp/0060850523" target="_blank" rel="noopener"><i>Brave New World</i></a> published in 1932.</p>
-  <p>Recognizing that the way we approach learning as a culture needs to change, that pursuing goals pushed by overbearing authority figures, curriculums, or employers from social pressure often leads to depression, anxiety, and the increasingly common choice of suicide. We need to encourage play and positive feedback, not authority and punishment. We have put tests before teaching children how to properly think. Everyone seems to feign ignorance at the obvious scam of textbooks–they have been for years. And the peer-reviewed journals that gatekeep between researchers and their peers, charging amounts even Harvard can't afford to subscribe too, all to simply host PDFs on a website.</p>
-  <p>Even with the arrival of Khan Academy and countless other online learning platforms, they're simply not enough to get our attention. I believe purpose is discovered through action, not thought. And people need to see an opportunity where they can make a change to be motivated to develop themselves. Without that, it seems as if most people simply don't care. They aren't curious about the world around them, books are relics of an older time and they have no desire to learn new things. We need to find whatever it is in our peers that might yearn for more, and encourage the learning that would enable them to autonomously seek to know more. We have to show that learning isn't than passing a test because that's what we've trained them to believe. We learn to pass the test, nothing more, nothing less.</p>
-  <p>The people who have chosen to be high performers, who choose to make a ruckus, understand that learning is at the heart of what they do. That a compelling vision of what you want to do, a deep curiosity, and the challenge itself is why you push on. And forever seeking to see capabilities you didn't know existed. Ultralearning provides a strategy for aggressive, self-directed learning. Below I have distilled the rules and tactics within Ultralearning.</p>
+
+Originally posted on Oct 5, 2019
+
+“I could go back to school, I thought. Enroll again. Spend another four years working toward a second degree. But taking out student loans and giving up a half decade of my life to repeat the bureaucracy and rules of college didn’t seem very appealing. There had to be a better way to learn what I wanted.”<br>– [Scott Young](https://www.scotthyoung.com/blog/){:target="_blank"}{:rel="noopener"}
+
+
+In my research on how we might encourage and inspire new goals and initiate interest in learning new things, I encountered [Ultralearning](https://www.scotthyoung.com/blog/ultralearning/){:target="_blank"}{:rel="noopener"}. I realized we need environments where willing, caring individuals can enroll in experiences to make learning the heart of what they do. Most of us are surrounded by chances to learn. Yet unless sold to us under a veil of credentials–or some other form of extrinsic motivation–we continue to do what we usually do. Immersing ourselves in procrastination and distractions in an eerily similar depiction of Aldous Huxley’s *[Brave New World](https://www.amazon.com/Brave-New-World-Aldous-Huxley/dp/0060850523){:target="_blank"}{:rel="noopener"}* published in 1932.
+
+Recognizing that the way we approach learning as a culture needs to change. That pursuing goals pushed by overbearing authority figures, curriculums, or employers from social pressure often leads to depression, anxiety, and the increasingly common choice of suicide. We need to encourage play and positive feedback, not authority and punishment. We have put tests before teaching children how to think properly. Everyone seems to feign ignorance at the apparent scam of textbooks–they have been for years. And the peer-reviewed journals that gatekeep between researchers and their peers, charging amounts even Harvard can’t afford to subscribe too, all to host PDFs on a website.
+
+Even with the arrival of Khan Academy and countless other online learning platforms, they’re not enough to get our attention. I believe purpose is discovered through action, not thought. And people need to see an opportunity to make a change to be motivated to develop themselves. Without that, it seems as if most people don’t care. They aren’t curious about the world around them, books are relics of an older time, and they have no desire to learn new things. We need to find whatever it is in our peers that might yearn for more and encourage the learning that would enable them to seek to know more autonomously. We have to show that learning isn’t passing a test—and that’s what we’ve trained people to believe. We learn to pass the test, nothing more, nothing less.
+
+The people who have chosen to be high performers, who decide to make a ruckus, understand that learning is at the heart of what they do. Who moved forward because they have a compelling vision of what they want to do, a deep curiosity, and seek the challenge itself. And they are forever seeking to see capabilities they didn’t know existed. Ultralearning provides a strategy for aggressive, self-directed learning, and below I have distilled the rules and tactics within Ultralearning.
+
   <div class="grid-container" >
       <div class="grid-item" tabindex="0">
         <h3>Focus problems</h3>
@@ -272,7 +267,5 @@ description:  Ultralearning — We can use the internet to explore the places th
             </ol>
       </div>
   </div>
-  <p><sub>Note: Reading Ultralearning took 4h 20m, developing this page also took 4h 20m.</sub></p>
-
-</div>
+Note: Reading Ultralearning and developing this page split 8h 40m.
 

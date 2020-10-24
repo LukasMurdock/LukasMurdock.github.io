@@ -7,7 +7,7 @@ code: true
 last_modified_at: 2020-06-11T17:48:03+0000
 ---
 
-When I was [figuring out how to build a booklist]({{site.baseurl}}/making-a-book-list/) that would let me add a book as easily as possible my solution was writing JavaScript to request the book data from Google Books API. Then another bit of JavaScript would insert that data into an HTML template and write the output onto the booklist page.
+When I was [figuring out how to build a booklist](https://lukasmurdock.com/making-a-book-list/) that would let me add a book as easily as possible my solution was writing JavaScript to request the book data from Google Books API. Then another bit of JavaScript would insert that data into an HTML template and write the output onto the booklist page.
 
 But I have a problem with this method. The page starts empty and every time someone loads the page it has to make an API call to get the data!
 
