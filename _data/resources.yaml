@@ -231,6 +231,11 @@ fulldata:
         Comment: "Matthew Butterick's practical typography book."
         Date: Apr 22, 2020
 
+      - Title: Getting started in Type Design
+        Link: "https://arrowtype.github.io/type-blog/2020-05-01--getting-started-in-type/"
+        Comment: "Getting started in Type Design (and possible next steps)"
+        Date: Oct 29, 2020
+
       - Title: A guide to type styles
         Link: https://www.fontsmith.com/blog/2019/06/24/a-guide-to-type-styles
         Comment: "Instead of focusing on the existing systems or trying to come up with a new system, this piece looks to demystify some useful terminology to help you recognise the most common Latin type styles."
@@ -510,6 +515,11 @@ fulldata:
         Comment: "Why stand out when you were born to fit in?"
         Date: Sep 21, 2020
 
+      - Title: "Tyrus by Airbnb Design"
+        Link: "https://tyrus.design/"
+        Comment: "A free digital toolkit from Airbnb Design that helps freelance illustrators optimize their business."
+        Date: Oct 29, 2020
+
       - Title: WCAG Checklist
         Link: "https://gerireid.com/wcag-for-designers.html"
         Comment: "Web Content Accessibility Guidelines checklist."
@@ -595,6 +605,11 @@ fulldata:
         Comment: "The ultimate source for User Onboarding teardowns, tips, & thoughts."
         Date: Apr 22, 2020
 
+      - Title: "UXArchive User Flow Archive"
+        Link: "https://uxarchive.com/"
+        Comment: "The world's largest library of mobile user flows."
+        Date: Oct 29, 2020
+
       - Title: A collection of design systems
         Link: https://github.com/alexpate/awesome-design-systems
         Comment: "A curated list of design systems, pattern libraries, and everything between."
@@ -679,6 +694,11 @@ fulldata:
         Link: "https://cssgradient.io/"
         Comment: "A free css gradient generator tool."
         Date: July 10, 2020
+
+      - Title: PatternPad
+        Link: "https://patternpad.com/"
+        Comment: "Create beautiful patterns for presentations, social media or branding."
+        Date: Oct 29, 2020
 
       - Title: Humaaans
         Link: https://www.humaaans.com/
@@ -2031,6 +2051,11 @@ fulldata:
         Comment: "Search Words by First Known Use Date."
         Date: Oct 21, 2020
 
+      - Title: "Japanese Woodblock Print Search"
+        Link: "https://ukiyo-e.org/"
+        Comment: "Japanese Woodblock print search engine. Searches thousands of Ukiyo-e, Meiji, Shin Hanga, and Sosaku Hanga prints"
+        Date: Oct 29, 2020
+
 
 
 
@@ -2571,6 +2596,11 @@ fulldata:
         Link: "http://worrydream.com/"
         Comment: "Purveyor of impossible dreams."
         Date: Sep 05, 2020
+
+      - Title: "Samuel Reed"
+        Link: "https://www.strml.net/"
+        Comment: "CTO of BitMEX.com and frequent open source contributor."
+        Date: Oct 29, 2020
 
 
   #Creative Coding
