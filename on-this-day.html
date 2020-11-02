@@ -1,0 +1,136 @@
+---
+layout: newsletter
+title: On This Day
+description: Updates from Lukas Murdock — We can use the internet to explore the places that we know we should be exploring.
+index: noindex
+sitemap: false
+---
+
+<div id="jsInsert"></div>
+
+<!-- {% assign timeframe = 604800 %}
+
+{% for post in site.posts %}
+  {% assign post_in_seconds = post.date | date: "%s" | plus: 0 %}
+  {% assign recent_posts = "now" | date: "%s" | minus: timeframe  %}
+
+  {% if post_in_seconds > recent_posts %}
+  <h2 class="index-title" style="margin-bottom:0px;">{{ post.title }}<p style="font-size: 17px; font-weight: 400; margin-bottom:0px;">{{ post.date | date: '%B %d, %Y' }}</p></h2>
+  {{ post.content }}
+  {% endif %}
+{% endfor %}
+
+{% for post in site.posts %}
+  {% assign post_in_seconds = post.date | date: "%s" | plus: 0 %}
+  {% assign recent_posts = "now" | date: "%s" | minus: timeframe  %}
+
+  {% if post_in_seconds > recent_posts %}
+  <h2 class="index-title" style="margin-bottom:0px;">{{ post.title }}<p style="font-size: 17px; font-weight: 400; margin-bottom:0px;">{{ post.date | date: '%B %d, %Y' }}</p></h2>
+  {{ post.content }}
+  {% endif %}
+{% endfor %}
+
+
+
+{% assign timeSet = site.time | date: '%B %Y' %}
+
+{% for d in site.data.links.linkslist %}
+{% if d.Date == timeSet %}
+<div class="grid-item">
+  <p>Articles from {{ d.Date }}</p>
+  <ol style="list-style: none; padding: 0;" class="zero-margin">
+    {% for link in d.Links %}
+    <li>
+      <a style="color: #333; text-decoration:none!important;" class="item" target="_blank" href="{{ link.Link }}"
+        rel="noopener">
+        <h2 class="item zero-margin" style="margin: 0; line-height: 1.2;">{{ link.Title }}</h2>
+          <p style="margin-top:0; margin-bottom: 30px;"><i>{{ link.Comment }}</i></p>
+      </a>
+    </li>
+    {% endfor %}
+  </ol>
+</div>
+{% endif %}
+{% endfor %} -->
+
+
+<script>  
+  
+  function convertToSlug(Text) {
+    return Text
+        .toLowerCase()
+        .replace(/[^\w ]+/g,'')
+        .replace(/ +/g,'-')
+        ;
+  }
+
+  var resourceData = {{ site.data.resources.fulldata | jsonify }};
+
+  var masterDateArray = [{Month: "January", Days: Array()}, {Month: "February", Days: Array()}, {Month: "March", Days: Array()}, {Month: "April", Days: Array()}, {Month: "May", Days: Array()}, {Month: "June", Days: Array()}, {Month: "July", Days: Array()}, {Month: "August", Days: Array()}, {Month: "September", Days: Array()}, {Month: "October", Days: Array()}, {Month: "November", Days: Array()}, {Month: "December", Days: Array()}];
+  console.log(resourceData);
+  resourceData.forEach(function(resourceCategoryIndex){
+
+    resourceCategoryIndex["List"].forEach(function(resourceIndex) {
+      // console.log(resourceIndex)
+      // resourceSelection = resourceData[resourceCategory]["List"][index]["Link"];
+      var resourceDate = new Date(resourceIndex["Date"]);
+      var insertResource = new Array(resourceIndex)
+
+      if (typeof masterDateArray[resourceDate.getMonth()]["Days"][resourceDate.getDate()] == 'undefined') {
+        masterDateArray[resourceDate.getMonth()]["Days"][resourceDate.getDate()] = new Array(insertResource);
+      }else {
+        masterDateArray[resourceDate.getMonth()]["Days"][resourceDate.getDate()].push(insertResource);
+      }
+    });
+  });
+  // console.log(masterDateArray);
+  // console.log(Object.keys(masterDateArray[4]["Days"]));
+
+// var today = new Date();
+// var dd = String(today.getDate()).padStart(2, '0');
+// var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+// var yyyy = today.getFullYear();
+// document.write(today.getMonth() + 1);
+const today = new Date()
+
+// today = mm + '/' + dd + '/' + yyyy;
+// document.write(today);
+
+masterDateArray.forEach(function(monthIndex) {
+
+  document.getElementById("jsInsert").innerHTML = document.getElementById("jsInsert").innerHTML + `<div id="${monthIndex["Month"]}"><h2>${monthIndex["Month"]}</h2></div>`;
+// console.log(monthIndex)
+  monthIndex["Days"].forEach(function(daysInMonth) {
+
+    // console.log(daysInMonth)
+    slugDayInMonth = convertToSlug(daysInMonth[0][0]["Date"])
+
+    if (slugDayInMonth !== "apr-22-2020" ) {
+      document.getElementById(`${monthIndex["Month"]}`).innerHTML = document.getElementById(`${monthIndex["Month"]}`).innerHTML + `<div id="${slugDayInMonth}"><h4>${daysInMonth[0][0]["Date"]}</h4></div>`;
+      // console.log(Object.keys(daysInMonth));
+      daysInMonth.forEach(function(dayIndex) {
+      // console.log(Object.keys(masterDateArray[4]["Days"]));
+      // console.log(dayIndex)
+        document.getElementById(`${slugDayInMonth}`).innerHTML = document.getElementById(`${slugDayInMonth}`).innerHTML + `<p><a href="${dayIndex[0]["Link"]}">${dayIndex[0]["Title"]}</a></br>${dayIndex[0]["Comment"]}</p>`;
+      })
+    }
+
+    });
+  });
+
+
+
+    
+    function findPos(obj) {
+    var curtop = 0;
+    if (obj.offsetParent) {
+        do {
+            curtop += obj.offsetTop;
+        } while (obj = obj.offsetParent);
+    return [curtop];
+    }
+}
+window.scroll(0,findPos(document.getElementById(`${today.toLocaleString('default', { month: 'long' })}`)));
+
+
+</script>
