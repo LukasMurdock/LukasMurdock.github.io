@@ -32,6 +32,17 @@ TTT has a course [Creating a Money Site from Scratch](https://trafficthinktank.c
 
 Matthew Howells-Barby created a Slack channel to start planning out the project. I was brought in as part of the initial project team for design and development, alongside Joey Farruggio and Judd Lyon.
 
+The initial project team:
+- David Broderick (project management).
+- Ronan Kelleher (project management).
+- Liz Dougherty (project management).
+- Kristin Tyndall (project management & content planning).
+- Naila Turner (content planning).
+- Joey Farruggio (design & development).
+- Judd Lyon (development).
+- Lukas Murdock (design & development).
+- Matthew Howells-Barby, Nick Eubanks, and Ian Howells (the Traffic Think Tank founding team).
+
 Here’s the basic flow of how the project is likely going to work:
 
 1. Ronan and David setup project management in Notion
@@ -59,4 +70,7 @@ After setting up some basic project management in Notion, the next priority is t
 1. Which charity will we donate to?
 2. Which niche will we focus the money site on?
 3. Which domain/brand name will we go with?
+
+**Update October 30th**
+The winner of the charity selection poll is [Black Girls Code](https://www.blackgirlscode.com/).
 
