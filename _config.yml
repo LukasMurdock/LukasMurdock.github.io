@@ -26,8 +26,7 @@ sass:
 
 # last_modified_at: iso 8601 current time
 
-gems:
-  # - jekyll-paginate
+plugins:
   - jekyll/tagging
   - jekyll-sitemap
   - jekyll-redirect-from
@@ -41,6 +40,7 @@ exclude:
   - vendor
   - Gemfile
   - Gemfile.lock
+  - .jekyll-cache
 
 # Tags
 tag_page_dir:         tag

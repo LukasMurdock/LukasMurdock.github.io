@@ -1,10 +1,17 @@
 source 'https://rubygems.org'
 
+gem "liquid-c"
 gem 'bundler'
 gem 'jekyll'
-gem 'jekyll-paginate'
-gem 'jekyll-tagging'
-gem 'jekyll-sitemap'
-gem 'jekyll-redirect-from'
-gem 'jekyll-feed'
-gem 'httparty'
+
+group :jekyll_plugins do
+    gem 'jekyll-paginate'
+    gem 'jekyll-tagging'
+    gem 'jekyll-sitemap'
+    gem 'jekyll-redirect-from'
+    gem 'jekyll-feed'
+    gem 'httparty'
+end
+
+
+
