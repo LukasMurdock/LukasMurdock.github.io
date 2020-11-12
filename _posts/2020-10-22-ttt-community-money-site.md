@@ -74,3 +74,5 @@ After setting up some basic project management in Notion, the next priority is t
 **Update October 30th**
 The winner of the charity selection poll is [Black Girls Code](https://www.blackgirlscode.com/).
 
+**Update November 3rd**
+TTT post: [Our community is building a revenue-generating website](https://trafficthinktank.com/community-money-site/).

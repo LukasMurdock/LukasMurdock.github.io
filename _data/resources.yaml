@@ -944,6 +944,11 @@ fulldata:
         Comment: "Find words related to another word."
         Date: Apr 22, 2020
 
+      - Title: Ludwig
+        Link: "https://ludwig.guru/"
+        Comment: "A linguistic search engine that helps you write better English."
+        Date: Nov 12, 2020
+
       - Title: Hemingway
         Link: http://www.hemingwayapp.com
         Comment: "Makes your writing bold and clear."
@@ -1067,6 +1072,16 @@ fulldata:
         Link: "https://trends.google.com/"
         Comment: "Explore what the world is searching"
         Date: June 10, 2020
+
+      - Title: Wikipedia Topviews Analysis
+        Link: "https://pageviews.toolforge.org/topviews/?project=en.wikipedia.org&platform=all-access&date=last-month&excludes="
+        Comment: "See the most viewed pages."
+        Date: Nov 12, 2020
+
+      - Title: Wikipedia Top 25 Report
+        Link: "https://en.wikipedia.org/wiki/Wikipedia:Top_25_Report"
+        Comment: "See the most popular wikipedia articles of the week."
+        Date: Nov 12, 2020
 
       - Title: Google Test My Site
         Link: "https://www.thinkwithgoogle.com/feature/testmysite/"
@@ -1546,6 +1561,11 @@ fulldata:
         Link: https://fs.blog/
         Comment: "Live a better life by mastering the best of what other people have already figured out."
         Date: Apr 22, 2020
+
+      - Title: Brain Pickings
+        Link: https://www.brainpickings.org/
+        Comment: "An inventory of the meaningful life"
+        Date: Nov 12, 2020
 
       - Title: Money Stuff
         Link: https://link.mail.bloombergbusiness.com/join/4wm/moneystuff-signup&hash=54223001ca3ffcf40f2629c25acea67a
@@ -2601,6 +2621,11 @@ fulldata:
         Link: "https://www.strml.net/"
         Comment: "CTO of BitMEX.com and frequent open source contributor."
         Date: Oct 29, 2020
+
+      - Title: "Matthew Paul"
+        Link: "https://matthewcpaul.com/about/"
+        Comment: "A product designer, researcher, and front-end engineer."
+        Date: Nov 12, 2020
 
 
   #Creative Coding
