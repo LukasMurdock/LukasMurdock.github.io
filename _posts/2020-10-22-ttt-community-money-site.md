@@ -3,7 +3,7 @@ layout: post
 title: 'TTT Community Money Site'
 description: "What if we could harness a scenius to launch a completely community-driven website that generates revenue and took all of the profits and donated them to a charity of choice?"
 date: October 22, 2020
-last_modified_at: 2020-10-22T04:26:18+0000
+last_modified_at: 2020-11-24T00:20:52+0000
 ---
 
 I’ll be continuously working on this page as the project continues.
@@ -76,3 +76,6 @@ The winner of the charity selection poll is [Black Girls Code](https://www.black
 
 **Update November 3rd**
 TTT post: [Our community is building a revenue-generating website](https://trafficthinktank.com/community-money-site/).
+
+**Update November 23rd**
+TTT community voted for domain name: [wfhgenius.com](https://wfhgenius.com/)
