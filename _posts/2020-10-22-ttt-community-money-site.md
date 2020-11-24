@@ -77,5 +77,15 @@ The winner of the charity selection poll is [Black Girls Code](https://www.black
 **Update November 3rd**
 TTT post: [Our community is building a revenue-generating website](https://trafficthinktank.com/community-money-site/).
 
+**Update November 9th**
+TTT community voted for niche: *Working from home*
+
 **Update November 23rd**
 TTT community voted for domain name: [wfhgenius.com](https://wfhgenius.com/)
+
+Ideal domain criteria:
+- .com available
+- No hyphen
+- Relatively short
+- Focused on “working from home”
+- Not too narrow (e.g. “standingdesktips.com”)
