@@ -126,6 +126,11 @@ fulldata:
         Comment: "150+ templates that will make your life easier."
         Date: July 10, 2020
 
+      - Title: "Cold email templates"
+        Link: "https://hunter.io/templates"
+        Comment: "Find inspiration from best-performing cold emails, sorted by categories."
+        Date: Nov 23, 2020
+
       - Title: Learn Anything
         Link: https://learn-anything.xyz/
         Comment: "You can learn anything."
@@ -505,6 +510,11 @@ fulldata:
         Comment: "Firefox & Mozilla Brand, resources, and press sssets."
         Date: July 22, 2020
 
+      - Title: "Facebook Design"
+        Link: "https://design.facebook.com/"
+        Comment: "A hub for all things design, including articles, design tools and more."
+        Date: Nov 23, 2020
+
       - Title: "Design Systems Buy-In Deck"
         Link: "https://superfriendlydesign.systems/tools/design-systems-buy-in-deck/"
         Comment: "Free Keynote & Powerpoint with Light & Dark themes."
@@ -785,6 +795,11 @@ fulldata:
         Comment: "Online payment processing for internet businesses."
         Date: Apr 22, 2020
 
+      - Title: Formist
+        Link: https://formisteditions.co/
+        Comment: "High quality books, prints, artworks and objects."
+        Date: Nov 23, 2020
+
       - Title: Leon
         Link: "https://www.myleon.co/"
         Comment: "The first-ever AI-powered employee performance platform."
@@ -814,6 +829,11 @@ fulldata:
         Link: https://www.mavenclinic.com
         Comment: "Women’s and family healthcare the way it should be."
         Date: Apr 22, 2020
+
+      - Title: "Forensic Architecture"
+        Link: "https://forensic-architecture.org/"
+        Comment: "A research agency that undertakes advanced spatial and media investigations."
+        Date: Nov 23, 2020
 
 
   # Guides to SEO
@@ -1384,6 +1404,11 @@ fulldata:
         Link: https://mourner.github.io/bullshit.js/
         Comment: "Bullshit.js is a mission-critical enterprise JavaScript bookmarklet that will empower you to evaluate the high impact of market-driven text on any page."
         Date: Apr 22, 2020
+
+      - Title: "WaspLine Reader"
+        Link: "https://wasplinereader.com/"
+        Comment: "Read faster using color gradients."
+        Date: Nov 23, 2020
 
       - Title: Discover Extensions
         Link: https://extensionrank.com/
@@ -2076,7 +2101,16 @@ fulldata:
         Comment: "Japanese Woodblock print search engine. Searches thousands of Ukiyo-e, Meiji, Shin Hanga, and Sosaku Hanga prints"
         Date: Oct 29, 2020
 
+      - Title: "Whitespaces"
+        Link: "https://kirillbelyaev.com/s/"
+        Comment: "Whitespaces and zero width ​characters with buttons for copying to clipboard, short mnemonics and usage comments."
+        Date: Nov 23, 2020
 
+      - Title: "1MB Club"
+        Link: "https://1mb.club/"
+        Comment: "A growing collection of performance-focused web pages where the client-side resources does not exceed 1 megabyte. "
+        Date: Nov 23, 2020
+        
 
 
 
@@ -2191,6 +2225,11 @@ fulldata:
         Link: https://myactivity.google.com/more-activity
         Comment: "Review and manage your activity, including things you’ve searched for, websites you’ve visited, and videos you’ve watched."
         Date: June 23, 2020
+
+      - Title: "Google Takeout"
+        Link: "https://takeout.google.com/"
+        Comment: "Export a copy of content in your Google Account to back it up or use it with a service outside of Google."
+        Date: Nov 23, 2020
 
       - Title: Political advertising transparency
         Link: https://transparencyreport.google.com/political-ads/home
@@ -2626,6 +2665,11 @@ fulldata:
         Link: "https://matthewcpaul.com/about/"
         Comment: "A product designer, researcher, and front-end engineer."
         Date: Nov 12, 2020
+
+      - Title: "Elizabeth Lin"
+        Link: "https://www.elizabethylin.com/"
+        Comment: "A product designer & aspiring princess."
+        Date: Nov 23, 2020
 
 
   #Creative Coding
