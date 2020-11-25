@@ -26,16 +26,12 @@ linkslist:
         Link: "https://noidea.dog/glue"
         Comment: "Glue work demonstrates and builds strong technical leadership skills."
 
-      - Title: "Being Glue"
-        Link: "https://noidea.dog/glue"
-        Comment: "Glue work demonstrates and builds strong technical leadership skills."
-
       - Title: "There's nothing ”WEIRD” about conspiracy theories"
         Link: "https://www.econlib.org/theres-nothing-weird-about-conspiracy-theories/"
         Comment: "Western, Educated, Industrialized, Rich and Democratic."
 
       - Title: "Lessons about the Creator Economy"
-        Link: "https://www.animalz.co/blog/low-effort-high-impact/"
+        Link: "https://peteryang.substack.com/p/lessons-about-creator-economy"
         Comment: "Consistency, community, collaboration, diverse monetization, come for the tool—stay for the network."
 
       - Title: "Low Effort, High Impact Content"
@@ -73,11 +69,7 @@ linkslist:
       - Title: "tribalism"
         Link: "https://youtu.be/Cx4GvzjRMx8"
         Comment: "An exploration of the mechanisms that drive tribalism — and that offer a way out of it."
-        media: video
-
-      - Title: "Patrick McKenzie and David Perell"
-        Link: "https://youtu.be/YrTrWf6EjqA"
-        Comment: "On my to-watch list"
+        Media: video
 
       - Title: "The incoming"
         Link: "https://seths.blog/2020/11/the-incoming/"
@@ -85,18 +77,18 @@ linkslist:
 
       - Title: "Patrick McKenzie and David Perell"
         Link: "https://youtu.be/YrTrWf6EjqA"
-        Comment: "On my to-watch list"
-        media: video
+        Comment: "WoW leadership, writing online."
+        Media: video
 
       - Title: "The Five Minute Museum"
         Link: "https://youtu.be/oQV-0nbAFjE"
         Comment: "Thousands of pieces from small museums brought tos life to tell the story of human efforts."
-        media: video
+        Media: video
 
       - Title: "Adam Savage’s 10 Commandments of Making"
         Link: "https://youtu.be/ER7rhQ7N69k"
         Comment: "10 tips for makers of all ages and advice Adam would've given to himself if he was just starting out."
-        media: video
+        Media: video
 
       - Title: "UX copy sells"
         Link: "https://vanschneider.com/ux-copy-sells"
@@ -105,7 +97,7 @@ linkslist:
       - Title: "Woodblock Printing Process - A Japan Journey"
         Link: "https://youtu.be/M8ma5q9-lA0"
         Comment: "The step-by-step process of making a woodblock prints."
-        media: video
+        Media: video
 
       - Title: "Executive is not a real job, but if it were here would be its description"
         Link: "https://boz.com/articles/executive"
@@ -114,7 +106,7 @@ linkslist:
       - Title: "How Does Do Science? │ Figuring out what's true"
         Link: "https://youtu.be/3MRHcYtZjFY"
         Comment: "How we can learn about the world, how to test hypothesis, and the basics of science. What is science?"
-        media: video
+        Media: video
 
       - Title: "The student"
         Link: "https://tinkeredthinking.com/index.php?id=954"
@@ -125,7 +117,7 @@ linkslist:
         Comment: "A clear argument has to lay out an inferential pathway, starting from what the audience already knows or accepts. If you don’t recurse far enough, you’re just talking to yourself."
 
       - Title: "Election Day 2020: René Girard, Part 2"
-        Link: "https://articles.tilt365.com/identify-destructive-leadership-patterns/"
+        Link: "https://alexdanco.com/2020/11/03/election-day-2020-rene-girard-part-2/"
         Comment: "Understanding the 2020 Election through Girard’s worldview on mimetic desire, differentiation, and scapegoating."
 
       - Title: "How to Identify Destructive Leadership Patterns"
@@ -147,7 +139,7 @@ linkslist:
       - Title: "Trillions of Questions, No Easy Answers: A (home) movie about how Google Search works"
         Link: "https://youtu.be/tFq6Q_muwG0"
         Comment: "A (home) movie about how Google Search works."
-        media: video
+        Media: video
 
       - Title: "Noticing and authorization"
         Link: "https://alearningaday.blog/2020/10/29/noticing-and-authorization/"
@@ -275,7 +267,7 @@ linkslist:
         Comment: "“I’m pro-[topic]” doesn’t necessarily imply that you believe any empirical truths about [topic], or believe any moral principles about [topic], or even support any [topic] policies. It means you’re waving a little flag and cheering."
 
       - Title: "Thoughts on how i approach filmmaking"
-        Link: "https://www.collaborativefund.com/blog/a-few-rules/"
+        Link: "https://twitter.com/casey/status/1312479342094544897?lang=en"
         Comment: "Expressing creativity using the most basic, accessible methods is the hardest thing to do and the purest. The very best steak houses serve their filet on a plate with nothing else. Shi*ty franchises cover theirs in sauce and other stuff to distract you from the fact that you’re eating dog food."
 
       - Title: "Proving Too Much"
@@ -491,7 +483,7 @@ linkslist:
         Media: video
 
       - Title: "We have the expertise but no clients. How to reach them?"
-        Link: "https://www.winwithoutpitching.com/positioning-for-profit/"
+        Link: "https://news.ycombinator.com/item?id=24397821"
         Comment: "ASK HN: Hacker news discussion."
 
       - Title: "Positioning Agency Brands"
@@ -579,7 +571,7 @@ linkslist:
         Comment: "The three gears of learning in public."
 
       - Title: "How to create luck"
-        Link: "https://theproductperson.substack.com/p/-how-to-negotiate-and-persuade"
+        Link: "https://www.swyx.io/create_luck/"
         Comment: "Your entire worldview changes when you realize you can create luck."
 
       - Title: "How to negotiate and persuade"
@@ -594,10 +586,6 @@ linkslist:
         Link: "https://youtu.be/PUv66718DII"
         Comment: "You can choose to accept the world as it is. But you don't have to."
         Media: video
-
-      - Title: "Bayes Theorem: A Framework for Critical Thinking"
-        Link: "https://neilkakkar.com/Bayes-Theorem-Framework-for-Critical-Thinking.html"
-        Comment: "Learn why we think the way we do, and how we can do better."
 
       - Title: "Proctoring apps subject students to unnecessary surveillance"
         Link: "https://www.eff.org/deeplinks/2020/08/proctoring-apps-subject-students-unnecessary-surveillance"
@@ -639,7 +627,7 @@ linkslist:
         Comment: "The Japanese concept of Ma is something that relates to all aspects of life."
 
       - Title: "On linear commerce"
-        Link: "https://sparktoro.com/blog/outreach-tips-that-are-better-than-anything-youll-find-searching-google/"
+        Link: "https://2pml.com/2019/04/22/on-linear-commerce/"
         Comment: "A great product needs an organic and impassioned audience. Captive audiences will need products and services tailored to their tastes."
 
       - Title: "Situational gravity"
@@ -712,7 +700,7 @@ linkslist:
 
       - Title: "Tools for keeping focused"
         Link: "https://www.lesswrong.com/posts/mXgsd5o9uuYaQKHMz/tools-for-keeping-focused"
-        Comment: "It's good to be half-baked."
+        Comment: "Find tools, and ways of using my tools, that help you stay more focused."
 
       - Title: "Surrendering control"
         Link: "https://uncertaintymindset.substack.com/p/41-surrendering-control"
@@ -808,7 +796,7 @@ linkslist:
         Comment: "Using the best tool for a job may slow things down. It may be “best” in a sense you don't need. The actual best tool might be relatively crude."
 
       - Title: "Introduction to screen readers using voiceover"
-        Link: "https://zenhabits.net/feeling-it/"
+        Link: "https://youtu.be/Y2vjyDxkIPs"
         Comment: "Learn how to get started with VoiceOver, Apple’s built-in screen reader, to read and navigate web pages in this tutorial by Ethan Marcotte."
 
       - Title: "Reveal culture"
@@ -822,10 +810,6 @@ linkslist:
       - Title: "Joel Spolsky on Pricing"
         Link: "https://www.joelonsoftware.com/2004/12/15/camels-and-rubber-duckies/"
         Comment: "The more you learn about pricing, the less you seem to know."
-
-      - Title: "Where to find the hours to make it happen"
-        Link: "https://sivers.org/uncomf"
-        Comment: "The hours don’t suddenly appear. You have to steal them from comfort."
 
       - Title: "Thinking for oneself"
         Link: "https://fs.blog/2020/07/thinking-for-oneself/"
@@ -910,7 +894,7 @@ linkslist:
 
       - Title: "The four quadrants of conformism"
         Link: "http://paulgraham.com/conformism.html"
-        Comment: "The battle between present and future self."
+        Comment: "Aggressively conventional-minded, passively conventional-minded, passively independent-minded, and aggressively independent-minded."
 
       - Title: "Temporal discounting"
         Link: "https://nesslabs.com/temporal-discounting"
@@ -1022,10 +1006,6 @@ linkslist:
         Link: "https://cmhb.de/white-space"
         Comment: "We can use it to identify what we value and what we don’t. What we need to use, enjoy to use and look at, and what we don’t."
 
-      - Title: "The polymath playbook"
-        Link: "https://salman.io/posts/polymath-playbook/"
-        Comment: "In a world built for specialization, the polymath approach can help us build unique mental models to differentiate ourselves, and the opportunity to discover meaningful work."
-
       - Title: "Theory of change"
         Link: "http://www.aaronsw.com/weblog/theoryofchange"
         Comment: "The difference between effective and ineffective people is their skill at developing a theory of change. Rest in peace Aaron."
@@ -1043,11 +1023,11 @@ linkslist:
         Comment: "The worthwhile problems are the ones you can really solve or help solve, the ones you can really contribute something to."
 
       - Title: "A digital garden, not a blog"
-        Link: "https://cmhb.de/white-space"
+        Link: "https://joelhooks.com/digital-garden"
         Comment: "The phrase “digital garden” a metaphor for thinking about writing and creating that focuses less on the resulting “showpiece” and more on the process, care, and craft it takes to get there."
 
       - Title: "Writing less damned code"
-        Link: "https://cmhb.de/white-space"
+        Link: "https://youtu.be/tzfHlEFd2Fk"
         Comment: "Code that don't exist is infinitely performant and extremely easy to maintain and document. A talk by Heydon Pickering."
 
       - Title: "Sixty orbits"
