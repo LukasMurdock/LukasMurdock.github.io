@@ -2741,10 +2741,22 @@ fulldata:
         Comment: "Emulate the sound of the TR-808 drum machine and TB-303 bass synthesiser."
         Date: October 12, 2020
 
-      - Title: "aem1k "
+      - Title: "aem1k"
         Link: "https://aem1k.com/"
         Comment: "JavaScript Hacks and Creative Coding by Martin Kleppe."
         Date: October 21, 2020
+
+      - Title: "d3 force"
+        Link: "https://wattenberger.com/blog/d3-force"
+        Comment: "Let's learn how to move particles with forces using d3-force."
+        Date: December 2, 2020
+
+      - Title: "Jongmah — Online Mahjong"
+        Link: "https://www.jongmah.com/"
+        Comment: "Grab a drink, go full-screen and enjoy a free and 100% relaxing game of Mahjong Solitaire!"
+        Date: December 2, 2020
+
+        
 
 
   # Brands

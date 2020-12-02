@@ -31,6 +31,9 @@ No. You don’t.
 
 Because specialization is how we got to today, and it’s how we move forward into the future.
 
+> When you automate as much of your life as possible, you can spend you effort on the tasks machines cannot do yet. Each habit that we hand over to the authority of technology frees up time and energy to pour into the next stage of growth.\
+— James Clear, Atomic Habits
+
 ## Automation is Specialization
 Specialization is how we prosper.
 
