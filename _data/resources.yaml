@@ -181,6 +181,11 @@ fulldata:
         Comment: "Demystify AI with this free online course."
         Date: Apr 22, 2020
 
+      - Title: Ethics of AI
+        Link: "https://ethics-of-ai.mooc.fi/"
+        Comment: "Learn what AI ethics means, what can and can’t be done to develop AI in an ethically sustainable way, and how to start thinking about AI from an ethical point of view."
+        Date: Dec 3, 2020
+
       - Title: Paul Graham Infographics
         Link: https://blog.adioma.com/tag/paul-graham/
         Comment: "Paul Graham's Essays Visualized as Infographic Series."
@@ -794,6 +799,11 @@ fulldata:
         Link: https://stripe.com/
         Comment: "Online payment processing for internet businesses."
         Date: Apr 22, 2020
+
+      - Title: Stripe Press
+        Link: https://press.stripe.com/
+        Comment: "Stripe Press publishes books about economic and technological advancement."
+        Date: Dec 3, 2020
 
       - Title: Formist
         Link: https://formisteditions.co/
@@ -2755,6 +2765,11 @@ fulldata:
         Link: "https://www.jongmah.com/"
         Comment: "Grab a drink, go full-screen and enjoy a free and 100% relaxing game of Mahjong Solitaire!"
         Date: December 2, 2020
+
+      - Title: "Observable & creative coding"
+        Link: "https://observablehq.com/@makio135/creative-coding"
+        Comment: "Generating SVGs, Motion, and GLSL Shaders."
+        Date: December 3, 2020
 
         
 
