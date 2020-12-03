@@ -89,3 +89,7 @@ Ideal domain criteria:
 - Relatively short
 - Focused on “working from home”
 - Not too narrow (e.g. “standingdesktips.com”)
+
+
+**Update December 2nd**
+Brief meeting to talk about project management, design, and development.
