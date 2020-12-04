@@ -7,7 +7,8 @@
 #        Comment: 
 
 linkslist:
-  - Date: November 2020
+
+  - Date: December 2020
     Links:
 
       - Title: "Why Correct Isn’t Useful"
@@ -17,6 +18,9 @@ linkslist:
       - Title: "Pain is not the unit of Effort"
         Link: "https://www.lesswrong.com/posts/bx3gkHJehRCYZAF3r/pain-is-not-the-unit-of-effort"
         Comment: "If it hurts, you're probably doing it wrong."
+
+  - Date: November 2020
+    Links:
 
       - Title: "How Are You Doing?"
         Link: "https://kottke.org/20/11/how-are-you-doing"
