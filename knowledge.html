@@ -160,7 +160,7 @@ function getRandomInt(max) {
 
   <div class="grid-container">
     {% for d in site.data.resources.fulldata %}
-    <div id="{{ d.Type | downcase}}" class="grid-item">
+    <div id="{{ d.Type | slugify}}" class="grid-item">
         <h2>{{ d.Type }}</h2>
         <ol>
           {% for Title in d.List %}

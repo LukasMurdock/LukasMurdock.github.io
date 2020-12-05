@@ -20,6 +20,8 @@
 # Creative Coding
 # Brands
 # Email
+# The Great Blogs
+# The Great Forums
 
 fulldata:
   #Guides
@@ -1740,11 +1742,6 @@ fulldata:
         Comment: "List of all kinds of interesting topics: Laws, Principles, Mental Models, Cognitive Biases."
         Date: August 11, 2020
 
-      - Title: Less Wrong
-        Link: "https://www.lesswrong.com/"
-        Comment: "A community dedicated to improving reasoning and decision-making."
-        Date: June 9, 2020
-
       - Title: Tools for better thinking
         Link: "https://untools.co/"
         Comment: "Collection of thinking tools and frameworks to help you solve problems, make decisions and understand systems."
@@ -1764,11 +1761,6 @@ fulldata:
         Link: https://www.hackrdot.com/
         Comment: "A reader for Hacker News, r/programming, and Slashdot."
         Date: Apr 22, 2020
-
-      - Title: Bogleheads
-        Link: https://www.bogleheads.org/
-        Comment: "Bogleheads investing advice and info."
-        Date: August 04, 2020
 
       - Title: Geekhack
         Link: https://geekhack.org/index.php
@@ -2681,6 +2673,163 @@ fulldata:
         Comment: "A product designer & aspiring princess."
         Date: Nov 23, 2020
 
+  #The Great Blogs
+  - Type: The Great Blogs
+    List:
+
+      - Title: Seth Godin
+        Link: "https://seths.blog/"
+        Comment: "A blog on marketing, tribes and respect since 2006."
+        Date: Dec 04, 2020
+
+      - Title: Patrick McKenzie
+        Link: "https://www.kalzumeus.com/"
+        Comment: "Patio11 since 2006."
+        Date: Dec 04, 2020
+
+      - Title: Gwern
+        Link: "https://www.gwern.net/index"
+        Comment: "Long-term essays that improve over time."
+        Date: Dec 04, 2020
+
+      - Title: Slate Star Codex
+        Link: "https://slatestarcodex.com/archives/"
+        Comment: "Blog since 2012. On science, medicine, philosophy, politics, and futurism."
+        Date: Dec 04, 2020
+
+      - Title: Jason Kottke
+        Link: "https://kottke.org/"
+        Comment: "Home of fine hypertext products since 1998."
+        Date: Dec 04, 2020
+
+      - Title: Derek Sivers
+        Link: "https://sive.rs/"
+        Comment: "Blog since 1999. A musician, producer, circus performer, entrepreneur, TED speaker, and book publisher."
+        Date: Dec 04, 2020
+
+      - Title: Kevin Kelly
+        Link: "https://kk.org/"
+        Comment: "Blog since 2003. A writer, photographer, conservationist, and founder of Wired magazine."
+        Date: Dec 04, 2020
+
+      - Title: Paul Graham
+        Link: "http://paulgraham.com/index.html"
+        Comment: "An English-born American computer scientist, essayist, entrepreneur, venture capitalist, and author."
+        Date: Dec 04, 2020
+
+      - Title: Sam Altman
+        Link: "https://blog.samaltman.com/"
+        Comment: "since 2013"
+        Date: Dec 04, 2020
+
+      - Title: Shane Parrish
+        Link: "https://fs.blog"
+        Comment: "Helping you master the best of what other people have already figured out since (at least) 2009."
+        Date: Dec 04, 2020
+
+      - Title: Naval Ravikant
+        Link: "https://nav.al/"
+        Comment: "Since 2005."
+        Date: Dec 04, 2020
+
+      - Title: Chris Coyier
+        Link: "https://chriscoyier.net/"
+        Comment: "Blog since 2005. Founded CSS-Tricks and co-founded CodePen."
+        Date: Dec 04, 2020
+
+      - Title: Will Larson
+        Link: "https://lethain.com/"
+        Comment: "Blog since 2007. an engineering leader at Digg, Uber, Stripe, and, as of 2020, Calm."
+        Date: Dec 04, 2020
+
+      - Title: Patrick Collison
+        Link: "https://patrickcollison.com/about"
+        Comment: "Co-founder and CEO of Stripe."
+        Date: Dec 04, 2020
+
+      - Title: Tim Ferriss
+        Link: "https://tim.blog/"
+        Comment: "Blog since 2006. American entrepreneur, investor, author, and podcaster."
+        Date: Dec 04, 2020
+
+      - Title: Tyler Cowen
+        Link: "https://marginalrevolution.com/"
+        Comment: "Blog since 2003. An American economist."
+        Date: Dec 04, 2020
+
+      - Title: Randall Munroe (xkcd)
+        Link: "https://xkcd.com/"
+        Comment: "Blog since 2005. An American cartoonist, author, and engineer."
+        Date: Dec 04, 2020
+
+      - Title: Rohan Rajiv (A Learning a Day)
+        Link: "https://alearningaday.blog/"
+        Comment: "Blog since 2008. Product Manager at LinkedIn."
+        Date: Dec 04, 2020
+
+      - Title: Scott H. Young
+        Link: "https://www.scotthyoung.com/"
+        Comment: "Blog since 2006. Author, programmer, entrepreneur."
+        Date: Dec 04, 2020
+
+      - Title: Joel Spolsky
+        Link: "https://www.joelonsoftware.com"
+        Comment: "Blog since 1999. Responsible for VBA in Excel 5.0, Trello, and Stack Overflow."
+        Date: Dec 04, 2020
+
+      - Title: Jeff Atwood (Coding Horror)
+        Link: "https://blog.codinghorror.com/"
+        Comment: "Blog since 2004. An American software developer, author, blogger, and entrepreneur."
+        Date: Dec 04, 2020
+
+      - Title: Don Norman
+        Link: "https://jnd.org/"
+        Comment: "Blog since 2008. An American researcher, professor, and author. Wrote The Design of Everyday Things."
+        Date: Dec 04, 2020
+
+      - Title: John Gruber (Daring Fireball)
+        Link: "https://daringfireball.net/"
+        Comment: "Blog since 2002. A blogger, UI designer, and the inventor of the Markdown markup language."
+        Date: Dec 04, 2020
+
+      - Title: Matt Mullenweg
+        Link: "https://ma.tt/"
+        Comment: "Blog since 2002. An American entrepreneur and web developer. Developed WordPress."
+        Date: Dec 04, 2020
+
+      - Title: "Bret Victor"
+        Link: "http://worrydream.com/"
+        Comment: "Purveyor of impossible dreams."
+        Date: Sep 05, 2020
+
+      - Title: Aaron Swartz
+        Link: "http://www.aaronsw.com/"
+        Comment: "No summary can do Aaron justice. Remember Aaron Swartz."
+        Date: Dec 04, 2020
+
+  #The Great Forums
+  - Type: The Great Forums
+    List:
+
+      - Title: Less Wrong
+        Link: "https://www.lesswrong.com/"
+        Comment: "A community dedicated to improving reasoning and decision-making."
+        Date: June 9, 2020
+
+      - Title: Long Now
+        Link: "https://longnow.org/"
+        Comment: "The Long Now Foundation hopes to provide a counterpoint to today's accelerating culture and help make long-term thinking more common."
+        Date: Dec 04, 2020
+
+      - Title: Bogleheads
+        Link: https://www.bogleheads.org/
+        Comment: "Bogleheads investing advice and info."
+        Date: August 04, 2020
+
+      - Title: Long Bets
+        Link: "https://longbets.org/"
+        Comment: "A public arena for enjoyably competitive predictions, of interest to society, with philanthropic money at stake."
+        Date: December 04, 2020
 
   #Creative Coding
   - Type: Creative Coding
@@ -2857,8 +3006,6 @@ fulldata:
         Link: https://designers.watch/
         Comment: "Must-See Design & Art Documentaries."
         Date: Apr 22, 2020
-
-
 
   #Books
   - Type: Books
