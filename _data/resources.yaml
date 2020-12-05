@@ -2831,6 +2831,11 @@ fulldata:
         Comment: "A public arena for enjoyably competitive predictions, of interest to society, with philanthropic money at stake."
         Date: December 04, 2020
 
+      - Title: Hacker News
+        Link: "https://news.ycombinator.com/"
+        Comment: "A social news website focusing on computer science and entrepreneurship. Run by Paul Graham's investment fund and startup incubator, Y Combinator."
+        Date: December 04, 2020
+
   #Creative Coding
   - Type: Creative Coding
     List:
