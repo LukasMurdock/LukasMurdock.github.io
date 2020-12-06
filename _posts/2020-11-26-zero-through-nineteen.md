@@ -128,3 +128,20 @@ Moved to Florida.
 Flew for the first time on my own.
 
 And here we are.
+
+### Platform Progression
+
+I find this notable. What a time to be alive.
+
+- [Twitter](https://twitter.com/MurdockLukas) since 2012
+- [Instagram](https://www.instagram.com/lukasauras.rex/) since 2012
+- [Github](https://twitter.com/MurdockLukas) since 2012
+- [YouTube](https://www.youtube.com/channel/UCG8ZhvCtKlnPXkoJG2u52lw) since 2013
+- [Snapchat](https://www.snapchat.com/add/rexisking7) since 2014
+- [Reddit](https://www.reddit.com/user/LukasMurdock) since 2015
+- [Facebook](https://www.facebook.com/lukas.rex.murdock/) since 2016
+- [LinkedIn](https://www.linkedin.com/in/lukas-murdock/) since 2016
+- [Pinterest](https://www.pinterest.com/murdocklukas/) since 2018
+- [Lukasmurdock.com](https://www.lukasmurdock.com/) since 2018
+- [Less Wrong](https://www.lesswrong.com/) since 2020
+- [Long Now](https://longnow.org/) since 2020 #11261
