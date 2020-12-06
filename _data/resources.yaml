@@ -2787,6 +2787,11 @@ fulldata:
         Comment: "Blog since 2008. An American researcher, professor, and author. Wrote The Design of Everyday Things."
         Date: Dec 04, 2020
 
+      - Title: Maria Popova (Brain Pickings)
+        Link: "https://www.brainpickings.org/"
+        Comment: "Blog since 2006. Exploring what it means to live a decent, substantive, rewarding life."
+        Date: Dec 06, 2020
+
       - Title: John Gruber (Daring Fireball)
         Link: "https://daringfireball.net/"
         Comment: "Blog since 2002. A blogger, UI designer, and the inventor of the Markdown markup language."
