@@ -7,7 +7,6 @@ last_modified_at: 2020-06-22
 
 <script src="/js/odometer.min.js"></script>
 
-
 <p style="text-align: center;">Words Written: <span id="odometer" hidden>0{% for post in site.posts %}+{{ post.content | number_of_words }}{% endfor %}</span></p>
 
     {% for post in site.posts %}
