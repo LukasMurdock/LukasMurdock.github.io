@@ -7,6 +7,8 @@ tags: explainingformyfutureself jailbreak
 code: true
 ---
 
+It’s okay, skip along, I know you’re not interested in modding ancient tech.
+
 1. [Install AltStore](https://altstore.io/)
 2. Install Mail plugin
 3. [Install nullxImpactor](https://impactor.nullx.me/) (or whatever side loader you can get to work)
