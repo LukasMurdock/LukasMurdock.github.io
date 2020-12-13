@@ -105,6 +105,9 @@ description: Books I really don't want to forget.
           <a rel="nofollow" target="_blank" href="https://www.google.com/search?q={{ book.title | append: '+by+'}}{{ book.authors[0] }}" >{{ book.title }}</a>
         </h2>
         <p class="item">by {{ book.author[0] }}</p>
+        {% if book.dateread %}
+        <p class="item">Finished {{ book.dateread }}</p>
+        {% endif %}
       </div>
     </div>
     {% endfor %}
