@@ -1,0 +1,202 @@
+---
+isbns:
+- isbn: 9781455586660
+  dateread: December 13, 2020
+  notfound: false
+  title: Deep Work
+  image: http://books.google.com/books/content?id=4QTzCAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  author:
+  - Cal Newport
+- isbn: 9781610392501
+  title: The Culture Map
+  author:
+  - Erin Meyer
+  image: http://books.google.com/books/content?id=IMsiBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  notfound: false
+- isbn: 9780829429824
+  title: Heroic Leadership
+  author:
+  - Chris Lowney
+  image: http://books.google.com/books/content?id=LjZSFhj8M_EC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  notfound: false
+- isbn: 9781591848264
+  title: Anything You Want
+  author:
+  - Derek Sivers
+  image: http://books.google.com/books/content?id=AmkBDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  notfound: false
+- isbn: 9781250222862
+  title: Manifesto for a Moral Revolution
+  author:
+  - Jacqueline Novogratz
+  image: http://books.google.com/books/content?id=JnGVDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  notfound: false
+- isbn: 9780525540830
+  title: This Is Marketing
+  author:
+  - Seth Godin
+  image: http://books.google.com/books/content?id=B8JyDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  notfound: false
+- isbn: 9780812968255
+  title: The Meditations
+  author:
+  - Marcus Aurelius
+  image: http://books.google.com/books/content?id=brSidvTKfcQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  notfound: false
+- isbn: 9781999449001
+  title: 'The Great Mental Models: General Thinking Concepts'
+  author:
+  - Farnam Street
+  image: http://books.google.com/books/content?id=ffUpywEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  notfound: false
+- isbn: 9780307352156
+  title: Quiet
+  author:
+  - Susan Cain
+  image: http://books.google.com/books/content?id=uNMjeFMorPgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  notfound: false
+- isbn: 9780735211292
+  title: Atomic Habits
+  author:
+  - James Clear
+  image: http://books.google.com/books/content?id=lFhbDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  notfound: false
+- isbn: 9780393355628
+  title: Surely You're Joking, Mr. Feynman!
+  author:
+  - Richard P. Feynman
+  image: http://books.google.com/books/content?id=JgoJtAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  notfound: false
+- isbn: 9783037784501
+  title: Designing Design
+  author:
+  - Kenya Hara
+  image: http://books.google.com/books/content?id=K5DooAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  notfound: false
+- isbn: 9780316478526
+  title: Talking to Strangers
+  author:
+  - Malcolm Gladwell
+  image: http://books.google.com/books/content?id=QzbJwQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  notfound: false
+- isbn: 9780321648822
+  title: The Brand Gap, Revised Edition
+  author:
+  - Marty Neumeier
+  image: http://books.google.com/books/content?id=sibdmqdw-gUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  notfound: false
+- isbn: 9781591842330
+  title: Tribes
+  author:
+  - Seth Godin
+  image: http://books.google.com/books/content?id=7f1DyktinKoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  notfound: false
+- isbn: 9780321985200
+  title: Logo Design Love
+  author:
+  - David Airey
+  image: http://books.google.com/books/content?id=LxxWFJzSgpIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  notfound: false
+- isbn: 9781631595943
+  title: Identity Designed
+  author:
+  - David Airey
+  image: http://books.google.com/books/content?id=dQ2DDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  notfound: false
+- isbn: 9781118980828
+  title: Designing Brand Identity
+  author:
+  - Alina Wheeler
+  image: http://books.google.com/books/content?id=uSNHAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  notfound: false
+- isbn: 9783899555431
+  title: The Little Know-It-All
+  author:
+  - Silja Bilz
+  - Robert Klanten
+  - Michael Mischler
+  image: http://books.google.com/books/content?id=H8yCoAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  notfound: false
+- isbn: 9781846683954
+  title: The Decision Book
+  author:
+  - Mikael Krogerus
+  - Roman Tschäppeler
+  image: http://books.google.com/books/content?id=pFV9yeKy05sC&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  notfound: false
+- isbn: 9781118968055
+  title: Value Proposition Design
+  author:
+  - Alexander Osterwalder
+  - Yves Pigneur
+  - Gregory Bernarda
+  - Alan Smith
+  image: http://books.google.com/books/content?id=LCmtBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  notfound: false
+- isbn: 9780201703399
+  title: Stop Stealing Sheep & Find Out how Type Works
+  author:
+  - Erik Spiekermann
+  - E. M. Ginger
+  image: http://books.google.com/books/content?id=JW9rbjZe98kC&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  notfound: false
+- isbn: 9780061741654
+  title: The E-Myth Revisited
+  author:
+  - Michael E. Gerber
+  image: http://books.google.com/books/content?id=HHJVIpbpSgsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  notfound: false
+- isbn: 9780060850524
+  title: Brave New World
+  author:
+  - Aldous Huxley
+  image: http://books.google.com/books/content?id=V4kY9WSCgSwC&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  notfound: false
+- isbn: 9780812988406
+  title: When Breath Becomes Air
+  author:
+  - Paul Kalanithi
+  image: http://books.google.com/books/content?id=93faCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  notfound: false
+- isbn: 9780062316103
+  title: Sapiens
+  author:
+  - Yuval Noah Harari
+  image: http://books.google.com/books/content?id=FmyBAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  notfound: false
+- isbn: 9781633537507
+  title: 'New Thinking'
+  author:
+  - Dagogo Altraide
+  image: http://books.google.com/books/content?id=YZuBDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  notfound: false
+- isbn: 9780465050659
+  title: The Design of Everyday Things
+  author:
+  - Don Norman
+  image: http://books.google.com/books/content?id=qBfRDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  notfound: false
+- isbn: 9781250237231
+  title: Permanent Record
+  author:
+  - Edward Snowden
+  image: http://books.google.com/books/content?id=kgdtxgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  notfound: false
+- isbn: 9781501109799
+  title: Pre-Suasion
+  author:
+  - Robert Cialdini
+  image: http://books.google.com/books/content?id=GI7tDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  notfound: false
+- isbn: 9780316040341
+  title: Outliers
+  author:
+  - Malcolm Gladwell
+  image: http://books.google.com/books/content?id=3NSImqqnxnkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  notfound: false
+- isbn: 9780316005043
+  title: Blink
+  author:
+  - Malcolm Gladwell
+  image: http://books.google.com/books/content?id=VKGbb1hg8JAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  notfound: false

@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "volumeInfo": {
+        "title": "Quiet",
+        "authors": [
+          "Susan Cain"
+        ],
+        "description": "Demonstrates how introverted people are misunderstood and undervalued in modern culture, charting the rise of extrovert ideology while sharing anecdotal examples of how to use introvert talents to adapt to various situations.",
+        "industryIdentifiers": [
+          {
+            "identifier": "9780307352156"
+          },
+          {
+            "identifier": "0307352153"
+          }
+        ],
+        "imageLinks": {
+          "thumbnail": "http://books.google.com/books/content?id=uNMjeFMorPgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        }
+      }
+    }
+  ]
+}
