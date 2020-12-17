@@ -1,0 +1,109 @@
+---
+layout: post
+title: 'Average Day in 20XX'
+description: "What my average day looks like across the years."
+date: December 14, 2020
+tags: annual
+---
+
+
+## 2020
+We’re gonna start this and hopefully not forget about it.
+
+Average day in 2020 looks like checking:
+- Email
+- Slack
+- NetNewsWire
+- Hacker News
+
+Email Newsletters (top):
+- Seth Godin
+- Morning Brew
+- Custom Mailbrews
+- A learning a day
+- James Clear
+- [UX Design Weekly](https://uxdesignweekly.com/)
+- [Not Boring](https://notboring.substack.com/)
+- [Unsupervised Learning](https://danielmiessler.com/)
+- [Nielsen Norman Group](https://www.nngroup.com/)
+- [Product Hunt](https://www.producthunt.com/)
+- [Margins](https://themargins.substack.com/)
+- [David Perell](https://www.perell.com/)
+- Torrent Freak
+- TL;DR Marketing
+- Typewolf
+- Scott Young
+- stratechery.com
+- Effectiviology
+- Baymard Institute
+- 
+
+NetNewsWire Feeds:
+- [Accidentally in Code](https://cate.blog/)
+- [AddyOsmani.com](https://addyosmani.com/)
+- [Aeon](https://aeon.co/)
+- [Alex J Panagis](https://alexjpanagis.com/)
+- [Animalz](https://www.animalz.co/)
+- [Apollo Digital](https://apollodigital.io/)
+- [Arp242](https://www.arp242.net/)
+- [arun.is](https://www.arun.is/)
+- [Becky Hansmeyer](https://beckyhansmeyer.com/)
+- [Ben Balter](https://ben.balter.com/)
+- [Blog – Rosemary Orchard](https://rosemaryorchard.com/)
+- [Brand New](https://www.underconsideration.com/brandnew)
+- [Cameron Coyan](https://cameroncoyan.com/)
+- [Compound Interest](https://www.compoundchem.com/)
+- [Crooked Timber](https://crookedtimber.org/)
+- [Daring Fireball](https://daringfireball.net/)
+- [Degreeless.marketing](https://degreeless.marketing/)
+- [Design - What's New - Apple Developer](https://developer.apple.com/design/whats-new/)
+- [Don Norman](https://jnd.org/)
+- [Eliezer S. Yudkowsky](https://www.yudkowsky.net/)
+- [Erica Sadun](https://ericasadun.com/)
+- [Financial Page](https://www.bogleheads.org/blog)
+- [Fractl](https://www.frac.tl/)
+- [furbo.org](https://furbo.org/)
+- [HeydonWorks](https://heydonworks.com/)
+- [History – CSS-Tricks](https://css-tricks.com/)
+- [House of van Schneider](https://vanschneider.com/)
+- [I Love Typography](https://ilovetypography.com/)
+- [inessential](https://inessential.com/)
+- [iPullRank](https://ipullrank.com/)
+- [Joel Spolsky](https://www.joelonsoftware.com/)
+- [Julia Evans](https://jvns.ca/)
+- [kottke.org](http://kottke.org/)
+- [Krebs on Security](https://krebsonsecurity.com/)
+- [Lara Callender Hogan](http://larahogan.github.io/)
+- [LessWrong](https://www.lesswrong.com/)
+- [Library of Congress Blog](https://blogs.loc.gov/loc)
+- [Long Now](https://blog.longnow.org/)
+- [Manton Reece](https://www.manton.org/)
+- [Marginal REVOLUTION](http://marginalrevolution.com/)
+- [Mark Roepke](http://www.markroepke.me/)
+- [Marko Saric](https://markosaric.com/)
+- [Matt Levine - Bloomberg Opinion Columnist](https://www.bloomberg.com/opinion/authors/ARbTQlRLRjE/matthew-s-levine)
+- [Matt Mullenweg](https://ma.tt/)
+- [Melting Asphalt](https://meltingasphalt.com/)
+- [Michael Tsai](https://mjtsai.com/blog)
+- [nabeelqu](https://nabeelqu.co/)
+- [NetNewsWire](https://nnw.ranchero.com/)
+- [NYT > Business > Entrepreneurship](https://www.nytimes.com/section/business/smallbusiness)
+- [NYT > Business > Media](https://www.nytimes.com/section/business/media)
+- [One Foot Tsunami](https://onefoottsunami.com/)
+- [Open Culture](https://www.openculture.com/)
+- [Ralph Ammer](https://ralphammer.com/)
+- [Rick Wierenga](https://rickwierenga.com/)
+- [Sabine Hossenfelder: Backreaction](http://backreaction.blogspot.com/)
+- [Sabrina’s Recipes](https://sabrinasadr.com/)
+- [SALT.agency®](https://salt.agency/)
+- [Sam Curry](https://samcurry.net/)
+- [Samuel Schmitt](https://samuelschmitt.com/)
+- [Sidebar](https://sidebar.io/)
+- [Six Colors](https://sixcolors.com/?feed=json)
+- [Stadia Head](https://stadiahead.com/)
+- [The Beacon](https://ohsbeacon.com/)
+- [The Loop](https://www.loopinsight.com/)
+- [The Shape of Everything](https://shapeof.com/)
+- [TimKadlec.com on Web Performance Consulting | TimKadlec.com](https://timkadlec.com/)
+- [Tinkered Thinking](http://tinkeredthinking.com/)
+- [TTT](https://trafficthinktank.com/)
