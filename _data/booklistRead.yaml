@@ -1,202 +1,394 @@
 ---
 isbns:
 - isbn: 9781455586660
-  dateread: December 13, 2020
-  notfound: false
+  dateRead: December 13, 2020
   title: Deep Work
-  image: http://books.google.com/books/content?id=4QTzCAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  subtitle: Rules for Focused Success in a Distracted World
   author:
   - Cal Newport
+  publishedDate: '2016-01-05'
+  pageCount: 288
+  categories:
+  - Business & Economics
+  image: http://books.google.com/books/content?id=4QTzCAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  notFound: false
 - isbn: 9781610392501
+  dateRead: January 01, 2020
   title: The Culture Map
+  subtitle: Breaking Through the Invisible Boundaries of Global Business
   author:
   - Erin Meyer
+  publishedDate: '2014-05-27'
+  pageCount: 288
+  categories:
+  - Business & Economics
   image: http://books.google.com/books/content?id=IMsiBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  notfound: false
+  notFound: false
 - isbn: 9780829429824
+  dateRead: January 01, 2020
   title: Heroic Leadership
+  subtitle: Best Practices from a 450-Year-Old Company That Changed the World
   author:
   - Chris Lowney
+  publishedDate: '2009-04-30'
+  pageCount: 336
+  categories:
+  - Religion
   image: http://books.google.com/books/content?id=LjZSFhj8M_EC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  notfound: false
+  notFound: false
 - isbn: 9781591848264
+  dateRead: January 01, 2020
   title: Anything You Want
+  subtitle: 40 Lessons for a New Kind of Entrepreneur
   author:
   - Derek Sivers
+  publishedDate: '2015'
+  pageCount: 96
+  categories:
+  - Business & Economics
   image: http://books.google.com/books/content?id=AmkBDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  notfound: false
+  notFound: false
 - isbn: 9781250222862
+  dateRead: January 01, 2020
   title: Manifesto for a Moral Revolution
+  subtitle: Practices to Build a Better World
   author:
   - Jacqueline Novogratz
+  publishedDate: '2020-05-05'
+  pageCount: 256
+  categories:
+  - Business & Economics
   image: http://books.google.com/books/content?id=JnGVDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  notfound: false
+  notFound: false
 - isbn: 9780525540830
+  dateRead: January 01, 2020
   title: This Is Marketing
+  subtitle: You Can't Be Seen Until You Learn to See
   author:
   - Seth Godin
+  publishedDate: '2018-11-13'
+  pageCount: 288
+  categories:
+  - Business & Economics
   image: http://books.google.com/books/content?id=B8JyDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  notfound: false
+  notFound: false
 - isbn: 9780812968255
+  dateRead: January 01, 2020
   title: The Meditations
+  subtitle:
   author:
   - Marcus Aurelius
+  publishedDate: '2003-01-08'
+  pageCount: 256
+  categories:
+  - Philosophy
   image: http://books.google.com/books/content?id=brSidvTKfcQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  notfound: false
+  notFound: false
 - isbn: 9781999449001
+  dateRead: ''
   title: 'The Great Mental Models: General Thinking Concepts'
+  subtitle:
   author:
   - Farnam Street
+  publishedDate: '2019-12-16'
+  pageCount: 190
+  categories:
   image: http://books.google.com/books/content?id=ffUpywEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-  notfound: false
+  notFound: false
 - isbn: 9780307352156
+  dateRead: ''
   title: Quiet
+  subtitle: The Power of Introverts in a World that Can't Stop Talking
   author:
   - Susan Cain
+  publishedDate: '2013'
+  pageCount: 352
+  categories:
+  - Psychology
   image: http://books.google.com/books/content?id=uNMjeFMorPgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  notfound: false
+  notFound: false
 - isbn: 9780735211292
+  dateRead: ''
   title: Atomic Habits
+  subtitle: 'Tiny Changes, Remarkable Results : an Easy & Proven Way to Build Good
+    Habits & Break Bad Ones'
   author:
   - James Clear
-  image: http://books.google.com/books/content?id=lFhbDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  notfound: false
+  publishedDate: '2018'
+  pageCount: 306
+  categories:
+  - Business & Economics
+  image: http://books.google.com/books/content?id=XfFvDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  notFound: false
 - isbn: 9780393355628
+  dateRead: ''
   title: Surely You're Joking, Mr. Feynman!
+  subtitle: Adventures of a Curious Character
   author:
   - Richard P. Feynman
+  publishedDate: '2018'
+  pageCount: 400
+  categories:
+  - Biography & Autobiography
   image: http://books.google.com/books/content?id=JgoJtAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-  notfound: false
+  notFound: false
 - isbn: 9783037784501
+  dateRead: ''
   title: Designing Design
+  subtitle:
   author:
   - Kenya Hara
+  publishedDate: '2015-01-25'
+  pageCount: 472
+  categories:
+  - Design
   image: http://books.google.com/books/content?id=K5DooAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-  notfound: false
+  notFound: false
 - isbn: 9780316478526
+  dateRead: ''
   title: Talking to Strangers
+  subtitle: What We Should Know about the People We Don't Know
   author:
   - Malcolm Gladwell
+  publishedDate: '2019-09-10'
+  pageCount: 304
+  categories:
+  - Social Science
   image: http://books.google.com/books/content?id=QzbJwQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-  notfound: false
+  notFound: false
 - isbn: 9780321648822
+  dateRead: ''
   title: The Brand Gap, Revised Edition
+  subtitle:
   author:
   - Marty Neumeier
+  publishedDate: '2005-08-04'
+  pageCount: 208
+  categories:
+  - Computers
   image: http://books.google.com/books/content?id=sibdmqdw-gUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  notfound: false
+  notFound: false
 - isbn: 9781591842330
+  dateRead: ''
   title: Tribes
+  subtitle: We Need You to Lead Us
   author:
   - Seth Godin
+  publishedDate: '2008'
+  pageCount: 151
+  categories:
+  - Business & Economics
   image: http://books.google.com/books/content?id=7f1DyktinKoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  notfound: false
+  notFound: false
 - isbn: 9780321985200
+  dateRead: ''
   title: Logo Design Love
+  subtitle: A Guide to Creating Iconic Brand Identities
   author:
   - David Airey
-  image: http://books.google.com/books/content?id=LxxWFJzSgpIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  notfound: false
+  publishedDate: '2014-08-20'
+  pageCount: 226
+  categories:
+  - Art
+  image: http://books.google.com/books/content?id=0dwRBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  notFound: false
 - isbn: 9781631595943
+  dateRead: ''
   title: Identity Designed
+  subtitle: The Definitive Guide to Visual Branding
   author:
   - David Airey
+  publishedDate: '2019-01-22'
+  pageCount: 288
+  categories:
+  - Design
   image: http://books.google.com/books/content?id=dQ2DDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  notfound: false
+  notFound: false
 - isbn: 9781118980828
+  dateRead: ''
   title: Designing Brand Identity
+  subtitle: An Essential Guide for the Whole Branding Team
   author:
   - Alina Wheeler
-  image: http://books.google.com/books/content?id=uSNHAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  notfound: false
+  publishedDate: '2017-10-16'
+  pageCount: 336
+  categories:
+  - Architecture
+  image: http://books.google.com/books/content?id=VLg6DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  notFound: false
 - isbn: 9783899555431
+  dateRead: ''
   title: The Little Know-It-All
+  subtitle: Common Sense for Designers
   author:
   - Silja Bilz
   - Robert Klanten
   - Michael Mischler
+  publishedDate: '2015-02-15'
+  pageCount: 432
+  categories:
+  - Design
   image: http://books.google.com/books/content?id=H8yCoAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-  notfound: false
+  notFound: false
 - isbn: 9781846683954
+  dateRead: ''
   title: The Decision Book
+  subtitle: Fifty Models for Strategic Thinking
   author:
   - Mikael Krogerus
   - Roman Tschäppeler
+  publishedDate: '2011'
+  pageCount: 173
+  categories:
+  - Critical thinking
   image: http://books.google.com/books/content?id=pFV9yeKy05sC&printsec=frontcover&img=1&zoom=1&source=gbs_api
-  notfound: false
+  notFound: false
 - isbn: 9781118968055
+  dateRead: ''
   title: Value Proposition Design
+  subtitle: How to Create Products and Services Customers Want
   author:
   - Alexander Osterwalder
   - Yves Pigneur
   - Gregory Bernarda
   - Alan Smith
+  publishedDate: '2014-10-20'
+  pageCount: 320
+  categories:
+  - Business & Economics
   image: http://books.google.com/books/content?id=LCmtBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  notfound: false
+  notFound: false
 - isbn: 9780201703399
+  dateRead: ''
   title: Stop Stealing Sheep & Find Out how Type Works
+  subtitle:
   author:
   - Erik Spiekermann
   - E. M. Ginger
+  publishedDate: '2003'
+  pageCount: 188
+  categories:
+  - Computers
   image: http://books.google.com/books/content?id=JW9rbjZe98kC&printsec=frontcover&img=1&zoom=1&source=gbs_api
-  notfound: false
+  notFound: false
 - isbn: 9780061741654
+  dateRead: ''
   title: The E-Myth Revisited
+  subtitle: Why Most Small Businesses Don't Work and What to Do About It
   author:
   - Michael E. Gerber
+  publishedDate: '2009-03-17'
+  pageCount: 288
+  categories:
+  - Business & Economics
   image: http://books.google.com/books/content?id=HHJVIpbpSgsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  notfound: false
+  notFound: false
 - isbn: 9780060850524
+  dateRead: ''
   title: Brave New World
+  subtitle:
   author:
   - Aldous Huxley
+  publishedDate: '2006-10-17'
+  pageCount: 279
+  categories:
+  - Fiction
   image: http://books.google.com/books/content?id=V4kY9WSCgSwC&printsec=frontcover&img=1&zoom=1&source=gbs_api
-  notfound: false
+  notFound: false
 - isbn: 9780812988406
+  dateRead: ''
   title: When Breath Becomes Air
+  subtitle:
   author:
   - Paul Kalanithi
+  publishedDate: '2016'
+  pageCount: 228
+  categories:
+  - Biography & Autobiography
   image: http://books.google.com/books/content?id=93faCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  notfound: false
+  notFound: false
 - isbn: 9780062316103
+  dateRead: ''
   title: Sapiens
+  subtitle: A Brief History of Humankind
   author:
   - Yuval Noah Harari
+  publishedDate: '2015-02-10'
+  pageCount: 464
+  categories:
+  - Science
   image: http://books.google.com/books/content?id=FmyBAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  notfound: false
+  notFound: false
 - isbn: 9781633537507
-  title: 'New Thinking'
+  dateRead: ''
+  title: New Thinking
+  subtitle: From Einstein to Artificial Intelligence, the Technology and Science That
+    Transformed Our World
   author:
   - Dagogo Altraide
-  image: http://books.google.com/books/content?id=YZuBDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  notfound: false
+  publishedDate: '2019-01-15'
+  pageCount: 280
+  categories:
+  - Technology
+  image: http://books.google.com/books/content?id=0vjLtAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  notFound: false
 - isbn: 9780465050659
+  dateRead: ''
   title: The Design of Everyday Things
+  subtitle: Revised and Expanded Edition
   author:
   - Don Norman
+  publishedDate: '2013-11-05'
+  pageCount: 368
+  categories:
+  - Business & Economics
   image: http://books.google.com/books/content?id=qBfRDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  notfound: false
+  notFound: false
 - isbn: 9781250237231
+  dateRead: ''
   title: Permanent Record
+  subtitle:
   author:
   - Edward Snowden
+  publishedDate: '2019-09-17'
+  pageCount: 352
+  categories:
+  - Biography & Autobiography
   image: http://books.google.com/books/content?id=kgdtxgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-  notfound: false
+  notFound: false
 - isbn: 9781501109799
+  dateRead: ''
   title: Pre-Suasion
+  subtitle: A Revolutionary Way to Influence and Persuade
   author:
   - Robert Cialdini
+  publishedDate: '2016-09-06'
+  pageCount: 432
+  categories:
+  - Business & Economics
   image: http://books.google.com/books/content?id=GI7tDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  notfound: false
+  notFound: false
 - isbn: 9780316040341
+  dateRead: ''
   title: Outliers
+  subtitle: The Story of Success
   author:
   - Malcolm Gladwell
+  publishedDate: '2008-11-18'
+  pageCount: 320
+  categories:
+  - Business & Economics
   image: http://books.google.com/books/content?id=3NSImqqnxnkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  notfound: false
+  notFound: false
 - isbn: 9780316005043
+  dateRead: ''
   title: Blink
+  subtitle: The Power of Thinking Without Thinking
   author:
   - Malcolm Gladwell
+  publishedDate: '2007-04-03'
+  pageCount: 320
+  categories:
+  - Business & Economics
   image: http://books.google.com/books/content?id=VKGbb1hg8JAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  notfound: false
+  notFound: false

@@ -1,44 +1,23 @@
 ---
-records:
-- date: "2020-12-16"
-  fields: #tasks
-    - Name: Thought Maybe
-      Category: Writing
-      Tags:
-      - Tech
-      - Invest
-      - Daily
-      Description: Rich visual content for the modern investor. Visual Capitalist is
-        a new way to discover business opportunities and learn about investment trends.
-      isPrivate: false
-      dateAdded: '2020-12-16T19:21:37.000Z'
-      dateCompleted: '2020-12-16T19:21:37.000Z'
 
-- date: rec7IcGrYAAqKzfly
-  fields:
-    Name: CodePen Spark
-    Read: true
-    Website: https://codepen.io/spark
-    Category: Writing
-    Tags:
-    - Tech
-    - Code
-    - Weekly
-    Description: A collection of Pens, Collections, People, and Posts from the previous
-      week, aimed to show off the best of CodePen in short, consumable bursts
-    Date: '2020-12-16'
-  createdTime: '2020-12-16T19:21:37.000Z'
-- id: recmAhYRv4D7AbQ40
-  fields:
-    Name: CSS Tricks
-    Read: true
-    Website: https://css-tricks.com/
-    Category: Writing
-    Tags:
-    - Tech
-    - Code
-    - Daily
-    Description: Daily articles about CSS, HTML, JavaScript, and all things related
-      to web design and development.
-    Date: '2020-12-16'
-  createdTime: '2020-12-16T19:21:37.000Z'
+# shortcuts:
+  # newday
+  # task
+  # time         2020-12-18 03:05:40
+  # date        (2020-12-18)
+
+records:
+  
+  - date: "2020-12-18" # What do you want to remember that you did today?
+    fields: #tasks
+      - Name: "First task"
+        Category: ""
+        Tags: #change me
+          - website #project
+          - making
+        Description: "I finished creating this yaml file and VS code snippets!"
+        isPrivate: false
+        dateAdded: "2020-12-18 03:21:58"
+        dateCompleted: ""
+
+

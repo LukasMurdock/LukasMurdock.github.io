@@ -1,0 +1,24 @@
+---
+layout: post
+title: 'SQLite For Jekyll'
+description: "What my average day looks like across the years."
+date: December 17, 2020
+tags: annual
+---
+
+
+http://zetcode.com/db/sqliteruby/connect/
+
+https://stackoverflow.com/questions/51128832/what-is-the-best-way-to-design-a-tag-based-data-table-with-sqlite
+
+It comes with it.
+
+- Go into the Jekyll `_data` directory 
+- `gem install sqlite3`
+- In the `_plugins` directory run `gem install sqlite3`
+- Add `gem 'sqlite3'` to Gemfile in `_plugins`?
+- Create a new `.rb` file in the `_plugins` directory, in my case I named it `database.rb` 
+- Run `chmod +x database.rb` to allow terminal to execute the Ruby script?
+
+Add `require 'sqlite3'`
+

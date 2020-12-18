@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Book list
-description: Books I really don't want to forget.
+title: Books I Want to Read
+description: That I May or May Not Ever Get Around To.
 ---
 
 <style>
@@ -91,20 +91,25 @@ description: Books I really don't want to forget.
 
   <div id="grid-container" class="grid-container">
 
-    {% for book in site.data.booklist.items %}
+    {% for book in site.data.booklistWant.isbns %}
     <div class="grid-item"> 
-      <a rel="nofollow" target="_blank" href="https://www.google.com/search?q={{ book.volumeInfo.title | append: '+by+'}}{{ book.volumeInfo.authors[0] }}" >
+      <a rel="nofollow" target="_blank" href="https://www.google.com/search?q={{ book.title | append: '+by+'}}{{ book.author | first }}" >
         <!-- out.items[i].volumeInfo.title.replace(/ /g, +) + +by+ + out.items[i].volumeInfo.authors[0].replace(/ /g, +) -->
         <div>
-         <img alt="{{ book.volumeInfo.title }} book cover" src="{{ book.volumeInfo.imageLinks.thumbnail | replace: 'http:','https:' | replace: '&edge=curl','' }}">
+         <img alt="{{ book.title }} book cover" src="{{ book.image | replace: 'http:','https:' | replace: '&edge=curl','' }}">
         </div>
       </a>
 
       <div>
         <h2>
-          <a rel="nofollow" target="_blank" href="https://www.google.com/search?q={{ book.volumeInfo.title | append: '+by+'}}{{ book.volumeInfo.authors[0] }}" >{{ book.volumeInfo.title }}</a>
+          <a rel="nofollow" target="_blank" href="https://www.google.com/search?q={{ book.title | append: '+by+'}}{{ book.author | first }}" >{{ book.title }}</a>
         </h2>
-        <p class="item">by {{ book.volumeInfo.authors[0] }}</p>
+        <p class="item"><b>{{ book.subtitle }}</b></p>
+        <p class="item">By {{ book.author | join: ', '}}</p>
+        <p class="item"> · {{ book.publishedDate }}</p>
+        <p class="item"> · {{ book.pageCount }} pages</p>
+        <p class="item"> · {{ book.categories | join: ', '}}</p>
+        <p class="item">Wanted: {{ book.dateWanted }}</p>
       </div>
     </div>
     {% endfor %}

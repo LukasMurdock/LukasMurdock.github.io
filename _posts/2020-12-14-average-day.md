@@ -6,9 +6,16 @@ date: December 14, 2020
 tags: annual
 ---
 
-
 ## 2020
 We’re gonna start this and hopefully not forget about it.
+
+**(Edit)** after getting this idea I’ve decided on making some changes to this site including:
+1. Changelog
+2. Add more complete dates to data (e.g. When I finished a book)
+3. Add "Want to read" book list
+4. What I’m subscribed to (Newsletters & RSS)
+5. Sections to measure reading, writing, speaking, and exercise (What I want to optimize for)
+6. Listing "[Alive time](https://fs.blog/knowledge-project/robert-greene/)" — where I pushed myself to learn and act every day
 
 Average day in 2020 looks like checking:
 - Email
@@ -16,7 +23,7 @@ Average day in 2020 looks like checking:
 - NetNewsWire
 - Hacker News
 
-Email Newsletters (top):
+## Email Newsletters:
 - Seth Godin
 - Morning Brew
 - Custom Mailbrews
@@ -36,9 +43,10 @@ Email Newsletters (top):
 - stratechery.com
 - Effectiviology
 - Baymard Institute
-- 
 
-NetNewsWire Feeds:
+List of emails is currently continued here: [https://airtable.com/shrJNX4hOeufXgfOX](https://airtable.com/shrJNX4hOeufXgfOX)
+
+## NetNewsWire Feeds:
 - [Accidentally in Code](https://cate.blog/)
 - [AddyOsmani.com](https://addyosmani.com/)
 - [Aeon](https://aeon.co/)
@@ -104,6 +112,6 @@ NetNewsWire Feeds:
 - [The Beacon](https://ohsbeacon.com/)
 - [The Loop](https://www.loopinsight.com/)
 - [The Shape of Everything](https://shapeof.com/)
-- [TimKadlec.com on Web Performance Consulting | TimKadlec.com](https://timkadlec.com/)
+- [TimKadlec.com on Web Performance Consulting](https://timkadlec.com/)
 - [Tinkered Thinking](http://tinkeredthinking.com/)
 - [TTT](https://trafficthinktank.com/)

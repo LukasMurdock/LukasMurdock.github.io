@@ -23,13 +23,19 @@ require 'httparty'
 # Set directories
 root_dir =  File.expand_path(".", Dir.pwd)
 
-yaml_dir = File.join(root_dir, "_data/datebooklist.yaml")
+yaml_dir = File.join(root_dir, "_data/booklistRead.yaml")
+booklistWantFile = File.join(root_dir, "_data/booklistWant.yaml")
 json_dir = File.join(root_dir, "_data/booklist.json")
 
 
 # Load editable YAMl doc
 file = File.open(yaml_dir, "r+")
 isbn_array = YAML.load(File.read(yaml_dir))
+file.close
+
+# Load editable YAMl doc
+file = File.open(yaml_dir, "r+")
+booklistWant = YAML.load(File.read(booklistWantFile))
 file.close
 
 
@@ -44,40 +50,100 @@ collected_isbns = { "isbns" => [] }
 # Collect notfound books
 isbn_array["isbns"].each_with_index do |isbn, index|
 
-    if isbn["notfound"] != false then
+    if isbn["notFound"] != false then
+
+        wantListCheck = 0
+
+        # puts booklistWant["isbns"]
+        # puts booklistWant["isbns"].include? isbn["isbn"]
+
+        # Check if in booklistWant.yaml list
+        booklistWant["isbns"].each_with_index do |wantedBook, booklistWantIndex|
+            if wantedBook["isbn"] == isbn["isbn"] then
+                puts booklistWant["isbns"][booklistWantIndex]
+                puts "Moving from want list"
+                wantListCheck = 1
+
+                if isbn["dateRead"] !~ /[^[:space:]]/ then
+                    isbn_array["isbns"][index]["dateRead"] = Time.now.strftime("%B %d, %Y")
+                end
+        
+                isbn_array["isbns"][index]["title"] = booklistWant["isbns"][booklistWantIndex]["title"]
+                isbn_array["isbns"][index]["subtitle"] = booklistWant["isbns"][booklistWantIndex]["subtitle"]
+                isbn_array["isbns"][index]["author"] = booklistWant["isbns"][booklistWantIndex]["author"]
+                isbn_array["isbns"][index]["dateWanted"] = booklistWant["isbns"][booklistWantIndex]["dateWanted"]
+                isbn_array["isbns"][index]["publishedDate"] = booklistWant["isbns"][booklistWantIndex]["publishedDate"]
+                isbn_array["isbns"][index]["pageCount"] = booklistWant["isbns"][booklistWantIndex]["pageCount"]
+                isbn_array["isbns"][index]["categories"] = booklistWant["isbns"][booklistWantIndex]["categories"]
+                isbn_array["isbns"][index]["image"] = booklistWant["isbns"][booklistWantIndex]["image"]
+                isbn_array["isbns"][index]["notFound"] = false
+
+                File.open(yaml_dir, "w") {|f| f.write(isbn_array.to_yaml)}
+
+                booklistWant["isbns"].delete_at(booklistWantIndex)
+                File.open(booklistWantFile, "w") {|f| f.write(booklistWant.to_yaml)}
+
+
+            end
+            
+        end
 
         puts isbn["isbn"]
 
-        base_url = "https://www.googleapis.com/books/v1/volumes?q=isbn:" + isbn["isbn"].to_s
-        api_url = base_url + "+&fields=items(volumeInfo/description,volumeInfo/title,volumeInfo/authors,volumeInfo/imageLinks/thumbnail,volumeInfo/industryIdentifiers/identifier)+&maxResults=40"
+        # If not in want list get from Google Books API
+        if wantListCheck != 1 then
+
+            base_url = "https://www.googleapis.com/books/v1/volumes?q=isbn:" + isbn["isbn"].to_s
+            api_url = base_url + "+&fields=items(volumeInfo/description,volumeInfo/title,volumeInfo/subtitle,volumeInfo/authors,volumeInfo/imageLinks/thumbnail,volumeInfo/publishedDate,volumeInfo/pageCount,volumeInfo/categories)+&maxResults=40"
 
 
-        puts api_url
-        # Get that data
-        response = HTTParty.get(api_url)
+            puts api_url
+            # Get that data
+            response = HTTParty.get(api_url)
 
-        # Save that data
-        File.open("checkbooklist.json", "w") {|f| f.write(response)}
-        file = File.open("checkbooklist.json", "r+")
-        checklist = JSON.load file
-        file.close
+            # Save that data
+            File.open("checkbooklist.json", "w") {|f| f.write(response)}
+            file = File.open("checkbooklist.json", "r+")
+            checklist = JSON.load file
+            file.close
 
-        # Get first item returned from API
-        checklist = checklist["items"][0]
-        puts checklist["volumeInfo"]["title"]
-        puts checklist["volumeInfo"]["authors"]
-        # download image!
-        puts checklist["volumeInfo"]["imageLinks"]["thumbnail"]
+            # Get first item returned from API
+            checklist = checklist["items"][0]
+            puts checklist["volumeInfo"]["title"]
+            puts checklist["volumeInfo"]["subtitle"]
+            puts checklist["volumeInfo"]["authors"]
+            # download image!
+            puts checklist["volumeInfo"]["imageLinks"]["thumbnail"]
+            puts checklist["volumeInfo"]["publishedDate"]
+            puts checklist["volumeInfo"]["pageCount"]
+            puts checklist["volumeInfo"]["categories"]
 
-        puts isbn_array["isbns"][index]
-        isbn_array["isbns"][index]["title"] = checklist["volumeInfo"]["title"]
-        isbn_array["isbns"][index]["author"] = checklist["volumeInfo"]["authors"]
-        isbn_array["isbns"][index]["image"] = checklist["volumeInfo"]["imageLinks"]["thumbnail"]
-        isbn_array["isbns"][index]["notfound"] = false
-        File.open(yaml_dir, "w") {|f| f.write(isbn_array.to_yaml)}
+            puts isbn_array["isbns"][index]
+            if isbn["dateRead"] !~ /[^[:space:]]/ then
+                isbn_array["isbns"][index]["dateRead"] = Time.now.strftime("%B %d, %Y")
+            end
+
+            isbn_array["isbns"][index]["title"] = checklist["volumeInfo"]["title"]
+            isbn_array["isbns"][index]["subtitle"] = checklist["volumeInfo"]["subtitle"]
+            isbn_array["isbns"][index]["author"] = checklist["volumeInfo"]["authors"]
+            isbn_array["isbns"][index]["publishedDate"] = checklist["volumeInfo"]["publishedDate"]
+            isbn_array["isbns"][index]["pageCount"] = checklist["volumeInfo"]["pageCount"]
+            isbn_array["isbns"][index]["categories"] = checklist["volumeInfo"]["categories"]
+            isbn_array["isbns"][index]["image"] = checklist["volumeInfo"]["imageLinks"]["thumbnail"]
+            isbn_array["isbns"][index]["notFound"] = false
+
+            File.open(yaml_dir, "w") {|f| f.write(isbn_array.to_yaml)}
+        end
 
     end
-    # p isbn
+
+    ## This was for adding the dateRead data to all
+    # if isbn["dateRead"] !~ /[^[:space:]]/ then
+        
+    #     isbn_array["isbns"][index]["dateRead"] = ""
+    #     File.open(yaml_dir, "w") {|f| f.write(isbn_array.to_yaml)}
+    # end
+
 end
 
 

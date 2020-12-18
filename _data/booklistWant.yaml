@@ -1,0 +1,25 @@
+---
+isbns:
+- isbn: 9780813206462
+  dateWanted: December 18, 2020
+  title: The Intellectual Life
+  subtitle: Its Spirit, Conditions, Methods
+  author:
+  - A. G. Sertillanges
+  publishedDate: '1998'
+  pageCount: 266
+  categories:
+  - Philosophy
+  image: http://books.google.com/books/content?id=WSrK6QyNVhoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  notFound: false
+- isbn: 9781732265172
+  dateWanted: December 18, 2020
+  title: The Art of Doing Science and Engineering
+  subtitle: Learning to Learn
+  author:
+  - Richard Hamming
+  publishedDate: '2020-02-14'
+  pageCount:
+  categories:
+  image: http://books.google.com/books/content?id=vKbpywEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  notFound: false

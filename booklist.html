@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Book list
-description: Books I really don't want to forget.
+title: Books I’ve Read
+description: and really don't want to forget.
 ---
 
 <style>
@@ -82,7 +82,7 @@ description: Books I really don't want to forget.
   }
 </style>
 
-<p style="text-align:center; margin-top: 2px;">Books I really don't want to forget.</p>
+<p style="text-align:center; margin-top: 2px;">{{page.description}}</p>
 
 <div class="pagebody-content">
   <div style="text-align: center;">
@@ -91,9 +91,9 @@ description: Books I really don't want to forget.
 
   <div id="grid-container" class="grid-container">
 
-    {% for book in site.data.datebooklist.isbns %}
+    {% for book in site.data.booklistRead.isbns %}
     <div class="grid-item"> 
-      <a rel="nofollow" target="_blank" href="https://www.google.com/search?q={{ book.title | append: '+by+'}}{{ book.authors[0] }}" >
+      <a rel="nofollow" target="_blank" href="https://www.google.com/search?q={{ book.title | append: '+by+'}}{{ book.author | first }}" >
         <!-- out.items[i].volumeInfo.title.replace(/ /g, +) + +by+ + out.items[i].volumeInfo.authors[0].replace(/ /g, +) -->
         <div>
          <img alt="{{ book.title }} book cover" src="{{ book.image | replace: 'http:','https:' | replace: '&edge=curl','' }}">
@@ -102,12 +102,15 @@ description: Books I really don't want to forget.
 
       <div>
         <h2>
-          <a rel="nofollow" target="_blank" href="https://www.google.com/search?q={{ book.title | append: '+by+'}}{{ book.authors[0] }}" >{{ book.title }}</a>
+          <a rel="nofollow" target="_blank" href="https://www.google.com/search?q={{ book.title | append: '+by+'}}{{ book.author | first }}" >{{ book.title }}</a>
         </h2>
-        <p class="item">by {{ book.author[0] }}</p>
-        {% if book.dateread %}
-        <p class="item">Finished {{ book.dateread }}</p>
-        {% endif %}
+        <p class="item"><b>{{ book.subtitle }}</b></p>
+        <p class="item">By {{ book.author | join: ', '}}</p>
+        <p class="item"> · {{ book.publishedDate }}</p>
+        <p class="item"> · {{ book.pageCount }} pages</p>
+        <p class="item"> · {{ book.categories | join: ', '}}</p>
+        <p class="item">Wanted: {{ book.dateWanted }}</p>
+        <p class="item">Read: {{ book.dateRead }}</p>
       </div>
     </div>
     {% endfor %}

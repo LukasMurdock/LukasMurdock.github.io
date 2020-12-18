@@ -2,21 +2,19 @@
   "items": [
     {
       "volumeInfo": {
-        "title": "Quiet",
+        "title": "The Intellectual Life",
+        "subtitle": "Its Spirit, Conditions, Methods",
         "authors": [
-          "Susan Cain"
+          "A. G. Sertillanges"
         ],
-        "description": "Demonstrates how introverted people are misunderstood and undervalued in modern culture, charting the rise of extrovert ideology while sharing anecdotal examples of how to use introvert talents to adapt to various situations.",
-        "industryIdentifiers": [
-          {
-            "identifier": "9780307352156"
-          },
-          {
-            "identifier": "0307352153"
-          }
+        "publishedDate": "1998",
+        "description": "First published in 1920, The Intellectual Life has been repeatedly reprinted and continues to inspire and instruct young scholars.",
+        "pageCount": 266,
+        "categories": [
+          "Philosophy"
         ],
         "imageLinks": {
-          "thumbnail": "http://books.google.com/books/content?id=uNMjeFMorPgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "thumbnail": "http://books.google.com/books/content?id=WSrK6QyNVhoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }
       }
     }
