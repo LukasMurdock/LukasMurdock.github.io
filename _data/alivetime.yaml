@@ -18,6 +18,18 @@ records:
         Description: "I finished creating this yaml file and VS code snippets!"
         isPrivate: false
         dateAdded: "2020-12-18 03:21:58"
+        dateCompleted: "2020-12-18 04:24:45"
+        
+      - Name: "Second Task"
+        Category: ""
+        Tags: #change me
+        - website #project
+        - lifechange
+        - making
+        - reading
+        - writing
+        - exercise
+        Description: ""
+        isPrivate: false
+        dateAdded: "2020-12-18 04:24:34"
         dateCompleted: ""
-
-
