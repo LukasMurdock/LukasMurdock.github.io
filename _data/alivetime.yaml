@@ -7,7 +7,7 @@
   # date        (2020-12-18)
 
 records:
-  
+
   - date: "2020-12-18" # What do you want to remember that you did today?
     fields: #tasks
       - Name: "First task"
@@ -20,16 +20,31 @@ records:
         dateAdded: "2020-12-18 03:21:58"
         dateCompleted: "2020-12-18 04:24:45"
         
-      - Name: "Second Task"
+      - Name: "Wisdom teeth removed"
+        Category: ""
+        Tags: #change me
+        - lifechange
+        Description: ""
+        isPrivate: false
+        dateAdded: "2020-12-18 08:30:00"
+        dateCompleted: "2020-12-18 09:30:00"
+
+      - Name: "Created an actual about page"
         Category: ""
         Tags: #change me
         - website #project
-        - lifechange
         - making
-        - reading
         - writing
-        - exercise
-        Description: ""
+        Description: "<a href='/alivetime/'>View my alivetime</a>"
         isPrivate: false
-        dateAdded: "2020-12-18 04:24:34"
-        dateCompleted: ""
+        dateAdded: "2020-12-18 17:32:42"
+        dateCompleted: "2020-12-18 20:01:29"
+
+      - Name: "Change contact to about"
+        Category: ""
+        Tags: #change me
+        - website #project
+        Description: "Contact information can be found in about and changelog is a nice way to see all updates."
+        isPrivate: false
+        dateAdded: "2020-12-18 20:04:29"
+        dateCompleted: "2020-12-19 03:25:15"
