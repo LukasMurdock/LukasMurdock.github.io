@@ -28,7 +28,7 @@ layout: null
     {% for book in site.data.booklistRead.isbns %}
       <entry>
         <title>{{ book.title | xml_escape }}</title>
-        <id>https://lukasmurdock.com/booklist/</id>
+        <id>tag:lukasmurdock.com,2020-12-19:/booklist/{{ book.title | slugify }}</id>
         <updated>{{ book.dateRead | date_to_xmlschema }}</updated>
         <content type="html" xml:lang="en" xml:base="https://lukasmurdock.com/">
         <![CDATA[<p>{{ book.title | strip_html | escape }}</p><p>{{ book.subtitle | strip_html | escape }}</p><p>{{ book.author | strip_html | escape }}</p><a href="https://lukasmurdock.com/booklist/"><img alt="{{ book.title }}" src="https://lukasmurdock.com{{ book.image }}" /></a>]]>
