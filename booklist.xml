@@ -31,7 +31,7 @@ layout: null
         <id>tag:lukasmurdock.com,2020-12-19:/booklist/{{ book.title | slugify }}</id>
         <updated>{{ book.dateRead | date_to_xmlschema }}</updated>
         <content type="html" xml:lang="en" xml:base="https://lukasmurdock.com/">
-        <![CDATA[<p>{{ book.title | strip_html | escape }}</p><p>{{ book.subtitle | strip_html | escape }}</p><p>{{ book.author | strip_html | escape }}</p><a href="https://lukasmurdock.com/booklist/"><img alt="{{ book.title }}" src="https://lukasmurdock.com{{ book.image }}" /></a>]]>
+        <![CDATA[<h1>{{ book.title | strip_html | escape }}</h1><h2>{{ book.subtitle | strip_html | escape }}</h2><p>By {{ book.author | join: ", " | strip_html | escape }}</p><a href="https://lukasmurdock.com/booklist/"><img alt="{{ book.title }}" src="https://lukasmurdock.com{{ book.image }}" /></a>]]>
         </content>
         <category term="Books"/>
         <published>{{ book.dateRead | date_to_xmlschema }}</published>
