@@ -11,6 +11,7 @@ group :jekyll_plugins do
     gem 'jekyll-redirect-from'
     gem 'jekyll-feed'
     gem 'httparty'
+    gem 'down'
 end
 
 

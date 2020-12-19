@@ -2,20 +2,12 @@
   "items": [
     {
       "volumeInfo": {
-        "title": "The Intellectual Life",
-        "subtitle": "Its Spirit, Conditions, Methods",
+        "title": "Map and Territory",
         "authors": [
-          "A. G. Sertillanges"
+          "Eliezer Yudkowsky"
         ],
-        "publishedDate": "1998",
-        "description": "First published in 1920, The Intellectual Life has been repeatedly reprinted and continues to inspire and instruct young scholars.",
-        "pageCount": 266,
-        "categories": [
-          "Philosophy"
-        ],
-        "imageLinks": {
-          "thumbnail": "http://books.google.com/books/content?id=WSrK6QyNVhoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        }
+        "publishedDate": "2018-12-14",
+        "description": "When human brains try to do things, they can run into some very strange problems. Self-deception, confirmation bias, magical thinking-it sometimes seems our ingenuity is boundless when it comes to shooting ourselves in the foot.In Map and Territory, decision theorist Eliezer Yudkowsky asks what a \"martial art\" of rationality would look like, beginning with the basic fighting stance-the orientation toward the world that lets us get the most bang for our cognitive buck, that best positions us to understand and react to brains' strange acts of self-destruction."
       }
     }
   ]

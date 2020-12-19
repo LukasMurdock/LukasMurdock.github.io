@@ -1,5 +1,18 @@
 ---
 isbns:
+- isbn: 9781939311238
+  dateRead: December 19, 2020
+  title: Map and Territory
+  subtitle: 'Rationality: From AI to Zombies Book 1'
+  author:
+  - Eliezer Yudkowsky
+  publishedDate: '2018-12-14'
+  pageCount: 231
+  categories:
+  - Cognitive Psychology
+  - Philosophy
+  image: "/images/books/map-and-territory.jpeg"
+  notFound: false
 - isbn: 9781455586660
   dateRead: December 13, 2020
   title: Deep Work
@@ -10,7 +23,7 @@ isbns:
   pageCount: 288
   categories:
   - Business & Economics
-  image: http://books.google.com/books/content?id=4QTzCAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  image: "/images/books/deep-work.jpeg"
   notFound: false
 - isbn: 9781610392501
   dateRead: January 01, 2020
@@ -22,7 +35,7 @@ isbns:
   pageCount: 288
   categories:
   - Business & Economics
-  image: http://books.google.com/books/content?id=IMsiBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  image: "/images/books/the-culture-map.jpeg"
   notFound: false
 - isbn: 9780829429824
   dateRead: January 01, 2020
@@ -34,7 +47,7 @@ isbns:
   pageCount: 336
   categories:
   - Religion
-  image: http://books.google.com/books/content?id=LjZSFhj8M_EC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  image: "/images/books/heroic-leadership.jpeg"
   notFound: false
 - isbn: 9781591848264
   dateRead: January 01, 2020
@@ -46,7 +59,7 @@ isbns:
   pageCount: 96
   categories:
   - Business & Economics
-  image: http://books.google.com/books/content?id=AmkBDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  image: "/images/books/anything-you-want.jpeg"
   notFound: false
 - isbn: 9781250222862
   dateRead: January 01, 2020
@@ -58,7 +71,7 @@ isbns:
   pageCount: 256
   categories:
   - Business & Economics
-  image: http://books.google.com/books/content?id=JnGVDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  image: "/images/books/manifesto-for-a-moral-revolution.jpeg"
   notFound: false
 - isbn: 9780525540830
   dateRead: January 01, 2020
@@ -70,7 +83,7 @@ isbns:
   pageCount: 288
   categories:
   - Business & Economics
-  image: http://books.google.com/books/content?id=B8JyDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  image: "/images/books/this-is-marketing.jpeg"
   notFound: false
 - isbn: 9780812968255
   dateRead: January 01, 2020
@@ -82,7 +95,7 @@ isbns:
   pageCount: 256
   categories:
   - Philosophy
-  image: http://books.google.com/books/content?id=brSidvTKfcQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  image: "/images/books/the-meditations.jpeg"
   notFound: false
 - isbn: 9781999449001
   dateRead: ''
@@ -93,7 +106,7 @@ isbns:
   publishedDate: '2019-12-16'
   pageCount: 190
   categories:
-  image: http://books.google.com/books/content?id=ffUpywEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  image: "/images/books/the-great-mental-models-general-thinking-concepts.jpeg"
   notFound: false
 - isbn: 9780307352156
   dateRead: ''
@@ -105,7 +118,7 @@ isbns:
   pageCount: 352
   categories:
   - Psychology
-  image: http://books.google.com/books/content?id=uNMjeFMorPgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  image: "/images/books/quiet.jpeg"
   notFound: false
 - isbn: 9780735211292
   dateRead: ''
@@ -118,7 +131,7 @@ isbns:
   pageCount: 306
   categories:
   - Business & Economics
-  image: http://books.google.com/books/content?id=XfFvDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  image: "/images/books/atomic-habits.jpeg"
   notFound: false
 - isbn: 9780393355628
   dateRead: ''
@@ -130,7 +143,7 @@ isbns:
   pageCount: 400
   categories:
   - Biography & Autobiography
-  image: http://books.google.com/books/content?id=JgoJtAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  image: "/images/books/surely-youre-joking-mr-feynman.jpeg"
   notFound: false
 - isbn: 9783037784501
   dateRead: ''
@@ -142,7 +155,7 @@ isbns:
   pageCount: 472
   categories:
   - Design
-  image: http://books.google.com/books/content?id=K5DooAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  image: "/images/books/designing-design.jpeg"
   notFound: false
 - isbn: 9780316478526
   dateRead: ''
@@ -154,7 +167,7 @@ isbns:
   pageCount: 304
   categories:
   - Social Science
-  image: http://books.google.com/books/content?id=QzbJwQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  image: "/images/books/talking-to-strangers.jpeg"
   notFound: false
 - isbn: 9780321648822
   dateRead: ''
@@ -166,7 +179,7 @@ isbns:
   pageCount: 208
   categories:
   - Computers
-  image: http://books.google.com/books/content?id=sibdmqdw-gUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  image: "/images/books/the-brand-gap-revised-edition.jpeg"
   notFound: false
 - isbn: 9781591842330
   dateRead: ''
@@ -178,7 +191,7 @@ isbns:
   pageCount: 151
   categories:
   - Business & Economics
-  image: http://books.google.com/books/content?id=7f1DyktinKoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  image: "/images/books/tribes.jpeg"
   notFound: false
 - isbn: 9780321985200
   dateRead: ''
@@ -189,8 +202,8 @@ isbns:
   publishedDate: '2014-08-20'
   pageCount: 226
   categories:
-  - Art
-  image: http://books.google.com/books/content?id=0dwRBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  - Design
+  image: "/images/books/logo-design-love.jpeg"
   notFound: false
 - isbn: 9781631595943
   dateRead: ''
@@ -202,7 +215,7 @@ isbns:
   pageCount: 288
   categories:
   - Design
-  image: http://books.google.com/books/content?id=dQ2DDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  image: "/images/books/identity-designed.jpeg"
   notFound: false
 - isbn: 9781118980828
   dateRead: ''
@@ -213,8 +226,8 @@ isbns:
   publishedDate: '2017-10-16'
   pageCount: 336
   categories:
-  - Architecture
-  image: http://books.google.com/books/content?id=VLg6DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  - Design
+  image: "/images/books/designing-brand-identity.jpeg"
   notFound: false
 - isbn: 9783899555431
   dateRead: ''
@@ -228,7 +241,7 @@ isbns:
   pageCount: 432
   categories:
   - Design
-  image: http://books.google.com/books/content?id=H8yCoAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  image: "/images/books/the-little-know-it-all.jpeg"
   notFound: false
 - isbn: 9781846683954
   dateRead: ''
@@ -241,7 +254,7 @@ isbns:
   pageCount: 173
   categories:
   - Critical thinking
-  image: http://books.google.com/books/content?id=pFV9yeKy05sC&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  image: "/images/books/the-decision-book.jpeg"
   notFound: false
 - isbn: 9781118968055
   dateRead: ''
@@ -256,7 +269,7 @@ isbns:
   pageCount: 320
   categories:
   - Business & Economics
-  image: http://books.google.com/books/content?id=LCmtBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  image: "/images/books/value-proposition-design.jpeg"
   notFound: false
 - isbn: 9780201703399
   dateRead: ''
@@ -268,8 +281,8 @@ isbns:
   publishedDate: '2003'
   pageCount: 188
   categories:
-  - Computers
-  image: http://books.google.com/books/content?id=JW9rbjZe98kC&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  - Design
+  image: "/images/books/stop-stealing-sheep--find-out-how-type-works.jpeg"
   notFound: false
 - isbn: 9780061741654
   dateRead: ''
@@ -281,7 +294,7 @@ isbns:
   pageCount: 288
   categories:
   - Business & Economics
-  image: http://books.google.com/books/content?id=HHJVIpbpSgsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  image: "/images/books/the-e-myth-revisited.jpeg"
   notFound: false
 - isbn: 9780060850524
   dateRead: ''
@@ -293,7 +306,7 @@ isbns:
   pageCount: 279
   categories:
   - Fiction
-  image: http://books.google.com/books/content?id=V4kY9WSCgSwC&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  image: "/images/books/brave-new-world.jpeg"
   notFound: false
 - isbn: 9780812988406
   dateRead: ''
@@ -305,7 +318,7 @@ isbns:
   pageCount: 228
   categories:
   - Biography & Autobiography
-  image: http://books.google.com/books/content?id=93faCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  image: "/images/books/when-breath-becomes-air.jpeg"
   notFound: false
 - isbn: 9780062316103
   dateRead: ''
@@ -317,7 +330,7 @@ isbns:
   pageCount: 464
   categories:
   - Science
-  image: http://books.google.com/books/content?id=FmyBAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  image: "/images/books/sapiens.jpeg"
   notFound: false
 - isbn: 9781633537507
   dateRead: ''
@@ -330,7 +343,7 @@ isbns:
   pageCount: 280
   categories:
   - Technology
-  image: http://books.google.com/books/content?id=0vjLtAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  image: "/images/books/new-thinking.jpeg"
   notFound: false
 - isbn: 9780465050659
   dateRead: ''
@@ -342,7 +355,7 @@ isbns:
   pageCount: 368
   categories:
   - Business & Economics
-  image: http://books.google.com/books/content?id=qBfRDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  image: "/images/books/the-design-of-everyday-things.jpeg"
   notFound: false
 - isbn: 9781250237231
   dateRead: ''
@@ -354,7 +367,7 @@ isbns:
   pageCount: 352
   categories:
   - Biography & Autobiography
-  image: http://books.google.com/books/content?id=kgdtxgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  image: "/images/books/permanent-record.jpeg"
   notFound: false
 - isbn: 9781501109799
   dateRead: ''
@@ -366,7 +379,7 @@ isbns:
   pageCount: 432
   categories:
   - Business & Economics
-  image: http://books.google.com/books/content?id=GI7tDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  image: "/images/books/pre-suasion.jpeg"
   notFound: false
 - isbn: 9780316040341
   dateRead: ''
@@ -378,7 +391,7 @@ isbns:
   pageCount: 320
   categories:
   - Business & Economics
-  image: http://books.google.com/books/content?id=3NSImqqnxnkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  image: "/images/books/outliers.jpeg"
   notFound: false
 - isbn: 9780316005043
   dateRead: ''
@@ -390,5 +403,5 @@ isbns:
   pageCount: 320
   categories:
   - Business & Economics
-  image: http://books.google.com/books/content?id=VKGbb1hg8JAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  image: "/images/books/blink.jpeg"
   notFound: false

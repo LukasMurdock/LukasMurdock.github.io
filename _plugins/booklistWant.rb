@@ -25,6 +25,7 @@ root_dir =  File.expand_path(".", Dir.pwd)
 
 yaml_dir = File.join(root_dir, "_data/booklistWant.yaml")
 json_dir = File.join(root_dir, "_data/booklist.json")
+image_dir = File.join(root_dir, "/images/books/")
 
 
 # Load editable YAMl doc
@@ -91,7 +92,32 @@ isbn_array["isbns"].each_with_index do |isbn, index|
         File.open(yaml_dir, "w") {|f| f.write(isbn_array.to_yaml)}
 
     end
-    # p isbn
+    
+    # Download images to store interally
+    if isbn["image"].include?("http") then
+        # puts isbn["image"]
+
+        image_title = isbn["title"].downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
+        image_url = isbn["image"]
+        file_ext = File.extname(image_url) 
+        p "Downloading #{image_title+file_ext}"
+
+        tempfile = Down.download(image_url)
+        # p tempfile.content_type
+        scraped_ext = ".#{tempfile.content_type.partition('/').last}"
+        FileUtils.mv(tempfile.path, image_dir+image_title+scraped_ext)
+        # File.delete(tempfile.path)
+        tempfile.unlink
+
+        # p "TYPE: #{type["image"]}"
+        p "Rewriting booklist with #{isbn["image"]}"
+        newName = "/images/books/" + image_title + scraped_ext
+        isbn["image"] = newName
+        p "TYPE: #{isbn["image"]}"  
+        File.open(yaml_dir, "w") {|f| f.write(isbn_array.to_yaml)}
+
+    end
+
 
     ## This was for adding the dateRead data to all
     # if isbn["dateRead"] !~ /[^[:space:]]/ then

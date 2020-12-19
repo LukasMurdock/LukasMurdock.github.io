@@ -19,6 +19,15 @@ records:
         dateAdded: "2020-12-19 03:25:26"
         dateCompleted: ""
 
+      - Name: "Booklist and Want-to-read lists now save images locally"
+        Category: ""
+        Tags: #change me
+        - website #project
+        Description: ""
+        isPrivate: false
+        dateAdded: "2020-12-19 09:00:41"
+        dateCompleted: "2020-12-19 09:02:49"
+
 
 
   - date: "2020-12-18" # What do you want to remember that you did today?

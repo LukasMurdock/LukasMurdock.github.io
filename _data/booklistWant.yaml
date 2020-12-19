@@ -10,7 +10,7 @@ isbns:
   pageCount: 266
   categories:
   - Philosophy
-  image: http://books.google.com/books/content?id=WSrK6QyNVhoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  image: "/images/books/the-intellectual-life.jpeg"
   notFound: false
 - isbn: 9781732265172
   dateWanted: December 18, 2020
@@ -21,5 +21,5 @@ isbns:
   publishedDate: '2020-02-14'
   pageCount:
   categories:
-  image: http://books.google.com/books/content?id=vKbpywEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  image: "/images/books/the-art-of-doing-science-and-engineering.jpeg"
   notFound: false

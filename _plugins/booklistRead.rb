@@ -3,6 +3,8 @@ require 'bundler/setup'
 require 'yaml'
 require 'json'
 require 'httparty'
+require 'down'
+
 
 
 
@@ -26,6 +28,7 @@ root_dir =  File.expand_path(".", Dir.pwd)
 yaml_dir = File.join(root_dir, "_data/booklistRead.yaml")
 booklistWantFile = File.join(root_dir, "_data/booklistWant.yaml")
 json_dir = File.join(root_dir, "_data/booklist.json")
+image_dir = File.join(root_dir, "/images/books/")
 
 
 # Load editable YAMl doc
@@ -50,6 +53,7 @@ collected_isbns = { "isbns" => [] }
 # Collect notfound books
 isbn_array["isbns"].each_with_index do |isbn, index|
 
+    # If not already downloaded data
     if isbn["notFound"] != false then
 
         wantListCheck = 0
@@ -113,7 +117,7 @@ isbn_array["isbns"].each_with_index do |isbn, index|
             puts checklist["volumeInfo"]["subtitle"]
             puts checklist["volumeInfo"]["authors"]
             # download image!
-            puts checklist["volumeInfo"]["imageLinks"]["thumbnail"]
+            # puts checklist["volumeInfo"]["imageLinks"]["thumbnail"]
             puts checklist["volumeInfo"]["publishedDate"]
             puts checklist["volumeInfo"]["pageCount"]
             puts checklist["volumeInfo"]["categories"]
@@ -129,11 +133,41 @@ isbn_array["isbns"].each_with_index do |isbn, index|
             isbn_array["isbns"][index]["publishedDate"] = checklist["volumeInfo"]["publishedDate"]
             isbn_array["isbns"][index]["pageCount"] = checklist["volumeInfo"]["pageCount"]
             isbn_array["isbns"][index]["categories"] = checklist["volumeInfo"]["categories"]
+            isbn_array["isbns"][index]["image"] = ""
+            if defined?(checklist["volumeInfo"]["imageLinks"]["thumbnail"]) != nil then
             isbn_array["isbns"][index]["image"] = checklist["volumeInfo"]["imageLinks"]["thumbnail"]
+            end
             isbn_array["isbns"][index]["notFound"] = false
 
             File.open(yaml_dir, "w") {|f| f.write(isbn_array.to_yaml)}
         end
+
+    end
+
+    
+
+    # Download images to store interally
+    if isbn["image"].include?("http") then
+        # puts isbn["image"]
+
+        image_title = isbn["title"].downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
+        image_url = isbn["image"]
+        file_ext = File.extname(image_url) 
+        p "Downloading #{image_title+file_ext}"
+
+        tempfile = Down.download(image_url)
+        # p tempfile.content_type
+        scraped_ext = ".#{tempfile.content_type.partition('/').last}"
+        FileUtils.mv(tempfile.path, image_dir+image_title+scraped_ext)
+        # File.delete(tempfile.path)
+        tempfile.unlink
+
+        # p "TYPE: #{type["image"]}"
+        p "Rewriting booklist with #{isbn["image"]}"
+        newName = "/images/books/" + image_title + scraped_ext
+        isbn["image"] = newName
+        p "TYPE: #{isbn["image"]}"  
+        File.open(yaml_dir, "w") {|f| f.write(isbn_array.to_yaml)}
 
     end
 
