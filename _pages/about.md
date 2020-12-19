@@ -139,6 +139,8 @@ In no particular order
 * Readwise
 * Grammarly
 
+[See the other applications I use](https://lukasmurdock.com/knowledge/#applications)
+
 ### Hardware
 #### Hardware that goes with me everywhere
 * 2012 MacBook Pro
