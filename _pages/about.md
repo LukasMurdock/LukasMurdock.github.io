@@ -91,19 +91,19 @@ Various technologies I dove into before I started tracking when I learned them. 
 
 I am a freelance writer, designer, developer, and marketer.
 
-08/2020 – Present  
+August 2020 – Present  
 **[Loganix](https://loganix.com/)** • *Content Strategist* • Remote  
 
-01/2020 – 04/2020  
+January 2020 – April 2020  
 **[ABB](https://global.abb/group/en)** • *Marketing Consultant* • Remote  
 
-07/2018 – 08/2019  
+July 2018 – August 2019  
 **[Infinite Smiles](https://www.infinitesmiles.com/)** • *Product Designer* • 7500 Sawmill Pkwy Powell, OH 43065  
 
-08/2017 – 05/2018  
+August 2017 – May 2018  
 **Cinemark** @ 1071 Gemini Pl Columbus, OH 43240
 
-12/2015 – 07/2017  
+December 2015 – July 2017  
 **Chick-fil-a** @ 8787 Sancus Blvd Columbus, OH 43240
 
 ### Places I Want to Visit
