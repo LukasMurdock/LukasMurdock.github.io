@@ -2187,7 +2187,11 @@ fulldata:
         Link: "https://dogsheep.github.io/"
         Comment: "A collection of tools for personal analytics using SQLite and Datasette."
         Date: Dec 19, 2020
-        
+
+      - Title: "Datasette"
+        Link: "https://datasette.io/"
+        Comment: "An open source multi-tool for exploring and publishing data"
+        Date: Dec 19, 2020
 
 
 

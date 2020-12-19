@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'SQLite For Jekyll'
-description: "What my average day looks like across the years."
+description: ""
 date: December 17, 2020
 tags: annual
 ---
