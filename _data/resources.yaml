@@ -98,6 +98,21 @@ fulldata:
         Comment: "Learn the best JavaScript tools and frameworks from industry pros."
         Date: August 11, 2020
 
+      - Title: "The Modern JavaScript Tutorial"
+        Link: "https://javascript.info/"
+        Comment: "How it's done now. From the basics to advanced topics with simple, but detailed explanations."
+        Date: December 19, 2020
+
+      - Title: "Mastering Next.js"
+        Link: "https://masteringnextjs.com/"
+        Comment: "Learn how to build static and server-rendered applications with Next.js and React."
+        Date: Dec 19, 2020
+
+      - Title: "React 2025"
+        Link: "https://react2025.com/"
+        Comment: "Learn how to build and deploy a modern Jamstack application using the most popular open-source software."
+        Date: Dec 19, 2020
+
       - Title: MIT Open Courseware
         Link: https://ocw.mit.edu/index.htm
         Comment: "A web-based publication of virtually all MIT course content. OCW is open and available to the world and is a permanent MIT activity."
@@ -463,6 +478,11 @@ fulldata:
         Comment: "The Human's Handbook to Computers that Think."
         Date: Sep 05, 2020
 
+      - Title: "Introduction to Deep Learning"
+        Link: "http://introtodeeplearning.com/2020/index.html"
+        Comment: "MIT’s official introductory course on deep learning methods."
+        Date: Dec 19, 2020
+
       - Title: Publish Something Online
         Link: https://publishsomething.online/
         Comment: "How to make things that live on the internet."
@@ -472,6 +492,11 @@ fulldata:
         Link: https://preciousplastic.com/
         Comment: "Start a business from plastic waste!"
         Date: Apr 22, 2020
+
+      - Title: "How video works"
+        Link: "https://howvideo.works/"
+        Comment: "Learn about video playback, delivery, processing, and capture."
+        Date: Dec 19, 2020
 
 
   # Design
@@ -737,6 +762,11 @@ fulldata:
         Comment: "Fully customizable free SVG icons."
         Date: July 16, 2020
 
+      - Title: "Simple Icons"
+        Link: "https://simpleicons.org/"
+        Comment: "Free SVG icons for popular brands."
+        Date: Dec 19, 2020
+
       - Title: Pixelmob
         Link: "https://pixelmob.co/"
         Comment: "Search millions of royalty-free photos."
@@ -776,6 +806,11 @@ fulldata:
         Link: https://theanimatedweb.com/
         Comment: "Amazing animation resources and inspiration from around the web."
         Date: August 24, 2020
+
+      - Title: "Game UI Database"
+        Link: "https://www.gameuidatabase.com/"
+        Comment: "A comprehensive screen reference Tool for game interface designers."
+        Date: Dec 19, 2020
 
       - Title: Can't Unsee
         Link: https://cantunsee.space/
@@ -1792,6 +1827,11 @@ fulldata:
         Comment: "Browse hundreds of booklets on design, business, freelancing & more. Learn new skills & insights, fast."
         Date: Apr 22, 2020
 
+      - Title: "Escape your literary echo chamber"
+        Link: "https://abooklikefoo.com/escape/"
+        Comment: "Find out which books you are statistically unlikely to read."
+        Date: Dec 19, 2020
+
       - Title: Book Summaries
         Link: "https://www.samuelthomasdavies.com/book-summaries/"
         Comment: "Learn the key points of the best non-fiction books of all-time–in five minutes or less"
@@ -2112,6 +2152,41 @@ fulldata:
         Link: "https://1mb.club/"
         Comment: "A growing collection of performance-focused web pages where the client-side resources does not exceed 1 megabyte. "
         Date: Nov 23, 2020
+
+      - Title: "HASH - Complex Systems Simulation"
+        Link: "https://hash.ai/"
+        Comment: "Build multi-agent simulations in minutes, for free."
+        Date: Dec 19, 2020
+
+      - Title: Date Night Questions""
+        Link: "https://www.datenightquestions.com/"
+        Comment: "Flip through these cards and take turns answering questions to get to know your friends and loved ones even better."
+        Date: Dec 19, 2020
+
+      - Title: "Typefull"
+        Link: "https://typefully.app/"
+        Comment: "Write great Twitter threads"
+        Date: Dec 19, 2020
+        
+      - Title: "Hystoria"
+        Link: "https://hystoria.100millionbooks.org/"
+        Comment: "Only items produced over five years ago are allowed here."
+        Date: Dec 19, 2020
+
+      - Title: "Delayed Gratification"
+        Link: "https://www.slow-journalism.com/"
+        Comment: "Delayed Gratification is the world’s first Slow Journalism magazine, a beautiful quarterly publication which is proud to be ‘Last to Breaking News’"
+        Date: Dec 19, 2020
+
+      - Title: "Virtual event starter kit"
+        Link: "https://vercel.com/virtual-event-starter-kit"
+        Comment: "Clone, deploy, and fully customize for your online event."
+        Date: Dec 19, 2020
+
+      - Title: "Dogsheep"
+        Link: "https://dogsheep.github.io/"
+        Comment: "A collection of tools for personal analytics using SQLite and Datasette."
+        Date: Dec 19, 2020
         
 
 
@@ -2672,6 +2747,16 @@ fulldata:
         Link: "https://www.elizabethylin.com/"
         Comment: "A product designer & aspiring princess."
         Date: Nov 23, 2020
+
+      - Title: "Steph Smith"
+        Link: "https://stephsmith.io/"
+        Comment: "Remote Work, Continuous Growth, and Technology."
+        Date: Dec 19, 2020
+
+      - Title: "Kev Quirk"
+        Link: "https://kevq.uk/"
+        Comment: "A cyber security nerd, web design enthusiast and privacy advocate from the UK."
+        Date: Dec 19, 2020
 
 
 
