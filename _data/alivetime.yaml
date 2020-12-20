@@ -8,16 +8,16 @@
 
 records:
 
-- date: "2020-12-20" # What do you want to remember that you did today?
-  fields: #tasks
-    - Name: "Create booklist for Sabrina"
-      Category: ""
-      Tags: #change me
-        - website #project
-      Description: "<a href='https://sabrinasadr.com/read/'>View the booklist</a>"
-      isPrivate: false
-      dateAdded: "2020-12-20 01:00:36"
-      dateCompleted: "2020-12-20 02:00:28"
+  - date: "2020-12-20" # What do you want to remember that you did today?
+    fields: #tasks
+      - Name: "Create booklist for Sabrina"
+        Category: ""
+        Tags: #change me
+          - website #project
+        Description: "<a href='https://sabrinasadr.com/read/'>View the booklist</a>"
+        isPrivate: false
+        dateAdded: "2020-12-20 01:00:36"
+        dateCompleted: "2020-12-20 02:00:28"
 
 
 
