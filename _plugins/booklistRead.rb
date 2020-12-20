@@ -135,7 +135,7 @@ isbn_array["isbns"].each_with_index do |isbn, index|
             isbn_array["isbns"][index]["categories"] = checklist["volumeInfo"]["categories"]
             isbn_array["isbns"][index]["image"] = ""
             if defined?(checklist["volumeInfo"]["imageLinks"]["thumbnail"]) != nil then
-            isbn_array["isbns"][index]["image"] = checklist["volumeInfo"]["imageLinks"]["thumbnail"]
+            isbn_array["isbns"][index]["image"] = checklist["volumeInfo"]["imageLinks"]["thumbnail"].sub! '&edge=curl', ''
             end
             isbn_array["isbns"][index]["notFound"] = false
 
