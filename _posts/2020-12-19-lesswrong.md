@@ -4,7 +4,7 @@ title: 'Less Wrong'
 description: "A compendium of Less Wrong."
 date: December 19, 2020
 tags: annual
-last_modified_at: 
+last_modified_at: 2020-12-20T04:14:55Z
 ---
 
 Less Wrong is a community resource devoted to refining the art of human rationality, sometimes known as rationalism.

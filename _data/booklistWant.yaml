@@ -1,5 +1,94 @@
 ---
 isbns:
+- isbn: 9781939311276
+  dateWanted: December 09, 2020
+  title: How to Actually Change Your Mind
+  subtitle: 'Rationality: From AI to Zombies Book 1'
+  author:
+  - Eliezer Yudkowsky
+  publishedDate: '2018-12-14'
+  pageCount: 281
+  categories:
+  - Decision making
+  - Philosophy
+  - Psychological aspects
+  - Rationalism
+  - Reason
+  image: "/images/books/how-to-actually-change-your-mind.jpeg"
+  notFound: false
+- isbn: 9781429969352
+  dateWanted: December 20, 2020
+  title: Thinking, Fast and Slow
+  subtitle:
+  author:
+  - Daniel Kahneman
+  publishedDate: '2011-10-25'
+  pageCount: 512
+  categories:
+  - Psychology
+  image: "/images/books/thinking-fast-and-slow.jpeg"
+  notFound: false
+- isbn: 9780771070549
+  dateWanted: December 20, 2020
+  title: Superforecasting
+  subtitle: The Art and Science of Prediction
+  author:
+  - Philip Eyrikson Tetlock
+  - Dan Gardner
+  publishedDate: '2016-09-13'
+  pageCount: 352
+  categories:
+  - Economic forecasting
+  image: "/images/books/superforecasting.jpeg"
+  notFound: false
+- isbn: 9781407061597
+  dateWanted: December 20, 2020
+  title: Focusing
+  subtitle:
+  author:
+  - Eugene T Gendlin
+  publishedDate: '2010-08-03'
+  pageCount: 192
+  categories:
+  - Psychology
+  image: "/images/books/focusing.jpeg"
+  notFound: false
+- isbn: 9780061353246
+  dateWanted: December 20, 2020
+  title: Predictably Irrational, Revised and Expanded Edition
+  subtitle: The Hidden Forces That Shape Our Decisions
+  author:
+  - Dan Ariely
+  publishedDate: '2010-04-27'
+  pageCount: 384
+  categories:
+  - Business & Economics
+  image: "/images/books/predictably-irrational-revised-and-expanded-edition.jpeg"
+  notFound: false
+- isbn: 9780195341140
+  dateWanted: December 20, 2020
+  title: Rationality and the Reflective Mind
+  subtitle:
+  author:
+  - Keith Stanovich
+  publishedDate: '2011-02-03'
+  pageCount: 328
+  categories:
+  - Psychology
+  image: "/images/books/rationality-and-the-reflective-mind.jpeg"
+  notFound: false
+- isbn: 9780521680431
+  dateWanted: December 20, 2020
+  title: Thinking and Deciding
+  subtitle:
+  author:
+  - Jonathan Baron
+  publishedDate: '2007-10-22'
+  pageCount: 600
+  categories:
+  - Psychology
+  image: "/images/books/thinking-and-deciding.jpeg"
+  notFound: false
 - isbn: 9780813206462
   dateWanted: December 18, 2020
   title: The Intellectual Life

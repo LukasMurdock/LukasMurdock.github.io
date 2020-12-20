@@ -69,7 +69,7 @@ isbn_array["isbns"].each_with_index do |isbn, index|
         puts checklist["volumeInfo"]["subtitle"]
         puts checklist["volumeInfo"]["authors"]
         # download image!
-        puts checklist["volumeInfo"]["imageLinks"]["thumbnail"]
+        # puts checklist["volumeInfo"]["imageLinks"]["thumbnail"]
         
         puts checklist["volumeInfo"]["publishedDate"]
         puts checklist["volumeInfo"]["pageCount"]
@@ -86,7 +86,10 @@ isbn_array["isbns"].each_with_index do |isbn, index|
         isbn_array["isbns"][index]["publishedDate"] = checklist["volumeInfo"]["publishedDate"]
         isbn_array["isbns"][index]["pageCount"] = checklist["volumeInfo"]["pageCount"]
         isbn_array["isbns"][index]["categories"] = checklist["volumeInfo"]["categories"]
+        isbn_array["isbns"][index]["image"] = ""
+        if defined?(checklist["volumeInfo"]["imageLinks"]["thumbnail"]) != nil then
         isbn_array["isbns"][index]["image"] = checklist["volumeInfo"]["imageLinks"]["thumbnail"]
+        end
         isbn_array["isbns"][index]["notFound"] = false
 
         File.open(yaml_dir, "w") {|f| f.write(isbn_array.to_yaml)}

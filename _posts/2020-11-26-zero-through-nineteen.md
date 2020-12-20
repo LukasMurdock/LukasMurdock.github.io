@@ -107,7 +107,7 @@ Left Infinite Smiles to go to college.
 
 Became a contractor at ABB.
 
-[Work in 2019](https://www.lukasmurdock.com/work-in-2019/).
+[Work in 2019](https://lukasmurdock.com/work-in-2019/).
 
 …
 
