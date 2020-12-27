@@ -1,0 +1,132 @@
+Starting a series
+
+TODO:
+- Topic
+- Name
+- Cover art
+- Equipment
+- Hosting
+
+# New Wander with Lukas Murdock
+#newwander
+No Track
+Fireside with Lukas Murdock
+Pally Wander with Lukas Murdock
+Far wander
+New wander with Lukas Murdock
+
+Podcast
+Youtube videos
+Articles
+Medley
+
+## People
+David Perell
+Thomas Frank
+Ali Abdaal
+Chris Do
+Sam & Niko
+
+**Membership:**
+https://www.nateliason.com/sign-up
+- A monthly members-only Q&A hangout
+- A private online community for readers (which I participate in)
+- Commenting on articles
+- Discounts on courses and other products
+- Beta access to future projects
+
+No soundbites, nothing out of context.
+
+Like waitwho.is but for getting close to people.
+
+Friends as guests and having lengthy conversations (literally for hours)
+
+I’m likely to bring up a controversial topic and you’re free to steer the conversation away from it however you would like.
+
+When I ask why, I am not saying I disagree. I’m simply trying to think less wrong by deepening my understanding.
+
+Bring in:
+- People I follow and look up too
+- Have open calls for whoever wants to join (anonymously as well)
+
+Free, open:
+- Podcasts, video, transcriptions, articles, commenting
+
+Paid, private community (free for students):
+- Slack community
+
+
+## Guides to starting a podcast
+
+https://www.npr.org/2018/11/15/662070097/starting-your-podcast-a-guide-for-students
+
+## Topic 
+
+To leisurely talk about interesting resources and ideas.
+
+A podcast / video / article series on asking people whose content I’ve enjoyed:
+- Where do you show up in the world? If I were to go somewhere to learn more about you without talking to you, where would I go?
+- On a day-to-day or week-to-week basis, where do you go to inform yourself? What are the specific names of people or organizations that when you come across you pay attention to what they’re saying?
+- What has your attention lately?
+- Tools they use and their confidence in using them in the long run
+
+## Name
+
+Something to do with not having any particular agenda. 
+
+No Track
+
+## Cover Art
+## Equipment
+Microphone?
+Editing?
+https://zencastr.com/
+## Hosting
+LibSyn
+
+Hosting: [Libsyn](https://libsyn.com/)
+
+## Website
+
+## Workflow
+- Zencastr
+- Camera — iPhone 8 with Camo?
+- [Camera mount](https://www.amazon.com/SHAWE-Phone-Holder-Gooseneck-Mount/dp/B083BRX7D6/)
+- Microphone — iPhone 5
+- https://reincubate.com/support/how-to/iphone-webcam-mount-guide/
+- (Make a mic stand out of something cuttable)
+- LibSyn
+
+Things mentioned in this episode:
+Timestamps:
+
+
+Roam research connect “things mentioned.”
+https://github.com/maximevaillancourt/digital-garden-jekyll-template
+
+https://www.switchingtomac.com/tutorials/how-to-use-your-iphone-as-a-microphone-on-a-mac/
+
+https://www.gwern.net/static/img/icons/
+**FOR EXTERNAL ARROW**
+color: #aaaaaa;
+background-image: url(https://www.gwern.net/static/img/icons/newyorktimes.svg);
+height: 16px;
+width: 16px;
+margin: 0 0 2px 3px;
+content: "";
+display: inline-block;
+position: static;
+background-repeat: no-repeat;
+background-position: bottom center;
+
+**FOR GRAPH WRAPPER SVG**
+max-height: 50vh;
+max-width: 100%;
+
+
+## Notes from rewatching first episode
+
+- Look up at the camera you dingus
+- Stop combing your hair so much
+- You really like doing things with your hands, you even do keyboard shortcuts in the air
+- Don’t slam your hand down

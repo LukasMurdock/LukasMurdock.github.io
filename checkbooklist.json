@@ -2,18 +2,19 @@
   "items": [
     {
       "volumeInfo": {
-        "title": "Thinking and Deciding",
+        "title": "Tools of Titans",
+        "subtitle": "The Tactics, Routines, and Habits of Billionaires, Icons, and World-class Performers",
         "authors": [
-          "Jonathan Baron"
+          "Timothy Ferriss"
         ],
-        "publishedDate": "2007-10-22",
-        "description": "Beginning with its first edition and through subsequent editions, Thinking and Deciding has established itself as the required text and important reference work for students and scholars of human cognition and rationality. In this, the fourth edition, Jonathan Baron retains the comprehensive attention to the key questions addressed in the previous editions - How should we think? What, if anything, keeps us from thinking that way? How can we improve our thinking and decision making? - and his expanded treatment of topics such as risk, utilitarianism, Baye's theorem, and moral thinking. With the student in mind, the fourth edition emphasizes the development of an understanding of the fundamental concepts in judgment and decision making. This book is essential reading for students and scholars in judgment and decision making and related fields, including psychology, economics, law, medicine, and business.",
-        "pageCount": 600,
+        "publishedDate": "2017",
+        "description": "\"Fitness, money, and wisdom--here are the tools. Over the last two years ... Tim Ferriss has collected the routines and tools of world-class performers around the globe. Now, the distilled notebook of tips and tricks that helped him double his income, flexibility, happiness, and more is available as Tools of Titans\"--Page 4 of cover.",
+        "pageCount": 673,
         "categories": [
-          "Psychology"
+          "Business & Economics"
         ],
         "imageLinks": {
-          "thumbnail": "http://books.google.com/books/content?id=Fc5fQgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+          "thumbnail": "http://books.google.com/books/content?id=M77RDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }
       }
     }

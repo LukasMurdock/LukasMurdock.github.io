@@ -1,20 +1,29 @@
 ---
 isbns:
-- isbn: 9781939311276
-  dateWanted: December 09, 2020
-  title: How to Actually Change Your Mind
-  subtitle: 'Rationality: From AI to Zombies Book 1'
+- isbn: 9781328683786
+  dateWanted: December 25, 2020
+  title: Tools of Titans
+  subtitle: The Tactics, Routines, and Habits of Billionaires, Icons, and World-class
+    Performers
   author:
-  - Eliezer Yudkowsky
-  publishedDate: '2018-12-14'
-  pageCount: 281
+  - Timothy Ferriss
+  publishedDate: '2017'
+  pageCount: 673
   categories:
-  - Decision making
-  - Philosophy
-  - Psychological aspects
-  - Rationalism
-  - Reason
-  image: "/images/books/how-to-actually-change-your-mind.jpeg"
+  - Business & Economics
+  image: "/images/books/tools-of-titans.jpeg"
+  notFound: false
+- isbn: 9780735219564
+  dateWanted: December 21, 2020
+  title: The Making of a Manager
+  subtitle: What to Do When Everyone Looks to You
+  author:
+  - Julie Zhuo
+  publishedDate: '2019-03-19'
+  pageCount: 288
+  categories:
+  - Business & Economics
+  image: "/images/books/the-making-of-a-manager.jpeg"
   notFound: false
 - isbn: 9781429969352
   dateWanted: December 20, 2020

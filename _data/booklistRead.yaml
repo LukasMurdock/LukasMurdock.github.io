@@ -1,5 +1,22 @@
 ---
 isbns:
+- isbn: 9781939311276
+  dateRead: December 27, 2020
+  title: How to Actually Change Your Mind
+  subtitle: 'Rationality: From AI to Zombies Book 1'
+  author:
+  - Eliezer Yudkowsky
+  dateWanted: December 09, 2020
+  publishedDate: '2018-12-14'
+  pageCount: 281
+  categories:
+  - Decision making
+  - Philosophy
+  - Psychological aspects
+  - Rationalism
+  - Reason
+  image: "/images/books/how-to-actually-change-your-mind.jpeg"
+  notFound: false
 - isbn: 9781939311238
   dateRead: December 19, 2020
   dateWanted: December 09, 2020
@@ -244,6 +261,18 @@ isbns:
   - Design
   image: "/images/books/the-little-know-it-all.jpeg"
   notFound: false
+- isbn: 9780679645429
+  dateRead:
+  title: Smarter Faster Better
+  subtitle: The Transformative Power of Real Productivity
+  author:
+  - Charles Duhigg
+  publishedDate: '2016-03-08'
+  pageCount: 400
+  categories:
+  - Business & Economics
+  image: "/images/books/smarter-faster-better.jpeg"
+  notFound: false
 - isbn: 9781846683954
   dateRead: ''
   title: The Decision Book
@@ -296,6 +325,18 @@ isbns:
   categories:
   - Business & Economics
   image: "/images/books/the-e-myth-revisited.jpeg"
+  notFound: false
+- isbn: 9780451524935
+  dateRead: December 24, 2020
+  title: '1984'
+  subtitle:
+  author:
+  - George Orwell
+  publishedDate: '1983-10-17'
+  pageCount: 648
+  categories:
+  - Fiction
+  image: "/images/books/1984.jpeg"
   notFound: false
 - isbn: 9780060850524
   dateRead: ''
@@ -393,6 +434,18 @@ isbns:
   categories:
   - Business & Economics
   image: "/images/books/outliers.jpeg"
+  notFound: false
+- isbn: 9780061899874
+  dateRead: April 2, 2018
+  title: Influence
+  subtitle: The Psychology of Persuasion
+  author:
+  - Robert B. Cialdini, PhD
+  publishedDate: '2009-06-02'
+  pageCount: 336
+  categories:
+  - Self-Help
+  image: "/images/books/influence.jpeg"
   notFound: false
 - isbn: 9780316005043
   dateRead: ''
