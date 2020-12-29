@@ -2,19 +2,19 @@
   "items": [
     {
       "volumeInfo": {
-        "title": "Tools of Titans",
-        "subtitle": "The Tactics, Routines, and Habits of Billionaires, Icons, and World-class Performers",
+        "title": "The Story of the Human Body",
+        "subtitle": "Evolution, Health, and Disease",
         "authors": [
-          "Timothy Ferriss"
+          "Daniel Lieberman"
         ],
-        "publishedDate": "2017",
-        "description": "\"Fitness, money, and wisdom--here are the tools. Over the last two years ... Tim Ferriss has collected the routines and tools of world-class performers around the globe. Now, the distilled notebook of tips and tricks that helped him double his income, flexibility, happiness, and more is available as Tools of Titans\"--Page 4 of cover.",
-        "pageCount": 673,
+        "publishedDate": "2014",
+        "description": "In this book the author, a Harvard evolutionary biologist presents an account of how the human body has evolved over millions of years, examining how an increasing disparity between the needs of Stone Age bodies and the realities of the modern world are fueling a paradox of greater longevity and chronic disease. It illuminates the major transformations that contributed key adaptations to the body: the rise of bipedalism; the shift to a non-fruit-based diet; the advent of hunting and gathering, leading to our superlative endurance athleticism; the development of a very large brain; and the incipience of cultural proficiencies. The author also elucidates how cultural evolution differs from biological evolution, and how our bodies were further transformed during the Agricultural and Industrial Revolutions. While these ongoing changes have brought about many benefits, they have also created conditions to which our bodies are not entirely adapted, the author argues, resulting in the growing incidence of obesity and new but avoidable diseases, such as type 2 diabetes. The author proposes that many of these chronic illnesses persist and in some cases are intensifying because of 'dysevolution,' a pernicious dynamic whereby only the symptoms rather than the causes of these maladies are treated. And finally, he advocates the use of evolutionary information to help nudge, push, and sometimes even compel us to create a more salubrious environment. -- From publisher's web site.",
+        "pageCount": 460,
         "categories": [
-          "Business & Economics"
+          "Science"
         ],
         "imageLinks": {
-          "thumbnail": "http://books.google.com/books/content?id=M77RDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "thumbnail": "http://books.google.com/books/content?id=y2mODQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }
       }
     }

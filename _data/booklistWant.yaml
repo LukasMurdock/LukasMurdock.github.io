@@ -1,5 +1,17 @@
 ---
 isbns:
+- isbn: 9780307741806
+  dateWanted: December 27, 2020
+  title: The Story of the Human Body
+  subtitle: Evolution, Health, and Disease
+  author:
+  - Daniel Lieberman
+  publishedDate: '2014'
+  pageCount: 460
+  categories:
+  - Science
+  image: "/images/books/the-story-of-the-human-body.jpeg"
+  notFound: false
 - isbn: 9781328683786
   dateWanted: December 25, 2020
   title: Tools of Titans
@@ -28,7 +40,7 @@ isbns:
 - isbn: 9781429969352
   dateWanted: December 20, 2020
   title: Thinking, Fast and Slow
-  subtitle:
+  subtitle: 
   author:
   - Daniel Kahneman
   publishedDate: '2011-10-25'
@@ -53,7 +65,7 @@ isbns:
 - isbn: 9781407061597
   dateWanted: December 20, 2020
   title: Focusing
-  subtitle:
+  subtitle: 
   author:
   - Eugene T Gendlin
   publishedDate: '2010-08-03'
@@ -77,7 +89,7 @@ isbns:
 - isbn: 9780195341140
   dateWanted: December 20, 2020
   title: Rationality and the Reflective Mind
-  subtitle:
+  subtitle: 
   author:
   - Keith Stanovich
   publishedDate: '2011-02-03'
@@ -89,7 +101,7 @@ isbns:
 - isbn: 9780521680431
   dateWanted: December 20, 2020
   title: Thinking and Deciding
-  subtitle:
+  subtitle: 
   author:
   - Jonathan Baron
   publishedDate: '2007-10-22'
@@ -117,7 +129,7 @@ isbns:
   author:
   - Richard Hamming
   publishedDate: '2020-02-14'
-  pageCount:
-  categories:
+  pageCount: 
+  categories: 
   image: "/images/books/the-art-of-doing-science-and-engineering.jpeg"
   notFound: false
