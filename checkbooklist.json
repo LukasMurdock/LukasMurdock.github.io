@@ -2,19 +2,20 @@
   "items": [
     {
       "volumeInfo": {
-        "title": "The Story of the Human Body",
-        "subtitle": "Evolution, Health, and Disease",
+        "title": "The Elephant in the Brain",
+        "subtitle": "Hidden Motives in Everyday Life",
         "authors": [
-          "Daniel Lieberman"
+          "Kevin Simler",
+          "Robin Hanson"
         ],
-        "publishedDate": "2014",
-        "description": "In this book the author, a Harvard evolutionary biologist presents an account of how the human body has evolved over millions of years, examining how an increasing disparity between the needs of Stone Age bodies and the realities of the modern world are fueling a paradox of greater longevity and chronic disease. It illuminates the major transformations that contributed key adaptations to the body: the rise of bipedalism; the shift to a non-fruit-based diet; the advent of hunting and gathering, leading to our superlative endurance athleticism; the development of a very large brain; and the incipience of cultural proficiencies. The author also elucidates how cultural evolution differs from biological evolution, and how our bodies were further transformed during the Agricultural and Industrial Revolutions. While these ongoing changes have brought about many benefits, they have also created conditions to which our bodies are not entirely adapted, the author argues, resulting in the growing incidence of obesity and new but avoidable diseases, such as type 2 diabetes. The author proposes that many of these chronic illnesses persist and in some cases are intensifying because of 'dysevolution,' a pernicious dynamic whereby only the symptoms rather than the causes of these maladies are treated. And finally, he advocates the use of evolutionary information to help nudge, push, and sometimes even compel us to create a more salubrious environment. -- From publisher's web site.",
-        "pageCount": 460,
+        "publishedDate": "2018",
+        "description": "Human beings are primates, and primates are political animals. Our brains, therefore, are designed not just to hunt and gather, but also to help us get ahead socially, often via deception and self-deception. But while we may be self-interested schemers, we benefit by pretending otherwise. The less we know about our own ugly motives, the better - and thus we don't like to talk or even think about the extent of our selfishness. This is \"the elephant in the brain.\" Such an introspective taboo makes it hard for us to think clearly about our nature and the explanations for our behavior. The aim of this book, then, is to confront our hidden motives directly - to track down the darker, unexamined corners of our psyches and blast them with floodlights. Then, once everything is clearly visible, we can work to better understand ourselves: Why do we laugh? Why are artists sexy? Why do we brag about travel? Why do we prefer to speak rather than listen? Our unconscious motives drive more than just our private behavior; they also infect our venerated social institutions such as Art, School, Charity, Medicine, Politics, and Religion. In fact, these institutions are in many ways designed to accommodate our hidden motives, to serve covert agendas alongside their \"official\" ones. The existence of big hidden motives can upend the usual political debates, leading one to question the legitimacy of these social institutions, and of standard policies designed to favor or discourage them. You won't see yourself - or the world - the same after confronting the elephant in the brain.",
+        "pageCount": 397,
         "categories": [
-          "Science"
+          "Cognitive psychology"
         ],
         "imageLinks": {
-          "thumbnail": "http://books.google.com/books/content?id=y2mODQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "thumbnail": "http://books.google.com/books/content?id=mcM9DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }
       }
     }

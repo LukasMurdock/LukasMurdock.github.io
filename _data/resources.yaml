@@ -498,6 +498,11 @@ fulldata:
         Comment: "Learn about video playback, delivery, processing, and capture."
         Date: Dec 19, 2020
 
+      - Title: "Figma Crash Course"
+        Link: "https://www.figmacrashcourse.com/"
+        Comment: "Deep dives into powerful Figma features."
+        Date: Dec 30, 2020
+
 
   # Design
   - Type: Design
@@ -1772,6 +1777,11 @@ fulldata:
         Comment: "This is a list of lists of lists, a list of list articles that contain other list articles"
         Date: July 7, 2020
 
+      - Title: "Project Awesome"
+        Link: "https://project-awesome.org/"
+        Comment: "Curated list of awesome lists"
+        Date: December 30, 2020
+
       - Title: Awesome Concepts
         Link: "https://github.com/lukasz-madon/awesome-concepts"
         Comment: "List of all kinds of interesting topics: Laws, Principles, Mental Models, Cognitive Biases."
@@ -1962,6 +1972,11 @@ fulldata:
         Link: https://almanac.io/home
         Comment: "Access to tools, templates, and guides from top startup minds."
         Date: Apr 22, 2020
+
+      - Title: "Inciteful"
+        Link: https://inciteful.xyz/
+        Comment: "Using Citations to Explore Academic Literature."
+        Date: December, 30, 2020
 
       - Title: Semantic Scholar
         Link: https://www.semanticscholar.org/
@@ -2192,6 +2207,11 @@ fulldata:
         Link: "https://datasette.io/"
         Comment: "An open source multi-tool for exploring and publishing data"
         Date: Dec 19, 2020
+
+      - Title: "Online Great Books"
+        Link: "https://onlinegreatbooks.com/"
+        Comment: "An online community developing classically educated men and women using the Great Books of Western Civilization."
+        Date: December 30, 2020
 
 
 
@@ -2449,6 +2469,16 @@ fulldata:
         Link: https://emaillove.com/
         Comment: "Email inspiration, resources and discovery."
         Date: Apr 22, 2020
+
+      - Title: "Accessible Email Documentation"
+        Link: "https://github.com/wilbertheinen/accessible-email-documentation"
+        Comment: "A list of great articles, tools, presentations and resources about accessibility in general and specifically for email."
+        Date: December 30, 2020
+
+      - Title: "Accessible Email"
+        Link: "https://www.accessible-email.org/"
+        Comment: "Promoting email marketing accessibility and usability."
+        Date: December 30, 2020
 
         
 
@@ -2761,6 +2791,11 @@ fulldata:
         Link: "https://kevq.uk/"
         Comment: "A cyber security nerd, web design enthusiast and privacy advocate from the UK."
         Date: Dec 19, 2020
+
+      - Title: "Tommi Space"
+        Link: "https://tommi.space/home"
+        Comment: "A web version of the mess inside Tommi Boom’s mind."
+        Date: Dec 30, 2020
 
 
 

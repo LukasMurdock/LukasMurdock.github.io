@@ -1,5 +1,18 @@
 ---
 isbns:
+- isbn: 9780190495992
+  dateWanted: December 30, 2020
+  title: The Elephant in the Brain
+  subtitle: Hidden Motives in Everyday Life
+  author:
+  - Kevin Simler
+  - Robin Hanson
+  publishedDate: '2018'
+  pageCount: 397
+  categories:
+  - Cognitive psychology
+  image: "/images/books/the-elephant-in-the-brain.jpeg"
+  notFound: false
 - isbn: 9780307741806
   dateWanted: December 27, 2020
   title: The Story of the Human Body
@@ -40,7 +53,7 @@ isbns:
 - isbn: 9781429969352
   dateWanted: December 20, 2020
   title: Thinking, Fast and Slow
-  subtitle: 
+  subtitle:
   author:
   - Daniel Kahneman
   publishedDate: '2011-10-25'
@@ -65,7 +78,7 @@ isbns:
 - isbn: 9781407061597
   dateWanted: December 20, 2020
   title: Focusing
-  subtitle: 
+  subtitle:
   author:
   - Eugene T Gendlin
   publishedDate: '2010-08-03'
@@ -89,7 +102,7 @@ isbns:
 - isbn: 9780195341140
   dateWanted: December 20, 2020
   title: Rationality and the Reflective Mind
-  subtitle: 
+  subtitle:
   author:
   - Keith Stanovich
   publishedDate: '2011-02-03'
@@ -101,7 +114,7 @@ isbns:
 - isbn: 9780521680431
   dateWanted: December 20, 2020
   title: Thinking and Deciding
-  subtitle: 
+  subtitle:
   author:
   - Jonathan Baron
   publishedDate: '2007-10-22'
@@ -129,7 +142,7 @@ isbns:
   author:
   - Richard Hamming
   publishedDate: '2020-02-14'
-  pageCount: 
-  categories: 
+  pageCount:
+  categories:
   image: "/images/books/the-art-of-doing-science-and-engineering.jpeg"
   notFound: false
