@@ -27,3 +27,5 @@ Just hold that thought for a moment.
 Recognize that they are not alone in the world; they are part of a web of relationships: a web of people, a web of community, and a web of the living world—the air that they breathe, the water they drink.
 
 So if we care about their legacy, if we care about their future welfare, we have to care not just about their life, we have to care about all life.
+
+For posterity.
