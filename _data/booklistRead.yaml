@@ -1,5 +1,16 @@
 ---
 isbns:
+- isbn: 9781401962326
+  dateRead: January 05, 2021
+  title: Who Not How
+  subtitle: The Formula to Achieve Bigger Goals Through Accelerating Teamwork
+  author:
+  - Dan Sullivan with Benjamin Hardy
+  publishedDate: '2020-10-20'
+  pageCount:
+  categories:
+  image:
+  notFound: false
 - isbn: 9781939311276
   dateRead: December 27, 2020
   title: How to Actually Change Your Mind
