@@ -1,15 +1,17 @@
 ---
 isbns:
-- isbn: 9781401962326
+- isbn: 9781401960599
   dateRead: January 05, 2021
   title: Who Not How
   subtitle: The Formula to Achieve Bigger Goals Through Accelerating Teamwork
   author:
-  - Dan Sullivan with Benjamin Hardy
+  - Dan Sullivan
+  - Dr. Benjamin Hardy
   publishedDate: '2020-10-20'
-  pageCount:
+  pageCount: 257
   categories:
-  image:
+  - Business & Economics
+  image: "/images/books/who-not-how.jpeg"
   notFound: false
 - isbn: 9781939311276
   dateRead: December 27, 2020
