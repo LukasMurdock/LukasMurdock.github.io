@@ -1,5 +1,29 @@
 ---
 isbns:
+- isbn: 9780735213616
+  dateWanted: January 06, 2021
+  title: Breath
+  subtitle: The New Science of a Lost Art
+  author:
+  - James Nestor
+  publishedDate: '2020'
+  pageCount: 304
+  categories:
+  - Health & Fitness
+  image: "/images/books/breath.jpeg"
+  notFound: false
+- isbn: 9781681492919
+  dateWanted: January 06, 2021
+  title: Leisure
+  subtitle: The Basis of Culture
+  author:
+  - Josef Pieper
+  publishedDate: '2015-08-07'
+  pageCount: 169
+  categories:
+  - Philosophy
+  image: "/images/books/leisure.jpeg"
+  notFound: false
 - isbn: 9780190495992
   dateWanted: December 30, 2020
   title: The Elephant in the Brain
