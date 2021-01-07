@@ -138,6 +138,7 @@ In no particular order
 * NetNewsWire
 * Readwise
 * Grammarly
+* Apple Books (Iowan book font, and full screen on my Mac when I can)
 
 [See the other applications I use](https://lukasmurdock.com/knowledge/#applications)
 

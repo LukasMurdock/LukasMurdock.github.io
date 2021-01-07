@@ -1,5 +1,17 @@
 ---
 isbns:
+- isbn: 9781605440606
+  dateRead: January 07, 2020
+  title: The Business of Expertise
+  subtitle: How Entrepreneurial Experts Convert Insight to Impact + Wealth
+  author:
+  - David C. Baker
+  publishedDate: '2017-07-11'
+  pageCount: 266
+  categories:
+  - Business & Economics
+  image: "/images/books/the-business-of-expertise.jpeg"
+  notFound: false
 - isbn: 9781401960599
   dateWanted: January 05, 2021
   dateRead: January 05, 2021
