@@ -807,6 +807,11 @@ fulldata:
         Comment: "Create placeholder images quickly and easily."
         Date: Apr 22, 2020
 
+      - Title: "Old Book Illustrations"
+        Link: http://placehttps://www.oldbookillustrations.com/hold.jp/en.html
+        Comment: "A wide range of public domain, royalty-free images scanned from old books."
+        Date: Jan 07, 2021
+
       - Title: CSS Grid Generator
         Link: https://cssgrid-generator.netlify.app/
         Comment: "A way for you to use CSS Grid features quickly."
@@ -2217,6 +2222,11 @@ fulldata:
         Link: "https://onlinegreatbooks.com/"
         Comment: "An online community developing classically educated men and women using the Great Books of Western Civilization."
         Date: December 30, 2020
+
+      - Title: "Ditherpunk"
+        Link: "https://surma.dev/things/ditherpunk/"
+        Comment: "The article I wish I had about monochrome image dithering."
+        Date: January 07, 2021
 
 
 
