@@ -37,6 +37,7 @@ plugins:
 include:
   - _pages
   - _teardowns
+  - _workpages
 
 exclude:
   - vendor
@@ -59,3 +60,8 @@ defaults:
       path: '_teardown'
     values:
       permalink: /teardown/:basename
+  - scope:
+      path: '_workpages'
+    values:
+      permalink: /work/:basename
+      layout: page
