@@ -3,6 +3,7 @@ layout: page
 title: Work
 description: Helping businesses stand out, earn more attention, reach more people, and win more business.
 caption: Lukas Murdock creates effective strategies, powerful identities and memorable experiences.
+permalink: /work/
 ---
 
 I help businesses stand out, earn more attention, reach more people, and win more business.
