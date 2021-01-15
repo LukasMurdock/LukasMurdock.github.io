@@ -468,6 +468,11 @@ fulldata:
         Comment: "Everything you need to know: From pitch deck templates to delivering great presentations."
         Date: Sep 05, 2020
 
+      - Title: Investor Pitch Training
+        Link: "https://www.basetemplates.com/investor-pitch-training"
+        Comment: "Practice for your next investor pitch deck presentation."
+        Date: January 14, 2021
+
       - Title: OKR and goal examples
         Link: "https://soapboxhq.com/goal-examples"
         Comment: "Library of role-specific and personal development goal examples to inspire your employees."
@@ -502,6 +507,11 @@ fulldata:
         Link: "https://www.figmacrashcourse.com/"
         Comment: "Deep dives into powerful Figma features."
         Date: Dec 30, 2020
+
+      - Title: "Front-end Developer Handbook 2019"
+        Link: "https://frontendmasters.com/books/front-end-handbook/2019/"
+        Comment: "Learn the entire JavaScript, CSS and HTML development practice"
+        Date: January 14, 2021
 
 
   # Design
@@ -896,6 +906,11 @@ fulldata:
         Link: "https://forensic-architecture.org/"
         Comment: "A research agency that undertakes advanced spatial and media investigations."
         Date: Nov 23, 2020
+
+      - Title: "Principles of good portfolio design"
+        Link: "https://buditanrim.co/2021/effective-portfolio-principles/"
+        Comment: "The purpose of a portfolio is to demonstrate skills and previous impact through storytelling to help recruiters decide whether you’re the right fit for the potential role or not."
+        Date: January 14, 2021
 
 
   # Guides to SEO
@@ -2228,6 +2243,35 @@ fulldata:
         Comment: "The article I wish I had about monochrome image dithering."
         Date: January 07, 2021
 
+      - Title: "Adversarial.js"
+        Link: "https://kennysong.github.io/adversarial.js/"
+        Comment: "Break neural networks in your browser."
+        Date: January 14, 2021
+
+      - Title: "Excalidraw"
+        Link: "https://excalidraw.com/"
+        Comment: "A virtual collaborative whiteboard tool that lets you easily sketch diagrams that have a hand-drawn feel to them."
+        Date: January 14, 2021
+
+      - Title: "Sbored"
+        Link: "https://sbored.co/"
+        Comment: "A website where you can find out what to do in your free time. It generates activities for you."
+        Date: January 14, 2021
+
+      - Title: "Grapevide"
+        Link: "https://grapevine.team/"
+        Comment: "Grapevine allows business teams to get asynchronous video updates from remote team members each morning."
+        Date: January 14, 2021
+
+      - Title: "Email Meter"
+        Link: "https://www.emailmeter.com/"
+        Comment: "A free report on your email statistics and trends, find out your own and start improving your habits today."
+        Date: January 14, 2021
+
+      - Title: "Blah Code"
+        Link: "https://bullg.it/blah-code/"
+        Comment: "Encode and decode blah code."
+        Date: January 14, 2021
 
 
   #Software

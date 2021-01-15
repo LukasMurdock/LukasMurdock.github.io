@@ -132,6 +132,8 @@ In no particular order
 * Google Chrome
 * iA Writer
 * VS Code
+    - [Night Owl theme](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl)
+    - [Dank Mono font](https://gumroad.com/l/dank-mono)
 * Signal
 * Spark
 * Affinity Photo/Designer/Publisher
