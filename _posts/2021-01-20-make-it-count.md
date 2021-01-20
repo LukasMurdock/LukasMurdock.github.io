@@ -11,6 +11,8 @@ Marketing is creation. Content creation, media creation, lead creation. Call it 
 
 Marketing is perceived results. Marketing is perceived changes. Marketing is perceived effects. Marketing is perceived outcomes. Marketing is perceived impact. *Marketing is perception*.
 
+Everything you know, everything you do, everything you say, and everything you buy is influenced by your perception. You have to craft your work alongside [Perception Optimization](https://lukasmurdock.com/perception-optimization/).
+
 **Marketing is perception from those you seek to change**.
 
 **If it’s in your head, it doesn’t count**.
@@ -49,7 +51,11 @@ Remember, everyone is far too busy with their *own* work.
 
 **Find the others and hold each other accountable**.
 
+Set intentions and goals among shared interests and regularly require holding each other accountable.
+
 It’s easy to feel like no one believes in you; most journeys start lonely, paired only by a blazing internal belief. External validation comes after your work is perceived in just the right ways.
+
+Figure things out in public.
 
 **You have to believe in the value of your work**.
 
@@ -141,6 +147,8 @@ Communicate that desire and reinforce it succinctly with everything you do.
 Use what your solution does as proof to others that you can satisfy their desires.
 
 Those you seek to serve must identify with your work before they can buy from you. It must be their headline, their problem, and their state of mind at that particular moment.
+
+Articulate the problem and solution well and you’ll have a vision that leaves people with a clear identity and purpose.
 
 **Reject more people than you attract**.
 

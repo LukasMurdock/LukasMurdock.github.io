@@ -16,6 +16,10 @@ Things I plan to take from home:
 - Monitor
 - Beach chair
 - Bike
+- Hammock
+- Towels
+- Mug
+- Water bottle
 
 Things to acquire for apartment:
 - Bed
@@ -27,6 +31,7 @@ Things to acquire for apartment:
 - Cooking appliances
 - Router
 - Renters Insurance
+- Misc Items
 
 I’d *really* love an air purifier and piano but we have bigger priorities listed above.
 
@@ -115,7 +120,7 @@ So my current essentials are:
 - Pot
 - Can opener
 - Cutting board
-- Forks, spoons, knifes, bowls, plates (Max four)
+- Forks, spoons, knifes, bowls, plates, cups (Max four)
 - Wooden cooking utensils
 - Cumin, ginger, paprika, tumeric, chili pepper, pepper and salt.
 
@@ -129,3 +134,7 @@ Things yet-to-be essential but I see coming:
 
 ## Router
 Hopefully can just pick one off from someone I know.
+
+## Misc Items
+
+- Laundry basket
