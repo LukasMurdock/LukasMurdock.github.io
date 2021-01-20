@@ -3,7 +3,6 @@ layout: post
 title: 'Proper ATOM feed Formatting'
 description: "Tips to generate a good feed."
 date: December 19, 2020
-tags: annual
 code: true
 ---
 
