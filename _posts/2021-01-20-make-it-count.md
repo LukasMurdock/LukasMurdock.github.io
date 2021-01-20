@@ -2,6 +2,7 @@
 layout: post
 title: 'Make It Count'
 description: "Marketing is creation. Content creation, media creation, lead creation. Call it whatever you want. Marketing is what controls and expands your reach, your impact, your outcomes, your effects, your changes, and your results."
+image: make-it-count.png
 date: January 20, 2021
 tags: annual
 ---
