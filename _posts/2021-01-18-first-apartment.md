@@ -20,6 +20,7 @@ Things I plan to take from home:
 - Towels
 - Mug
 - Water bottle
+- Whiteboard
 
 Things to acquire for apartment:
 - Bed

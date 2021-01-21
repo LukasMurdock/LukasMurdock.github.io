@@ -513,6 +513,11 @@ fulldata:
         Comment: "Learn the entire JavaScript, CSS and HTML development practice"
         Date: January 14, 2021
 
+      - Title: Guide To Profitable Freelance Consulting"
+        Link: "https://www.consulting.com/independent-consultant"
+        Comment: "Learn everything you need to become a successful independent consultant."
+        Date: January 20, 2021
+
 
   # Design
   - Type: Design
@@ -1021,6 +1026,11 @@ fulldata:
         Link: "https://suganthan.com/blog/logfile-analysis-seo/"
         Comment: "How to do advanced logfile analysis using Cloudflare, Logflare, Bigquery and Google data studio."
         Date: August 04, 2020
+
+      - Title: "Guide to Consistently Producing High Quality Content"
+        Link: "https://mariopeshev.com/the-guide-to-consistently-producing-high-quality-content/"
+        Comment: "The difference between scribbling a post and crafting an engaging piece that converts is the marketing intent."
+        Date: January 20, 2021
 
   # Words
   - Type: Words
@@ -1793,6 +1803,11 @@ fulldata:
         Link: https://github.com/zudochkin/awesome-newsletters/blob/master/README.md
         Comment: "A curated list of awesome newsletters."
         Date: Apr 22, 2020
+
+      - Title: "The Lindy Library"
+        Link: "https://www.thelindylibrary.org/"
+        Comment: "A monthly summary of the 0.1% of resources that will give you 90% of the value."
+        Date: Jan 20, 2021
 
 #Niche resources
   - Type: Niche Resources
