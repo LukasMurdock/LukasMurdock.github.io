@@ -21,6 +21,7 @@ Things I plan to take from home:
 - Mug
 - Water bottle
 - Whiteboard
+- Posters
 
 Things to acquire for apartment:
 - Bed

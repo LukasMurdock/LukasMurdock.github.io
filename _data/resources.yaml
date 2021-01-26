@@ -518,6 +518,11 @@ fulldata:
         Comment: "Learn everything you need to become a successful independent consultant."
         Date: January 20, 2021
 
+      - Title: "R for Data Science"
+        Link: "https://r4ds.had.co.nz/introduction.html"
+        Comment: "How to do data science with R."
+        Date: January 26, 2021
+
 
   # Design
   - Type: Design
@@ -2287,6 +2292,17 @@ fulldata:
         Link: "https://bullg.it/blah-code/"
         Comment: "Encode and decode blah code."
         Date: January 14, 2021
+
+      - Title: "Rijksstudio - Rijksmuseum"
+        Link: "https://www.rijksmuseum.nl/en/rijksstudio"
+        Comment: "700k+ paintings from the Rijksmuseum online copyright free."
+        Date: January 26, 2021
+
+      - Title: "Collection | British Museum"
+        Link: "https://www.britishmuseum.org/collection"
+        Comment: "Over four million of the Museum's objects. From Indigenous clothing and Mexican skulls to necklaces made of dolphin teeth, this is one of the most extensive online museum databases in the world."
+        Date: January 26, 2021
+
 
 
   #Software
