@@ -178,4 +178,4 @@ You can contribute. And we need you to help people move forward. We need you to 
 
 You don’t need anyone’s permission.
 
-Now go. Make a ruckus.
+Now go. Make a ruckus. Make it count.

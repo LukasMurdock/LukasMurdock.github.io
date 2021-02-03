@@ -140,3 +140,4 @@ Hopefully can just pick one off from someone I know.
 ## Misc Items
 
 - Laundry basket
+- [Quip custom bundle](https://www.getquip.com/store/products/electric-toothbrush-starter-set) seems cooler than refilling everything

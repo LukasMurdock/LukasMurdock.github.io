@@ -1,1 +1,22 @@
-{}
+{
+  "items": [
+    {
+      "volumeInfo": {
+        "title": "Think Again",
+        "subtitle": "The Power of Knowing What You Don't Know",
+        "authors": [
+          "Adam Grant"
+        ],
+        "publishedDate": "2021-02-02",
+        "description": "\"The bestselling author of Give and Take and Originals examines the critical art of rethinking: learning to question your beliefs and to know what you don't know, which can position you for success at work and happiness at home. The difficulty of rethinking our assumptions is surprisingly common--maybe even fundamentally human. Our ways of thinking become habits that we don't bother to question, and mental laziness leads us to prefer the ease of old routines to the difficulty of new ones. We fail to update the beliefs we formed in the past for the challenges we face in the present. But in a rapidly changing world, we need to spend as much time rethinking as we do thinking. Think Again is a book about the benefit of doubt, and about how we can get better at embracing the unknown and the joy of being wrong. Evidence has shown that creative geniuses are not attached to one identity but constantly willing to rethink their stances, that leaders who admit they don't know something and seek critical feedback lead more productive and innovative teams, and that our greatest presidents have been open to updating their views. The new science of intellectual humility shows that as a mindset and a skillset, rethinking can be taught, and Grant explains how to develop the necessary qualities. The first section of the book explores why we struggle to think again and how we can improve individually, and argues that such engines of success as \"grit\" can actually be counterproductive; the second section discusses how we can help others think again through the skill of \"argument literacy\"; and the third looks at how institutions like schools, business, and governments fall short in building cultures that encourage rethinking. In the end, it's intellectual humility that makes it possible for us to stop denying our weaknesses so that we can start improving ourselves\"--",
+        "pageCount": 320,
+        "categories": [
+          "Business & Economics"
+        ],
+        "imageLinks": {
+          "thumbnail": "http://books.google.com/books/content?id=UhkSEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        }
+      }
+    }
+  ]
+}

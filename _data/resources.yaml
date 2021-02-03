@@ -388,6 +388,11 @@ fulldata:
         Comment: "All the references used by the community - quick courses for the javascript engineers."
         Date: Apr 22, 2020
 
+      - Title: JavaScript for impatient programmers
+        Link: "https://exploringjs.com/impatient-js/toc.html"
+        Comment: "This book makes JavaScript less challenging to learn for newcomers by offering a modern view that is as consistent as possible."
+        Date: January 29, 2021
+
       - Title: You might not need JS
         Link: http://youmightnotneedjs.com/
         Comment: "Examples of common UI elements and interactions with HTML and CSS alone."
@@ -1815,6 +1820,7 @@ fulldata:
         Date: Jan 20, 2021
 
 #Niche resources
+# Next: Software
   - Type: Niche Resources
     List:
       - Title: List of lists of lists
@@ -2302,6 +2308,16 @@ fulldata:
         Link: "https://www.britishmuseum.org/collection"
         Comment: "Over four million of the Museum's objects. From Indigenous clothing and Mexican skulls to necklaces made of dolphin teeth, this is one of the most extensive online museum databases in the world."
         Date: January 26, 2021
+
+      - Title: "Flash Player Emulators"
+        Link: "https://nosamu.medium.com/flash-player-emulators-how-to-play-swfs-in-2021-and-beyond-d56c3899b7e6"
+        Comment: "How to Play SWF Files in 2021 and Beyond"
+        Date: January 29, 2021
+
+      - Title: "Akiyoshi’s illusion pages"
+        Link: "http://www.ritsumei.ac.jp/~akitaoka/index-e.html"
+        Comment: "From Akiyoshi KITAOKA, Professor, Psychology, Ritsumeikan University, Osaka, Japan."
+        Date: January 29, 2021
 
 
 
@@ -3145,6 +3161,11 @@ fulldata:
         Link: "https://observablehq.com/@makio135/creative-coding"
         Comment: "Generating SVGs, Motion, and GLSL Shaders."
         Date: December 3, 2020
+
+      - Title: "Snowflake Generator"
+        Link: "https://viviariums.com/projects/snowflake/interactive/"
+        Comment: "Made by Vivian Wu."
+        Date: January 29, 2021
 
         
 

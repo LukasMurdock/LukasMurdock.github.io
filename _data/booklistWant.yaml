@@ -1,5 +1,17 @@
 ---
 isbns:
+- isbn: 9781984878106
+  dateWanted: February 01, 2021
+  title: Think Again
+  subtitle: The Power of Knowing What You Don't Know
+  author:
+  - Adam Grant
+  publishedDate: '2021-02-02'
+  pageCount: 320
+  categories:
+  - Business & Economics
+  image: "/images/books/think-again.jpeg"
+  notFound: false
 - isbn: 9780735213616
   dateWanted: January 06, 2021
   title: Breath
