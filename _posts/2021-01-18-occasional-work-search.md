@@ -61,3 +61,18 @@ The obvious answer, **show up**.
 I plan on showing up here more often to **Figure it out in public**. **Do more things, and tell more people about it**.
 
 The dots only connect backwards.
+
+---
+
+Reread:
+- [https://lethain.com/forty-year-career/](https://lethain.com/forty-year-career/)
+- [https://lethain.com/career-advice/](https://lethain.com/career-advice/)
+
+Focus on a small handful of things that build together, with each making the others more impactful as they compound over time.
+
+Pace, people, prestige, profit and learning.
+
+Pace because you can’t burnout. People because relationships are invaluable—[meet people](https://lethain.com/meeting-people/). Prestige because it makes everything more attainable. Profit because financial security is a prerequisite to own your pace and learning. Learning because you need to fight entropy.
+
+> As you invest into your pace, the people you know, the prestige you build, the profits to fuel financial security, and your deep and broad learning, something magical starts to happen: each of these makes the others easier.
+

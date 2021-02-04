@@ -927,6 +927,11 @@ fulldata:
         Comment: "The purpose of a portfolio is to demonstrate skills and previous impact through storytelling to help recruiters decide whether you’re the right fit for the potential role or not."
         Date: January 14, 2021
 
+      - Title: "Dark Patterns at Scale"
+        Link: "https://webtransparency.cs.princeton.edu/dark-patterns/"
+        Comment: "Findings from a Crawl of 11K Shopping Websites."
+        Date: February 04, 2021
+
 
   # Guides to SEO
   - Type: Guides to SEO
@@ -1105,6 +1110,11 @@ fulldata:
         Link: "https://headlime.io/"
         Comment: "Get access to high converting headlines. Headlime generates hundreds of headlines for you, simply by answering a few questions."
         Date: July 2, 2020
+
+      - Title: The Most Dangerous Writing App
+        Link: "https://www.squibler.io/dangerous-writing-prompt-app"
+        Comment: "Don’t stop writing, or all progress will be lost."
+        Date: February 4, 2021
 
 # SEO
   - Type: SEO
@@ -2902,6 +2912,11 @@ fulldata:
         Link: "https://tommi.space/home"
         Comment: "A web version of the mess inside Tommi Boom’s mind."
         Date: Dec 30, 2020
+
+      - Title: "Brian Lovin"
+        Link: "https://brianlovin.com/"
+        Comment: "A product designer, podcaster, and writer, living in San Francisco."
+        Date: February 4, 2021
 
 
 

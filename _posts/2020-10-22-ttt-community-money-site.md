@@ -114,3 +114,4 @@ Swipe file:
 - Repeller — [Interior Design](https://repeller.com/instagram-inspired-interior-design/) (Kristin Tyndall)
 - Wirecutter — [Product deals](https://www.nytimes.com/wirecutter/deals/) (Kristin Tyndall)
 - Consumer Reports — [Top Recommendations](https://www.consumerreports.org/cro/index.htm#product-cards) (Kristin Tyndall)
+- [Remote work in 2021](https://www.remote.tools/remote-work-2021)
