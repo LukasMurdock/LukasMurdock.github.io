@@ -23,7 +23,7 @@ Is it about being here because you want to be, learning from what we do, and pee
 
 Is that what this is for?
 
-Let’s go back around 60 years ago. A time where we saw the first commercial computer, Color Television broadcast system, polio vaccine, commercial microwave oven, transatlantic telephone cable, three-point seatbelt, satellite television, computer mouse, push button telephone, measles vaccine, handheld electronic calculator all coming into life.
+Let’s go back around 60 years ago. A time where we saw the first commercial computer, Color Television broadcast system, polio vaccine, commercial microwave oven, transatlantic telephone cable, three-point seatbelt, satellite television, computer mouse, push button telephone, measles vaccine, and handheld electronic calculator all coming into life.
 
 It would be at least a decade before we would see the personal computer, E-mail, cell phones, Microsoft, Apple, Amazon, and Google.
 
@@ -47,7 +47,7 @@ So, I’ll ask again.
 
 You can’t deny the industrial history of education—a history of systemic instruction to manufacture Theory X workers designed for compliance instead of thinking.
 
-I’m not going to go into legal, privacy, or accessibility concerns here—and those are real concerns with real consequences. But, those are secondary to the heart of the conversation we need to have.
+I’m not going to go into legal, privacy, or accessibility concerns on remote proctoring software here—and those are [real concerns with real consequences](https://lukasmurdock.com/learning-integrity/#students-pushing-back). But, those are secondary to the heart of the conversation we need to have.
 
 What change are you seeking to make?
 
