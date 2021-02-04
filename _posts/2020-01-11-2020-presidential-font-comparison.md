@@ -3,7 +3,7 @@ layout: post
 title: '2020 Presidential Candidate Font Comparison'
 description: In a race over donations from a nation how do the players compare?
 date: January 11, 2020
-last_modified_at: 2020-07-22T16:39:41+0000
+last_modified_at: 2021-02-04T19:23:22+0000
 redirect_from: /2020/01/11/2020-presidential-font-comparison/
 ---
 
@@ -98,6 +98,8 @@ Released in 2016, Borther 1816 is a Geometric sans-serif typeface designed by Fe
 The new Biden campaign fonts are [Decimal](https://www.typography.com/blog/introducing-decimal) and [Mercury Text](https://www.typography.com/fonts/mercury-text/overview), both from [Hoefler & Co](https://www.typography.com/blog/biden-fonts).
 
 As of July, 2020 the primary campaign website has yet to change from Brother 1816.
+
+**Update January 21, 2020**: [Whitehouse.gov](https://web.archive.org/web/20210121000256/https://www.whitehouse.gov/) moves from Donald Trump’s Montserrat to Decimal and Mercury. [Joebiden.com](https://joebiden.com/presidency-for-all-americans/) now also uses Decimal and Mercury.
 
 
 ## Kamala Harris
