@@ -433,6 +433,11 @@ fulldata:
         Comment: "Because <i>imagine everyone's naked</i> is terrible advice."
         Date: Apr 22, 2020
 
+      - Title: "TedX Speaker Guide"
+        Link: https://speakinhttps://storage.ted.com/tedx/manuals/tedx_speaker_guide.pdfg.io/
+        Comment: "A few dos and don’ts on how to give a great talk."
+        Date: February 04, 2021
+
       - Title: 1 on 1 Meeting Questions
         Link: https://github.com/VGraupera/1on1-questions
         Comment: "Mega list of 1 on 1 meeting questions compiled from a variety to sources."
@@ -930,6 +935,11 @@ fulldata:
       - Title: "Dark Patterns at Scale"
         Link: "https://webtransparency.cs.princeton.edu/dark-patterns/"
         Comment: "Findings from a Crawl of 11K Shopping Websites."
+        Date: February 04, 2021
+
+      - Title: "Human Interface and Software Design Guides"
+        Link: "http://www.geofcrowl.com/blog/articles/2020/2/17/collection-higs/"
+        Comment: "A collection of human interface and software design guidelines to past and present software."
         Date: February 04, 2021
 
 
