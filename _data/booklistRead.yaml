@@ -1,5 +1,18 @@
 ---
 isbns:
+- isbn: 9780978440749
+  dateWanted: February 04, 2021
+  dateRead: February 04, 2021
+  title: The Coaching Habit
+  subtitle: Say Less, Ask More & Change the Way You Lead Forever
+  author:
+  - Michael Bungay Stanier
+  publishedDate: '2016-02-29'
+  pageCount: 242
+  categories:
+  - Business & Economics
+  image: "/images/books/the-coaching-habit.jpeg"
+  notFound: false
 - isbn: 9781605440606
   dateRead: January 07, 2020
   title: The Business of Expertise
