@@ -533,6 +533,16 @@ fulldata:
         Comment: "How to do data science with R."
         Date: January 26, 2021
 
+      - Title: "Complexity Explained"
+        Link: "https://complexityexplained.github.io/"
+        Comment: "Things you should know about complex systems."
+        Date: February 10, 2021
+
+      - Title: "StaffEng"
+        Link: "https://staffeng.com/"
+        Comment: "Stories of reaching Staff-plus engineering roles."
+        Date: February 10, 2021
+
 
   # Design
   - Type: Design
@@ -1056,6 +1066,11 @@ fulldata:
         Link: "https://mariopeshev.com/the-guide-to-consistently-producing-high-quality-content/"
         Comment: "The difference between scribbling a post and crafting an engaging piece that converts is the marketing intent."
         Date: January 20, 2021
+
+      - Title: "Guide to SEO for Lawyers"
+        Link: "https://www.postali.com/the-ultimate-guide-to-seo-for-lawyers/"
+        Comment: "In-depth tactics and strategies for beginner DIY lawyers, who want to keep the work in-house, and seasoned SEO experts looking to broaden their skillset."
+        Date: February 10, 2021
 
   # Words
   - Type: Words
@@ -3173,7 +3188,7 @@ fulldata:
         Date: October 21, 2020
 
       - Title: "d3 force"
-        Link: "https://wattenberger.com/blog/d3-force"
+
         Comment: "Let's learn how to move particles with forces using d3-force."
         Date: December 2, 2020
 
@@ -3191,6 +3206,16 @@ fulldata:
         Link: "https://viviariums.com/projects/snowflake/interactive/"
         Comment: "Made by Vivian Wu."
         Date: January 29, 2021
+
+      - Title: "Bruno Simon portfolio"
+        Link: "https://bruno-simon.com/"
+        Comment: "Creative developer living in Paris, freelancer, former lead developer at Immersive Garden, former developer at Uzik and teacher."
+        Date: February 10, 2021
+
+      - Title: "Three.js Journey"
+        Link: "https://threejs-journey.xyz/"
+        Comment: "Learn WebGL with Three.js"
+        Date: February 10, 2021
 
         
 

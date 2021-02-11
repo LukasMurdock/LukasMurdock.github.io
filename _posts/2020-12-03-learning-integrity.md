@@ -275,3 +275,7 @@ The problem isn’t forcing students to install spyware on their devices. The pr
 As long as education views enforcing obedience as a prerogative we’ll be facing the problems that come with it.
 
 There is more to learning than education. We can and should seek it without the shackles of education.
+
+More links:
+- [https://github.com/oofdere/onproctoring](https://github.com/oofdere/onproctoring)
+- [https://docs.google.com/spreadsheets/d/1l9UyESpFOokU1dM4MG0xz-fkkcFSB8y0ngKXZ6IgWrY/htmlview#gid=0](https://docs.google.com/spreadsheets/d/1l9UyESpFOokU1dM4MG0xz-fkkcFSB8y0ngKXZ6IgWrY/htmlview#gid=0)

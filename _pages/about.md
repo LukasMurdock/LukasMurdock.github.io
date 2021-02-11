@@ -86,6 +86,8 @@ Various technologies I dove into before I started tracking when I learned them. 
 - GraphQL
 - SCSS / Sass
 - Docker
+- GSAP
+- Three.js
 
 ### Companies I’ve Worked For
 
