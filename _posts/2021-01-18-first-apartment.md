@@ -35,7 +35,7 @@ Things to acquire for apartment:
 - Renters Insurance
 - Misc Items
 
-I’d *really* love an air purifier and piano but we have bigger priorities listed above.
+I’d *really* love an [air purifier](https://cowaymega.com/products/coway-mighty-ap-1512hh) and piano but we have bigger priorities listed above.
 
 Here’s a quick rundown of the products I’m looking at:
 - **BED**: [Shikifuton with Cover](https://jlifeinternational.com/collections/shikifutons/products/j-life-shikifuton-with-sakura-navy-removable-cover?variant=7088002695219)
