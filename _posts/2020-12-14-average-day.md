@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Average Day in 20XX'
+title: 'Average Day'
 description: "What my average day looks like across the years."
 date: December 14, 2020
 tags: annual
