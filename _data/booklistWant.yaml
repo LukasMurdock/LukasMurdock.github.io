@@ -1,5 +1,42 @@
 ---
 isbns:
+- isbn: 9780192829825
+  dateWanted: February 15, 2021
+  title: Walden
+  subtitle: Or, Life in the Woods
+  author:
+  - Henry David Thoreau
+  publishedDate: '1854'
+  pageCount: 375
+  categories:
+  - Literary Collections
+  image: "/images/books/walden.jpeg"
+  notFound: false
+- isbn: 9780520081147
+  dateWanted: February 15, 2021
+  title: Civilization and Capitalism, 15th-18th Century, Vol. I
+  subtitle: The Structure of Everyday Life
+  author:
+  - Fernand Braudel
+  publishedDate: '1982'
+  pageCount: 3
+  categories:
+  - Business & Economics
+  image: "/images/books/civilization-and-capitalism-15th-18th-century-vol-i.jpeg"
+  notFound: false
+- isbn: 9781439170199
+  dateWanted: February 15, 2021
+  title: The Lessons of History
+  subtitle:
+  author:
+  - Will Durant
+  - Ariel Durant
+  publishedDate: '2012-08-21'
+  pageCount: 128
+  categories:
+  - History
+  image: "/images/books/the-lessons-of-history.jpeg"
+  notFound: false
 - isbn: 9781984878106
   dateWanted: February 01, 2021
   title: Think Again

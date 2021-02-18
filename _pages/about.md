@@ -114,6 +114,7 @@ In no particular order
 - [The Interval](https://theinterval.org/)
 - [Ise Grand Shrine](https://en.wikipedia.org/wiki/Ise_Grand_Shrine) in 2033!
 - Cambridge University Library
+- Walden Pond
 
 ### Websites
 * [Gmail](mailto:lukas.murdock@gmail.com) since 2010
@@ -177,6 +178,9 @@ In no particular order
 - Neuroticism: **medium-low**
 
 ### Contact
+
+I’m a shy guy with a fear of annoying people whenever I contact them. I’m working to get over that. Inspired by [Patrick Mckenzie](https://www.kalzumeus.com/standing-invitation/), this is a standing invitation: if you want to talk design, development, or marketing, I want to talk to you.
+
 - [Email](mailto:lukas@lukasmurdock.com): lukas@lukasmurdock.com
 - [Twitter](https://twitter.com/MurdockLukas): MurdockLukas
 - [LinkedIn](https://www.linkedin.com/in/lukas-murdock/): lukas-murdock
@@ -232,3 +236,28 @@ Currently hosting on Github Pages as that’s what I started on. All my other pr
 Github Pages doesn’t support custom _plugins but my build scripts don’t need to run on *every* build, and I typically preview by building locally anyways so it’s currently not an issue.
 
 With this stack my entire website is currently free, aside from paying for the domain name and email.
+
+## Misc
+
+### Music on YouTube
+
+- [ChilledCow — lofi hip hop radio - beats to relax/study to](https://youtu.be/5qap5aO4i9A)
+- [2 Hours Of Squid To Relax/Study/Work To \| Lofi Hip Hop \| Monterey Bay Aquarium Krill Waves Radio](https://youtu.be/J2UyOTS3UCE)
+- [Hiroshi Yoshimura - Green (Full Album Stream)](https://youtu.be/Jx7CyMZVhHY) & [The upload that brought it back](https://youtu.be/D7aYjRl_6Zw)
+
+### Google Fonts
+My favorite fonts on Google Fonts.
+
+
+#### Serif
+- [Eczar](https://fonts.google.com/specimen/Eczar)
+- [Newsreader](https://fonts.google.com/specimen/Newsreader)
+- Libre Baskerville
+
+####  Sans-Serif
+- [Roboto](https://fonts.google.com/specimen/Roboto)
+- Inter
+- IBM Plex Sans
+
+
+#### Slab Serif

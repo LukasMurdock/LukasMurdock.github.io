@@ -22,6 +22,8 @@
 # Email
 # The Great Blogs
 # The Great Forums
+# Academia
+
 
 fulldata:
   #Guides
@@ -92,6 +94,11 @@ fulldata:
         Link: "https://www.ycombinator.com/library"
         Comment: "YC's library of startup advice: essays, podcasts, and videos created over the past 15 years."
         Date: August 11, 2020
+        
+      - Title: "How Do Training"
+        Link: "https://howdo.com/training/"
+        Comment: "Learn how. Then Do."
+        Date: February 17, 2021
 
       - Title: Egghead.io
         Link: "https://egghead.io/"
@@ -359,7 +366,7 @@ fulldata:
         Date: July 2, 2020
 
       - Title: This vs that
-        Link: https://regexone.com/
+        Link: https://thisthat.dev/
         Comment: "What is the difference between this and that in front-end development?"
         Date: August 11, 2020
 
@@ -523,7 +530,7 @@ fulldata:
         Comment: "Learn the entire JavaScript, CSS and HTML development practice"
         Date: January 14, 2021
 
-      - Title: Guide To Profitable Freelance Consulting"
+      - Title: "Guide To Profitable Freelance Consulting"
         Link: "https://www.consulting.com/independent-consultant"
         Comment: "Learn everything you need to become a successful independent consultant."
         Date: January 20, 2021
@@ -532,6 +539,16 @@ fulldata:
         Link: "https://r4ds.had.co.nz/introduction.html"
         Comment: "How to do data science with R."
         Date: January 26, 2021
+
+      - Title: "Bayesian Data Analysis"
+        Link: "http://www.stat.columbia.edu/~gelman/book/"
+        Comment: "Hopefully I can get around to this someday."
+        Date: February 17, 2021
+
+      - Title: "Statistical Rethinking"
+        Link: "https://xcelab.net/rm/statistical-rethinking/"
+        Comment: "A Bayesian Course with Examples in R and Stan."
+        Date: February 17, 2021
 
       - Title: "Complexity Explained"
         Link: "https://complexityexplained.github.io/"
@@ -1072,6 +1089,16 @@ fulldata:
         Comment: "In-depth tactics and strategies for beginner DIY lawyers, who want to keep the work in-house, and seasoned SEO experts looking to broaden their skillset."
         Date: February 10, 2021
 
+      - Title: "How To Plan and Create SEO Topic Clusters"
+        Link: "https://alfredlua.com/seo-topic-clusters/"
+        Comment: ""
+        Date: February 17, 2021
+
+      - Title: "How to create a B2B content machine"
+        Link: "https://funkymarketing.net/how-to-create-a-b2b-content-machine/"
+        Comment: "Funky Marketing’s way to manage content, distribute it, repurpose it, and optimize."
+        Date: February 17, 2021
+
   # Words
   - Type: Words
     List:
@@ -1140,6 +1167,11 @@ fulldata:
         Link: "https://www.squibler.io/dangerous-writing-prompt-app"
         Comment: "Don’t stop writing, or all progress will be lost."
         Date: February 4, 2021
+
+      - Title: "Time Traveler by Merriam-Webster"
+        Link: "https://www.merriam-webster.com/time-traveler/2020"
+        Comment: "Search Words by First Known Use Date."
+        Date: Oct 21, 2020
 
 # SEO
   - Type: SEO
@@ -1492,10 +1524,10 @@ fulldata:
         Comment: "Eliminate writing errors and find the perfect words to express yourself."
         Date: Apr 22, 2020
 
-      - Title: The Great Suspender
-        Link: https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg?hl=en
-        Comment: "Make your computer run smoothly by suspending the tabs you aren't using."
-        Date: Apr 22, 2020
+      # - Title: The Great Suspender
+      #   Link: https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg?hl=en
+      #   Comment: "Make your computer run smoothly by suspending the tabs you aren't using."
+      #   Date: Apr 22, 2020
 
       - Title: CSS Peeper
         Link: https://chrome.google.com/webstore/detail/css-peeper/mbnbehikldjhnfehhnaidhjhoofhpehk?hl=en
@@ -1749,11 +1781,6 @@ fulldata:
         Comment: "A once–weekly roundup of the best front-end news, articles and tutorials."
         Date: July 10, 2020
 
-      - Title: SSRN
-        Link: https://www.ssrn.com
-        Comment: "Tomorrow´s Research Today."
-        Date: Apr 22, 2020
-
       - Title: Product Hunt
         Link: https://www.producthunt.com
         Comment: "A curation of the best new products, every day."
@@ -1873,6 +1900,11 @@ fulldata:
         Comment: "List of all kinds of interesting topics: Laws, Principles, Mental Models, Cognitive Biases."
         Date: August 11, 2020
 
+      - Title: "Cheat Sheet of Cognitive Biases, Heuristics and Fallacies"
+        Link: "https://hirund.in/blog/cognitive-biases-heuristics-fallacies"
+        Comment: "By Hirundin."
+        Date: February 17, 2021
+
       - Title: Tools for better thinking
         Link: "https://untools.co/"
         Comment: "Collection of thinking tools and frameworks to help you solve problems, make decisions and understand systems."
@@ -1882,6 +1914,11 @@ fulldata:
         Link: "https://pudding.cool/2020/05/travel-local/"
         Comment: "A concise, travel-like-a-local guide to 74,762 attractions, according to 9,526,193 reviews."
         Date: June 23, 2020
+
+      - Title: "Beej's Guide to Network Programming"
+        Link: "https://beej.us/guide/bgnet/html/"
+        Comment: "Using Internet Sockets."
+        Date: February 17, 2021
 
       - Title: Makerpad
         Link: https://www.makerpad.co/
@@ -1897,11 +1934,6 @@ fulldata:
         Link: https://geekhack.org/index.php
         Comment: "Keyboard enthusiasts forum."
         Date: Sep 29, 2020
-
-      - Title: PubMed
-        Link: https://pubmed.ncbi.nlm.nih.gov/
-        Comment: "Over 30 million citations for biomedical literature from MEDLINE, life science journals, and online books."
-        Date: August 24, 2020
 
       - Title: MoneyMade
         Link: https://moneymade.io/
@@ -2059,16 +2091,6 @@ fulldata:
         Comment: "Access to tools, templates, and guides from top startup minds."
         Date: Apr 22, 2020
 
-      - Title: "Inciteful"
-        Link: https://inciteful.xyz/
-        Comment: "Using Citations to Explore Academic Literature."
-        Date: December, 30, 2020
-
-      - Title: Semantic Scholar
-        Link: https://www.semanticscholar.org/
-        Comment: "Find peer-reviewed research from the world's most trusted sources."
-        Date: Apr 22, 2020
-
       - Title: Smithsonian Open Access
         Link: https://www.si.edu/openaccess
         Comment: "Download, share, and reuse millions of the Smithsonian’s images."
@@ -2139,6 +2161,11 @@ fulldata:
         Comment: "Growing directory of planning and strategy links."
         Date: July 28, 2020
 
+      - Title: "Marketing Patterns"
+        Link: "https://terrygodier.com/patterns/"
+        Comment: "By Terry Godier."
+        Date: February 17, 2021
+
       - Title: Really Good Texts
         Link: "https://reallygoodtexts.com/"
         Comment: "SMS marketing examples from brands who are doing SMS marketing the right way."
@@ -2183,6 +2210,11 @@ fulldata:
         Link: https://www.arun.is/dieter-rams-wallpapers/
         Comment: "A selection of free beautiful mobile wallpapers featuring the work of legendary designer Dieter Rams."
         Date: June 23, 2020
+
+      - Title: "Das Programm"
+        Link: "https://dasprogramm.co.uk/"
+        Comment: "Das Programm researches Braun Design 1955-1995 (the period of Dieter Rams’ directorship)."
+        Date: 2021-02-17
 
       - Title: Fuse.blog
         Link: "https://fuse.blog/"
@@ -2233,11 +2265,6 @@ fulldata:
         Link: "https://implicit.harvard.edu/implicit/"
         Comment: "Find out your implicit associations."
         Date: Oct 12, 2020
-
-      - Title: "Time Traveler by Merriam-Webster"
-        Link: "https://www.merriam-webster.com/time-traveler/2020"
-        Comment: "Search Words by First Known Use Date."
-        Date: Oct 21, 2020
 
       - Title: "Japanese Woodblock Print Search"
         Link: "https://ukiyo-e.org/"
@@ -2319,7 +2346,7 @@ fulldata:
         Comment: "A website where you can find out what to do in your free time. It generates activities for you."
         Date: January 14, 2021
 
-      - Title: "Grapevide"
+      - Title: "Grapevine"
         Link: "https://grapevine.team/"
         Comment: "Grapevine allows business teams to get asynchronous video updates from remote team members each morning."
         Date: January 14, 2021
@@ -2353,6 +2380,16 @@ fulldata:
         Link: "http://www.ritsumei.ac.jp/~akitaoka/index-e.html"
         Comment: "From Akiyoshi KITAOKA, Professor, Psychology, Ritsumeikan University, Osaka, Japan."
         Date: January 29, 2021
+
+      - Title: Sharpen Design
+        Link: https://sharpen.design/
+        Comment: "Millions of practice design prompts to challenge you to think outside the box."
+        Date: Apr 22, 2020
+
+      - Title: Prompt Up Your Life
+        Link: "https://promptupyour.life/"
+        Comment: "An inspirational prompt for an illustration or a UI component."
+        Date: February 17, 2021
 
 
 
@@ -2414,11 +2451,6 @@ fulldata:
         Link: "https://www.easybloggers.io/"
         Comment: "Get a cost estimation for your YouTube influencer marketing campaign for FREE."
         Date: July 19, 2020
-
-      - Title: Sharpen Design
-        Link: https://sharpen.design/
-        Comment: "Millions of practice design prompts to challenge you to think outside the box."
-        Date: Apr 22, 2020
 
       - Title: Photopea
         Link: https://www.photopea.com/
@@ -2943,6 +2975,11 @@ fulldata:
         Comment: "A product designer, podcaster, and writer, living in San Francisco."
         Date: February 4, 2021
 
+      - Title: "Chris Crawford"
+        Link: "http://www.erasmatazz.com/library/index.html"
+        Comment: "A citizen of the world, known to all, and to all a stranger."
+        Date: February 17, 2021
+
 
 
   #The Great Blogs
@@ -3188,7 +3225,7 @@ fulldata:
         Date: October 21, 2020
 
       - Title: "d3 force"
-
+        Link: "https://wattenberger.com/blog/d3-force"
         Comment: "Let's learn how to move particles with forces using d3-force."
         Date: December 2, 2020
 
@@ -3216,6 +3253,21 @@ fulldata:
         Link: "https://threejs-journey.xyz/"
         Comment: "Learn WebGL with Three.js"
         Date: February 10, 2021
+
+      - Title: "Scarab of RA"
+        Link: "https://lightningmanic.github.io/"
+        Comment: ""
+        Date: February 17, 2021
+
+      - Title: "The world’s worst website"
+        Link: "https://sites.google.com/site/unitedtakashumicorp/home"
+        Comment: "https://www.reddit.com/r/web_design/comments/jtc6mm/for_almost_3_years_i_have_been_working_on/"
+        Date: February 17, 2021
+
+      - Title: "The School of Athens"
+        Link: "https://s4n0i.github.io/schoolofathens/"
+        Comment: "Philosophers in an influence graph based on Wikipedia data."
+        Date: February 17, 2021
 
         
 
@@ -3304,6 +3356,12 @@ fulldata:
         Comment: "Must-See Design & Art Documentaries."
         Date: Apr 22, 2020
 
+      - Title: "Arte"
+        Link: "https://www.arte.tv/en/"
+        Comment: "the European culture TV channel, free and on demand."
+        Media: video
+        Date: February 17, 2021
+
   #Books
   - Type: Books
     List:
@@ -3371,3 +3429,43 @@ fulldata:
         Link: "https://www.google.com/search?q=speedtest"
         Comment: "Speedtest by Google."
         Date: May 31, 2020
+
+  #Speedtests
+  - Type: Academia
+    List:
+
+      - Title: SSRN
+        Link: https://www.ssrn.com
+        Comment: "Tomorrow´s Research Today."
+        Date: Apr 22, 2020
+
+      - Title: Google Scholar
+        Link: "https://scholar.google.com/"
+        Comment: "A simple way to broadly search for scholarly literature."
+        Date: February 17, 2021
+
+      - Title: Semantic Scholar
+        Link: https://www.semanticscholar.org/
+        Comment: "Find peer-reviewed research from the world's most trusted sources."
+        Date: Apr 22, 2020
+
+      - Title: "Inciteful"
+        Link: https://inciteful.xyz/
+        Comment: "Using Citations to Explore Academic Literature."
+        Date: December, 30, 2020
+
+      - Title: "arxiv.org"
+        Link: "https://arxiv.org/"
+        Comment: "Scholarly articles in the fields of physics, mathematics, computer science, quantitative biology, quantitative finance, statistics, electrical engineering and systems science, and economics."
+        Date: February 17, 2021
+
+      - Title: PubMed
+        Link: "https://pubmed.ncbi.nlm.nih.gov/"
+        Comment: "Over 30 million citations for biomedical literature from MEDLINE, life science journals, and online books."
+        Date: August 24, 2020
+
+      - Title: "Sci-Hub"
+        Link: "https://en.wikipedia.org/wiki/Sci-Hub"
+        Comment: "Removing barriers in the way of science."
+        Media: video
+        Date: February 17, 2021

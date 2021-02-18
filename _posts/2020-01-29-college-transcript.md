@@ -69,7 +69,7 @@ MTH 151 — 5 Credit Hours
 <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ Calculus Refresher](http://pages.stat.wisc.edu/~ifischer/calculus.pdf){:target="_blank"}{:rel="noopener"}  
 <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ Essense of Calculus](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr){:target="_blank"}{:rel="noopener"}  
 <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ Derivative Rules](https://www.google.com/search?biw=1680&bih=840&tbm=isch&sxsrf=ACYBGNRtYk73x-d34apKpsVKq_KL8dIIAw%3A1580204858271&sa=1&ei=OgMwXo6UENCEsAWluqy4DQ&q=differentiation+rules&oq=differe+rules&gs_l=img.3.0.0i7i30l10.5654.6289..6890...0.0..0.67.618.10......0....1..gws-wiz-img.......35i39j0.C-1YbasupQU#imgrc=KYS4xEanf9upPM:){:target="_blank"}{:rel="noopener"}
-
+<span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ Class Notes](https://tutorial.math.lamar.edu/){:target="_blank"}{:rel="noopener"}  
 
 
 
