@@ -163,6 +163,9 @@ A few ideas for my future self:
 - Have multiple hosts invite their friends to one party. So for every guest, two thirds of the other guests would be people they didn’t know but would probably like.
 - Have dinners for a group of friends every thursday night—plus you get to learn how to cook for groups.
 - Just call/text “[NAME]” whenever you feel like it.
+- [Face fear together](https://zenhabits.net/cold-swimming/)
+
+
 
 What do you do after you show up?
 
