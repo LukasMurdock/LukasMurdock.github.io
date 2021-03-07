@@ -139,6 +139,21 @@ In no particular order
 * VS Code
     - [Night Owl theme](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl)
     - [Dank Mono font](https://gumroad.com/l/dank-mono)
+    - Code Runner
+    - Code Spell Checker
+    - Copy filename
+    - DupChecker
+    - erb
+    - Insert Date String
+    - Parker CSS Analysis
+    - Prettier
+    - Python
+    - Quick and Simple Text Selection
+    - Ruby
+    - Settings Sync
+    - Tailwind CSS IntelliSense
+    - VSCode Ruby
+    - vsccode-icons
 * Signal
 * Spark
 * Affinity Photo/Designer/Publisher
