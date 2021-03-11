@@ -2,8 +2,11 @@
 layout: post
 title: 'zero through nineteen'
 description: "As of writing, I have less than two weeks until I turn 20."
+tags: annual
 date: November 26, 2020
 ---
+
+Edit 03/07/2021: I started this as a reflection of years as I neared my last of being a teenager. I like this and hopefully will keep it updated as a loose timeline of sorts.
 
 Feels weird.
 
@@ -123,7 +126,7 @@ Had second brothers weekend.
 
 Joined Traffic Think Tank, hired by Adam at Loganix.
 
-Moved to Florida.
+Moved to Florida with parents.
 
 Flew for the first time on my own.
 
@@ -145,3 +148,9 @@ I find this notable. What a time to be alive.
 - [Lukasmurdock.com](https://www.lukasmurdock.com/) since 2018
 - [Less Wrong](https://www.lesswrong.com/) since 2020
 - [Long Now](https://longnow.org/) since 2020 #11261
+
+# 2021
+
+Moved into new Florida house with parents.
+
+Joined Virra Marketing through Andre.
