@@ -560,6 +560,11 @@ fulldata:
         Comment: "Stories of reaching Staff-plus engineering roles."
         Date: February 10, 2021
 
+      - Title: "Awesome CTO"
+        Link: "https://github.com/kuchin/awesome-cto"
+        Comment: "A curated and opinionated list of resources for Chief Technology Officers and VP R&D, with the emphasis on startups and hyper-growth companies."
+        Date: March 23, 2021
+
 
   # Design
   - Type: Design
@@ -659,6 +664,11 @@ fulldata:
         Comment: "Color scale generator by Hayk An"
         Date: June 23, 2020
 
+      - Title: "Tailwind Shade Generator"
+        Link: "https://www.tailwindshades.com/"
+        Comment: "A tool to help generate color shades for Tailwind CSS."
+        Date: March 23, 2021
+
       - Title: Colors and Fonts
         Link: https://www.colorsandfonts.com/
         Comment: "Curated library of colors, fonts, and resources for Web Developers & Digital Designers."
@@ -668,6 +678,11 @@ fulldata:
         Link: https://blog.datawrapper.de/beautifulcolors/
         Comment: "Common color mistakes and how to avoid them."
         Date: Sep 16, 2020
+
+      - Title: "Which ccolor scale to use when visualizing data"
+        Link: "https://news.ycombinator.com/item?id=26489887"
+        Comment: "A hacker news thread."
+        Date: March 23, 2021
 
       - Title: Design System Checklist
         Link: https://designsystemchecklist.com/
@@ -779,6 +794,11 @@ fulldata:
         Comment: "A landing template that shows you how to write unignorable web copy."
         Date: August 11, 2020
 
+      - Title: "SaaS Landing Page Cheatsheet"
+        Link: "https://www.cortes.design/saas-landing-page-cheatsheet"
+        Comment: ""
+        Date: March 23, 2021
+
       - Title: SaaS Landing Pages
         Link: https://saaslandingpage.com/
         Comment: "Discover the best landing page examples created by top-class SaaS companies, and get ideas and inspiration for your next design project."
@@ -793,6 +813,11 @@ fulldata:
         Link: "https://adpages.xyz/"
         Comment: "Daily curated showcase of winning ad pages."
         Date: July 28, 2020
+
+      - Title: "Buttery Smooth Gradient Generator"
+        Link: "https://learnui.design/tools/gradient-generator.html"
+        Comment: "Gorgeous, buttery-smooth color gradients for UI design."
+        Date: 2021-03-23
 
       - Title: Web Gradients
         Link: https://webgradients.com
@@ -833,6 +858,12 @@ fulldata:
         Link: "https://simpleicons.org/"
         Comment: "Free SVG icons for popular brands."
         Date: Dec 19, 2020
+
+      - Title: "Experience Japan Icons"
+        Link: "https://experience-japan.info/en/"
+        Comment: "A novel set of visual symbols developed for people of all cultures and ages to enhance their tourism experience in Japan."
+        Media: video
+        Date: March 23, 2021
 
       - Title: Pixelmob
         Link: "https://pixelmob.co/"
@@ -969,6 +1000,26 @@ fulldata:
         Comment: "A collection of human interface and software design guidelines to past and present software."
         Date: February 04, 2021
 
+      - Title: "Font of web"
+        Link: "https://fontofweb.com/"
+        Comment: "Type a Website and Identify the Fonts."
+        Date: March 23, 2021
+
+      - Title: "A history of type foundries"
+        Link: "https://bookriot.com/type-foundries"
+        Comment: "The authors of fonts."
+        Date: March 23, 2021
+
+      - Title: "conic.css"
+        Link: "https://conic.style/"
+        Comment: "nice, simple conic gradients"
+        Date: March 23, 2021
+
+      - Title: "Ant Design"
+        Link: "https://ant.design/"
+        Comment: "A design system for enterprise-level products."
+        Date: March 23, 2021
+
 
   # Guides to SEO
   - Type: Guides to SEO
@@ -1098,6 +1149,11 @@ fulldata:
         Link: "https://funkymarketing.net/how-to-create-a-b2b-content-machine/"
         Comment: "Funky Marketing’s way to manage content, distribute it, repurpose it, and optimize."
         Date: February 17, 2021
+
+      - Title: "SEO Audits: A Gaps Playbook"
+        Link: "https://gaps.com/six-figure-audits/"
+        Comment: ""
+        Date: 2021-03-23
 
   # Words
   - Type: Words
@@ -2391,6 +2447,27 @@ fulldata:
         Comment: "An inspirational prompt for an illustration or a UI component."
         Date: February 17, 2021
 
+      - Title: "UI Flow"
+        Link: "https://www.uiflow.com/"
+        Comment: "Uiflow enables enterprise teams to create software together at the speed of thought. Stop handing off and start building together."
+        Date: March 23, 2021
+
+      - Title: "Outline of academic disciplines"
+        Link: "https://en.wikipedia.org/wiki/Outline_of_academic_disciplines"
+        Comment: "From Wikipedia."
+        Date: March 23, 2021
+
+      - Title: "Clients from hell"
+        Link: "https://clientsfromhell.net/"
+        Comment: "Horror stories from freelancers"
+        Date: March 23, 2021
+
+      - Title: "Jekyll – Just the Docs"
+        Link: "https://github.com/pmarsceill/just-the-docs"
+        Comment: "A modern, high customizable, responsive Jekyll theme for documention with built-in search."
+        Media: video
+        Date: March 23, 2021
+
 
 
   #Software
@@ -2980,6 +3057,11 @@ fulldata:
         Comment: "A citizen of the world, known to all, and to all a stranger."
         Date: February 17, 2021
 
+      - Title: "Noe Alonzo"
+        Link: "https://noealz.com/work"
+        Comment: "Photographer"
+        Date: March 23, 2021
+
 
 
   #The Great Blogs
@@ -3268,6 +3350,11 @@ fulldata:
         Link: "https://s4n0i.github.io/schoolofathens/"
         Comment: "Philosophers in an influence graph based on Wikipedia data."
         Date: February 17, 2021
+
+      - Title: "Listen to Wikipedia"
+        Link: "http://listen.hatnote.com/"
+        Comment: "Listen to recent changes on Wikipedia."
+        Date: 2021-03-23
 
         
 

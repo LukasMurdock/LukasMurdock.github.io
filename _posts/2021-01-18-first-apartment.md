@@ -117,7 +117,7 @@ Taking inspiration from [Minimal Wellness Kitchen](http://minimalwellness.com/ki
 Here’s the thing, I’m not going to buy anything until I realize I want to use it.
 
 So my current essentials are:
-- Electric kettle
+- [Electric kettle](https://www.amazon.com/BLACK-DECKER-KE1500B-Electric-Cordless/dp/B01MR19O54/)
 - Pan
 - Pot
 - Can opener
