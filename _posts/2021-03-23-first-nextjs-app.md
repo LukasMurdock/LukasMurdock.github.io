@@ -68,5 +68,6 @@ A React app is a “single-page application,” meaning that even though the URL
 
 A Next app is a framework based on React to build Node.js server-side applications. This brings the advantages of React in building user interfaces alongside page to page navigation. It also enables server-side rendering so page content can be rendered on a server instead of the users browser. Hence “server-side”.
 
+In looking back on building this application I can *feel* the shift from a [front-of-the-front-end developer](https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/) to a front end developer.
 
 
