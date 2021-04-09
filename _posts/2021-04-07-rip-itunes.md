@@ -12,7 +12,7 @@ I’ve been out of the iOS dev scene for a few years now. And the death of iTune
 
 I am happy to get my sweet, sweet iPhone 5s body back (oh, how I’ve missed you). I’m not happy to lose TouchID (hopefully, it’ll make a comeback). I’m not happy to have to re-auth tons of apps. I’m not happy that the control center is gone from the bottom. I’m not happy that the battery percentage is no longer capable of being shown by default. And I’m not happy to see that Apple has removed the ability to backup apps…
 
-For posterity: as of April 7, 2021 I had 405 apps installed on my iPhone 8.
+For posterity: as of April 7, 2021 I had 405 apps installed on my iPhone 8. 18 of have ended up being removed from the App Store for some reason or another over the years.
 
 
 
@@ -37,6 +37,8 @@ Maybe [updating apps from iTunes 12.6.5 doesn’t work](https://discussions.appl
 [iTunes 12.6.5.3 may possibly still work on Windows 7](https://discussions.apple.com/thread/251389293).
 
 [Download links for old versions of iTunes](https://www.lifewire.com/download-every-version-itunes-2000446#mntl-sc-block_1-0-19).
+
+Edit: None of this worked for me.
 
 ---
 
