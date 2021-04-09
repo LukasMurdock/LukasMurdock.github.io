@@ -268,6 +268,9 @@ Here’s a few more timelined articles on the events.
 
 At some point Twitter reinstated the Twitter thread—I imagine with great chagrin to the CEO of Proctorio. He surely meet [Streisand](https://en.wikipedia.org/wiki/Streisand_effect).
 
+- **March 25, 2021** The Miami Student publishes *[Students and faculty raise concerns over automated test proctoring](https://www.miamistudent.net/article/2021/03/proctorio-is-problematic)*
+
+
 ## We Need to Push Back on the Why, Not the How
 
 The problem isn’t forcing students to install spyware on their devices. The problem is seeking to *enforce obedience*.

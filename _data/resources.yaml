@@ -460,6 +460,11 @@ fulldata:
         Comment: "Heuristics for effective management"
         Date: May 06, 2020
 
+      - Title: Resources for New Managers
+        Link: https://resources-for-new-managers.com/
+        Comment: "Tools, worksheets, articles, podcasts, videos, and more to help new managers support their teams."
+        Date: April 08, 2021
+
       - Title: 80000 Hours
         Link: https://80000hours.org/
         Comment: "You have 80,000 hours in your career. How can you best use them to help solve the world’s most pressing problems?"
@@ -565,6 +570,11 @@ fulldata:
         Comment: "A curated and opinionated list of resources for Chief Technology Officers and VP R&D, with the emphasis on startups and hyper-growth companies."
         Date: March 23, 2021
 
+      - Title: "Staff archetypes"
+        Link: "https://staffeng.com/guides/staff-archetypes"
+        Comment: "The Tech Lead, The Architect, The Solver, The Right Hand."
+        Date: April 08, 2021
+
 
   # Design
   - Type: Design
@@ -613,6 +623,12 @@ fulldata:
         Link: "https://design.facebook.com/"
         Comment: "A hub for all things design, including articles, design tools and more."
         Date: Nov 23, 2020
+
+      - Title: "Component Gallery"
+        Link: "https://component.gallery/"
+        Comment: "A collection of components from the best Design Systems."
+        Media: video
+        Date: "April 8, 2021"
 
       - Title: "Design Systems Buy-In Deck"
         Link: "https://superfriendlydesign.systems/tools/design-systems-buy-in-deck/"
@@ -2427,6 +2443,11 @@ fulldata:
         Comment: "Over four million of the Museum's objects. From Indigenous clothing and Mexican skulls to necklaces made of dolphin teeth, this is one of the most extensive online museum databases in the world."
         Date: January 26, 2021
 
+      - Title: "Louvre site des collections"
+        Link: "https://collections.louvre.fr/en/"
+        Comment: "Over 480,000 museum works in the Musée du Louvre and Musée National Eugène-Delacroix."
+        Date: April 08, 2021
+
       - Title: "Flash Player Emulators"
         Link: "https://nosamu.medium.com/flash-player-emulators-how-to-play-swfs-in-2021-and-beyond-d56c3899b7e6"
         Comment: "How to Play SWF Files in 2021 and Beyond"
@@ -2465,8 +2486,17 @@ fulldata:
       - Title: "Jekyll – Just the Docs"
         Link: "https://github.com/pmarsceill/just-the-docs"
         Comment: "A modern, high customizable, responsive Jekyll theme for documention with built-in search."
-        Media: video
         Date: March 23, 2021
+
+      - Title: "Tracking the White House YouTube Channel"
+        Link: "https://81m.org/"
+        Comment: "YouTube might be manipulating the like-to-dislike ratio on videos. We count all the dislikes that YouTube deletes, to give you the real stats."
+        Date: April 08, 2021
+
+      - Title: "The Archive of Healing"
+        Link: "https://archiveofhealing.com/"
+        Comment: "The largest digital archive of healing methods."
+        Date: April 08, 2021
 
 
 
@@ -3354,6 +3384,16 @@ fulldata:
       - Title: "Listen to Wikipedia"
         Link: "http://listen.hatnote.com/"
         Comment: "Listen to recent changes on Wikipedia."
+        Date: 2021-03-23
+
+      - Title: "Staggering Beauty"
+        Link: "http://www.staggeringbeauty.com/"
+        Comment: "A website to remember."
+        Date: 2021-03-23
+
+      - Title: "Take me to a useless website"
+        Link: "https://theuselessweb.com/"
+        Comment: "The Useless Web Button... take me somewhere... useless."
         Date: 2021-03-23
 
         

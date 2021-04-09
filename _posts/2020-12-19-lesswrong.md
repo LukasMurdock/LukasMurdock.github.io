@@ -19,6 +19,8 @@ In February 2009, after the topics drifted more widely, Yudkowsky’s took his O
 
 LessWrong started with a series of daily blog posts written by Eliezer, originally called *The Sequences*. The Sequences were compiled into an edited volume, Rationality: A-Z. These writings attracted a large community of readers and writers interested in the art of human rationality.
 
+See: [Rationalism before the Sequences](https://www.lesswrong.com/posts/qc7P2NwfxQMC3hdgm/rationalism-before-the-sequences)
+
 ## Diaspora
 
 Starting in 2012, many core members of the community stopped posting on Less Wrong due to the physical community’s growth in the Bay Area and increased demands and opportunities from other projects. Yudkowsky received enough support to focus on AI research instead of community-building. Prominent writers on Less Wrong left to their own blogs to develop their voice without asking if it was within the bounds of Less Wrong—a move which collectively formed the ‘rationalist movement.’

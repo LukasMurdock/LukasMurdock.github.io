@@ -210,9 +210,18 @@ I have a [Chrome Apps section on my knowledge page](https://lukasmurdock.com/kno
 
 "Speed up, slow down, advance and rewind HTML5 audio/video with shortcuts."
 
+## JSON Viewer
+<img loading="lazy" style="max-width:60px" src="https://lh3.googleusercontent.com/_t_LA1P8Vot6jUw1aH2OCtE9KLcf28Y6s9FSKb-wddK92dOGhhpvPbjKFa3p7wWrvHwtnane0pPZl9C3sipn0CKa=w128-h128-e365-rj-sc0x00ffffff" alt="JSON Viewer">
+
+[View JSON Viewer in Chrome Web Store](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=en-US)
+
+“It is a Chrome extension for printing JSON and JSONP.”
+
 ## The Great Suspender
 <img loading="lazy" style="max-width:60px" src="https://lh3.googleusercontent.com/oIL32987xenUeQSnESup1X925FKs5-NsLPX2yK2xFevhYdiJaQiSndTNyJXreFoWUAcdfEh-Tps=w128-h128-e365" alt="The Great Suspender">
 
 [View The Great Suspender in Chrome Web Store](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg?hl=en)
 
 "A lightweight extension to reduce chrome's memory footprint."
+
+(Edit: The Great Suspender was purchased, became spyware or something and was removed from the Chrome web store)
