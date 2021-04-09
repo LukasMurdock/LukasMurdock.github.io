@@ -38,8 +38,6 @@ Maybe [updating apps from iTunes 12.6.5 doesn’t work](https://discussions.appl
 
 [Download links for old versions of iTunes](https://www.lifewire.com/download-every-version-itunes-2000446#mntl-sc-block_1-0-19).
 
-Edit: None of this worked for me.
-
 ---
 
 The last survivor seems to be Apple Configurator 2. A free app from Apple to [configure one or dozens of iPhone and iPad devices connected to a Mac through USB](https://support.apple.com/guide/deployment-reference-ios/apple-configurator-2-ior5761b421e/web).
