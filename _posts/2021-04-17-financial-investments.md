@@ -4,7 +4,7 @@ title: 'Financial Investments'
 description: "Unfolding my story one bit at a time. Not financial advice."
 date: April 17, 2021
 tags: annual
-last_modified_at: 	2021-04-08T19:43:08+0000
+last_modified_at: 	2021-04-17T19:43:08+0000
 ---
 
 I don’t write about my financial investments because I consider the story of my financials to be grand. There are plenty of more exciting stories. At most, I would say that my story isn’t one of poverty and that I am incredibly privileged with my start and opportunities.
