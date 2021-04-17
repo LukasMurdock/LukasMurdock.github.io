@@ -61,6 +61,9 @@ Various technologies I dove into before I started tracking when I learned them. 
 ### Technical Things I’ve learned in 2021
 - Docker
 - Tailwind
+- Next.js
+- Vercel
+- Firebase
 
 ### Technical Things I Learned in 2020
 - Content Marketing
