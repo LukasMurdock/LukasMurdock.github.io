@@ -94,6 +94,12 @@ Various technologies I dove into before I started tracking when I learned them. 
 - GSAP
 - Three.js
 
+### Things I want to learn
+- Data [science](https://r4ds.had.co.nz/introduction.html)/[analysis](https://xcelab.net/rm/statistical-rethinking/), R, [Bayesian](https://xcelab.net/rm/statistical-rethinking/), Python
+- Piano
+- Web scraping
+- Rails
+
 ### Companies I’ve Worked For
 
 I am a freelance writer, designer, developer, and marketer.
