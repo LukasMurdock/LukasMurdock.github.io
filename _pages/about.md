@@ -62,6 +62,8 @@ Various technologies I dove into before I started tracking when I learned them. 
 - Docker
 - Tailwind
 - Next.js
+- React
+- Node
 - Vercel
 - Firebase
 
@@ -85,9 +87,7 @@ Various technologies I dove into before I started tracking when I learned them. 
 - Ruby
 
 ### Technical Things I Don’t Know
-- React
 - Python
-- Node
 - Gatsby
 - GraphQL
 - SCSS / Sass
