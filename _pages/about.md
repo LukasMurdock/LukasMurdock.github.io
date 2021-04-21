@@ -183,7 +183,8 @@ In no particular order
     - 250GB SSD
     - 16GB RAM
 * <del>iPhone 5s</del>
-* iPhone 8
+* <del>iPhone 8</del> (switched April 2021)
+* iPhone 12 mini
 * Kindle Paperwhite 10th Gen (PQ94WIF)
 
 
@@ -191,6 +192,7 @@ In no particular order
 * Custom PC built in 2016
     - Dead, needs repairs
 * BenQ RL2455HM Monitor
+    * (alt) Lenovo ThinkVision T2254pC – mounted vertically
 * Philips Hue Go Light
 
 ### Mailing Lists
