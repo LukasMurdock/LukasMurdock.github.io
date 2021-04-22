@@ -61,7 +61,33 @@ h1 {
   min-height: 100vh;
   min-height: calc(var(--vh, 1vh) * 100);
   background-color: #f9f4ea;
+  /* background-color: rgb(247, 244, 223); */
   scroll-snap-align: start;
+}
+
+/* Safari 6.1-10.0 */
+@media screen and (min-color-index: 0) and(-webkit-min-device-pixel-ratio:0) {
+  @media {
+    .slide {
+      background-color: rgb(247, 244, 223);
+    }
+  }
+}
+
+/* Safari 10.1+ */
+@media not all and (min-resolution: 0.001dpcm) {
+  @media {
+    .slide {
+      background-color: rgb(247, 244, 223);
+    }
+  }
+}
+
+/* Safari 7.1+ (10.1 is the current version as of April 2017) */
+_::-webkit-full-page-media,
+_:future,
+:root .slide {
+  background-color: rgb(247, 244, 223);
 }
 
 .slide--chapter {
