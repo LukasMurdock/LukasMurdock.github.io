@@ -1,6 +1,13 @@
 const vh = window.innerHeight * 0.01;
 document.documentElement.style.setProperty('--vh', `${vh}px`);
 
+window.onresize = resize;
+
+function resize() {
+  const vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty('--vh', `${vh}px`);
+}
+
 // function isMobileDevice() {
 //   return (
 //     typeof window.orientation !== 'undefined' ||
