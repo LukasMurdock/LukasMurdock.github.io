@@ -270,6 +270,16 @@ At some point Twitter reinstated the Twitter thread—I imagine with great chagr
 
 - **March 25, 2021** The Miami Student publishes *[Students and faculty raise concerns over automated test proctoring](https://www.miamistudent.net/article/2021/03/proctorio-is-problematic)*
 
+- **April 21, 2021** [EFF Sues Proctorio on Behalf of Student](https://www.eff.org/press/releases/eff-sues-proctorio-behalf-student-it-falsely-accused-copyright-infringement-get)
+
+
+- https://news.ycombinator.com/item?id=25002730
+
+- https://news.ycombinator.com/item?id=26898651
+
+- https://torrentfreak.com/student-sues-proctorio-for-using-dmca-takedowns-to-remove-critical-tweets-210422/
+
+
 
 ## We Need to Push Back on the Why, Not the How
 
