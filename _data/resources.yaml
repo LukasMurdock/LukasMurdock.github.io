@@ -575,6 +575,11 @@ fulldata:
         Comment: "The Tech Lead, The Architect, The Solver, The Right Hand."
         Date: April 08, 2021
 
+      - Title: "Getting Real"
+        Link: "https://basecamp.com/gettingreal"
+        Comment: "Basecamp. The smarter, faster, easier way to build a successful web application."
+        Date: April 08, 2021
+
 
   # Design
   - Type: Design
@@ -814,6 +819,11 @@ fulldata:
         Link: "https://www.cortes.design/saas-landing-page-cheatsheet"
         Comment: ""
         Date: March 23, 2021
+
+      - Title: "Landing Page Checklist"
+        Link: "https://landingpage.fyi/landing-page-checklist.html"
+        Comment: "Build your best landing page with 100+ hand-picked tools; landing page builders, growth tools, and booster resources."
+        Date: April 23, 2021
 
       - Title: SaaS Landing Pages
         Link: https://saaslandingpage.com/
@@ -2498,6 +2508,16 @@ fulldata:
         Comment: "The largest digital archive of healing methods."
         Date: April 08, 2021
 
+      - Title: "Historic Aerials"
+        Link: "https://www.historicaerials.com/"
+        Comment: "The Largest Database of United States Historic Aerial Imagery."
+        Date: April 23, 2021
+
+      - Title: "68k.news"
+        Link: "http://68k.news/"
+        Comment: "Headlines from the Future."
+        Date: April 23, 2021
+
 
 
   #Software
@@ -3092,6 +3112,10 @@ fulldata:
         Comment: "Photographer"
         Date: March 23, 2021
 
+      - Title: "Jordan Morgan"
+        Link: "https://www.swiftjectivec.com/index.html"
+        Comment: "Here to help you with indie development and writing fine code on any Apple platform."
+        Date: April 23, 2021
 
 
   #The Great Blogs
@@ -3396,6 +3420,16 @@ fulldata:
         Comment: "The Useless Web Button... take me somewhere... useless."
         Date: 2021-03-23
 
+      - Title: "Map of Reddit"
+        Link: "https://anvaka.github.io/map-of-reddit/"
+        Comment: "Shows a map of reddit. Each dot is a subreddit. Two dots within the same cluster are usually close to each other if multiple users frequently leave comments on both subreddits."
+        Date: 2021-03-23
+
+      - Title: "uiwtf"
+        Link: "https://uiw.tf/"
+        Comment: "An experimental laboratory of user interface patterns and interactions that make you think "what the fuck?" in a thought-provoking way."
+        Date: 2021-03-23
+
         
 
 
@@ -3594,5 +3628,9 @@ fulldata:
       - Title: "Sci-Hub"
         Link: "https://en.wikipedia.org/wiki/Sci-Hub"
         Comment: "Removing barriers in the way of science."
-        Media: video
         Date: February 17, 2021
+
+      - Title: "PsyArXiv"
+        Link: "https://psyarxiv.com/"
+        Comment: "A free preprint service for the psychological sciences"
+        Date: April 23, 2021

@@ -21,6 +21,8 @@ See also:
 
 I recall seeing another simplified version of this split chart with a dog included but I can’t find seem to find it.
 
+Also see: [the tail end](https://waitbutwhy.com/2015/12/the-tail-end.html).
+
 Let me just run you by a timeline:
 - Teens spend a lot of time with friends, parents, siblings and extended family.
 - As we enter our 20s that time drops off quickly as we spend more time with partners and children.

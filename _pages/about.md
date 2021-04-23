@@ -276,6 +276,7 @@ With this stack my entire website is currently free, aside from paying for the d
 - [221B Baker Street](https://youtu.be/MJeNG1R7FzM)
 - [18th Century Library](https://youtu.be/irdN1XAby6I)
 - [r/RetroLibraryMusic](https://www.reddit.com/r/RetroLibraryMusic/)
+- [Lofi.cafe](https://lofi.cafe/)
 
 ### Google Fonts
 My favorite fonts on Google Fonts.

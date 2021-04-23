@@ -11,6 +11,227 @@ linkslist:
   - Date: April 2021
     Links:
 
+    - Title: "ooooops I guess we’re* full-stack developers now"
+      Link: "https://css-tricks.com/ooooops-i-guess-were-full-stack-developers-now/"
+      Comment: "Chris Coyier. *by “we’re” i mean front-end developers"
+      Date: 2021-04-23
+
+    - Title: "Types of Meetings That Should Always Be Async"
+      Link: "https://blog.doist.com/replace-meetings-twist/"
+      Comment: "Doist. Announcements, status updates, brainstorms, kickoffs, moving work forward, reviews, meetings not everyone can attend."
+      Date: 2021-04-23
+
+    - Title: "Slow-Reading is the New Deep Learning"
+      Link: "https://betterhumans.pub/slow-reading-is-the-new-deep-learning-452f179c0289"
+      Comment: "Speed-reading is for skimmers. Slow-reading is for scholars."
+      Date: 2021-04-23
+
+    - Title: "Languishing"
+      Link: "https://www.nytimes.com/2021/04/19/well/mind/covid-mental-health-languishing.html"
+      Comment: "The neglected middle child of mental health can dull your motivation and focus — and it may be the dominant emotion of 2021."
+      Date: 2021-04-23
+
+    - Title: "Software designers, not engineers An interview from alternative universe"
+      Link: "http://tomasp.net/blog/2021/software-designers/"
+      Comment: "When solving problems that are not inherently ill-defined, you often find better soluti­ons by treating them as such."
+      Date: 2021-04-23
+
+    - Title: "How does Micro.blog even work?"
+      Link: "https://www.manton.org/2021/04/19/how-does-microblog.html"
+      Comment: "Manton Reece."
+      Date: 2021-04-23
+
+    - Title: "The Self Educating Child"
+      Link: "https://www.mrmoneymustache.com/2021/04/18/the-self-educating-child/"
+      Comment: "MMM. We will learn from our mistakes and develop ourselves along the way, and make the most of it. Which is really a good plan for life itself."
+      Date: 2021-04-23
+
+    - Title: "Design is like riding a bike"
+      Link: "https://thomasjbevan.substack.com/p/on-the-beach"
+      Comment: "Design requires you to practice. Falling a few times is part of the practice."
+      Date: 2021-04-23
+
+    - Title: "APIs All the Way Down"
+      Link: "https://thomasjbevan.substack.com/p/on-the-beach"
+      Comment: "Packy McCormick. The Magic of API-First Business Models"
+      Date: 2021-04-23
+
+    - Title: "On Going To The Beach"
+      Link: "https://thomasjbevan.substack.com/p/on-the-beach"
+      Comment: "Thomas J Bevan. If you can’t lie on a blanket on the sand on a warm spring day and feel the sun on your skin and listen to the tide as it moves, if you can’t do that and smile a half smile and have absolutely no thoughts in your head whatsoever, then you have problems."
+      Date: 2021-04-23
+
+    - Title: "Signs of happy marriage that lasts"
+      Link: "https://www.fatherly.com/love-money/signs-of-happy-marriage-that-lasts/"
+      Comment: "What it takes for a marriage to stay happy over time. Friends — and have friends. Think like a team. Focus on the positive. Manage stress. Manage conflict. Enjoy spending time together. Share a world view."
+      Date: 2021-04-23
+
+    - Title: "Beware of tight feedback loops"
+      Link: "https://brianlui.dog/2020/05/10/beware-of-tight-feedback-loops/"
+      Comment: "After achieving proficiency in a field, tight feedback loops are useless."
+      Date: 2021-04-23
+
+    - Title: "long feedback loops"
+      Link: "https://ava.substack.com/p/long-feedback-loops"
+      Comment: "Mastery requires an ability to stick it out through long feedback loops."
+      Date: 2021-04-23
+
+    - Title: "Peter Drucker On Marketing"
+      Link: "https://www.forbes.com/2006/06/30/jack-trout-on-marketing-cx_jt_0703drucker.html?sh=4c4c4182555c"
+      Comment: "Because the purpose of business is to create a customer, the business enterprise has two--and only two--basic functions: marketing and innovation. Marketing and innovation produce results; all the rest are costs. Marketing is the distinguishing, unique function of the business."
+      Date: 2021-04-23
+
+    - Title: "Don’t hire top talent; hire for weaknesses."
+      Link: "https://benjiweber.co.uk/blog/2021/04/10/dont-hire-top-talent-hire-for-weaknesses/"
+      Comment: "Instead of starting from “how do we hire top talent?”, start from “what are our weaknesses?”"
+      Date: 2021-04-23
+
+    - Title: "Amazon 2020 Letter to Shareholders"
+      Link: "https://www.aboutamazon.com/news/company-news/2020-letter-to-shareholders"
+      Comment: "The world wants you to be typical–in a thousand ways, it pulls at you. Don't let it happen."
+      Date: 2021-04-23
+
+    - Title: "Everyone is rational"
+      Link: "https://seths.blog/2021/04/everyone-is-rational/"
+      Comment: "Or it could be that we all like to tell ourselves we’re doing the right thing, but ultimately, all we can do is make choices based on how we see the world."
+      Date: 2021-04-23
+
+    - Title: "We Were Made For These Times"
+      Link: "https://www.grahameb.com/pinkola_estes.htm"
+      Comment: "An excerpt from Clarissa Pinkola Estes."
+      Date: 2021-04-23
+
+    - Title: "A different approach to frontend architecture"
+      Link: "https://dev.to/quochuytlbk/a-different-approach-to-frontend-architecture-38d4"
+      Comment: "Presentation, application, domain, infrastructure."
+      Date: 2021-04-23
+
+    - Title: "The Art of Traditional Japanese Printmaking"
+      Link: "https://kottke.org/21/04/the-art-of-traditional-japanese-printmaking"
+      Comment: "The printing process as demonstrated by master printmaker Keiji Shinohara."
+      Date: 2021-04-23
+
+    - Title: "Questions Every Manager Should Ask"
+      Link: "https://twitter.com/Suhail/status/1382351985584721926?s=20"
+      Comment: "Management. Trello."
+      Date: 2021-04-23
+
+    - Title: "The first 18 months of a startup"
+      Link: "https://twitter.com/Suhail/status/1382351985584721926?s=20"
+      Comment: "A thread."
+      Date: 2021-04-23
+
+    - Title: "Keep Your Identity Small "
+      Link: "http://www.paulgraham.com/identity.html"
+      Comment: "Paul Graham. You can have a fruitful discussion about a topic only if it doesn't engage the identities of any of the participants."
+      Date: 2021-04-23
+
+    - Title: "they let us testify at the EU Parliament!"
+      Link: "https://branded.substack.com/p/oh-no-they-let-us-testify-at-the"
+      Comment: "And you better believe we named names and called out Google."
+      Date: 2021-04-23
+
+    - Title: "Tsugite"
+      Link: "https://youtu.be/kR-fwwoKyHk"
+      Comment: "Interactive Design and Fabrication of Wood Joints."
+      Media: video
+      Date: 2021-04-23
+
+    - Title: "Private Choices Have Public Consequences"
+      Link: "https://defector.com/private-choices-have-public-consequences/"
+      Comment: "They never once believed that anything is ever about more than their own sour selves, and a jealous world’s conspiracy against their comfort."
+      Date: 2021-04-23
+
+    - Title: "Sustainable Change Agency"
+      Link: "https://drive.google.com/file/d/1eQMpc1gfO2wOxBE9UzwZt1k0GZhcXkj8/view"
+      Comment: "John Cutler. Bring the lightest amount of structure to your efforts."
+      Date: 2021-04-23
+
+    - Title: "Specializing in Problems We Don't Understand"
+      Link: "https://www.lesswrong.com/posts/CSZnj2YNMKGfsMbZA/specializing-in-problems-we-don-t-understand"
+      Comment: "LessWrong. Problems we do understand mainly require relatively-specialized knowledge and techniques adapted to solving particular problems. But problems we don’t understand mainly require general-purpose skills of empiricism, noticing patterns and bottlenecks, model-building, and design principles."
+      Date: 2021-04-23
+
+    - Title: "When Choosing Marketing Channels, Visualize the Curve"
+      Link: "https://sparktoro.com/blog/when-choosing-marketing-channels-visualize-the-curve/"
+      Comment: "Rand Fishkin. Marketing channels curve."
+      Date: 2021-04-23
+
+    - Title: "“Do you have time to jump on a call?”"
+      Link: "https://twitter.com/aleyda/status/1384463737751363596?s=20"
+      Comment: "9/10 times this is communication laziness. 10/10 times this destroys your schedule."
+      Date: 2021-04-23
+
+    - Title: "What a scheduled phone call does to an entire day."
+      Link: "https://twitter.com/alexandravbotez/status/1370477852437712897?s=20"
+      Comment: "Context switching."
+      Date: 2021-04-23
+
+    - Title: "“You’re not that good”"
+      Link: "https://seths.blog/2021/04/youre-not-that-good/"
+      Comment: "Seth Godin. When we begin, we’re not that good. Once we start to build skills and offer something of value, some will persist in believing we’re not that good. It’s possible that in fact, we’re not that good yet, and there aren’t enough people who want what we’ve got. And then we get better."
+      Date: 2021-04-23
+
+    - Title: "The No-Nonsense Guide to Simplifying Every Aspect of Your Life"
+      Link: "https://www.artofmanliness.com/articles/simplifying-every-aspect-of-your-life/"
+      Comment: "TAOM. Podcast. Gary Collins shares lessons from his book “The Simple Life Guide to Decluttering Your Life.”"
+      Date: 2021-04-23
+
+    - Title: "The top 0.1% of ideas I’ve stumbled upon on the internet."
+      Link: "https://twitter.com/george__mack/status/1381661018565279746?s=21"
+      Comment: "A thread by George Mack."
+      Date: 2021-04-23
+
+    - Title: "Best new year's resolution? A 'stop doing' list"
+      Link: "https://www.jimcollins.com/article_topics/articles/best-new-years.html"
+      Comment: "Jim Collins. What are you deeply passionate about? What activities do you feel just “made to do”? What can you make a living at?"
+      Date: 2021-04-23
+
+    - Title: "People systematically overlook subtractive changes"
+      Link: "https://www.nature.com/articles/s41586-021-03380-y"
+      Comment: "People systematically default to searching for additive transformations, and consequently overlook subtractive transformations."
+      Date: 2021-04-23
+
+    - Title: "15 Technologies I Thought My Son Would Never Use"
+      Link: "https://www.tomshardware.com/opinion/15-technology-predictions-how-they-did"
+      Comment: "Technology doesn’t always turn out the way we’d expect."
+      Date: 2021-04-23
+
+    - Title: "World Building"
+      Link: "https://danco.substack.com/p/world-building"
+      Comment: "Alex Danco. Everyone’s job is world-building, even if they don’t realize it."
+      Date: 2021-04-23
+
+    - Title: "Horizontal History"
+      Link: "https://waitbutwhy.com/2016/01/horizontal-history.html"
+      Comment: "Wait But Why. Looking at history from a new direction."
+      Date: 2021-04-23
+
+    - Title: "Embrace the Grind"
+      Link: "https://jacobian.org/2021/apr/7/embrace-the-grind/"
+      Comment: "If you’re willing to embrace the grind, you can pull off the impossible."
+      Date: 2021-04-23
+
+    - Title: "Rationalism before the Sequences"
+      Link: "https://www.lesswrong.com/posts/qc7P2NwfxQMC3hdgm/rationalism-before-the-sequences"
+      Comment: "A story about what it was like to be a rationalist decades before the Sequences and the formation of the modern rationalist community."
+      Date: 2021-04-23
+
+    - Title: "Managing Work on a Fully Remote Team"
+      Link: "https://blog.doist.com/doist-objectives/"
+      Comment: "Doist. How we balance individual autonomy with accountability to make progress on our company's ambitious goals"
+      Date: 2021-04-23
+
+    - Title: "The Healing Power of JavaScript"
+      Link: "https://www.wired.com/story/healing-power-javascript-code-programming/"
+      Comment: "For some of us—isolates, happy in the dark—code is therapy, an escape and a path to hope in a troubled world."
+      Date: 2021-04-23
+
+    - Title: "One Customer Feedback Email Changed Our Startup’s Trajectory"
+      Link: "https://sparktoro.com/blog/one-customer-feedback-email-changed-our-startups-trajectory/"
+      Comment: "Rand Fishkin. Remind Your Audience You Exist. Uncover Points of Friction, Solve Them, Then Tell People You’ve Solved ‘Em."
+      Date: 2021-04-23
+
     - Title: "The 2021 Early-Retirement Update"
       Link: "https://livingafi.com/2021/03/17/the-2021-early-retirement-update/"
       Comment: "An update of last five or six years of Living a Fi into a single post"
