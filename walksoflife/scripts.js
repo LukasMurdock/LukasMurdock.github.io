@@ -32,7 +32,7 @@ if (
 function getCurrentWeather() {
   const lat = '39.50';
   const lon = '-84.73';
-  const exclude = '';
+  const exclude = 'daily,hourly,minutely';
   const apiKey = '860ba316b7fd68398c9cab2388b6bbb9';
   // https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&exclude=${part}&appid=${apiKey}
 
@@ -40,12 +40,44 @@ function getCurrentWeather() {
     `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&appid=${apiKey}`
   );
 
-  // fetch(
-  //   `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&appid=${apiKey}`
-  // )
-  //   .then((response) => response.json())
-  //   .then((data) => console.log(data));
+  fetch(
+    `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&exclude=${exclude}&appid=${apiKey}`
+  )
+    .then((response) => response.json())
+    .then((data) => {
+      console.log(data);
+      const weather = data;
+      // weather.current.weather[0].main
+      // weather.current.weather[0].description
+      const fahrenheit = Math.round(
+        (weather.current.temp - 273.15) * (9 / 5) + 32
+      );
+      console.log(fahrenheit);
+      const date = new Date(weather.current.sunset * 1000);
+      const timeTilSunset = new Date().getHours() - date.getHours();
+      console.log(timeTilSunset);
+      const iconUrl =
+        'http://openweathermap.org/img/w/' +
+        weather.current.weather[0].icon +
+        '.png';
+
+      document.getElementById('weather-icon').setAttribute('src', iconUrl);
+      document.getElementById('fahrenheit').innerText = fahrenheit + '°';
+      document.getElementById('weather-main').innerText =
+        weather.current.weather[0].main + ': ';
+      document.getElementById('weather-description').innerText =
+        weather.current.weather[0].description;
+
+      if (timeTilSunset < 0) {
+        document.getElementById('timeTilSunset').innerHTML =
+          'You have ' + timeTilSunset + ' hours until sunset.';
+      } else {
+        document.getElementById('timeTilSunset').innerHTML =
+          'Darn. We’re already ' + timeTilSunset + ' hours past sunset.';
+      }
+    });
 }
+getCurrentWeather();
 
 // console.log(isMobileDevice());
 

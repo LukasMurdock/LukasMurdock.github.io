@@ -68,6 +68,20 @@
         </div>
       </div>
 
+      <div id="c-10" class="slide slide-chapter">
+        <div class="slide-text">
+          <div>
+            <div>
+              <img id="weather-icon" src="" alt="Weather icon" />
+            </div>
+            <span id="fahrenheit">00</span>
+            <span id="weather-main">Loading…</span>
+            <span id="weather-description"></span>
+            <p id="timeTilSunset"></p>
+          </div>
+        </div>
+      </div>
+
       <div class="slide">
         <div class="slide-img">
           <img
@@ -903,12 +917,24 @@
         <div class="slide-img column">
           <img
             alt="An illustration of a house at night with a figure at the window"
-            src="./images/Peabody_Hall_Dormroom001.jpg"
+            src="./images/peabody-dining.jpg"
             loading="lazy"
           />
+        </div>
+        <div class="slide-text">
+          <p>
+            This was the first building constructed on the Western Seminary
+            campus. It was used to house administrative offices, dorm rooms and
+            the dining hall.
+          </p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <div class="slide-img column">
           <img
             alt="An illustration of a house at night with a figure at the window"
-            src="./images/peabody-dining.jpg"
+            src="./images/Peabody_Hall_Dormroom001.jpg"
             loading="lazy"
           />
         </div>
@@ -1038,7 +1064,7 @@
         <div class="slide-img">
           <img
             alt="An illustration of a house at night with a figure at the window"
-            src="./images/montee-stmaurice-1200.jpg"
+            src="./images/montee-stmaurice-bw.jpg"
             loading="lazy"
           />
         </div>
@@ -1064,8 +1090,8 @@
         </div>
         <div class="slide-text">
           <p>
-            Cozied up right next to the Steam Plant and Western Maintenance
-            Building is Sawyer Hall / Gymnasium named after then acting
+            Cozied up right next to the team plant and western maintenance
+            building is Sawyer Hall / Gymnasium. Named after then acting
             president Mary Alma Sawyer in 1914.
           </p>
         </div>
@@ -1097,8 +1123,7 @@
         </div>
         <div class="slide-text">
           <p>
-            …a raised track around the basketball court.” (
-            <a
+            …a raised track around the basketball court.” (<a
               target="_blank"
               rel="noopener"
               href="https://www.miamioh.edu/campus-services/miami-recreation/about/history/index.html"
@@ -1179,7 +1204,7 @@
               href="https://www.miamistudent.net/article/2007/10/miami-puts-17-million-toward-university-coal-plant-renovations"
               >$17 million</a
             >
-            in 2007 to comply with the EPA Clean Air Act!
+            on it in 2007 to comply with the EPA Clean Air Act!
           </p>
         </div>
       </div>
@@ -1274,7 +1299,9 @@
               >$60</a
             >
             and this place could be ours!
-            <span class="small-text">(Must be 21 or older.)</span>
+            <span class="small-text"
+              >(Must be 21 or older to rent though.)</span
+            >
           </p>
         </div>
       </div>
@@ -1283,7 +1310,7 @@
         <div class="slide-img">
           <img
             alt="An illustration of a house at night with a figure at the window"
-            src="./images/assemblage-countenances-1200.jpg"
+            src="./images/assemblage-countenances-bw.jpg"
             loading="lazy"
           />
         </div>
@@ -1334,7 +1361,7 @@
         <div class="slide-img">
           <img
             alt="An illustration of a house at night with a figure at the window"
-            src="./images/montee-stmaurice-1200.jpg"
+            src="./images/montee-stmaurice-bw.jpg"
             loading="lazy"
           />
         </div>
@@ -1418,23 +1445,44 @@
           <p>
             Take a moment to read the plaque about the different inscriptions of
             each of the fourteen bells.
+            <button
+              id="bell-button"
+              class="audio-button"
+              onclick="speak(document.getElementById('bell-inscription').innerHTML,'bell','en')"
+            >
+              Click to listen.
+              <svg style="width: 16px; height: 16px" viewBox="0 0 24 24">
+                <path
+                  fill="currentColor"
+                  d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z"
+                />
+              </svg>
+            </button>
           </p>
-        </div>
-      </div>
-
-      <div class="slide">
-        <div class="slide-img">
-          <img
-            alt="An illustration of a house at night with a figure at the window"
-            src="./images/catch-ear-1200.jpg"
-            loading="lazy"
-          />
-        </div>
-        <div class="slide-text">
-          <p>
-            Remember the intriguing path by the Freedom Summer Memorial? It’s
-            time to take it.
-          </p>
+          <span id="bell-inscription" hidden
+            >Each of the fourteen bells of the Molyneaux-Western Bell Tower has
+            a different inscription. First Bell: "This chime of eleven bells is
+            given to The Western College for Women by Elizabeth McCullough
+            Heath, a member of the Class of 1884, and is dedicated to the glory
+            of God through the development of Christian women." Second Bell:
+            "Let knowledge grow from more to more, but more of reverence is us
+            dwell; that mind and soul, according to well, may make one music as
+            before." Third Bell: "Ring out the false, ring in the true." Fourth
+            Bell: "Ring out the feud of rich and poor, ring in redress to all
+            mankind." Fifth Bell: "Ring in the nobler modes of life, with
+            sweeter manners, purer laws." Sixth Bell: "Ring out the old, ring in
+            the new." Seventh Bell: "Ring in the love of truth and right, ring
+            in the common love of God." Eighth Bell: "Ring out the thousand wars
+            of old, ring in the thousand years of peace." Ninth Bell: "Ring in
+            the valiant man and free, the larger heart, the kindlier hand."
+            Tenth Bell: "Ring out the darkness of the land, ring in the Christ
+            that is to be." Eleventh Bell: "One God, one law, one element, and
+            one far-off divine event, to which the whole Creation moves."
+            Twelfth Bell: "Ring out the winds of remembering." Thirteenth Bell:
+            "Bells of the past, whose long forgotten music still finds the wide
+            expanse." Fourteenth Bell: "Bells that sing heaven's praise with
+            such an earthly tongue.</span
+          >
         </div>
       </div>
 
@@ -1543,6 +1591,32 @@
         </div>
         <div class="slide-text">
           <p>Continue across the bridge and up the stairs.</p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <div class="slide-img">
+          <img
+            alt="An illustration of a house at night with a figure at the window"
+            src="./images/pleasant-journey-1200.jpg"
+            loading="lazy"
+          />
+        </div>
+        <div class="slide-text">
+          <p>I truly hope you’ve had a pleasant wander.</p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <div class="slide-img">
+          <img
+            alt="An illustration of a house at night with a figure at the window"
+            src="./images/pleasant-journey-1200.jpg"
+            loading="lazy"
+          />
+        </div>
+        <div class="slide-text">
+          <p>I truly hope you’ve had a pleasant wander.</p>
         </div>
       </div>
 

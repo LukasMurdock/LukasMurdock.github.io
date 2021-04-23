@@ -210,6 +210,14 @@ abbr {
   outline-color: #c12422;
 }
 
+#fahrenheit {
+  display: block;
+}
+
+#timeTilSunset {
+  padding-top: 2.5em;
+}
+
 @media screen and (min-width: 767px) {
   body {
     line-height: 1.2;
