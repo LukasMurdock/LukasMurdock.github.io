@@ -210,6 +210,19 @@ abbr {
   outline-color: #c12422;
 }
 
+.poem-paragraph {
+  font-size: 1rem;
+}
+
+.poem-author {
+  padding-top: 0.5rem;
+  font-size: 1rem;
+}
+
+.poem-line {
+  display: block;
+}
+
 #fahrenheit {
   display: block;
 }
