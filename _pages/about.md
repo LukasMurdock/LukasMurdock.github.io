@@ -104,7 +104,13 @@ Various technologies I dove into before I started tracking when I learned them. 
 
 I am a freelance writer, designer, developer, and marketer.
 
-August 2020 – Present  
+March 2020 – Present
+**[Virra](http://virramarketing.com/)** • *Front End Developer* • Remote  
+
+August 2020 – March 2021  
+**[Loganix](https://loganix.com/)** • *Content Strategist* • Remote  
+
+August 2020 – March 2021  
 **[Loganix](https://loganix.com/)** • *Content Strategist* • Remote  
 
 January 2020 – April 2020  
