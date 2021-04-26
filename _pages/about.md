@@ -204,12 +204,117 @@ In no particular order
 ### Mailing Lists
 * [Currently building list on Airtable](https://airtable.com/shrJNX4hOeufXgfOX)
 
-### Big 5 Personality Inventory
+### Personality
+
+#### Big 5 Personality Inventory
 - Openness to Experience: **high**
 - Conscientiousness: **medium**
 - Extraversion: **low**
 - Agreeableness: **medium**
 - Neuroticism: **medium-low**
+
+#### PrinciplesYou
+
+Best Match: [Growth Seeker](https://principlesyou.com/archetypes/growthseeker)
+
+Defined by a deep passion for learning, personal growth, and development. Curious, humble, open to new ideas and experiences, and adaptable.
+
+
+Good Match: [Quiet Leader](https://principlesyou.com/archetypes/quietleader)
+
+Focused on leading through open-mindedness and equanimity in facing challenges - often leading as much through "taking in" as "putting out". More reserved, reflective, both determined and humble, composed under pressure while also being an inspiring and demanding leader.
+
+Second Good Match: [Coach](https://principlesyou.com/archetypes/coach)
+
+Regard self-growth, development and learning as a cornerstone of life and daily practices and teaches and models these as aspirations for others. Both demanding and caring, humble and resilient.
+
+**How I prefer to think**:
+- Heavily favor creative thinking, have a comfort with the unknown, think independently, and find my own way of doing things.
+- Tend to rely on logic and analysis, with a moderate inclination to be methodical and strive for objectivity when reaching decisions and making choices.
+- I tend to be less organized, neat, and orderly. I can focus on details when required but don’t pay too much attention.
+- I have a preference to think abstractly and philosophically, using theories and models to solve problems.
+
+**How I engage with others**:
+- I prefer less social engagement and activity, with a moderate inclination to be adventurous in the activities I like to participate in.
+- I am willing to fight for my ideas, tell people what I really think, and be frank with my views, including critical feedback.
+- I have a strong desire to prioritize and support others’ needs, and am fascinated by their behaviors and tendencies, with moderate sensitivity to their emotions and feelings in the moment.
+- I am willing to take charge in groups, and tend to lead more through holding myself and and others to high standards of performance rather than through motivation and inspiration.
+- I have a moderate prefereance and appreciation for humor, being light-hearted and not taking matters too seriously.
+
+**How I apply myself**:
+- I tend to remain calm, confident, and controlled under stress or pressure.
+- I hold myself accountable to the outcomes I experiences, am self-motivated, and have a moderate inclination to operate independently, without needing must direction or guidance in accomplishing tasks or goals.
+- I tend to embrace change and uncertainty, and am versatile at shifting the roles I play in different circumstances, and am very interested in my own growth and development.
+- I work hard to go after ambitious goals and tend to take action to seize opportunities and solve problems I confront, though may be distractable and don’t always push through to finish what I start.
+- I like to explore different perspectives and are open to being wrong, receptive to critical feedback in order to learn, and modest.
+- I have high levels of stamina, enthusiasm, and energy in work and life.
+- I am comfortable with my station in life, content to be who I am and don’t worry much about others’ impressions of me.
+
+**When interacting with others, I**:
+- Prefer to spend time with a small circle of close contacts
+- Moderately inclined to be joyful and lighthearted, but know when things need to be taken seriously
+- Support others with empathy and compassion, while also trying not to sugarcoat my honest view of things.
+- Am willing to speak my mind, but are always aware of how others perceive it.
+
+**As a leader, I**:
+- Demand and hold others accountable for results
+- Argue for my beliefs and say what I think
+- Call out underperformers whenever justified
+- Take initiative and instigate change
+- Take feedback and direction from others with an open mind
+- Believe acknowledging mine and other people's strengths and weaknesses is part of being a good leader
+- Balance when to assert direction and when to let others take a lead
+
+**When planning, I**:
+- Anticipate and welcome change by reacting to it when it happens
+- Think creating overly detailed plans in anticipation of change is futile
+- Find intrigue in the unexpected and am comfortable changing tactics as events unfold
+- Like to handle things as they come and don't mind if I end up in a different place than you set out
+- Try to establish clear goals and objectives, but are less diligent in tracking progress against deadlines
+- Care about pushing through but may benefit from an external forcing mechanism to get me there
+- Prefer to think about about the big picture
+- Approach planning and thinking in an unstructured and sometimes messy way
+
+**When solving problems, I**:
+- Like to draw on other people's thinking to stress test your own ideas
+- Explore a wide range of possibilities before deciding
+- Am generally comfortable finding solutions on your own
+- May be distractible and can benefit from help keeping me on track
+- Am fascinated when solutions aren't obvious
+- Explore the unknown rationally
+- Believe that the best outcomes are a result of combining imagination, logic, and rigor
+- May be perceived as too emergent and spontaneous
+
+**When setting goals, I**:
+- Like to pursue novel ideas and plans, though sometimes don't complete them
+- Readily take initiative whether the goals are my own or set by others
+- Am comfortable adapting to my circumstances, and aren’t overly concerned about finishing everything I start
+
+**On a team, I**:
+- Am willing to express opinions directly, though may be not be the first to dive into the conversation
+- Address issues with others privately and empathetically
+- Tend to be a good listener
+- Confront challenges directly and push back on attempts to lower the bar
+- Make a strong effort to strike a balance between focusing on my own work and pitching in to help the team
+- May perceive others as overly rigid, while others may perceive you as too casual or spontaneous
+
+**Under stress, I**:
+- Remain calm, cool, and focused on what matters most
+- Adapt to new experiences rather than avoid them
+- Calmly turn mistakes into self-growth and learning rather than let them get me down
+- Keep my emotions close to your chest
+
+**When learning, I**:
+- Prefer topics that are logical and objective over those that are intuitive and subjective
+- Like to read, analyze, and process before sharing ideas and conclusions
+- Like to reflect and hear other perspectives before speaking up myself
+- Love exploring new areas of interest I don’t yet know about
+- Love a good brainstorm
+- Like subjects that are abstract and philosophical
+- Like to study in peace and quiet where I can focus
+- Like to watch, read, and write
+- Am interested in creative topics where my curiosity and originality can thrive
+- Have good stamina and endurance
 
 ### Contact
 
