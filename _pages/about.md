@@ -62,10 +62,11 @@ Various technologies I dove into before I started tracking when I learned them. 
 - Docker
 - Tailwind
 - Next.js
-- React
-- Node
+- React.js
+- Node.js
 - Vercel
 - Firebase
+- Cypress
 
 ### Technical Things I Learned in 2020
 - Content Marketing
@@ -104,11 +105,8 @@ Various technologies I dove into before I started tracking when I learned them. 
 
 I am a freelance writer, designer, developer, and marketer.
 
-March 2020 – Present
+March 2021 – Present  
 **[Virra](http://virramarketing.com/)** • *Front End Developer* • Remote  
-
-August 2020 – March 2021  
-**[Loganix](https://loganix.com/)** • *Content Strategist* • Remote  
 
 August 2020 – March 2021  
 **[Loganix](https://loganix.com/)** • *Content Strategist* • Remote  
@@ -170,7 +168,7 @@ In no particular order
     - VSCode Ruby
     - vsccode-icons
 * Signal
-* Spark
+* Spark Mail
 * Affinity Photo/Designer/Publisher
 * NetNewsWire
 * Readwise
@@ -276,9 +274,9 @@ Regard self-growth, development and learning as a cornerstone of life and daily 
 - Approach planning and thinking in an unstructured and sometimes messy way
 
 **When solving problems, I**:
-- Like to draw on other people's thinking to stress test your own ideas
+- Like to draw on other people's thinking to stress test my own ideas
 - Explore a wide range of possibilities before deciding
-- Am generally comfortable finding solutions on your own
+- Am generally comfortable finding solutions on my own
 - May be distractible and can benefit from help keeping me on track
 - Am fascinated when solutions aren't obvious
 - Explore the unknown rationally
@@ -302,7 +300,7 @@ Regard self-growth, development and learning as a cornerstone of life and daily 
 - Remain calm, cool, and focused on what matters most
 - Adapt to new experiences rather than avoid them
 - Calmly turn mistakes into self-growth and learning rather than let them get me down
-- Keep my emotions close to your chest
+- Keep my emotions close to my chest
 
 **When learning, I**:
 - Prefer topics that are logical and objective over those that are intuitive and subjective
@@ -326,7 +324,9 @@ I’m a shy guy with a fear of annoying people whenever I contact them. I’m wo
 
 ## About The Development of This Website
 
-The first commit to this site was on July 3, 2019.
+Looking at my email logs, I started building a site somewhere on or before December 29, 2018, on Squarespace. But I soon felt constricted by their customizability. I realized I could have complete customizability limited only by my skills if I rolled my own, and it would be free by utilizing developer tiers.
+
+The first commit to this site was on July 3, 2019. 
 
 (This is a better version of the [About this website](/about-this-website/) I posted April 17, 2020.)
 
@@ -334,29 +334,31 @@ The first commit to this site was on July 3, 2019.
 This website is built on two principles: As little dependencies as possible and minimizing vendor lock-in. I guess a third would be to make it as simple as possible and as complex as needed, taking into account technical overhead.
 
 This has currently materialized in:
-- Data should be saved locally before using on site
-- Git-based structure so there is no vendor lock-in
+- Data should be saved and built server side before using the client
+- Git-based structure to minimize vendor lock-in
 
-Why not use vendors like Squarespace or Webflow? In the long term, all non-Free software is a dead end. The utility of all non-Free software always approaches zero.
+Vendors like Squarespace or Webflow are growing. Why not use vendors like Squarespace or Webflow? In the long term, all non-Free software is a dead end. The utility of all non-Free software always approaches zero. And I have the freedom to pick up my site and take it elsewhere if a service goes down.
 
-Why not use WordPress? Honestly, WordPress is a good option here. But while it’s free, the server isn’t and the technical overhead that comes with it seems too annoying, especially compared to my free “low-tech” stack used here. Also I like the benefits that come from static sites.
+Why not use WordPress? Honestly, WordPress is a good option here. But while it’s free, the server isn’t, and the technical overhead that comes with it seems too annoying, especially compared to my free “low-tech” stack used here. This site is technically JAMstack now, but it started with no JavaScript or APIs, just markup.
+
+Also I like the benefits that come from static sites.
 
 ### Data Sources
-Markdown, JSON, and YAML files.
+APIs → YAML, Markdown, and YAML files.
 
-Posts are Markdown, data like [booklist](/booklist/), [want-to-read](http://localhost:4000/wanttoread/), [knowledge](/knowledge/), [principles](/principles/), and [alivetime](/alivetime/) are YAML as JSON isn’t as readable by humans.
+Posts are stored as Markdown. Book data seen on [booklist](/booklist/) and [want-to-read](http://localhost:4000/wanttoread/) are pulled from APIs at build time and stored locally. The data for [knowledge](/knowledge/), [principles](/principles/), and [alivetime](/alivetime/) are YAML as well.
 
 Using these data formats prevent me from any lock-in and give me control over all the files. To have a setup like this means that content edits are Git-based.
 
 Git-based means that changes made on a local machine are pushed to the Git repository which then triggers a new build of your site. Compared to API-based where the content is held on a different server and your site needs to pull the content from an API.
 
-I’ve been getting more comfortable using Ruby build scripts that run on Jekyll Build time to streamline some operations:
-- Adding only an ISBN number to the booklist or want-to-read list will pull the rest from the Google Books API.
+I’ve been getting more comfortable using Ruby build scripts that run at Jekyll build time to streamline some operations:
+- Adding only an ISBN number to the booklist or want-to-read list will pull the data I want to show from the Google Books API.
     - [Making a booklist](/making-a-book-list/)
     - [Optimizing my booklist](/optimizing-my-book-list/)
     - Note: I’ve rewritten a large part of it and have yet to create another update post for it.
 
-So currently I use Ruby to pull API (JSON) data and turn it into YAML.
+So, currently I use Ruby to pull API (JSON) data and turn it into YAML.
 
 Note: [Jekyll supports loading data from YAML, JSON, CSV, and TSV files located in the _data directory.](https://jekyllrb.com/docs/datafiles/)
 
@@ -367,7 +369,7 @@ Jekyll uses HTML layouts that are extensible through the [Liquid template langua
 
 [Jekyll also provides a number of useful Liquid additions to help you build](https://jekyllrb.com/docs/liquid/).
 
-The more I use it, the more I see how powerful it is. The next step of things that I want to do, (which may be possible in liquid, I’m still learning), is create a collective changelog of dated tasks, books, and resources added by date. May possibly utilize SQLite.
+The more I use it, the more I see how powerful it is. The next step of things that I want to do is create a collective changelog of dated tasks, books, and resources added by date (which may be possible in liquid, I’m still learning). May possibly utilize SQLite.
 
 ### Deploy and CDN
 Currently hosting on Github Pages as that’s what I started on. All my other projects use Netlify and I imagine I’ll move over once they improve some things. 
@@ -397,11 +399,47 @@ My favorite fonts on Google Fonts.
 - [Eczar](https://fonts.google.com/specimen/Eczar)
 - [Newsreader](https://fonts.google.com/specimen/Newsreader)
 - Libre Baskerville
+- [Literata](https://fonts.google.com/specimen/Literata)
 
 ####  Sans-Serif
 - [Roboto](https://fonts.google.com/specimen/Roboto)
 - Inter
 - IBM Plex Sans
+- [Space Grotesk](https://fonts.google.com/specimen/Space+Grotesk)
 
+#### Soft-serif
+- [Fraunces](https://github.com/undercasetype/fraunces)
 
 #### Slab Serif
+
+
+### Companies that seem cool
+- Automaticc
+    - All-remote, WordPress, Tublr, WooCommerce, Jetpack, WP VIP, VaultPress, Akismet, Longreads, Simplenot, Crowdsignal, Happy Tools, Gravatar, WP for iOS
+- Basecamp
+    - All-remote, DHH, JF, it’s Basecamp.
+- Webflow
+    - They produce incredibly well-produced tutorials for their incredibly well-produced product
+- Stripe
+    - Patrick McKenzie wrote about it
+- Shopify
+    - Alex Danco wrote about it
+- Vercel
+    - Design is just *mwah*, and Lee Robinson made React 2025
+- U.S. Web Design System (USWDS)
+    - A design system for the federal government‽
+- TheFutur
+    - Produces amazing educational content and courses
+- Airtable
+    - The product is fun to use, no offline support is annoying though
+- Asana
+    - Same deal, it’s just pretty
+- Wealthfront
+    - Pretty
+
+### Names that raise my blood pressure just by hearing
+- Adobe
+- Pearson
+- Proctorio
+- Infrastructure
+- GoDaddy

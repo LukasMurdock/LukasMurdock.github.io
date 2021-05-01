@@ -6,6 +6,10 @@ date: December 14, 2020
 tags: annual
 ---
 
+## 2021
+
+So far, the work has been splitting keeping up with school work with building the website and portal for Virra with React/Next.js. And 
+
 ## 2020
 We’re gonna start this and hopefully not forget about it.
 
