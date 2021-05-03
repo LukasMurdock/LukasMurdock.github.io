@@ -380,8 +380,9 @@ With this stack my entire website is currently free, aside from paying for the d
 
 ## Misc
 
-### Music on YouTube
+### Music
 
+#### Long YouTube
 - [ChilledCow — lofi hip hop radio - beats to relax/study to](https://youtu.be/5qap5aO4i9A)
 - [2 Hours Of Squid To Relax/Study/Work To \| Lofi Hip Hop \| Monterey Bay Aquarium Krill Waves Radio](https://youtu.be/J2UyOTS3UCE)
 - [Hiroshi Yoshimura - Green (Full Album Stream)](https://youtu.be/Jx7CyMZVhHY) & [The upload that brought it back](https://youtu.be/D7aYjRl_6Zw)
@@ -391,26 +392,49 @@ With this stack my entire website is currently free, aside from paying for the d
 - [r/RetroLibraryMusic](https://www.reddit.com/r/RetroLibraryMusic/)
 - [Lofi.cafe](https://lofi.cafe/)
 
-### Google Fonts
+#### YouTube Channels
+- [Proximity](https://www.youtube.com/channel/UC3ifTl5zKiCAhHIBQYcaTeg)
+- [JompaMusic](https://www.youtube.com/channel/UC1WKD9pJt5Sa4DCVaoJSAGw)
+- [MSS](https://www.youtube.com/channel/UC5nc_ZtjKW1htCVZVRxlQAQ)
+- [xKito](https://www.youtube.com/channel/UCMOgdURr7d8pOVlc-alkfRg)
+
+#### Favorite Artists
+
+- [Jon Bellion](http://www.jonbellion.com/)
+- [Eden](http://www.iameden.eu/)
+- [Elohim](https://elohimxelohim.com/)
+- [Porter Robinson](https://porterrobinson.com/)
+- [Stephen](https://sincerelystephen.com/)
+- [The Uptown](https://theuptown.bandcamp.com/)
+- [Brian Eno](https://brian-eno.net/)
+
+### Fonts
+
+#### Font Foundries
+- [Klim Type](https://klim.co.nz/)
+- [Schick toikka](https://www.schick-toikka.com/)
+- [Grilli Type](https://www.grillitype.com/)
+- [Commercial Type](https://commercialtype.com/)
+
+#### Google Fonts
 My favorite fonts on Google Fonts.
 
-
-#### Serif
+##### Serif
 - [Eczar](https://fonts.google.com/specimen/Eczar)
 - [Newsreader](https://fonts.google.com/specimen/Newsreader)
 - Libre Baskerville
 - [Literata](https://fonts.google.com/specimen/Literata)
 
-####  Sans-Serif
+##### Sans-Serif
 - [Roboto](https://fonts.google.com/specimen/Roboto)
 - Inter
 - IBM Plex Sans
 - [Space Grotesk](https://fonts.google.com/specimen/Space+Grotesk)
 
-#### Soft-serif
+##### Soft-serif
 - [Fraunces](https://github.com/undercasetype/fraunces)
 
-#### Slab Serif
+##### Slab Serif
 
 
 ### Companies that seem cool
