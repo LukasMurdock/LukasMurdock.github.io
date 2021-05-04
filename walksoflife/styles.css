@@ -65,6 +65,10 @@ h1 {
   scroll-snap-align: start;
 }
 
+.table-of-contents {
+  padding-left: 30px;
+}
+
 /* Safari 6.1-10.0 */
 @media screen and (min-color-index: 0) and(-webkit-min-device-pixel-ratio:0) {
   @media {
