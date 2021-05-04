@@ -580,6 +580,11 @@ fulldata:
         Comment: "Basecamp. The smarter, faster, easier way to build a successful web application."
         Date: April 08, 2021
 
+      - Title: "EA Introductory Program"
+        Link: "https://forum.effectivealtruism.org/s/YCa8BRQoxKbmf5CJb"
+        Comment: "Eight sequences cover the most important ideas of effective altruism through articles, videos, and interactive exercises."
+        Date: May 03, 2021
+
 
   # Design
   - Type: Design
@@ -700,7 +705,7 @@ fulldata:
         Comment: "Common color mistakes and how to avoid them."
         Date: Sep 16, 2020
 
-      - Title: "Which ccolor scale to use when visualizing data"
+      - Title: "Which color scale to use when visualizing data"
         Link: "https://news.ycombinator.com/item?id=26489887"
         Comment: "A hacker news thread."
         Date: March 23, 2021
@@ -1307,6 +1312,11 @@ fulldata:
       - Title: "Buzzsumo"
         Link: "https://buzzsumo.com/"
         Comment: "Quickly discover content ideas, uncover platform insights, identify passionate influencers and more."
+        Date: May 29, 2020
+
+      - Title: "Easy Bloggers"
+        Link: "https://www.easybloggers.io/"
+        Comment: "Influencer Search & Analytics"
         Date: May 29, 2020
 
       - Title: "Web Master Site Information"
@@ -2233,6 +2243,11 @@ fulldata:
         Comment: "A tool to self-host Google Fonts hassle-free."
         Date: June 17, 2020
 
+      - Title: Font style matcher
+        Link: "https://meowni.ca/font-style-matcher/"
+        Comment: "match the fallback font and the intended webfont’s x-heights and widths"
+        Date: May 03, 2021
+
       - Title: Google Fonts Analytics
         Link: https://fonts.google.com/analytics
         Comment: "Making the web more beautiful, fast, and open through great typography."
@@ -2423,6 +2438,11 @@ fulldata:
         Comment: "A virtual collaborative whiteboard tool that lets you easily sketch diagrams that have a hand-drawn feel to them."
         Date: January 14, 2021
 
+      - Title: "Swimlanes.io"
+        Link: "https://swimlanes.io/"
+        Comment: "A simple online tool for creating sequence diagrams."
+        Date: May 03, 2021
+
       - Title: "Sbored"
         Link: "https://sbored.co/"
         Comment: "A website where you can find out what to do in your free time. It generates activities for you."
@@ -2517,6 +2537,16 @@ fulldata:
         Link: "http://68k.news/"
         Comment: "Headlines from the Future."
         Date: April 23, 2021
+
+      - Title: "Principes You"
+        Link: "https://principlesyou.com/"
+        Comment: "Understand yourself. Understand others. Help others understand you."
+        Date: May 03, 2021
+
+      - Title: "List of company name etymologies"
+        Link: "https://en.wikipedia.org/wiki/List_of_company_name_etymologies"
+        Comment: "Wikipedia. A list of company names with their name origins explained."
+        Date: May 03, 2021
 
 
 
@@ -3117,6 +3147,13 @@ fulldata:
         Comment: "Here to help you with indie development and writing fine code on any Apple platform."
         Date: April 23, 2021
 
+      - Title: "Brian Lovin"
+        Link: "https://changelog.brianlovin.com/"
+        Comment: "Product designer, currently working on the native mobile apps at GitHub."
+        Date: May 03, 2021
+
+
+
 
   #The Great Blogs
   - Type: The Great Blogs
@@ -3290,6 +3327,11 @@ fulldata:
   - Type: Creative Coding
     List:
 
+      - Title: What Web Can Do Today
+        Link: "https://whatwebcando.today/"
+        Comment: "An overview of the device integration HTML5 APIs"
+        Date: May 03, 2021
+
       - Title: WebGL Fluid Simulation
         Link: https://paveldogreat.github.io/WebGL-Fluid-Simulation/
         Comment: "A WebGL fluid simulation that works in mobile browsers."
@@ -3429,6 +3471,11 @@ fulldata:
         Link: "https://uiw.tf/"
         Comment: "An experimental laboratory of user interface patterns and interactions that make you think 'what the fuck?' in a thought-provoking way."
         Date: 2021-03-23
+
+      - Title: "Noise in Creative Coding"
+        Link: "https://varun.ca/noise/"
+        Comment: "Varun Vachhar."
+        Date: 2021-05-03
 
         
 
@@ -3634,3 +3681,8 @@ fulldata:
         Link: "https://psyarxiv.com/"
         Comment: "A free preprint service for the psychological sciences"
         Date: April 23, 2021
+
+      - Title: "SciRate"
+        Link: "https://scirate.com/"
+        Comment: "Top arXiv papers"
+        Date: May 03, 2021

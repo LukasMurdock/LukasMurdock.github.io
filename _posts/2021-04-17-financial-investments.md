@@ -116,3 +116,6 @@ So far, we’ve identified a few clear financial traps:
 - Seeing other people spend money on things and feel like you’re missing out on life if you don‘t keep up with such spending.
 
 So that’s the story of my financial investments for the first 20 years of my life. I’ll come back (hopefully) and update this over time.
+
+Other links:
+- [You can never truly escape risk, just change how you accept it](https://awealthofcommonsense.com/2021/04/stock-market-returns-are-anything-but-average/)
