@@ -10,6 +10,15 @@ tags: annual
 
 So far, the work has been splitting keeping up with school work with building the website and portal for Virra with React/Next.js. And 
 
+Summer ideas:
+- Read a buncho books
+- Clean up laptop after school
+- Do a project with Three.js
+- Write more about web design and development
+- Explore email marketing
+- Google [Data Analytics Course](https://www.coursera.org/professional-certificates/google-data-analytics) or [others](https://grow.google/certificates/)
+
+
 ## 2020
 We’re gonna start this and hopefully not forget about it.
 
