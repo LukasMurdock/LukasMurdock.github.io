@@ -582,6 +582,14 @@ Now, you can also download a GUI like [Github Desktop](https://desktop.github.co
 
 Note: Git uses a `.gitignore` file to specify files and directories that Git should ignore.
 
+At the very least, you should create a `.gitignore` with the following in it:
+
+{% highlight config %}
+# .gitignore
+
+node_modules
+{% endhighlight %}
+
 ## IDE (VS Code)
 
 [Here are some helpful shortcuts](https://dev.to/simonpaix/10-useful-vs-code-shortcuts-you-should-know-42m) that are good to know.
