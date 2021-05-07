@@ -45,7 +45,11 @@
 .highlight .language-console { color: #ffffff; } /* Console text */
 .highlight .language-xml { color: #ffffff; } /* Console text */
 .highlight .gp { color: #ffffff; } /* Console text */
-
+.highlight .nx { color: #ffffff; } /* Javascript text */
+.highlight .p { color: #ffffff; } /* Javascript text */
+.highlight .dl { color: #ffffff; } /* Javascript text */
+.highlight .language-javascript .err { color: #d4d4d4; border: none; } /* Javascript error */
+.highlight .language-javascript .sr { color: #ffffff; }
 
 .highlight {
     background-color: #1e1e1e;

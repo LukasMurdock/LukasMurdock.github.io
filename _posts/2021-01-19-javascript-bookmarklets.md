@@ -3,6 +3,7 @@ layout: post
 title: 'JavaScript Bookmarklets'
 description: ""
 date: January 19, 2021
+last_modified_at: 2021-05-06T19:35:12+0000
 ---
 
 A [bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet) is a bookmark stored in a web browser that contains JavaScript commands that add new features to the browser.
