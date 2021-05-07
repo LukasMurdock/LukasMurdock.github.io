@@ -96,13 +96,15 @@ For clarification, Git is the revision control tool, whereas GitHub is an online
 
 GitHub provides a code hosting platform for version control and collaboration, just like we saw in Google Docs. Note that Github is for code hosting, not web hosting (although they do have a web hosting service). So GitHub is not for viewing your site like we did before, GitHub is for viewing and storing the version history of your code.
 
+---
+
 Now, it's really annoying when you have to repeat all that HTML for every new page you create. So web developers have built tools to help with that, but first I'm going to introduce you to the developers App Store. You see, before the first Graphical User Interface, everyone installed, upgraded, and configured things though a Command-line Interface (CLI), often referred to as the **terminal**.
 
 Just like you’re used to the App Store managing the installation, upgrading, and configuring of applications, developers utilize **package managers** through the terminal to do the same thing.
 
 There are package managers for installing ready to use software like youtube-dl, a CLI for downloading videos from YouTube. The most common package manager on Mac is [Homebrew](https://brew.sh/), and if you're developing on Mac, you'll probably end up installing it at some point.
 
-Then, there are package managers for installing pieces of functionality often called libraries to build your own application. These package managers make up the **development environment**. Because if you want to run the software on another computer, you'll have to install the packages your application uses through a package manager.
+Then, there are package managers for installing pieces of functionality often called libraries or frameworks to build your own application. These package managers make up the **development environment**. Because if you want to run the software on another computer, you'll have to install the packages your application uses through a package manager.
 
 Different languages have different development environments, (and there are multiple package managers you can use within a single language). For example, here are a few different languages:
 
@@ -134,7 +136,7 @@ Node comes with it's own package manager called **Node Package Manager (NPM)**. 
 **Practice Project**
 
 Our current toolchain looks like this:
-- IDE (I mean, you can use whatever but I use VS Code)
+- IDE (I mean, you can use whatever, but I use VS Code)
 - Package Manager (NPM)
 - Web Framework (Next.js)
 - Code Formatting (Prettier)
@@ -163,7 +165,7 @@ To get started with Next JS, there is a create-next-app that automatically sets 
 
 1. Open terminal
 2. Run `cd desktop` to *change the working directory* to your desktop
-3. Run `npx create-next-app --use-npm` to create a starter Next.js project
+3. Run `npx create-next-app --use-npm` to create a starter Next.js project that uses NPM
 4. Name the project whatever you’d like and press enter
 5. Choose the Default starter app template and press enter
 6. Run `cd <project name>` (change the <project name> to whatever you called your project. E.g. `cd test-project`)
@@ -193,13 +195,11 @@ You can stop the local dev server by pressing:
 - Mac: control + C
 - Windows: ctrl + C
 
-Git uses a `.gitignore` file to specify files and directories that Git should ignore.
-
 ### Front-end and Back-end
 
 Since JavaScript got ***big***, the Front-end/Back-end delineation has gotten hazy. (See: [ooooops I guess we’re full-stack developers now](https://css-tricks.com/ooooops-i-guess-were-full-stack-developers-now/))
 
-In the case of our website, the client-side React app is the front-end and the server-side rendering and API routes is the back-end.
+In the case of our website, we can kinda say that the client-side React app is the front-end and the server-side rendering and API routes is the back-end.
 
 ## Transformation
 
@@ -208,12 +208,12 @@ PostCSS is a tool for transforming CSS with JavaScript.
 
 With PostCSS we can automatically prefix browser specific CSS with Autoprefixer, convert modern CSS into something most browsers can understand, and add plugins to further process our CSS.
 
-Should probably integrate a linter, but right now use Prettier by itself.
+I should probably integrate a linter into our toolchain, but right now I just use Prettier by itself.
 
 
 ### Tailwind CSS
 
-Tailwind CSS is a utility-first CSS framework. In comparison, Bootstrap a Component-based Framework.
+Tailwind CSS is a utility-first CSS framework. In comparison, Bootstrap is a Component-based Framework.
 
 We’ll install PostCSS and Tailwind at the same time:
 
@@ -287,7 +287,7 @@ import Head from 'next/head';
 {% endraw %}
 {% endhighlight %}
 
-This also imports another hook called **useState**. useState lets you add React state to function components. Our User component is a function component! And we’re looking to add state that changes with the data from an API.
+The code above is importing another hook called **useState**. useState lets you add React state to function components. Our User component is a function component! And we’re looking to add state that changes with the data from an API. First let’s set up the useEffect hook:
 
 {% highlight javascript %}
 {% raw %}
@@ -304,7 +304,7 @@ function User() {
 
 You can see with this, it still only logs one time, as the component is only rendered once–on page load.
 
-So let’s add in some state:
+So, let’s give our User component some state with the useState hook:
 
 {% highlight javascript %}
 {% raw %}
@@ -342,7 +342,7 @@ To fix #2, where the component is rendered twice, we can add a dependency array 
 {% endraw %}
 {% endhighlight %}
 
-Our dependency array is empty! This tells React that our effect doesn’t depend on any values from props or state, so it never needs to re-run and should run only once.
+Our dependency array is empty! An empty dependency array tells React that our effect doesn’t depend on any values from props or state, so it never needs to re-run and should run only once.
 
 Now, if we want to *render* our `userData` variable in our component, we’ll have to include it in the `return`. But remember, everything in the `return` is rendered to the page! And you can’t just list the JavaScript variable to the page.
 
@@ -368,7 +368,7 @@ function User() {
 
 This should throw an error. The culprit? Remember how userData is *undefined* at first? We need to account for that!
 
-When userData is undefined, the data is still loading from the API. So we can return something that doesn’t use the userData variable to display while the data loads in:
+The component renders before our useEffect sets the userData (and soon, before calling the API). So we can return something that doesn’t use the userData variable to display until the userData loads in and we can re-render the component with the userData:
 
 {% highlight javascript %}
 {% raw %}
@@ -421,9 +421,9 @@ function User() {
 {% endraw %}
 {% endhighlight %}
 
-Another error! It seems the userData response returns an object. And since we’re trying to render an object, React doesn’t like that!
+Another error! It seems the userData response returns an object. And since we’re trying to render an object with JSX, React doesn’t like that!
 
-So let’s remove the userData from the return and log it to the console to debug it:
+So let’s remove the userData from the return and log userData to the console to debug:
 
 {% highlight javascript %}
 {% raw %}
@@ -448,7 +448,7 @@ Ah! We need to go into `userData[0]` and then pick a key. I’ll go with name.fi
 
 We did it!
 
-I’ll write out a component that utilizes tailwind styling for you here:
+Now, I’ll write out a component that utilizes tailwind styling for you here:
 
 {% highlight javascript %}
 {% raw %}
@@ -497,6 +497,8 @@ Okay! That might be a bit much at once. Look over that and try and make sense of
 [Adding an existing project to GitHub using the command line](https://docs.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line).
 
 Now, you can also download a GUI like [Github Desktop](https://desktop.github.com/) to manage Git.
+
+Note: Git uses a `.gitignore` file to specify files and directories that Git should ignore.
 
 ## IDE (VS Code)
 
