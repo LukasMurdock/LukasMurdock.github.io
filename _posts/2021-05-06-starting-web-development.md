@@ -578,7 +578,7 @@ Look over that and try and make sense of it while as we sidestep into saving our
 
 [Adding an existing project to GitHub using the command line](https://docs.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line).
 
-Now, you can also download a GUI like [Github Desktop](https://desktop.github.com/) to manage Git.
+Now, you can also download a GUI like [Github Desktop](https://desktop.github.com/) to manage Git. (See [GUI Clients](https://git-scm.com/downloads/guis/))
 
 Note: Git uses a `.gitignore` file to specify files and directories that Git should ignore.
 
