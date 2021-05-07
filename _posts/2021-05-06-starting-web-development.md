@@ -517,3 +517,13 @@ We can fetch API data both client-side and server-side. Server-side requests all
 - 	Use Environment Variables on the server to securely access external services.
 - 	Mask the URL of an external service.
 - 	Pre-render content server-side.
+
+## Deployment (Vercel)
+
+Now it’s time to get our site on the web!
+
+Because we have a build step in our web development process, it would be annoying if we had to upload our build to a hosting provider every time. That’s just one of the awesome features hosting providers like Vercel and Netlify do! These hosting providers sync to a Github repo and will automatically build and deploy your site when you commit changes.
+
+Go ahead and create an account on Vercel and deploy from your github repo.
+
+Once you’ve done that, congrats, you’ve built and deployed your first web application. Welcome to the wild world of web development.
