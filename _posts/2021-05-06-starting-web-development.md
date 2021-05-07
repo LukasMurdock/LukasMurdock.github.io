@@ -31,7 +31,7 @@ Open up Notepad → Save as → `index.html` → Select UTF-8 in Encoding drop-d
 {% endraw %}
 {% endhighlight %}
 
-(Sidenote: Sir Tim Berners-Lee invented HTML. And the Internet Engineering Task Force (IETF) defines the HTML specification. HTML5 is the latest version of the standard.)
+(Sidenote: Sir Tim Berners-Lee invented HTML at CERN sometime in the ’90s. Then the Internet Engineering Task Force primarily maintained HTML until the creation of the World Wide Web Consortium (W3C) in 1995. And HTML5 is the fifth and last major HTML version from W3C. The current specification is the [HTML Living Standard](https://html.spec.whatwg.org/multipage/) maintained by a group made up from various people from major browsers called the [Web Hypertext Application Technology Working Group (WHATWG)](https://whatwg.org/).)
 
 Browsers like Google Chrome, Safari, and Firefox take HTML markup and render it to the screen. We can open our HTML file that we stored locally in our browser to see what it looks like.
 
@@ -45,7 +45,7 @@ Soon after HTML came **Cascading Style Sheets (CSS)** as a way to add styling (e
 {% endraw %}
 {% endhighlight %}
 
-(Sidenote: Håkon Wium Lie, a coworker of Tim Berners-Lee invented CSS. The World Wide Web Consortium (W3C) maintains the CSS specifications. CSS does not have a version as a whole like HTML or JS. All current CSS specifications have their own specific versions ranging from 1 to 4.)
+(Sidenote: Håkon Wium Lie, a coworker of Tim Berners-Lee invented CSS. The World Wide Web Consortium (W3C) maintains the [CSS specifications](https://www.w3.org/Style/CSS/current-work). CSS does not have a version as a whole like HTML or JS. All current CSS specifications have their own specific versions ranging from 1 to 4.)
 
 Soon after that Brandon Eich created Mocha while at Netscape. It was renamed to LiveScript and then renamed again to JavaScript (JS) and released by Netscape and Sun Microsystems. "JavaScript" was licensed and trademarked to Oracle while also submitted to ECMA International for standardization. So while everyone calls it JavaScript, the official name is **ECMAScript (ES)**.
 
@@ -490,7 +490,89 @@ function User() {
 {% endraw %}
 {% endhighlight %}
 
-Okay! That might be a bit much at once. Look over that and try and make sense of it while as we sidestep into saving our progress.
+Okay, our page is getting to be a bit much! Remember when we added the tailwind purge configuration, it included a components folder?
+
+{% highlight javascript %}
+{% raw %}
+purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
+{% endraw %}
+{% endhighlight %}
+
+Components like the one we’ve just built typically exist in the components folder to keep our code cleaner and more reusable. So, there’s a few things we need to do:
+1. Create a folder at the root of the project called components
+2. Let’s create our first component file and name it `UserCard.js` Remember, React Components should always start with a capital letter.
+
+Now let’s copy our entire User component (but not the Home component) from the `index.html` and paste it into our `UserCard.js`, and remember we had to import useState and useEffect from React for this component, we’ll have to move that too!
+
+Since we want to change the component name, make sure the change the function name to UserCard as well.
+
+{% highlight javascript %}
+{% raw %}
+// UserCard.js
+import { useState, useEffect } from 'react';
+
+function UserCard() {
+  const [userData, setUserData] = useState();
+
+  useEffect(() => {
+    fetch('https://randomuser.me/api/')
+      .then((res) => res.json())
+      .then((response) => {
+        setUserData(response.results);
+      });
+  }, []);
+
+  if (typeof userData == 'undefined') {
+    return <p>Loading…</p>;
+  }
+
+  return (
+    <ul className="space-y-4 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:grid-cols-3 lg:gap-8">
+      <li className="py-10 px-6 bg-blue-100 text-center rounded-lg xl:px-10 xl:text-left">
+        <div className="space-y-6 xl:space-y-10">
+          <img
+            className="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56"
+            src={userData[0].picture.large}
+            alt=""
+          />
+          <div className="space-y-2 xl:flex xl:items-center xl:justify-between">
+            <div className="font-medium text-lg leading-6 space-y-1">
+              <h3 className="text-black">{userData[0].name.first}</h3>
+              <p className="text-indigo-400">{userData[0].email}</p>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  );
+}
+
+export default UserCard;
+
+{% endraw %}
+{% endhighlight %}
+
+Hopefully you noticed that I added an `export default UserCard;` in our `UserCard.js` file. This declares a single entity (There can only be one `export default` per file), in this case we’re exporting the module `UserCard.js` that contains our functional component `UserCard`. We can then use it in our `index.js` file by importing it.
+
+{% highlight javascript %}
+{% raw %}
+// index.js
+import Head from 'next/head';
+import UserCard from '../components/UserCard';
+
+export default function Home() {
+  return (
+    […]
+    <UserCard />
+    […]
+  );
+}
+{% endraw %}
+{% endhighlight %}
+
+Now, you can see that `index.js` is also exporting a function, `Home()`, and it declares it all in one line. I’m not 100% sure they’re exactly the same thing, I think it’s just personal preference.
+
+Look over that and try and make sense of it while as we sidestep into saving our progress.
 
 ## Version Control (Github)
 
