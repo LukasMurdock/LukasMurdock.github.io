@@ -109,3 +109,47 @@ ART 286 — 3 Credit Hours
 <!-- http://www.bozemanscience.com/ap-environmental-science -->
 
 <!-- https://www.youtube.com/playlist?list=PLSQglXfoC9xfRZEeb_2QlRt3BwPPhpHJ- -->
+
+### Semester 2
+
+**Legal Environment of Business**  
+BLS 342 — 3 Credit Hours  
+<span class="full-underline" style="font-size: 12px;">Textbook:</span>[ Business Law: Text and Cases, Kenneth W. Clarkson/Roger LeRoy Miller](https://openlibrary.org/search?q=Business+Law+Text+and+Cases+Kenneth+W.+Clarkson&mode=everything){:target="_blank"}{:rel="noopener"}  
+While this class surely wasn’t the best format for learning business law, I don’t know other resources (aside from Quizlets other people have made from this class) to learn what was taught in class.
+
+**Environmental Biology**  
+BIO 121 — 3 Credit Hours  
+Same here.
+
+
+**Geography of Urban Diversity**  
+GEO 201 — 3 Credit Hours  
+<span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ Urbanized](https://www.hustwit.com/urbanized){:target="_blank"}{:rel="noopener"}  
+I enjoyed this class very much, I did not enjoy that it was done under the current educational system. The foundation this class sought after was to see things you previously overlooked. To notice the unnoticed.
+
+
+**Principles of Marketing**  
+MKT 291 — 3 Credit Hours  
+<span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ What is marketing?](https://seths.blog/tim/){:target="_blank"}{:rel="noopener"}  
+
+**Intro to Management & Leadership**  
+MGT 291 — 3 Credit Hours  
+<span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ The Coaching Habit](https://boxofcrayons.com/the-coaching-habit-book/){:target="_blank"}{:rel="noopener"}  
+<span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ The Making of a Manager](https://www.juliezhuo.com/book/manager.html){:target="_blank"}{:rel="noopener"}  
+
+## Year 03
+### Semester 01
+
+**Strategic Thinking and Decision-Making in Marketing**  
+MKT 395 — 3 Credit Hours  
+
+**Professional Selling**  
+MKT 315 — 3 Credit Hours  
+
+**Fundamentals of Programming and Problem Solving**  
+CSE 174 — 3 Credit Hours  
+
+**Business Analytics**  
+ISA 225 — 3 Credit Hours  
+
+[…] Another class TBD because Miami scheduling is rough.
