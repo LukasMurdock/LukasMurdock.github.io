@@ -3691,3 +3691,8 @@ fulldata:
         Link: "https://scirate.com/"
         Comment: "Top arXiv papers"
         Date: May 03, 2021
+
+      - Title: "Open Syllabus"
+        Link: "https://galaxy.opensyllabus.org/"
+        Comment: "A plot of the most frequently assigned texts in college courses."
+        Date: Feb 18, 2021
