@@ -1,11 +1,12 @@
 ---
 layout: post
 title: 'Chrome Extensions'
-description: "All of my Chrome Extensions."
+description: "A list of useful Chrome Extensions."
 date: June 19, 2020
+tags: annual
 ---
 
-I have a [Chrome Apps section on my knowledge page](https://lukasmurdock.com/knowledge/#chrome%20apps) that I need to update. But before that I want to keep an ongoing list of all the Chrome Extensions I currently have installed. 
+I have a [Chrome Apps section on my knowledge page](https://lukasmurdock.com/knowledge/#chrome%20apps) that I need to update. But before that I want to keep an ongoing list of Chrome Extensions I’ve installed. 
 
 ## Grammarly 
 <img loading="lazy" style="max-width:60px" src="https://lh3.googleusercontent.com/Flk1NVzGhvKA6c3jmGy_2Kip918xGisTgVhRLZFdDLA1o-cSLEuIjxmLTBPAeqLecpXjsliKQWg=w128-h128-e365" alt="Grammarly">
@@ -217,7 +218,7 @@ I have a [Chrome Apps section on my knowledge page](https://lukasmurdock.com/kno
 
 “It is a Chrome extension for printing JSON and JSONP.”
 
-## The Great Suspender
+## <del>The Great Suspender</del>
 <img loading="lazy" style="max-width:60px" src="https://lh3.googleusercontent.com/oIL32987xenUeQSnESup1X925FKs5-NsLPX2yK2xFevhYdiJaQiSndTNyJXreFoWUAcdfEh-Tps=w128-h128-e365" alt="The Great Suspender">
 
 [View The Great Suspender in Chrome Web Store](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg?hl=en)
