@@ -164,7 +164,8 @@ In no particular order
     - Quick and Simple Text Selection
     - Ruby
     - Settings Sync
-    - Tailwind CSS IntelliSense
+    - [Tailwind CSS IntelliSense](https://tailwindcss.com/docs/intellisense)
+    - [Headwind](https://github.com/ryanhhhh/headwind)
     - VSCode Ruby
     - vsccode-icons
 * Signal
@@ -203,6 +204,10 @@ In no particular order
 * [Currently building list on Airtable](https://airtable.com/shrJNX4hOeufXgfOX)
 
 ### Personality
+
+#### Myers-Briggs
+
+[INFJ-A](https://www.16personalities.com/infj-personality)
 
 #### Big 5 Personality Inventory
 - Openness to Experience: **high**
