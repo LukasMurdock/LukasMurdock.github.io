@@ -168,6 +168,7 @@ In no particular order
     - [Headwind](https://github.com/ryanhhhh/headwind)
     - VSCode Ruby
     - vsccode-icons
+    - [WakaTime](https://wakatime.com/)
 * Signal
 * Spark Mail
 * Affinity Photo/Designer/Publisher
