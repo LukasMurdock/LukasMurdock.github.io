@@ -97,6 +97,8 @@ Various technologies I dove into before I started tracking when I learned them. 
 
 ### Things I want to learn
 - Data [science](https://r4ds.had.co.nz/introduction.html)/[analysis](https://xcelab.net/rm/statistical-rethinking/), R, [Bayesian](https://xcelab.net/rm/statistical-rethinking/), Python
+    - [R for Data Science](https://r4ds.had.co.nz/introduction.html)
+    - [R for applied epidemiology and public health](https://epirhandbook.com/)
 - Piano
 - Web scraping
 - Rails
@@ -149,26 +151,7 @@ In no particular order
 ### Daily Software
 * Google Chrome
 * iA Writer
-* VS Code
-    - [Night Owl theme](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl)
-    - [Dank Mono font](https://gumroad.com/l/dank-mono)
-    - Code Runner
-    - Code Spell Checker
-    - Copy filename
-    - DupChecker
-    - erb
-    - Insert Date String
-    - Parker CSS Analysis
-    - Prettier
-    - Python
-    - Quick and Simple Text Selection
-    - Ruby
-    - Settings Sync
-    - [Tailwind CSS IntelliSense](https://tailwindcss.com/docs/intellisense)
-    - [Headwind](https://github.com/ryanhhhh/headwind)
-    - VSCode Ruby
-    - vsccode-icons
-    - [WakaTime](https://wakatime.com/)
+* [VS Code](/vs-code/)
 * Signal
 * Spark Mail
 * Affinity Photo/Designer/Publisher
