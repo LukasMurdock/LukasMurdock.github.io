@@ -50,6 +50,8 @@
 .highlight .dl { color: #ffffff; } /* Javascript text */
 .highlight .language-javascript .err { color: #d4d4d4; border: none; } /* Javascript error */
 .highlight .language-javascript .sr { color: #ffffff; }
+.highlight .language-json .nl { color: #ffffff; } /* JSON text */
+.highlight .language-json .err { color: #d4d4d4; border: none; } /* JSON error */
 
 .highlight {
     background-color: #1e1e1e;
