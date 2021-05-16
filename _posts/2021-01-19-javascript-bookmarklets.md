@@ -16,7 +16,7 @@ Want to save JavaScript into a bookmarklet? Use [Coles Bookmarklet Creator](http
 
 Test them out by clicking the links. To use them anywhere simply drag the links to your bookmark bar.
 
-[**Remove URL Parameters**](javascript:(function()%7Bconsole.log('Original URL%3A '%2Bwindow.location)%3Bwindow.history.replaceState(''%2C''%2Cwindow.location.origin%2Bwindow.location.pathname)%3B navigator.clipboard.writeText(window.location.origin%2Bwindow.location.pathname)%7D)()) removes URL parameters and copies the URL to the clipboard.
+[**Remove URL Parameters**](javascript:(function()%7Bconsole.log('Original%20URL%3A'%2Bwindow.location)%3Bwindow.history.replaceState(''%2C''%2Cwindow.location.origin%2Bwindow.location.pathname)%3B%20navigator.clipboard.writeText(window.location.origin%2Bwindow.location.pathname)%7D)()) removes URL parameters and copies the URL to the clipboard.
 
 [**Word Counter**](javascript:(function()%7Balert(window.getSelection().toString().match(%2F%5Cw%2B%2Fg).length%2B" Words")%7D)()) returns an alert with the word count of text you’ve selected.
 
