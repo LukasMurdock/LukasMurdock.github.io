@@ -1,0 +1,20 @@
+---
+- initialTimestamp: 2021-05-25 23:41:24.000000000 Z
+  note: okay I think it’s working now
+  prettyTime: 07:41 PM · May 25, 2021
+- initialTimestamp: 2021-05-25 22:52:04.000000000 Z
+  note: |-
+    Got time/date formatter working:  
+    note["initialTimestamp"]
+    .in_time_zone("America/New_York")
+    .strftime("%I:%M %p · %b %d, %Y")
+  prettyTime: 06:52 PM · May 25, 2021
+- initialTimestamp: 2021-05-25 22:38:28.000000000 Z
+  note: Time is hard
+  prettyTime: 06:38 PM · May 25, 2021
+- initialTimestamp: 2021-05-25 20:25:03.000000000 Z
+  note: Jekyll has a doctor command aptly named *hyde*
+  prettyTime: 04:25 PM · May 25, 2021
+- initialTimestamp: 2021-05-25 18:58:12.000000000 -04:00
+  note: First note. Let’s see where this goes.
+  prettyTime: 06:58 PM · May 25, 2021

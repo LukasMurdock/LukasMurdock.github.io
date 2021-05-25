@@ -1,5 +1,6 @@
-source 'https://rubygems.org'
+# source 'https://rubygems.org'
 
-gem 'httparty'
-gem 'down'
-gem 'sqlite3'
+# gem 'activesupport'
+# gem 'httparty'
+# gem 'down'
+# gem 'sqlite3'

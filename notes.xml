@@ -1,0 +1,34 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0">
+  <channel>
+    <title>{{"Notes" | xml_escape }}</title>
+    <description>{{ "From Lukas Murdock" | xml_escape }}</description>
+    <link>{{ site.url }}{{ site.baseurl }}/</link>
+    <webfeeds:icon>https://lukasmurdock.com/safari-pinned-tab.svg</webfeeds:icon>
+    <webfeeds:logo>https://lukasmurdock.com/safari-pinned-tab.svg</webfeeds:logo>
+    <webfeeds:accentColor>F94643</webfeeds:accentColor>
+    <webfeeds:related layout="card" target="browser"/>
+    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
+    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <generator>Jekyll v{{ jekyll.version }}</generator>
+
+    {% for data in site.data.noteLog %}
+
+    <item>
+      <title>{{ data.note | truncate: 20 | xml_escape }}</title>
+      <description>{{ data.note | markdownify | xml_escape }}</description>
+      <pubDate>{{ data.initialTimestamp | date_to_rfc822 }}</pubDate>
+      <link>https://lukasmurdock.com/notes/#{{ data.initialTimestamp | url_encode | xml_escape }}</link>
+      <guid isPermaLink="true">{{ data.initialTimestamp | xml_escape }}</guid>
+    </item>
+    {% endfor %}
+
+
+  </channel>
+</rss>
+
+
