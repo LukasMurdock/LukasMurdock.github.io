@@ -36,12 +36,14 @@ code: true
 
 <script src="/js/odometer.min.js"></script>
 
+<p><strong>Note</strong>, <em>n.</em> <a href="https://www.websters1913.com/words/Note">A brief remark</a>; a marginal comment or explanation; hence, an annotation on a text or author; a comment; a critical, explanatory, or illustrative observation.</p>
+
 <p style="text-align: center;">Notes Written: <span id="odometer" hidden>{{ site.data.noteLog | size }}</span></p>
 
 {% for data in site.data.noteLog %}
 
 <div class="card-note" id="{{ data.initialTimestamp | url_encode }}">
-  <p>{{ data.note | markdownify }}</p>
+  {{ data.note | markdownify }}
   <time>{{ data.prettyTime }}</time>
 </div>
 
