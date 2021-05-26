@@ -108,7 +108,7 @@ Various technologies I dove into before I started tracking when I learned them. 
 I am a freelance writer, designer, developer, and marketer.
 
 March 2021 – Present  
-**[Virra](http://virramarketing.com/)** • *Front End Developer* • Remote  
+**[Virra](https://virramarketing.com/)** • *Front End Developer* • Remote  
 
 August 2020 – March 2021  
 **[Loganix](https://loganix.com/)** • *Content Strategist* • Remote  
@@ -144,7 +144,7 @@ In no particular order
 * [Facebook](https://www.facebook.com/lukas.rex.murdock/) since 2016
 * [LinkedIn](https://www.linkedin.com/in/lukas-murdock/) since 2016
 * [Pinterest](https://www.pinterest.com/murdocklukas/) since 2018
-* [Lukasmurdock.com](https://www.lukasmurdock.com/) since 2018
+* [Lukasmurdock.com](https://lukasmurdock.com/) since 2018
 * [Less Wrong](https://www.lesswrong.com/) since 2020
 * [Long Now](https://longnow.org/) since 2020 #11261
 
@@ -379,7 +379,7 @@ With this stack my entire website is currently free, aside from paying for the d
 - [221B Baker Street](https://youtu.be/MJeNG1R7FzM)
 - [18th Century Library](https://youtu.be/irdN1XAby6I)
 - [r/RetroLibraryMusic](https://www.reddit.com/r/RetroLibraryMusic/)
-- [Lofi.cafe](https://lofi.cafe/)
+- [Lofi.cafe](https://www.lofi.cafe/)
 
 #### YouTube Channels
 - [Proximity](https://www.youtube.com/channel/UC3ifTl5zKiCAhHIBQYcaTeg)

@@ -1,5 +1,28 @@
 ---
 
+- idea: Email analysis on newsletter links
+  priority: 0
+  targetDate: 2021-05-30
+  notes: >
+    https://towardsdatascience.com/email-automation-analytics-and-visualization-53b022e0f9a0
+    Grabs the top links in emails like that MSCHF newsletter
+
+
+- idea: A Personal Site
+  priority: 0
+  targetDate: 2021-05-30
+  notes: >
+    https://brianlovin.com/writing/reasons-you-arent-updating-your-personal-site
+    That one dudes personal site course
+    “A digital garden”
+
+- idea: Semantic Versioning
+  priority: 0
+  targetDate: 2021-05-30
+  notes: >
+    https://docs.npmjs.com/about-semantic-versioning
+
+
 - idea: Getting Things Done
   priority: 0
   targetDate: 2021-05-30

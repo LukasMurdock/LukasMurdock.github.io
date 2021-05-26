@@ -1,7 +1,23 @@
 ---
+- initialTimestamp: 2021-05-26T09:37:16-04:00
+  note: |-
+    We all start somewhere. [https://groups.google.com/g/comp.lang.java/c/aSPAJO05LIU/m/ushhUIQQ-ogJ](https://groups.google.com/g/comp.lang.java/c/aSPAJO05LIU/m/ushhUIQQ-ogJ)
+- initialTimestamp: 2021-05-26 08:52:04.000000000 -04:00
+  note: Periodically try to prune dead links on my site with [SF](https://www.screamingfrog.co.uk/seo-spider/). The ephemeralness
+    is saddening. “[programming is rather thankless. u see your works become replaced
+    by superior ones in a year. unable to run at all in a few more](http://www.slate.com/articles/technology/technology/2012/03/ruby_ruby_on_rails_and__why_the_disappearance_of_one_of_the_world_s_most_beloved_computer_programmers_.single.html).”
+  prettyTime: '08:52 AM · May 26, 2021'
+- initialTimestamp: 2021-05-26 00:17:23.000000000 -04:00
+  note: Adding node and npm to the long list of things you need to keep track of in
+    a web project…
+  prettyTime: 12:17 AM · May 26, 2021
+- initialTimestamp: 2021-05-25 23:56:47.000000000 -04:00
+  note: "[npm-check-updates](https://www.npmjs.com/package/npm-check-updates) interactive
+    mode: `ncu -i`<br/>(H/T) [Wes Bos](https://twitter.com/wesbos/status/1396842158452248581?s=20)"
+  prettyTime: 11:56 PM · May 25, 2021
 - initialTimestamp: 2021-05-25 22:23:04.000000000 -04:00
-  note: Have a user snippet working for note! Timestamps are still a little jank–but
-    it works.
+  note: Have a user snippet working in VS Code for note! Timestamps are still a little
+    jank–but it works.
   prettyTime: 10:23 PM · May 25, 2021
 - initialTimestamp: 2021-05-26 00:42:41.000000000 Z
   note: Trying out the Tick Tick to-do app again–this time for it’s Mac menu bar to-do

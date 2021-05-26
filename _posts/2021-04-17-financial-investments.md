@@ -119,3 +119,4 @@ So that’s the story of my financial investments for the first 20 years of my l
 
 Other links:
 - [You can never truly escape risk, just change how you accept it](https://awealthofcommonsense.com/2021/04/stock-market-returns-are-anything-but-average/)
+- [A primer on investing for designers and developers](https://brianlovin.com/overthought/investing-for-designers-and-developers)

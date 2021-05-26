@@ -57,7 +57,7 @@ All-in-one tools claim to be the only tool you need for SEO.
 
 ### Popular Rank Tracking Tools
 Rank tracking tools track your position (ranking) across search engines for given searches and locations.
-Read [*the tactical buyers guide to SEO rank tracking tools*](https://panoply.pro/best-rank-trackers/) by Terry Godier at Panoply.
+Read [*the tactical buyers guide to SEO rank tracking tools*](https://panoply.pro/best-rank-trackers/) by Terry Godier at Panoply. ([updated link](https://terrygodier.com/best-rank-trackers/))
 
 - Accuranker
 - [Advanced Web Ranking](https://www.advancedwebranking.com/)

@@ -153,7 +153,7 @@ I find this notable. What a time to be alive.
 - [Facebook](https://www.facebook.com/lukas.rex.murdock/) since 2016
 - [LinkedIn](https://www.linkedin.com/in/lukas-murdock/) since 2016
 - [Pinterest](https://www.pinterest.com/murdocklukas/) since 2018
-- [Lukasmurdock.com](https://www.lukasmurdock.com/) since 2018
+- [Lukasmurdock.com](https://lukasmurdock.com/) since 2018
 - [Less Wrong](https://www.lesswrong.com/) since 2020
 - [Long Now](https://longnow.org/) since 2020 #11261
 
