@@ -1,13 +1,29 @@
 ---
+- initialTimestamp: 2021-05-26 00:12:03.000000000 Z
+  note: I thought being Twitter-like captures some of that *haphazardness*. But it’s
+    literally just me.
+  prettyTime: '08:12 PM · May 25, 2021'
+- initialTimestamp: 2021-05-26 00:03:26.000000000 Z
+  note: "The final straw to finally build a notes page came from searching for a Mac
+    timer app, stumbling across [Matthew Palmers](https://matthewpalmer.net/blog/2018/09/28/top-free-countdown-timer-apps-mac/index.html)
+    site, and seeing his standing invitation page.  \n&nbsp;  <br/>\nAnd I’ve been
+    wanting a place for just haphazardness."
+  prettyTime: '08:03 PM · May 25, 2021'
+- initialTimestamp: 2021-05-25 23:57:34.000000000 Z
+  note: "[The Now page movement](https://sive.rs/nowff): A public declaration of priorities."
+  prettyTime: 07:57 PM · May 25, 2021
+- initialTimestamp: 2021-05-25 23:55:45.000000000 Z
+  note: |-
+    The Standing Invitation page:
+    - [Patrick Mckenzie](https://www.kalzumeus.com/standing-invitation/)
+    - [Matthew Palmer](https://matthewpalmer.net/standing-invitation/)
+  prettyTime: 07:41 PM · May 25, 2021
 - initialTimestamp: 2021-05-25 23:41:24.000000000 Z
   note: okay I think it’s working now
   prettyTime: 07:41 PM · May 25, 2021
 - initialTimestamp: 2021-05-25 22:52:04.000000000 Z
-  note: |-
-    Got time/date formatter working:  
-    note["initialTimestamp"]
-    .in_time_zone("America/New_York")
-    .strftime("%I:%M %p · %b %d, %Y")
+  note: "Got time/date formatter ruby script working:  \nnote[\"initialTimestamp\"]\n.in_time_zone(\"America/New_York\")\n.strftime(\"%I:%M
+    %p · %b %d, %Y\")"
   prettyTime: 06:52 PM · May 25, 2021
 - initialTimestamp: 2021-05-25 22:38:28.000000000 Z
   note: Time is hard
