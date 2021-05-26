@@ -1,0 +1,30 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "type": "array",
+    "items": {
+        "$ref": "#/definitions/insertNote"
+    },
+    "definitions": {
+        "insertNote": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "initialTimestamp": {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "note": {
+                    "type": "string"
+                },
+                "prettyTime": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "initialTimestamp",
+                "note"
+            ],
+            "title": "insertNote"
+        }
+    }
+}

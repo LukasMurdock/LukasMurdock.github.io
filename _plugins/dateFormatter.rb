@@ -37,10 +37,9 @@ if note.key?("prettyTime") == false then
     puts note
     ENV["TZ"] = "US/Eastern"
 
-
     prettyTime = note["initialTimestamp"].in_time_zone("America/New_York").strftime("%I:%M %p · %b %d, %Y")
     p prettyTime
-
+    # note["initialTimestamp"] = note["initialTimestamp"].strftime("%Y-%m-%dT%H:%M:%S%:z")
     # yaml_array[index]["prettyTime"]
     yaml_array[index]["prettyTime"] = prettyTime
 
