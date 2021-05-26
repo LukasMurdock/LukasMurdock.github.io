@@ -124,13 +124,21 @@ Purchased 2012 MacBook Pro and Upgraded to 16 GB RAM and 2 TB SSD.
 
 Had second brothers weekend.
 
-Joined Traffic Think Tank, hired by Adam at Loganix.
+Joined Traffic Think Tank (TTT), hired by Adam at Loganix.
 
 Moved to Florida with parents.
 
 Flew for the first time on my own.
 
 And here we are.
+
+## 2021
+
+Left Loganix and TTT to work with Andre at Virra.
+
+Built [my first production React app with Next.js](https://lukasmurdock.com/first-nextjs-app/).
+
+
 
 ### Platform Progression
 

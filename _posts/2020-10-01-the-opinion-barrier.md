@@ -49,6 +49,17 @@ Humans commonly choose to ignore information that contradicts their beliefs. *We
 
 We try to avoid finding out how we’re wrong and indulge in finding out how we’re right. You have to seek truth in what others are saying. 
 
+If disagreement persists the true sources of disagreement are either hard to communicate, or hard to expose. E.g.:
+- Uncommon, but well-supported, scientific knowledge or math;
+- Long inferential distances;
+- Hard-to-verbalize intuitions, perhaps stemming from specific visualizations;
+- Zeitgeists inherited from a profession (that may have good reason for it);
+- Patterns perceptually recognized from experience;
+- Sheer habits of thought;
+- Emotional commitments to believing in a particular outcome;
+- Fear that a past mistake could be disproved;
+- Deep self-deception for the sake of pride or other personal benefits; (Eliezer Yudkowsky, How to Actually Change Your Mind)
+
 Select quotes from [Manifesto for a Moral Revolution](https://lukasmurdock.com/manifesto-for-a-moral-revolution/):
 
 > Commit to stretching beyond your comfort zone to meet those whose realities are different from your own. You might be surprised at what you find on the other side.

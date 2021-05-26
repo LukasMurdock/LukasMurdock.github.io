@@ -71,3 +71,14 @@ A Next app is a framework based on React to build Node.js server-side applicatio
 In looking back on building this application I can *feel* the shift from a [front-of-the-front-end developer](https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/) to a front end developer.
 
 
+## What I Know Now
+
+Building this gave me a much better [understanding of web development](https://lukasmurdock.com/starting-web-development/). 
+
+This is some valuable things I’ve learned:
+
+1. Next.js
+    - Next.js custom webpack configuration for plugins
+2. React
+3. ESLint (Note: I was already using Prettier)
+4. E2E testing with Cypress

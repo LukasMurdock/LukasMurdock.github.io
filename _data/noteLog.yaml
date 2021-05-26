@@ -4,10 +4,15 @@
     literally just me.
   prettyTime: '08:12 PM · May 25, 2021'
 - initialTimestamp: 2021-05-26 00:03:26.000000000 Z
-  note: "The final straw to finally build a notes page came from searching for a Mac
-    timer app, stumbling across [Matthew Palmers](https://matthewpalmer.net/blog/2018/09/28/top-free-countdown-timer-apps-mac/index.html)
-    site, and seeing his standing invitation page.  \n&nbsp;  <br/>\nAnd I’ve been
-    wanting a place for just haphazardness."
+  note: |- 
+    The final straw to finally build a notes page came from:
+    1. Wanting to have some ideal calendar for writing
+    2. Looking at content calendar templates
+    3. Deciding I’ll just create my own *on this site*
+    4. Segue to searching for a Mac timer app
+    5. Stumbling across [Matthew Palmers](https://matthewpalmer.net/blog/2018/09/28/top-free-countdown-timer-apps-mac/index.html)
+    site
+    6. Seeing his standing invitation page."
   prettyTime: '08:03 PM · May 25, 2021'
 - initialTimestamp: 2021-05-25 23:57:34.000000000 Z
   note: "[The Now page movement](https://sive.rs/nowff): A public declaration of priorities."

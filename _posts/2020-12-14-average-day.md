@@ -8,7 +8,14 @@ tags: annual
 
 ## 2021
 
-So far, the work has been splitting keeping up with school work with building the website and portal for Virra with React/Next.js. And 
+So far, the work has been splitting keeping up with school work with building the website and portal for Virra with React/Next.js.
+
+Average day in 2021 looks like checking:
+- Email
+- Slack
+- Readwise
+- NetNewsWire
+- Hacker News
 
 Summer ideas:
 - Read a buncho books
