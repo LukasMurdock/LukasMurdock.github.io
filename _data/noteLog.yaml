@@ -1,11 +1,19 @@
 ---
-- initialTimestamp: 2021-05-26T09:37:16-04:00
+- initialTimestamp: 2021-05-26 11:27:05.000000000 -04:00
   note: |-
-    We all start somewhere. [https://groups.google.com/g/comp.lang.java/c/aSPAJO05LIU/m/ushhUIQQ-ogJ](https://groups.google.com/g/comp.lang.java/c/aSPAJO05LIU/m/ushhUIQQ-ogJ)
+    I’m organizing my life:
+    - [Sorted3](https://www.sortedapp.com/) for auto hyper-scheduling
+    - [TickTick](https://ticktick.com/) for maintaining focus on tasks in menu bar
+    - [Horo](https://matthewpalmer.net/horo-free-timer-mac/) for quick timers in menu bar
+  prettyTime: 11:27 AM · May 26, 2021
+- initialTimestamp: 2021-05-26 09:37:16.000000000 -04:00
+  note: We all start somewhere. [https://groups.google.com/g/comp.lang.java/c/aSPAJO05LIU/m/ushhUIQQ-ogJ](https://groups.google.com/g/comp.lang.java/c/aSPAJO05LIU/m/ushhUIQQ-ogJ)
+  prettyTime: '09:37 AM · May 26, 2021'
 - initialTimestamp: 2021-05-26 08:52:04.000000000 -04:00
-  note: Periodically try to prune dead links on my site with [SF](https://www.screamingfrog.co.uk/seo-spider/). The ephemeralness
-    is saddening. “[programming is rather thankless. u see your works become replaced
-    by superior ones in a year. unable to run at all in a few more](http://www.slate.com/articles/technology/technology/2012/03/ruby_ruby_on_rails_and__why_the_disappearance_of_one_of_the_world_s_most_beloved_computer_programmers_.single.html).”
+  note: Periodically try to prune dead links on my site with [SF](https://www.screamingfrog.co.uk/seo-spider/).
+    The ephemeralness is saddening. “[programming is rather thankless. u see your
+    works become replaced by superior ones in a year. unable to run at all in a few
+    more](http://www.slate.com/articles/technology/technology/2012/03/ruby_ruby_on_rails_and__why_the_disappearance_of_one_of_the_world_s_most_beloved_computer_programmers_.single.html).”
   prettyTime: '08:52 AM · May 26, 2021'
 - initialTimestamp: 2021-05-26 00:17:23.000000000 -04:00
   note: Adding node and npm to the long list of things you need to keep track of in

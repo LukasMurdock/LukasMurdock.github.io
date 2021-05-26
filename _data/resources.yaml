@@ -2730,6 +2730,11 @@ fulldata:
   #Email
   - Type: Email
     List:
+      - Title: Backlinko, The Definitive Guide to Email Marketing
+        Link: "https://backlinko.com/email-marketing-guide"
+        Comment: "Build your email list, Improve your open rates, Write amazing newsletters, and Turn more subscribers into customers."
+        Date: May 26, 2021
+
       - Title: HTML to Text Email
         Link: https://templates.mailchimp.com/resources/html-to-text/
         Comment: "Mailchimp's Email Design HTML to Text Email Converter."

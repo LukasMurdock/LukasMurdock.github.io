@@ -1,5 +1,19 @@
 ---
 isbns:
+- isbn: 9780316451383
+  dateWanted: May 26, 2021
+  title: Noise
+  subtitle: A Flaw in Human Judgment
+  author:
+  - Daniel Kahneman
+  - Olivier Sibony
+  - Cass R. Sunstein
+  publishedDate: '2021-05-18'
+  pageCount: 464
+  categories:
+  - Psychology
+  image: "/images/books/noise.jpeg"
+  notFound: false
 - isbn: 9780192829825
   dateWanted: February 15, 2021
   title: Walden
