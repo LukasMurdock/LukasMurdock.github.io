@@ -2,19 +2,19 @@
   "items": [
     {
       "volumeInfo": {
-        "title": "The Scout Mindset",
-        "subtitle": "Why Some People See Things Clearly and Others Don't",
+        "title": "The Clock of the Long Now",
+        "subtitle": "Time and Responsibility",
         "authors": [
-          "Julia Galef"
+          "Stewart Brand"
         ],
-        "publishedDate": "2021",
-        "description": "A better way to combat knee-jerk biases and make smarter decisions, from Julia Galef, the acclaimed expert on rational decision-making and host of the \"Rationally Speaking\" podcast. We see what we want to see. From tribalism in politics, to wishful thinking and rationalizing in our personal lives, humans are natural-born motivated reasoners. We have what Julia Galef calls a \"soldier\" mindset: the drive to defend ideas we want to believe, and shoot down those we don't. Instead, Galef argues, if we want to get things right more often, we should train ourselves to have a \"scout\" mindset. A scout's goal isn't to defend one side over the other. It's to go out, survey the territory, and come back with as accurate a map as possible. Regardless of what they hope to be the case, above all, the scout wants to know what's actually true. Galef's insight is that what makes scouts better at getting things right isn't that they're smarter or more knowledgeable than everyone else. It's a handful of emotional skills, habits, and ways of looking at the world - which anyone can learn. With fascinating examples ranging from how to survive an emergency, to how Jeff Bezos avoids overconfidence, to Obama's way of coping with risk, to Reddit threads and modern partisan politics, Galef explores why our brains deceive us and what we can do to change the way we think.",
-        "pageCount": 288,
+        "publishedDate": "2000-03",
+        "description": "Civilization is revving itself into a pathologically short attention span. This text describes a long-term project designed to encourage people to think beyond the psychological barrier of the millennium and into the future. The Long Now Foundation, founded by some of the world's most influential and cutting-edge thinkers, plan to build a gigantic mechanical clock, perhaps as large as Stonehenge, in the American desert. It is intended to record time for 10,000 years.",
+        "pageCount": 190,
         "categories": [
-          "Business & Economics"
+          "Clocks and watches"
         ],
         "imageLinks": {
-          "thumbnail": "http://books.google.com/books/content?id=wJ0jEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "thumbnail": "http://books.google.com/books/content?id=H2hLPgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
         }
       }
     }

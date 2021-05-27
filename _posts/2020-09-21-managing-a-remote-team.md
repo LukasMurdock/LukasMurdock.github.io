@@ -59,3 +59,6 @@ The following is a paraphrased and quoted section from [The Basecamp Guide to In
 28. **Address the gaps before they widen with time.** Ask if things are clear. Ask what you left out. Ask if there was anything someone was expecting that you didn't cover.
 29. **The right communication in the wrong place might as well not exist at all.** When someone relies on search to find something it’s often because it wasn’t where they expected something to be.
 30. **Good communication is about saying the right thing at the right time in the right way with the fewest side effects.**
+
+[Active? Away? How about neither.
+](https://world.hey.com/jason/active-away-how-about-neither-ed70fd69)

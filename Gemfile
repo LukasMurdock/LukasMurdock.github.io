@@ -13,6 +13,8 @@ group :jekyll_plugins do
     gem 'httparty'
     gem 'down'
     gem 'activesupport'
+    gem 'rsvg2', '~> 3.0', '>= 3.0.7'
+    gem 'victor'
     gem 'stamp', '~> 0.6.0'
 end
 

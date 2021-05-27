@@ -1,5 +1,29 @@
 ---
 isbns:
+- isbn: 9780753810125
+  dateWanted: May 27, 2021
+  title: The Clock of the Long Now
+  subtitle: Time and Responsibility
+  author:
+  - Stewart Brand
+  publishedDate: 2000-03
+  pageCount: 190
+  categories:
+  - Clocks and watches
+  image: "/images/books/the-clock-of-the-long-now.jpeg"
+  notFound: false
+- isbn: 9780394756820
+  dateWanted: May 27, 2021
+  title: Gödel, Escher, Bach
+  subtitle: An Eternal Golden Braid
+  author:
+  - Douglas R. Hofstadter
+  publishedDate: '1999'
+  pageCount: 800
+  categories:
+  - Artificial intelligence.
+  image: "/images/books/gdel-escher-bach.jpeg"
+  notFound: false
 - isbn: 9780735217553
   dateWanted: April 13, 2021
   title: The Scout Mindset

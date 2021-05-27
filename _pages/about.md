@@ -99,6 +99,7 @@ Various technologies I dove into before I started tracking when I learned them. 
 - Data [science](https://r4ds.had.co.nz/introduction.html)/[analysis](https://xcelab.net/rm/statistical-rethinking/), R, [Bayesian](https://xcelab.net/rm/statistical-rethinking/), Python
     - [R for Data Science](https://r4ds.had.co.nz/introduction.html)
     - [R for applied epidemiology and public health](https://epirhandbook.com/)
+    - [R for SEO](https://www.rforseo.com/)
 - Piano
 - Web scraping
 - Rails

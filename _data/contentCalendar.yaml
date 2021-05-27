@@ -1,4 +1,28 @@
 ---
+
+
+- idea: Data Analysis on Links
+  priority: 0
+  targetDate: 2021-05-30
+  notes: >
+    1. Have python scrape http strings from this site’s .yaml files
+    2. Have python load every URL and store it’s final destination URL
+    3. Crawl the links on those URLs as well
+    4. Data analysis on most:
+      - most linked pages
+      - most linked domains
+
+
+- idea: Marketing your work // Your work is a product
+  priority: 0
+  targetDate: 2021-05-30
+  notes: >
+    The work of marketing your work is where your work begins.
+    https://jvns.ca/blog/brag-documents/
+    https://youtu.be/xqgH9j3x2OE
+    https://www.cracked.com/blog/6-harsh-truths-that-will-make-you-better-person/
+    https://www.solipsys.co.uk/new/SellYourselfSellYourWork.html
+
 - idea: Defining goals and good product
   priority: 0
   targetDate: 2021-05-30
@@ -23,6 +47,7 @@
     https://brianlovin.com/writing/reasons-you-arent-updating-your-personal-site
     That one dudes personal site course
     “A digital garden”
+    https://jvns.ca/blog/2021/05/24/blog-about-what-you-ve-struggled-with/
 
 - idea: Semantic Versioning
   priority: 0

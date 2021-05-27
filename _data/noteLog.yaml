@@ -1,35 +1,54 @@
 ---
-- initialTimestamp: 2021-05-27T02:12:09-04:00
+- initialTimestamp: 2021-05-27 16:05:46.000000000 -04:00
+  note: "[Open Source Airtable alternative](https://github.com/nocodb/nocodb)"
+  prettyTime: 04:05 PM · May 27, 2021
+- initialTimestamp: 2021-05-27 16:00:09.000000000 -04:00
+  note: "[Cascade timeline](https://cascade.page/)"
+  prettyTime: 04:00 PM · May 27, 2021
+- initialTimestamp: 2021-05-27 15:42:47.000000000 -04:00
+  note: "[Building a media scroller component](https://web.dev/building-a-media-scroller-component/)"
+  prettyTime: 03:42 PM · May 27, 2021
+- initialTimestamp: 2021-05-27 14:04:07.000000000 -04:00
   note: |-
-    [25 GitHub Repos you should bookmark](https://dev.to/devwriteups/25-github-repos-you-can-t-miss-to-bookmark-1ek1)
-- initialTimestamp: 2021-05-27T02:11:34-04:00
-  note: |-
-    [CS Algorithms](https://the-algorithms.com/language/javascript)
-- initialTimestamp: 2021-05-27T01:41:38-04:00
-  note: |-
-    [The Big List of Naughty Strings](https://github.com/minimaxir/big-list-of-naughty-strings/blob/master/blns.json)
-- initialTimestamp: 2021-05-27T00:59:48-04:00
+    - [Shady URL](http://shadyurl.com/): Don't just shorten your URL, make it suspicious and frightening.
+    - [URL Lengther](https://aaa.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.com/)
+  prettyTime: 02:04 PM · May 27, 2021
+- initialTimestamp: 2021-05-27 02:12:09.000000000 -04:00
+  note: "[25 GitHub Repos you should bookmark](https://dev.to/devwriteups/25-github-repos-you-can-t-miss-to-bookmark-1ek1)"
+  prettyTime: 02:12 AM · May 27, 2021
+- initialTimestamp: 2021-05-27 02:11:34.000000000 -04:00
+  note: "[CS Algorithms](https://the-algorithms.com/language/javascript)"
+  prettyTime: 02:11 AM · May 27, 2021
+- initialTimestamp: 2021-05-27 01:41:38.000000000 -04:00
+  note: "[The Big List of Naughty Strings](https://github.com/minimaxir/big-list-of-naughty-strings/blob/master/blns.json)"
+  prettyTime: 01:41 AM · May 27, 2021
+- initialTimestamp: 2021-05-27 00:59:48.000000000 -04:00
   note: |-
     Per Kevin Kelly’s [99 Additional Bits of unsolicited Advice](https://kk.org/thetechnium/99-additional-bits-of-unsolicited-advice/),
     learn the [Bowline knot](https://www.animatedknots.com/bowline-knot)
     and the [One-Handed Bowline](https://www.animatedknots.com/one-handed-bowline-knot)
-- initialTimestamp: 2021-05-26T23:46:03-04:00
-  note: |-
-    [Wizard zines](https://wizardzines.com/comics/)
-- initialTimestamp: 2021-05-26T23:14:16-04:00
-  note: |-
-    The International Phonetic Alphabet (IPA) is a set of symbols that linguists use to describe the sounds of spoken languages. Here’s an [interactive IPA chart](https://www.ipachart.com/).
-- initialTimestamp: 2021-05-26T23:09:23-04:00
+  prettyTime: 12:59 AM · May 27, 2021
+- initialTimestamp: 2021-05-26 23:46:03.000000000 -04:00
+  note: "[Wizard zines](https://wizardzines.com/comics/)"
+  prettyTime: 11:46 PM · May 26, 2021
+- initialTimestamp: 2021-05-26 23:14:16.000000000 -04:00
+  note: The International Phonetic Alphabet (IPA) is a set of symbols that linguists
+    use to describe the sounds of spoken languages. Here’s an [interactive IPA chart](https://www.ipachart.com/).
+  prettyTime: 11:14 PM · May 26, 2021
+- initialTimestamp: 2021-05-26 23:09:23.000000000 -04:00
   note: |-
     On the necessity to stand out:
     - [The death of the middle](https://eriktorenberg.substack.com/p/the-death-of-the-middle)
     - [Spiky point of view](https://www.weskao.com/blog/spiky-point-of-view-lets-get-a-little-controversial)
-- initialTimestamp: 2021-05-26T23:05:00-04:00
-  note: |-
-    [Full stack ethereum app](https://github.com/dabit3/full-stack-ethereum) with Solidity, Ethers.js, Hardhat, and The Graph
-- initialTimestamp: 2021-05-26T22:52:23-04:00
-  note: |-
-    [HTML Tips](https://markodenic.com/html-tips/) came across this a bit ago. If this is interesting, check out the HTML spec.
+  prettyTime: 11:09 PM · May 26, 2021
+- initialTimestamp: 2021-05-26 23:05:00.000000000 -04:00
+  note: "[Full stack ethereum app](https://github.com/dabit3/full-stack-ethereum)
+    with Solidity, Ethers.js, Hardhat, and The Graph"
+  prettyTime: 11:05 PM · May 26, 2021
+- initialTimestamp: 2021-05-26 22:52:23.000000000 -04:00
+  note: "[HTML Tips](https://markodenic.com/html-tips/) came across this a bit ago.
+    If this is interesting, check out the HTML spec."
+  prettyTime: 10:52 PM · May 26, 2021
 - initialTimestamp: 2021-05-26 22:50:51.000000000 -04:00
   note: "[ASCII Emoji](https://github.com/dysfunc/ascii-emoji)"
   prettyTime: 10:50 PM · May 26, 2021
@@ -96,11 +115,9 @@
   note: "[The Now page movement](https://sive.rs/nowff): A public declaration of priorities."
   prettyTime: 07:57 PM · May 25, 2021
 - initialTimestamp: 2021-05-26 03:55:45.000000000 Z
-  note: |-
-    The Standing Invitation page:
-    - [Patrick Mckenzie](https://www.kalzumeus.com/standing-invitation/)
-    - [Matthew Palmer](https://matthewpalmer.net/standing-invitation/)  
-    (also see [friendcatchers](https://www.swyx.io/friendcatchers/))
+  note: "The Standing Invitation page:\n- [Patrick Mckenzie](https://www.kalzumeus.com/standing-invitation/)\n-
+    [Matthew Palmer](https://matthewpalmer.net/standing-invitation/)  \n(also see
+    [friendcatchers](https://www.swyx.io/friendcatchers/))"
   prettyTime: 11:55 PM · May 25, 2021
 - initialTimestamp: 2021-05-26 03:41:24.000000000 Z
   note: okay I think it’s working now

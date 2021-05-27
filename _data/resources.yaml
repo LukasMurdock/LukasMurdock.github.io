@@ -85,6 +85,16 @@ fulldata:
         Comment: "We make tentative assumptions about the real world which we know are false but which we believe may be useful nonetheless."
         Date: May 31, 2020
 
+      - Title: "Stanford Encyclopedia of Philosophy"
+        Link: "https://plato.stanford.edu/"
+        Comment: "The Stanford Encyclopedia of Philosophy organizes scholars from around the world in philosophy and related disciplines to create and maintain an up-to-date reference work."
+        Date: 2021-05-27
+
+      - Title: "Visualizing the Stanford Encyclopedia of Philosophy"
+        Link: "https://www.visualizingsep.com/"
+        Comment: "An interactive visualization and search engine for exploring the Stanford Encyclopedia of Philosophy beautifully and powerfully."
+        Date: 2021-05-27
+
       - Title: The Good Service Scale
         Link: https://good.services/the-good-services-scale
         Comment: "Assess the quality of your service using the 15 Principles of Good Service Design."
@@ -1405,9 +1415,14 @@ fulldata:
         Date: July 16, 2020
 
       - Title: Related subreddits
-        Link: https://anvaka.github.io/sayit/?query=
+        Link: "https://anvaka.github.io/sayit/?query="
         Comment: "Discover the questions people are asking"
         Date: June 17, 2020
+
+      - Title: "Find Subreddits for your Niche"
+        Link: "https://www.findareddit.com/"
+        Comment: "Subreddits Categorized and Tagged."
+        Date: 2021-05-27
 
       - Title: Reddit Keyword Research Tool
         Link: "https://www.highervisibility.com/free-seo-tools/keyworddit/"
@@ -3736,3 +3751,8 @@ fulldata:
         Link: "https://galaxy.opensyllabus.org/"
         Comment: "A plot of the most frequently assigned texts in college courses."
         Date: Feb 18, 2021
+
+      - Title: "Education Freedom"
+        Link: "https://educationfreedomprogram.org/"
+        Comment: "Give students the freedom to get the most affordable and highest quality education."
+        Date: 2021-05-27
