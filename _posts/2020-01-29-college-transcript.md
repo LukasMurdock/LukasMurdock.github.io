@@ -115,6 +115,7 @@ ART 286 — 3 Credit Hours
 **Legal Environment of Business**  
 BLS 342 — 3 Credit Hours  
 <span class="full-underline" style="font-size: 12px;">Textbook:</span>[ Business Law: Text and Cases, Kenneth W. Clarkson/Roger LeRoy Miller](https://openlibrary.org/search?q=Business+Law+Text+and+Cases+Kenneth+W.+Clarkson&mode=everything){:target="_blank"}{:rel="noopener"}  
+<span class="full-underline" style="font-size: 12px;">Learn</span> [ Business Law](https://www.youtube.com/user/JMGordonful/playlists?view=50&sort=dd&shelf_id=2){:target="_blank"}{:rel="noopener"}  
 While this class surely wasn’t the best format for learning business law, I don’t know other resources (aside from Quizlets other people have made from this class) to learn what was taught in class.
 
 **Environmental Biology**  

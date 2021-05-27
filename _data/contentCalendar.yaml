@@ -1,4 +1,10 @@
 ---
+- idea: Defining goals and good product
+  priority: 0
+  targetDate: 2021-05-30
+  notes: >
+    What are the goals of common CPGs (e.g. shampoo/conditioner, toothbrush, mouthwash, shaver) and how might we evaluate them?
+
 
 - idea: Email analysis on newsletter links
   priority: 0
@@ -6,6 +12,8 @@
   notes: >
     https://towardsdatascience.com/email-automation-analytics-and-visualization-53b022e0f9a0
     Grabs the top links in emails like that MSCHF newsletter
+    App to:
+    1. Select newsletter emails
 
 
 - idea: A Personal Site

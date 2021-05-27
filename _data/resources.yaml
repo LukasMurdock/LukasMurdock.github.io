@@ -2707,6 +2707,11 @@ fulldata:
         Comment: "An unofficial alternative hacker news interface."
         Date: Apr 22, 2020
 
+      - Title: Hacker News Classics
+        Link: "https://jsomers.net/hn/"
+        Comment: "An unofficial alternative hacker news interface."
+        Date: May 26, 2021
+
       - Title: MF Website
         Link: http://motherfuckingwebsite.com/
         Comment: "This is a motherfucking website. And it's fucking perfect."
@@ -2730,10 +2735,15 @@ fulldata:
   #Email
   - Type: Email
     List:
-      - Title: Backlinko, The Definitive Guide to Email Marketing
+      - Title: Backlinko Guide to Email Marketing
         Link: "https://backlinko.com/email-marketing-guide"
         Comment: "Build your email list, Improve your open rates, Write amazing newsletters, and Turn more subscribers into customers."
         Date: May 26, 2021
+
+      - Title: "Email explained from first principles"
+        Link: "https://explained-from-first-principles.com/email/#preface"
+        Comment: "All aspects of modern email."
+        Date: 2021-05-26
 
       - Title: HTML to Text Email
         Link: https://templates.mailchimp.com/resources/html-to-text/
@@ -3501,6 +3511,16 @@ fulldata:
         Link: "https://varun.ca/noise/"
         Comment: "Varun Vachhar."
         Date: 2021-05-03
+
+      - Title: "Pts.js Demos"
+        Link: "https://ptsjs.org/demo/"
+        Comment: "Interactive demos of Pts. Pts is a javascript library that enables you to compose and visualize points in spaces."
+        Date: 2021-05-26
+
+      - Title: "Observable Plot"
+        Link: "https://observablehq.com/@observablehq/plot"
+        Comment: "A free, open-source JavaScript library to help you quickly visualize tabular data."
+        Date: 2021-05-26
 
         
 

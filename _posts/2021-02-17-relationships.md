@@ -139,6 +139,16 @@ For the most part, all you can control are the first two. One piece of advice: s
 
 And I’m speaking from experience. I viscerally felt that drop at 18; I’m not one to show up at parties. I’m lucky to have grown up in a neighborhood with a group of guys that became my band of brothers. But, at the time of writing, they’re not an active part of my life, and I’m not an active part of theirs. All of my friendships are dormant. That’s largely how I’ve always been; I’ve only ever actively confided in my partner. But, we got a lot of years to go, we’ll see how this goes—as of writing I’m only 20. 
 
+[Friendcatchers](https://www.swyx.io/friendcatchers/).
+
+A Friendcatcher is something you offer for free, that helps you catch friends:
+- **Tractable**: Solvable within the blogpost, guide, cheatsheet, or mini-app form factor you have picked.
+- **Resonant**: People say "F*** yeah this is what I need!" when they see your thing. Pay attention to pain.
+- **Underserved**: 101 guides are overdone. Do the 201 guide. Cover intersections of technologies.
+
+Basically: "Fill holes in the Internet".
+
+
 In college? College Info Geek’s Guide on [How to Make Friends in College](https://collegeinfogeek.com/make-friends-college/):
 - Campus Events
 - Campus Organizations

@@ -1,5 +1,17 @@
 ---
 isbns:
+- isbn: 9780735217553
+  dateWanted: April 13, 2021
+  title: The Scout Mindset
+  subtitle: Why Some People See Things Clearly and Others Don't
+  author:
+  - Julia Galef
+  publishedDate: '2021'
+  pageCount: 288
+  categories:
+  - Business & Economics
+  image: "/images/books/the-scout-mindset.jpeg"
+  notFound: false
 - isbn: 9780316451383
   dateWanted: May 26, 2021
   title: Noise

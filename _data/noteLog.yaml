@@ -1,4 +1,42 @@
 ---
+- initialTimestamp: 2021-05-27T02:12:09-04:00
+  note: |-
+    [25 GitHub Repos you should bookmark](https://dev.to/devwriteups/25-github-repos-you-can-t-miss-to-bookmark-1ek1)
+- initialTimestamp: 2021-05-27T02:11:34-04:00
+  note: |-
+    [CS Algorithms](https://the-algorithms.com/language/javascript)
+- initialTimestamp: 2021-05-27T01:41:38-04:00
+  note: |-
+    [The Big List of Naughty Strings](https://github.com/minimaxir/big-list-of-naughty-strings/blob/master/blns.json)
+- initialTimestamp: 2021-05-27T00:59:48-04:00
+  note: |-
+    Per Kevin Kelly’s [99 Additional Bits of unsolicited Advice](https://kk.org/thetechnium/99-additional-bits-of-unsolicited-advice/),
+    learn the [Bowline knot](https://www.animatedknots.com/bowline-knot)
+    and the [One-Handed Bowline](https://www.animatedknots.com/one-handed-bowline-knot)
+- initialTimestamp: 2021-05-26T23:46:03-04:00
+  note: |-
+    [Wizard zines](https://wizardzines.com/comics/)
+- initialTimestamp: 2021-05-26T23:14:16-04:00
+  note: |-
+    The International Phonetic Alphabet (IPA) is a set of symbols that linguists use to describe the sounds of spoken languages. Here’s an [interactive IPA chart](https://www.ipachart.com/).
+- initialTimestamp: 2021-05-26T23:09:23-04:00
+  note: |-
+    On the necessity to stand out:
+    - [The death of the middle](https://eriktorenberg.substack.com/p/the-death-of-the-middle)
+    - [Spiky point of view](https://www.weskao.com/blog/spiky-point-of-view-lets-get-a-little-controversial)
+- initialTimestamp: 2021-05-26T23:05:00-04:00
+  note: |-
+    [Full stack ethereum app](https://github.com/dabit3/full-stack-ethereum) with Solidity, Ethers.js, Hardhat, and The Graph
+- initialTimestamp: 2021-05-26T22:52:23-04:00
+  note: |-
+    [HTML Tips](https://markodenic.com/html-tips/) came across this a bit ago. If this is interesting, check out the HTML spec.
+- initialTimestamp: 2021-05-26 22:50:51.000000000 -04:00
+  note: "[ASCII Emoji](https://github.com/dysfunc/ascii-emoji)"
+  prettyTime: 10:50 PM · May 26, 2021
+- initialTimestamp: 2021-05-26 19:30:12.000000000 -04:00
+  note: Made a React [useReducer example](https://codesandbox.io/s/reducer-example-zcij5?file=/components/Reducer.js)
+    and compared it to useEffect. Best way to learn is to do.
+  prettyTime: 07:30 PM · May 26, 2021
 - initialTimestamp: 2021-05-26 11:27:05.000000000 -04:00
   note: |-
     I’m organizing my life:
@@ -61,7 +99,8 @@
   note: |-
     The Standing Invitation page:
     - [Patrick Mckenzie](https://www.kalzumeus.com/standing-invitation/)
-    - [Matthew Palmer](https://matthewpalmer.net/standing-invitation/)
+    - [Matthew Palmer](https://matthewpalmer.net/standing-invitation/)  
+    (also see [friendcatchers](https://www.swyx.io/friendcatchers/))
   prettyTime: 11:55 PM · May 25, 2021
 - initialTimestamp: 2021-05-26 03:41:24.000000000 Z
   note: okay I think it’s working now
