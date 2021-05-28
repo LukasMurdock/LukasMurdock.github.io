@@ -78,3 +78,9 @@ And here’s another example with a functional component vv
 </script>
 
 Note: Using React from a CDN like this should probably only be used to play around and learn React or to use React code in a non-React place–like this site!
+
+---
+
+I have an automated system to publish blog posts every friday. The day after I published this, I woke up to my ESP system suspending my account for trying to load React into an email.
+
+![Mailchimp account suspended](/images/posts/mailchimp-account-suspended.png)
