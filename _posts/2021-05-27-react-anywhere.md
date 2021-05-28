@@ -37,3 +37,41 @@ Okay, I already knew those two things. But I didn’t synthesize them to realize
     const element = <div className="container">This is loaded in react!</div>
     ReactDOM.render(element, rootElement)
 </script>
+
+And here’s another example with a functional component vv 
+
+{% highlight javascript %}
+// the code that loads React!
+<div id="root"></div>
+<script src="https://unpkg.com/react@16.13.1/umd/react.development.js"></script>
+<script src="https://unpkg.com/react-dom@16.13.1/umd/react-dom.development.js"></script>
+<script src="https://unpkg.com/@babel/standalone@7.8.3/babel.js"></script>
+<script type="text/babel">
+    function Element() {
+        const [state, setState] = React.useState(0)
+        return (
+            <div>
+                <button onClick={() => setState(state + 1)}>{state}</button>
+            </div>
+        )
+    }
+    const rootElement = document.getElementById('root')
+    const element = <div className="container">This is loaded in react!</div>
+    ReactDOM.render(<Element/>, rootElement)
+</script>
+{% endhighlight %}
+
+<div id="root2"></div>
+<script type="text/babel">
+    function Element() {
+        const [state, setState] = React.useState(0)
+        return (
+            <div>
+                <button onClick={() => setState(state + 1)}>{state}</button>
+            </div>
+        )
+    }
+    const rootElement = document.getElementById('root2')
+    const element = <div className="container">This is loaded in react!</div>
+    ReactDOM.render(<Element/>, rootElement)
+</script>
