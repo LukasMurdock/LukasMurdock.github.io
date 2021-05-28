@@ -75,3 +75,5 @@ And here’s another example with a functional component vv
     const element = <div className="container">This is loaded in react!</div>
     ReactDOM.render(<Element/>, rootElement)
 </script>
+
+Note: Using React from a CDN like this should probably only be used to play around and learn React or to use React code in a non-React place–like this site!
