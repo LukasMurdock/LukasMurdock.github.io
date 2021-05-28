@@ -17,9 +17,9 @@ Okay, I already knew those two things. But I didn’t synthesize them to realize
 {% highlight javascript %}
 // the code that loads React!
 <div id="root"></div>
-<script src="https://unpkg.com/react@16.13.1/umd/react.development.js"></script>
-<script src="https://unpkg.com/react-dom@16.13.1/umd/react-dom.development.js"></script>
-<script src="https://unpkg.com/@babel/standalone@7.8.3/babel.js"></script>
+<script src="https://unpkg.com/react@17^/umd/react.development.js"></script>
+<script src="https://unpkg.com/react-dom@17^/umd/react-dom.development.js"></script>
+<script src="https://unpkg.com/@babel/standalone@7^/babel.js"></script>
 <script type="text/babel">
     const rootElement = document.getElementById('root')
     const element = <div className="container">This is loaded in react!</div>
@@ -29,9 +29,9 @@ Okay, I already knew those two things. But I didn’t synthesize them to realize
 
 
 <div id="root"></div>
-<script src="https://unpkg.com/react@16.13.1/umd/react.development.js"></script>
-<script src="https://unpkg.com/react-dom@16.13.1/umd/react-dom.development.js"></script>
-<script src="https://unpkg.com/@babel/standalone@7.8.3/babel.js"></script>
+<script src="https://unpkg.com/react@^17/umd/react.development.js"></script>
+<script src="https://unpkg.com/react-dom@^17/umd/react-dom.development.js"></script>
+<script src="https://unpkg.com/@babel/standalone@^7/babel.js"></script>
 <script type="text/babel">
     const rootElement = document.getElementById('root')
     const element = <div className="container">This is loaded in react!</div>
@@ -43,9 +43,9 @@ And here’s another example with a functional component vv
 {% highlight javascript %}
 // the code that loads React!
 <div id="root"></div>
-<script src="https://unpkg.com/react@16.13.1/umd/react.development.js"></script>
-<script src="https://unpkg.com/react-dom@16.13.1/umd/react-dom.development.js"></script>
-<script src="https://unpkg.com/@babel/standalone@7.8.3/babel.js"></script>
+<script src="https://unpkg.com/react@^17/umd/react.development.js"></script>
+<script src="https://unpkg.com/react-dom@^17/umd/react-dom.development.js"></script>
+<script src="https://unpkg.com/@babel/standalone@^7/babel.js"></script>
 <script type="text/babel">
     function Element() {
         const [state, setState] = React.useState(0)
