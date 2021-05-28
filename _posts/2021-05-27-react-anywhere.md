@@ -17,9 +17,9 @@ Okay, I already knew those two things. But I didn’t synthesize them to realize
 {% highlight javascript %}
 // the code that loads React!
 <div id="root"></div>
-<script src="https://unpkg.com/react@17^/umd/react.development.js"></script>
-<script src="https://unpkg.com/react-dom@17^/umd/react-dom.development.js"></script>
-<script src="https://unpkg.com/@babel/standalone@7^/babel.js"></script>
+<script src="https://unpkg.com/react@^17/umd/react.development.js"></script>
+<script src="https://unpkg.com/react-dom@^17/umd/react-dom.development.js"></script>
+<script src="https://unpkg.com/@babel/standalone@^7/babel.js"></script>
 <script type="text/babel">
     const rootElement = document.getElementById('root')
     const element = <div className="container">This is loaded in react!</div>
