@@ -1,4 +1,7 @@
 ---
+- initialTimestamp: 2021-05-27 22:05:33.000000000 -04:00
+  note: You can use React anywhere?
+  prettyTime: 10:05 PM · May 27, 2021
 - initialTimestamp: 2021-05-27 19:17:20.000000000 -04:00
   note: Give me an editor with markdown support and tooling to create images and everything
     is version controlled.

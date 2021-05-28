@@ -1,0 +1,36 @@
+---
+layout: post
+title: 'You can use React anywhere?'
+description: ""
+date: May 27, 2021
+code: true
+---
+
+Two things:
+1. React is a JavaScript library.
+2. You can load JavaScript libraries as a `<script>` tag in any page with [UNPKG](https://unpkg.com/)
+
+
+{% highlight javascript %}
+// the code that loads React!
+<div id="root"></div>
+<script src="https://unpkg.com/react@16.13.1/umd/react.development.js"></script>
+<script src="https://unpkg.com/react-dom@16.13.1/umd/react-dom.development.js"></script>
+<script src="https://unpkg.com/@babel/standalone@7.8.3/babel.js"></script>
+<script type="text/babel">
+    const rootElement = document.getElementById('root')
+    const element = <div className="container">This is loaded in react!</div>
+    ReactDOM.render(element, rootElement)
+</script>
+{% endhighlight %}
+
+
+<div id="root"></div>
+<script src="https://unpkg.com/react@16.13.1/umd/react.development.js"></script>
+<script src="https://unpkg.com/react-dom@16.13.1/umd/react-dom.development.js"></script>
+<script src="https://unpkg.com/@babel/standalone@7.8.3/babel.js"></script>
+<script type="text/babel">
+    const rootElement = document.getElementById('root')
+    const element = <div className="container">This is loaded in react!</div>
+    ReactDOM.render(element, rootElement)
+</script>
