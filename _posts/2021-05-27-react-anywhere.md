@@ -4,6 +4,7 @@ title: 'You can use React anywhere?'
 description: "Today I learned…"
 date: May 27, 2021
 code: true
+display_in_newsletter: false
 ---
 
 
