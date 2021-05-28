@@ -1,4 +1,8 @@
 ---
+- initialTimestamp: 2021-05-27 19:17:20.000000000 -04:00
+  note: Give me an editor with markdown support and tooling to create images and everything
+    is version controlled.
+  prettyTime: 07:17 PM · May 27, 2021
 - initialTimestamp: 2021-05-27 16:05:46.000000000 -04:00
   note: "[Open Source Airtable alternative](https://github.com/nocodb/nocodb)"
   prettyTime: 04:05 PM · May 27, 2021
