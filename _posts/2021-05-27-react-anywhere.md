@@ -1,15 +1,18 @@
 ---
 layout: post
 title: 'You can use React anywhere?'
-description: ""
+description: "Today I learned…"
 date: May 27, 2021
 code: true
 ---
 
+
+
 Two things:
-1. React is a JavaScript library.
+1. React is a JavaScript library
 2. You can load JavaScript libraries as a `<script>` tag in any page with [UNPKG](https://unpkg.com/)
 
+Okay, I already knew those two things. But I didn’t synthesize them to realize you can use React pretty much anywhere.
 
 {% highlight javascript %}
 // the code that loads React!
