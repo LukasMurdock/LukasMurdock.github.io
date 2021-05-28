@@ -10,6 +10,7 @@ date: January 09, 2021
 - https://egghead.io/courses/the-beginner-s-guide-to-react
 - https://react2025.com/
 - https://usehooks.com/
+- [JavaScript to Know for React](https://kentcdodds.com/blog/javascript-to-know-for-react)
 
 ## Paid React Resources
 - https://epicreact.dev/

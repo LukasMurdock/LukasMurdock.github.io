@@ -1,7 +1,23 @@
 ---
+- initialTimestamp: 2021-05-28 11:59:12.000000000 -04:00
+  note: Testing out the [NPR One](https://one.npr.org/) podcast app
+  prettyTime: 11:59 AM · May 28, 2021
+- initialTimestamp: 2021-05-28 11:05:29.000000000 -04:00
+  note: Abstract Syntax Tree (AST) is a tree representation of program source code.
+    JavaScript [AST Explorer](https://astexplorer.net/)
+  prettyTime: 11:05 AM · May 28, 2021
+- initialTimestamp: 2021-05-28 10:32:23.000000000 -04:00
+  note: |-
+    In thinking about *slack* and how I want more of it, ideally I would transition from consuming 100+ newsletters a day to reading more old books and articles.
+    See:
+    - Austin Kleon’s [Read old books](https://austinkleon.com/2019/12/11/read-old-books/)
+    - [Online Great Books](https://onlinegreatbooks.com/)
+  prettyTime: 10:32 AM · May 28, 2021
 - initialTimestamp: 2021-05-28 10:13:31.000000000 -04:00
-  note: "[Slack](https://fs.blog/2021/05/slack/), [leisure](https://www.brainpickings.org/2015/08/10/leisure-the-basis-of-culture-josef-pieper/),
-    and [experience](https://lettersofnote.com/2021/03/01/live-a-life-worth-living/)."
+  note: |-
+    [Slack](https://fs.blog/2021/05/slack/), [leisure](https://www.brainpickings.org/2015/08/10/leisure-the-basis-of-culture-josef-pieper/),
+    and [experience](https://lettersofnote.com/2021/03/01/live-a-life-worth-living/).
+    Slack enables leisure, leisure is not a time to retreat from the world. Rather, it’s a time for poetry, prayer, and philosophy — a chance to reflect on where we’ve been, where we are, and where we’re going.
   prettyTime: 10:13 AM · May 28, 2021
 - initialTimestamp: 2021-05-28 08:13:09.000000000 -04:00
   note: Woke up today… I think using React in an email suspended by ESP account…
