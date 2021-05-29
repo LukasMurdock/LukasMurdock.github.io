@@ -110,7 +110,7 @@ Different languages have different development environments, (and there are mult
 
 -   Ruby (main package manager: Bundler)
 -   Java (main package manager: Maven)
--   Python (main package manager: Pip)
+-   Python (main package manager: Pipenv)
 -   JavaScript (main package manager: NPM)
 
 Okay, now that we know about developer App Stores, it's time to explore our options. What we're looking for is a tool to easily template our HTML, CSS, and JS for us and make it so we don't have to write all of our content in HTML. Because if we had to write all of our content in HTML, we'd never get anywhere!

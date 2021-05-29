@@ -13,9 +13,11 @@ So far, the work has been splitting keeping up with school work with building th
 Average day in 2021 looks like checking:
 - Email
 - Slack
-- Readwise
-- NetNewsWire
-- Hacker News
+- Checking on iOS
+    - YouTube
+    - NetNewsWire
+    - Readwise
+    - HackerNews
 
 Summer ideas:
 - Read a buncho books

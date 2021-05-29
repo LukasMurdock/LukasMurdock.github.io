@@ -162,3 +162,6 @@ I find this notable. What a time to be alive.
 Moved into new Florida house with parents.
 
 Joined Virra Marketing through Andre.
+
+Built my first production web application with Firebase and Next.js.
+
