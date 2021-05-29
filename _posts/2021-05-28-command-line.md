@@ -51,9 +51,9 @@ The sed substitute command has four parts:
 - `/../../g` Global replacement
 
 ### Use sed on inline string
-{% highlight console %}
+{% highlight shell %}
 echo "string" | sed 's/ring/yle/'
-// style
+# // style
 {% endhighlight %}
 
 ### Delete the first instance of a specific character
@@ -184,5 +184,18 @@ magick mogrify -format jpg *.webp
 # JPG compression
 convert INPUT.jpg -sampling-factor 4:2:0 -strip -quality 85 -interlace JPEG -colorspace RGB OUTPUT.jpg
 
+{% endraw %}
+{% endhighlight %}
+
+### Docker
+
+[Docker](https://www.docker.com/) delivers software by isolated containers.
+
+{% highlight shell %}
+{% raw %}
+# Get Jekyll in docker or something
+docker run --rm --volume="$PWD:/srv/jekyll" -p 4000:4000 jekyll/jekyll jekyll serve    
+
+Docker-compose up
 {% endraw %}
 {% endhighlight %}
