@@ -14,6 +14,9 @@ Here’s an overview:
 - wget
 - curl
 - awk (gawk)
+- FFmpeg
+- youtube-dl
+- ImageMagick
 
 ## Basic Terminal Things
 
@@ -46,7 +49,6 @@ The sed substitute command has four parts:
 
 ### Pattern Flags
 - `/../../g` Global replacement
-- 
 
 ### Use sed on inline string
 {% highlight console %}
@@ -72,6 +74,12 @@ Delete the first and last character in every line: `sed 's/.//;s/.$//' sample.tx
 
 Delete everything in a line followed by a character: `sed 's/a.*//' sample.txt`
 
+## ps
+ps shows what processes are running. You can use the `ps` command to find the process identifier (PID) of a process.
+
+You can use the PID to [kill the process](http://www-hermes.desy.de/Unixhelp/shell_jobz5.html)
+
+[Wizard zine for ps](https://wizardzines.com/comics/ps/)
 
 <style>
 kbd {
@@ -115,3 +123,66 @@ First, make sure you have Homebrew installed.
 AWK is a programming language for manipulating columns of data. gawk is the GNU implementation of awk with extensions.
 
 [Wizard Zines on awk](https://wizardzines.com/comics/awk/)
+
+### FFmpeg
+[FFmpeg](https://www.ffmpeg.org/) is a package to record, convert and stream audio and video.
+
+{% highlight shell %}
+{% raw %}
+# Convert .mp4 to .mp3
+ffmpeg -i FILE-TO-CONVERT.mp4 -q:a 0 -map a OUTPUT-FILE-NAME.mp3
+
+# Convert .mov to .mp4
+ffmpeg -i INPUT-VIDEO.mov -vcodec h264 -acodec mp2 OUTPUT-VIDEO.mp4
+
+# Combine video files
+ffmpeg -safe 0 -f concat -i fileCombine.txt -c copy output.mp4
+## fileCombine.txt
+### file ./video01.mov
+### file ./video02.mov
+
+{% endraw %}
+{% endhighlight %}
+
+See:
+- [Combine video files](https://ffmpeg.org/faq.html#How-can-I-concatenate-video-files)
+- [Normalize audio](https://trac.ffmpeg.orNg/wiki/AudioVolume)
+
+### youtube-dl
+
+[youtube-dl](https://youtube-dl.org/) is a package to download videos from YouTube and a few more sites.
+
+{% highlight shell %}
+{% raw %}
+# Download video from YouTube
+youtube-dl --recode-video mp4 VIDEO-LINK-OR-PLAYLIST-ID
+
+# Download audio from YouTube
+youtube-dl -f bestaudio --extract-audio --audio-format mp3 --audio-quality 0 VIDEO-LINK-OR-PLAYLIST-ID
+
+# Download single Frame image from YouTube
+ffmpeg -ss "[SCREENSHOT_TIME]" -i $(youtube-dl -f 22 --get-url "[YOUTUBE_URL]") -vframes 1 -q:v 2 "[FILENAME].jpeg"
+
+{% endraw %}
+{% endhighlight %}
+
+([H/T](https://askubuntu.com/questions/1155446/is-it-possible-to-only-download-a-single-frame-from-a-youtube-videos))
+
+
+### ImageMagick
+
+[ImageMagick](https://imagemagick.org/index.php) is a package to create, edit, compose, or convert images.
+
+{% highlight shell %}
+{% raw %}
+# Convert image (webp to jpg)
+magick INPUT.webp OUTPUT.jpg
+
+# Bulk image convert (web to jpg)
+magick mogrify -format jpg *.webp
+
+# JPG compression
+convert INPUT.jpg -sampling-factor 4:2:0 -strip -quality 85 -interlace JPEG -colorspace RGB OUTPUT.jpg
+
+{% endraw %}
+{% endhighlight %}
