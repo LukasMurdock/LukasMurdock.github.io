@@ -4,6 +4,7 @@ title: 'For Posterity'
 description: "For future generations."
 date: December 30, 2020
 tags: annual
+last_modified_at: 2020-12-30T13:51:30
 ---
 
 I don’t know when exactly it started, but I recall that I had a strange filter for decisions throughout my teenage years:

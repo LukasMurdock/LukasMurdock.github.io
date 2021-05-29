@@ -5,6 +5,8 @@ description: "Call it whatever you want. Marketing is what controls and expands 
 image: make-it-count.png
 date: January 20, 2021
 tags: annual
+# update
+last_modified_at: 2021-01-20T13:52:10
 ---
 
 Marketing is creation. Content creation, media creation, lead creation. Call it whatever you want.

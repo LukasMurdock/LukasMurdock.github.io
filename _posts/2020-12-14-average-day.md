@@ -4,6 +4,7 @@ title: 'Average Day'
 description: "What my average day looks like across the years."
 date: December 14, 2020
 tags: annual
+last_modified_at: 2021-05-29T13:51:13
 ---
 
 ## 2021

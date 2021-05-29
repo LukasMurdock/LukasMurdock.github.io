@@ -1,7 +1,24 @@
 ---
-- initialTimestamp: 2021-05-29T12:01:13-04:00
+- initialTimestamp: 2021-05-29T16:53:35-04:00
   note: |-
-    Trying to be one of [today’s lucky 10,000](https://xkcd.com/1053/), everyday.
+    Feel dumb, I just realized git can be used locally. Github acts like an offsite backup (among other things ofc)
+- initialTimestamp: 2021-05-29 15:31:34.000000000 -04:00
+  note: |-
+    - [■,■,■,■].map(■→●) ⇒ [●,●,●,●]
+    - [■,●,■,▲].filter(■→true) ⇒ [■,■]
+    - [■,●,■,▲].find(●→true) ⇒ ●
+    - [■,●,■,▲].findIndex(●→true) ⇒ 1
+    - [■,●,■,▲].fill(●) ⇒ [●,●,●,●]
+    - [■,●,■,▲].some(●→true) ⇒ true
+    - [■,●,■,▲].every(●→true) ⇒ false
+    - ([H/T](https://twitter.com/rauschma/status/1398668839177568259?s=20))
+  prettyTime: 03:31 PM · May 29, 2021
+- initialTimestamp: 2021-05-29 14:24:26.000000000 -04:00
+  note: Idk if I’ll ever use it again, but here’s [File Juicer](https://echoone.com/filejuicer/).
+  prettyTime: 02:24 PM · May 29, 2021
+- initialTimestamp: 2021-05-29 12:01:13.000000000 -04:00
+  note: Trying to be one of [today’s lucky 10,000](https://xkcd.com/1053/), everyday.
+  prettyTime: 12:01 PM · May 29, 2021
 - initialTimestamp: 2021-05-28 11:59:12.000000000 -04:00
   note: Testing out the [NPR One](https://one.npr.org/) podcast app
   prettyTime: 11:59 AM · May 28, 2021

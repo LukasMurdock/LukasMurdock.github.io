@@ -4,11 +4,14 @@ title: 'Command Line'
 description: ""
 date: May 28, 2021
 code: true
+tags: annual
 ---
 
-First, I’m currently running an Intel Mac.
+First, I’m currently running an Intel Mac, and using Homebrew as a package manager.
 
-Here’s an overview:
+[Top brew packages](https://gist.github.com/pmkay/e09034971b6f23214fd9f95a3e6d1c44)
+
+Here’s an overview of utilities:
 - grep
 - sed
 - wget
@@ -17,11 +20,33 @@ Here’s an overview:
 - FFmpeg
 - youtube-dl
 - ImageMagick
+- taskwarrior
 
 ## Basic Terminal Things
+[Keyboard shortcuts in Terminal on Mac
+](https://support.apple.com/guide/terminal/keyboard-shortcuts-trmlshtcts/mac)
+- Clear terminal: <kbd>Command</kbd> + <kbd>K</kbd>
+- Clear terminal line: <kbd>Control</kbd> + <kbd>U</kbd>
+- Delete forward to the end of the word: <kbd>Escape</kbd> + <kbd>D</kbd>
+    - <kbd>Option</kbd> + <kbd>D</kbd> is available with [Use Option as Meta Key](https://support.apple.com/guide/terminal/change-profiles-keyboard-preferences-trmlkbrd/2.11/mac/11.0))
+- Reposition insertion point: <kbd>Option</kbd> + <kbd>Click</kbd>
+
+- Open an app: `open -a slack`
+
+## iTerm2
+[iTerm2 Features](https://iterm2.com/features.html)
+
+[iTerm2 Cheatsheet](https://gist.github.com/squarism/ae3613daf5c01a98ba3a)
+
+Turn on [Natural Text Editing](https://apple.stackexchange.com/questions/136928/using-alt-cmd-right-left-arrow-in-iterm)
+
+- Have [left option key](https://stackoverflow.com/a/48002681/12161293) act as <kbd>escape</kbd>
 
 ## pipes |
 The Pipe character <kbd>|</kbd> is used to combine two or more commands, and in this, the output of one command acts as input to another command
+
+## cat
+[cat](http://www.linfo.org/cat.html) is mostly used for displaying, combining and creating text files.
 
 ## grep
 Grep lets you search files for text that matches a pattern.
@@ -199,3 +224,40 @@ docker run --rm --volume="$PWD:/srv/jekyll" -p 4000:4000 jekyll/jekyll jekyll se
 Docker-compose up
 {% endraw %}
 {% endhighlight %}
+
+### Taskwarrior
+
+Taskwarrior manages a TODO list from the command line.
+
+[Taskwarrior examples](https://taskwarrior.org/docs/examples.html)
+
+[Taskwarrior best practices](https://taskwarrior.org/docs/best-practices.html)
+
+{% highlight shell %}
+{% raw %}
+# Add a project and assign it a project
+task add project:{PROJECT} {INSERT TASK} 
+
+# Add a due date where appropriate:
+task {ID} modify due:31st
+
+# When you start working on a task, mark it started
+task {ID} start
+
+# If you know the priority of the task
+task {ID} modify priority:{L,M,H}
+
+# Add useful tags:
+task {ID} modify +{TAG} +{TAG}
+
+# Urgent next task?
+task {ID} modify +next
+
+# Represent dependencies where appropriate
+task {ID} modify depends:{OTHER_ID}
+
+{% endraw %}
+{% endhighlight %}
+
+[Taskwarrior date synonyms](https://taskwarrior.org/docs/dates.html#:~:text=you%20can%20use%20a%20date%20synonym%20instead)
+

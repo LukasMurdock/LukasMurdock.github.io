@@ -22,7 +22,40 @@
                 "serve"
             ],
             "type": "shell"
+        },
+        {
+            "label": "Serve jekyll site",
+            "command": "bundle",
+            "args": [
+                "exec",
+                "jekyll",
+                "serve"
+            ],
+            "type": "shell"
+        },
+        {
+            "label": "Open file in Chrome",
+            "command": "Chrome",
+            "detail": "Detail text",
+            "osx": {
+                "command": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+            },
+            "presentation": {
+                "reveal": "silent",
+                "showReuseMessage": true,
+
+            },
+            "args": [
+                "${file}"
+            ]
         }
-        
+    ],
+    "inputs": [
+        {
+            "id": "localhost",
+            "description": "Which port?",
+            "type": "promptString",
+            "default": "4000"
+        }
     ]
 }

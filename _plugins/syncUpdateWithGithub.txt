@@ -1,0 +1,18 @@
+---
+git ls-tree -r --name-only HEAD | while read filename; do
+  echo "$(git log -1 --format="%ad" -- $filename) $filename"
+done
+
+# output example
+# Fri May 28 10:16:18 2021 -0400 _posts/2021-05-27-your-work.md
+# Sat May 29 12:41:33 2021 -0400 _posts/2021-05-28-command-line.md
+
+---
+match lines with _posts
+---
+load filename
+---
+check if last_modified_date exists in file frontmatter `---/---`
+---
+set last_modified_date to the git ls-tree value
+---

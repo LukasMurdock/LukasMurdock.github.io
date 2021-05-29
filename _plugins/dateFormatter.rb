@@ -12,7 +12,6 @@ require 'active_support/core_ext/time'
 # initialTimestamp: insert Datetime
 # prettyTime: H:mm A · MMM DD, YYYY
 
-
 root_dir =  File.expand_path(".", Dir.pwd)
 yaml_dir = File.join(root_dir, "_data/noteLog.yaml")
 

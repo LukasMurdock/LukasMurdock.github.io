@@ -4,6 +4,8 @@ title: 'Chrome Extensions'
 description: "A list of useful Chrome Extensions."
 date: June 19, 2020
 tags: annual
+# update
+last_modified_at: 2020-06-19T13:50:00
 ---
 
 I have a [Chrome Apps section on my knowledge page](https://lukasmurdock.com/knowledge/#chrome%20apps) that I need to update. But before that I want to keep an ongoing list of Chrome Extensions I’ve installed. 

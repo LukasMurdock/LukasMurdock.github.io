@@ -2,8 +2,10 @@
 layout: post
 title: 'zero through nineteen'
 description: "As of writing, I have less than two weeks until I turn 20."
-tags: annual
 date: November 26, 2020
+tags: annual
+# update
+last_modified_at: 2021-05-29T13:50:39
 ---
 
 Edit 03/07/2021: I started this as a reflection of years as I neared my last of being a teenager. I like this and hopefully will keep it updated as a loose timeline of sorts.
