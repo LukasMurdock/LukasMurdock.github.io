@@ -28,6 +28,7 @@ Utilities:
 - tree
 - tmux
 - htop
+- carbon-now
 - github-cli
 
 ## Handy NPM Packages
@@ -36,11 +37,14 @@ Utilities:
 - [npkill](https://npkill.js.org/)
 - [npm-home](https://github.com/sindresorhus/npm-home#readme)
 - [carbon-now-cli](https://github.com/mixn/carbon-now-cli)
-    - `carbon-now <file> -l $HOME/documents/carbon-images --from-clipboard`
+    - `carbon-now <file> -l $HOME/documents/carbon-images`
     - `carbon-now -l $HOME/documents/carbon-images --from-clipboard`
-    - `carbon-now --from-clipboard`
 
-[Awesome CLI apps](https://github.com/agarrharr/awesome-cli-apps)
+Awesome lists:
+- [Awesome CLI apps](https://github.com/agarrharr/awesome-cli-apps)
+- [Awesome command line apps](https://github.com/herrbischoff/awesome-command-line-apps#readme)
+- [Awesome macOS command line](https://github.com/herrbischoff/awesome-macos-command-line#readme)
+
 
 ## Basic Terminal Things
 [Keyboard shortcuts in Terminal on Mac
@@ -301,6 +305,8 @@ Idk bouta figure this out though.
 
 Start tmux in iTerm2: `tmux -CC`
 
+### Carbon-now
+
 
 ### Github CLI
 
@@ -309,3 +315,5 @@ Start tmux in iTerm2: `tmux -CC`
 [Github CLI command list](https://cli.github.com/manual/)
 
 Get notifications: `gh api notifications`
+
+Only get the info we want: `gh api notifications | jq '.[] | {title: .subject.title, repository: .repository.name}'`

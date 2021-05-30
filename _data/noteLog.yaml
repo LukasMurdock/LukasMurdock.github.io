@@ -1,7 +1,12 @@
 ---
-- initialTimestamp: 2021-05-29T16:53:35-04:00
-  note: |-
-    Feel dumb, I just realized git can be used locally. Github acts like an offsite backup (among other things ofc)
+- initialTimestamp: 2021-05-29 23:21:51.000000000 -04:00
+  note: Just finished writing my first shell script. It creates a new markdown file
+    for the posts on this website with all the right formatting.
+  prettyTime: 11:21 PM · May 29, 2021
+- initialTimestamp: 2021-05-29 16:53:35.000000000 -04:00
+  note: Feel dumb, I just realized git can be used locally. Github acts like an offsite
+    backup (among other things ofc)
+  prettyTime: 04:53 PM · May 29, 2021
 - initialTimestamp: 2021-05-29 15:31:34.000000000 -04:00
   note: |-
     - [■,■,■,■].map(■→●) ⇒ [●,●,●,●]
