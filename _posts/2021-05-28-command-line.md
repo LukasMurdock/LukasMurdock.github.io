@@ -9,9 +9,10 @@ tags: annual
 
 First, I’m currently running an Intel Mac, and using Homebrew as a package manager.
 
-[Top brew packages](https://gist.github.com/pmkay/e09034971b6f23214fd9f95a3e6d1c44)
+[Homebrew analytics](https://formulae.brew.sh/analytics/)
 
-Here’s an overview of utilities:
+
+Utilities:
 - grep
 - sed
 - wget
@@ -21,6 +22,25 @@ Here’s an overview of utilities:
 - youtube-dl
 - ImageMagick
 - taskwarrior
+- jq
+- autojump
+- httrack
+- tree
+- tmux
+- htop
+- github-cli
+
+## Handy NPM Packages
+- [Release](https://github.com/vercel/release): automatically generates a new GitHub Release and populates it with the changes (commits) made since the last release
+- [npm-check-updates](https://github.com/raineorshine/npm-check-updates): `ncu -i`
+- [npkill](https://npkill.js.org/)
+- [npm-home](https://github.com/sindresorhus/npm-home#readme)
+- [carbon-now-cli](https://github.com/mixn/carbon-now-cli)
+    - `carbon-now <file> -l $HOME/documents/carbon-images --from-clipboard`
+    - `carbon-now -l $HOME/documents/carbon-images --from-clipboard`
+    - `carbon-now --from-clipboard`
+
+[Awesome CLI apps](https://github.com/agarrharr/awesome-cli-apps)
 
 ## Basic Terminal Things
 [Keyboard shortcuts in Terminal on Mac
@@ -35,6 +55,8 @@ Here’s an overview of utilities:
 
 ## iTerm2
 [iTerm2 Features](https://iterm2.com/features.html)
+
+- Autocomplete: <kbd>Command</kbd> + <kbd>;</kbd>
 
 [iTerm2 Cheatsheet](https://gist.github.com/squarism/ae3613daf5c01a98ba3a)
 
@@ -261,3 +283,29 @@ task {ID} modify depends:{OTHER_ID}
 
 [Taskwarrior date synonyms](https://taskwarrior.org/docs/dates.html#:~:text=you%20can%20use%20a%20date%20synonym%20instead)
 
+### jq
+[jq](https://stedolan.github.io/jq/) is a command-line JSON processor.
+
+### autojump
+[autojump](https://github.com/wting/autojump) is a faster way to navigate your filesystem.
+
+### tree
+
+### htop
+
+
+### tmux
+Idk bouta figure this out though.
+
+[Tmux cheatsheet](https://tmuxcheatsheet.com/)
+
+Start tmux in iTerm2: `tmux -CC`
+
+
+### Github CLI
+
+[GitHub CLI](https://cli.github.com/) brings GitHub to your terminal.
+
+[Github CLI command list](https://cli.github.com/manual/)
+
+Get notifications: `gh api notifications`
