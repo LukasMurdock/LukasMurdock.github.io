@@ -1,5 +1,18 @@
 ---
 isbns:
+- isbn: 9780135956915
+  dateRead: May 31, 2021
+  title: The Pragmatic Programmer
+  subtitle: your journey to mastery, 20th Anniversary Edition
+  author:
+  - David Thomas
+  - Andrew Hunt
+  publishedDate: '2019-07-30'
+  pageCount:
+  categories:
+  - Computers
+  image: "/images/books/the-pragmatic-programmer.jpeg"
+  notFound: false
 - isbn: 9780978440749
   dateWanted: February 04, 2021
   dateRead: February 04, 2021

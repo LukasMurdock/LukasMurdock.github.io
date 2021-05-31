@@ -32,6 +32,7 @@ Utilities:
 - github-cli
 
 ## Handy NPM Packages
+- (Manage NPM with volta)
 - [Release](https://github.com/vercel/release): automatically generates a new GitHub Release and populates it with the changes (commits) made since the last release
 - [npm-check-updates](https://github.com/raineorshine/npm-check-updates): `ncu -i`
 - [npkill](https://npkill.js.org/)
