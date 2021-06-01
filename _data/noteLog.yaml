@@ -1,4 +1,10 @@
 ---
+- initialTimestamp: 2021-05-31 21:57:03.000000000 -04:00
+  note: Just finished INSIDE by Bo Burnham. Thanks bo.
+  prettyTime: '09:57 PM · May 31, 2021'
+- initialTimestamp: 2021-05-31 12:26:13.000000000 -04:00
+  note: "[The original ELIZA](https://sites.google.com/view/elizagen-org/the-original-eliza)"
+  prettyTime: 12:26 PM · May 31, 2021
 - initialTimestamp: 2021-05-29 23:21:51.000000000 -04:00
   note: Just finished writing my first shell script. It creates a new markdown file
     for the posts on this website with all the right formatting.
