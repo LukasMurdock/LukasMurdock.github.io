@@ -149,41 +149,8 @@ In no particular order
 * [Less Wrong](https://www.lesswrong.com/) since 2020
 * [Long Now](https://longnow.org/) since 2020 #11261
 
-### Daily Software
-* Google Chrome
-* iA Writer
-* [VS Code](/vs-code/)
-* Signal
-* Spark Mail
-* Affinity Photo/Designer/Publisher
-* NetNewsWire
-* Readwise
-* Grammarly
-* Apple Books (Iowan book font, and full screen on my Mac when I can)
-
-[See the other applications I use](https://lukasmurdock.com/knowledge/#applications)
-
-### Hardware
-#### Hardware that goes with me everywhere
-* 2012 MacBook Pro
-    - 2TB SSD
-    - 16GB RAM
-* <del>2014 MacBook Air</del>
-* 2018 MacBook Pro 15-Inch (MR932LL/A)
-    - 250GB SSD
-    - 16GB RAM
-* <del>iPhone 5s</del>
-* <del>iPhone 8</del> (switched April 2021)
-* iPhone 12 mini
-* Kindle Paperwhite 10th Gen (PQ94WIF)
-
-
-#### Other Hardware
-* Custom PC built in 2016
-    - Dead, needs repairs
-* BenQ RL2455HM Monitor
-    * (alt) Lenovo ThinkVision T2254pC – mounted vertically
-* Philips Hue Go Light
+### Uses
+See: [uses](/uses)
 
 ### Mailing Lists
 * [Currently building list on Airtable](https://airtable.com/shrJNX4hOeufXgfOX)
@@ -428,7 +395,7 @@ My favorite fonts on Google Fonts.
 
 
 ### Companies that seem cool
-- Automaticc
+- Automattic
     - All-remote, WordPress, Tublr, WooCommerce, Jetpack, WP VIP, VaultPress, Akismet, Longreads, Simplenot, Crowdsignal, Happy Tools, Gravatar, WP for iOS
 - Basecamp
     - All-remote, DHH, JF, it’s Basecamp.

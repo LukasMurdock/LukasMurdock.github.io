@@ -1,5 +1,18 @@
 ---
 isbns:
+- isbn: 9781545461112
+  dateRead: June 02, 2021
+  title: The Manual
+  subtitle: A Philosopher's Guide to Life
+  author:
+  - Sam Torode
+  - Epictetus
+  - Ancient Renewal
+  publishedDate: '2017-05-11'
+  pageCount: 64
+  categories: Philosophy
+  image: "/images/books/the-manual.jpeg"
+  notFound: false
 - isbn: 9780135956915
   dateRead: May 31, 2021
   title: The Pragmatic Programmer

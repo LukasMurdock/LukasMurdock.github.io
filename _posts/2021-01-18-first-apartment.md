@@ -31,7 +31,7 @@ Things to acquire for apartment:
 - Water filter
 - Window coverings (required by lease agreement?)
 - Cooking appliances
-- Router
+- Router?
 - Renters Insurance
 - Misc Items
 

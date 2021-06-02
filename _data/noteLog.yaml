@@ -1,4 +1,7 @@
 ---
+- initialTimestamp: 2021-06-01 11:32:19.000000000 -04:00
+  note: Why am I just now hearing about [Microsoft Power Fx](https://docs.microsoft.com/en-us/power-platform/power-fx/overview)
+  prettyTime: 11:32 AM · Jun 01, 2021
 - initialTimestamp: 2021-05-31 21:57:03.000000000 -04:00
   note: Just finished INSIDE by Bo Burnham. Thanks bo.
   prettyTime: '09:57 PM · May 31, 2021'
@@ -112,7 +115,9 @@
     If this is interesting, check out the HTML spec."
   prettyTime: 10:52 PM · May 26, 2021
 - initialTimestamp: 2021-05-26 22:50:51.000000000 -04:00
-  note: "[ASCII Emoji](https://github.com/dysfunc/ascii-emoji)"
+  note: |-
+    - [ASCII Emoji](https://github.com/dysfunc/ascii-emoji)
+    - [ASCIImoji](http://asciimoji.com/)
   prettyTime: 10:50 PM · May 26, 2021
 - initialTimestamp: 2021-05-26 19:30:12.000000000 -04:00
   note: Made a React [useReducer example](https://codesandbox.io/s/reducer-example-zcij5?file=/components/Reducer.js)

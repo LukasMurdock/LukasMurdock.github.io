@@ -11,6 +11,7 @@ First, I’m currently running an Intel Mac, and using Homebrew as a package man
 
 [Homebrew analytics](https://formulae.brew.sh/analytics/)
 
+Timely -> [Missing Semester of Your CS Education](https://missing.csail.mit.edu/)
 
 Utilities:
 - grep
