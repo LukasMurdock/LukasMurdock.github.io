@@ -13,6 +13,10 @@ First, I’m currently running an Intel Mac, and using Homebrew as a package man
 
 Timely -> [Missing Semester of Your CS Education](https://missing.csail.mit.edu/)
 
+[Unofficial Guide to dotfiles on GitHub](https://dotfiles.github.io/tutorials/)
+
+Wes Bos [Command Line Power User](https://commandlinepoweruser.com/)
+
 Utilities:
 - grep
 - sed
