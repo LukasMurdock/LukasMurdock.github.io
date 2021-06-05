@@ -106,8 +106,6 @@ Various technologies I dove into before I started tracking when I learned them. 
 
 ### Companies I’ve Worked For
 
-I am a freelance writer, designer, developer, and marketer.
-
 March 2021 – Present  
 **[Virra](https://virramarketing.com/)** • *Front End Developer* • Remote  
 

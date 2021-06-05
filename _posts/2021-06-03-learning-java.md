@@ -5,9 +5,12 @@ description: ''
 date: 'June 03, 2021'
 ---
 
-CSE 148 Course Materials: WP V5 STUDENT PACKAGE FOR BIG JAVA LATE OBJECTS (Must be purchased new! Scum.)
+CSE 174 Course Materials: WP V5 STUDENT PACKAGE FOR BIG JAVA LATE OBJECTS (Must be purchased new! Scum.)
 
-Presumably the CSE 148 textbook is the first edition of [Big Java Late Objects](https://www.wiley.com/en-ad/Big+Java%3A+Late+Objects%2C+1st+Edition-p-9781118087886).
+Google Search for CSE 174:
+- [Benjamin Bowser](https://github.com/benjaminbowser/CSE174)
+
+Presumably the CSE 174 textbook is the first edition of [Big Java Late Objects](https://www.wiley.com/en-ad/Big+Java%3A+Late+Objects%2C+1st+Edition-p-9781118087886).
 
 Thankfully, this can be found within [Libgen](https://whereislibgen.vercel.app/).
 
