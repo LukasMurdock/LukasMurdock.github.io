@@ -19,7 +19,7 @@ This is reflected [later on in the development of this website](#about-this-webs
 ## Long Content
 I hope to work on projects that are too big to work on normally or too tedious. Thinking Long Now gives you a better perspective to tackle long-term tasks like gathering information for years. If one persists in collecting glimmers of genius for years, then even the dullest person may look a bit like a genius himself.
 
-Starting is hard. One solution is to never *start*. Have perpetual drafts tweaked from time to time. And the rest takes care of itself.
+Starting is hard. One solution is to never *start*. Have perpetual drafts tweaked from time to time. And the rest takes care of itself. It’s about starting, not finishing. Improving, not being perfect.
 
 I wish to create works that persist through time. Works in which the more time passes, the more they improve.
 
