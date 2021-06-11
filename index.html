@@ -26,14 +26,37 @@ last_modified_at: 2020-10-24T21:51:21+0000
 		<p id="SpeakableSummary" style="margin: 0; font-size: 1.0625rem;">I’m a student exploring design, development, and marketing.</p>
 	</div>
 
-
-
-
 	<figure style="margin: 0;">
 		<img src="/images/LM-portrait.jpg" style="min-height: 250px;" alt="Lukas-Murdock-Portrait">
 		<figcaption>Welcome to my corner of the net. Here’s to finding new ways to confuse yourself.</figcaption>
 	</figure>
+
 	<div class="mobile-margin">
+
+		<hr />
+		<a href="{{site.baseurl}}/forthefirsttime/">
+			<h2><span style="color:#333333; background-color: #9dfbbf; padding: 4px 8px;" id="forTheFirstTime" data-date="{{site.data.forTheFirstTime[0].date}}">0</span> Days Since I Did Something For The First Time</h2>
+		</a>
+		<hr/>
+		<script>
+			const firstTimeElement = document.getElementById('forTheFirstTime')
+			const today = new Date();
+			const currentDate = new Date(today.getFullYear(), today.getMonth(), today.getDate(), 0, 0, 0)
+			const firstTimeDate = new Date(firstTimeElement.dataset.date)
+
+			function treatAsUTC(date) {
+				const result = new Date(date);
+				result.setMinutes(result.getMinutes() - result.getTimezoneOffset());
+				return result;
+			}
+
+			function daysBetween(startDate, endDate) {
+				const millisecondsPerDay = 24 * 60 * 60 * 1000;
+				return (treatAsUTC(endDate) - treatAsUTC(startDate)) / millisecondsPerDay;
+			}
+			firstTimeElement.innerText = Math.floor(daysBetween(firstTimeDate, currentDate))
+		</script>
+
 		<div class="cardgrid-container">
 			  <div class="card-noshadow">
 				<div class="resource-text">
