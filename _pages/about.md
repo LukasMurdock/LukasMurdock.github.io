@@ -131,6 +131,12 @@ In no particular order
 - [Ise Grand Shrine](https://en.wikipedia.org/wiki/Ise_Grand_Shrine) in 2033!
 - Cambridge University Library
 - Walden Pond
+- Japan
+- Germany
+- Brazil
+- China
+- France
+- India
 
 ### Websites
 * [Gmail](mailto:lukas.murdock@gmail.com) since 2010

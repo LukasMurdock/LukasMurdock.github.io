@@ -29,4 +29,8 @@ Recognize that they are not alone in the world; they are part of a web of relati
 
 So if we care about their legacy, if we care about their future welfare, we have to care not just about their life, we have to care about all life.
 
+Your future self is depending on you.  
+Your descendants are depending on you.  
+Our future generations are depending on us.
+
 For posterity.

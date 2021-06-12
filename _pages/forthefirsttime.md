@@ -9,7 +9,7 @@ last_modified_at: 2021-06-10T23:26:14-0400
 
 {% for item in site.data.forTheFirstTime %}
 <div class="card-note" id="{{ item.date | url_encode }}">
-  {{ item.forThefirstTime | markdownify }}
+  {{ item.firsttime | markdownify }}
   <time>{{ item.date }}</time>
 </div>
 {% endfor %}
