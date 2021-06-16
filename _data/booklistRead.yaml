@@ -1,5 +1,18 @@
 ---
 isbns:
+- isbn: 9780141195988
+  dateRead: June 16, 2021
+  title: The Machine Stops
+  subtitle:
+  author:
+  - E. M. Forster
+  publishedDate: 1909-11
+  pageCount: 96
+  categories:
+  - Fantasy fiction, English
+  image: "/images/books/the-machine-stops.jpeg"
+  link: https://lukasmurdock.com/the-machine-stops/
+  notFound: false
 - isbn: 9781250250681
   dateRead: June 04, 2021
   title: How to Live on 24 Hours a Day
@@ -11,7 +24,7 @@ isbns:
   categories:
   - Self-Help
   image: "/images/books/how-to-live-on-24-hours-a-day.jpeg"
-  link: "https://lukasmurdock.com/24aday/"
+  link: https://lukasmurdock.com/24aday/
   notFound: false
 - isbn: 9781545461112
   dateRead: June 02, 2021
