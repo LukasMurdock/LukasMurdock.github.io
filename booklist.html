@@ -93,16 +93,26 @@ description: and really don't want to forget.
 
     {% for book in site.data.booklistRead.isbns %}
     <div class="grid-item"> 
-      <a rel="nofollow" target="_blank" href="https://www.google.com/search?q={{ book.title | append: '+by+'}}{{ book.author | first }}" >
+      {% if book.link %}
+      <a rel="nofollow" target="_blank" href="{{book.link}}">
+      {% else %}
+      <a rel="nofollow" target="_blank" href=" https://www.google.com/search?q={{ book.title | append: '+by+'}}{{ book.author | first }}">
+      {% endif %}
+      
         <!-- out.items[i].volumeInfo.title.replace(/ /g, +) + +by+ + out.items[i].volumeInfo.authors[0].replace(/ /g, +) -->
         <div>
          <img alt="{{ book.title }} book cover" src="{{ book.image | replace: 'http:','https:' | replace: '&edge=curl','' }}">
         </div>
       </a>
 
+
       <div>
         <h2>
+          {% if book.link %}
+          <a rel="nofollow" target="_blank" href="{{book.link}}" >{{ book.title }}</a>
+          {% else %}
           <a rel="nofollow" target="_blank" href="https://www.google.com/search?q={{ book.title | append: '+by+'}}{{ book.author | first }}" >{{ book.title }}</a>
+          {% endif %}
         </h2>
         <p class="item"><b>{{ book.subtitle }}</b></p>
         <p class="item">By {{ book.author | join: ', '}}</p>

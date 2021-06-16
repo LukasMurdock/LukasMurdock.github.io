@@ -2,18 +2,19 @@
   "items": [
     {
       "volumeInfo": {
-        "title": "The Manual",
-        "subtitle": "A Philosopher's Guide to Life",
+        "title": "How to Live on 24 Hours a Day",
+        "subtitle": "The Complete Original Edition",
         "authors": [
-          "Sam Torode",
-          "Epictetus",
-          "Ancient Renewal"
+          "Arnold Bennett"
         ],
-        "publishedDate": "2017-05-11",
-        "description": "\"If it is beyond your power to control, let it go.\"\"Do not wish that all things will go well with you, but that you will go well with all things.\"\"In this way, you will overcome life's challenges, rather than be overcome by them.\" Epictetus (c. AD 50-135) was a former Roman slave who became a great teacher, deeply influencing the future emperor Marcus Aurelius among many others. His philosophy, Stoicism, was practical, not theoretical--aimed at relieving human suffering here and now. Epictetus knew suffering--besides being enslaved, he was lame in one leg and walked with a crutch. The Manual is a collection of Epictetus' essential teachings and pithy sayings, compiled by one of his students. It is the most accessible and actionable guide to Stoic philosophy, as relevant today as it was in the Roman Empire.This new edition, published by Ancient Renewal, is rendered in contemporary English by Sam Torode.",
-        "pageCount": 64,
+        "publishedDate": "2020-02-04",
+        "description": "Learn to use your most precious commodity—time—to truly live. Arnold Bennet’s classic book, How to Live on 24 Hours a Day, has been changing the way people use and consider their time since it was first published in 1910. In the intervening century surprisingly little has changed—we still struggle to make use of our time and are often plagued by the persistent worry that we are not making the most of our lives. Bennett encourages readers to stop merely following the rote patterns of their lives and leverage their free hours by viewing time as a commodity like money—each of us is allotted exactly 24 hours every day to spend as we see fit. What we make of our lives will ultimately be a result of what we make of that time. Bennet’s prescription is simple, but revolutionary: consider the time outside your work day as an entirely separate day, sixteen hours (give or take) during which you are free to do anything you like to grow and improve yourself and your happiness. Building on that premise, he helps readers begin to take control of their time—starting with just 90 minutes three times a week—and use it to truly live. Bennet’s writing is realistic and his advice transcends the years since it was first written. How to Live on 24 Hours a Day is an honest and refreshing perspective on how we can seize control of our time and spend it in the wisest way possible.",
+        "pageCount": 112,
+        "categories": [
+          "Self-Help"
+        ],
         "imageLinks": {
-          "thumbnail": "http://books.google.com/books/content?id=5IUUtAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+          "thumbnail": "http://books.google.com/books/content?id=WSSaDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }
       }
     }

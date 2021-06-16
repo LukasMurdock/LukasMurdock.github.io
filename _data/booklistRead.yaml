@@ -1,5 +1,18 @@
 ---
 isbns:
+- isbn: 9781250250681
+  dateRead: June 04, 2021
+  title: How to Live on 24 Hours a Day
+  subtitle: The Complete Original Edition
+  author:
+  - Arnold Bennett
+  publishedDate: '1908'
+  pageCount: 112
+  categories:
+  - Self-Help
+  image: "/images/books/how-to-live-on-24-hours-a-day.jpeg"
+  link: "https://lukasmurdock.com/24aday/"
+  notFound: false
 - isbn: 9781545461112
   dateRead: June 02, 2021
   title: The Manual
