@@ -15,6 +15,52 @@ tags: annual
 
 Document how tools are used and where to go with questions.
 
+### Defining the work experience
+- People find projects they can make impactful contributions to
+- People find projects they can learn from contributing
+- Working on the team or on projects are meaningful to people
+- People feel a strong sense of belonging to the team or on the project
+- People identify with the mission and purpose of the team or project
+- People care about the future of the team or project
+- People strongly identify with the organization
+- Contributions are valued in the organization
+- Conflicts are resolved quickly within the team
+- Information is actively sought on the team
+- Responsibilities are shared on the team
+- Cross-functional collaboration is encouraged and rewarded on the team
+- Failure causes productive inquiry on the team
+- New ideas are welcomed on the team
+- Documentation explicitly states who has the authority to perform certain tasks
+- Documentation explicitly states who has influence over decisions
+- Documentation explicitly states how to gain authority, influence, or rank
+- People are interested in mentoring others
+- People who want mentorship can get it
+- The team explicitly offers mentorship to new hires
+- Everyone has a voice
+- When contributions are rejected, the rejection is explained
+- People assume the best about each other
+- People provide constructive feedback
+- People are thanked for their contributions
+- Problematic behavior is addressed in a timely manner
+- Problematic behavior is addressed fairly
+- People have the tools they need to do their job
+- People use personal judgement in carrying out their work
+- People understand what the intended purpose of their work
+- New contributors or new hires can easily find solutions
+- It is obvious where to go for help
+- It is obvious where to ask questions
+
+
+### Documentation
+- Documentation gives an example of how to use the code
+- Projects have READMEs that describe why the project exists or what problem it solves
+- READMEs provide install or setup instructions
+- There are clearly identified issues that are good for new contributors or new hires
+- Documentation uses language that is clear and accessible to new contributors/new hires and non-native speakers
+- Documentation is updated when the code changes
+- Each commit changes just one thing
+
+
 ### Optimize for Deep Work
 
 **Deep Work**: Professional activities performed in a state of distraction-free concentration that push your cognitive capabilities to their limit. These efforts create new value, improve your skill, and are hard to replicate.
