@@ -51,7 +51,9 @@ https://unix.stackexchange.com/a/487889
 
 - browse: `/scripts/startchrome.sh`
 - update: `/scripts/update.sh`
+    - update brew and git pull /scripts and /dotfiles
 - post: `/Lukasmurdock.github.io/post.sh`
+    - create and open new post
 
 ## Utilities
 
