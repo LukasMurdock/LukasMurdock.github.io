@@ -3,7 +3,75 @@ layout: post
 title: 'Managing a remote team'
 description: "How to manage and work with a remote team."
 date: September 21, 2020
+tags: annual
 ---
+
+## The Remote Office
+- **Synchronous communication**: Chat tools (Slack) enable a constant, real-time connection with your team.
+- **Digital workspace**: A place where you have full access to project progress and assignments of who’s doing what.
+- **Video meeting space**: Video tools (Zoom) give your team face time together.
+- **Open document storage**: Give everyone access to files they need with cloud-based shared document spaces (Dropbox, Google Drive, Confluence).
+- **Team Calendar**: A team calendar shows vacation and holidays, important launches and due dates, and shared meetings so you can visually see everyone’s availability.
+
+Document how tools are used and where to go with questions.
+
+### Optimize for Deep Work
+
+**Deep Work**: Professional activities performed in a state of distraction-free concentration that push your cognitive capabilities to their limit. These efforts create new value, improve your skill, and are hard to replicate.
+
+**Shallow Work**: Noncognitively demanding, logistical-style tasks, often performed while distracted. These efforts tend to not create much new value in the world and are easy to replicate.
+
+The reach the optimal state of deep work you need to work for extended periods with full concentration on a single task free from distraction. Organizational leaders must ensure people can do important work, ensure deep work over shallow work, and take away barriers to achieving deep work. Protect your team from distractions.
+
+The most common barrier to deep work: distraction. The most common distraction: chat.
+
+Chat is good for:
+1. Quickly tossing an idea back and forth
+2. Alerting people of time-critical information
+3. A sense of belonging
+
+Chat attacks attention and severely hinders deep work:
+1. Mental fatigue and exhaustion
+2. An unsustainable ASAP culture
+3. Fear of missing out or not having a say
+4. Thinking a line at a time rather than a thought at a time
+5. Implied consensus
+6. Knee-jerk responses
+7. Over-informing everyone in real-time
+8. Shallow work
+9. Lack of context
+
+Other barriers to deep work:
+- Shallow work
+- "multitasking"
+- Literally anything that grabs your attention during your work that is not your work
+- Not completely shutting down work thinking at the end of the workday
+
+## Establish Group Norms
+Group norms are informal and formal rules of how people interact. Group norms clarify roles and provide a sense of predictability.
+
+Document shared expectations explicitly.
+
+### Meeting Norms
+- No agenda, no meeting
+- We circulate meeting agendas at least 24 hours before meetings
+- At the start of the meeting, everyone reads the document
+- We begin and end meetings on time
+- We discuss problems directly, focusing on solutions rather than blame
+- We are engaged and present in meetings
+- If there is a reason we need to be less present, we communicate that to the group at the beginning of the meeting
+
+### Communication Norms
+- Meetings are the last resort, not the first option
+- Speaking only helps who’s in the room, writing helps everyone
+- Substantial decisions start and end with an exchange of complete thoughts, not one-line-at-a-time jousts. Write it up, don't chat it down.
+- Use threads
+- Use @ if you want someone to read a message
+- Over communicate: poor communication creates more work
+- Document things people also need to know and where the communication happens.
+- Never expect or require an immediate response. Urgency is overrated, ASAP is poison.
+- Communication shouldn't require schedule synchronization. Calendars have nothing to do with communication. Model, document, and share.
+
 
 The following is a summary of the [Know Your Team Intro: Managing Remote Teams](https://knowyourteam.com/m/lessons/161-managing-remote-teams/topics/1301-intro-managing-remote-teams).
 
@@ -60,5 +128,8 @@ The following is a paraphrased and quoted section from [The Basecamp Guide to In
 29. **The right communication in the wrong place might as well not exist at all.** When someone relies on search to find something it’s often because it wasn’t where they expected something to be.
 30. **Good communication is about saying the right thing at the right time in the right way with the fewest side effects.**
 
-[Active? Away? How about neither.
-](https://world.hey.com/jason/active-away-how-about-neither-ed70fd69)
+Related:
+- [Basecamp: Group Chat Problems](https://basecamp.com/guides/group-chat-problems)
+- [Active? Away? How about neither](https://world.hey.com/jason/active-away-how-about-neither-ed70fd69)
+- [Trello: How to manage a remote team](https://blog.trello.com/how-to-manage-a-remote-team)
+- [Doist: How to Create Group Norms That Make Your Team Stronger](https://blog.doist.com/group-norms-team-communication/)
