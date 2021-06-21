@@ -17,7 +17,44 @@ Timely -> [Missing Semester of Your CS Education](https://missing.csail.mit.edu/
 
 Wes Bos [Command Line Power User](https://commandlinepoweruser.com/)
 
-Utilities:
+## Git
+- `git status`
+- `git add <file>`
+- `git commit -m ""`
+- `git pull origin master`
+
+## Config
+- `/scripts`
+- `/dotfiles`
+
+To maintain configurations across computers I keep a `/dotfiles` folder in Github. This folder has the `.zshrc` file that I use. (I feel like this might be better as a Gist?)
+
+I clone the `/dotfiles` folder to the Home directory.
+
+### ZSH Config
+
+You can set $ZDOTDIR in .zshenv to specify an alternative location for the rest of your zsh configuration.
+
+```console
+export ZDOTDIR="$HOME/dotfiles"
+```
+
+https://unix.stackexchange.com/a/487889
+
+- `.zshenv`: Read every time
+- `.zprofile`: Read at login
+- `.zshrc`: Read when interactive
+- `.zlogin`: Read at login, but after `.zshrc`
+- `.zlogout`: Read at logout (in login shell)
+
+## Scripts // alias
+
+- browse: `/scripts/startchrome.sh`
+- update: `/scripts/update.sh`
+- post: `/Lukasmurdock.github.io/post.sh`
+
+## Utilities
+
 - grep
 - sed
 - wget
