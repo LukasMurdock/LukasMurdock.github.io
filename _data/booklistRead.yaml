@@ -1,5 +1,17 @@
 ---
 isbns:
+- isbn: 9780984358106
+  dateRead: June 22, 2021
+  title: The Millionaire Fastlane
+  subtitle: Crack the Code to Wealth and Live Rich for a Lifetime
+  author:
+  - MJ DeMarco
+  publishedDate: '2011-01-04'
+  pageCount: 336
+  categories:
+  - Business & Economics
+  image: "/images/books/the-millionaire-fastlane.jpeg"
+  notFound: false
 - isbn: 9780141195988
   dateRead: June 16, 2021
   title: The Machine Stops
@@ -539,7 +551,7 @@ isbns:
   image: "/images/books/influence.jpeg"
   notFound: false
 - isbn: 9780316005043
-  dateRead: ''
+  dateRead: 'July 19, 2017'
   title: Blink
   subtitle: The Power of Thinking Without Thinking
   author:
