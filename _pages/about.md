@@ -307,7 +307,7 @@ Also I like the benefits that come from static sites.
 ### Data Sources
 APIs → YAML, Markdown, and YAML files.
 
-Posts are stored as Markdown. Book data seen on [booklist](/booklist/) and [want-to-read](http://localhost:4000/wanttoread/) are pulled from APIs at build time and stored locally. The data for [knowledge](/knowledge/), [principles](/principles/), and [alivetime](/alivetime/) are YAML as well.
+Posts are stored as Markdown. Book data seen on [booklist](/booklist/) and [want-to-read](https://lukasmurdock.com/wanttoread/) are pulled from APIs at build time and stored locally. The data for [knowledge](/knowledge/), [principles](/principles/), and [alivetime](/alivetime/) are YAML as well.
 
 Using these data formats prevent me from any lock-in and give me control over all the files. To have a setup like this means that content edits are Git-based.
 

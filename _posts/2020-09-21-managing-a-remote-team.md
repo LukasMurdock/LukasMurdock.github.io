@@ -15,6 +15,18 @@ tags: annual
 
 Document how tools are used and where to go with questions.
 
+It’s the leaders role to:
+- Articulate unarguable goals and aspirations and *why*
+- Clearly define roles and responsibilities
+- Hire only people important to the business
+- Ensure important people can do important work
+	- Ensure deep work over shallow work
+	- Take away barriers
+	- Get out of the way and let them do their job
+- Ensure better communication
+	- Because poor communication creates more work
+	- Because poor communication degrades dignity and respect
+
 ### Defining the work experience
 - People find projects they can make impactful contributions to
 - People find projects they can learn from contributing
