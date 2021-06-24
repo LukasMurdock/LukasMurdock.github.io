@@ -3,6 +3,7 @@ layout: post
 title: 'Leadership'
 description: ''
 date: 'June 24, 2021'
+tags: annual
 ---
 
 - [Notes from Heroic Leadership](https://lukasmurdock.com/heroic-leadership/)

@@ -3,6 +3,7 @@ layout: post
 title: 'The Machine Stops'
 description: ''
 date: 'June 15, 2021'
+tags: otherAuthor
 ---
 
 Title: [The Machine Stops](https://en.wikipedia.org/wiki/The_Machine_Stops) (1909)

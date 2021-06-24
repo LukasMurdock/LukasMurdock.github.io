@@ -3,6 +3,7 @@ layout: post
 title: 'Pixar Story Rules'
 description: '22 Rules of Storytelling'
 date: 'June 23, 2021'
+tags: otherAuthor
 ---
 
 See [The Pixar Touch](https://www.davidaprice.com/pixar-story-rules)
