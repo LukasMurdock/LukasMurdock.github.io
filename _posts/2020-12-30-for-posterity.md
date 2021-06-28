@@ -34,3 +34,9 @@ Your descendants are depending on you.
 Our future generations are depending on us.
 
 For posterity.
+
+> This chasm that has been as naught to me  
+> To that fair-haired youth may a pitfall be;  
+> He, too, must cross in the twilight dim;  
+> Good friend, I am building this bridge for him!”  
+> – [Bridge Builder](/bridge-builder)

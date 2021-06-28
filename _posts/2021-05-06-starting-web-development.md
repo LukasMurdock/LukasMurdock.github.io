@@ -9,6 +9,16 @@ code: true
 
 Here’s my introduction to web development. I’ll continue working on this over time and hopefully it becomes as smooth as ice.
 
+For an overview, let’s divide web development into 7 parts.
+
+Part 1: HTML and CSS  
+Part 2: CSS frameworks  
+Part 3: JS and DOM  
+Part 4: Git and GitHub  
+Part 5: React / Angular / Vue  
+Part 6: Node.js (Backend)  
+Part 7: API and Database
+
 ## Languages of the Web
 
 Web pages are really just that. *Pages*. They're documents, just like papers you've written in the past. Documents with heading levels, sections, paragraphs, and more. The web started with the idea of *linking* documents. So let's learn how to create a document.

@@ -585,6 +585,11 @@ fulldata:
         Comment: "Eight sequences cover the most important ideas of effective altruism through articles, videos, and interactive exercises."
         Date: May 03, 2021
 
+      - Title: "Great Talks Most People Have Never Heard"
+        Link: "https://jamesclear.com/great-speeches"
+        Comment: "James Clear. Great speeches."
+        Date: 2021-06-28
+
 
   # Design
   - Type: Design
@@ -664,6 +669,11 @@ fulldata:
         Link: "https://gerireid.com/wcag-for-designers.html"
         Comment: "Web Content Accessibility Guidelines checklist."
         Date: August 11, 2020
+
+      - Title: "Data Color Picker"
+        Link: "https://learnui.design/tools/data-color-picker.html"
+        Comment: ""
+        Date: 2021-06-28
 
       - Title: Color & Contrast Picker
         Link: https://kevingutowski.github.io/color.html
@@ -3536,6 +3546,11 @@ fulldata:
         Link: "https://observablehq.com/@observablehq/plot"
         Comment: "A free, open-source JavaScript library to help you quickly visualize tabular data."
         Date: 2021-05-26
+
+      - Title: "Music Feeling Visualized"
+        Link: "https://www.ocf.berkeley.edu/~acowen/music.html#"
+        Comment: ""
+        Date: 2021-06-27
 
         
 

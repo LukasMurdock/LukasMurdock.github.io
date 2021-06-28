@@ -191,3 +191,4 @@ Related:
 - [Active? Away? How about neither](https://world.hey.com/jason/active-away-how-about-neither-ed70fd69)
 - [Trello: How to manage a remote team](https://blog.trello.com/how-to-manage-a-remote-team)
 - [Doist: How to Create Group Norms That Make Your Team Stronger](https://blog.doist.com/group-norms-team-communication/)
+- [How to build remote teams properly](https://www.vadimkravcenko.com/en/how-to-build-remote-teams-properly/)
