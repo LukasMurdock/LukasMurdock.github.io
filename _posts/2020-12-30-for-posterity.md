@@ -4,7 +4,7 @@ title: 'For Posterity'
 description: "For future generations."
 date: December 30, 2020
 tags: annual
-last_modified_at: 2020-12-30T13:51:30
+last_modified_at: 2021-06-28T19:13:37Z
 ---
 
 I don’t know when exactly it started, but I recall that I had a strange filter for decisions throughout my teenage years:
@@ -40,3 +40,9 @@ For posterity.
 > He, too, must cross in the twilight dim;  
 > Good friend, I am building this bridge for him!”  
 > – [Bridge Builder](/bridge-builder)
+
+[How many cross without stopping to build bridges?](https://youtu.be/E8TkRKWGSVc)
+
+Are we bridge builders?
+
+How big are the bridges that we build?

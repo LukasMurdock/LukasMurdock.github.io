@@ -405,6 +405,11 @@ fulldata:
         Comment: "Examples of common UI elements and interactions with HTML and CSS alone."
         Date: July 16, 2020
 
+      - Title: "URLS: It’s Complicated"
+        Link: "https://www.netmeister.org/blog/urls.html"
+        Comment: "Let's play silly games with URLs…"
+        Date: 2021-06-28
+
       - Title: Project Engineering Lead Expectations
         Link: https://docs.google.com/document/d/1kngKHUCS0DHNvZAO8PfkcsTD4Mq7b11L09RIaVpQnwI/
         Comment: "Uber project lead expectations Gergely Orosz team has been using at Uber." 
@@ -590,6 +595,11 @@ fulldata:
         Comment: "James Clear. Great speeches."
         Date: 2021-06-28
 
+      - Title: "Types of Propaganda"
+        Link: "http://factmyth.com/types-of-propaganda-propaganda-techniques-and-propaganda-stratigies/"
+        Comment: "A list of types of propaganda, propaganda techniques, and propaganda strategies used to manipulate public opinion in the modern day."
+        Date: 2021-06-28
+
 
   # Design
   - Type: Design
@@ -770,10 +780,20 @@ fulldata:
         Comment: "The world's largest library of mobile user flows."
         Date: Oct 29, 2020
 
+      - Title: "Branding Style Guides"
+        Link: "https://brandingstyleguides.com/"
+        Comment: "An archive of branding style guidelines."
+        Date: 2021-06-28
+
       - Title: A collection of design systems
         Link: https://github.com/alexpate/awesome-design-systems
         Comment: "A curated list of design systems, pattern libraries, and everything between."
         Date: Apr 22, 2020
+
+      - Title: "Empty States"
+        Link: "https://emptystat.es/"
+        Comment: "A curated gallery showcasing designs where no data is available in the UI."
+        Date: 2021-06-28
 
       - Title: Design systems
         Link: https://www.designsystems.com/
@@ -2028,7 +2048,7 @@ fulldata:
         Date: June 23, 2020
 
       - Title: "Beej's Guide to Network Programming"
-        Link: "https://beej.us/guide/bgnet/html/"
+        Link: "https://beej.us/guide/bgnet/"
         Comment: "Using Internet Sockets."
         Date: February 17, 2021
 
@@ -3551,6 +3571,11 @@ fulldata:
         Link: "https://www.ocf.berkeley.edu/~acowen/music.html#"
         Comment: ""
         Date: 2021-06-27
+
+      - Title: "Fingerspelling"
+        Link: "https://fingerspelling.xyz/"
+        Comment: "Learn the ABC in American Sign Language with machine learning."
+        Date: 2021-06-28
 
         
 
