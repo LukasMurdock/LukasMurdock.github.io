@@ -1,4 +1,20 @@
 ---
+- initialTimestamp: 2021-06-30T01:18:38-04:00
+  note: |-
+    Effective Communication from _Politics and the English Language_:
+    1. Never use a metaphor, simile or other figure of speech which you are used to seeing in print.
+    2. Never use a long word where a short one will do.
+    3. If it is possible to cut a word out, always cut it out.
+    4. Never use the passive where you can use the active.
+    5. Never use a foreign phrase, a scientific word or a jargon word if you can think of an everyday English equivalent.
+    6. Break any of these rules sooner than say anything outright barbarous.
+- initialTimestamp: 2021-06-29T05:01:43-04:00
+  note: |-
+    I just might jump to Astro if they get a few things:
+    1. Prettier support
+    2. VS Code Go to Definition
+    3. Serverless functions
+    4. Components in Markdown posts
 - initialTimestamp: 2021-06-28 15:21:09.000000000 -04:00
   note: "Time To Dent (TTD) – The time it takes for people to start making things
     other people can use.\n> Put a dent in the universe.  \n> – Steve Jobs"
