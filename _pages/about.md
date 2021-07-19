@@ -14,8 +14,6 @@ I’m looking for more ways to apply the idea of [Long Now](https://en.wikipedia
 > The great French Marshall Lyautey once asked his gardener to plant a tree. The gardner objected that the tree was slow growing and wouldn't reach maturity for 100 years. The Marshall replied, "In that case, there is no time to lose; plant it this afternoon! \
 > ― John F. Kennedy
 
-This is reflected [later on in the development of this website](#about-this-website-development).
-
 ## Long Content
 I hope to work on projects that are too big to work on normally or too tedious. Thinking Long Now gives you a better perspective to tackle long-term tasks like gathering information for years. If one persists in collecting glimmers of genius for years, then even the dullest person may look a bit like a genius himself.
 

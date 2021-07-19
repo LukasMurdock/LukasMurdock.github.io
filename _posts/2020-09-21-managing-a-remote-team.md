@@ -193,3 +193,4 @@ Related:
 - [Doist: How to Create Group Norms That Make Your Team Stronger](https://blog.doist.com/group-norms-team-communication/)
 - [How to build remote teams properly](https://www.vadimkravcenko.com/en/how-to-build-remote-teams-properly/)
 - [Good meetings](https://css-tricks.com/good-meetings/)
+- [Atlassian Team Playbook](https://www.atlassian.com/team-playbook)
