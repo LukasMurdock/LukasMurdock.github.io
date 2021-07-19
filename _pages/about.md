@@ -31,6 +31,25 @@ So a goal is to actively think about how to write material that improves with ti
 
 I elevator pitch myself as a Designer, Developer, and Marketer, but here I try to give a more extensive view of who I am by taking a look at things I’ve spent my time learning. These are all things where I understand the joys and pains of using them, but I wouldn’t call myself a master of anything.
 
+### Core Values
+- Process over outcome.
+    - Infinite games over finite games
+- Think Less Wrong and act Long Now
+- When your stomach is in knots, make it heard.
+- [Give it five minutes](https://signalvnoise.com/posts/3124-give-it-five-minutes).
+- Attention is a gift. Don’t sell your attention, [refuse the transaction](https://vimeo.com/345624545).
+- [Interruption is assault](https://www.takingti.me/articles/interruptionasassault).
+- Find new ways to confuse yourself
+- The map is not the territory. Revising your map is a sign you’re doing things right.
+- [Search for better questions](http://kiriakakis.net/comics/mused/a-day-at-the-park).
+- [Build for posterity](https://lukasmurdock.com/for-posterity/), [build bridges when you cross](https://lukasmurdock.com/bridge-builder/).
+- [We shape our tools, and our tools shape us](https://vimeo.com/34017777).
+- Genshai: Never treat another person in a manner that would make them feel small – including yourself.
+- Trust by default.
+- [You have to trust your self](https://lukasmurdock.com/realize/#you-have-to-trust-your-self).
+- [We need you](https://lukasmurdock.com/realize/#we-need-you-to-make-a-ruckus).
+
+
 ### Technical Things I’ve Learned
 Various technologies I dove into before I started tracking when I learned them. (Before I turned 20)
 - macOS

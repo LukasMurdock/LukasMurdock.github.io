@@ -126,7 +126,7 @@ Again, advice for my future self. I’ll see you then.
 
 ## Friends
 
-Friends start falling after 18. Somber.
+Friends start falling after 18. Somber. You have to start [intentionally making close friends](https://www.lesswrong.com/posts/pfibDHFZ3waBo6pAc/intentionally-making-close-friends).
 
 [Crucial to making close friends](https://www.nytimes.com/2012/07/15/fashion/the-challenge-of-making-friends-as-an-adult.html):
 1. proximity;

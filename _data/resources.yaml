@@ -65,6 +65,11 @@ fulldata:
         Comment: "A self-guided class to help you get started in UX and answer key questions about craft, design, and career."
         Date: July 10, 2020
 
+      - Title: "Elements of product design"
+        Link: "https://jamiemill.com/blog/elements-of-product-design/"
+        Comment: "A model explaining product design as a stack of decisions built on top of a stack of knowledge."
+        Date: 2021-07-18
+
       - Title: "Product Management World"
         Link: "https://www.prodmgmt.world/"
         Comment: "A collection of techniques to help young product teams move forward."
@@ -600,6 +605,31 @@ fulldata:
         Comment: "A list of types of propaganda, propaganda techniques, and propaganda strategies used to manipulate public opinion in the modern day."
         Date: 2021-06-28
 
+      - Title: "Custom Domains"
+        Link: "https://www.learnenough.com/custom-domains-tutorial"
+        Comment: ""
+        Date: 2021-07-18
+
+      - Title: "How to get a job"
+        Link: "https://80000hours.org/career-guide/how-to-get-a-job/"
+        Comment: "80000 Hours career guide"
+        Date: 2021-07-18
+
+      - Title: "Awesome Software Engineering"
+        Link: "https://github.com/rolanddb/awesome-software-engineering"
+        Comment: ""
+        Date: 2021-07-18
+
+      - Title: "Atlassian Team Playbook"
+        Link: "https://www.atlassian.com/team-playbook"
+        Comment: "Free workshop resources for addressing common team challenges and starting important conversations."
+        Date: 2021-07-18
+
+      - Title: "JAMStack development tools"
+        Link: "https://bejamas.io/discovery/"
+        Comment: "by Bejamas."
+        Date: 2021-07-18
+
 
   # Design
   - Type: Design
@@ -850,6 +880,11 @@ fulldata:
         Comment: "A landing template that shows you how to write unignorable web copy."
         Date: August 11, 2020
 
+      - Title: "Landing Folio"
+        Link: "https://landingfolio.com/"
+        Comment: ""
+        Date: 2021-07-18
+
       - Title: "SaaS Landing Page Cheatsheet"
         Link: "https://www.cortes.design/saas-landing-page-cheatsheet"
         Comment: ""
@@ -1080,6 +1115,11 @@ fulldata:
         Link: "https://ant.design/"
         Comment: "A design system for enterprise-level products."
         Date: March 23, 2021
+      
+      - Title: "Cari Institute"
+        Link: "https://cari.institute/"
+        Comment: "Consumer Aesthetics Research Institute (CARI), is an online community dedicated to developing a visual lexicon of consumer ephemera from the 1970s until now."
+        Date: 2021-07-18
 
 
   # Guides to SEO
@@ -2282,6 +2322,16 @@ fulldata:
         Link: https://google-webfonts-helper.herokuapp.com/fonts
         Comment: "A tool to self-host Google Fonts hassle-free."
         Date: June 17, 2020
+
+      - Title: "Fluid Typography"
+        Link: "https://fluid-typography.netlify.app/"
+        Comment: "Create text that scales with the window size."
+        Date: 2021-07-18
+
+      - Title: "The Good Line-Height"
+        Link: "https://www.thegoodlineheight.com/"
+        Comment: "Find the good line-height."
+        Date: 2021-07-18
 
       - Title: Font style matcher
         Link: "https://meowni.ca/font-style-matcher/"
@@ -3576,6 +3626,21 @@ fulldata:
         Link: "https://fingerspelling.xyz/"
         Comment: "Learn the ABC in American Sign Language with machine learning."
         Date: 2021-06-28
+
+      - Title: "Fluid Paint"
+        Link: "https://david.li/paint/"
+        Comment: "Fluid paint simulation"
+        Date: 2021-07-18
+
+      - Title: "Joy Generator"
+        Link: "https://apps.npr.org/joy-generator/#story=menu&page=0"
+        Comment: "NPR's Joy Generator"
+        Date: 2021-07-18
+
+      - Title: "UI Glass Generator"
+        Link: "https://ui.glass/generator/"
+        Comment: ""
+        Date: 2021-07-18
 
         
 
