@@ -7,49 +7,6 @@
   # date        (2020-12-18)
 
 records:
-
-  - date: "2020-12-24" # What do you want to remember that you did today?
-    fields: #tasks
-      - Name: "SEO updates for New Wander"
-        Category: ""
-        Tags: #change me
-          - making
-        Description: ""
-        isPrivate: false
-        dateAdded: "2020-12-24 00:54:39"
-        dateCompleted: ""
-  
-  
-
-  - date: "2020-12-23" # What do you want to remember that you did today?
-    fields: #tasks
-      - Name: "Started building New Wander"
-        Category: ""
-        Tags: #change me
-          - making
-        Description: "Came up with the idea yesterday. Emailed Thomas Frank, starting building site, purchased domain name, purchased podcast hosting."
-        isPrivate: false
-        dateAdded: "2020-12-23 17:43:33"
-        dateCompleted: ""
-
-      - Name: "Recorded first episode of New Wander"
-        Category: ""
-        Tags: #change me
-        - making
-        Description: "It was me. Garbage, but still it’s a start."
-        isPrivate: false
-        dateAdded: "2020-12-23 21:20:10"
-        dateCompleted: "2020-12-23 21:22:34"
-
-      - Name: "Initialized New Wander site on Netlify"
-        Category: ""
-        Tags: #change me
-        - making
-        Description: ""
-        isPrivate: false
-        dateAdded: "2020-12-24 00:53:59"
-        dateCompleted: "2020-12-24 00:54:21"
-  
   
 
   - date: "2020-12-22" # What do you want to remember that you did today?

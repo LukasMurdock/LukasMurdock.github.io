@@ -215,14 +215,14 @@ Regard self-growth, development and learning as a cornerstone of life and daily 
 - I am willing to fight for my ideas, tell people what I really think, and be frank with my views, including critical feedback.
 - I have a strong desire to prioritize and support others’ needs, and am fascinated by their behaviors and tendencies, with moderate sensitivity to their emotions and feelings in the moment.
 - I am willing to take charge in groups, and tend to lead more through holding myself and and others to high standards of performance rather than through motivation and inspiration.
-- I have a moderate prefereance and appreciation for humor, being light-hearted and not taking matters too seriously.
+- I have a moderate preference and appreciation for humor, being light-hearted and not taking matters too seriously.
 
 **How I apply myself**:
 - I tend to remain calm, confident, and controlled under stress or pressure.
-- I hold myself accountable to the outcomes I experiences, am self-motivated, and have a moderate inclination to operate independently, without needing must direction or guidance in accomplishing tasks or goals.
+- I hold myself accountable to the outcomes I experiences, am self-motivated, and have a moderate inclination to operate independently, without needing direction or guidance in accomplishing tasks or goals.
 - I tend to embrace change and uncertainty, and am versatile at shifting the roles I play in different circumstances, and am very interested in my own growth and development.
 - I work hard to go after ambitious goals and tend to take action to seize opportunities and solve problems I confront, though may be distractable and don’t always push through to finish what I start.
-- I like to explore different perspectives and are open to being wrong, receptive to critical feedback in order to learn, and modest.
+- I like to explore different perspectives and I’m open to being wrong, receptive to critical feedback in order to learn, and modest.
 - I have high levels of stamina, enthusiasm, and energy in work and life.
 - I am comfortable with my station in life, content to be who I am and don’t worry much about others’ impressions of me.
 
@@ -245,8 +245,8 @@ Regard self-growth, development and learning as a cornerstone of life and daily 
 - Anticipate and welcome change by reacting to it when it happens
 - Think creating overly detailed plans in anticipation of change is futile
 - Find intrigue in the unexpected and am comfortable changing tactics as events unfold
-- Like to handle things as they come and don't mind if I end up in a different place than you set out
-- Try to establish clear goals and objectives, but are less diligent in tracking progress against deadlines
+- Like to handle things as they come and don't mind if I end up in a different place than was set out
+- Try to establish clear goals and objectives, but am less diligent in tracking progress against deadlines
 - Care about pushing through but may benefit from an external forcing mechanism to get me there
 - Prefer to think about about the big picture
 - Approach planning and thinking in an unstructured and sometimes messy way
@@ -272,7 +272,7 @@ Regard self-growth, development and learning as a cornerstone of life and daily 
 - Tend to be a good listener
 - Confront challenges directly and push back on attempts to lower the bar
 - Make a strong effort to strike a balance between focusing on my own work and pitching in to help the team
-- May perceive others as overly rigid, while others may perceive you as too casual or spontaneous
+- May perceive others as overly rigid, while others may perceive me as too casual or spontaneous
 
 **Under stress, I**:
 - Remain calm, cool, and focused on what matters most
