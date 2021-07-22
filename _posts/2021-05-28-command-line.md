@@ -21,7 +21,8 @@ Wes Bos [Command Line Power User](https://commandlinepoweruser.com/)
 - `git status`
 - `git add <file>`
 - `git commit -m ""`
-- `git pull origin master`
+- `git pull origin main`
+- `git push origin main`
 
 ## Config
 - `/scripts`
