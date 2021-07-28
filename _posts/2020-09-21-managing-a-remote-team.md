@@ -194,3 +194,4 @@ Related:
 - [How to build remote teams properly](https://www.vadimkravcenko.com/en/how-to-build-remote-teams-properly/)
 - [Good meetings](https://css-tricks.com/good-meetings/)
 - [Atlassian Team Playbook](https://www.atlassian.com/team-playbook)
+- [High Impact Managers](https://review.firstround.com/the-25-micro-habits-of-high-impact-managers)

@@ -30,6 +30,8 @@ So a goal is to actively think about how to write material that improves with ti
 I elevator pitch myself as a Designer, Developer, and Marketer, but here I try to give a more extensive view of who I am by taking a look at things I’ve spent my time learning. These are all things where I understand the joys and pains of using them, but I wouldn’t call myself a master of anything.
 
 ### Core Values
+- [Tsuyoku Naritai](https://www.lesswrong.com/posts/DoLQN5ryZ9XkZjq5h/tsuyoku-naritai-i-want-to-become-stronger)–I want to become stronger.
+    - The important thing is to do better, to keep moving ahead, to take one more step forward.
 - Process over outcome.
     - Infinite games over finite games
 - Think Less Wrong and act Long Now
@@ -37,6 +39,7 @@ I elevator pitch myself as a Designer, Developer, and Marketer, but here I try t
 - [Give it five minutes](https://signalvnoise.com/posts/3124-give-it-five-minutes).
 - Attention is a gift. Don’t sell your attention, [refuse the transaction](https://vimeo.com/345624545).
 - [Interruption is assault](https://www.takingti.me/articles/interruptionasassault).
+- Write it up, don’t chat it down.
 - Find new ways to confuse yourself
 - The map is not the territory. Revising your map is a sign you’re doing things right.
 - [Search for better questions](http://kiriakakis.net/comics/mused/a-day-at-the-park).
