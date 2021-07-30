@@ -21,6 +21,139 @@ Things are packages of emphasis... Some things are emphasized in a product, some
 
 We are about making better products. And what I love about the consumer market that I always hated about the enterprise market, is that: we come up with a product, we try to tell everybody about it and every person votes for themselves. They go yes or no. And if enough of them say yes, we get to come to work tomorrow. You know that’s how it works. It’s really simple. Whereas with the enterprise market, it’s not so simple. The people that use the products don’t decide for themselves, the people that make those decisions sometimes are confused. We love just trying to make the best products in the world for people. And having them tell us by how they vote with their wallets whether we’re on track or not.
 
+## 2008 exclusive interview with Fortune
+
+[Source](https://money.cnn.com/galleries/2008/fortune/0803/gallery.jobsqna.fortune/index.html)
+
+### On the birth of the iPhone
+
+We all had cellphones. We just hated them, they were so awful to use. The software was terrible. The hardware wasn't very good. We talked to our friends, and they all hated their cellphones too. Everybody seemed to hate their phones. And we saw that these things really could become much more powerful and interesting to license. It's a huge market. I mean a billion phones get shipped every year, and that's almost an order of magnitude greater than the number of music players. It's four times the number of PCs that ship every year.
+
+It was a great challenge. Let's make a great phone that we fall in love with. And we've got the technology. We've got the miniaturization from the iPod. We've got the sophisticated operating system from Mac. Nobody had ever thought about putting operating systems as sophisticated as OS X inside a phone, so that was a real question. We had a big debate inside the company whether we could do that or not. And that was one where I had to adjudicate it and just say, 'We're going to do it. Let's try.' The smartest software guys were saying they can do it, so let's give them a shot. And they did.
+
+### On Apple's connection with the consumer
+
+We did iTunes because we all love music. We made what we thought was the best jukebox in iTunes. Then we all wanted to carry our whole music libraries around with us. The team worked really hard. And the reason that they worked so hard is because we all wanted one. You know? I mean, the first few hundred customers were us.
+
+It's not about pop culture, and it's not about fooling people, and it's not about convincing people that they want something they don't. We figure out what we want. And I think we're pretty good at having the right discipline to think through whether a lot of other people are going to want it, too. That's what we get paid to do.
+
+So you can't go out and ask people, you know, what the next big [thing.] There's a great quote by Henry Ford, right? He said, “If I'd have asked my customers what they wanted, they would have told me "A faster horse.”
+
+### On choosing strategy
+
+We do no market research. We don't hire consultants. The only consultants I've ever hired in my 10 years is one firm to analyze Gateway's retail strategy so I would not make some of the same mistakes they made [when launching Apple's retail stores]. But we never hire consultants, per se. We just want to make great products.
+
+When we created the iTunes Music Store, we did that because we thought it would be great to be able to buy music electronically, not because we had plans to redefine the music industry. I mean, it just seemed like writing on the wall, that eventually all music would be distributed electronically. That seemed obvious because why have the cost? The music industry has huge returns. Why have all this [overhead] when you can just send electrons around easily?
+
+### On what drives Apple employees
+We don't get a chance to do that many things, and every one should be really excellent. Because this is our life. Life is brief, and then you die, you know? So this is what we've chosen to do with our life. We could be sitting in a monastery somewhere in Japan. We could be out sailing. Some of the [executive team] could be playing golf. They could be running other companies. And we've all chosen to do this with our lives. So it better be damn good. It better be worth it. And we think it is.
+
+#### On why people want to work at Apple
+The reason is, is because you can't do what you can do at Apple anywhere else. The engineering is long gone in most PC companies. In the consumer electronics companies, they don't understand the software parts of it. And so you really can't make the products that you can make at Apple anywhere else right now. Apple's the only company that has everything under one roof.
+
+There's no other company that could make a MacBook Air and the reason is that not only do we control the hardware, but we control the operating system. And it is the intimate interaction between the operating system and the hardware that allows us to do that. There is no intimate interaction between Windows and a Dell notebook.
+
+Our DNA is as a consumer company -- for that individual customer who's voting thumbs up or thumbs down. That's who we think about. And we think that our job is to take responsibility for the complete user experience. And if it's not up to par, it's our fault, plain and simply.
+
+### On whether Apple could live without him
+We've got really capable people at Apple. I made Tim [Cook] COO and gave him the Mac division and he's done brilliantly. I mean, some people say, 'Oh, God, if [Jobs] got run over by a bus, Apple would be in trouble.' And, you know, I think it wouldn't be a party, but there are really capable people at Apple. And the board would have some good choices about who to pick as CEO. My job is to make the whole executive team good enough to be successors, so that's what I try to do.
+
+#### On his demanding reputation
+My job is to not be easy on people. My job is to make them better. My job is to pull things together from different parts of the company and clear the ways and get the resources for the key projects. And to take these great people we have and to push them and make them even better, coming up with more aggressive visions of how it could be.
+
+### On Apple's focus
+
+Apple is a $30 billion company, yet we've got less than 30 major products. I don't know if that's ever been done before. Certainly the great consumer electronics companies of the past had thousands of products. We tend to focus much more. People think focus means saying yes to the thing you've got to focus on. But that's not what it means at all. It means saying no to the hundred other good ideas that there are. You have to pick carefully.
+
+I'm actually as proud of many of the things we haven't done as the things we have done. The clearest example was when we were pressured for years to do a PDA, and I realized one day that 90% of the people who use a PDA only take information out of it on the road. They don't put information into it. Pretty soon cellphones are going to do that, so the PDA market's going to get reduced to a fraction of its current size, and it won't really be sustainable. So we decided not to get into it. If we had gotten into it, we wouldn't have had the resources to do the iPod. We probably wouldn't have seen it coming.
+
+### On his management style
+
+We've got 25,000 people at Apple. About 10,000 of them are in the stores. And my job is to work with sort of the top 100 people, that's what I do. That doesn't mean they're all vice presidents. Some of them are just key individual contributors. So when a good idea comes, you know, part of my job is to move it around, just see what different people think, get people talking about it, argue with people about it, get ideas moving among that group of 100 people, get different people together to explore different aspects of it quietly, and, you know - just explore things.
+
+#### On finding talent
+
+When I hire somebody really senior, competence is the ante. They have to be really smart. But the real issue for me is, Are they going to fall in love with Apple? Because if they fall in love with Apple, everything else will take care of itself. They'll want to do what's best for Apple, not what's best for them, what's best for Steve, or anybody else.
+
+Recruiting is hard. It's just finding the needles in the haystack. We do it ourselves and we spend a lot of time at it. I've participated in the hiring of maybe 5,000-plus people in my life. So I take it very seriously. You can't know enough in a one-hour interview. So, in the end, it's ultimately based on your gut. How do I feel about this person? What are they like when they're challenged? Why are they here? I ask everybody that: 'Why are you here?' The answers themselves are not what you're looking for. It's the meta-data."
+
+### On the benefits of owning an operating system
+
+That allows us to innovate at a much faster rate than if we had to wait for Microsoft, like Dell and HP and everybody else does. Because Microsoft has their own timetable, for probably good reasons. I mean Vista took what -- seven or eight years? It's hard to get your new feature that you need for your new hardware if it has to wait eight years. So we can set our own priorities and look at things in a more holistic way from the point of view of the customer. It also means that we can take it and we can make a version of it to fit in the iPhone and the iPod. And, you know, we certainly couldn't do that if we didn't own it.
+
+### On his marathon Monday meetings
+
+When you hire really good people you have to give them a piece of the business and let them run with it. That doesn't mean I don't get to kibitz a lot. But the reason you're hiring them is because you're going to give them the reins. I want [them] making as good or better decisions than I would. So the way to do that is to have them know everything, not just in their part of the business, but in every part of the business.
+
+So what we do every Monday is we review the whole business. We look at what we sold the week before. We look at every single product under development, products we're having trouble with, products where the demand is larger than we can make. All the stuff in development, we review. And we do it every single week. I put out an agenda -- 80% is the same as it was the last week, and we just walk down it every single week.
+
+We don't have a lot of process at Apple, but that's one of the few things we do just to all stay on the same page.
+
+### On dealing with roadblocks
+At Pixar when we were making Toy Story, there came a time when we were forced to admit that the story wasn't great. It just wasn't great. We stopped production for five months.... We paid them all to twiddle their thumbs while the team perfected the story into what became Toy Story. And if they hadn't had the courage to stop, there would have never been a Toy Story the way it is, and there probably would have never been a Pixar.
+
+We called that the 'story crisis,' and we never expected to have another one. But you know what? There's been one on every film. We don't stop production for five months. We've gotten a little smarter about it. But there always seems to come a moment where it's just not working, and it's so easy to fool yourself - to convince yourself that it is when you know in your heart that it isn't.
+
+Well, you know what? It's been that way with [almost] every major project at Apple, too.... Take the iPhone. We had a different enclosure design for this iPhone until way too close to the introduction to ever change it. And I came in one Monday morning, I said, 'I just don't love this. I can't convince myself to fall in love with this. And this is the most important product we've ever done.'
+
+And we pushed the reset button. We went through all of the zillions of models we'd made and ideas we'd had. And we ended up creating what you see here as the iPhone, which is dramatically better. It was hell because we had to go to the team and say, 'All this work you've [done] for the last year, we're going to have to throw it away and start over, and we're going to have to work twice as hard now because we don't have enough time.' And you know what everybody said? 'Sign us up.'
+
+That happens more than you think, because this is not just engineering and science. There is art, too. Sometimes when you're in the middle of one of these crises, you're not sure you're going to make it to the other end. But we've always made it, and so we have a certain degree of confidence, although sometimes you wonder. I think the key thing is that we're not all terrified at the same time. I mean, we do put our heart and soul into these things.
+
+### On the iPod tipping point
+
+It was difficult for a while because for various reasons the Mac had not been accepted by a lot of people, who went with Windows. And we were just working really hard, and our market share wasn't going up. It makes you wonder sometimes whether you're wrong. Maybe our stuff isn't better, although we thought it was. Or maybe people don't care, which is even more depressing.
+
+It turns out with the iPod we kind of got out from that operating-system glass ceiling and it was great because [it showed that] Apple innovation, Apple engineering, Apple design did matter. The iPod captured 70% market share. I cannot tell you how important that was after so many years of laboring and seeing a 4% to 5% market share on the Mac. To see something like that happen with the iPod was a great shot in the arm for everybody.
+
+#### On what they did next
+We made more. We worked harder. We said: 'This is great. Let's do more.' I mean, the Mac market share is going up every single quarter. We're growing four times faster than the industry. People are starting to pay a little more attention. We've helped it along. We put Intel processors in and we can run PC apps alongside Mac apps. We helped it along. But I think a lot of it is people have finally started to realize that they don't have to put up with Windows - that there is an alternative. I think nobody really thought about it that way before.
+
+
+### On launching the Apple store
+
+It was very simple. The Mac faithful will drive to a destination, right? They'll drive somewhere special just to do that. But people who own Windows - we want to convert them to Mac. They will not drive somewhere special. They don't think they want a Mac. They will not take the risk of a 20-minute drive in case they don't like it.
+
+But if we put our store in a mall or on a street that they're walking by, and we reduce that risk from a 20-minute drive to 20 footsteps, then they're more likely to go in because there's really no risk. So we decided to put our stores in high-traffic locations. And it works.
+
+### On catching tech's next wave
+Things happen fairly slowly, you know. They do. These waves of technology, you can see them way before they happen, and you just have to choose wisely which ones you're going to surf. If you choose unwisely, then you can waste a lot of energy, but if you choose wisely it actually unfolds fairly slowly. It takes years.
+
+One of our biggest insights [years ago] was that we didn't want to get into any business where we didn't own or control the primary technology because you'll get your head handed to you.
+
+We realized that almost all - maybe all - of future consumer electronics, the primary technology was going to be software. And we were pretty good at software. We could do the operating system software. We could write applications on the Mac or even PC, like iTunes. We could write the software in the device, like you might put in an iPod or an iPhone or something. And we could write the back-end software that runs on a cloud, like iTunes.
+
+So we could write all these different kinds of software and make it work seamlessly. And you ask yourself, What other companies can do that? It's a pretty short list. The reason that we were very excited about the phone, beyond that fact that we all hated our phones, was that we didn't see anyone else who could make that kind of contribution. None of the handset manufacturers really are strong in software.
+
+### On failing, so far, with Apple TV
+
+Here's how I look at it. Everybody's tried to make a great product for the living room. Microsoft's tried, we've tried -- everybody's tried. And everybody's failed. We failed, so far.
+
+So there's a whole bunch of people that have tried, and every single one of them's failed, including us. And that's why I call it a hobby. It's not a business yet, it's a hobby.
+
+We've come out with our second try -- 'Apple TV, Take 2' is what we call it internally. We realized that the first product we did was about helping you view the content of whatever you had in iTunes on your Mac or PC, and wirelessly sending it to your widescreen TV.
+
+Well, it turns out that's not what people really wanted to do. I mean, yeah, it's nice to see your photos up on the big screen. That's frosting on the cake, but it's not the cake. What everybody really wanted, it turned out, was movies.
+
+So we began the process of talking to Hollywood studios and were able to get all the major studios to license their movies for rental. And we only have about 600 movies so far ingested on iTunes, but we'll have thousands later this year. We lowered the price to $229. And we'll see how it does. Will this resonate and be something that you just can't live without and love? We'll see. I think it's got a shot.
+
+
+### On managing through the economic downturn
+
+We've had one of these before, when the dot-com bubble burst. What I told our company was that we were just going to invest our way through the downturn, that we weren't going to lay off people, that we'd taken a tremendous amount of effort to get them into Apple in the first place -- the last thing we were going to do is lay them off. And we were going to keep funding. In fact we were going to up our R&D budget so that we would be ahead of our competitors when the downturn was over. And that's exactly what we did. And it worked. And that's exactly what we'll do this time.
+
+##  August 2007
+
+[Video source](https://youtu.be/Yu0qeb_rJYU)
+
+One more question, I think we're going to call it a day. Yes ma'am. *pointing to audience*
+
+**Interviewer:** I'm Molly Wood from CNN, I have a question actually about market share, which is sort of what we're getting at. There has been a suggestion that, because of pricing and design, Apple tends to appeal to kind of a smaller elite rather than that sort of mass customer base and so I guess once and for all: is it your goal to overtake the PC in market share?
+
+I tell you what our goal is. Our goal is to make the best personal computers in the world and to make products we are proud to sell and would recommend to our family and friends and we want to do that at the lowest price as we can. But I have to tell you, there's some stuff in our industry that we wouldn't be proud to ship, that we wouldn't be proud to recommend to our family and friends, and we can't do it. We just can't ship junk. There are thresholds that we can't cross because of who we are, but we want to make the best personal computers in the industry. And there is a very significant slice of the industry that wants that too. And what you'll find is our products are usually not premium priced. You go and price out our competitors products, and you add the features that you have to add to make them useful, and you'll find in some cases they are more expensive than our products. The difference is we don't offer stripped-down lousy products.
+
+You know. We just don't offer categories of products like that. But if you move those aside, and compare us with our competitors, I think we compare pretty favorably. And a lot of people have been doing that, and saying that, now for the last 18 months.
+
 ## Raw interview footage from 1990
 
 (Context, he would be fired from Apple in 1991)
@@ -323,6 +456,8 @@ No. I gotta go.
 
 ## Steve Jobs on Apple’s Vision
 
+[Video source](https://youtu.be/Asj1koK2XWw)
+
 Scientific American, I think it was, did a study in the early 70s on the efficiency of locomotion. Was what they did was for all different species of things on the plants, birds, and cats, and dogs, and fish,
 and man, goats and stuff, they measured how much energy does it take for a goat to get from here to there. Kilocalories per kilometer or something, I don't know what they measured in. And they ranked them. They published the list. And the Condor won, the Condor took the least amount of energy to get from here to there. And man's… didn't do so well, came in with a rather unimpressive showing about a third of the way down the list. But fortunately, someone at Scientific American was insightful enough to test the man with a bicycle. And man with a bicycle won. Twice as good as the Condor–all the way off the list. And what it showed was that man is a tool maker–has the ability to make a tool to amplify an inherent ability that he has. And that's exactly what we're doing here. It's exactly what we're doing here.
 
@@ -330,18 +465,6 @@ We're not making bicycles to be ridden between Palo Alto and San Francisco, okay
 that, but in general what we're doing is we're building tools that amplify human ability. Just like the, you could say that the Industrial Revolution was basically an amplification of a human ability–sweat. Right, we amplified sweat. Fractional horsepower, motors, etc., etc. What we're working towards now is the ability to amplify another human ability. And we're just starting to get glimmerings.
 
 What Apple is going to try to do over the next three or four years is to further that goal. And the key area we're focusing on is the following: right now if you buy a computer system and you want to solve one of your problems, we immediately throw a big problem right in the middle of you and your problem. Which is learning how to use the computer, right. Substantial problem to overcome. Once you overcome that, it's a phenomenal tool, but there is a barrier of having to overcome that problem. What we trying to do, and I think there's a reasonable chance that Apple is going to make a real contribution to solving this problem in the next 36 months, is to remove that barrier so that someone can buy a computer system that knows nothing about it and directly attack their problem without learning how to program the computer. And the reason I think that Apple’s got a chance of solving that problem versus a lot of other computer companies that we all know of that are much, much larger than we are now–although we're catching up–is that our whole company, our whole philosophical base, is founded on one principle. And that one principle is that there's something very special and very historically different that takes place when you have one computer and one person. Very different than if you have 10 people in one computer. The rest of the stuff will take care of its self. The rest of the stuff will take care of its self.
-
-##  August 2007
-
-[Video source](https://youtu.be/Yu0qeb_rJYU)
-
-One more question, I think we're going to call it a day. Yes ma'am. *pointing to audience*
-
-**Interviewer:** I'm Molly Wood from CNN, I have a question actually about market share, which is sort of what we're getting at. There has been a suggestion that, because of pricing and design, Apple tends to appeal to kind of a smaller elite rather than that sort of mass customer base and so I guess once and for all: is it your goal to overtake the PC in market share?
-
-I tell you what our goal is. Our goal is to make the best personal computers in the world and to make products we are proud to sell and would recommend to our family and friends and we want to do that at the lowest price as we can. But I have to tell you, there's some stuff in our industry that we wouldn't be proud to ship, that we wouldn't be proud to recommend to our family and friends, and we can't do it. We just can't ship junk. There are thresholds that we can't cross because of who we are, but we want to make the best personal computers in the industry. And there is a very significant slice of the industry that wants that too. And what you'll find is our products are usually not premium priced. You go and price out our competitors products, and you add the features that you have to add to make them useful, and you'll find in some cases they are more expensive than our products. The difference is we don't offer stripped-down lousy products.
-
-You know. We just don't offer categories of products like that. But if you move those aside, and compare us with our competitors, I think we compare pretty favorably. And a lot of people have been doing that, and saying that, now for the last 18 months.
 
 ## Raw news interview July 1991
 (For context, he was fired from Apple in May, 1985 and founded NeXT in June, 1985)
@@ -469,125 +592,3 @@ Yeah, I know.
 Good? Thanks. *stands up*
 
 ---
-
-
-## 2008 exclusive interview with Fortune
-
-[Source](https://money.cnn.com/galleries/2008/fortune/0803/gallery.jobsqna.fortune/index.html)
-
-### On the birth of the iPhone
-
-We all had cellphones. We just hated them, they were so awful to use. The software was terrible. The hardware wasn't very good. We talked to our friends, and they all hated their cellphones too. Everybody seemed to hate their phones. And we saw that these things really could become much more powerful and interesting to license. It's a huge market. I mean a billion phones get shipped every year, and that's almost an order of magnitude greater than the number of music players. It's four times the number of PCs that ship every year.
-
-It was a great challenge. Let's make a great phone that we fall in love with. And we've got the technology. We've got the miniaturization from the iPod. We've got the sophisticated operating system from Mac. Nobody had ever thought about putting operating systems as sophisticated as OS X inside a phone, so that was a real question. We had a big debate inside the company whether we could do that or not. And that was one where I had to adjudicate it and just say, 'We're going to do it. Let's try.' The smartest software guys were saying they can do it, so let's give them a shot. And they did.
-
-### On Apple's connection with the consumer
-
-We did iTunes because we all love music. We made what we thought was the best jukebox in iTunes. Then we all wanted to carry our whole music libraries around with us. The team worked really hard. And the reason that they worked so hard is because we all wanted one. You know? I mean, the first few hundred customers were us.
-
-It's not about pop culture, and it's not about fooling people, and it's not about convincing people that they want something they don't. We figure out what we want. And I think we're pretty good at having the right discipline to think through whether a lot of other people are going to want it, too. That's what we get paid to do.
-
-So you can't go out and ask people, you know, what the next big [thing.] There's a great quote by Henry Ford, right? He said, “If I'd have asked my customers what they wanted, they would have told me "A faster horse.”
-
-### On choosing strategy
-
-We do no market research. We don't hire consultants. The only consultants I've ever hired in my 10 years is one firm to analyze Gateway's retail strategy so I would not make some of the same mistakes they made [when launching Apple's retail stores]. But we never hire consultants, per se. We just want to make great products.
-
-When we created the iTunes Music Store, we did that because we thought it would be great to be able to buy music electronically, not because we had plans to redefine the music industry. I mean, it just seemed like writing on the wall, that eventually all music would be distributed electronically. That seemed obvious because why have the cost? The music industry has huge returns. Why have all this [overhead] when you can just send electrons around easily?
-
-### On what drives Apple employees
-We don't get a chance to do that many things, and every one should be really excellent. Because this is our life. Life is brief, and then you die, you know? So this is what we've chosen to do with our life. We could be sitting in a monastery somewhere in Japan. We could be out sailing. Some of the [executive team] could be playing golf. They could be running other companies. And we've all chosen to do this with our lives. So it better be damn good. It better be worth it. And we think it is.
-
-#### On why people want to work at Apple
-The reason is, is because you can't do what you can do at Apple anywhere else. The engineering is long gone in most PC companies. In the consumer electronics companies, they don't understand the software parts of it. And so you really can't make the products that you can make at Apple anywhere else right now. Apple's the only company that has everything under one roof.
-
-There's no other company that could make a MacBook Air and the reason is that not only do we control the hardware, but we control the operating system. And it is the intimate interaction between the operating system and the hardware that allows us to do that. There is no intimate interaction between Windows and a Dell notebook.
-
-Our DNA is as a consumer company -- for that individual customer who's voting thumbs up or thumbs down. That's who we think about. And we think that our job is to take responsibility for the complete user experience. And if it's not up to par, it's our fault, plain and simply.
-
-### On whether Apple could live without him
-We've got really capable people at Apple. I made Tim [Cook] COO and gave him the Mac division and he's done brilliantly. I mean, some people say, 'Oh, God, if [Jobs] got run over by a bus, Apple would be in trouble.' And, you know, I think it wouldn't be a party, but there are really capable people at Apple. And the board would have some good choices about who to pick as CEO. My job is to make the whole executive team good enough to be successors, so that's what I try to do.
-
-#### On his demanding reputation
-My job is to not be easy on people. My job is to make them better. My job is to pull things together from different parts of the company and clear the ways and get the resources for the key projects. And to take these great people we have and to push them and make them even better, coming up with more aggressive visions of how it could be.
-
-### On Apple's focus
-
-Apple is a $30 billion company, yet we've got less than 30 major products. I don't know if that's ever been done before. Certainly the great consumer electronics companies of the past had thousands of products. We tend to focus much more. People think focus means saying yes to the thing you've got to focus on. But that's not what it means at all. It means saying no to the hundred other good ideas that there are. You have to pick carefully.
-
-I'm actually as proud of many of the things we haven't done as the things we have done. The clearest example was when we were pressured for years to do a PDA, and I realized one day that 90% of the people who use a PDA only take information out of it on the road. They don't put information into it. Pretty soon cellphones are going to do that, so the PDA market's going to get reduced to a fraction of its current size, and it won't really be sustainable. So we decided not to get into it. If we had gotten into it, we wouldn't have had the resources to do the iPod. We probably wouldn't have seen it coming.
-
-### On his management style
-
-We've got 25,000 people at Apple. About 10,000 of them are in the stores. And my job is to work with sort of the top 100 people, that's what I do. That doesn't mean they're all vice presidents. Some of them are just key individual contributors. So when a good idea comes, you know, part of my job is to move it around, just see what different people think, get people talking about it, argue with people about it, get ideas moving among that group of 100 people, get different people together to explore different aspects of it quietly, and, you know - just explore things.
-
-#### On finding talent
-
-When I hire somebody really senior, competence is the ante. They have to be really smart. But the real issue for me is, Are they going to fall in love with Apple? Because if they fall in love with Apple, everything else will take care of itself. They'll want to do what's best for Apple, not what's best for them, what's best for Steve, or anybody else.
-
-Recruiting is hard. It's just finding the needles in the haystack. We do it ourselves and we spend a lot of time at it. I've participated in the hiring of maybe 5,000-plus people in my life. So I take it very seriously. You can't know enough in a one-hour interview. So, in the end, it's ultimately based on your gut. How do I feel about this person? What are they like when they're challenged? Why are they here? I ask everybody that: 'Why are you here?' The answers themselves are not what you're looking for. It's the meta-data."
-
-### On the benefits of owning an operating system
-
-That allows us to innovate at a much faster rate than if we had to wait for Microsoft, like Dell and HP and everybody else does. Because Microsoft has their own timetable, for probably good reasons. I mean Vista took what -- seven or eight years? It's hard to get your new feature that you need for your new hardware if it has to wait eight years. So we can set our own priorities and look at things in a more holistic way from the point of view of the customer. It also means that we can take it and we can make a version of it to fit in the iPhone and the iPod. And, you know, we certainly couldn't do that if we didn't own it.
-
-### On his marathon Monday meetings
-
-When you hire really good people you have to give them a piece of the business and let them run with it. That doesn't mean I don't get to kibitz a lot. But the reason you're hiring them is because you're going to give them the reins. I want [them] making as good or better decisions than I would. So the way to do that is to have them know everything, not just in their part of the business, but in every part of the business.
-
-So what we do every Monday is we review the whole business. We look at what we sold the week before. We look at every single product under development, products we're having trouble with, products where the demand is larger than we can make. All the stuff in development, we review. And we do it every single week. I put out an agenda -- 80% is the same as it was the last week, and we just walk down it every single week.
-
-We don't have a lot of process at Apple, but that's one of the few things we do just to all stay on the same page.
-
-### On dealing with roadblocks
-At Pixar when we were making Toy Story, there came a time when we were forced to admit that the story wasn't great. It just wasn't great. We stopped production for five months.... We paid them all to twiddle their thumbs while the team perfected the story into what became Toy Story. And if they hadn't had the courage to stop, there would have never been a Toy Story the way it is, and there probably would have never been a Pixar.
-
-We called that the 'story crisis,' and we never expected to have another one. But you know what? There's been one on every film. We don't stop production for five months. We've gotten a little smarter about it. But there always seems to come a moment where it's just not working, and it's so easy to fool yourself - to convince yourself that it is when you know in your heart that it isn't.
-
-Well, you know what? It's been that way with [almost] every major project at Apple, too.... Take the iPhone. We had a different enclosure design for this iPhone until way too close to the introduction to ever change it. And I came in one Monday morning, I said, 'I just don't love this. I can't convince myself to fall in love with this. And this is the most important product we've ever done.'
-
-And we pushed the reset button. We went through all of the zillions of models we'd made and ideas we'd had. And we ended up creating what you see here as the iPhone, which is dramatically better. It was hell because we had to go to the team and say, 'All this work you've [done] for the last year, we're going to have to throw it away and start over, and we're going to have to work twice as hard now because we don't have enough time.' And you know what everybody said? 'Sign us up.'
-
-That happens more than you think, because this is not just engineering and science. There is art, too. Sometimes when you're in the middle of one of these crises, you're not sure you're going to make it to the other end. But we've always made it, and so we have a certain degree of confidence, although sometimes you wonder. I think the key thing is that we're not all terrified at the same time. I mean, we do put our heart and soul into these things.
-
-### On the iPod tipping point
-
-It was difficult for a while because for various reasons the Mac had not been accepted by a lot of people, who went with Windows. And we were just working really hard, and our market share wasn't going up. It makes you wonder sometimes whether you're wrong. Maybe our stuff isn't better, although we thought it was. Or maybe people don't care, which is even more depressing.
-
-It turns out with the iPod we kind of got out from that operating-system glass ceiling and it was great because [it showed that] Apple innovation, Apple engineering, Apple design did matter. The iPod captured 70% market share. I cannot tell you how important that was after so many years of laboring and seeing a 4% to 5% market share on the Mac. To see something like that happen with the iPod was a great shot in the arm for everybody.
-
-#### On what they did next
-We made more. We worked harder. We said: 'This is great. Let's do more.' I mean, the Mac market share is going up every single quarter. We're growing four times faster than the industry. People are starting to pay a little more attention. We've helped it along. We put Intel processors in and we can run PC apps alongside Mac apps. We helped it along. But I think a lot of it is people have finally started to realize that they don't have to put up with Windows - that there is an alternative. I think nobody really thought about it that way before.
-
-
-### On launching the Apple store
-
-It was very simple. The Mac faithful will drive to a destination, right? They'll drive somewhere special just to do that. But people who own Windows - we want to convert them to Mac. They will not drive somewhere special. They don't think they want a Mac. They will not take the risk of a 20-minute drive in case they don't like it.
-
-But if we put our store in a mall or on a street that they're walking by, and we reduce that risk from a 20-minute drive to 20 footsteps, then they're more likely to go in because there's really no risk. So we decided to put our stores in high-traffic locations. And it works.
-
-### On catching tech's next wave
-Things happen fairly slowly, you know. They do. These waves of technology, you can see them way before they happen, and you just have to choose wisely which ones you're going to surf. If you choose unwisely, then you can waste a lot of energy, but if you choose wisely it actually unfolds fairly slowly. It takes years.
-
-One of our biggest insights [years ago] was that we didn't want to get into any business where we didn't own or control the primary technology because you'll get your head handed to you.
-
-We realized that almost all - maybe all - of future consumer electronics, the primary technology was going to be software. And we were pretty good at software. We could do the operating system software. We could write applications on the Mac or even PC, like iTunes. We could write the software in the device, like you might put in an iPod or an iPhone or something. And we could write the back-end software that runs on a cloud, like iTunes.
-
-So we could write all these different kinds of software and make it work seamlessly. And you ask yourself, What other companies can do that? It's a pretty short list. The reason that we were very excited about the phone, beyond that fact that we all hated our phones, was that we didn't see anyone else who could make that kind of contribution. None of the handset manufacturers really are strong in software.
-
-### On failing, so far, with Apple TV
-
-Here's how I look at it. Everybody's tried to make a great product for the living room. Microsoft's tried, we've tried -- everybody's tried. And everybody's failed. We failed, so far.
-
-So there's a whole bunch of people that have tried, and every single one of them's failed, including us. And that's why I call it a hobby. It's not a business yet, it's a hobby.
-
-We've come out with our second try -- 'Apple TV, Take 2' is what we call it internally. We realized that the first product we did was about helping you view the content of whatever you had in iTunes on your Mac or PC, and wirelessly sending it to your widescreen TV.
-
-Well, it turns out that's not what people really wanted to do. I mean, yeah, it's nice to see your photos up on the big screen. That's frosting on the cake, but it's not the cake. What everybody really wanted, it turned out, was movies.
-
-So we began the process of talking to Hollywood studios and were able to get all the major studios to license their movies for rental. And we only have about 600 movies so far ingested on iTunes, but we'll have thousands later this year. We lowered the price to $229. And we'll see how it does. Will this resonate and be something that you just can't live without and love? We'll see. I think it's got a shot.
-
-
-### On managing through the economic downturn
-
-We've had one of these before, when the dot-com bubble burst. What I told our company was that we were just going to invest our way through the downturn, that we weren't going to lay off people, that we'd taken a tremendous amount of effort to get them into Apple in the first place -- the last thing we were going to do is lay them off. And we were going to keep funding. In fact we were going to up our R&D budget so that we would be ahead of our competitors when the downturn was over. And that's exactly what we did. And it worked. And that's exactly what we'll do this time.

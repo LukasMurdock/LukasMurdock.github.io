@@ -87,6 +87,11 @@ Various technologies I dove into before I started tracking when I learned them. 
 - Vercel
 - Firebase
 - Cypress
+- Sanity
+- Serverless
+- Jamstack
+- GCP
+- AWS
 
 ### Technical Things I Learned in 2020
 - Content Marketing
