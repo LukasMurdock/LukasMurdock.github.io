@@ -195,3 +195,4 @@ Related:
 - [Good meetings](https://css-tricks.com/good-meetings/)
 - [Atlassian Team Playbook](https://www.atlassian.com/team-playbook)
 - [High Impact Managers](https://review.firstround.com/the-25-micro-habits-of-high-impact-managers)
+- [The Presence Framework for New Remote Managers](https://intenseminimalism.com/2021/the-presence-framework-for-new-remote-managers/)

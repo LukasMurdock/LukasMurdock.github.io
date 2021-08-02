@@ -1,4 +1,8 @@
 ---
+- firsttime: "Called a utility company"
+  date: 2021-08-02
+- firsttime: "Purchased renters insurance"
+  date: 2021-08-02
 - firsttime: "Contributed to an open source project with a [merged PR](https://github.com/snowpackjs/astro/pull/831)"
   date: 2021-07-24
 - firsttime: "Paid for cloud storage"
