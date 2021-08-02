@@ -215,6 +215,11 @@ figcaption {
     margin: 5px 0 -5px;
 }
 
+.index-item:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--color-blue);
+}
+
 
 .index-item-logo {
     max-width: 100%;
