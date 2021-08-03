@@ -14,25 +14,25 @@ Things I plan to take from home:
 - Lights
 - Blankets
 - Monitor
-- Beach chair
-- Bike
-- Hammock
-- Towels
+- <del>Beach chair</del> (Leaving in Florida)
+- <del>Bike</del> (Leaving in Florida)
+- <del>Towels</del>
 - Mug
 - Water bottle
-- Whiteboard
-- Posters
+- ✅ Hammock
+- ✅ Whiteboard
+- ✅ Posters
+- ✅ Chair for working
 
 Things to acquire for apartment:
 - Bed
 - Desk for working
-- Chair for working
 - Table for eating
 - Water filter
 - Window coverings (required by lease agreement?)
 - Cooking appliances
-- Router?
-- Renters Insurance
+- <del>Router?</del> (comes with apartment ISP agreement)
+- ✅ Renters Insurance
 - Misc Items
 
 I’d *really* love an [air purifier](https://cowaymega.com/products/coway-mighty-ap-1512hh) and piano but we have bigger priorities listed above.
