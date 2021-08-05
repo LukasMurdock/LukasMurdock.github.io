@@ -197,6 +197,11 @@ kbd {
 
 First, make sure you have Homebrew installed.
 
+[Brewfile tips](https://gist.github.com/ChristopherA/a579274536aab36ea9966f301ff14f3f)
+
+### Create a Brewfile
+`brew bundle dump --file=~/dotfiles/Brewfile --force`
+
 ### wget
 
 [wget](https://www.gnu.org/software/wget/) is a package for retrieving files with the most widely used Internet protocols (HTTP, HTTPS, FTP and FTPS). It’s strong point is recursive downloads.
