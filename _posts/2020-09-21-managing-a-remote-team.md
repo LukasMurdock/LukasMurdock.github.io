@@ -196,3 +196,4 @@ Related:
 - [Atlassian Team Playbook](https://www.atlassian.com/team-playbook)
 - [High Impact Managers](https://review.firstround.com/the-25-micro-habits-of-high-impact-managers)
 - [The Presence Framework for New Remote Managers](https://intenseminimalism.com/2021/the-presence-framework-for-new-remote-managers/)
+- [The end of the office](https://seths.blog/2021/08/the-end-of-the-office/)

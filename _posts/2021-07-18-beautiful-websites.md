@@ -58,3 +58,4 @@ date: 'July 18, 2021'
 
 ## Misc
 - https://setups.co/
+- https://www.glyphfinder.com/
