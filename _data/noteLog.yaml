@@ -1,4 +1,11 @@
 ---
+- initialTimestamp: 2021-08-07 14:26:36.000000000 -04:00
+  note: |-
+    [Console.log is just a wrapper for process.stdout.write](https://github.com/nodejs/node/blob/v0.12/lib/console.js)
+    ```
+    Console.prototype.log = function() {this._stdout.write(util.format.apply(this, arguments) + '\n');};
+    ```
+  prettyTime: 02:26 PM · Aug 07, 2021
 - initialTimestamp: 2021-06-30 01:18:38.000000000 -04:00
   note: |-
     Effective Communication from _Politics and the English Language_:
