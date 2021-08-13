@@ -1,4 +1,7 @@
 ---
+- initialTimestamp: 2021-08-13 13:33:27.000000000 -04:00
+  note: "[How to Contribute to an Open Source Project on GitHub](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github)"
+  prettyTime: 01:33 PM · Aug 13, 2021
 - initialTimestamp: 2021-08-07 14:26:36.000000000 -04:00
   note: |-
     [Console.log is just a wrapper for process.stdout.write](https://github.com/nodejs/node/blob/v0.12/lib/console.js)
