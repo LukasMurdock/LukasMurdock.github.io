@@ -1,4 +1,8 @@
 ---
+- firsttime: "Got someone else’s mail"
+  date: 2021-08-17
+- firsttime: "Checked my own mailbox"
+  date: 2021-08-17
 - firsttime: "Called a utility company"
   date: 2021-08-02
 - firsttime: "Purchased renters insurance"
