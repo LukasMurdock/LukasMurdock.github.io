@@ -81,6 +81,13 @@ I’ll work on this more—promise love.
 
 > Marry someone you admire and are always learning from, who admires and learns from you. Help each other grow and share values, plans, experience, laughs, and time together. ([Charley Ellis](https://hbs1963.com/wisdom/marriage-family/))
 
+The 5 Love Languages by Gary Chapman:
+- **Acts of Service:** Proactively make your partner's life easier. Even a small task like cleaning their room counts. This shows that their concerns are your concerns and that their priorities are your priorities.
+- **Words of Affirmation:** Use acknowledgement and encouragement to help your partner feel more confident about their decisions in life.
+- **Physical Touch:** Provide intimacy in whatever way your partner appreciates it.
+- **Quality Time:** Make dedicated time to be with your partner. This doesn't mean being together in the same room. It means having one-on-one time to focus on how to help each other grow and continue to love each other.
+- **Receiving Gifts:** For some, receiving gifts signals that you remain top of mind for your partner and that they can't shake the desire to make you feel good. Gifts can be tangible or intangible, expensive or free.
+
 ## Family
 
 Family is charted on a steep decline until the late 20s before making the slightest rebound around 40. So, see you then.
