@@ -55,7 +55,10 @@ date: 'July 18, 2021'
 - https://brianlovin.com/
 - https://noealz.com/work
 - https://www.swiftjectivec.com/
+- https://www.fabrizio.so/
 
 ## Misc
 - https://setups.co/
 - https://www.glyphfinder.com/
+- https://brianlovin.com/stack
+- https://rsms.me/inter/

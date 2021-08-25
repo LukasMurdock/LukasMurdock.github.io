@@ -25,6 +25,8 @@ code: true
 
 [Read slowly](https://nabeelqu.co/understanding). [Read slower](https://betterhumans.pub/slow-reading-is-the-new-deep-learning-452f179c0289). [Slower](https://buditanrim.co/2021/slow-thinker/).
 
+[Read something great](https://www.readsomethinggreat.com/).
+
 ## Finding Books Online
 
 ### Websites

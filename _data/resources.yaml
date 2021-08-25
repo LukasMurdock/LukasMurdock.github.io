@@ -615,6 +615,11 @@ fulldata:
         Comment: "80000 Hours career guide"
         Date: 2021-07-18
 
+      - Title: "DevIQ"
+        Link: "https://deviq.com/"
+        Comment: "A reference site designed to help you learn about high-level software development topics like domain driven design, design patterns, and antipatterns."
+        Date: 2021-08-25
+
       - Title: "Awesome Software Engineering"
         Link: "https://github.com/rolanddb/awesome-software-engineering"
         Comment: ""
@@ -629,6 +634,16 @@ fulldata:
         Link: "https://bejamas.io/discovery/"
         Comment: "by Bejamas."
         Date: 2021-07-18
+
+      - Title: "Swift Programming for MacOS"
+        Link: "https://gavinw.me/swift-macos/"
+        Comment: ""
+        Date: 2021-08-25
+
+      - Title: "Broad into to networking"
+        Link: "https://drewdevault.com/2016/12/06/A-broad-intro-to-networking.html"
+        Comment: ""
+        Date: 2021-08-25
 
 
   # Design
@@ -954,6 +969,21 @@ fulldata:
         Link: "https://simpleicons.org/"
         Comment: "Free SVG icons for popular brands."
         Date: Dec 19, 2020
+
+      - Title: "Health Icons"
+        Link: "https://healthicons.org/"
+        Comment: "Free, open source health icons"
+        Date: 2021-08-25
+
+      - Title: "Bio Icons"
+        Link: "https://bioicons.com/?query="
+        Comment: ""
+        Date: 2021-08-25
+
+      - Title: "All Unicode Arrows"
+        Link: "https://unicodearrows.com/all-arrows"
+        Comment: ""
+        Date: 2021-08-25
 
       - Title: "Experience Japan Icons"
         Link: "https://experience-japan.info/en/"
@@ -3281,6 +3311,11 @@ fulldata:
         Link: "https://changelog.brianlovin.com/"
         Comment: "Product designer, currently working on the native mobile apps at GitHub."
         Date: May 03, 2021
+
+      - Title: "Cassandra Xia"
+        Link: "https://cassandraxia.com/"
+        Comment: "Ex-Google AI, MIT Media Lab '14, MIT CS '12"
+        Date: 2021-08-25
 
 
 
