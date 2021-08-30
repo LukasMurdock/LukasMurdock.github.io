@@ -37,7 +37,7 @@ I elevator pitch myself as a Designer, Developer, and Marketer, but here I try t
 - Think Less Wrong and act Long Now
 - When your stomach is in knots, make it heard.
 - [Give it five minutes](https://signalvnoise.com/posts/3124-give-it-five-minutes).
-- Attention is a gift. Don’t sell your attention, [refuse the transaction](https://vimeo.com/345624545).
+- [Attention is a gift](https://lukasmurdock.com/attention/). Don’t sell your attention, [refuse the transaction](https://vimeo.com/345624545).
 - [Interruption is assault](https://www.takingti.me/articles/interruptionasassault).
 - Write it up, don’t chat it down.
 - Find new ways to confuse yourself
