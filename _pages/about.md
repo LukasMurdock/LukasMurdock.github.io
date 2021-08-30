@@ -34,6 +34,7 @@ I elevator pitch myself as a Designer, Developer, and Marketer, but here I try t
     - The important thing is to do better, to keep moving ahead, to take one more step forward.
 - Process over outcome.
     - Infinite games over finite games
+    - First-time mistakes are common and expected. Second-time mistakes means there‘s a problem with a process. Third-time mistakes means there needs to be an intervention.
 - Think Less Wrong and act Long Now
 - When your stomach is in knots, make it heard.
 - [Give it five minutes](https://signalvnoise.com/posts/3124-give-it-five-minutes).
