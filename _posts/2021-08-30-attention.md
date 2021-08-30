@@ -44,9 +44,11 @@ Managing a team is about managing attention. [Managing a remote team with asynch
 
 ![Joker burning a pile of cash](https://i.redd.it/yd6pchi29g351.jpg)
 
+I don’t have the attention.
 
+---
 
-Resources:
+## Resources:
 - [The difference between time and attention](https://world.hey.com/jason/the-difference-between-time-and-attention-bdd955eb)
 - [The Shortness of Time](https://fs.blog/2017/03/seneca-on-the-shortness-of-time/)
 - [The Attention Economy](https://www.youtube.com/watch?v=xxyRf3hfRXg)
