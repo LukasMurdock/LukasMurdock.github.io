@@ -43,6 +43,7 @@ I elevator pitch myself as a Designer, Developer, and Marketer, but here I try t
 - [Interruption is assault](https://www.takingti.me/articles/interruptionasassault).
 - Write it up, don’t chat it down.
 - Find new ways to confuse yourself
+- Find solace in learning
 - The map is not the territory. Revising your map is a sign you’re doing things right.
 - [Search for better questions](http://kiriakakis.net/comics/mused/a-day-at-the-park).
 - [Build for posterity](https://lukasmurdock.com/for-posterity/), [build bridges when you cross](https://lukasmurdock.com/bridge-builder/).
