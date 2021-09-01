@@ -149,8 +149,10 @@ MKT 315 — 3 Credit Hours
 
 **Fundamentals of Programming and Problem Solving**  
 CSE 174 — 3 Credit Hours  
+<span class="full-underline" style="font-size: 12px;">See</span> [ my notes](https://github.com/LukasMurdock/cse-174){:target="_blank"}{:rel="noopener"} 
 
 **Business Analytics**  
 ISA 225 — 3 Credit Hours  
+<span class="full-underline" style="font-size: 12px;">See</span> [ my notes](https://lukasmurdock.com/isa225/){:target="_blank"}{:rel="noopener"} 
 
 […] Another class TBD because Miami scheduling is rough.
