@@ -36,7 +36,7 @@ Reframed, *a meeting is an assault on our attention*. Here’s a few more common
 - phone calls
 - ASAP
 
-Advertising, as stereotypically seen, are an assault on our attention. Screens everywhere is an assault on our attention.
+Advertising, as stereotypically seen, is an assault on our attention. Screens everywhere are an assault on our attention.
 
 To me, being around other people is an assault on my attention. I can’t focus when other people are around me. Even if it’s “quiet,” the *presence* of others violently tears my attention to shreds.
 
@@ -44,7 +44,7 @@ Managing a team is about managing attention. [Managing a remote team with asynch
 
 ![Joker burning a pile of cash](https://i.redd.it/yd6pchi29g351.jpg)
 
-I don’t have the attention.
+I don’t have the attention for anything else.
 
 ---
 
