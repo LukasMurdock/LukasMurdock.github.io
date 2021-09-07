@@ -53,3 +53,5 @@ Seven months after development began and two weeks before Slack’s ‘Preview R
 You can see from these works that both Jeff and Stewart are clear-thinking leaders who have done the hard and important work of thinking deeply about where they are and where they are looking to go–the work they needed to do.
 
 You see, clarity is shown and exemplified by writing. If you fail to write, you fail to think, and you fail to make change happen.
+
+- [Write something](https://seths.blog/2021/09/write-something/)
