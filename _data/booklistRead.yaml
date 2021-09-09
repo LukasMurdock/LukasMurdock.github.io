@@ -1,16 +1,5 @@
 ---
 isbns:
-- isbn: 9780761166139
-  title: The Order of Things
-  subtitle: Hierarchies, Structures, and Pecking Orders
-  author:
-  - Barbara Ann Kipfer
-  publishedDate: '2008-11-22'
-  pageCount: 615
-  categories:
-  - Reference
-  image: "/images/books/the-order-of-things.jpeg"
-  notFound: false
 - isbn: 9780984358106
   dateRead: June 22, 2021
   title: The Millionaire Fastlane
@@ -264,6 +253,17 @@ isbns:
   categories:
   - Business & Economics
   image: "/images/books/atomic-habits.jpeg"
+  notFound: false
+- isbn: 9780761166139
+  title: The Order of Things
+  subtitle: Hierarchies, Structures, and Pecking Orders
+  author:
+  - Barbara Ann Kipfer
+  publishedDate: '2008-11-22'
+  pageCount: 615
+  categories:
+  - Reference
+  image: "/images/books/the-order-of-things.jpeg"
   notFound: false
 - isbn: 9780393355628
   dateRead: ''
