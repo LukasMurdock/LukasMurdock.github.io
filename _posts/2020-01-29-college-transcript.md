@@ -144,8 +144,16 @@ MGT 291 — 3 Credit Hours
 **Strategic Thinking and Decision-Making in Marketing**  
 MKT 395 — 3 Credit Hours  
 
+
 **Professional Selling**  
 MKT 315 — 3 Credit Hours  
+Sales booklist (from [Commoncog](https://commoncog.com/blog/reading-program-b2b-sales/)):
+1. Tape Sucks (narrative)
+2. SPIN Selling (tree)
+3. The Challenger Sale (branch)
+4. Predictable Revenue (tree)
+5. The Sales Acceleration Formula (tree)
+6. From Impossible to Inevitable (tree)
 
 **Fundamentals of Programming and Problem Solving**  
 CSE 174 — 3 Credit Hours  
