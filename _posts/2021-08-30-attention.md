@@ -3,6 +3,7 @@ layout: post
 title: 'Attention'
 description: 'I don’t have the attention.'
 date: 'August 30, 2021'
+tags: annual
 ---
 
 If you were to see someone throwing money away, like [the Joker in The Dark Knight](https://www.youtube.com/watch?v=-Bsa30TLKac), well, we’d call that person *crazy*. Money has value, and wasting it so clearly is agreeably *crazy*. And yet, daily, ourselves and others throw away something far more valuable every day: Attention.
