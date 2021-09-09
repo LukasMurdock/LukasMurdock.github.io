@@ -1,5 +1,16 @@
 ---
 isbns:
+- isbn: 9780761166139
+  title: The Order of Things
+  subtitle: Hierarchies, Structures, and Pecking Orders
+  author:
+  - Barbara Ann Kipfer
+  publishedDate: '2008-11-22'
+  pageCount: 615
+  categories:
+  - Reference
+  image: "/images/books/the-order-of-things.jpeg"
+  notFound: false
 - isbn: 9780984358106
   dateRead: June 22, 2021
   title: The Millionaire Fastlane
@@ -551,7 +562,7 @@ isbns:
   image: "/images/books/influence.jpeg"
   notFound: false
 - isbn: 9780316005043
-  dateRead: 'July 19, 2017'
+  dateRead: July 19, 2017
   title: Blink
   subtitle: The Power of Thinking Without Thinking
   author:
