@@ -46,6 +46,7 @@ I elevator pitch myself as a Designer, Developer, and Marketer, but here I try t
 - Find solace in learning
 - Slow down, deliberate
 - Less, but better
+- Long-term games with long-term people
 - [You can’t teach what they aren’t ready to know](https://commoncog.com/blog/you-cant-teach-what-they-arent-ready-to-know/)
 - The map is not the territory. Revising your map is a sign you’re doing things right.
 - [Search for better questions](http://kiriakakis.net/comics/mused/a-day-at-the-park).
