@@ -378,7 +378,7 @@ With this stack my entire website is currently free, aside from paying for the d
 
 #### Long YouTube
 - [ChilledCow — lofi hip hop radio - beats to relax/study to](https://youtu.be/5qap5aO4i9A)
-- [2 Hours Of Squid To Relax/Study/Work To \| Lofi Hip Hop \| Monterey Bay Aquarium Krill Waves Radio](https://youtu.be/J2UyOTS3UCE)
+- [Monterey Bay Aquarium Krill Waves Radio](https://youtube.com/playlist?list=PLq_DVMr7CmlKkJ-WnaIUxw98O9tbenMRj)
 - [Hiroshi Yoshimura - Green (Full Album Stream)](https://youtu.be/Jx7CyMZVhHY) & [The upload that brought it back](https://youtu.be/D7aYjRl_6Zw)
 - [Smooth Jazz on Coffee Shop Ambience](https://youtu.be/9uX6uM696gw)
 - [221B Baker Street](https://youtu.be/MJeNG1R7FzM)
