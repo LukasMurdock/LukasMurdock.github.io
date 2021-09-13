@@ -151,8 +151,8 @@ function dateComponent({name, hours, mins}) {
   `
 }
 
-// const loadDate = new Date();
-const loadDate = new Date("Mon Sep 13 2021 07:03:00 GMT-0400 (Eastern Daylight Time)");
+const loadDate = new Date();
+// const loadDate = new Date("Mon Sep 13 2021 07:03:00 GMT-0400 (Eastern Daylight Time)");
 const todayFormat = loadDate.toLocaleString('en-US', { year: 'numeric', month: 'long', day: 'numeric'});
 const dayOfWeek = loadDate.toLocaleString('en-US', { weekday: 'long'});
 
