@@ -1,27 +1,37 @@
 ---
-layout: default
 title: Calendar
+description: My calendar
 ---
 
-<div class="pagebody-content">
-  <button
-    type="button"
-    style="margin-bottom: 10px; color: #000; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; border: none;"
-    class="more-btn"
-    onClick="handleClick();"
-  >
-    Start Timer
-</button>
-  <div id="app">
+<!DOCTYPE html>
+<html lang='en'>
 
+{% include head.html %}
+
+<body>
+
+  <div class="pagebody-content">
+    <div style="padding-top:20px; max-width: 500px; margin: auto;">
+      <button
+        type="button"
+        style="margin-bottom: 10px; color: #000; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; border: none;"
+        class="more-btn"
+        onClick="handleClick();"
+      >
+        Start Timer
+    </button>
+    <div id="app">
+
+    </div>
   </div>
 
 
-</div>
+  </div>
+</body>
 
 <script type="text/javascript">
-const app = document.getElementById("app")
-app.innerHTML = ''
+  const app = document.getElementById("app")
+  app.innerHTML = ''
 
   const calendar = {
     Monday: {
@@ -89,137 +99,142 @@ app.innerHTML = ''
       ]
     }
   }
-  
-  // const calendar = [
-  //   {
-  //     day: "Monday",
-  //     classes: [
-  //       {
-  //         name: "CSE 174",
-  //         time: "10:05 AM"
-  //       },
-  //       {
-  //         name: "MKT 315",
-  //         time: "1:15 PM"
-  //       }
-  //     ]
-  //   }, {
-  //     day: "Tuesday",
-  //     classes: [
-  //       {
-  //         name: "MKT 395",
-  //         time: "10:05 AM"
-  //       },
-  //       {
-  //         name: "MGT 302",
-  //         time: "2:50 PM"
-  //       }
-  //     ]
-  //   }, {
-  //     day: "Wednesday",
-  //     classes: [
-  //       {
-  //         name: "ISA 225",
-  //         time: "8:30 AM"
-  //       },
-  //       {
-  //         name: "CSE 174",
-  //         time: "10:05 AM"
-  //       },
-  //       {
-  //         name: "MKT 315",
-  //         time: "1:15 PM"
-  //       }
-  //     ]
-  //   },
-  //   {
-  //     day: "Thursday",
-  //     classes: [
-  //       {
-  //         name: "MKT 395",
-  //         time: "10:05 AM"
-  //       },
-  //       {
-  //         name: "MGT 302",
-  //         time: "2:50 PM"
-  //       }
-  //     ]
-  //   },
-  //   {
-  //     day: "Friday",
-  //     classes: [
-  //       {
-  //         name: "ISA 225",
-  //         time: "8:30 AM"
-  //       },
-  //       {
-  //         name: "CSE 174 Lab",
-  //         time: "10:05 AM"
-  //       }
-  //     ]
-  //   }
-  // ]
+    
+    // const calendar = [
+    //   {
+    //     day: "Monday",
+    //     classes: [
+    //       {
+    //         name: "CSE 174",
+    //         time: "10:05 AM"
+    //       },
+    //       {
+    //         name: "MKT 315",
+    //         time: "1:15 PM"
+    //       }
+    //     ]
+    //   }, {
+    //     day: "Tuesday",
+    //     classes: [
+    //       {
+    //         name: "MKT 395",
+    //         time: "10:05 AM"
+    //       },
+    //       {
+    //         name: "MGT 302",
+    //         time: "2:50 PM"
+    //       }
+    //     ]
+    //   }, {
+    //     day: "Wednesday",
+    //     classes: [
+    //       {
+    //         name: "ISA 225",
+    //         time: "8:30 AM"
+    //       },
+    //       {
+    //         name: "CSE 174",
+    //         time: "10:05 AM"
+    //       },
+    //       {
+    //         name: "MKT 315",
+    //         time: "1:15 PM"
+    //       }
+    //     ]
+    //   },
+    //   {
+    //     day: "Thursday",
+    //     classes: [
+    //       {
+    //         name: "MKT 395",
+    //         time: "10:05 AM"
+    //       },
+    //       {
+    //         name: "MGT 302",
+    //         time: "2:50 PM"
+    //       }
+    //     ]
+    //   },
+    //   {
+    //     day: "Friday",
+    //     classes: [
+    //       {
+    //         name: "ISA 225",
+    //         time: "8:30 AM"
+    //       },
+    //       {
+    //         name: "CSE 174 Lab",
+    //         time: "10:05 AM"
+    //       }
+    //     ]
+    //   }
+    // ]
 
-  function handleClick() {
-    console.log("timer started")
-    const timer = setInterval(runTimer,1000);
-  };
-  
-  function dateComponent({name, hours, mins, secs}) {
+    function handleClick() {
+      const timer = setInterval(runTimer,1000);
+    };
+    
+    function dateComponent({name, hours, mins, secs}) {
+      return `
+        <div style="padding-top: 10px;">
+          <p><strong>${name}</strong></p>
+          <p>${hours} hours ${mins} minutes</p>
+        </div>
+      `
+    }
+    
+    function runTimer() {
+      const loadDate = new Date();
+      // const loadDate = new Date("Tue Sep 14 2021 10:02:00 GMT-0400 (Eastern Daylight Time)");
+      const todayFormat = loadDate.toLocaleString('en-US', { year: 'numeric', month: 'long', day: 'numeric'});
+      const dayOfWeek = loadDate.toLocaleString('en-US', { weekday: 'long'});
+    
+      const headerComponent = `
+        <h1>${todayFormat}</h1>
+      `
+      // console.log(dayOfWeek);
+      // console.log(calendar)
+      // console.log(calendar[dayOfWeek]);
+      // console.log(calendar);
+      // console.log("Load Date: " + loadDate);
+      const lastUpdated = loadDate.toLocaleString('en-US', { hours: 'numeric', minutes: 'long'})
 
-    console.log("hours: " + hours);
-    console.log("mins: " + mins);
+      const lastUpdatedComponent = `<p>Last Updated: ${lastUpdated.slice(lastUpdated.length - 11)}</p>`
 
-    return `
-      <div>
-        <p><strong>${name}</strong></p>
-        <p>${hours} hours ${mins} minutes</p>
-      </div>
-    `
-  }
-  
-  function runTimer() {
-    const loadDate = new Date();
-    // const loadDate = new Date("Tue Sep 14 2021 10:02:00 GMT-0400 (Eastern Daylight Time)");
-    const todayFormat = loadDate.toLocaleString('en-US', { year: 'numeric', month: 'long', day: 'numeric'});
-    const dayOfWeek = loadDate.toLocaleString('en-US', { weekday: 'long'});
-  
-    // console.log(dayOfWeek);
-    // console.log(calendar)
-    // console.log(calendar[dayOfWeek]);
-    // console.log(calendar);
-    console.log("Load Date: " + loadDate);
+      let response = `
+      ${headerComponent}
+      ${lastUpdatedComponent}
+      `;
 
-    const lastUpdatedComponent = `<p>Last Updated: ${loadDate.toLocaleString('en-US', { hours: 'numeric', minutes: 'long'})}</p>`
+      calendar[dayOfWeek].classes.forEach((event) => {
+        const classTime = new Date(`${loadDate.toISOString().split('T')[0]}T${event.time}`);
+    
+        if (classTime > loadDate) {
+          const diff = classTime - loadDate;
+          const hoursDiff = Math.floor((diff % 86400000) / 3600000);
+          const minsDiff = Math.round(((diff % 86400000) % 3600000) / 60000);
 
-    let response = `${lastUpdatedComponent}`;
+          // console.log("Diff: " + diff)
+          // console.log("Hours diff: " + hoursDiff)
+          // console.log("Mins diff: " + minsDiff)
 
-    calendar[dayOfWeek].classes.forEach((event) => {
-      const classTime = new Date(`${loadDate.toISOString().split('T')[0]}T${event.time}`);
-  
-      if (classTime > loadDate) {
-        const diff = classTime - loadDate;
-        console.log("Diff: " + diff)
-        const hoursDiff = Math.floor((diff % 86400000) / 3600000);
-        console.log("Hours diff: " + hoursDiff)
-        const minsDiff = Math.round(((diff % 86400000) % 3600000) / 60000);
-        console.log("Mins diff: " + minsDiff)
+          response = response + dateComponent(
+            {
+              name: event.name,
+              hours: hoursDiff,
+              mins: minsDiff
+            })
+          // document.write();
+    
+        }
+      });
+      app.innerHTML = response;
+    }
+    
+    runTimer();
+    
+    
+    
+</script>
 
-        response = response + dateComponent(
-          {
-            name: event.name,
-            hours: hoursDiff,
-            mins: minsDiff
-          })
-        // document.write();
-  
-      }
-    });
-    app.innerHTML = response;
-  }
-  
-  runTimer();
-  
-  
-  
-  </script>
+</html>
