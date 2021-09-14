@@ -418,6 +418,7 @@ My favorite fonts on Google Fonts.
 - [Newsreader](https://fonts.google.com/specimen/Newsreader)
 - Libre Baskerville
 - [Literata](https://fonts.google.com/specimen/Literata)
+- [Besley](https://fonts.google.com/specimen/Besley)
 
 ##### Sans-Serif
 - [Roboto](https://fonts.google.com/specimen/Roboto)
