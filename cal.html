@@ -13,6 +13,7 @@ description: My calendar
   <div class="pagebody-content">
     <div style="padding-top:20px; max-width: 500px; margin: auto;">
       <button
+        id="timerButton"
         type="button"
         style="margin-bottom: 10px; color: #000; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; border: none;"
         class="more-btn"
@@ -30,7 +31,8 @@ description: My calendar
 </body>
 
 <script type="text/javascript">
-  const app = document.getElementById("app")
+  const app = document.getElementById("app");
+
   app.innerHTML = ''
 
   const calendar = {
@@ -171,6 +173,39 @@ description: My calendar
     // ]
 
     function handleClick() {
+      const oldTimerButton = document.getElementById('timerButton');
+      const newTimerButton = document.createElement("div");
+      newTimerButton.style.margin = "0";
+      newTimerButton.style.marginBottom = "10px";
+      newTimerButton.style.color = "rgb(141, 182, 0)";
+      newTimerButton.style.whiteSpace = "nowrap";
+      newTimerButton.style.border = "none";
+      newTimerButton.style.borderRadius = "50px";
+      // newTimerButton.style.backgroundColor = "rgba(0, 0, 0, 0.05)";
+      newTimerButton.style.display = "inline-block";
+      newTimerButton.style.height = "42px";
+      newTimerButton.style.padding = "0px 24px";
+      newTimerButton.style.verticalAlign = "text-top";
+      newTimerButton.style.position = "relative";
+      newTimerButton.style.lineHeight = "42px";
+      newTimerButton.style.fontSize = "var(--font-medium)";
+
+    // border-radius: 50px;
+    // display: inline-block;
+    // position: relative;
+    // height: 42px;
+    // line-height: 42px;
+    // padding: 0px 24px;
+    // margin: 0;
+    // margin-bottom: 48px;
+    // vertical-align: text-top;
+    // opacity: 1;
+
+
+      // newTimerButton.style = "margin-bottom: 10px; color: #000; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; border: none;"
+      newTimerButton.innerHTML = `Timer Active`;
+      oldTimerButton.parentNode.replaceChild(newTimerButton, oldTimerButton);
+
       const timer = setInterval(runTimer,1000);
     };
     
