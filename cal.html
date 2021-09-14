@@ -3,193 +3,223 @@ layout: default
 title: Calendar
 ---
 
-<script type="text/javascript">
-
-const calendar = {
-  Monday: {
-    classes: [
-      {
-        name: "CSE 174",
-        time: "10:05:00"
-      },
-      {
-        name: "MKT 315",
-        time: "13:15:00"
-      }
-    ]
-  },
-  Tuesday: {
-    classes: [
-      {
-        name: "MKT 395",
-        time: "10:05:00"
-      },
-      {
-        name: "MGT 302",
-        time: "14:50:00"
-      }
-    ]
-  },
-  Wednesday: {
-    classes: [
-      {
-        name: "ISA 225",
-        time: "08:30:00"
-      },
-      {
-        name: "CSE 174",
-        time: "10:05:00"
-      },
-      {
-        name: "MKT 315",
-        time: "13:15:00"
-      }
-    ]
-  },
-  Thursday: {
-    classes: [
-      {
-        name: "MKT 395",
-        time: "10:05:00"
-      },
-      {
-        name: "MGT 302",
-        time: "14:50:00"
-      }
-    ]
-  },
-  Friday: {
-    classes: [
-      {
-        name: "ISA 225",
-        time: "08:30:00"
-      },
-      {
-        name: "CSE 174 Lab",
-        time: "10:05:00"
-      }
-    ]
-  }
-}
-
-// const calendar = [
-//   {
-//     day: "Monday",
-//     classes: [
-//       {
-//         name: "CSE 174",
-//         time: "10:05 AM"
-//       },
-//       {
-//         name: "MKT 315",
-//         time: "1:15 PM"
-//       }
-//     ]
-//   }, {
-//     day: "Tuesday",
-//     classes: [
-//       {
-//         name: "MKT 395",
-//         time: "10:05 AM"
-//       },
-//       {
-//         name: "MGT 302",
-//         time: "2:50 PM"
-//       }
-//     ]
-//   }, {
-//     day: "Wednesday",
-//     classes: [
-//       {
-//         name: "ISA 225",
-//         time: "8:30 AM"
-//       },
-//       {
-//         name: "CSE 174",
-//         time: "10:05 AM"
-//       },
-//       {
-//         name: "MKT 315",
-//         time: "1:15 PM"
-//       }
-//     ]
-//   },
-//   {
-//     day: "Thursday",
-//     classes: [
-//       {
-//         name: "MKT 395",
-//         time: "10:05 AM"
-//       },
-//       {
-//         name: "MGT 302",
-//         time: "2:50 PM"
-//       }
-//     ]
-//   },
-//   {
-//     day: "Friday",
-//     classes: [
-//       {
-//         name: "ISA 225",
-//         time: "8:30 AM"
-//       },
-//       {
-//         name: "CSE 174 Lab",
-//         time: "10:05 AM"
-//       }
-//     ]
-//   }
-// ]
-
-function dateComponent({name, hours, mins}) {
-  return `
-    <div>
-      <p><strong>${name}</strong></p>
-      <p>${hours} hours ${mins} minutes</p>
-    </div>
-  `
-}
-
-const loadDate = new Date();
-// const loadDate = new Date("Mon Sep 13 2021 07:03:00 GMT-0400 (Eastern Daylight Time)");
-const todayFormat = loadDate.toLocaleString('en-US', { year: 'numeric', month: 'long', day: 'numeric'});
-const dayOfWeek = loadDate.toLocaleString('en-US', { weekday: 'long'});
-
-// console.log(dayOfWeek);
-// console.log(calendar)
-// console.log(calendar[dayOfWeek]);
-// console.log(calendar);
-console.log("Load Date: " + loadDate)
-calendar[dayOfWeek].classes.forEach((event) => {
-  const classTime = new Date(`${loadDate.toISOString().split('T')[0]}T${event.time}`);
-
-  if (classTime > loadDate) {
-    const diff = classTime - loadDate;
-    const hoursDiff = Math.floor((diff % 86400000) / 3600000);
-    const minsDiff = Math.round(((diff % 86400000) % 3600000) / 60000);
-    // const timeRemaining = Math.abs(loadDate - classTime) / 36e5
-    const timeRemaining = Math.abs(loadDate - classTime) / 36e5
-    console.log(event);
-    console.log(event.time);
-    // '1995-12-17T03:24:00'
-    console.log(loadDate)
-    console.log(classTime);
-    console.log(timeRemaining);
-    
-    document.write(dateComponent(
-      {
-        name: event.name,
-        hours: hoursDiff,
-        mins: hoursDiff
-      }));
-
-  }
-});
-
-</script>
-
 <div class="pagebody-content">
+  <button
+    type="button"
+    style="margin-bottom: 10px; color: #000; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; border: none;"
+    class="more-btn"
+    onClick="handleClick();"
+  >
+    Start Timer
+</button>
+  <div id="app">
+
+  </div>
 
 
 </div>
+
+<script type="text/javascript">
+const app = document.getElementById("app")
+app.innerHTML = ''
+
+  const calendar = {
+    Monday: {
+      classes: [
+        {
+          name: "CSE 174",
+          time: "10:05:00"
+        },
+        {
+          name: "MKT 315",
+          time: "13:15:00"
+        }
+      ]
+    },
+    Tuesday: {
+      classes: [
+        {
+          name: "MKT 395",
+          time: "10:05:00"
+        },
+        {
+          name: "MGT 302",
+          time: "14:50:00"
+        }
+      ]
+    },
+    Wednesday: {
+      classes: [
+        {
+          name: "ISA 225",
+          time: "08:30:00"
+        },
+        {
+          name: "CSE 174",
+          time: "10:05:00"
+        },
+        {
+          name: "MKT 315",
+          time: "13:15:00"
+        }
+      ]
+    },
+    Thursday: {
+      classes: [
+        {
+          name: "MKT 395",
+          time: "10:05:00"
+        },
+        {
+          name: "MGT 302",
+          time: "14:50:00"
+        }
+      ]
+    },
+    Friday: {
+      classes: [
+        {
+          name: "ISA 225",
+          time: "08:30:00"
+        },
+        {
+          name: "CSE 174 Lab",
+          time: "10:05:00"
+        }
+      ]
+    }
+  }
+  
+  // const calendar = [
+  //   {
+  //     day: "Monday",
+  //     classes: [
+  //       {
+  //         name: "CSE 174",
+  //         time: "10:05 AM"
+  //       },
+  //       {
+  //         name: "MKT 315",
+  //         time: "1:15 PM"
+  //       }
+  //     ]
+  //   }, {
+  //     day: "Tuesday",
+  //     classes: [
+  //       {
+  //         name: "MKT 395",
+  //         time: "10:05 AM"
+  //       },
+  //       {
+  //         name: "MGT 302",
+  //         time: "2:50 PM"
+  //       }
+  //     ]
+  //   }, {
+  //     day: "Wednesday",
+  //     classes: [
+  //       {
+  //         name: "ISA 225",
+  //         time: "8:30 AM"
+  //       },
+  //       {
+  //         name: "CSE 174",
+  //         time: "10:05 AM"
+  //       },
+  //       {
+  //         name: "MKT 315",
+  //         time: "1:15 PM"
+  //       }
+  //     ]
+  //   },
+  //   {
+  //     day: "Thursday",
+  //     classes: [
+  //       {
+  //         name: "MKT 395",
+  //         time: "10:05 AM"
+  //       },
+  //       {
+  //         name: "MGT 302",
+  //         time: "2:50 PM"
+  //       }
+  //     ]
+  //   },
+  //   {
+  //     day: "Friday",
+  //     classes: [
+  //       {
+  //         name: "ISA 225",
+  //         time: "8:30 AM"
+  //       },
+  //       {
+  //         name: "CSE 174 Lab",
+  //         time: "10:05 AM"
+  //       }
+  //     ]
+  //   }
+  // ]
+
+  function handleClick() {
+    console.log("timer started")
+    const timer = setInterval(runTimer,1000);
+  };
+  
+  function dateComponent({name, hours, mins, secs}) {
+
+    console.log("hours: " + hours);
+    console.log("mins: " + mins);
+
+    return `
+      <div>
+        <p><strong>${name}</strong></p>
+        <p>${hours} hours ${mins} minutes</p>
+      </div>
+    `
+  }
+  
+  function runTimer() {
+    const loadDate = new Date();
+    // const loadDate = new Date("Tue Sep 14 2021 10:02:00 GMT-0400 (Eastern Daylight Time)");
+    const todayFormat = loadDate.toLocaleString('en-US', { year: 'numeric', month: 'long', day: 'numeric'});
+    const dayOfWeek = loadDate.toLocaleString('en-US', { weekday: 'long'});
+  
+    // console.log(dayOfWeek);
+    // console.log(calendar)
+    // console.log(calendar[dayOfWeek]);
+    // console.log(calendar);
+    console.log("Load Date: " + loadDate);
+
+    const lastUpdatedComponent = `<p>Last Updated: ${loadDate.toLocaleString('en-US', { hours: 'numeric', minutes: 'long'})}</p>`
+
+    let response = `${lastUpdatedComponent}`;
+
+    calendar[dayOfWeek].classes.forEach((event) => {
+      const classTime = new Date(`${loadDate.toISOString().split('T')[0]}T${event.time}`);
+  
+      if (classTime > loadDate) {
+        const diff = classTime - loadDate;
+        console.log("Diff: " + diff)
+        const hoursDiff = Math.floor((diff % 86400000) / 3600000);
+        console.log("Hours diff: " + hoursDiff)
+        const minsDiff = Math.round(((diff % 86400000) % 3600000) / 60000);
+        console.log("Mins diff: " + minsDiff)
+
+        response = response + dateComponent(
+          {
+            name: event.name,
+            hours: hoursDiff,
+            mins: minsDiff
+          })
+        // document.write();
+  
+      }
+    });
+    app.innerHTML = response;
+  }
+  
+  runTimer();
+  
+  
+  
+  </script>
