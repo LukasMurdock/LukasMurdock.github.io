@@ -1,4 +1,6 @@
 ---
+- firsttime: "Paid a utility bill"
+  date: 2021-09-19
 - firsttime: "Got someone else’s mail"
   date: 2021-08-17
 - firsttime: "Checked my own mailbox"
