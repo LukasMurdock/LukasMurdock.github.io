@@ -232,9 +232,9 @@ description: My calendar
       // console.log(calendar[dayOfWeek]);
       // console.log(calendar);
       // console.log("Load Date: " + loadDate);
-      const lastUpdated = loadDate.toLocaleString('en-US', { hours: 'numeric', minutes: 'long'})
+      const lastUpdated = loadDate.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric'})
 
-      const lastUpdatedComponent = `<p>Last Updated: ${lastUpdated.slice(lastUpdated.length - 11)}</p>`
+      const lastUpdatedComponent = `<p>Last Updated: ${lastUpdated}</p>`
 
       let response = `
       ${headerComponent}
