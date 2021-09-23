@@ -33,6 +33,7 @@ date: 'September 23, 2021'
   - [ResearchGate](https://www.researchgate.net/publication/271431231_Keynote_Address_The_inexorable_rise_of_the_proletarian_autodidact) (keynote)
 - [Noam Chomsky: The Common Good](https://chomsky.info/the-common-good/) (transcribed talk)
 - [Jonathan Rose: The Intellectual Life of the British Working Class](https://yalebooks.yale.edu/book/9780300257847/intellectual-life-british-working-classes) (book)
+- [A. G. Sertillanges: The Intellectual Life](https://www.amazon.com/Intellectual-Life-Spirit-Conditions-Methods/dp/0813206464) (book)
 
 
 - [ADS: Beware the Casual Polymath](https://applieddivinitystudies.com/2020/09/28/polymath/)
