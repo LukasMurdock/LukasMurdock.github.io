@@ -20,11 +20,13 @@ date: 'September 23, 2021'
 ## On Self Learning
 
 - [Wikipedia: Autodidacticism](https://en.wikipedia.org/wiki/Autodidacticism)
+- [LW: I want to become stronger](https://www.lesswrong.com/posts/DoLQN5ryZ9XkZjq5h/tsuyoku-naritai-i-want-to-become-stronger)
 - [LW: Learning optimization](https://www.lesswrong.com/posts/v89ELF5rQwge7upzv/learning-optimization)
 - [LW: On learning difficult things](https://www.lesswrong.com/posts/w5F4w8tNZc6LcBKRP/on-learning-difficult-things)
 - [LW: Lessons I've Learned from Self-Teaching](https://www.lesswrong.com/posts/cumc876woKaZLmQs5/lessons-i-ve-learned-from-self-teaching)
 - [LW: Book review: How learning works](https://www.lesswrong.com/posts/mAdMkFqWzbJRB544m/book-review-how-learning-works)
 - [LW: A brief summary of effective study methods](https://www.lesswrong.com/posts/goRshyncBQ8899xr8/a-brief-summary-of-effective-study-methods)
+- [LW: How to beat procrastination](https://www.lesswrong.com/posts/RWo4LwFzpHNQCTcYt/how-to-beat-procrastination)
 - [Let me learn: Provide tutorials in more formats](https://tatianamac.com/posts/let-me-learn/)
 - [The Lost Tools Of Learning](https://gbt.org/text/sayers.html)
 
