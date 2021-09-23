@@ -125,6 +125,11 @@ fulldata:
         Comment: "How it's done now. From the basics to advanced topics with simple, but detailed explanations."
         Date: December 19, 2020
 
+      - Title: "Learning JavaScript Design Patterns"
+        Link: "https://addyosmani.com/resources/essentialjsdesignpatterns/book/"
+        Comment: "A book by Addy Osmani."
+        Date: Sep 22, 2021
+
       - Title: "Mastering Next.js"
         Link: "https://masteringnextjs.com/"
         Comment: "Learn how to build static and server-rendered applications with Next.js and React."
@@ -449,6 +454,11 @@ fulldata:
         Link: https://speaking.io/
         Comment: "Because <i>imagine everyone's naked</i> is terrible advice."
         Date: Apr 22, 2020
+
+      - Title: "Demystifying Public speaking"
+        Link: "https://demystifying-public-speaking.com/"
+        Comment: "Full book with clear, practical advice through every step."
+        Date: Sep 22, 2021
 
       - Title: "TedX Speaker Guide"
         Link: "https://storage.ted.com/tedx/manuals/tedx_speaker_guide.pdf"

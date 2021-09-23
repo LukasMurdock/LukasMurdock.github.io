@@ -193,6 +193,8 @@ kbd {
 }
 </style>
 
+[Awk, sed, grep](https://arstechnica.com/gadgets/2021/08/linux-bsd-command-line-101-using-awk-sed-and-grep-in-the-terminal/)
+
 ## Package things (Homebrew)
 
 First, make sure you have Homebrew installed.

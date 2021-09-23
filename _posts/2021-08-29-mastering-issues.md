@@ -5,6 +5,8 @@ description: ''
 date: 'August 29, 2021'
 ---
 
+https://blog.placemark.io/2021/07/19/issues-only-management.html
+
 https://guides.github.com/features/issues/
 
 
