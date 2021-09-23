@@ -12,7 +12,6 @@ date: 'September 23, 2021'
 - [Seth Godin: Enrollment](https://seths.blog/2021/04/enrollment/) (article)
 - [Seth Godin: From education to learning](https://seths.blog/2020/08/from-education-to-learning/) (article)
 - [Agnes Callard: The Real College Scandal](https://thepointmag.com/examined-life/the-real-college-scandal/) (article)
-- [Wikipedia: Autodidacticism](https://en.wikipedia.org/wiki/Autodidacticism) (article)
 - [Van Schneider: The new student is autodidact](https://vanschneider.com/blog/the-new-school-is-youtube-the-new-student-is-auto-didact/) (article)
 - [Adam Marshall: High school is poison for autodidacts](https://medium.com/@adam.marshall/high-school-is-poison-for-autodidacts-ab236e91b05a) (article)
 - [MMM: The Self Educating Child](https://www.mrmoneymustache.com/2021/04/18/the-self-educating-child/) (article)
@@ -20,6 +19,7 @@ date: 'September 23, 2021'
 
 ## On Self Learning
 
+- [Wikipedia: Autodidacticism](https://en.wikipedia.org/wiki/Autodidacticism) (article)
 - [LW: Learning optimization](https://www.lesswrong.com/posts/v89ELF5rQwge7upzv/learning-optimization) (article)
 - [LW: On learning difficult things](https://www.lesswrong.com/posts/w5F4w8tNZc6LcBKRP/on-learning-difficult-things) (article)
 - [LW: Lessons I've Learned from Self-Teaching](https://www.lesswrong.com/posts/cumc876woKaZLmQs5/lessons-i-ve-learned-from-self-teaching) (article)
