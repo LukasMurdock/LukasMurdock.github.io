@@ -5,7 +5,7 @@ description: ''
 date: 'September 23, 2021'
 ---
 
-## On School, Education, and Teaching
+## On School and Education
 
 - [Seth Godin: Stop stealing dreams](https://seths.blog/2014/09/the-shameful-fraud-of-sorting-for-youth-meritocracy/)
 - [Seth Godin: Self-directed, project-based learning](https://seths.blog/2020/09/self-directed-project-based-learning/)
