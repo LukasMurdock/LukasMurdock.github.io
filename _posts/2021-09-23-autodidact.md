@@ -36,7 +36,10 @@ date: 'September 23, 2021'
 - [Noam Chomsky: The Common Good](https://chomsky.info/the-common-good/) (transcribed talk)
 - [Jonathan Rose: The Intellectual Life of the British Working Class (2001)](https://yalebooks.yale.edu/book/9780300257847/intellectual-life-british-working-classes) (book)
 - [A. G. Sertillanges: The Intellectual Life (1992)](https://www.amazon.com/Intellectual-Life-Spirit-Conditions-Methods/dp/0813206464) (book)
-
+- [The Passion to Learn: An Inquiry into Autodidactism](https://www.taylorfrancis.com/books/edit/10.4324/9780203329108/passion-learn-joan-solomon) (book)
+- [David A. Kolb: Experiential Learning: Experience as the Source of Learning and Development](https://www.amazon.com/Experiential-Learning-Experience-Source-Development-dp-0133892409/dp/0133892409/ref=dp_ob_title_bk) (book)
+  - [Wikipedia: Kolb's experiential learning](https://en.wikipedia.org/wiki/Kolb%27s_experiential_learning)
+- [Barbara Oakley: Uncommon Sense Teaching](https://www.amazon.com/Uncommon-Sense-Teaching-Practical-Insights/dp/0593329732) (book)
 
 - [ADS: Beware the Casual Polymath](https://applieddivinitystudies.com/2020/09/28/polymath/)
 - [Robin Rendle: Growing and Learning](https://www.robinrendle.com/notes/growing-and-learning/)
