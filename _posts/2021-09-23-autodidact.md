@@ -16,6 +16,8 @@ date: 'September 23, 2021'
 - [Adam Marshall: High school is poison for autodidacts](https://medium.com/@adam.marshall/high-school-is-poison-for-autodidacts-ab236e91b05a)
 - [MMM: The Self Educating Child](https://www.mrmoneymustache.com/2021/04/18/the-self-educating-child/)
 - [AEON: The school where children make the rules and learn what they want to learn](https://aeon.co/videos/the-school-where-children-make-the-rules-and-learn-what-they-want-to-learn)
+- [Sal Khan: Let's teach for mastery -- not test scores](https://youtu.be/-MTRxRO5SRA) (Ted Talk)
+- [Sal Khan: The One World Schoolhouse: Education Reimagined](https://www.amazon.com/One-World-Schoolhouse-Education-Reimagined/dp/1455508373?&linkCode=sl1&tag=nort0ff-20&linkId=6cb0d73c597ca5b82c2de92368ea9699&language=en_US&ref_=as_li_ss_tl) (book)
 
 ## On Self Learning
 
