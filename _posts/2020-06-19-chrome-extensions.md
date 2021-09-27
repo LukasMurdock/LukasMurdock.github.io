@@ -222,6 +222,13 @@ I have a [Chrome Apps section on my knowledge page](https://lukasmurdock.com/kno
 
 “It is a Chrome extension for printing JSON and JSONP.”
 
+## Trufflehog
+<img loading="lazy" style="max-width:60px" src="https://lh3.googleusercontent.com/_9AbG90Ws52r5QZiXj_4L6hihCFXNrNhDrClNSkmfN0eSiwKspARcM7_kfNVEXyAUfXNrSp4yK9GY_8lHq_5xWx4=w128-h128-e365-rj-sc0x00ffffff" alt="Trufflehog">
+
+[View Trufflehog in Chrome Web Store](https://chrome.google.com/webstore/detail/trufflehog/bafhdnhjnlcdbjcdcnafhdcphhnfnhjc/)
+
+“The TruffleHog chrome extension looks for API keys and credentials on websites visited, and alerts you if there are any present. This is useful for doing pentests and code reviews, because it helps identify keys that would otherwise either be missed or have to be searched for manually”
+
 ## User CSS
 
 ## React Developer Tools
