@@ -39,6 +39,7 @@ date: 'September 23, 2021'
 - [The Lost Tools Of Learning](https://gbt.org/text/sayers.html)
 - [Teaching by filling in knowledge gaps](https://jvns.ca/blog/2021/09/20/teaching-by-filling-in-knowledge-gaps/)
 - [Why books don’t work: how might we design mediums in which “reading” is the same as “understanding”?](https://andymatuschak.org/books/)
+- [A Model of Business Expertise](https://lukasmurdock.com/expertise/)
 
 - [The inexorable rise of the proletarian autodidact](https://www.google.com/books/edition/Challenges_in_Global_Learning/2ua2DQAAQBAJ?hl=en&gbpv=1&dq=autodidact&pg=PA282&printsec=frontcover) (paper)
   - [ResearchGate](https://www.researchgate.net/publication/271431231_Keynote_Address_The_inexorable_rise_of_the_proletarian_autodidact) (keynote)

@@ -45,6 +45,7 @@ I elevator pitch myself as a Designer, Developer, and Marketer, but here I try t
 - Write it up, don’t chat it down.
 - Find new ways to confuse yourself
 - Find solace in learning
+- Find a quest
 - Slow down, deliberate
 - Less, but better
 - Long-term games with long-term people
