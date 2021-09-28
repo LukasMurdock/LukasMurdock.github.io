@@ -44,7 +44,7 @@ I elevator pitch myself as a Designer, Developer, and Marketer, but here I try t
 - [Interruption is assault](https://www.takingti.me/articles/interruptionasassault).
 - Write it up, don’t chat it down.
 - Find new ways to confuse yourself
-- Find solace in learning
+- [Find solace in learning](https://lukasmurdock.com/autodidact/)
 - Find a quest
 - Slow down, deliberate
 - Less, but better
