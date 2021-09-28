@@ -143,7 +143,7 @@ MGT 291 — 3 Credit Hours
 
 **Strategic Thinking and Decision-Making in Marketing**  
 MKT 395 — 3 Credit Hours  
-
+<span class="full-underline" style="font-size: 12px;">See</span> [ How Strategy Really Works](https://youtu.be/3vAIur-N8gM){:target="_blank"}{:rel="noopener"} 
 
 **Professional Selling**  
 MKT 315 — 3 Credit Hours  

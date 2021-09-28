@@ -325,6 +325,11 @@ fulldata:
         Comment: "Currently, there are 163 (!) different services that are available from the Amazon Dashboard, each with their own way of working, difficulties, catches and best practices."
         Date: May 27, 2020
 
+      - Title: "Front End Interactive Learning"
+        Link: "https://www.smashingmagazine.com/2021/09/interactive-learning-tools-front-end-developers/"
+        Comment: "Interactive coding tools and games to help you learn CSS, JavaScript, SQL, React, Vim, regular expressions, Jamstack and pretty much everything in-between."
+        Date: September 27, 2021
+
       - Title: Front End Interview Handbook
         Link: "https://yangshun.github.io/front-end-interview-handbook/"
         Comment: "Almost complete answers you can use to interview potential candidates, test yourself or completely ignore."
@@ -414,6 +419,11 @@ fulldata:
         Link: http://youmightnotneedjs.com/
         Comment: "Examples of common UI elements and interactions with HTML and CSS alone."
         Date: July 16, 2020
+
+      - Title: "URL sketch overview"
+        Link: "https://www.netmeister.org/blog/urls.html"
+        Comment: "Ever wondered what happens when you type in a URL in an address bar in a browser?"
+        Date: 2021-09-27
 
       - Title: "URLS: It’s Complicated"
         Link: "https://www.netmeister.org/blog/urls.html"
@@ -703,6 +713,11 @@ fulldata:
         Link: "https://design.facebook.com/"
         Comment: "A hub for all things design, including articles, design tools and more."
         Date: Nov 23, 2020
+
+      - Title: "W3C design system"
+        Link: "https://design-system.w3.org/"
+        Comment: "The W3C design system."
+        Date: Sep 27, 2021
 
       - Title: "Component Gallery"
         Link: "https://component.gallery/"
@@ -3719,6 +3734,12 @@ fulldata:
         Link: https://thoughtmaybe.com/
         Comment: "An online library of films focused on topics challenging modern society, industrial civilisation, globalisation and dominant culture."
         Date: Apr 22, 2020
+        Media: video
+
+      - Title: Waterbear
+        Link: https://www.waterbear.com/
+        Comment: "Watch hundreds of award-winning documentaries."
+        Date: Sep 27, 2021
         Media: video
 
       - Title: Connections

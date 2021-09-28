@@ -5,6 +5,8 @@ description: ''
 date: 'June 23, 2021'
 ---
 
+[Table Stakes: Unblock Your Business](https://www.permanentequity.com/writings/table-stakes)
+
 The biggest business challenges growing companies face, as explained by [Mario Peshev](https://mariopeshev.com/the-biggest-business-challenges-growing-companies/).
 
 Categories:

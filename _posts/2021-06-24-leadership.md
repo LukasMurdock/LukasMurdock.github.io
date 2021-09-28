@@ -19,6 +19,8 @@ tags: annual
 - [Leading without authority: Model, document, and share](https://lethain.com/model-document-share/)
 - [I See You](https://www.lollydaskal.com/leadership/i-see-you/)
 - [Doist: Deep Work](https://blog.doist.com/deep-work/)
+- [Shields Down](https://randsinrepose.com/archives/shields-down/)
+- [Bad engineering managers think leadership is about power, good managers think leadership is about competently serving their team](https://ewattwhere.substack.com/p/bad-managers-think-leadership-is)
 
 ## Video
 - [17:48] [Simon Sinek: How great leaders inspire action](https://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action)
