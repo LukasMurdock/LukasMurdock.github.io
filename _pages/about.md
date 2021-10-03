@@ -101,6 +101,7 @@ Various technologies I dove into before I started tracking when I learned them. 
 - Jamstack
 - GCP
 - AWS
+- Java
 
 ### Technical Things I Learned in 2020
 - Content Marketing
