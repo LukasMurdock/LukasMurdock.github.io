@@ -233,7 +233,7 @@ Regard self-growth, development and learning as a cornerstone of life and daily 
 - I prefer less social engagement and activity, with a moderate inclination to be adventurous in the activities I like to participate in.
 - I am willing to fight for my ideas, tell people what I really think, and be frank with my views, including critical feedback.
 - I have a strong desire to prioritize and support others’ needs, and am fascinated by their behaviors and tendencies, with moderate sensitivity to their emotions and feelings in the moment.
-- I am willing to take charge in groups, and tend to lead more through holding myself and and others to high standards of performance rather than through motivation and inspiration.
+- I am willing to take charge in groups, and tend to lead more through holding myself and others to high standards of performance rather than through motivation and inspiration.
 - I have a moderate preference and appreciation for humor, being light-hearted and not taking matters too seriously.
 
 **How I apply myself**:
@@ -463,5 +463,4 @@ My favorite fonts on Google Fonts.
 - Adobe
 - Pearson
 - Proctorio
-- Infrastructure
 - GoDaddy
