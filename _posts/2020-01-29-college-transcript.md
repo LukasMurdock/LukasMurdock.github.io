@@ -163,4 +163,6 @@ CSE 174 — 3 Credit Hours
 ISA 225 — 3 Credit Hours  
 <span class="full-underline" style="font-size: 12px;">See</span> [ my notes](https://lukasmurdock.com/isa225/){:target="_blank"}{:rel="noopener"} 
 
-[…] Another class TBD because Miami scheduling is rough.
+**Introduction to Operations and Supply Chain Management**  
+MGT 302 — 3 Credit Hours  
+<span class="full-underline" style="font-size: 12px;">See</span> [ my notes](https://lukasmurdock.com/mgt302/){:target="_blank"}{:rel="noopener"} 
