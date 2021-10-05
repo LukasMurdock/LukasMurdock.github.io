@@ -16,6 +16,6 @@ What’s your promise? What change do you seek to make? How are you helping the 
 How are you [optimizing the perception](https://lukasmurdock.com/perception-optimization/) of it all?
 
 ## Where change happens
-Much of the difference between the [marketing types](https://lukasmurdock.com/marketing-differentiation/) comes down to different amounts of [attention](https://lukasmurdock.com/attention/).
+Much of the difference between the [marketing types](https://lukasmurdock.com/marketing-differentiation/) come down to different amounts of [attention](https://lukasmurdock.com/attention/).
 
-Reaching, helping someone move forward, someone browsing social media is going to be relatively different from someone reading their email, and even more different from someone attending an event. There are different spaces that garner their own [Perception Optimization](https://lukasmurdock.com/perception-optimization/) specialists. Sure, there is going to be overlap, it’s all helping people move forward. Same strategy; sometimes tactics differ.
+Reaching, helping someone move forward, or browsing social media will be relatively different from someone reading their email and even more different from someone attending an event. Different spaces garner different [Perception Optimization](https://lukasmurdock.com/perception-optimization/) specialists. Sure, there is going to be overlap; it’s all helping people move forward. Same strategy; sometimes tactics differ.
