@@ -44,7 +44,6 @@ Reaching, helping someone move forward, or browsing social media will be relativ
 - Robert Greene: The 48 Laws of Power (1998)
 - 🌳 Seth Godin: Permission Marketing (1999)
 - Jay Abraham: Getting Everything You Can Out Of All You’ve Got (2000)
-- Jim Collins: Good to Great (2001)
 - Seth Godin: Purple Cow (2002)
 - 🌳 W. Chan Kim and Renée Mauborgne: Blue Ocean Strategy (2004)
 - Malcolm Gladwell: Blink (2005)
