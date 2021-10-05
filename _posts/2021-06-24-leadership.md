@@ -31,6 +31,7 @@ Leadership here refers to team leadership, in contrast to the wider [marketing l
 - [17:48] [Simon Sinek: How great leaders inspire action](https://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action)
 - [42:08] [Simon Sinek: at the April 2012 CreativeMornings/NewYork](https://vimeo.com/40979758)
 - [2:53] [Derek Sivers: How to start a movement](https://www.ted.com/talks/derek_sivers_how_to_start_a_movement)
+- [34:26] [Paul O'Neill: The Irreducible Components of Leadership](https://youtu.be/htLCVqaLBvo)
 
 ## A Land & Expand Reading Program
 - 2008 [Seth Godin: Tribes](https://seths.blog/2019/03/its-not-your-tribe/)
