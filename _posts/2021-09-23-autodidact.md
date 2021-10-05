@@ -21,6 +21,7 @@ date: 'September 23, 2021'
 - [28:00] [AEON: The school where children make the rules and learn what they want to learn](https://aeon.co/videos/the-school-where-children-make-the-rules-and-learn-what-they-want-to-learn)
 - [10:50] [Sal Khan: Let's teach for mastery -- not test scores](https://youtu.be/-MTRxRO5SRA) (Ted Talk)
 - [Sal Khan: The One World Schoolhouse: Education Reimagined](https://www.amazon.com/One-World-Schoolhouse-Education-Reimagined/dp/1455508373?&linkCode=sl1&tag=nort0ff-20&linkId=6cb0d73c597ca5b82c2de92368ea9699&language=en_US&ref_=as_li_ss_tl) (book)
+- [Josef Piper: Leisure, the Basis of Culture](https://www.brainpickings.org/2015/08/10/leisure-the-basis-of-culture-josef-pieper/) (book)
 - [The education race](https://juliet.tech/education-race/)
 - [You Can't Teach What They Aren't Ready to Know](https://commoncog.com/blog/you-cant-teach-what-they-arent-ready-to-know/)
 - [On cultures that build](https://scholars-stage.org/on-cultures-that-build/)
