@@ -31,6 +31,7 @@ Reaching, helping someone move forward, or browsing social media will be relativ
 
 
 ### Other books
+- 🌳 Edward Bernays: Propaganda (1928)
 - 🌳 Dale Carnegie: How to Win Friends and Influence People (1936)
 - 🌳 Eugene M. Schwartz: Breakthrough Advertising (1966)
 - 🌳 Philip Kotler: Marketing Management (1967)
