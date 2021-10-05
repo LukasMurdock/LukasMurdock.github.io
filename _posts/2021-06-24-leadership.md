@@ -45,6 +45,7 @@ Leadership here refers to team leadership, in contrast to the wider [marketing l
 - Peter Drucker: The Effective Executive (1966)
 - Stephen Covey: The 7 Habits of Highly Effective People (1989)
 - Jim Collins: Built to Last (1994)
+- [Richard W.Hamming: The Art of Doing Science and Engineering](http://worrydream.com/refs/Hamming-TheArtOfDoingScienceAndEngineering.pdf) (1997)
 - John C. Maxwell: The 21 Irrefutable Laws of Leadership (1998)
 - Arbinger Institute: Leadership and Self Deception (2000)
 - Jim Collins: Good to Great (2001)
