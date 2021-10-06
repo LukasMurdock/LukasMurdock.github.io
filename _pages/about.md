@@ -53,8 +53,8 @@ I elevator pitch myself as a Designer, Developer, and Marketer, but here I try t
 - The map is not the territory. Revising your map is a sign you’re doing things right.
 - [Search for better questions](http://kiriakakis.net/comics/mused/a-day-at-the-park).
 - [Build for posterity](https://lukasmurdock.com/for-posterity/), [build bridges when you cross](https://lukasmurdock.com/bridge-builder/).
-- [Today you, tomorrow me](https://lukasmurdock.com/tytm/).
 - [We shape our tools, and our tools shape us](https://vimeo.com/34017777).
+- [Today you, tomorrow me](https://lukasmurdock.com/tytm/).
 - Genshai: Never treat another person in a manner that would make them feel small – including yourself.
 - Trust by default.
 - [You have to trust your self](https://lukasmurdock.com/realize/#you-have-to-trust-your-self).
