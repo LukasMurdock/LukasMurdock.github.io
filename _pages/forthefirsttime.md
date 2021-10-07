@@ -2,10 +2,10 @@
 layout: page
 title: When Did You Last Do Something For The First Time?
 description: ""
-last_modified_at: 2021-06-10T23:26:14-0400
+# last_modified_at: 2021-06-10T23:26:14-0400
 ---
-
-<span style="font-size: 12px;">Last Updated: {{ page.last_modified_at | date: '%B %d, %Y' }}</span>
+<!-- 
+<span style="font-size: 12px;">Last Updated: {{ page.last_modified_at | date: '%B %d, %Y' }}</span> -->
 
 {% for item in site.data.forTheFirstTime %}
 <div class="card-note" id="{{ item.date | url_encode }}">
