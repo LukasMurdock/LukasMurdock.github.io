@@ -272,6 +272,11 @@ At some point Twitter reinstated the Twitter thread—I imagine with great chagr
 
 - **April 21, 2021** [EFF Sues Proctorio on Behalf of Student](https://www.eff.org/press/releases/eff-sues-proctorio-behalf-student-it-falsely-accused-copyright-infringement-get)
 
+Johnson v. Proctorio Incorporated Docket:
+- [Justia](https://dockets.justia.com/docket/arizona/azdce/2:2021cv00691/1264886)
+- [PacerMonitor](https://www.pacermonitor.com/public/case/39922580/Johnson_v_Proctorio_Incorporated)
+- [SupremeCourt.gov](https://www.supremecourt.gov/docket/docketfiles/html/public/20-1223.html)
+
 
 - https://news.ycombinator.com/item?id=25002730
 
