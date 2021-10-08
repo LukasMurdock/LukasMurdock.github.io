@@ -13,6 +13,7 @@ date: 'September 23, 2021'
 - [Seth Godin: From education to learning](https://seths.blog/2020/08/from-education-to-learning/)
 - [Seth Godin: The modern curriculum](https://seths.blog/2021/09/the-modern-curriculum/)
 - [Seth Godin: Respecting their time](https://seths.blog/2021/09/respecting-their-time/)
+- [Seth Godin: Tools for modern citizens](https://seths.blog/2021/10/tools-for-modern-citizens/)
 - [Agnes Callard: The Real College Scandal](https://thepointmag.com/examined-life/the-real-college-scandal/)
 - [Van Schneider: The new student is autodidact](https://vanschneider.com/blog/the-new-school-is-youtube-the-new-student-is-auto-didact/)
 - [Adam Marshall: High school is poison for autodidacts](https://medium.com/@adam.marshall/high-school-is-poison-for-autodidacts-ab236e91b05a)
