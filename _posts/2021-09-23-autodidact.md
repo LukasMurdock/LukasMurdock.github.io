@@ -28,7 +28,7 @@ date: 'September 23, 2021'
 - [On cultures that build](https://scholars-stage.org/on-cultures-that-build/)
 
 ## On Self Learning
-
+### Articles
 - [Wikipedia: Autodidacticism](https://en.wikipedia.org/wiki/Autodidacticism)
 - [There’s no speed limit: the standard pace is for chumps](https://sive.rs/kimo)
 - [LW: I want to become stronger](https://www.lesswrong.com/posts/DoLQN5ryZ9XkZjq5h/tsuyoku-naritai-i-want-to-become-stronger)
@@ -43,16 +43,22 @@ date: 'September 23, 2021'
 - [Teaching by filling in knowledge gaps](https://jvns.ca/blog/2021/09/20/teaching-by-filling-in-knowledge-gaps/)
 - [Why books don’t work: how might we design mediums in which “reading” is the same as “understanding”?](https://andymatuschak.org/books/)
 - [A Model of Business Expertise](https://lukasmurdock.com/expertise/)
-
 - [The inexorable rise of the proletarian autodidact](https://www.google.com/books/edition/Challenges_in_Global_Learning/2ua2DQAAQBAJ?hl=en&gbpv=1&dq=autodidact&pg=PA282&printsec=frontcover) (paper)
   - [ResearchGate](https://www.researchgate.net/publication/271431231_Keynote_Address_The_inexorable_rise_of_the_proletarian_autodidact) (keynote)
 - [Noam Chomsky: The Common Good](https://chomsky.info/the-common-good/) (transcribed talk)
-- [Jonathan Rose: The Intellectual Life of the British Working Class (2001)](https://yalebooks.yale.edu/book/9780300257847/intellectual-life-british-working-classes) (book)
-- [A. G. Sertillanges: The Intellectual Life (1992)](https://www.amazon.com/Intellectual-Life-Spirit-Conditions-Methods/dp/0813206464) (book)
-- [The Passion to Learn: An Inquiry into Autodidactism](https://www.taylorfrancis.com/books/edit/10.4324/9780203329108/passion-learn-joan-solomon) (book)
-- [David A. Kolb: Experiential Learning: Experience as the Source of Learning and Development](https://www.amazon.com/Experiential-Learning-Experience-Source-Development-dp-0133892409/dp/0133892409/ref=dp_ob_title_bk) (book)
+
+### Books
+- [David A. Kolb: Experiential Learning: Experience as the Source of Learning and Development](https://www.amazon.com/Experiential-Learning-Experience-Source-Development-dp-0133892409/dp/0133892409/ref=dp_ob_title_bk) (1984)
   - [Wikipedia: Kolb's experiential learning](https://en.wikipedia.org/wiki/Kolb%27s_experiential_learning)
-- [Barbara Oakley: Uncommon Sense Teaching](https://www.amazon.com/Uncommon-Sense-Teaching-Practical-Insights/dp/0593329732) (book)
+- [A. G. Sertillanges: The Intellectual Life (1992)](https://www.amazon.com/Intellectual-Life-Spirit-Conditions-Methods/dp/0813206464) (1992)
+- [Jonathan Rose: The Intellectual Life of the British Working Class](https://yalebooks.yale.edu/book/9780300257847/intellectual-life-british-working-classes) (2001)
+- [The Passion to Learn: An Inquiry into Autodidactism](https://www.taylorfrancis.com/books/edit/10.4324/9780203329108/passion-learn-joan-solomon) (2003)
+
+- Barbara Oakley: A Mind For Numbers (2014)
+- Barbara Oakley: Mindshift (2017)
+- Barbara Oakley: Learning How To Learn (2018)
+- [Barbara Oakley: Uncommon Sense Teaching](https://www.amazon.com/Uncommon-Sense-Teaching-Practical-Insights/dp/0593329732) (2021)
+- Barbara Oakley: Learn Like a Pro (2021)
 
 - [ADS: Beware the Casual Polymath](https://applieddivinitystudies.com/2020/09/28/polymath/)
 - [Robin Rendle: Growing and Learning](https://www.robinrendle.com/notes/growing-and-learning/)
