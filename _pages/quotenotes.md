@@ -6,8 +6,6 @@ sitemap: false
 index: noindex
 ---
 
-<a style="margin-bottom: 10px;" href="#" onclick="randomResource()">Give me something random!</a>
-
 window.scrollTo(0, <span id="randomNumber">500</span>);
 
 There’s a blank slate. What are you going to do with it?
@@ -75,6 +73,415 @@ Whatever scares you, go do it.
 Commit to five specific things they would do each day to move their goal toward completion.
 
 # Slogans
+
+‘‘Master,’’ says Luke, ‘‘moving stones around is one thing. This is totally different.’’ 
+‘‘No! No different! Only different in your mind. You must unlearn what you have learned.’’ 
+‘‘All right, I’ll give it a try,’’ Luke says begrudgingly. 
+‘‘No! Try not. Do. Or do not. There is no try,’’ insists Yoda. 
+
+“Do not spoil what you have by desiring what you have not; remember that what you now have was once among the things you only hoped for.” - Epicurus
+
+Emulation, and action.
+Embed the perceptual cues within plausible scenarios.
+
+People are siloed by algorithms. People are lonely. People are bored to death.
+
+You are a startup of one. Employers hire you to solve a problem for them.
+
+Work backwards from demand. Find business pains so acute that people are willing to pay differentiated sums to make the pains go away.
+
+You can’t communicate insight by explaining.
+
+What happened to our ability to watch other people burn and learn? For learning to happen people need to have their old mental models destroyed through visceral failure, to make way for new models.
+
+1. Find the domain experts
+2. Extract their expertise
+3. Build a case library of difficult cases
+4. Turn your case library into a set of training simulations
+
+“Find a partner who is ready to build with you.
+It is not about finding perfection in another person, it is about realizing when you come across an undeniable connection that nourishes your being and matches the type of support you are looking for. Getting lost in the idea of perfection is a hindrance. Being with someone who is committed to going through the ups and downs of life together is truly priceless.
+When two people embrace their imperfections and commit to growing into better versions of themselves, it will naturally enhance the happiness they share in the relationship.”
+
+Humans are grateful to those who fulfill their needs.
+
+focusing on problems to be solved gets in the way of working on the systems that generated those problems in the first place.
+
+positioning, messaging, story
+
+coding and design techniques come second to solving problems and providing value.
+
+Ideas that spread, win. And so the goal of it all is to find your better and make it spread.
+
+All behavior makes sense with enough information.
+
+When you own a laptop you own the means to production.
+
+An enabler of great creators.
+
+As Steve Jobs said, a leader must stop playing an instrument, and start playing the symphony. 
+
+Execution takes process: effort, sacrifice, discipline, and persistence. Ideas are just events.
+
+The main engine for profit is attention.
+
+To reap the rewards, plow the seeds.
+
+“because I was so young I absolutely knew it was totally possible to do, I was fully determined and without consulting any professionals I had no barrier stopping me.”
+
+Double down on work that’s truly hard to measure, to sign up for emotional labor and experimentation and group leadership and working on the frontier
+
+Each moment is special. The clock may be ticking but your life is lived by the second, don’t waste any of them. 
+
+Teams need to believe that their work is important. Teams need to feel their work is personally meaningful. Teams need clear goals and defined roles. Team members need to know they can depend on one another. But, most important, teams need psychological safety.
+
+“One terrifying side effect of learning the world isn’t the way you think is that it leaves you all alone. And when you try to describe your new worldview to people, it either comes out sounding unsurprising (“yeah, sure, everyone knows the media’s got problems”) or like pure lunacy and people slowly back away.”
+
+Help people help people.
+
+Pioneer: 
+* Enable the impossible. 
+* Open a new world of possibility. 
+* Show others that they can do it too, and take it even further.
+* Show what can be done.
+* Your job is not just to act, but to tell a fascinating story of how you did so, and inspire others to do it.
+* Make great adventures, but tell greater stories.
+* Inspire
+
+Start small. Master the art of showing up. Scale up when you have the time, energy, and interest.
+
+Being really clear about what we’re buying (and selling) opens the door to getting serious about whether or not you’re here to solve an interesting problem.
+
+* **Standard sales process**: Create a standard, organization-wide process for sales to follow when they get a new lead
+* **Tracking**: Build tracking tools to ensure the process was being followed and reported in a standardized way
+* **Analysis**: Take the standardized tracking data and have an analyst look for insights. For example determine how fast the first customer call-back needs to be to maximize conversion
+* **Prioritization**: Look at the current data available on customers to determine what characteristics predict customer buying and use that to prioritize sales follow-up (i.e., use the data they have before they go collecting new data)
+
+You have a moral responsibility to do what you do best, because that is your service to the world.
+
+1. Hustle: You do all the hard work yourself.
+2. Management: Hire people to do the things you used to do.
+3. Operationalizing: Build systems and codify your decision-making principles so the company can run without your involvement.
+
+
+Learn: Turn time into experience  
+Build: Turn experience into judgement  
+Teach: Turn judgement into capital   
+Fund: Turn capital into time
+
+Write online and create projects you find interesting.
+
+write blog posts and unofficial guides, make video tutorials, give talks, provide support. These are things the authors often don't have energy left for, and—unlike code contributions—don't require their time or approval.
+
+Telling is easy. Being is hard.
+
+“What makes something the best choice?  
+You.  
+You make it the best through your commitment to it.  
+Your dedication and actions make any choice great.”
+
+If you were ready for it, it wouldn't be growth.
+
+Good code is code that can be understood by a junior engineer. Great code can be understood by a first year CS freshman. The best code is no code at all.
+
+Even in the face of a seemingly endless struggle with the likes of Sisyphus, or the struggle to the death at Thermopylae, we seek to grow stronger.
+
+Identify the real goal, decompose vague concepts, frame the right questions, seek more data or experience, listen to multiple perspectives, assess upsides and downsides, examine your biases, act like an owner.
+
+If you possibly can, work where there are no words for what you do.
+
+the Murakami quote about how “If you only read the books that everyone else is reading, you can only think what everyone else is thinking” also applies to lived experience: there are certain forms of knowledge that will be denied to you if you stay within the bounds.
+
+Today’s problem is yesterday’s solution.
+
+Any anger or confusions about others stems from us not knowing and understanding their reality.
+
+
+Life is an open book test.
+
+keep sending out ripples into time that can spread beyond the little space I take up. In due time, all the traces will be covered up and forgotten beyond being noticed. But I think that's ok. To me, having made matters more than being noticed. And so I'll keep making.
+
+At its core, an entertainment business does only three things:
+1. Create/tell stories
+2. Build love for those stories
+3. Monetize that love
+
+You guys sell what you do, I sell what the world can do. Who, not how.
+
+took an engagement that I've delivered five times now and said "How could I refactor this engagement such that I can deliver much of the value for near-zero marginal time investment?" The answer was collecting my expertise and experience in a package that customers could use to self-direct themselves through implementing the advice
+
+Build the things that will allow you to engage an audience and improve it over time. Included in this: Friendcatchers. Friendcatchers are small, contained lists, essays or apps that solve resonant (emotional, relevant), tractable, underserved problems.
+
+Optimize what compounds: 
+* Building audiences
+* Relationships
+* Investing $
+
+Work on something that nobody has a name for.
+
+Action Verb (e.g. Increased, decreased, drove) + Marketing Metric (e.g. targeted traffic, Facebook page followers, targeted leads) + Time Frame (e.g. over 60 days) + Specific Tactic (e.g. by testing ad copy, by testing video ads, by distributing a survey).
+
+"If anyone can refute me—show me I’m making a mistake or looking at things from the wrong perspective—I’ll gladly change. It’s the truth I’m after, and the truth never harmed anyone. What harms us is to persist in self-deceit and ignorance." (Marcus Aurelius, Meditations)
+
+Invest in:
+- your point of view, strategic narrative, brand identity
+- building a media machine for content on your POV
+- measuring messaging effectiveness, knowing what resonates with your people (or not)
+- knowing more about your customers than others
+- service, experience
+
+“Kaizen” is a Japanese term that captures the concept of continuously making many small improvements.
+
+We who cut mere stones must always be envisioning cathedrals.
+
+You don’t persuade people by telling them. You persuade them by asking them.
+
+Invest in:
+1. Your brand identity and point of view.
+2. Building a media machine around that.
+3. Knowing more than others about what your audience wants, how they think about the problems you help them solve.
+4. Knowing how what you're saying is landing on them.
+
+
+In your first 30 days, try to understand the landscape:
+Where is my team going? What’s our vision?  
+Where is my team now?  
+What are our challenges?  
+Who are the people I’ll work with?
+
+Understand the market and what motivates customers. Choose the market segments to target. Determine what attributes the product needs for people to choose it. Design an effective go-to-market plan along with the required positioning and messaging.
+
+College tuition is merely paying for the **opportunity** to enroll in their classes. And once you pay they don’t care about making sure you can get into the classes needed to fulfill their graduation requirements.
+
+Synchronous communication breaks down when you have to communicate ideas built beyond the shared context (Story Break). Asynchronous enables a more consistent manner of communicating ideas without having the same depth of shared context.
+
+We iterate on how to properly communicate ideas. Writing instead of speaking enables preloading many more iterations before starting to communicate.
+
+Special means you:
+* Have what others don’t (material, knowledge, feelings)
+* Do what others won’t
+
+it's more important to have a marketing plan for people than for clients. In that pursuit, your positioning is your culture.
+
+“The most important thing I learned is that the low end eats the high end: that it's good to be the "entry level" option, even though that will be less prestigious, because if you're not, someone else will be, and will squash you against the ceiling. Which in turn means that prestige is a danger sign.” – Paul Graham
+
+What is scarce is trust and awareness.
+
+set the desired outcome, but let the team figure out how to achieve that.
+
+1. Reference stories and analogies whenever possible, to connect theory to real life. 
+2. Repeat your one key lesson/ask several times. People need to hear it more than once before they’ll remember it. 
+3. Find your nervous equilibrium. If you’re not nervous enough, you won’t perform well. If you’re too nervous, it will impact your performance. Preparation and perspective are what allows you to strike that balance. 
+4. The beginning and the end are the most important parts of your talk. People anchor their feelings and emotions there. 
+
+Pre-existing demand? Search  
+No existing demand? Social  
+More time than money? Content  
+More money than time? Ads
+
+**Notice things other people wouldn’t; the magic lies outside the ordinary purview.**
+
+"A more interesting question, a question that most people never consider, is, “What pain do you want in your life? What are you willing to struggle for?” Because that seems to be a greater determinant of how our lives turn out."
+- Mark Manson
+
+leadership “can never be legislated or coerced.  It is based on a courageous vulnerability that invites others by our example to a frontier conversation whose outcome is yet in doubt.
+
+**Amor Fati**
+
+content can be great but content is transactional and it wants something from you. Enjoy content from time to time, but keep it in its place, in the background behind actual art and actual attentive experience in the world itself.
+
+If you're in SaaS, Zapier and G2 and Capterra are coming for ya.  
+If you're an agency, Clutch is gonna be there.  
+If you're a restaurant, Yelp and 6 delivery services want your traffic.
+
+Greatness is consistency.  
+Meditating once is common. Meditating daily is rare.  
+Exercising today is simple. Training every week is simply remarkable.  
+Writing one essay rarely matters. Write every day and you're practically a hero.  
+Unheroic days can make for heroic decades
+
+Marketing gets easier when you think of it as a search function for people who already agree with you, they just haven't met you yet.
+
+School requires you to learn about things after the answer has already been decided.  
+Life requires you to learn about things while the answer is in the process of being decided.
+
+The Chinese bamboo tree will spend 5 years developing, spreading its root system underground with no visible progress. Then in its six year, it will grow 80-feet in six weeks.
+
+tackle the Great Books, to wrestle the big ideas, to make notes, to ask questions, and ultimately to enter into discourse with their fellow man about the ideas that matter.
+
+Cunningham's Law — elicitation
+
+Business is easy if there’s a line of people to hand you cash. The work is in finding those people.
+
+Lou Holtz [0] has a very pithy mental model for how to evaluate leadership:
+Everyone asks three questions of people leading them:
+1. Can I trust you?
+2. Do you care about me?
+3. Are you committed to excellence? (aka do you have high standards).
+
+make our clients unique and different and distinctive because that’s what it takes to make them the best
+
+A two-pronged assault on growth. First, increase the number of buyers coming into the top of the funnel, second turn occasional buyers into regular buyers.
+
+When you don’t know how it works, you’re afraid of it.
+
+Understand why you’re losing. Organizing is the soul of this work. It’s talking to people about important issues and moving them to take collective action.
+
+Go about seeing needs and learning a unique set of skills.
+
+Accumulate assets, not responsibilities.
+Direction over speed.
+Outcome over ego.
+Position over predict.
+Long over short term.
+
+The inverse relationship between specialization and hacking.
+
+Your personal dislike (or mine) has nothing to do with how well something works
+
+At every decision point, take the harder choice.
+
+To get rich you need to get yourself in a situation with two things, measurement and leverage. You need to be in a position where your performance can be measured, or there is no way to get paid more by doing more. And you have to have leverage, in the sense that the decisions you make have a big effect.
+
+
+Start doing something people want. You don't need to join a company to do that. All a company is is a group of people working together to do something people want. It's doing something people want that matters, not joining the group.
+
+If you want to create wealth (in the narrow technical sense of not starving) then you should be especially skeptical about any plan that centers on things you like doing. That is where your idea of what's valuable is least likely to coincide with other people's.
+
+"Whenever two people meet, there are really six people present. There is each man as he sees himself, each man as the other person sees him, and each man as he really is." — William James
+
+Just do it. Just ask. Just go. Just start. Just hit send. Just say it.
+
+Hubspot playbook:
+1. Persona research.
+2. Greenspace analysis.
+3. Exploratory keyword research.
+4. Search Insights Report development.
+5. Editorial calendar creation.
+6. Content production and editing.
+7. Reporting and analysis.
+
+
+1. Information content
+2. Continued learning action (ebook)
+3. Email campaign
+4. Automation triggers
+5. Retargeting via Paid
+
+We overestimate the short term and underestimate the long term.
+
+“Holy fucking shit that blew my mind.”
+
+Write, speak, and curate. Eloquently and prestigious.
+
+There is generally a right way to build wealth. And that is through the ownership of income-producing assets, such as businesses. You don’t have to own the businesses directly, but you do have to own them. So if the entrepreneurial life isn’t for you, just keep buying index funds and don’t stop
+
+The biggest step you can take is the first.
+
+Start. The difference between 0% and 1% is infinity. Start. The difference between 1% and 2% is 100%.
+
+I absolutely think about the higher-level consequences of what I’m writing. If someone believed what I said, as they would interpret it, what would they likely do? What does this statement signal about group affiliation, and who does it give attention to, or lower or raise in status? How does this strategically impact the overall playing field? How does this interplay with being good writing or being useful or with the norms I’ve created for myself, especially around politics? Does this make me seem too angry or crazy, or just make no sense or seem unjustified until I figure out how to communicate things I don’t yet know how to communicate? Would this create cancellation risk, or risk of blameworthiness in other ways, for myself or others? 
+
+Assume you will be successful at whatever game you play. **Are you playing a game you want to win?**
+
+Artists are emotional drug dealers.
+
+A job is a system which turns time into money. A business is a system which turns other systems into money. **Build systems**.
+
+you have to have experience, opinions, and something **worth** sharing.
+
+Amazon is a unique company, because every other company in the world thinks of problems in terms of build-vs-buy—is it better to pay someone else to solve the problem, or solve it internally? Whereas Amazon thinks of build-a-new-business-versus-buy: if the problem is hard to solve internally, at Amazon scale, then any solution that's good enough for Amazon is good enough for every other business on earth, and can probably be sold to them.
+
+“Lose money for the firm and I will be understanding; lose a shred of reputation for the firm, and I will be ruthless.”
+
+Evangelizing your category. **Not your brand**.
+
+How to grow your social media audience when you don't have decades of experience to share (yet):
+- Start posting summary content on what you read, listen to, and watch. Many are building significant audiences by posting summaries on blog posts, podcast episodes, books, webinars, conference talks, Clubhouse sessions, etc.
+- You give credit to the original source (who often amplifies the summary post), but you end up taking 80% of the value. 
+- There's massive value in curation and summarization. 
+- Posting regular summaries also forces you to learn and extract lessons, distill the knowledge. You will learn better by thinking about the content, and teaching others what you learned. 
+- Do this daily, and you 10x your audience in a year. Consistency + excellence = $$$.
+
+You can have a rule of thumb, but you should expect it to frequently be violated in ways you can’t predict.
+
+you'll be more influential by channeling your energy into long-lived and semi-private communities (learning circles, meetups, etc) instead of publicly.
+
+Practically the only thing that matters in the freelance web design space is **acquiring and closing new quality leads on a regular basis**.
+
+Going the “basic website” route for a boring business is definitely the most lucrative.
+
+Work hard to shorten your feedback loops. Less internal discussion, more shipping.
+
+SEO is actually simple. Your job is to understand what people want, and use content to answer their questions.
+
+As Feynman put it, "what I cannot create I cannot understand"
+
+sometimes you have to be a crazy bastard so people won't walk all over you.
+
+E-Books, webinars, and virtual events… what do they all have in common?
+They’re all online assets that answer questions and educate people.
+
+help buyers familiarize themselves with the core business problem, the alternative options, and how you can help them.
+
+that most of what works is pretty simple and the hard part is executing consistently in the face of all the challenges life throws at you.
+
+In general, there are three things that cause people to change their actions:
+* Status roles
+* Affiliation
+* Convenience
+Status roles involve whether this action will move someone up or down in the estimation of their peers or competitors.
+Affiliation is related to status, but more specific. It’s “people like us do things like this.” In the words of the Rolling Stones: He can’t be a man because he doesn’t smoke, the same cigarettes as me.
+And convenience is the hallmark of a semi-lazy decision–it’s just easier.
+
+Help the people a few chapters behind you. (Catch me if you can)
+
+Become an expert in something that everyone wishes they were an expert at.
+
+The economy doesn't care about intelligence, at all, it doesn't care what you know, merely what you can produce for it.
+
+Build tools that amplify human ability.
+
+What are you doing today that’s going to pay off in 10 years?
+
+Reputation is a simple construct, built on two ideas:
+1. **Ability**: What you can do. 
+2. **Reliability**: What you actually do. 
+
+“It is not the man who has too little, but the man who craves more, that is poor.” | Seneca
+
+Pick your audience, pick your future. If you decide to serve people who know they need what you do and have money and are eager to pay for it, then that’s the life that you signed up for. Pick your customers, pick your future. Who will give you the fuel you need to serve them?
+
+Perhaps the business case for purpose isn’t about making profits at all, but the protection against destructive profit-taking. Perhaps the true value of having a clear corporate purpose should actually be measured in terms of it’s contribution to resilience, long term sustainability and its contribution to a culture that isn’t willing to sacrifice the future on the alter of this quarters numbers.
+
+take up a small part  of your client's business and think about **how to automate** that- ask your client about this. You will be surprised as to how many ideas you receive.
+
+Who is going to remember you if you don't keep showing up?
+
+A slogan is not just a way to talk to the outside world; it's a way to establish an internal narrative.
+
+It's hard to coordinate the behavior of over a billion people without some kind of catchy guidance. So a tagline, attached to a useful concept, is a good way to run every decision or observation through a quick filter: if it matches, it's important; if it doesn't, discard.
+
+Every morning, you get to ask yourself:
+* What would I like to do with this incredible day?
+* What would make today incredible for me?
+* What am I feeling called to do today? What’s most important?
+
+The more specialized your work, the greater the risk that you will communicate in ways that are incomprehensible to the uninitiated.
+
+Entrepreneurs use money (preferably someone else’s money) to build a business bigger than themselves. Entrepreneurs make money when they sleep. Entrepreneurs focus on growth and on scaling the systems that they build. The more, the better.
+
+take the initiative to develop creative solutions to the different problems around them.
+
+Showing something functional goes further than any resume.
+
+Never sell. Create value. Amateurs give advice. Experts diagnose.
+
+Burn your implementation business to the ground. There’s no price premium in doing the work.
+
+The more distance you create between yourself and the doing the more you will be able to influence how many is spent and with whom.
+
+We need to plant our trees before we want the shade, and fix our systems before they break.
 
 What you want in life is to be in control of your time. You want to get into a leveraged job where you control your time and you're tracked on outputs.
 
@@ -1930,18 +2337,47 @@ The Mac
 
 
 <script>
+console.log("fuck")
+articleElement = document.getElementsByClassName("c-post")[0]
+buttonElement = `
+<a style="
+  display: inline-block;
+  margin-bottom: 10px;
+  position:sticky;
+  top: 10px;
+  background-color: white;
+  border-radius: 50px;
+  height: 42px;
+  line-height: 42px;
+  padding: 0px 24px;
+  margin: 0;
+  " href="#" onclick="randomResource()">
+Give me something random!
+</a>
+`
+articleElement.insertAdjacentHTML('afterbegin', buttonElement);
+console.log(articleElement)
 
-element = document.getElementById("randomNumber")
-element.innerHTML = Math.floor(Math.random() * Math.floor(document.body.scrollHeight))
-// Doesn’t work for some reason :(
-function getRandomInt(max) {
+
+// element = document.getElementById("randomNumber")
+// element.innerHTML = Math.floor(Math.random() * Math.floor(document.body.scrollHeight))
+
+function getRandomInt() {
   return Math.floor(Math.random() * Math.floor(document.body.scrollHeight));
 }
 function randomResource() {
 console.log("Running")
-window.scrollTo(0, Math.floor(Math.random() * Math.floor(document.body.scrollHeight)));
-console.log(`window.scrollTo(0, ${Math.floor(Math.random() * Math.floor(document.body.scrollHeight))});`)
-console.log("window.scrollTo(0, 35574);")
-window.scrollTo(0, 500);
+const randomInt = getRandomInt()
+console.log(randomInt);
+window.scrollTo({
+  top: randomInt,
+  left: 0,
+  behavior: 'smooth'
+});
+// window.scrollTo(0, 71502);
+// window.scrollTo(0, Math.floor(Math.random() * Math.floor(document.body.scrollHeight)));
+// console.log(`window.scrollTo(0, ${Math.floor(Math.random() * Math.floor(document.body.scrollHeight))});`)
+// console.log("window.scrollTo(0, 35574);")
+// window.scrollTo(0, 500);
 }
 </script>

@@ -6,6 +6,12 @@ date: September 21, 2020
 tags: annual
 ---
 
+In your first 30 days, try to understand the landscape:
+- Where is my team going? What’s our vision?
+- Where is my team now?
+- What are our challenges?
+- Who are the people I’ll work with?
+
 ## The Remote Office
 - **Synchronous communication**: Chat tools (Slack) enable a constant, real-time connection with your team.
 - **Digital workspace**: A place where you have full access to project progress and assignments of who’s doing what.
