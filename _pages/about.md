@@ -51,6 +51,7 @@ I elevator pitch myself as a Designer, Developer, and Marketer, but here I try t
 - Long-term games with long-term people
 - [You can’t teach what they aren’t ready to know](https://commoncog.com/blog/you-cant-teach-what-they-arent-ready-to-know/)
 - The map is not the territory. Revising your map is a sign you’re doing things right.
+    - When your map and reality conflict, reality is always right.
 - [Search for better questions](http://kiriakakis.net/comics/mused/a-day-at-the-park).
 - [Build for posterity](https://lukasmurdock.com/for-posterity/), [build bridges when you cross](https://lukasmurdock.com/bridge-builder/).
 - [We shape our tools, and our tools shape us](https://vimeo.com/34017777).
