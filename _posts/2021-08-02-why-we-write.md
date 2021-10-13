@@ -7,6 +7,8 @@ date: 'August 02, 2021'
 
 We need you to write. Reluctance to write is a reluctance to think. The page is a mirror into your mind. When the ideas in your mind are clouded, so are the words on the page in front of you. Re-writing is re-thinking. And we need you to think. Writing forces you to think deeper about what you want and want you need.
 
+## Writing Over Meetings
+
 You might complain of “long paragraphs”, as I did growing up. But the alternative norm seems to be long “meetings” that accomplish nothing other than giving the space for all to pretend to know what’s happening and pushing everyone to shirk any responsibility to do work that matters.
 
 ## Proposal
