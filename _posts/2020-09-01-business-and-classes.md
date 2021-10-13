@@ -33,7 +33,7 @@ Ah, silly me, I thought “resume tips” meant that I could take them with a gr
 But what that actually meant was there is a very singular way to do this:
 *  you must talk about Miami University,
 *  you must talk about the Farmer School of Business, and
-*  you must put the Education section above everything else.
+*  you must put the them above all else.
 
 I had simply failed in my reference to the grandeur Miami University and the Farmer School of Business by heretically not placing them at the top of my resume.
 
