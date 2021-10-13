@@ -26,7 +26,7 @@ I didn’t even give a second thought to the **resume tip** of “Do include you
 
 As such, I received a B minus on my resume with the following reasoning.
 
-> Your design decisions won't impact the grade; what would, however, is lack of mentioning of the Miami-related experiences, e.g. FYIC, lack of FSB mentioning, and placement of the Education section. Also, I would strongly advise you to get other opinions, e.g. FSB advising.
+> Your design decisions won't impact the grade; what would, however, is lack of mentioning of the Miami-related experiences, e.g. FYIC, lack of FSB mentioning, and placement of the Education section.
 
 Ah, silly me, I thought “resume tips” meant that I could take them with a grain of salt, and that “there is no ‘one way’ to do this, so look for ways to uniquely showcase both your personality and your experiences,” meant that I could focus on my experiences and craft.
 
@@ -37,9 +37,9 @@ But what that actually meant was there is a very singular way to do this:
 
 I had simply failed in my reference to the grandeur Miami University and the Farmer School of Business by heretically not placing them at the top of my resume.
 
-This event nicely sums up my experience at University, and its business school. As I didn’t put their reference atop my resume, take off points.
+This event nicely sums up my experience at University and its business school—since I refused to put their reference atop my resume, off with the points.
 
-Business classes in particular appear centered around teaching a mentality of staying within the guardrails and not sticking your neck out.
+Business classes, in particular, appear centered around teaching a mentality of staying within the guardrails and not sticking your neck out.
 
 And people—students and teachers alike—hate it when I don’t follow along. But I’ve decided something. **I’m not here to follow the template.**
 
