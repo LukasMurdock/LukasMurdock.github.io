@@ -20,11 +20,11 @@ The assignment came with the following.
 And directly underneath the tips was, emphasis mine:
 > A resume that is clearly formatted, includes relevant information, and fills the page will likely be eligible for a B. To earn an A, your resume must make a strong and unique impact in terms of design and content and make you "stand out" to your audience. **There is no "one way" to do this, so look for ways to uniquely showcase both your personality and your experiences!**
 
-So, as one would expect, I thought we were free to not follow some of the non-applicable *resume tips* such as “professional audiences expect to see ‘Education’ first,” because that’s often silly when you can show actual work experience and skills with your craft.
+So, as one would expect after reading, I thought we were free to not follow some of the non-applicable *resume tips* such as “professional audiences expect to see ‘Education’ first”– that’s quite silly when you can showcase work experience and skills within your craft.
 
-I didn’t even give a second thought to the **resume tip** of “Do include your FYIC and client challenge experience,” as my experience in the First-Year Integrated Core (FYIC) and client challenge was simply laughable. The only thing those experiences did for me was lower my standards for my attended University.
+I didn’t even give a second thought to the **resume tip** of “Do include your FYIC and client challenge experience,” as my experience in the First-Year Integrated Core (FYIC) and client challenge was…
 
-As such, I received a B minus on my resume and given the following reasoning.
+As such, I received a B minus on my resume with the following reasoning.
 
 > Your design decisions won't impact the grade; what would, however, is lack of mentioning of the Miami-related experiences, e.g. FYIC, lack of FSB mentioning, and placement of the Education section. Also, I would strongly advise you to get other opinions, e.g. FSB advising.
 
@@ -35,11 +35,11 @@ But what that actually meant was there is a very singular way to do this:
 *  you must talk about the Farmer School of Business, and
 *  you must put the Education section above everything else.
 
-And because I failed to talk about the glorious Miami University, the honorable Farmer School of Business, and neglected to place them at the top of my resume, of course, my resume is far from perfect and deserves a B minus.
+I had simply failed in my reference to the grandeur Miami University and the Farmer School of Business by heretically not placing them at the top of my resume.
 
-This incident sums up my experience at University, and its business school. Because I didn’t mention them in my resume, they gave my resume a B minus.
+This event nicely sums up my experience at University, and its business school. As I didn’t put their reference atop my resume, take off points.
 
-Business classes seem to be centered around being an enterprise suck up—often popular still even among company culture. This stay within the guardrails and don’t stick your neck out mentality.
+Business classes in particular appear centered around teaching a mentality of staying within the guardrails and not sticking your neck out.
 
 And people—students and teachers alike—hate it when I don’t follow along. But I’ve decided something. **I’m not here to follow the template.**
 
