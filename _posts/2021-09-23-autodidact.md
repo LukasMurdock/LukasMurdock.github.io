@@ -26,6 +26,7 @@ date: 'September 23, 2021'
 - [The education race](https://juliet.tech/education-race/)
 - [You Can't Teach What They Aren't Ready to Know](https://commoncog.com/blog/you-cant-teach-what-they-arent-ready-to-know/)
 - [On cultures that build](https://scholars-stage.org/on-cultures-that-build/)
+- [Bored our of their minds](https://www.gse.harvard.edu/news/ed/17/01/bored-out-their-minds)
 
 ## On Self Learning
 ### Articles
