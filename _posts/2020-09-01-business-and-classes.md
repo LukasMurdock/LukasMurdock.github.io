@@ -45,6 +45,8 @@ And people—students and teachers alike—hate it when I don’t follow along. 
 
 I’m here to poke the box. To confront and seek confrontation, because that’s how things get better.
 
+Is this place not supposed to be a unique area where we choose to be right over being effective?
+
 One of the most important things a culture can develop is belonging cues. These cues are not built through the standard discipline instilled through school and bosses. They are built through an environment that lets people know they’re connected, they share a future, and they’re safe to speak.
 
 What change are you trying to make?
