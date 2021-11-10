@@ -7,6 +7,7 @@ date: 'September 23, 2021'
 
 ## On School and Education
 
+- [Seth Godin: School vs. progress](https://seths.blog/2021/11/school-vs-progress/)
 - [Seth Godin: Stop stealing dreams](https://seths.blog/2014/09/the-shameful-fraud-of-sorting-for-youth-meritocracy/)
 - [Seth Godin: Self-directed, project-based learning](https://seths.blog/2020/09/self-directed-project-based-learning/)
 - [Seth Godin: Enrollment](https://seths.blog/2021/04/enrollment/)
