@@ -48,6 +48,7 @@ date: 'September 23, 2021'
 - [The inexorable rise of the proletarian autodidact](https://www.google.com/books/edition/Challenges_in_Global_Learning/2ua2DQAAQBAJ?hl=en&gbpv=1&dq=autodidact&pg=PA282&printsec=frontcover) (paper)
   - [ResearchGate](https://www.researchgate.net/publication/271431231_Keynote_Address_The_inexorable_rise_of_the_proletarian_autodidact) (keynote)
 - [Noam Chomsky: The Common Good](https://chomsky.info/the-common-good/) (transcribed talk)
+- [How Learning Works](https://romandesign.co/how-learning-works-components-systems-and-loops/)
 
 ### Books
 - [David A. Kolb: Experiential Learning: Experience as the Source of Learning and Development](https://www.amazon.com/Experiential-Learning-Experience-Source-Development-dp-0133892409/dp/0133892409/ref=dp_ob_title_bk) (1984)
