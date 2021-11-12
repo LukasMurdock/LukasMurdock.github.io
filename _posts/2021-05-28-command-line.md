@@ -75,6 +75,7 @@ https://unix.stackexchange.com/a/487889
 - htop
 - carbon-now
 - github-cli
+- ghostscript
 
 ## Handy NPM Packages
 - (Manage NPM with volta (`volta install npm@7`))
@@ -370,3 +371,16 @@ Start tmux in iTerm2: `tmux -CC`
 Get notifications: `gh api notifications`
 
 Only get the info we want: `gh api notifications | jq '.[] | {title: .subject.title, repository: .repository.name}'`
+
+### Ghostscript
+
+[Ghostscript](https://www.ghostscript.com/) is an interpreter for the PostScript®  language and PDF files.
+
+{% highlight shell %}
+{% raw %}
+# Combine PDFs into one
+
+gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=merged.pdf file1.pdf file2.pdf
+
+{% endraw %}
+{% endhighlight %}
