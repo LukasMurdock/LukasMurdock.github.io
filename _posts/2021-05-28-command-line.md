@@ -379,8 +379,10 @@ Only get the info we want: `gh api notifications | jq '.[] | {title: .subject.ti
 {% highlight shell %}
 {% raw %}
 # Combine PDFs into one
-
 gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=merged.pdf file1.pdf file2.pdf
+
+# Combine all files current directory into a file outside the directory
+gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=../merged.pdf $(echo $(ls))
 
 {% endraw %}
 {% endhighlight %}
