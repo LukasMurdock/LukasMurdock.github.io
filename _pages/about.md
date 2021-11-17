@@ -270,7 +270,7 @@ Regard self-growth, development and learning as a cornerstone of life and daily 
 - Like to handle things as they come and don't mind if I end up in a different place than was set out
 - Try to establish clear goals and objectives, but am less diligent in tracking progress against deadlines
 - Care about pushing through but may benefit from an external forcing mechanism to get me there
-- Prefer to think about about the big picture
+- Prefer to think about the big picture
 - Approach planning and thinking in an unstructured and sometimes messy way
 
 **When solving problems, I**:

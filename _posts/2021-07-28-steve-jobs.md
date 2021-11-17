@@ -328,7 +328,7 @@ Now we hooked up with Mike just around the time we introduced the Apple II, mayb
 
 **Interviewer:** How important was a disk drive in the development of Apple?
 
-Disk drive was crucial. One of the things that people forget when they think about about Apple, and the Apple II in particular, was that that we were the first company to come out with a reliable, inexpensive floppy disk drive. And we had a low-cost floppy disk drive that really worked about two to three years before any of our competitors. And that was an incredibly important reason why the Apple II was successful. Matter of fact, there were a few others. The Apple II could hold up to
+Disk drive was crucial. One of the things that people forget when they think about Apple, and the Apple II in particular, was that that we were the first company to come out with a reliable, inexpensive floppy disk drive. And we had a low-cost floppy disk drive that really worked about two to three years before any of our competitors. And that was an incredibly important reason why the Apple II was successful. Matter of fact, there were a few others. The Apple II could hold up to
 48 kilobytes of memory–which today doesn't seem like much but at that time was maybe three times as much as its competitors. And that's why VisiCalc was written for the Apple II–it was the only computer that could hold it. And so if VisiCalc had been written for some other computer, you'd be interviewing somebody else right now. And it was because of that design decision, and other design decisions like it, that the Apple II really beat its competition. 
 
 **Interviewer:** How did the Apple II change the world of computing?
