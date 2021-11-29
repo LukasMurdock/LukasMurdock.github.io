@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Next Starter App\'
+title: 'Next Starter App'
 description: ''
 date: 'November 23, 2021'
 ---
