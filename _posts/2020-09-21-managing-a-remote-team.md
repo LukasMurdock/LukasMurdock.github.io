@@ -192,6 +192,8 @@ The following is a paraphrased and quoted section from [The Basecamp Guide to In
 29. **The right communication in the wrong place might as well not exist at all.** When someone relies on search to find something it’s often because it wasn’t where they expected something to be.
 30. **Good communication is about saying the right thing at the right time in the right way with the fewest side effects.**
 
+Switch "How's everything going?" with "What's one thing that could be better?". This is the difference between being open to feedback and seeking feedback.
+
 Related:
 - [Basecamp: Group Chat Problems](https://basecamp.com/guides/group-chat-problems)
 - [Active? Away? How about neither](https://world.hey.com/jason/active-away-how-about-neither-ed70fd69)
