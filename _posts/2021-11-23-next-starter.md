@@ -5,12 +5,14 @@ description: ''
 date: 'November 23, 2021'
 ---
 
+CLI:
 - create next app
 - react-hook-form
 - Firebase web
 - Firebase admin
 - SWR
 
+Steps:
 - User authentication with Firebase
 - Subscription Payments with Stripe and Firebase
 
