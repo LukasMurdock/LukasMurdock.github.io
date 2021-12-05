@@ -1,0 +1,167 @@
+<head>
+    <style>
+        body {
+            margin: 0;
+        }
+    </style>
+    <!-- https://github.com/vasturiano/force-graph -->
+    <script src="https://unpkg.com/force-graph"></script>
+    <!--<script src="../../dist/force-graph.js"></script>-->
+</head>
+
+<body>
+    <div id="graph"></div>
+
+    <script>
+        // @ts-check
+        // https://troubled-pain.surge.sh/mkt315.json
+        // /mkt315.json
+
+        const highlightNodes = new Set();
+        const highlightLinks = new Set();
+        let hoverNode = null;
+
+        const colors = ['#C41230', '#2ba96e', '#0069e9', '#1D1D1D'];
+
+        function roundRect(ctx, x, y, width, height, radius, fill, stroke) {
+            if (typeof stroke === 'undefined') {
+                stroke = true;
+            }
+            if (typeof radius === 'undefined') {
+                radius = 5;
+            }
+            if (typeof radius === 'number') {
+                radius = { tl: radius, tr: radius, br: radius, bl: radius };
+            } else {
+                var defaultRadius = { tl: 0, tr: 0, br: 0, bl: 0 };
+                for (var side in defaultRadius) {
+                    radius[side] = radius[side] || defaultRadius[side];
+                }
+            }
+            ctx.beginPath();
+            ctx.moveTo(x + radius.tl, y);
+            ctx.lineTo(x + width - radius.tr, y);
+            ctx.quadraticCurveTo(x + width, y, x + width, y + radius.tr);
+            ctx.lineTo(x + width, y + height - radius.br);
+            ctx.quadraticCurveTo(x + width, y + height, x + width - radius.br, y + height);
+            ctx.lineTo(x + radius.bl, y + height);
+            ctx.quadraticCurveTo(x, y + height, x, y + height - radius.bl);
+            ctx.lineTo(x, y + radius.tl);
+            ctx.quadraticCurveTo(x, y, x + radius.tl, y);
+            ctx.closePath();
+            if (fill) {
+                ctx.fill();
+            }
+            if (stroke) {
+                ctx.stroke();
+            }
+        }
+
+        fetch('/data/mkt315.json', {
+            mode: 'no-cors',
+        })
+            .then((res) => res.json())
+            .then((data) => {
+                data.links.forEach((link) => {
+                    const a = data.nodes.find((e) => e.id === link.source);
+                    const b = data.nodes.find((e) => e.id === link.target);
+                    !a.neighbors && (a.neighbors = []);
+                    !b.neighbors && (b.neighbors = []);
+                    a.neighbors.push(b);
+                    b.neighbors.push(a);
+
+                    !a.links && (a.links = []);
+                    !b.links && (b.links = []);
+                    a.links.push(link);
+                    b.links.push(link);
+                });
+                // https://github.com/vasturiano/react-force-graph/blob/master/example/text-nodes/index-2d.html
+                const Graph = ForceGraph()(document.getElementById('graph'))
+                    .graphData(data)
+                    .dagMode(null)
+                    .dagLevelDistance(300)
+                    .onNodeHover((node) => {
+                        highlightNodes.clear();
+                        highlightLinks.clear();
+                        if (node) {
+                            highlightNodes.add(node);
+                            node.neighbors.forEach((neighbor) => highlightNodes.add(neighbor));
+                            node.links.forEach((link) => highlightLinks.add(link));
+                        }
+
+                        hoverNode = node || null;
+                    })
+                    .onNodeDrag((node) => {
+                        highlightNodes.clear();
+                        highlightLinks.clear();
+                        if (node) {
+                            highlightNodes.add(node);
+                            node.neighbors.forEach((neighbor) => highlightNodes.add(neighbor));
+                            node.links.forEach((link) => highlightLinks.add(link));
+                        }
+
+                        hoverNode = node || null;
+                    })
+                    .autoPauseRedraw(false) // keep redrawing after engine has stopped
+                    .linkWidth((link) => (highlightLinks.has(link) ? 5 : 1))
+                    .linkDirectionalParticles(4)
+                    .linkDirectionalParticleWidth((link) => (highlightLinks.has(link) ? 4 : 0))
+                    .linkColor(() => '#EDECE2')
+                    .nodeId('id')
+                    .nodeLabel('id')
+                    .nodeRelSize(8)
+                    .nodeVal(25)
+                    .nodeColor('color')
+                    // .nodeAutoColorBy('color')
+                    .nodeCanvasObject((node, ctx, globalScale) => {
+                        const label = node.id;
+                        const fontSize = 22 / globalScale;
+                        ctx.font = `${fontSize}px Sans-Serif`;
+                        const textWidth = ctx.measureText(label).width;
+                        const bckgDimensions = [textWidth, fontSize].map((n) => n + fontSize * 0.2); // some padding
+
+                        // ctx.fillStyle =
+                        //     node.group == 2 ? 'rgba(0, 0, 0, 0.2)' : 'rgba(255, 255, 255, 0.8)';
+                        ctx.fillStyle = 'rgba(255, 255, 255, 0.8)';
+                        ctx.fillRect(
+                            node.x - bckgDimensions[0] / 2,
+                            node.y - bckgDimensions[1] / 2,
+                            ...bckgDimensions
+                        );
+
+                        ctx.textAlign = 'center';
+                        ctx.textBaseline = 'middle';
+
+                        // node.color == '#AD102A' ? console.log() : null;
+                        ctx.fillStyle = colors[node.group - 1];
+                        ctx.fillText(label, node.x, node.y);
+
+                        node.__bckgDimensions = bckgDimensions; // to re-use in nodePointerAreaPaint
+                    })
+                    .nodePointerAreaPaint((node, color, ctx) => {
+                        ctx.fillStyle = color;
+                        ctx.strokeStyle = color;
+                        const bckgDimensions = node.__bckgDimensions;
+                        bckgDimensions &&
+                            ctx.fillRect(
+                                node.x - bckgDimensions[0] / 2,
+                                node.y - bckgDimensions[1] / 2,
+                                ...bckgDimensions
+                            );
+                        //     roundRect(
+                        //         ctx,
+                        //         node.x - bckgDimensions[0] / 2,
+                        //         node.y - bckgDimensions[1] / 2,
+                        //         bckgDimensions[0],
+                        //         bckgDimensions[1],
+                        //         20,
+                        //         true
+                        //     );
+                    })
+                    .zoom(4, 0);
+
+                // .zoomToFit(0, 10, (node) => true);
+                // .warmupTicks(1);
+            });
+    </script>
+</body>
