@@ -73,13 +73,13 @@ Price: $2.99
 
 Developed by [Nekki](https://nekki.com/).
 
-Price: Free (or $4.99 for the [special edition](https://apps.apple.com/us/app/shadow-fight-2-special-edition/id1261834568) with no ads and no energy) 
+Price: Free (or $4.99 for the [special edition](https://apps.apple.com/us/app/shadow-fight-2-special-edition/id1261834568) with no ads and no energy)
 
 ### I Am Bread
 
 ## The Best Games to Play on Repeat
 
-### 1. PAKO - Car Chase Simulato‪r‬
+### 1. PAKO - Car Chase Simulator
 [Link to PAKO](https://apps.apple.com/us/app/pako-car-chase-simulator/id903183877)
 
 Pako seems to have faded into obscurity, I’m not sure if it ever hit mainstream, but it’s always the first game I return to. The driving mechanics are just right. I do wish it was more open, the android version lets you choose what car you use on each map.
@@ -165,3 +165,10 @@ Price: $14.99
 
 ### SAS 1,2,3,4
 
+## Games that are no more
+
+### Electronic Super Joy: Groove City
+
+[Electronic Super Joy](http://www.electronicsuperjoy.com/) is an electronic action experience by [Michael Todd](https://twitter.com/thegamedesigner) ([see also](https://web.archive.org/web/20201020114056/http://www.michaeltoddgames.com/)), featuring music by Envy.
+
+Evidence this game even ever existed on iOS can be found from [YouTube Gameplay](https://youtu.be/Wt0gew1mD3M), and [game](https://toucharcade.com/2014/10/17/electronic-super-joy-groove-city-review/) [reviews](https://www.metacritic.com/game/ios/electronic-super-joy-groove-city).

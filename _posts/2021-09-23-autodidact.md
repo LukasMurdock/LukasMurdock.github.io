@@ -28,6 +28,7 @@ date: 'September 23, 2021'
 - [You Can't Teach What They Aren't Ready to Know](https://commoncog.com/blog/you-cant-teach-what-they-arent-ready-to-know/)
 - [On cultures that build](https://scholars-stage.org/on-cultures-that-build/)
 - [Bored our of their minds](https://www.gse.harvard.edu/news/ed/17/01/bored-out-their-minds)
+- [Noam Chomsky - On Being Truly Educated](https://youtu.be/eYHQcXVp4F4)
 
 ## On Self Learning
 ### Articles
@@ -49,6 +50,9 @@ date: 'September 23, 2021'
   - [ResearchGate](https://www.researchgate.net/publication/271431231_Keynote_Address_The_inexorable_rise_of_the_proletarian_autodidact) (keynote)
 - [Noam Chomsky: The Common Good](https://chomsky.info/the-common-good/) (transcribed talk)
 - [How Learning Works](https://romandesign.co/how-learning-works-components-systems-and-loops/)
+- [On Bloom's two sigma problem: A systematic review of the effectiveness of mastery learning, tutoring, and direct instruction](https://nintil.com/bloom-sigma/)
+- [LW: Study Guide for technical problems we don’t understand](https://www.lesswrong.com/posts/bjjbp5i5G8bekJuxv/study-guide)
+- [How Learning Works: Components, Systems, and Loops](https://romandesign.co/how-learning-works-components-systems-and-loops/)
 
 ### Books
 - [David A. Kolb: Experiential Learning: Experience as the Source of Learning and Development](https://www.amazon.com/Experiential-Learning-Experience-Source-Development-dp-0133892409/dp/0133892409/ref=dp_ob_title_bk) (1984)

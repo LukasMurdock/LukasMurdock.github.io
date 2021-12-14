@@ -109,7 +109,7 @@ fulldata:
         Link: "https://www.ycombinator.com/library"
         Comment: "YC's library of startup advice: essays, podcasts, and videos created over the past 15 years."
         Date: August 11, 2020
-        
+
       - Title: "How Do Training"
         Link: "https://howdo.com/training/"
         Comment: "Learn how. Then Do."
@@ -144,6 +144,11 @@ fulldata:
         Link: https://ocw.mit.edu/index.htm
         Comment: "A web-based publication of virtually all MIT course content. OCW is open and available to the world and is a permanent MIT activity."
         Date: Apr 22, 2020
+
+      - Title: "Web Developer Skills"
+        Link: "https://andreasbm.github.io/web-skills/"
+        Comment: "A visual overview of useful skills to learn as a web developer."
+        Date: 2021-10-01
 
       - Title: How to Speak
         Link: https://ocw.mit.edu/resources/res-tll-005-how-to-speak-january-iap-2018/how-to-speak/index.htm
@@ -294,7 +299,7 @@ fulldata:
         Link: https://www.degreeless.design/
         Comment: "A list of everything for budding UX, UI, Interaction, or whatever other title designers."
         Date: Apr 22, 2020
-        
+
       - Title: Best Practices in Branding
         Link: https://polyatlas.app/wiki/
         Comment: A step-by-step guide to the Branding process including practical tips, case studies, template files, and many other useful resources.
@@ -309,7 +314,7 @@ fulldata:
         Link: https://wistia.com/learn
         Comment: "Wistia provides video marketing tips and education along with video production tips."
         Date: Apr 22, 2020
-        
+
       - Title: Low-Level Academy
         Link: https://lowlvl.org/
         Comment: "Learn systems programming by creating small projects from the first principles with visual and intuitive explanations."
@@ -319,6 +324,11 @@ fulldata:
         Link: https://github.com/tuvtran/project-based-learning/blob/master/README.md?utm_source=share&utm_medium=ios_app&utm_name=iossmf#javascript
         Comment: "A list of programming tutorials in which learners build an application from scratch."
         Date: Apr 22, 2020
+
+      - Title: "Recurse Center (RC)"
+        Link: "https://www.recurse.com/about"
+        Comment: "Educational retreats for anyone who wants to get dramatically better at programming."
+        Date: 2021-12-13
 
       - Title: Discovering AWS
         Link: "https://adayinthelifeof.nl/2020/05/20/aws.html"
@@ -334,7 +344,7 @@ fulldata:
         Link: "https://yangshun.github.io/front-end-interview-handbook/"
         Comment: "Almost complete answers you can use to interview potential candidates, test yourself or completely ignore."
         Date: July 20, 2020
-        
+
       - Title: Developer Roadmap
         Link: https://roadmap.sh
         Comment: "Community driven roadmaps, articles, guides, quizzes, tips and resources for developers to learn from, identify their career paths, know what they don't know, find out the knowledge gaps, learn and improve."
@@ -344,6 +354,11 @@ fulldata:
         Link: https://sundowndev.github.io/hacker-roadmap/
         Comment: "A guide for amateurs pen testers and a collection of hacking tools, resources and references to practice ethical hacking, pen testing and web security."
         Date: Apr 22, 2020
+
+      - Title: "Front-End Developer Roadmap"
+        Link: "https://frontendmasters.com/guides/learning-roadmap/"
+        Comment: "The Front-End Developer Learning Roadmap by Frontend Masters."
+        Date: 2021-12-13
 
       - Title: How to get a job after college
         Link: https://crash.co/content/career-stories/how-to-get-a-job-after-college
@@ -370,6 +385,11 @@ fulldata:
         Comment: "All the resources you need to give yourself a world class computer science education."
         Date: June 23, 2020
 
+      - Title: "Base CS"
+        Link: "https://medium.com/basecs"
+        Comment: "Exploring the basics of computer science, every Monday, for a year."
+        Date: 2021-12-13
+
       - Title: SQL Bolt
         Link: https://sqlbolt.com/
         Comment: "A series of interactive lessons and exercises designed to help you quickly learn SQL right in your browser."
@@ -379,6 +399,11 @@ fulldata:
         Link: https://regexone.com/
         Comment: "A series of interactive lessons and exercises designed to help you quickly learn regular expressions."
         Date: July 2, 2020
+
+      - Title: "Learn Regex"
+        Link: "https://github.com/ziishaned/learn-regex"
+        Comment: "Learn regex the easy way."
+        Date: 2021-12-13
 
       - Title: This vs that
         Link: https://thisthat.dev/
@@ -399,12 +424,12 @@ fulldata:
         Link: "https://simplifier.neocities.org/"
         Comment: "Creating a stable foundation of technology that is reliable, understandable, and practical for an individual to build for themselves."
         Date: May 31, 2020
-        
+
       - Title: Visual intro to probability and statistics
         Link: https://seeing-theory.brown.edu
         Comment: "Making statistics more accessible through interactive visualizations."
         Date: Apr 22, 2020
-        
+
       - Title: Javascript references
         Link: https://github.com/mdjsn/references/blob/master/README.md
         Comment: "All the references used by the community - quick courses for the javascript engineers."
@@ -432,13 +457,18 @@ fulldata:
 
       - Title: Project Engineering Lead Expectations
         Link: https://docs.google.com/document/d/1kngKHUCS0DHNvZAO8PfkcsTD4Mq7b11L09RIaVpQnwI/
-        Comment: "Uber project lead expectations Gergely Orosz team has been using at Uber." 
-        Date: Apr 22, 2020       
+        Comment: "Uber project lead expectations Gergely Orosz team has been using at Uber."
+        Date: Apr 22, 2020
 
       - Title: Essay Writing Guide
         Link: https://docs.google.com/viewer?url=https%3A%2F%2Fjordanbpeterson.com%2Fwp-content%2Fuploads%2F2018%2F02%2FEssay_Writing_Guide.docx&mc_cid=d3c67fadf9&mc_eid=1a15f04338
         Comment: A document by Jordan B Peterson to write an excellent essay from beginning to end, using a ten-step process.
         Date: Apr 22, 2020
+
+      - Title: "Federal plain language guidelines"
+        Link: "https://www.plainlanguage.gov/guidelines/"
+        Comment: "The official guidelines for the Plain Writing Act."
+        Date: 2021-12-13
 
       - Title: Guide to Writing Online
         Link: https://www.perell.com/blog/the-ultimate-guide-to-writing-online
@@ -642,8 +672,18 @@ fulldata:
 
       - Title: "Awesome Software Engineering"
         Link: "https://github.com/rolanddb/awesome-software-engineering"
-        Comment: ""
+        Comment: "A curated list of roadmaps."
         Date: 2021-07-18
+
+      - Title: "Awesome Roadmaps"
+        Link: "https://github.com/liuchong/awesome-roadmaps"
+        Comment: ""
+        Date: 2021-12-13
+
+      - Title: "Awesome lists"
+        Link: "https://github.com/sindresorhus/awesome#readme"
+        Comment: "Awesome lists about all kinds of interesting topics"
+        Date: 2021-12-13
 
       - Title: "Atlassian Team Playbook"
         Link: "https://www.atlassian.com/team-playbook"
@@ -654,6 +694,11 @@ fulldata:
         Link: "https://bejamas.io/discovery/"
         Comment: "by Bejamas."
         Date: 2021-07-18
+
+      - Title: "Web Development Cheatsheets"
+        Link: "https://devhints.io/"
+        Comment: "A ridiculous collection of web development cheatsheets."
+        Date: 2021-12-13
 
       - Title: "Swift Programming for MacOS"
         Link: "https://gavinw.me/swift-macos/"
@@ -775,6 +820,11 @@ fulldata:
         Comment: "See accessibility of color palette."
         Date: Apr 22, 2020
 
+      - Title: "Huetone"
+        Link: "https://huetone.ardov.me/"
+        Comment: "Use LCH color space to come up with predictable and accessible color palettes."
+        Date: 2021-12-13
+
       - Title: Color Scale Generator
         Link: https://hihayk.github.io/scale/
         Comment: "Color scale generator by Hayk An"
@@ -789,6 +839,11 @@ fulldata:
         Link: https://www.colorsandfonts.com/
         Comment: "Curated library of colors, fonts, and resources for Web Developers & Digital Designers."
         Date: Apr 22, 2020
+
+      - Title: "Coding Font"
+        Link: "https://www.codingfont.com/"
+        Comment: "Find Your True Love of Coding Fonts"
+        Date: 2021-12-13
 
       - Title: How to pick more beautiful colors for your data visualizations
         Link: https://blog.datawrapper.de/beautifulcolors/
@@ -1041,6 +1096,11 @@ fulldata:
         Comment: "Free tools and resources to create awesome user interfaces."
         Date: July 19, 2020
 
+      - Title: "Seatback Safety"
+        Link: "https://www.seatbacksafety.com/"
+        Comment: "A collection of Seatback Safety cards used since the dawn of commercial flight."
+        Date: 2021-12-13
+
       - Title: Image Placeholder Service
         Link: http://placehold.jp/en.html
         Comment: "Create placeholder images quickly and easily."
@@ -1161,6 +1221,11 @@ fulldata:
         Comment: "The authors of fonts."
         Date: March 23, 2021
 
+      - Title: "Fonts Knowledge"
+        Link: "https://fonts.google.com/knowledge"
+        Comment: "Google Fonts, font knowledge."
+        Date: 2021-12-13
+
       - Title: "conic.css"
         Link: "https://conic.style/"
         Comment: "nice, simple conic gradients"
@@ -1170,7 +1235,7 @@ fulldata:
         Link: "https://ant.design/"
         Comment: "A design system for enterprise-level products."
         Date: March 23, 2021
-      
+
       - Title: "Cari Institute"
         Link: "https://cari.institute/"
         Comment: "Consumer Aesthetics Research Institute (CARI), is an online community dedicated to developing a visual lexicon of consumer ephemera from the 1970s until now."
@@ -1255,7 +1320,7 @@ fulldata:
         Link: "https://www.basesearchmarketing.com/link-building-guide/"
         Comment: "Six chapters on link building, starting from the basics and working up to more in-depth strategies."
         Date: July 16, 2020
-        
+
       - Title: Guide to HTML head elements
         Link: https://htmlhead.dev/
         Comment: "A free guide to HTML5 head tag elements."
@@ -1310,6 +1375,11 @@ fulldata:
         Link: "https://gaps.com/six-figure-audits/"
         Comment: ""
         Date: 2021-03-23
+
+      - Title: "Tranco"
+        Link: "https://tranco-list.eu/"
+        Comment: "A Research-Oriented Top Sites Ranking Hardened Against Manipulation"
+        Date: 2021-12-13
 
   # Words
   - Type: Words
@@ -1619,7 +1689,7 @@ fulldata:
         Comment: "Fix broken links, duplicate titles, insecure pages, invalid HTML & more."
         Date: Apr 22, 2020
 
-      - Title: Wave — Web Accessibility 
+      - Title: Wave — Web Accessibility
         Link: https://wave.webaim.org/
         Comment: "Web Accessibility Evaluation Tool by WebAIM."
         Date: Apr 22, 2020
@@ -1700,7 +1770,7 @@ fulldata:
         Date: Apr 22, 2020
 
 
-        
+
 
 
 #Chrome Apps
@@ -1926,7 +1996,7 @@ fulldata:
         Comment: "The best personal email client. Revolutionary email for teams."
         Date: July 19, 2020
 
-        
+
 
 
   #Newsletters
@@ -2332,7 +2402,7 @@ fulldata:
         Link: https://www.learnstorybook.com/
         Comment: "Free in-depth guides for professional frontend developers."
         Date: Apr 22, 2020
-        
+
       - Title: Free resources for Freelancers
         Link: https://usefyi.com/templates/freelancer-templates/
         Comment: "All the free resources and templates you need to get work done as a freelancer."
@@ -2537,7 +2607,7 @@ fulldata:
         Link: "https://typefully.app/"
         Comment: "Write great Twitter threads"
         Date: Dec 19, 2020
-        
+
       - Title: "Hystoria"
         Link: "https://hystoria.100millionbooks.org/"
         Comment: "Only items produced over five years ago are allowed here."
@@ -2995,7 +3065,7 @@ fulldata:
         Comment: "A free report on your email statistics and trends, find out your own and start improving your habits today."
         Date: January 14, 2021
 
-        
+
 
   #Podcast
   - Type: Podcasts
@@ -3702,7 +3772,17 @@ fulldata:
         Comment: ""
         Date: 2021-07-18
 
-        
+      - Title: "This word does not exist"
+        Link: "https://www.thisworddoesnotexist.com/"
+        Comment: "Uses GPT-2 to invent new English words."
+        Date: 2021-12-13
+
+      - Title: "Build 3D scenes with React Three Fiber"
+        Link: "https://varun.ca/modular-webgl/"
+        Comment: ""
+        Date: 2021-12-13
+
+
 
 
   # Brands
@@ -3927,3 +4007,13 @@ fulldata:
         Link: "https://educationfreedomprogram.org/"
         Comment: "Give students the freedom to get the most affordable and highest quality education."
         Date: 2021-05-27
+
+      - Title: "Research Debt"
+        Link: "https://distill.pub/2017/research-debt/"
+        Comment: ""
+        Date: 2021-12-13
+
+      - Title: "Paywall"
+        Link: "https://12ft.io/"
+        Comment: "Show me a 10ft paywall, I’ll show you a 12ft ladder."
+        Date: 2021-12-13

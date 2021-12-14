@@ -2,11 +2,526 @@
 #Principles
 # Template
 
-#      - Title: 
-#        Link: 
-#        Comment: 
+#      - Title:
+#        Link:
+#        Comment:
 
 linkslist:
+
+  - Date: December 2021
+    Links:
+
+    - Title: "360 Delegation"
+      Link: "https://profitfactory.com/360delegation/"
+      Comment: "Changeover, Rework, and Delay of Delivery are crippling costs."
+      Date: 2021-12-13
+
+    - Title: "I won't let you pay me for my open source"
+      Link: "https://world.hey.com/dhh/i-won-t-let-you-pay-me-for-my-open-source-d7cf4568"
+      Comment: "DHH. Free to pursue intrinsic motivation from a quest for autonomy, mastery, and purpose that isn’t shackled solely to employment or business."
+      Date: 2021-12-13
+
+    - Title: "Lessons on B2B SaaS company marketing"
+      Link: "https://twitter.com/coreyhainesco/status/1416210920062267392?s=20"
+      Comment: "Cory Haines. Onboarding, Content marketing, Conferences, Engineering as marketing, Partner & reseller programs."
+      Date: 2021-12-13
+
+    - Title: "The Revised Psychology of Human Misjudgment, by Charlie Munger"
+      Link: "https://fs.blog/great-talks/psychology-human-misjudgment/"
+      Comment: "Farnam Street."
+      Date: 2021-12-13
+
+    - Title: "Thinking in OODA Loops"
+      Link: "https://www.ribbonfarm.com/2021/12/06/thinking-in-ooda-loops/"
+      Comment: ""
+      Date: 2021-12-13
+
+    - Title: "Scaling to $100 Million"
+      Link: "https://www.bvp.com/atlas/scaling-to-100-million"
+      Comment: "How cloud companies grow operationally efficient businesses. ARR and Wide Margins."
+      Date: 2021-12-13
+
+    - Title: "The Tyranny of Structurelessness"
+      Link: "https://www.jofreeman.com/joreen/tyranny.htm"
+      Comment: ""
+      Date: 2021-12-13
+
+
+    - Title: "Slack-based interviews"
+      Link: "https://critter.blog/2021/12/07/slack-based-interviews/"
+      Comment: ""
+      Date: 2021-12-13
+
+    - Title: "Influence Maps—The Best Marketing Framework You’ve Never Heard Of"
+      Link: "https://sparktoro.com/blog/influence-maps-the-best-marketing-framework-youve-never-heard-of/"
+      Comment: "Understand how people learn about and engage with your space and your marketing will be far more effective."
+      Date: 2021-12-13
+
+    - Title: "Choose Boring Technology"
+      Link: "http://boringtechnology.club/"
+      Comment: ""
+      Date: 2021-12-13
+
+    - Title: "The pyramid of modern marketing"
+      Link: "https://seths.blog/2021/12/the-pyramid-of-modern-marketing/"
+      Comment: "Intention. Retention. Remarkability. Permission."
+      Date: 2021-11-22
+
+    - Title: "Use Your Best Judgment"
+      Link: "https://seths.blog/2021/12/uybj/"
+      Comment: "Don’t wait for someone else to take responsibility. Don’t wait for perfect. Don’t wait to find this exact situation in the manual or in history."
+      Date: 2021-11-22
+
+  - Date: November 2021
+    Links:
+
+    - Title: "John Carmack Receives Honorary Degree"
+      Link: "https://youtu.be/YOZnqjHkULc"
+      Comment: ""
+      Media: video
+      Date: 2021-11-22
+
+    - Title: "The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)"
+      Link: "https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/"
+      Comment: "Joel Spolsky"
+      Date: 2021-11-22
+
+    - Title: "Reality has a surprising amount of detail"
+      Link: "http://johnsalvatier.org/blog/2017/reality-has-a-surprising-amount-of-detail"
+      Comment: "Everything is fiddly, but you only notice the fiddliness when you’re new."
+      Date: 2021-11-22
+
+    - Title: "The lifeguard hack"
+      Link: "https://seths.blog/2021/11/the-lifeguard-hack/"
+      Comment: "Even if you’re not the best lifeguard in the world, and even if the water isn’t the perfect temperature, and even if you don’t quite remember how to do the latest version of the cross-chest carry… you jump in the water."
+      Date: 2021-11-22
+
+    - Title: "The Party Math Trick"
+      Link: "https://sambernheim.com/blog/the-party-math-trick"
+      Comment: ""
+      Date: 2021-11-22
+
+    - Title: "I forgot my phone."
+      Link: "https://youtu.be/OINa46HeWg8"
+      Comment: ""
+      Media: video
+      Date: 2021-11-22
+
+    - Title: "Interpretive Labor"
+      Link: "https://acesounderglass.com/2015/06/09/interpretive-labor/"
+      Comment: "Everyone interprets a given action a little differently."
+      Date: 2021-11-22
+
+    - Title: "How This All Happened"
+      Link: "https://www.collaborativefund.com/blog/how-this-all-happened/"
+      Comment: "A short story about what happened to the U.S. economy since the end of World War II."
+      Date: 2021-11-22
+
+    - Title: "Move fast, but understand the problem first"
+      Link: "https://jacobobryant.com/blog/understand/"
+      Comment: "If you can explain your idea to someone and finish by saying 'that's it,'' there's a decent chance you're on the right track."
+      Date: 2021-11-22
+
+    - Title: "Noam Chomsky - On Being Truly Educated"
+      Link: "https://youtu.be/eYHQcXVp4F4"
+      Comment: "To know where to look, to know how to formulate serious questions, to question a standard doctrine if that's appropriate, to find your own way, to shape the questions that are worth pursuing, and to develop the path to pursue them. That means knowing, understanding many things but also, much more important than what you have stored in your mind, to know where to look, how to look, how to question, how to challenge, how to proceed independently, to deal with the challenges that the world presents to you and that you develop in the course of your self education and inquiry and investigations, in cooperation and solidarity with others."
+      Media: video
+      Date: 2021-11-22
+
+    - Title: "Marketing as a Service"
+      Link: "https://seths.blog/2021/11/marketing-as-a-service/"
+      Comment: "Seth Godin."
+      Date: 2021-11-22
+
+    - Title: "Split beliefs and commit"
+      Link: "https://www.lesswrong.com/posts/t2LGSDwT7zSnAGybG/split-and-commit"
+      Comment: "LessWrong."
+      Date: 2021-11-22
+
+    - Title: "The Church of Interruption"
+      Link: "https://sambleckley.com/writing/church-of-interruption.html"
+      Comment: ""
+      Date: 2021-11-22
+
+    - Title: "Prove them right or prove them wrong"
+      Link: "https://seths.blog/2021/11/prove-them-right-or-prove-them-wrong/"
+      Comment: ""
+      Date: 2021-11-22
+
+    - Title: "Where to Innovate, Where to Imitate"
+      Link: "https://staysaasy.com/startups/2021/11/13/where-to-innovate-where-to-imitate.html"
+      Comment: ""
+      Date: 2021-11-22
+
+    - Title: "Long Live the Library"
+      Link: "https://www.collaborativefund.com/blog/long-live-the-library/"
+      Comment: "Every kid deserves the chance to stumble upon something that changes their life."
+      Date: 2021-11-22
+
+    - Title: "The Assistant, Jayme Odgers, Works for Paul Rand"
+      Link: "https://www.printmag.com/daily-heller/the-daily-heller-the-assistant-jayme-odgers-works-for-paul-rand/"
+      Comment: ""
+      Date: 2021-11-22
+
+    - Title: "Bill Gates explaining the internet in 1995"
+      Link: "https://youtu.be/4Gx-o70q6s8"
+      Comment: ""
+      Date: 2021-11-22
+
+    - Title: "Changing the shape of the playing field: Content and the attention economy"
+      Link: "https://infinitenuance.com/2021/11/08/changing-the-shape-of-the-playing-field/"
+      Comment: ""
+      Date: 2021-11-22
+
+    - Title: "Don’t Let Architecture Astronauts Scare You"
+      Link: "https://www.joelonsoftware.com/2001/04/21/dont-let-architecture-astronauts-scare-you/"
+      Comment: "Joel Spolsky."
+      Date: 2021-11-22
+
+    - Title: "Blockchain Without the Crypto"
+      Link: "https://xtdb.com/blog/blockchain-without-crypto/"
+      Comment: ""
+      Date: 2021-11-22
+
+    - Title: "Don’t be spooky"
+      Link: "https://therealadam.com/2021/11/01/dont-be-spooky/"
+      Comment: "Management."
+      Date: 2021-11-22
+
+    - Title: "A Reality Where CSS and JavaScript Don't Exist"
+      Link: "https://tdarb.org/css-js-mistake/"
+      Comment: ""
+      Date: 2021-11-22
+
+    - Title: "Coordination Headwind"
+      Link: "https://komoroske.com/slime-mold/"
+      Comment: "Management. How organizations are like slime molds."
+      Date: 2021-11-22
+
+    - Title: "Decisiveness is Just as Important as Deliberation"
+      Link: "https://commoncog.com/blog/decisiveness-is-just-as-important-as-deliberation/"
+      Comment: "Effective individuals are usually effective because a) they are biased towards action, and b) they have the stomach to do what the rest of us might not."
+      Date: 2021-11-22
+
+    - Title: "Concentration of Force"
+      Link: "https://www.lesswrong.com/posts/rQKstXH8ZMAdN5iqD/concentration-of-force"
+      Comment: "It's often not how much force you can bring to bear, so much as whether you can apply that force effectively.  "
+      Date: 2021-11-22
+
+    - Title: "Developers spend most of their time figuring the system out"
+      Link: "https://lepiter.io/feenk/developers-spend-most-of-their-time-figuri-9q25taswlbzjc5rsufndeu0py/"
+      Comment: ""
+      Date: 2021-11-22
+
+    - Title: "Finding Your Swagger"
+      Link: "https://kevinyien.com/blog/swagger.html"
+      Comment: ""
+      Date: 2021-11-22
+
+    - Title: "Sunshine on the other line"
+      Link: "https://www.jeremyville.com/collections/featured-products/products/sunshine-on-the-other-line"
+      Comment: ""
+      Date: 2021-11-22
+
+    - Title: "The Thanksgiving Reader"
+      Link: "https://thethanksgivingreader.com/"
+      Comment: "Something we can all do together, transforming our holiday into something even more memorable."
+      Date: 2021-11-22
+
+    - Title: "Study Guide"
+      Link: "https://www.lesswrong.com/posts/bjjbp5i5G8bekJuxv/study-guide"
+      Comment: "LessWrong."
+      Date: 2021-11-01
+
+    - Title: "An Intuitive Explanation of Bayes’ Theorem"
+      Link: "https://arbital.com/p/bayes_rule/?l=1zq"
+      Comment: ""
+      Date: 2021-11-01
+
+    - Title: "How Not To Sort By Average Rating"
+      Link: "https://www.evanmiller.org/how-not-to-sort-by-average-rating.html"
+      Comment: ""
+      Date: 2021-11-01
+
+    - Title: "Culture Matters"
+      Link: "https://danluu.com/culture/"
+      Comment: "Management."
+      Date: 2021-11-01
+
+    - Title: "Playing to Win"
+      Link: "https://www.sirlin.net/ptw"
+      Comment: "Only for those interested in winning."
+      Date: 2021-11-01
+
+    - Title: "Time Keeps on Slipping"
+      Link: "https://play.acast.com/s/akimbo/timekeepsonslipping"
+      Comment: "Seth Godin. Akimbo."
+      Media: audio
+      Date: 2021-11-01
+
+    - Title: "This is Water by David Foster Wallace"
+      Link: "https://jamesclear.com/great-speeches/this-is-water-by-david-foster-wallace"
+      Comment: "Speech originally delivered by David Foster Wallace as the 2005 commencement address at Kenyon College."
+      Date: 2021-11-01
+
+    - Title: "The Same Stories, Again and Again"
+      Link: "https://www.collaborativefund.com/blog/the-same-stories-again-and-again/"
+      Comment: "Collaborative Fund."
+      Date: 2021-11-01
+
+    - Title: "Obvious Always Wins"
+      Link: "https://vimeo.com/288882119"
+      Comment: "Luke Wroblewski—An Event Apart Denver 2017"
+      Media: video
+      Date: 2021-11-01
+
+    - Title: "Elements of debates"
+      Link: "https://buditanrim.co/2021/element-of-debates/"
+      Comment: ""
+      Date: 2021-11-01
+
+    - Title: "How to get useful answers to your questions"
+      Link: "https://jvns.ca/blog/2021/10/21/how-to-get-useful-answers-to-your-questions/"
+      Comment: ""
+      Date: 2021-11-01
+
+    - Title: "10 Things from The Everything Store"
+      Link: "https://fs.blog/the-everything-store/"
+      Comment: "Farnam Street."
+      Date: 2021-11-01
+
+    - Title: "Guy Kawasaki podcast with Seth Godin."
+      Link: "https://guykawasaki.com/seth-godin/"
+      Comment: "Marketing."
+      Date: 2021-11-01
+
+    - Title: "Do-nothing scripting"
+      Link: "https://blog.danslimmon.com/2019/07/15/do-nothing-scripting-the-key-to-gradual-automation/"
+      Comment: "The key to gradual automation."
+      Date: 2021-11-01
+
+    - Title: "Ahead of the curve"
+      Link: "https://www.collaborativefund.com/blog/ahead-of-the-curve/"
+      Comment: "Do something weird. The world may catch up."
+      Date: 2021-11-01
+
+    - Title: "Question the question"
+      Link: "https://buditanrim.co/2021/question-the-question/"
+      Comment: ""
+      Date: 2021-11-01
+
+    - Title: "Give People Something To Look At"
+      Link: "https://staysaasy.com/communication/2021/10/30/look.html"
+      Comment: "Communication. Stay Saasy."
+      Date: 2021-11-01
+
+    - Title: "HTML, CSS and our vanishing industry entry points"
+      Link: "https://rachelandrew.co.uk/archives/2019/01/30/html-css-and-our-vanishing-industry-entry-points/"
+      Comment: ""
+      Date: 2021-11-01
+
+    - Title: "The point of maximum leverage"
+      Link: "https://seths.blog/2021/10/the-point-of-maximum-leverage/"
+      Comment: "We need to be clear with ourselves and with our colleagues about where that leverage point is."
+      Date: 2021-11-01
+
+    - Title: "Comments with domain knowledge"
+      Link: "https://marcel.is/comments-with-domain-knowledge/"
+      Comment: ""
+      Date: 2021-11-01
+
+    - Title: "Think strategically at work"
+      Link: "https://lesley.pizza/think-strategically-at-work/"
+      Comment: ""
+      Date: 2021-11-01
+
+    - Title: "The Work Required to Have an Opinion"
+      Link: "https://fs.blog/2013/04/the-work-required-to-have-an-opinion/"
+      Comment: "Farnam Street."
+      Date: 2021-11-01
+
+    - Title: "What doesn’t seem like work?"
+      Link: "http://www.paulgraham.com/work.html"
+      Comment: ""
+      Date: 2021-11-01
+
+    - Title: "When and How to Charge for Your Content"
+      Link: "https://www.samjulien.com/when-and-how-to-charge-for-your-content"
+      Comment: "Sam Julien."
+      Date: 2021-11-01
+
+    - Title: "Thoughtful Communication Makes Us Unreasonably Productive"
+      Link: "https://www.ashbyhq.com/culture/blog/thoughtful-communication"
+      Comment: ""
+      Date: 2021-11-01
+
+    - Title: "The Feynman Algorithm"
+      Link: "http://wiki.c2.com/?FeynmanAlgorithm"
+      Comment: "Write down the problem. Think real hard. Write down the solution."
+      Date: 2021-11-01
+
+    - Title: "Willingness to look stupid"
+      Link: "https://danluu.com/look-stupid/"
+      Comment: "my 'one weird trick' was to think about what went wrong every time something went wrong and then try to improve. But most people seemed more interested in making an excuse to avoid looking stupid … now that I've worked at various companies in multiple industries, I see that most people would choose to do the wrong thing to avoid potentially looking stupid to people who are incompetent."
+      Date: 2021-11-01
+
+    - Title: "We Got Here Because of Cowardice. We Get Out With Courage"
+      Link: "https://www.commentary.org/articles/bari-weiss/resist-woke-revolution/"
+      Comment: "Say no to the Woke Revolution."
+      Date: 2021-11-01
+
+  - Date: October 2021
+    Links:
+
+    - Title: "6 Fire Lays"
+      Link: "https://www.artofmanliness.com/skills/outdoor-survival/the-6-fire-lays-every-man-should-know/"
+      Comment: ""
+      Date: 2021-10-01
+
+    - Title: "The Playing Field"
+      Link: "https://grahamduncan.blog/the-playing-field/"
+      Comment: "Graham Duncan."
+      Date: 2021-10-01
+
+    - Title: "HYPER-REALITY"
+      Link: "https://youtu.be/YJg02ivYzSs"
+      Comment: ""
+      Date: 2021-10-01
+
+    - Title: "Don't ask to ask, just ask"
+      Link: "https://dontasktoask.com/"
+      Comment: ""
+      Date: 2021-10-01
+
+    - Title: "Always do Extra"
+      Link: "http://www.bennorthrop.com/Essays/2021/always-do-extra.php"
+      Comment: ""
+      Date: 2021-10-01
+
+    - Title: "Macintosh Human Interface Guidelines"
+      Link: "http://interface.free.fr/Archives/Apple_HIGuidelines.pdf"
+      Comment: ""
+      Date: 2021-10-01
+
+    - Title: "How to build silos and decrease collaboration (on purpose)"
+      Link: "https://www.rubick.com/how-to-build-silos-and-decrease-collaboration/"
+      Comment: ""
+      Date: 2021-10-01
+
+    - Title: "Two things the team need to align"
+      Link: "https://buditanrim.co/2021/two-things-to-align/"
+      Comment: "Management. The first one is to align on the status quo—the current state of the problem. The second one is to align on the desired outcome."
+      Date: 2021-10-01
+
+    - Title: "This is How Amazon Measures Itself"
+      Link: "https://www.holistics.io/blog/how-amazon-measures/"
+      Comment: "Cedric Chin."
+      Date: 2021-10-01
+
+    - Title: "The Anatomy of an Amazon 6-pager"
+      Link: "https://writingcooperative.com/the-anatomy-of-an-amazon-6-pager-fc79f31a41c9?gi=6f869fd38a8"
+      Comment: "A deep dive into writing detailed planning docs from one of the most successful companies in the world"
+      Date: 2021-10-01
+
+    - Title: "Shoulder Advisors 101"
+      Link: "https://www.lesswrong.com/posts/X79Rc5cA5mSWBexnd/shoulder-advisors-101"
+      Comment: "LessWrong."
+      Date: 2021-10-01
+
+    - Title: "How to Blog"
+      Link: "https://macwright.com/2019/02/06/how-to-blog.html"
+      Comment: "Tom MacWright."
+      Date: 2021-10-01
+
+    - Title: "Things You Should Never Do, Part I"
+      Link: "https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/"
+      Comment: "Joel Spolsky."
+      Date: 2021-10-01
+
+    - Title: "Life by anecdote"
+      Link: "https://seths.blog/2021/10/life-by-anecdote/"
+      Comment: "Seth Godin."
+      Date: 2021-10-01
+
+    - Title: "Climbing the Wealth Ladder"
+      Link: "https://ofdollarsanddata.com/climbing-the-wealth-ladder/"
+      Comment: "The best way to climb the wealth ladder is to spend money according to your level."
+      Date: 2021-10-01
+
+    - Title: "Information Hazards: A Typology of Potential Harms from Knowledge"
+      Link: "https://nickbostrom.com/information-hazards.pdf"
+      Comment: "Nick Bostrom."
+      Date: 2021-10-01
+
+    - Title: "Strategy Letter I: Ben and Jerry’s vs. Amazon"
+      Link: "https://www.joelonsoftware.com/2000/05/12/strategy-letter-i-ben-and-jerrys-vs-amazon/"
+      Comment: "Joel Spolsky. The decision? Whether to grow slowly, organically, and profitably, or whether to have a big bang with very fast growth and lots of capital."
+      Date: 2021-10-01
+
+    - Title: "Storytelling — Cringe and the Banality of Shadows"
+      Link: "https://www.ribbonfarm.com/2021/10/05/storytelling-cringe-and-the-banality-of-shadows/"
+      Comment: "Ribbonfarm"
+      Date: 2021-10-01
+
+    - Title: "Geotargeting: The Political Value of Your Location"
+      Link: "https://ourdataourselves.tacticaltech.org/posts/geotargeting/"
+      Comment: ""
+      Date: 2021-10-01
+
+    - Title: "IoT Hacking and Rickrolling My High School District"
+      Link: "https://whitehoodhacker.net/posts/2021-10-04-the-big-rick"
+      Comment: ""
+      Date: 2021-10-01
+
+    - Title: "Celebrating Steve | October 5 | Apple"
+      Link: "https://youtu.be/CeSAjK2CBEA"
+      Comment: ""
+      Date: 2021-10-01
+
+    - Title: "The Library of Babel"
+      Link: "https://sites.evergreen.edu/politicalshakespeares/wp-content/uploads/sites/226/2015/12/Borges-The-Library-of-Babel.pdf"
+      Comment: "Jorge Luis Borges."
+      Date: 2021-10-01
+
+    - Title: "Shoot Your Shot: A Guide to Effective Cold Outreach"
+      Link: "https://sparktoro.com/blog/shoot-your-shot-a-guide-to-effective-cold-outreach/"
+      Comment: ""
+      Date: 2021-10-01
+
+    - Title: "Weak Ties & Strong Intros"
+      Link: "https://tomcritchlow.com/2020/12/10/weak-ties-strong-intros/"
+      Comment: "How to find leads hiding in your network to generate client work."
+      Date: 2021-10-01
+
+    - Title: "How do you know what people have been working on?"
+      Link: "https://world.hey.com/dhh/how-do-you-know-what-people-have-been-working-on-48b8986d"
+      Comment: "DHH."
+      Date: 2021-10-01
+
+    - Title: "How factories were made safe"
+      Link: "https://www.lesswrong.com/posts/DQKgYhEYP86PLW7tZ/how-factories-were-made-safe"
+      Comment: "LessWrong."
+      Date: 2021-10-01
+
+    - Title: "Idea protectionism"
+      Link: "https://world.hey.com/jason/idea-protectionism-01ef4f59"
+      Comment: "Jason Fried."
+      Date: 2021-10-01
+
+    - Title: "When did you decide"
+      Link: "https://seths.blog/2021/10/when-did-you-decide/"
+      Comment: "Seth Godin. If it’s a habit, then it’s a decision, made consciously or not."
+      Date: 2021-10-01
+
+    - Title: "Don't Assume Consensus In The Absence of Objection"
+      Link: "https://candost.blog/dont-assume-consensus-in-the-absence-of-objection/"
+      Comment: "Consensus decision-making means everyone explicitly agreeing to the proposed idea. The leader shouldn't assume consensus in the absence of objection."
+      Date: 2021-10-01
+
+    - Title: "The Last Time Always Happens Now"
+      Link: "https://www.raptitude.com/2021/09/the-last-time-always-happens-now/"
+      Comment: "You always know when you’re doing something for the first time, and you almost never know when you’re doing something for the last time."
+      Date: 2021-10-01
 
   - Date: September 2021
     Links:
@@ -720,7 +1235,7 @@ Ideas ride us into battle like warhorses. We can witness, participate in, and ev
       Link: "https://www.alexanderpiano.nz/page/the-alexander-piano"
       Comment: "“Why did you build such a long piano?”"
       Date: 2021-07-18
-    
+
     - Title: "Present Bias"
       Link: "https://blog.doist.com/present-bias-comic/"
       Comment: "a comic by Doist. Why it's so hard to give a damn about our Future Selves."
@@ -2439,7 +2954,7 @@ Ideas ride us into battle like warhorses. We can witness, participate in, and ev
   - Date: January 2021
     Links:
 
-  
+
       - Title: "Gradations"
         Link: "https://aeon.co/videos/delight-as-the-hard-edged-world-melts-into-a-full-rainbow-spectrum-of-reality"
         Comment: "Delight as the hard-edged world melts into a full-rainbow spectrum of reality"
@@ -4363,7 +4878,7 @@ Ideas ride us into battle like warhorses. We can witness, participate in, and ev
       - Title: "The ladders of wealth creation"
         Link: "https://nathanbarry.com/wealth-creation/"
         Comment: "A step-by-step roadmap to building wealth."
-    
+
       - Title: "United States v. Forty Barrels & Twenty Kegs of Coca-Cola"
         Link: "https://en.wikipedia.org/wiki/United_States_v._Forty_Barrels_%26_Twenty_Kegs_of_Coca-Cola"
         Comment: "A federal suit under which the government unsuccessfully attempted to force The Coca-Cola Company to remove caffeine from its product."
@@ -4399,7 +4914,7 @@ Ideas ride us into battle like warhorses. We can witness, participate in, and ev
       - Title: "Meeting spec (doing the minimum)"
         Link: "https://seths.blog/2020/05/meeting-spec-doing-the-minimum/"
         Comment: "Committed professionals don’t ask, “how little can I get away with?” They view the work as a chance to make a difference instead."
-    
+
       - Title: "The six levels of interaction with a system"
         Link: "https://www.charlieharrington.com/the-six-levels-of-interaction-with-a-system"
         Comment: "Non-use, Use, Monitor, Maintain, Repair, (Re)build."
@@ -4577,7 +5092,7 @@ Ideas ride us into battle like warhorses. We can witness, participate in, and ev
       - Title: "The History of the URL"
         Link: "https://blog.cloudflare.com/the-history-of-the-url/"
         Comment: "On the 11th of January 1982 twenty-two computer scientists met to discuss an issue with ‘computer mail’ (now known as email)."
-        
+
   - Date: March 2020
     Links:
       - Title: The Core Ideas of Self-Improvement

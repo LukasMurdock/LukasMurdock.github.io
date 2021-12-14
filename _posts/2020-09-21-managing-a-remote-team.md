@@ -206,3 +206,5 @@ Related:
 - [The Presence Framework for New Remote Managers](https://intenseminimalism.com/2021/the-presence-framework-for-new-remote-managers/)
 - [The end of the office](https://seths.blog/2021/08/the-end-of-the-office/)
 - [15 rules for communicating at GitHub](https://ben.balter.com/2014/11/06/rules-of-communicating-at-github/)
+- [Don‘t be spooky](https://therealadam.com/2021/11/01/dont-be-spooky/)
+- [Facilitation and urgency](https://alearningaday.blog/2021/11/19/facilitation-and-urgency/)

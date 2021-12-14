@@ -144,22 +144,22 @@ Various technologies I dove into before I started tracking when I learned them. 
 
 ### Companies I’ve Worked For
 
-March 2021 – Present  
-**[Virra](https://virramarketing.com/)** • *Front End Developer* • Remote  
+March 2021 – Present
+**[Virra](https://virramarketing.com/)** • *Front End Developer* • Remote
 
-August 2020 – March 2021  
-**[Loganix](https://loganix.com/)** • *Content Strategist* • Remote  
+August 2020 – March 2021
+**[Loganix](https://loganix.com/)** • *Content Strategist* • Remote
 
-January 2020 – April 2020  
-**[ABB](https://global.abb/group/en)** • *Marketing Consultant* • Remote  
+January 2020 – April 2020
+**[ABB](https://global.abb/group/en)** • *Marketing Consultant* • Remote
 
-July 2018 – August 2019  
-**[Infinite Smiles](https://www.infinitesmiles.com/)** • *Product Designer* • 7500 Sawmill Pkwy Powell, OH 43065  
+July 2018 – August 2019
+**[Infinite Smiles](https://www.infinitesmiles.com/)** • *Product Designer* • 7500 Sawmill Pkwy Powell, OH 43065
 
-August 2017 – May 2018  
+August 2017 – May 2018
 **Cinemark** @ 1071 Gemini Pl Columbus, OH 43240
 
-December 2015 – July 2017  
+December 2015 – July 2017
 **Chick-fil-a** @ 8787 Sancus Blvd Columbus, OH 43240
 
 ### Places I Want to Visit
@@ -176,6 +176,8 @@ In no particular order
 - China
 - France
 - India
+
+[Atlas Obscura travel guidebook](https://www.atlasobscura.com/)
 
 ### Websites
 * [Gmail](mailto:lukas.murdock@gmail.com) since 2010
@@ -326,7 +328,7 @@ I’m a shy guy with a fear of annoying people whenever I contact them. I’m wo
 
 Looking at my email logs, I started building a site somewhere on or before December 29, 2018, on Squarespace. But I soon felt constricted by their customizability. I realized I could have complete customizability limited only by my skills if I rolled my own, and it would be free by utilizing developer tiers.
 
-The first commit to this site was on July 3, 2019. 
+The first commit to this site was on July 3, 2019.
 
 (This is a better version of the [About this website](/about-this-website/) I posted April 17, 2020.)
 
@@ -372,7 +374,7 @@ Jekyll uses HTML layouts that are extensible through the [Liquid template langua
 The more I use it, the more I see how powerful it is. The next step of things that I want to do is create a collective changelog of dated tasks, books, and resources added by date (which may be possible in liquid, I’m still learning). May possibly utilize SQLite.
 
 ### Deploy and CDN
-Currently hosting on Github Pages as that’s what I started on. All my other projects use Netlify and I imagine I’ll move over once they improve some things. 
+Currently hosting on Github Pages as that’s what I started on. All my other projects use Netlify and I imagine I’ll move over once they improve some things.
 
 Github Pages doesn’t support custom _plugins but my build scripts don’t need to run on *every* build, and I typically preview by building locally anyways so it’s currently not an issue.
 

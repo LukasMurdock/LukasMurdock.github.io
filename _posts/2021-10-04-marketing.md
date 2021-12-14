@@ -69,3 +69,6 @@ Reaching, helping someone move forward, or browsing social media will be relativ
 - Donald Miller: Building a StoryBrand (2017)
 - Rory Sutherland: Alchemy (2018)
 - Julia Galef: The Scout Mindset (2021)
+
+
+Also: [Seth’s Store](https://seths.store/)

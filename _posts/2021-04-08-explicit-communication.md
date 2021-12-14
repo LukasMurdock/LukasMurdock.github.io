@@ -58,4 +58,6 @@ Put everything in writing. Putting everything in writing reduces confusion and s
 
 > [Internal communication based on long-form writing, rather than a verbal tradition of meetings, speaking, and chatting, leads to a welcomed reduction in meetings, video conferences, calls, or other real-time opportunities to interrupt and be interrupted.](https://basecamp.com/guides/how-we-communicate)
 
-See: [Managing a remote team](https://lukasmurdock.com/managing-a-remote-team/)
+See:
+- [Managing a remote team](https://lukasmurdock.com/managing-a-remote-team/)
+- [Thoughtful Communication Makes Us Unreasonably Productive](https://www.ashbyhq.com/culture/blog/thoughtful-communication)
