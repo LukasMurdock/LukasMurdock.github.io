@@ -434,6 +434,7 @@ My favorite fonts on Google Fonts.
 - IBM Plex Sans
 - [Space Grotesk](https://fonts.google.com/specimen/Space+Grotesk)
 - [Outfit](https://fonts.google.com/specimen/Outfit#standard-styles)
+- [Readex Pro](https://fonts.google.com/specimen/Readex+Pro#standard-styles)
 
 ##### Soft-serif
 - [Fraunces](https://github.com/undercasetype/fraunces)
