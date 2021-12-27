@@ -12,6 +12,7 @@ date: 'December 27, 2021'
 - RationalWiki: [Argumentum ad hominem](https://rationalwiki.org/wiki/Argumentum_ad_hominem)
 - Effectiviology: [Ad Hominem: When People Use Personal Attacks in Arguments](https://effectiviology.com/ad-hominem-fallacy/)
 - Paul Graham: [How to Disagree](http://www.paulgraham.com/disagree.html)
+- LW: [Counterspells](https://www.lesswrong.com/posts/vvi8Je7XpdHZAM2bY/counterspells)
 - LW: [The Complete Idiot’s Guide to Ad Hominem](https://www.lesswrong.com/posts/pXpt2HqCqxqjeZc4u/the-complete-idiot-s-guide-to-ad-hominem)
 
 
