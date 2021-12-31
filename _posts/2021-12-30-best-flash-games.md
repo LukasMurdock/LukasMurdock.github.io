@@ -5,6 +5,8 @@ description: ''
 date: 'December 30, 2021'
 ---
 
+For posterity, the flash games I recall:
+
 - Happy Wheels
 - Bloons Tower Defense 3
 - Dino Run

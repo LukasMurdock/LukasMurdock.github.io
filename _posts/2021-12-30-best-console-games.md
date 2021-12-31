@@ -9,6 +9,7 @@ See [best iOS games](https://lukasmurdock.com/best-ios-games/).
 
 I grew up with an Xbox 360—let’s I got it sometime in middle school. I remember my friends having it before me—and a few of them had a Playstation 2.
 
+For posterity, the games I recall:
 - Midnight Club: Los Angeles
 - Minecraft
 - Super Meat Boy
