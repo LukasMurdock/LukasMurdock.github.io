@@ -120,6 +120,17 @@ fulldata:
         Comment: "Learn the best JavaScript tools and frameworks from industry pros."
         Date: August 11, 2020
 
+      - Title: "Papers with Code"
+        Link: "https://paperswithcode.com/"
+        Comment: "The latest in Machine Learning"
+        Date: 2021-12-31
+
+      - Title: "Intro to Database Systems"
+        Link: "https://www.youtube.com/playlist?app=desktop&list=PLSE8ODhjZXjbohkNBWQs_otTrBTrjyohi"
+        Comment: ""
+        Media: video
+        Date: 2021-12-31
+
       - Title: "The Modern JavaScript Tutorial"
         Link: "https://javascript.info/"
         Comment: "How it's done now. From the basics to advanced topics with simple, but detailed explanations."
@@ -1155,6 +1166,11 @@ fulldata:
         Link: https://press.stripe.com/
         Comment: "Stripe Press publishes books about economic and technological advancement."
         Date: Dec 3, 2020
+
+      - Title: "Marginal Revolution University"
+        Link: "https://mru.org/"
+        Comment: "Learn economics on your time."
+        Date: 2021-12-31
 
       - Title: Formist
         Link: https://formisteditions.co/

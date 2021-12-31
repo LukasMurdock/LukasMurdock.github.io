@@ -16,6 +16,7 @@ Words:
 - [Guide to freelance consulting](https://www.consulting.com/independent-consultant)
 - [Guide To Retainer Agreements](https://doubleyourfreelancing.com/freelancers-guide-client-retainer-agreements/)
 - [Paid Discovery](https://sakasandcompany.com/paid-discovery/)
+- [Notes On Owning Your Own Business](https://www.rosshartshorn.net/stuffrossthinksabout/small_bus_blog_post/)
 
 
 Books:
