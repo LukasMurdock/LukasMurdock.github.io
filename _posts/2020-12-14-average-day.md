@@ -9,9 +9,7 @@ last_modified_at: 2021-05-29T13:51:13
 
 ## 2021
 
-So far, the work has been splitting keeping up with school work with building the website and portal for Virra with React/Next.js.
-
-Average day in 2021 looks like checking:
+2021 was another whirlwind. I’d say the average day consisted of keeping up with school work, learning Next/React/Typescript and keeping up with my daily checks:
 - Email
 - Slack
 - Checking on iOS
@@ -19,14 +17,6 @@ Average day in 2021 looks like checking:
     - NetNewsWire
     - Readwise
     - HackerNews
-
-Summer ideas:
-- Read a buncho books
-- Clean up laptop after school
-- Do a project with Three.js
-- Write more about web design and development
-- Explore email marketing
-- Google [Data Analytics Course](https://www.coursera.org/professional-certificates/google-data-analytics) or [others](https://grow.google/certificates/)
 
 
 ## 2020
