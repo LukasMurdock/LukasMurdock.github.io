@@ -13,7 +13,7 @@ linkslist:
 
     - Title: "In place of a legal notice, here is a blessing"
       Link: "https://github.com/sqlite/sqlite/blob/master/src/main.c"
-      Comment: ""
+      Comment: "Sqlite."
       Date: 2022-01-19
 
     - Title: "Jon Hamm Narrates Plato’s Allegory of the Cave, Updated for the Timeline Era"
