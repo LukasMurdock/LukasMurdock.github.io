@@ -25,7 +25,7 @@ After spending half a day on this issue, I decided I was finally going to jump t
 
 Incensed, the issue persisted.
 
-I began looking at new M1 MacBooks—no more butterfly keys, no more touch bar, _no more issues_.
+I began looking (dreaming) at new M1 MacBooks—no more butterfly keys, no more touch bar, _no more issues_.
 
 And then, as I was running an Apple Hardware Test, I saw it…
 
