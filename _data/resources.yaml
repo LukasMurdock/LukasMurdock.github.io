@@ -2569,6 +2569,11 @@ fulldata:
         Comment: "A tool for food history research."
         Date: Sep 05, 2020
 
+      - Title: "Cooking for Engineers"
+        Link: "http://www.cookingforengineers.com/"
+        Comment: ""
+        Date: 2022-01-18
+
       - Title: A11y Coffee
         Link: "https://a11y.coffee/"
         Comment: "Pick your serving size of web accessibility information."
