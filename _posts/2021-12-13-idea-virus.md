@@ -12,3 +12,4 @@ A collection of ideas about Narrative propagation.
 - [Concentration of Force](https://www.lesswrong.com/posts/rQKstXH8ZMAdN5iqD/concentration-of-force)
 - [The Common Knowledge Game](https://www.epsilontheory.com/inflation-and-the-common-knowledge-game/)
 - [Sheep Logic](https://www.epsilontheory.com/sheep-logic/)
+- [Narrative and Metaverse, Pt. 1: The Living Word](https://www.epsilontheory.com/narrative-and-metaverse-pt-1-the-living-word/?utm_source=ET+Newsletter&utm_medium=Email&utm_campaign=website)
