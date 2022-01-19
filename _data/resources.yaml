@@ -531,6 +531,11 @@ fulldata:
         Comment: "Heuristics for effective management"
         Date: May 06, 2020
 
+      - Title: "The Manager's Handbook"
+        Link: "https://themanagershandbook.com/"
+        Comment: "This handbook represents the best of our collective knowledge on management and serves as the foundation of our internal training program here at Clearbit."
+        Date: 2022-01-18
+
       - Title: Resources for New Managers
         Link: https://resources-for-new-managers.com/
         Comment: "Tools, worksheets, articles, podcasts, videos, and more to help new managers support their teams."
