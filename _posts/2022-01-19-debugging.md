@@ -19,9 +19,9 @@ I unplugged my laptop and let it die.
 
 Each time the issue came back after some time.
 
-However, I realized it wasn’t that that clicks weren’t registering; a click would randomly occur _and never stop holding_. And that held click rendered me unable to click anything else.
+However, I realized it wasn’t that clicks weren’t registering; a click would randomly occur _and never stop holding_. And that held click rendered me unable to click anything else.
 
-After spending half a day on this issue, I decided I was finally going to jump to macOS Monterey—I’ve enjoyed Catalina and don’t prefer the new UI “upgrades.” So, I backed up my laptop, cleaned some space, and begrudgingly updated to Monterey.
+After spending half a day on this issue, I decided I was finally going to jump to macOS Monterey. I’ve enjoyed Catalina and don’t prefer the new UI “upgrades,” yet, I backed up my laptop, cleaned some space, and begrudgingly updated to Monterey.
 
 Incensed, the issue persisted.
 
