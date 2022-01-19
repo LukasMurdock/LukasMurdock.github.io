@@ -221,6 +221,11 @@ fulldata:
         Comment: "Research computer architecture, systems, security, and bioinformatics."
         Date: Apr 22, 2020
 
+      - Title: "CS 253 Web Security"
+        Link: "https://web.stanford.edu/class/cs253/"
+        Comment: "Principles of web security."
+        Date: 2022-01-18
+
       - Title: Modern CSS Solutions
         Link: https://moderncss.dev/
         Comment: "A series examining modern CSS solutions to problems"
@@ -326,6 +331,11 @@ fulldata:
         Comment: "Wistia provides video marketing tips and education along with video production tips."
         Date: Apr 22, 2020
 
+      - Title: "Category Theory for Programmers"
+        Link: "https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/"
+        Comment: ""
+        Date: 2022-01-18
+
       - Title: Low-Level Academy
         Link: https://lowlvl.org/
         Comment: "Learn systems programming by creating small projects from the first principles with visual and intuitive explanations."
@@ -365,6 +375,11 @@ fulldata:
         Link: https://sundowndev.github.io/hacker-roadmap/
         Comment: "A guide for amateurs pen testers and a collection of hacking tools, resources and references to practice ethical hacking, pen testing and web security."
         Date: Apr 22, 2020
+
+      - Title: "Hacker Laws"
+        Link: "https://github.com/dwmkerr/hacker-laws"
+        Comment: "Laws, Theories, Principles and Patterns that developers will find useful."
+        Date: 2022-01-18
 
       - Title: "Front-End Developer Roadmap"
         Link: "https://frontendmasters.com/guides/learning-roadmap/"
@@ -1020,6 +1035,11 @@ fulldata:
         Link: "https://adpages.xyz/"
         Comment: "Daily curated showcase of winning ad pages."
         Date: July 28, 2020
+
+      - Title: "Josh Comeau Gradient Generator"
+        Link: "https://www.joshwcomeau.com/gradient-generator/"
+        Comment: ""
+        Date: 2022-01-18
 
       - Title: "Buttery Smooth Gradient Generator"
         Link: "https://learnui.design/tools/gradient-generator.html"
@@ -3091,6 +3111,11 @@ fulldata:
         Comment: "A free report on your email statistics and trends, find out your own and start improving your habits today."
         Date: January 14, 2021
 
+      - Title: "Thanks in advance"
+        Link: "https://email-is-good.com/2022/01/10/thanks-in-advance/"
+        Comment: ""
+        Date: 2022-01-18
+
 
 
   #Podcast
@@ -3807,6 +3832,11 @@ fulldata:
         Link: "https://varun.ca/modular-webgl/"
         Comment: ""
         Date: 2021-12-13
+
+      - Title: "The Wall"
+        Link: "https://earth2day.com/TheWall/"
+        Comment: ""
+        Date: 2022-01-18
 
 
 

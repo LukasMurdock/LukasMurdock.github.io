@@ -17,3 +17,9 @@ Google Suite (now Google Workspace) is free to educational institutions—an ext
 Hiring, similarly, is all about creating and optimizing entry points.
 
 Choosing the right entry points is crucial to learning and [autodidactism](https://lukasmurdock.com/autodidact/).
+
+You have to know the entry points—because what you want to know is what everyone thinks that everyone thinks.
+
+> You are devoting your intelligence to anticipating what average opinion expects the average opinion to be. ([epsilon theory](https://www.epsilontheory.com/epsilon-theory-manifesto/))
+
+> You wait because it is the act of making public statements that creates Common Knowledge, and until those public statements are made you don’t know what move to make in the game. ([epsilon theory](https://www.epsilontheory.com/epsilon-theory-manifesto/))

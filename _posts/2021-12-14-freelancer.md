@@ -17,6 +17,7 @@ Words:
 - [Guide To Retainer Agreements](https://doubleyourfreelancing.com/freelancers-guide-client-retainer-agreements/)
 - [Paid Discovery](https://sakasandcompany.com/paid-discovery/)
 - [Notes On Owning Your Own Business](https://www.rosshartshorn.net/stuffrossthinksabout/small_bus_blog_post/)
+- [Ask HN: How do you start contracting?](https://news.ycombinator.com/item?id=29864014)
 
 
 Books:

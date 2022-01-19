@@ -107,7 +107,7 @@ last_modified_at: 2020-10-24T21:51:21+0000
 				  <svg preserveAspectRatio="xMinYMax meet" style="vertical-align:top;" viewBox="0 0 1063 562" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2"><path d="M.875 561.959A537.852 537.852 0 010 531.25C0 238.045 238.045 0 531.25 0c293.205 0 531.25 238.045 531.25 531.25 0 10.321-.295 20.573-.875 30.709H.875z" fill="#8fd3f4" fill-opacity=".4"/><path d="M126.147 561.959A410.383 410.383 0 01125 531.25C125 307.035 307.035 125 531.25 125S937.5 307.035 937.5 531.25c0 10.336-.387 20.583-1.147 30.709H126.147z" fill="#8fd3f4" fill-opacity=".5"/><path d="M251.661 561.959A283.748 283.748 0 01250 531.25C250 376.024 376.024 250 531.25 250S812.5 376.024 812.5 531.25c0 10.369-.562 20.608-1.661 30.709H251.661z" fill="#8fd3f4" fill-opacity=".6"/><path d="M256.435 152.429l-60.371-16.176-16.176 60.37 60.37 16.177 16.177-60.371z" fill="url(#principlesGradient1)"/><path d="M1026.39 281.25v-62.5h-62.5v62.5h62.5z" fill="url(#principlesGradient2)"/><path d="M684.958 270.641l-31.25-54.127-54.127 31.25 31.25 54.127 54.127-31.25z" fill="url(#principlesGradient3)"/><path d="M191.947 444.293l-54.126-31.25-31.25 54.127 54.126 31.25 31.25-54.127z" fill="url(#principlesGradient4)"/><path d="M393.889 561.959L363.18 531.25l176.777-176.777L716.734 531.25l-30.709 30.709H393.889z" fill="url(#principlesGradient5)"/><defs><linearGradient id="principlesGradient1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="rotate(50.178 -26.613 247.727) scale(142.2205)"><stop offset="0" stop-color="#8fd3f4"/><stop offset="1" stop-color="#9dfbbf"/></linearGradient><linearGradient id="principlesGradient2" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="scale(-133.5591) rotate(-46.695 -5.67 8.255)"><stop offset="0" stop-color="#8fd3f4"/><stop offset="1" stop-color="#9dfbbf"/></linearGradient><linearGradient id="principlesGradient3" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="rotate(107.5 259.462 342.02) scale(137.1111)"><stop offset="0" stop-color="#8fd3f4"/><stop offset="1" stop-color="#9dfbbf"/></linearGradient><linearGradient id="principlesGradient4" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="scale(159.4469) rotate(9.342 -16.666 3.712)"><stop offset="0" stop-color="#8fd3f4"/><stop offset="1" stop-color="#9dfbbf"/></linearGradient><linearGradient id="principlesGradient5" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(707.107 0 0 414.971 186.404 458.216)"><stop offset="0" stop-color="#9dfbbf"/><stop offset="1" stop-color="#8fd3f4"/></linearGradient></defs></svg>
 				</div>
 			  </div>
-			
+
 
 		</div>
 
@@ -132,7 +132,7 @@ last_modified_at: 2020-10-24T21:51:21+0000
 		<a href="/now">Read what I’m doing now</a>.
 		<hr>
 
-		<!-- <h2>Capabilities</h2>				
+		<!-- <h2>Capabilities</h2>
 		<ul>
 			<li><strong>Strategy </strong>helps businesses and organizations of all sizes to <a href="/strategy">clarify their purpose, find their voice, understand their customers, and define their goals.</a></li>
 		</ul>q
@@ -143,7 +143,7 @@ last_modified_at: 2020-10-24T21:51:21+0000
 			<li><strong>Digital </strong>provides the space for users and information by <a href="/digital">building intuitive, user focused interfaces specifically for engagement, delight, and clear communication on all devices.</a></li>
 		</ul> -->
 
-		<h2>Platforms</h2>				
+		<h2>Platforms</h2>
 		<ul>
 			<li><a href="mailto:lukas.murdock@gmail.com">Gmail</a> since 2010</li>
 			<li><a href="https://twitter.com/MurdockLukas">Twitter</a> since 2012</li>
@@ -172,7 +172,25 @@ last_modified_at: 2020-10-24T21:51:21+0000
 
 
 {% include footer.html %}
-
+<div id="vanta-birds"></div>
 </body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r119/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@0.5.21/dist/vanta.birds.min.js"></script>
+<script>
+VANTA.BIRDS({
+  el: "#vanta-birds",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  backgroundColor: 0xf5f5f7,
+  color1: 0x9895ed,
+  color2: 0xffffff
+})
+</script>
 
 </html>

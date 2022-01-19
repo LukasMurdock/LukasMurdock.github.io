@@ -29,6 +29,7 @@ date: 'September 23, 2021'
 - [On cultures that build](https://scholars-stage.org/on-cultures-that-build/)
 - [Bored our of their minds](https://www.gse.harvard.edu/news/ed/17/01/bored-out-their-minds)
 - [Noam Chomsky - On Being Truly Educated](https://youtu.be/eYHQcXVp4F4)
+- [Unbundling the University](https://darkblueheaven.com/unbundling/)
 
 ## On Self Learning
 ### Articles

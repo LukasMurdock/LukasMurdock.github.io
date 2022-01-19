@@ -11,6 +11,203 @@ linkslist:
   - Date: January 2022
     Links:
 
+    - Title: "In place of a legal notice, here is a blessing"
+      Link: "https://github.com/sqlite/sqlite/blob/master/src/main.c"
+      Comment: ""
+      Date: 2022-01-19
+
+    - Title: "Jon Hamm Narrates Plato’s Allegory of the Cave, Updated for the Timeline Era"
+      Link: "https://kottke.org/22/01/jon-hamm-narrates-platos-allegory-of-the-cave-updated-for-the-timeline-era"
+      Comment: ""
+      Media: video
+      Date: 2022-01-19
+
+    - Title: "How I practice at what I do"
+      Link: "https://marginalrevolution.com/marginalrevolution/2019/07/how-i-practice-at-what-i-do.html"
+      Comment: "Tyler Cowen. “What is it you do to train that is comparable to a pianist practicing scales?”  If you don’t know the answer to that one, maybe you are doing something wrong or not doing enough. Or maybe you are (optimally?) not very ambitious?"
+      Date: 2022-01-19
+
+    - Title: "Earnestness"
+      Link: "http://www.paulgraham.com/earnest.html"
+      Comment: "Paul Graham."
+      Date: 2022-01-19
+
+    - Title: "Science in a High-Dimensional World"
+      Link: "https://www.lesswrong.com/posts/4XRjPocTprL4L8tmB/science-in-a-high-dimensional-world"
+      Comment: "All the other variables in the universe are irrelevant, we only need to measure/control the control variables each time we want to reuse the model."
+      Date: 2022-01-19
+
+    - Title: "Best Case Contrarians"
+      Link: "https://www.overcomingbias.com/2022/01/best-case-contrarians.html"
+      Comment: "Robin Hanson."
+      Date: 2022-01-19
+
+    - Title: "Imperative vs Declarative Programming"
+      Link: "https://www.youtube.com/watch?v=E7Fbf7R3x6I&feature=youtu.be"
+      Comment: "uidotdev."
+      Date: 2022-01-19
+
+    - Title: "Buy Things, Not Experiences"
+      Link: "https://write.as/harold-lee/theres-a-phrase-going-around-that-you-should-buy-experiences-not-things"
+      Comment: ""
+      Date: 2022-01-19
+
+    - Title: "A Grand Unified Theory of Buying Stuff"
+      Link: "https://www.wired.com/story/a-grand-unified-theory-of-buying-stuff/"
+      Comment: "So you've acquired a new thing. And now you want accessories. Ask yourself: Will the potential experience be worth the cost to the supply chain?"
+      Date: 2022-01-19
+
+    - Title: "Building personal moats and killer features"
+      Link: "https://productlessons.substack.com/p/building-personal-moats-and-killer"
+      Comment: "The value of paradoxes and taking psychological moonshots."
+      Date: 2022-01-19
+
+    - Title: "Davaslife sets up his M1 Max MacBook Pro"
+      Link: "https://youtu.be/RNqDkF17ogY"
+      Comment: "With apps he uses for app development."
+      Date: 2022-01-19
+
+    - Title: "The Gift of It's Your Problem Now"
+      Link: "https://apenwarr.ca/log/20211229"
+      Comment: "Paying for gifts does not work."
+      Date: 2022-01-19
+
+    - Title: "Pentagon Wars - Bradley Fighting Vehicle Evolution"
+      Link: "https://youtu.be/aXQ2lO3ieBA"
+      Comment: "Design by committee. This is what we’re building?"
+      Media: video
+      Date: 2022-01-19
+
+    - Title: "The Age of the Essay"
+      Link: "http://paulgraham.com/essay.html"
+      Comment: "Paul Graham. "
+      Date: 2022-01-19
+
+    - Title: "Storytelling: Narrative Wet Bulb Temperature"
+      Link: "https://www.ribbonfarm.com/2022/01/12/storytelling-narrative-wet-bulb-temperature/"
+      Comment: "Ribbonfarm. Narrative-context fit."
+      Date: 2022-01-19
+
+    - Title: "Your team needs a guide to working with you"
+      Link: "https://almanac.io/async-review/your-team-needs-a-user-manual-on-you"
+      Comment: "Almanac."
+      Date: 2022-01-19
+
+    - Title: "An Inconvenient Truce"
+      Link: "https://www.epsilontheory.com/an-inconvenient-truce/"
+      Comment: "Epsilon Theory. The truce doesn’t have to last forever. But there is no better way to learn how much of the fight is yours than to discover who finds it most inconvenient to see you at peace."
+      Date: 2022-01-19
+
+    - Title: "Make your own unique messes"
+      Link: "https://news.lettersofnote.com/p/make-your-own-unique-messes"
+      Comment: "Letters of note. Alan Rickman. Make your own unique messes, and then work your own way out of them."
+      Date: 2022-01-19
+
+    - Title: "Long Distance Thinking"
+      Link: "https://simonsarris.substack.com/p/long-distance-thinking"
+      Comment: "What else has been hidden by summary? What thoughts must we resist abridging? Those giant sequoias echo a reminder to ask ourselves, what are the unseen things today that could be growing?"
+      Date: 2022-01-18
+
+    - Title: "I like half of my job"
+      Link: "https://critter.blog/2022/01/14/i-like-half-of-my-job/"
+      Comment: ""
+      Date: 2022-01-18
+
+    - Title: "Randomly Bouncing Balls Arrange Themselves Into Satisfying Patterns"
+      Link: "https://kottke.org/22/01/randomly-bouncing-balls-arrange-themselves-into-satisfying-patterns"
+      Comment: "The most satisfying video."
+      Date: 2022-01-18
+
+    - Title: "Harder, easier and more convenient"
+      Link: "https://seths.blog/2022/01/harder-easier-and-more-convenient/"
+      Comment: "The battle for most convenient is fierce. It might be easier to stake out your claim to interactions and products that are less convenient, but worth it."
+      Date: 2022-01-18
+
+    - Title: "Facilitation: Managing discussions"
+      Link: "https://buditanrim.co/2022/manage-discussions/"
+      Comment: ""
+      Date: 2022-01-18
+
+    - Title: "Will Larson Index of writing on hiring"
+      Link: "https://lethain.com/hiring-writing-index/"
+      Comment: "Hiring."
+      Date: 2022-01-18
+
+    - Title: "Notational intelligence"
+      Link: "https://thesephist.com/posts/notation/"
+      Comment: "Sephist. We think in languages; we think with notations. Inventing better notation is a cheap, universally useful way to increase our effective intelligence."
+      Date: 2022-01-18
+
+    - Title: "Toni Morrison’s Ten Steps Towards Fascism"
+      Link: "https://kottke.org/22/01/toni-morrisons-ten-steps-towards-fascism"
+      Comment: ""
+      Date: 2022-01-18
+
+    - Title: "Make beautiful gradients"
+      Link: "https://www.joshwcomeau.com/css/make-beautiful-gradients/"
+      Comment: "Josh W Comeau."
+      Date: 2022-01-18
+
+    - Title: "The Righteousness Fix"
+      Link: "https://www.orionmagazine.org/article/the-righteousness-fix/"
+      Comment: "Addiction isn't just somebody else's problem. Most of us, whether we be timid or bold, liberal, conservative, or (especially) some version of radical, are prone to imbibing heady infusions of the stuff. Viewing ourselves as “good,” in fact we become grievously toxic, literally intoxicated. In this poisonous state of mind we are able to write off others — often literally billions of others — without hesitation or remorse, because they are “bad.”"
+      Date: 2022-01-18
+
+    - Title: "Being Mid-Career Sucks: The Context Crisis"
+      Link: "https://seomba.substack.com/p/being-mid-career-sucks-the-context"
+      Comment: ""
+      Date: 2022-01-18
+
+    - Title: "Brand Naming Process"
+      Link: "https://www.ebaqdesign.com/podcast/brand-naming-process"
+      Comment: ""
+      Date: 2022-01-18
+
+    - Title: "You Don't Need a Mentor—Find a Nemesis Instead"
+      Link: "https://tedgioia.substack.com/p/you-dont-need-a-mentorfind-a-nemesis"
+      Comment: "Your nemesis will teach you things that no mentor can. The nemesis can push buttons you didn’t even know were there to be pushed. The nemesis may bring out the worst in you, but if you manage the situation effectively, also the best."
+      Date: 2022-01-18
+
+    - Title: "Mono no aware"
+      Link: "https://en.wikipedia.org/wiki/Mono_no_aware"
+      Comment: "a sensitivity to ephemera"
+      Date: 2022-01-18
+
+    - Title: "Epsilon Theory Manifesto"
+      Link: "https://www.epsilontheory.com/epsilon-theory-manifesto/"
+      Comment: ""
+      Date: 2022-01-18
+
+    - Title: "What is “Seeing The Matrix” For A Product Leader?"
+      Link: "https://medium.com/positiveslope/what-is-seeing-the-matrix-for-a-product-leader-9441e400d9a2"
+      Comment: ""
+      Date: 2022-01-18
+
+    - Title: "Intentionally Unoptimized"
+      Link: "https://medium.com/written-on-bart/intentionally-unoptimized-1746f35fe343"
+      Comment: "Don’t let data drive you. Use it as a fallible indicator of progress towards the ineffable quality of a meaningful impact."
+      Date: 2022-01-18
+
+    - Title: "Hugging the X-Axis"
+      Link: "https://perell.com/essay/hugging-the-x-axis/"
+      Comment: "David Perell."
+      Date: 2022-01-18
+
+    - Title: "Hard Edges, Soft Middle"
+      Link: "https://www.colemanm.org/post/hard-edges-soft-middle/"
+      Comment: "Management."
+      Date: 2022-01-18
+
+    - Title: "Category Theory for Programmers"
+      Link: "https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/"
+      Comment: ""
+      Date: 2022-01-18
+
+    - Title: "Seed-Stage Positioning: Lock and Load"
+      Link: "https://kellblog.com/2022/01/07/seed-stage-positioning-lock-and-load/"
+      Comment: "Kellblog. At seed-stage your job is simple: explain what the product is in the clearest simplest, shortest form possible.  Anything more than that is wasted effort, better spent on engaging with more people instead of further honing the message."
+      Date: 2022-01-18
+
     - Title: "Steve Jobs 2005 Stanford Commencement Address"
       Link: "https://news.stanford.edu/2005/06/14/jobs-061505/"
       Comment: ""

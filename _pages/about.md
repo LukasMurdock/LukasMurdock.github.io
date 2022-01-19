@@ -138,6 +138,7 @@ Various technologies I dove into before I started tracking when I learned them. 
     - [R for Data Science](https://r4ds.had.co.nz/introduction.html)
     - [R for applied epidemiology and public health](https://epirhandbook.com/)
     - [R for SEO](https://www.rforseo.com/)
+    - [Statistical rethinking](https://github.com/rmcelreath/stat_rethinking_2022)
 - Piano // keyboard
 - Web scraping
 - How to stop subscribing to newsletters
