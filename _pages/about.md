@@ -214,6 +214,13 @@ See: [uses](/uses)
 - Agreeableness: **medium**
 - Neuroticism: **medium-low**
 
+#### Enneagram
+
+type 5 ()
+- [site 1 (take test here)](https://www.eclecticenergies.com/enneagram/type5)
+- [site 2](https://www.enneagraminstitute.com/type-5)
+- [site 3](https://www.crystalknows.com/enneagram/type-5/wing-6)
+
 #### PrinciplesYou
 
 Best Match: [Growth Seeker](https://principlesyou.com/archetypes/growthseeker)
