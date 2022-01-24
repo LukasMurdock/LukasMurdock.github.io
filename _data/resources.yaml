@@ -221,6 +221,11 @@ fulldata:
         Comment: "Research computer architecture, systems, security, and bioinformatics."
         Date: Apr 22, 2020
 
+      - Title: "Reverse Engineering 101"
+        Link: "https://malwareunicorn.org/workshops/re101.html"
+        Comment: "This workshop provides the fundamentals of reversing engineering Windows malware using a hands-on experience with RE tools and techniques."
+        Date: 2022-01-24
+
       - Title: "CS 253 Web Security"
         Link: "https://web.stanford.edu/class/cs253/"
         Comment: "Principles of web security."

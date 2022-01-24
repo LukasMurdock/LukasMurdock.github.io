@@ -11,6 +11,61 @@ linkslist:
   - Date: January 2022
     Links:
 
+    - Title: "TypeScript Cheat Sheets"
+      Link: "https://www.typescriptlang.org/cheatsheets"
+      Comment: ""
+      Date: 2022-01-24
+
+    - Title: "Functional Programming and Monads"
+      Link: "https://github.com/getify/monio/blob/master/MONADS.md"
+      Comment: ""
+      Date: 2022-01-24
+
+    - Title: "On talking to think better"
+      Link: "https://www.natemeyvis.com/writing/on-talking-to-think-better/"
+      Comment: ""
+      Date: 2022-01-24
+
+    - Title: "Your Value Comes From Your Output"
+      Link: "https://danielmiessler.com/blog/your-value-comes-from-your-output/"
+      Comment: "Daniel Miessler. A seat at the table is earned by producing something of value."
+      Date: 2022-01-24
+
+    - Title: "Find your cohort. The generous ones."
+      Link: "https://alearningaday.blog/2022/01/22/find-your-cohort-the-generous-ones/"
+      Comment: ""
+      Date: 2022-01-24
+
+    - Title: "Action!, the worlds first dynamic interface builder - 1988"
+      Link: "https://vimeo.com/62618532"
+      Comment: ""
+      Date: 2022-01-24
+
+    - Title: "PowerPoint Remix"
+      Link: "http://www.aaronsw.com/weblog/000931"
+      Comment: "Aaron Swartz. Edward R. Tufte’s “The Cognitive Style of PowerPoint” Presented in the Form of a PowerPoint Presentation."
+      Date: 2022-01-24
+
+    - Title: "Take This Job And..."
+      Link: "https://bulmash.com/04-10-97.html"
+      Comment: "Greg Bulmash. Truthful resume."
+      Date: 2022-01-24
+
+    - Title: "The US government's web traffic"
+      Link: "https://analytics.usa.gov/"
+      Comment: "Official data on web traffic to hundreds of US federal government websites."
+      Date: 2022-01-24
+
+    - Title: "Atomic Habits of Desire"
+      Link: "https://read.lukeburgis.com/p/atomic-habits-of-desire"
+      Comment: "Luke Burgis."
+      Date: 2022-01-24
+
+    - Title: "Start a project with alignment"
+      Link: "https://buditanrim.co/2022/start-a-project-with-alignment/"
+      Comment: "Budi Tanrim."
+      Date: 2022-01-24
+
     - Title: "In place of a legal notice, here is a blessing"
       Link: "https://github.com/sqlite/sqlite/blob/master/src/main.c"
       Comment: "Sqlite."
