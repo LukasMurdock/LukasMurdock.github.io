@@ -21,6 +21,7 @@ date: 'July 18, 2021'
 - https://vanschneider.com/
 - https://oku.club/
 - https://opalcamera.com/
+- [http://www.theavocadocollective.com.au/](http://www.theavocadocollective.com.au/)
 
 ## Personal
 - https://adamsilver.io/
@@ -57,6 +58,8 @@ date: 'July 18, 2021'
 - https://noealz.com/work
 - https://www.swiftjectivec.com/
 - https://www.fabrizio.so/
+- [https://melanie-richards.com/](https://melanie-richards.com/)
+- [https://adactio.com/](https://adactio.com/)
 
 ## Misc
 - https://setups.co/

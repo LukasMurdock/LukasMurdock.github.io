@@ -321,6 +321,11 @@ fulldata:
         Comment: "A list of everything for budding UX, UI, Interaction, or whatever other title designers."
         Date: Apr 22, 2020
 
+      - Title: "Learn Responsive Design"
+        Link: "https://web.dev/learn/design/"
+        Comment: "A course exploring all aspects of responsive design. Learn how to make sites that look great and work well for everyone."
+        Date: 2022-03-01
+
       - Title: Best Practices in Branding
         Link: https://polyatlas.app/wiki/
         Comment: A step-by-step guide to the Branding process including practical tips, case studies, template files, and many other useful resources.
@@ -340,6 +345,11 @@ fulldata:
         Link: "https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/"
         Comment: ""
         Date: 2022-01-18
+
+      - Title: "Functional Programming and Monads"
+        Link: "https://github.com/getify/monio/blob/master/MONADS.md"
+        Comment: ""
+        Date: 2022-03-01
 
       - Title: Low-Level Academy
         Link: https://lowlvl.org/
@@ -836,6 +846,11 @@ fulldata:
         Comment: ""
         Date: 2021-06-28
 
+      - Title: "Hue.Tools"
+        Link: "https://hue.tools/"
+        Comment: "An open source toolbox for colors."
+        Date: 2022-03-01
+
       - Title: Color & Contrast Picker
         Link: https://kevingutowski.github.io/color.html
         Comment: "View closest accessible colors."
@@ -1111,6 +1126,16 @@ fulldata:
         Comment: "A novel set of visual symbols developed for people of all cultures and ages to enhance their tourism experience in Japan."
         Media: video
         Date: March 23, 2021
+
+      - Title: "macOS Icon Gallery"
+        Link: "https://www.macosicongallery.com/"
+        Comment: ""
+        Date: 2022-03-01
+
+      - Title: "iOS Icons Gallery"
+        Link: "https://www.iosicongallery.com/"
+        Comment: ""
+        Date: 2022-03-01
 
       - Title: Pixelmob
         Link: "https://pixelmob.co/"
@@ -3120,6 +3145,11 @@ fulldata:
         Link: "https://email-is-good.com/2022/01/10/thanks-in-advance/"
         Comment: ""
         Date: 2022-01-18
+
+      - Title: "Google Postmaster"
+        Link: "https://postmaster.google.com/managedomains?pli=1"
+        Comment: ""
+        Date: 2022-03-01
 
 
 

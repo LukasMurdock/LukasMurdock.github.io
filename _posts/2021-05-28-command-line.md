@@ -278,6 +278,8 @@ ffmpeg -ss "[SCREENSHOT_TIME]" -i $(youtube-dl -f 22 --get-url "[YOUTUBE_URL]") 
 
 [ImageMagick](https://imagemagick.org/index.php) is a package to create, edit, compose, or convert images.
 
+[Fred's ImageMagick Scripts](http://www.fmwconcepts.com/imagemagick/glow/index.php)
+
 {% highlight shell %}
 {% raw %}
 # Convert image (webp to jpg)
@@ -299,7 +301,7 @@ convert INPUT.jpg -sampling-factor 4:2:0 -strip -quality 85 -interlace JPEG -col
 {% highlight shell %}
 {% raw %}
 # Get Jekyll in docker or something
-docker run --rm --volume="$PWD:/srv/jekyll" -p 4000:4000 jekyll/jekyll jekyll serve    
+docker run --rm --volume="$PWD:/srv/jekyll" -p 4000:4000 jekyll/jekyll jekyll serve
 
 Docker-compose up
 {% endraw %}
@@ -316,7 +318,7 @@ Taskwarrior manages a TODO list from the command line.
 {% highlight shell %}
 {% raw %}
 # Add a project and assign it a project
-task add project:{PROJECT} {INSERT TASK} 
+task add project:{PROJECT} {INSERT TASK}
 
 # Add a due date where appropriate:
 task {ID} modify due:31st

@@ -54,6 +54,7 @@ date: 'September 23, 2021'
 - [On Bloom's two sigma problem: A systematic review of the effectiveness of mastery learning, tutoring, and direct instruction](https://nintil.com/bloom-sigma/)
 - [LW: Study Guide for technical problems we don’t understand](https://www.lesswrong.com/posts/bjjbp5i5G8bekJuxv/study-guide)
 - [How Learning Works: Components, Systems, and Loops](https://romandesign.co/how-learning-works-components-systems-and-loops/)
+- [True Learning Is Done With Agency](https://moretothat.com/true-learning-is-done-with-agency/)
 
 ### Books
 - [David A. Kolb: Experiential Learning: Experience as the Source of Learning and Development](https://www.amazon.com/Experiential-Learning-Experience-Source-Development-dp-0133892409/dp/0133892409/ref=dp_ob_title_bk) (1984)
