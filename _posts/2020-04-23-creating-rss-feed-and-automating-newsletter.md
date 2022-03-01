@@ -7,10 +7,23 @@ code: true
 last_modified_at: 2020-04-22T04:08:49+0000
 ---
 
+“RSS feeds,” or, “syndication,” or “feeds” are a type of XML-based website syndication. There are primarily two syndication formats: RSS and Atom. [Atom > RSS](https://danielmiessler.com/blog/atom-rss-why-we-should-just-call-them-feeds-instead-of-rss-feeds/).
+
+---
+
+- [The Atom Syndication Format](https://datatracker.ietf.org/doc/html/rfc4287): describes the XML elements used in an Atom `document` and `entry`, and the correct handling and display of the content of the elements.
+- [The Atom Publishing Protocol](https://datatracker.ietf.org/doc/html/rfc5023): describes how a collection works and how clients use HTTP GET, POST, PUT, and DELETE requests to edit the Atom entries in a collection
+- [w3c Feed Validation Service](https://validator.w3.org/feed/)
+- [w3c Atom Docs](https://validator.w3.org/feed/docs/atom.html)
+- [Movable Type docs](https://movabletype.org/documentation/developer/api/atom-feeds/)
+- [Atom: Wikipedia](https://en.wikipedia.org/wiki/Atom_(Web_standard))
+
+---
+
 I want to write more. Not just for future reference or awareness but simply to gain clarity through composition. And ideally to get into the rhythm of putting things out into the world. I believe the pressure of communication expectations from a recurring format will provide that push to write more. So how can we actually automate this?
 
 
-This site is built using [Jekyll](https://jekyllrb.com/). There is a [Jekyll Feed plugin](https://github.com/jekyll/jekyll-feed) that generates an RSS feed of Jekyll posts. 
+This site is built using [Jekyll](https://jekyllrb.com/). There is a [Jekyll Feed plugin](https://github.com/jekyll/jekyll-feed) that generates an RSS feed of Jekyll posts.
 This creates a `feed.xml` file that looks like the following:
 
 {% highlight HTML %}
@@ -79,7 +92,7 @@ And we can put all the content inside `<description>`.
 
 Now XML doesn’t support HTML, it needs to be converted. To solve this we can push the HTML code we need to the Jekyll `_includes` folder and call it with the liquid tag alongside convert to XML. Oh wait that doesn’t work… Well maybe we can utilize liquid variables… Oh wait, you can chain filters but not place Liquid tags within Liquid tags…
 
-After a lot of trial and error of trying to get this to work I realized that the HTML wasn’t changing and I could just input it [already XML escaped](https://www.freeformatter.com/xml-escape.html) to begin with… 
+After a lot of trial and error of trying to get this to work I realized that the HTML wasn’t changing and I could just input it [already XML escaped](https://www.freeformatter.com/xml-escape.html) to begin with…
 
 Okay but now we need to filter for only items added within the last week. Luckily I had solved this problems earlier when trying to *kinda* automate emails. You can view that [here](https://lukasmurdock.com/newsletter/).
 
@@ -129,7 +142,7 @@ For the Resources section I had to go through some trial and error to get the ne
     <description>
         &lt;a href=&apos;{{ "/resources" | prepend: site.baseurl | prepend: site.url }}&apos; target=&apos;_blank&apos; style=&apos;color:#3399ff&apos;&gt;&lt;u&gt;View in Browser&lt;/u&gt;&lt;/a&gt;
         {% for data in site.data.resources.fulldata %}
-            {% assign sorted = data.List | sort: 'date' | reverse %} 
+            {% assign sorted = data.List | sort: 'date' | reverse %}
             {% for item in sorted %}
                 {% assign resource_in_seconds = item.Date | date: "%s" | plus: 0 %}
                 {% if resource_in_seconds > recent_posts %}
