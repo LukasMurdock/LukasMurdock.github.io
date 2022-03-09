@@ -401,6 +401,7 @@ With this stack my entire website is currently free, aside from paying for the d
 - [18th Century Library](https://youtu.be/irdN1XAby6I)
 - [r/RetroLibraryMusic](https://www.reddit.com/r/RetroLibraryMusic/)
 - [Lofi.cafe](https://www.lofi.cafe/)
+- [Deep Smoothed Brown Noise + High Focus Isochronic Tones](https://youtu.be/QW0u2sajpQ0)
 
 #### YouTube Channels
 - [Proximity](https://www.youtube.com/channel/UC3ifTl5zKiCAhHIBQYcaTeg)
