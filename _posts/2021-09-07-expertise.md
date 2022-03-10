@@ -20,7 +20,7 @@ Business expertise means a deep understanding of:
 2. Forces influencing the market
 3. Forces driving business finance and economic climates
 
-One way of describing it is ‘supply/demand/capital’. Another is ‘leadership/strategy/finance’. 
+One way of describing it is ‘supply/demand/capital’. Another is ‘leadership/strategy/finance’.
 
 1. **Supply, or leadership**: factors involved in effective operations. Have good mental models of the org and its people, and the ability to push through plans given internal politics.
 2. **Demand, or strategy**: forces influencing the market. Includes everything from market shape, competitive analysis, positioning, changing consumer demand, and the ‘path to power’ (from 7 Powers)
@@ -34,7 +34,7 @@ Internalize the relationships.
 
 Every business is a system, and developing intuition for a system requires you to watch that system in action.
 
-To maintain cognitive agility, one must resist being impervious to new data, not hold rigid frameworks or paradigms tightly otherwise risking to filter out new information and create blind spots. Cognitively agile individuals learn from their inaccurate predictions or judgments and improve as they go along. In the face of dynamic feedback, mental models must be rapidly revised. 
+To maintain cognitive agility, one must resist being impervious to new data, not hold rigid frameworks or paradigms tightly otherwise risking to filter out new information and create blind spots. Cognitively agile individuals learn from their inaccurate predictions or judgments and improve as they go along. In the face of dynamic feedback, mental models must be rapidly revised.
 
 A committee can function as an expert only if they know where the different elements of their expertise reside.
 
@@ -98,3 +98,4 @@ It’s the living dynamic between the triad that matters.  E.g., demand goes dow
 
 ## Strategic Rehearsals
 
+Given an idea, look for a history of application. Look for an application of how this can be useful.
