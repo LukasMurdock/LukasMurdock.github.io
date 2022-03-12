@@ -93,7 +93,7 @@ A few solutions seem to be:
 Amazon S3 + Replicache + Cloudflare Workers seems to be an optimal solution but I have no idea.
 
 
-A dumb solution could be the [File System Access API](https://developer.mozilla.org/en-US/docs/Web/API/File_System_Access_API)  with: 
+A dumb solution could be the [File System Access API](https://developer.mozilla.org/en-US/docs/Web/API/File_System_Access_API)  ([browser-fs-access](https://github.com/GoogleChromeLabs/browser-fs-access)) and:
 - simply choose Dropbox or some other synced folder ([Syncthing](https://syncthing.net/), [Rclone](https://rclone.org/), [AWS S3 Sync](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/sync.html))
 - SQLite replication with [RQLite](https://github.com/rqlite/rqlite) or [LiteSync](http://litesync.io/en/), [SQLite in a PWA](https://anita-app.com/blog/articles/sqlite-in-a-pwa-with-file-system-access-api.html)
 
