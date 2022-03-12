@@ -16,7 +16,7 @@ Content is handled through a CMS like Sanity, Strapi, Forestry, Netlify CMS, Wor
 
 As of writing, the stack of this website is markdown files, Jekyll, and Cloudflare Pages.
 
-I particularly enjoy having content as files; it feels natural and having changes mapped with git is a nice touch. Jekyll is a tried-and-true static-site generator, but I don’t write or know much ruby. Deployment isn’t really an issue as it can be deployed anywhere as a static site.
+I particularly enjoy having content as files; it feels natural and makes editing open to any application I choose. Jekyll is a tried-and-true static-site generator, but I don’t write or know much ruby. Deployment isn’t really an issue as static sites can be deployed anywhere.
 
 [Content is best stored as ingredients from which you can bake the things that you need when you need it.](https://www.knutmelvaer.no/blog/2020/02/on-the-limits-of-mdx#:~:text=content%20is%20best%20stored%20as%20ingredients%20from%20which%20you%20can%20bake%20the%20things%20that%20you%20need%20when%20you%20need%20it.) I want to keep content entirely separate from how it’s displayed, and text files feels like the best way to do that. Metadata can be stored with Front matter. Hugo [Front matter formats](https://gohugo.io/content-management/front-matter/#front-matter-formats): TOML, YAML, JSON, ORG.
 
@@ -28,11 +28,8 @@ Wanting to be offline and local while also wanting to be online and networked.
 
 I’ve learned the terms for what I’m looking for are:
 - **local-first** or **[offline-first](https://offlinefirst.org/)**
-- **client-side databases**.
-
-Complexity comes from wanting a few things:
-- Easily add items from my iPhone (which means I need a database / access from network)
-- Drag and drop images while writing
+- **client-side databases**
+- **multi-master / master-master replication**
 
 A few solutions seem to be:
 - AWS Amplify DataStore (offline-first)
@@ -42,6 +39,13 @@ A few solutions seem to be:
 - [Replicache](https://replicache.dev/)
 
 Amazon S3 + Replicache + Cloudflare Workers seems to be an optimal solution but I have no idea.
+
+
+A dumb solution could be the [File System Access API](https://developer.mozilla.org/en-US/docs/Web/API/File_System_Access_API)  with: 
+- simply choose Dropbox or some other synced folder ([Syncthing](https://syncthing.net/), [Rclone](https://rclone.org/), [AWS S3 Sync](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/sync.html))
+- SQLite replication with [RQLite](https://github.com/rqlite/rqlite) or [LiteSync](http://litesync.io/en/)
+
+Another solutions might be SQLite replication
 
 Pipeline: Content → Build/script → Content → Deploy
 
