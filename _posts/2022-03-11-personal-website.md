@@ -7,6 +7,29 @@ date: 'March 11, 2022'
 
 A heavy work in progress.
 
+I enjoy the model of a personal OS. Currently, I think that includes collections of:
+- Now (with CalendarEvents countdown)
+- Writing/Essays
+- Bookshelf (library)
+- Bookmarks
+- Notes
+- Photos
+- Recipes
+- Timeline
+- Habits (X-effect method)
+
+
+These collections are somewhat derivative of social-media applications:
+- Now (Calendar/Countdown)
+- Writing (WordPress)
+- Bookshelf (Goodreads)
+- Bookmarks (Pocket)
+- Notes (Twitter)
+- Photos (Instagram)
+- Recipes (All Recipes?)
+- Timeline (iffy, but LinkedIn?)
+- Habits (Todoist)
+
 Personal websites today use three primary parts:
 1. Content
 2. Build
@@ -25,6 +48,35 @@ The tossing-and-turning comes from wanting to manage my content:
 2. From my iPhone
 
 Wanting to be offline and local while also wanting to be online and networked.
+
+Ideally, I can settle on text data formats that can be edited with no software and aided by software.
+
+I think splitting between individual markdown files and some structured data format (e.g., JSON, YAML, etc.) makes sense—potentially using a database like SQLite for the structured data. The draw to file-based is based on not needing anything to edit on a laptop and kinda-just-works.
+
+The collections, again:
+- Now (structured)
+- Writing (individual markdown files)
+- Bookshelf (individual markdown files / structured)
+- Bookmarks (structured)
+- Notes (individual markdown files)
+- Photos (individual image files)
+- Recipes (individual markdown files / structured)
+- Timeline (structured)
+- Habits (structured)
+
+Filtered for file-based:
+- Writing
+- Bookshelf?
+- Photos
+- Notes
+- Recipes
+
+Filtered for structured:
+- Now
+- Bookshelf?
+- Bookmarks
+- Timeline
+- Habits
 
 I’ve learned the terms for what I’m looking for are:
 - **local-first** or **[offline-first](https://offlinefirst.org/)**
@@ -53,19 +105,6 @@ Stack:
 - Content: Markdown, JSON files (stored in [Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/selecting-content-from-objects.html)? )
 - Build: Ideally anything as content is structured and separate. Hakyll would be interesting to learn Haskell, [Codedoc](https://codedoc.cc/)
 - Deploy: Anything
-
-Pages:
-- About
-
-Collections:
-- Now (with CalendarEvents countdown)
-- Writing/Essays
-- Bookshelf (library)
-- Bookmarks
-- Notes
-- Photos
-- Recipes
-- Timeline
 
 I’m looking to be able to do three things:
 1. Create collections with individual formats, e.g., bookshelf, notes, writing.
