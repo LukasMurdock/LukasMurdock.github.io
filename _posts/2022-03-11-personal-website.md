@@ -85,7 +85,7 @@ I’ve learned the terms for what I’m looking for are:
 
 A few solutions seem to be:
 - AWS Amplify DataStore (offline-first)
-- MongoDB Realm (offline-first)
+- [MongoDB Realm](https://stackoverflow.com/questions/62316114/do-i-understand-mongodb-realm-correctly) (offline-first)
 - Google Firebase Cloud Firestore (meant for temporary offline)
 - [RxDB](https://rxdb.info/) (which has an [alternatives](https://rxdb.info/alternatives.html) page)
 - [Replicache](https://replicache.dev/)
