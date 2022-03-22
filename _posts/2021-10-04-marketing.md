@@ -15,6 +15,12 @@ What’s your promise? What change do you seek to make? How are you helping the 
 
 How are you [optimizing the perception](https://lukasmurdock.com/perception-optimization/) of it all?
 
+Because the best story wins. Not the best idea. Not the right answer. Just whoever tells a story that catches people’s attention and gets them to nod their heads.
+
+> What you do in this world is a matter of no consequence. The question is what can you make people believe you have done.
+> — [Sherlock Holmes](https://www.goodreads.com/quotes/62701-what-you-do-in-this-world-is-a-matter-of)
+
+
 ## Where change happens
 Much of the difference between the [marketing types](https://lukasmurdock.com/marketing-differentiation/) come down to different amounts of [attention](https://lukasmurdock.com/attention/).
 
@@ -72,3 +78,22 @@ Reaching, helping someone move forward, or browsing social media will be relativ
 
 
 Also: [Seth’s Store](https://seths.store/)
+
+## Poets
+
+The chain of thought started with Bards.
+
+[Websters 1913](https://www.websters1913.com/words/Bard):
+> A professional poet and singer, as among the ancient Celts, whose occupation was to compose and sing verses in honor of the heroic achievements of princes and brave men.
+
+[Wikipedia](https://en.wikipedia.org/wiki/Bard):
+> a professional story teller, verse-maker, music composer, oral historian and genealogist, employed by a patron (such as a monarch or noble) to commemorate one or more of the patron's ancestors and to praise the patron's own activities.
+
+Bards were *poets*.
+
+[Websters 1913](https://www.websters1913.com/words/Poet): an imaginative thinker or writer.
+
+[Wikipedia](https://en.wikipedia.org/wiki/Poet):
+> The work of a poet is essentially one of communication, either expressing ideas in a literal sense, such as writing about a specific event or place, or metaphorically.
+
+Marketing is about narrative propagation. Creating durable narratives—and the most durable narratives are the ones that address our deepest needs and desires.
