@@ -97,3 +97,5 @@ Bards were *poets*.
 > The work of a poet is essentially one of communication, either expressing ideas in a literal sense, such as writing about a specific event or place, or metaphorically.
 
 Marketing is about narrative propagation. Creating durable narratives—and the most durable narratives are the ones that address our deepest needs and desires.
+
+Simplicity spreads better, complexity sells better. Complexity designates authority through signals of effort.
