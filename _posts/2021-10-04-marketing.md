@@ -20,6 +20,10 @@ Because the best story wins. Not the best idea. Not the right answer. Just whoev
 > What you do in this world is a matter of no consequence. The question is what can you make people believe you have done.
 > — [Sherlock Holmes](https://www.goodreads.com/quotes/62701-what-you-do-in-this-world-is-a-matter-of)
 
+Good branding means one or both of the following:
+- Affective Valence: customers with built-up positive associations with a brand (are willing to/want to) pay more for brand products compared to other brands.
+- Uncertainty Reduction: customers with trust in their expectations of a brand pay more compared to other brands.
+
 
 ## Where change happens
 Much of the difference between the [marketing types](https://lukasmurdock.com/marketing-differentiation/) come down to different amounts of [attention](https://lukasmurdock.com/attention/).
@@ -116,6 +120,17 @@ Simplicity spreads better, complexity sells better. Complexity designates author
 	- TikTok
 	- Spotify
 
+## [Powers](https://lukasmurdock.com/power/)
+Good businesses have high profit margins. High profit margins bring competitors willing to reduce prices. Competition drives down prices and margins. Power, here, is defined as a moat designed to maintain profit margins–a power against margin compression.
+
+- Scale economies (per unit cost declines as production volume increases)
+- Network economies (product value increases with increases in customers)
+- Counter-positioning (competitors anticipate mimicking your offering would damage their existing business and do not mimic)
+- Switching costs (moving brings financial, procedural, or relational costs)
+- Branding (affective valence and uncertainty reduction)
+- Cornered resource (idiosyncratic arbitrage—superior access to a coveted asset)
+- Process (culture enabled lower costs and/or superior product)
+
 ## Opportunities (controllable inputs)
 - Content opportunities
 - Collaboration opportunities
@@ -132,7 +147,7 @@ Simplicity spreads better, complexity sells better. Complexity designates author
 
 
 ### Content Influences
-- Cohort → different content opportunities due to in-group collaboration (e.g., team activities, groups have more content opportunities than individuals)
+- Cohort → different content opportunities due to network effects (e.g., team activities, groups have more content opportunities than individuals)
 
 ### Collaboration Influences
 - Classification → different collaboration opportunities due to type differences (e.g., EDM is easier to collaborate than rock)
