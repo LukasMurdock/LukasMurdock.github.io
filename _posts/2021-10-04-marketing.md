@@ -121,53 +121,54 @@ Good businesses have high profit margins. High profit margins bring competitors 
 
 ## Opportunities (controllable inputs)
 - Content opportunities
-- Collaboration opportunities
 - Monetization opportunities
+- Collaboration opportunities
 
-## Strategy Influences
+### Content Opportunities
 
-### Branding Influences
-- Reciprocity
-- Consistency
-- Social proof
-- Attraction
-- Authority
-- Scarcity
-- Unity (“us”)
+#### Communication Channels (Reach Platforms)
+Where do the people you seek to serve show up? Where can you reach the people you seek to serve?
 
-### Content Influences
-- Cohort → different content opportunities due to network effects (e.g., team activities, groups have more content opportunities than individuals)
-
-### Collaboration Influences
-- Classification → different collaboration opportunities due to [inferential differences](https://www.lesswrong.com/tag/inferential-distance) and production method differences.
-- Location → different collaboration opportunities due to location differences
-
-### Monetization Influences
-- Audience size → different monetization opportunities due to demand differences and economies of scale (e.g., branded merchandise makes less sense with little customers)
-
-## Communication Channels (Reach Platforms)
-- Face-to-face (word-of-mouth)
+- Face-to-face gatherings (word-of-mouth)
+	- Meet ups
+	- Events
+	- Trade shows, expos
+	- Conventions
+	- Conferences
 - Direct mail
+- Radio
 - Advertisements (platform-specific)
 - Sponsorships
 - Phone/video calls
 - Emails
 - SMS
+- Books / eBooks
 - Blogs
+- Internet Forums
+- Podcasts
 - Direct messages (platform-specific)
-- Twitter
-- YouTube
-- Instagram
-- TikTok
-- Spotify
+- [Social Networks](https://en.wikipedia.org/wiki/List_of_social_networking_services)
+	- Linkedin
+	- Facebook
+	- YouTube
+	- Reddit
+	- Twitter
+	- Spotify
+	- Slack
+	- Instagram
+	- Pinterest
+	- Snapchat
+	- Twitch
+	- Discord
+	- TikTok
 
-## Media Types
+#### Media Types
 - Text
 - Image
 - Video
 - Audio
 
-## Content Types
+#### Content Types
 - Brand updates / announcement
 - Guides / how-to’s / Instructions
 - Case studies
@@ -197,3 +198,24 @@ Good businesses have high profit margins. High profit margins bring competitors 
 - Confession
 - Poetry
 - Manifesto
+
+## Strategy Influences
+
+### Branding Influences
+- Reciprocity
+- Consistency
+- Social proof
+- Attraction
+- Authority
+- Scarcity
+- Unity (“us”)
+
+### Content Influences
+- Cohort → different content opportunities due to network effects (e.g., team activities, groups have more content opportunities than individuals)
+
+### Monetization Influences
+- Audience size → different monetization opportunities due to demand differences and economies of scale (e.g., branded merchandise makes less sense with little customers)
+
+### Collaboration Influences
+- Classification → different collaboration opportunities due to [inferential differences](https://www.lesswrong.com/tag/inferential-distance) and production method differences.
+- Location → different collaboration opportunities due to location differences
