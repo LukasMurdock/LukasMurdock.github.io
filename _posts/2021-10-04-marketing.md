@@ -106,19 +106,7 @@ Simplicity spreads better, complexity sells better. Complexity designates author
 
 ---
 
-## Communication Channels (Reach Platforms)
-- One-to-one
-	- Platform-specific direct messages
-	- SMS
-- One-to-many
-	- Ads
-	- Blog
-	- Email
-	- Twitter
-	- YouTube
-	- Instagram
-	- TikTok
-	- Spotify
+# Marketing Strategy
 
 ## [Powers](https://lukasmurdock.com/power/)
 Good businesses have high profit margins. High profit margins bring competitors willing to reduce prices. Competition drives down prices and margins. Power, here, is defined as a moat designed to maintain profit margins–a power against margin compression.
@@ -138,24 +126,40 @@ Good businesses have high profit margins. High profit margins bring competitors 
 
 ## Strategy Influences
 
-### Generic Influences
+### Branding Influences
+- Reciprocity
 - Consistency
 - Social proof
 - Attraction
 - Authority
 - Scarcity
-
+- Unity (“us”)
 
 ### Content Influences
 - Cohort → different content opportunities due to network effects (e.g., team activities, groups have more content opportunities than individuals)
 
 ### Collaboration Influences
-- Classification → different collaboration opportunities due to type differences (e.g., EDM is easier to collaborate than rock)
+- Classification → different collaboration opportunities due to [inferential differences](https://www.lesswrong.com/tag/inferential-distance) and production method differences.
 - Location → different collaboration opportunities due to location differences
 
 ### Monetization Influences
-- Audience size → different monetization opportunities due to demand differences and economies of scale (e.g., merch makes less sense with few listeners)
+- Audience size → different monetization opportunities due to demand differences and economies of scale (e.g., branded merchandise makes less sense with little customers)
 
+## Communication Channels (Reach Platforms)
+- Face-to-face (word-of-mouth)
+- Direct mail
+- Advertisements (platform-specific)
+- Sponsorships
+- Phone/video calls
+- Emails
+- SMS
+- Blogs
+- Direct messages (platform-specific)
+- Twitter
+- YouTube
+- Instagram
+- TikTok
+- Spotify
 
 ## Media Types
 - Text
