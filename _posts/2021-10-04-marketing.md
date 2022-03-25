@@ -11,6 +11,8 @@ Marketing and sales are two sides of the same coin–helping people move forward
 
 Marketers understand the feelings of those they seek to serve and look to serve them better. Aside from the actual need-to-buy category, what we buy isn’t products. We buy emotional change.
 
+Marketing is about gaining trust, showing the people you seek to serve the benefit and advantage in outcomes they can expect from doing business with you. It’s being able to speak to people in ways no-one else has.
+
 What’s your promise? What change do you seek to make? How are you helping the people you seek to serve move forward through that change?
 
 How are you [optimizing the perception](https://lukasmurdock.com/perception-optimization/) of it all?
@@ -168,7 +170,7 @@ Where do the people you seek to serve show up? Where can you reach the people yo
 - Video
 - Audio
 
-#### Content Types
+#### Generic Content Types
 - Brand updates / announcement
 - Guides / how-to’s / Instructions
 - Case studies
@@ -198,6 +200,24 @@ Where do the people you seek to serve show up? Where can you reach the people yo
 - Confession
 - Poetry
 - Manifesto
+
+### Monetization opportunities
+
+#### Monetization Models
+- One-off payment
+- Subscription payment
+
+#### Generic Monetization Types
+- [Sell your by-products](https://signalvnoise.com/posts/1620-sell-your-by-products)
+- Improve your selling techniques to up-sell and cross-sell
+- Use point-of-sale promotions
+- Bundle and package complementary products together
+- Increase pricing, and therefore margins
+- Change profile of your products to be more “up market”
+- Offer greater/larger units of purchase
+- Provide advertising/sponsorship opportunities for other brands
+- Reactivate inactive customers
+
 
 ## Strategy Influences
 
