@@ -126,7 +126,7 @@ Good businesses have high profit margins. High profit margins bring competitors 
 - Scale economies (per unit cost declines as production volume increases)
 - Network economies (product value increases with increases in customers)
 - Counter-positioning (competitors anticipate mimicking your offering would damage their existing business and do not mimic)
-- Switching costs (moving brings financial, procedural, or relational costs)
+- Switching costs (customers switching brings financial, procedural, or relational costs)
 - Branding (affective valence and uncertainty reduction)
 - Cornered resource (idiosyncratic arbitrage—superior access to a coveted asset)
 - Process (culture enabled lower costs and/or superior product)
