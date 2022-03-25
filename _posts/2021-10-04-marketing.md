@@ -99,3 +99,82 @@ Bards were *poets*.
 Marketing is about narrative propagation. Creating durable narratives—and the most durable narratives are the ones that address our deepest needs and desires.
 
 Simplicity spreads better, complexity sells better. Complexity designates authority through signals of effort.
+
+---
+
+## Communication Channels (Reach Platforms)
+- One-to-one
+	- Platform-specific direct messages
+	- SMS
+- One-to-many
+	- Ads
+	- Blog
+	- Email
+	- Twitter
+	- YouTube
+	- Instagram
+	- TikTok
+	- Spotify
+
+## Opportunities (controllable inputs)
+- Content opportunities
+- Collaboration opportunities
+- Monetization opportunities
+
+## Strategy Influences
+
+### Generic Influences
+- Consistency
+- Social proof
+- Attraction
+- Authority
+- Scarcity
+
+
+### Content Influences
+- Cohort → different content opportunities due to in-group collaboration (e.g., team activities, groups have more content opportunities than individuals)
+
+### Collaboration Influences
+- Classification → different collaboration opportunities due to type differences (e.g., EDM is easier to collaborate than rock)
+- Location → different collaboration opportunities due to location differences
+
+### Monetization Influences
+- Audience size → different monetization opportunities due to demand differences and economies of scale (e.g., merch makes less sense with few listeners)
+
+
+## Media Types
+- Text
+- Image
+- Video
+- Audio
+
+## Content Types
+- Brand updates / announcement
+- Guides / how-to’s / Instructions
+- Case studies
+- Lists
+- Content curation
+- Resources
+- Reviews (tool reviews)
+- Editorial / opinion / prediction
+- Templates
+- Research
+- Photos (memes, infographics, charts, illustrations)
+- Quotes
+- Giveaways
+- FAQs
+- [YesAQs](https://basecamp.com/yes)
+- Q&A
+- Dictionary
+- Interviews
+- Essays
+- Arguments
+- Sales pitches
+- Invitation
+- Note
+- Comment
+- Letter
+- Novel
+- Confession
+- Poetry
+- Manifesto
