@@ -87,7 +87,7 @@ Also: [Seth’s Store](https://seths.store/)
 
 ## Poets
 
-The chain of thought started with Bards.
+My chain of thought started with Bards.
 
 [Websters 1913](https://www.websters1913.com/words/Bard):
 > A professional poet and singer, as among the ancient Celts, whose occupation was to compose and sing verses in honor of the heroic achievements of princes and brave men.
@@ -217,7 +217,6 @@ Where do the people you seek to serve show up? Where can you reach the people yo
 - Offer greater/larger units of purchase
 - Provide advertising/sponsorship opportunities for other brands
 - Reactivate inactive customers
-
 
 ## Strategy Influences
 
