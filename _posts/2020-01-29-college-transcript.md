@@ -166,3 +166,37 @@ ISA 225 — 3 Credit Hours
 **Introduction to Operations and Supply Chain Management**  
 MGT 302 — 3 Credit Hours  
 <span class="full-underline" style="font-size: 12px;">See</span> [ my notes](https://lukasmurdock.com/mgt302/){:target="_blank"}{:rel="noopener"} 
+
+### Semester 01
+**Web Application Programming**  
+CSE 252 — 3 Credit Hours  
+Web development resources:  
+- [Web development skills](https://andreasbm.github.io/web-skills/)
+- [Developer roadmaps](https://roadmap.sh/)
+- [Front-end Developer Roadmap](https://frontendmasters.com/guides/learning-roadmap/)
+- [Front-end Developer Handbook](https://frontendmasters.com/guides/front-end-handbook/2019/)
+- [Bejamas discovery](https://bejamas.io/discovery/)
+- [Web.dev](https://web.dev/)
+- [Free for dev](https://free-for.dev/#/)
+- [Storybook tutorials](https://storybook.js.org/tutorials/)
+
+**Digital Branding**  
+MKT 419 — 3 Credit Hours  
+This class is literally nothing.
+
+**Analytical Research and Reasoning for Marketers**  
+MKT 335 — 3 Credit Hours  
+I…
+
+**Special Topics Entrepreneurshp**  
+ESP 490 — 3 Credit Hours  
+Miami University Redhawk Launch Accelerator.
+
+**Principles Of Macroeconomics**  
+ECO 202 — 3 Credit Hours  
+I scored a 4 on AP Micro and a 2 on AP Macro. I’m two-for-two on Economics teachers being the realist teachers.
+
+**Object-Oriented Programming**  
+CSE 271 — 3 Credit Hours  
+<span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ OOP](https://news.ycombinator.com/item?id=12495117){:target="_blank"}{:rel="noopener"}  
+
