@@ -171,7 +171,11 @@ Where do the people you seek to serve show up? Where can you reach the people yo
 - Audio
 
 #### Generic Content Types
-- Brand updates / announcement
+
+“Content” is a weasel-word. Get specific on what you’re creating.
+
+- Brand updates
+- Announcements
 - Guides / how-to’s / Instructions
 - Case studies
 - Lists
