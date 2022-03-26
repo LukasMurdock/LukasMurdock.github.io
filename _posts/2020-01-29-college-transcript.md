@@ -167,7 +167,7 @@ ISA 225 — 3 Credit Hours
 MGT 302 — 3 Credit Hours  
 <span class="full-underline" style="font-size: 12px;">See</span> [ my notes](https://lukasmurdock.com/mgt302/){:target="_blank"}{:rel="noopener"} 
 
-### Semester 01
+### Semester 02
 **Web Application Programming**  
 CSE 252 — 3 Credit Hours  
 Web development resources:  
