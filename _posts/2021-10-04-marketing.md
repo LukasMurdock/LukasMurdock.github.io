@@ -19,6 +19,8 @@ How are you [optimizing the perception](https://lukasmurdock.com/perception-opti
 
 Because the best story wins. Not the best idea. Not the right answer. Just whoever tells a story that catches people’s attention and gets them to nod their heads.
 
+[Storytelling is the art of strategically withholding information](https://www.julian.com/blog/storytelling) to create [beats](https://nofilmschool.com/story-beats-definition) of tension.
+
 > What you do in this world is a matter of no consequence. The question is what can you make people believe you have done.
 > — [Sherlock Holmes](https://www.goodreads.com/quotes/62701-what-you-do-in-this-world-is-a-matter-of)
 
