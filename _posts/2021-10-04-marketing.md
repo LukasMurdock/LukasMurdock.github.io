@@ -139,6 +139,12 @@ Marketing is about [narrative propagation](https://lukasmurdock.com/idea-virus).
 
 Simplicity spreads better, complexity sells better. Complexity designates authority through signals of effort.
 
+[Grice’s Maxims](https://lukasmurdock.com/principles/#:~:text=becomes%20the%20ground-,Grice%E2%80%99s%20Maxims,-Maxim%20of%20Quantity):
+1. Maxim of Quantity: Give as much information as required, and no more
+2. Maxim of Quality: Tell the truth
+3. Maxim of Relation: Be relevant
+4. Maxim of Manner: Be clear in what you’re saying
+
 ---
 
 # Marketing Strategy
