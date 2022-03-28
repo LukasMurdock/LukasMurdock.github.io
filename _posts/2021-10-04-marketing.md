@@ -11,6 +11,14 @@ Marketing and sales are two sides of the same coin–helping people move forward
 
 Marketers understand the feelings of those they seek to serve and look to serve them better. Aside from the actual need-to-buy category, what we buy isn’t products. We buy emotional change.
 
+> People don’t want to buy a quarter-inch drill bit. They want a quarter inch hole.
+>
+> — Harvard marketing professor, Theodore Levitt
+
+> People don’t want to buy a quarter-inch drill bit. They want to feel safe and be respected.
+>
+> — Seth Godin
+
 Marketing is about gaining trust, showing the people you seek to serve the benefit and advantage in outcomes they can expect from doing business with you. It’s being able to speak to people in ways no-one else has.
 
 What’s your promise? What change do you seek to make? How are you helping the people you seek to serve move forward through that change?
