@@ -218,6 +218,7 @@ Where do the people you seek to serve show up? Where can you reach the people yo
 - Editorial / opinion / prediction
 - Templates
 - Research
+- "State of X" report
 - Photos (memes, infographics, charts, illustrations)
 - Quotes
 - Giveaways
@@ -275,3 +276,63 @@ Where do the people you seek to serve show up? Where can you reach the people yo
 ### Collaboration Influences
 - Classification → different collaboration opportunities due to [inferential differences](https://www.lesswrong.com/tag/inferential-distance) and production method differences.
 - Location → different collaboration opportunities due to location differences
+
+## Community
+
+Community platforms:
+* Bandcamp
+* WordPress
+* Discord
+* Patreon
+* Substack
+* Reddit
+* Discourse
+* Mighty Networks
+
+Relationships:
+* One to one
+    * Direct email (letter)
+    * Direct message
+    * Direct call
+* One to many (Post)
+* Many to many (Chat)
+
+Sendable media types:
+* Text
+* Image
+* Audio (file/record)
+* Video (file/record)
+
+One to one relationship examples:
+* Email
+* AOL Instant Messenger (AIM)
+
+One to man relationship examples:
+* WordPress
+* Facebook
+* YouTube
+* Instagram
+
+Many to many relationship examples
+* Bulletin board systems (BBS)
+* Usenet
+* IRC
+* PowWow
+* Reddit
+* Discord
+
+
+Actions:
+* Direct Message
+* Post
+* Channel
+    * Text chat
+    * Voice chat
+
+Objects:
+* Commerce (product)
+    * Digital product
+        * File
+        * Code
+        * Webhook
+    * Physical
