@@ -19,7 +19,38 @@ How are you [optimizing the perception](https://lukasmurdock.com/perception-opti
 
 Because the best story wins. Not the best idea. Not the right answer. Just whoever tells a story that catches people’s attention and gets them to nod their heads.
 
-[Storytelling is the art of strategically withholding information](https://www.julian.com/blog/storytelling) to create [beats](https://nofilmschool.com/story-beats-definition) of tension.
+[Storytelling is the art of strategically withholding information](https://www.julian.com/blog/storytelling) to create [beats](https://nofilmschool.com/story-beats-definition) of tension:
+
+- Varying speed
+- Varying volume
+- Varying enthusiasm and energy
+- Staccato and rhythm
+- Silence
+
+(emphasis mine)
+
+> Girard discovered that most of what we desire is mimetic (mi-met-ik) or imitative, not intrinsic. **Humans learn—through imitation—to want the same things other people want**, just as they learn how to speak the same language and play by the same cultural rules. Imitation plays a far more pervasive role in our society than anyone had ever openly acknowledged.
+>
+> […]
+>
+> In the universe of desire, there is no clear hierarchy. People don’t choose objects of desire the way they choose to wear a coat in the winter. Instead of internal biological signals, we have a different kind of external signal that motivates these choices: _models_. **Models are people or things that show us what is worth wanting.** It is models—not our “objective” analysis or central nervous system—that shape our desires. **With these models, people engage in a secret and sophisticated form of imitation that Girard termed mimesis** (mi-mee-sis), from the Greek word mimesthai (meaning “to imitate”). **Models are the gravitational centers around which our social lives turn.**
+>
+> […]
+>
+> Mimetic desire, because it is social, spreads from person to person and through a culture. It results in two different movements—two cycles—of desire. The first cycle leads to tension, conflict, and volatility, breaking down relationships and causing instability and confusion as competing desires interact in volatile ways. This is the default cycle that has been most prevalent in human history. It is accelerating today.
+>
+> […]
+>
+> There are always models of desire.
+>
+> […]
+>
+> We are tantalized by models who suggest a desire for things that we don’t currently have, especially things that appear just out of reach. The greater the obstacle, the greater the attraction.
+>
+> Isn’t that curious? We don’t want things that are too easily possessed or that are readily within reach. Desire leads us beyond where we currently are. Models are like people standing a hundred yards up the road who can see something around the corner that we can’t yet see. So the way that a model describes something or suggests something to us makes all the difference. We never see the things we want directly; we see them indirectly, like refracted light. We are attracted to things when they are modeled to us in an attractive way, by the right model. Our universe of desire is as big or as small as our models.
+>
+> — Luke Burgis, [Wanting](https://lukeburgis.com/wanting/)
+
 
 > What you do in this world is a matter of no consequence. The question is what can you make people believe you have done.
 > — [Sherlock Holmes](https://www.goodreads.com/quotes/62701-what-you-do-in-this-world-is-a-matter-of)
