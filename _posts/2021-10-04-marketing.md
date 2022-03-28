@@ -286,8 +286,8 @@ Community platforms:
 * Patreon
 * Substack
 * Reddit
-* Discourse
 * Mighty Networks
+* Discourse
 
 Relationships:
 * One to one
