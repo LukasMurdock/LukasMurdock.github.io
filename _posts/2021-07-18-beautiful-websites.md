@@ -21,7 +21,8 @@ date: 'July 18, 2021'
 - https://vanschneider.com/
 - https://oku.club/
 - https://opalcamera.com/
-- [http://www.theavocadocollective.com.au/](http://www.theavocadocollective.com.au/)
+- [The Avocado Collective](http://www.theavocadocollective.com.au/)
+- [Nomad Goods](https://nomadgoods.com/)
 
 ## Personal
 - https://adamsilver.io/

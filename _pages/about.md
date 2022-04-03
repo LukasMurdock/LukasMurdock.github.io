@@ -403,6 +403,9 @@ With this stack my entire website is currently free, aside from paying for the d
 - [Lofi.cafe](https://www.lofi.cafe/)
 - Brown noise [Focus](https://youtu.be/QW0u2sajpQ0) / [Sleep](https://www.youtube.com/watch?v=RfocDdUn9tI)
 
+#### Soundcloud
+- [Remixes of popular songs](https://soundcloud.com/kiwi129/sets/best-remixes-of-popular-songs)
+
 #### YouTube Channels
 - [Proximity](https://www.youtube.com/channel/UC3ifTl5zKiCAhHIBQYcaTeg)
 - [JompaMusic](https://www.youtube.com/channel/UC1WKD9pJt5Sa4DCVaoJSAGw)
