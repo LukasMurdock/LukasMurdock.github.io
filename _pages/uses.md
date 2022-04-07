@@ -3,7 +3,6 @@ layout: page
 title: Uses
 description: The tools Lukas Murdock uses
 last_modified_at: 2021-06-01T14:33:01-0400
-
 ---
 
 ## Hardware
@@ -23,8 +22,9 @@ last_modified_at: 2021-06-01T14:33:01-0400
 ### Other Hardware
 * Custom PC built in 2016
     - Dead, needs repairs
-* BenQ RL2455HM Monitor
-    * (alt) Lenovo ThinkVision T2254pC – mounted vertically
+* <del>BenQ 24" RL2455HM Monitor</del>
+* Samsung 34" SJ55W Ultra WQHD Monitor
+    * (alt) Lenovo ThinkVision 22" T2254pC – mounted vertically
 * Philips Hue Go Light
 
 
@@ -52,7 +52,10 @@ Transmission | https://transmissionbt.com/::
 Affinity Suite | https://affinity.serif.com/en-gb/::
 Adobe Suite | https://www.adobe.com/creativecloud.html::
 DaVinci Resolve | https://www.blackmagicdesign.com/products/davinciresolve/::
+1Password | https://1password.com/::
 Keyboard Maestro | https://www.keyboardmaestro.com/main/::
+Rocket | https://matthewpalmer.net/rocket/::
+Swish | https://highlyopinionated.co/swish/::
 Ethical.net | https://ethical.net/resources/::
 {% endcapture %}
 
@@ -187,7 +190,7 @@ Clear | https://apps.apple.com/us/app/clear-todos/id493136154::
     padding: 14px;
     border-radius: 8px;
 }
- 
+
     #tooltip:after /* triangle decoration */ {
         width: 0;
         height: 0;
@@ -200,19 +203,19 @@ Clear | https://apps.apple.com/us/app/clear-todos/id493136154::
         bottom: -10px;
         margin-left: -10px;
     }
- 
+
         #tooltip.top:after {
             border-top-color: transparent;
             border-bottom: 10px solid #121212;
             top: -20px;
             bottom: auto;
         }
- 
+
         #tooltip.left:after {
             left: 10px;
             margin: 0;
         }
- 
+
         #tooltip.right:after {
             right: 10px;
             left: auto;
