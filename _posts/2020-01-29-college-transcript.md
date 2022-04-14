@@ -188,15 +188,25 @@ This class is literally nothing.
 MKT 335 — 3 Credit Hours  
 I…
 
-**Special Topics Entrepreneurshp**  
+**Special Topics Entrepreneurship**  
 ESP 490 — 3 Credit Hours  
 Miami University Redhawk Launch Accelerator.
 
 **Principles Of Macroeconomics**  
 ECO 202 — 3 Credit Hours  
-I scored a 4 on AP Micro and a 2 on AP Macro. I’m two-for-two on Economics teachers being the realist teachers.
+I scored a 4 on AP Micro and a 2 on AP Macro. I’m two-for-two on Economics teachers being the realist teachers.  
+<span class="full-underline" style="font-size: 12px;">Learn</span> [ Macroeconomics](https://www.khanacademy.org/economics-finance-domain/ap-macroeconomics){:target="_blank"}{:rel="noopener"} 
 
 **Object-Oriented Programming**  
 CSE 271 — 3 Credit Hours  
 <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ OOP](https://news.ycombinator.com/item?id=12495117){:target="_blank"}{:rel="noopener"}  
 
+
+## Year 04
+### Semester 01
+
+**Developing Customer Insights**  
+MKT 325 — 3 Credit Hours  
+
+**Social Psychology**  
+PSY 221 — 3 Credit Hours  

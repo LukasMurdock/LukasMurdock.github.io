@@ -61,3 +61,9 @@ Who authors documents? Why doesn’t the experience change based on what I’m c
 - Research paper
 
 Should enable different default editor settings and come with their own sets of constraints.
+
+---
+
+What if we didn’t care about files—instead we care about *fragments* of those files.
+
+What if we didn’t care about databases—instead we care about being able to replicate anywhere, seamlessly sync changes, and see where those changes are synced.
