@@ -61,6 +61,7 @@ date: 'July 18, 2021'
 - https://www.fabrizio.so/
 - [https://melanie-richards.com/](https://melanie-richards.com/)
 - [https://adactio.com/](https://adactio.com/)
+- [https://www.ben-evans.com/](https://www.ben-evans.com/)
 
 ## Misc
 - https://setups.co/
