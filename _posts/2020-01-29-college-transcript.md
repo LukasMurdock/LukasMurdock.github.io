@@ -36,7 +36,7 @@ BUS 106 — 1 Credit Hour
 
 **Creativity and Innovation**   
 ESP 103 — 2 Credit Hours  
-<span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ Principles and product development](https://www.amazon.com/Principles-Product-Management-Launch-Career-ebook/dp/B083D667N2){:target="_blank"}{:rel="noopener"}  
+<span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ the practice of shipping creative work](https://seths.blog/thepractice/){:target="_blank"}{:rel="noopener"}  
 
 
 
