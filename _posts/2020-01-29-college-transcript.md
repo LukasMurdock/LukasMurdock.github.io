@@ -10,7 +10,7 @@ last_modified_at: 2021-01-06T07:34:41+0000
 <span style="font-size: 12px;">Last Updated: {{ page.date | date: '%B %d, %Y' }}</span>
 
 ## Year 01
-### Semester 01
+### Semester 01 (Fall Semester 2019-20)
 
 **Foundations of Business**  
 BUS 101 — 2 Credit Hours  
@@ -49,7 +49,7 @@ PHY 101 — 3 Credit Hours
 <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ Physics](https://www.khanacademy.org/science/physics){:target="_blank"}{:rel="noopener"}
 
 
-### Semester 02
+### Semester 02 (Spring Semester 2019-20)
 
 **Intro To Financial Accounting**  
 ACC 221 — 3 Credit Hours  
@@ -78,7 +78,7 @@ PHY 103 — 1 Credit Hour
 <span style="text-decoration: line-through;">TBD</span> 🧀
 
 ## Year 02
-### Semester 01
+### Semester 01 (Fall Semester 2020-21)
 
 **Intro To Managerial Accounting**  
 ACC 222 — 3 Credit Hours  
@@ -110,7 +110,7 @@ ART 286 — 3 Credit Hours
 
 <!-- https://www.youtube.com/playlist?list=PLSQglXfoC9xfRZEeb_2QlRt3BwPPhpHJ- -->
 
-### Semester 2
+### Semester 2 (Spring Semester 2020-21)
 
 **Legal Environment of Business**  
 BLS 342 — 3 Credit Hours  
@@ -139,7 +139,7 @@ MGT 291 — 3 Credit Hours
 <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ The Making of a Manager](https://www.juliezhuo.com/book/manager.html){:target="_blank"}{:rel="noopener"}  
 
 ## Year 03
-### Semester 01
+### Semester 01 (Fall Semester 2021-22)
 
 **Strategic Thinking and Decision-Making in Marketing**  
 MKT 395 — 3 Credit Hours  
@@ -167,7 +167,7 @@ ISA 225 — 3 Credit Hours
 MGT 302 — 3 Credit Hours  
 <span class="full-underline" style="font-size: 12px;">See</span> [ my notes](https://lukasmurdock.com/mgt302/){:target="_blank"}{:rel="noopener"} 
 
-### Semester 02
+### Semester 02 (Spring Semester 2021-22)
 **Web Application Programming**  
 CSE 252 — 3 Credit Hours  
 Web development resources:  
@@ -203,10 +203,13 @@ CSE 271 — 3 Credit Hours
 
 
 ## Year 04
-### Semester 01
+### Semester 01 (Fall Semester 2022-23)
 
 **Developing Customer Insights**  
 MKT 325 — 3 Credit Hours  
+
+**Building and Managing Strong Brands**  
+MKT 345 — 3 Credit Hours  
 
 **Social Psychology**  
 PSY 221 — 3 Credit Hours  

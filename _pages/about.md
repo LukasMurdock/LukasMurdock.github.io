@@ -396,7 +396,7 @@ With this stack my entire website is currently free, aside from paying for the d
 - [ChilledCow — lofi hip hop radio - beats to relax/study to](https://youtu.be/5qap5aO4i9A)
 - [Monterey Bay Aquarium Krill Waves Radio](https://youtube.com/playlist?list=PLq_DVMr7CmlKkJ-WnaIUxw98O9tbenMRj)
 - [Hiroshi Yoshimura - Green (Full Album Stream)](https://youtu.be/Jx7CyMZVhHY) & [The upload that brought it back](https://youtu.be/D7aYjRl_6Zw)
-- [Smooth Jazz on Coffee Shop Ambience](https://youtu.be/YIIdRFhKf5k)
+- [Coffee Shop Vibes](https://www.youtube.com/channel/UCJIOFQLGwB3GH9K9waxwynQ)
 - [221B Baker Street](https://youtu.be/MJeNG1R7FzM)
 - [18th Century Library](https://youtu.be/irdN1XAby6I)
 - [r/RetroLibraryMusic](https://www.reddit.com/r/RetroLibraryMusic/)
