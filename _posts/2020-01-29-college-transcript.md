@@ -186,11 +186,13 @@ This class is literally nothing.
 
 **Analytical Research and Reasoning for Marketers**  
 MKT 335 — 3 Credit Hours  
-I…
+[Learn Qualtrics](https://basecamp.qualtrics.com/)
 
 **Special Topics Entrepreneurship**  
 ESP 490 — 3 Credit Hours  
-Miami University Redhawk Launch Accelerator.
+Miami University Redhawk Launch Accelerator.  
+[Learn How to Pitch Your Startup](https://fi.co/pitch-deck)  
+[Learn Pitch Training](https://www.basetemplates.com/investor-pitch-training)
 
 **Principles Of Macroeconomics**  
 ECO 202 — 3 Credit Hours  
