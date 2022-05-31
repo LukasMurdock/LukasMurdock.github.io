@@ -9,14 +9,61 @@ code: true
 
 Here’s my introduction to web development. I’ll continue working on this over time and hopefully it becomes as smooth as ice.
 
+
+
+Elements of a web application stack:
+* Code repository host
+* Version Control System (VCS)
+* Runtime
+* Package manager
+* Web framework
+* CSS framework
+* Bundler
+* ORM
+* Database
+* Linter
+* Formater
+* Test framework
+* API Mock
+* Host
+* Secrets manager
+
+Example stack:
+* Code repository host: Github
+* VCS: Git
+* Runtime: Node.js
+* Package manager: NPM
+* Web framework: Remix
+* CSS framework: Tailwind CSS
+* Bundler: esbuild
+* ORM: Prisma
+* Database: SQLite
+* Linter: ESLint
+* Formatter: Prettier
+* Test framework: Jest
+* API mock framework: MSW
+* Host: Vercel
+* Secrets manager: Doppler
+
+Example stack:
+* Code repository host: Github
+* VCS: Git
+* Runtime: Python 3
+* ORM: Flask-SQLAlchemy
+* Database: Postgres
+* Linter: Pylint
+* Formatter: Black
+* Host: Fly.io
+* Secrets manager: Doppler
+
 For an overview, let’s divide web development into 7 parts.
 
-Part 1: HTML and CSS  
-Part 2: CSS frameworks  
-Part 3: JS and DOM  
-Part 4: Git and GitHub  
-Part 5: React / Angular / Vue  
-Part 6: Node.js (Backend)  
+Part 1: HTML and CSS
+Part 2: CSS frameworks
+Part 3: JS and DOM
+Part 4: Git and GitHub
+Part 5: React / Angular / Vue
+Part 6: Node.js (Backend)
 Part 7: API and Database
 
 ## Languages of the Web
@@ -25,13 +72,13 @@ Web pages are really just that. *Pages*. They're documents, just like papers you
 
 We're going to create a file.
 
-**If you’re on a Mac:**  
+**If you’re on a Mac:**
 Open up TextEdit → Save → Name it `index.html` → Click `Use .html`
 
-**If you’re on Windows 10:**  
+**If you’re on Windows 10:**
 Open up Notepad → Save as → `index.html` → Select UTF-8 in Encoding drop-down menu.
 
-**HyperText Markup Langage (HTML)** was invented as a way to provide instruction for browsers, in the form of *markup*, on how to display elements. 
+**HyperText Markup Langage (HTML)** was invented as a way to provide instruction for browsers, in the form of *markup*, on how to display elements.
 
 {% highlight HTML %}
 {% raw %}
@@ -167,7 +214,7 @@ I’ll run you through setting up a development environment and project. And the
 
 Web frameworks aim to automate the overhead associated with common activities performed in web development. For example, many web frameworks provide libraries for database access, templating frameworks, and session management, and they often promote code reuse.
 
-Next.js is a framework for building static and dynamic websites and web applications. 
+Next.js is a framework for building static and dynamic websites and web applications.
 
 Next.js provides a pre-rendered React app in the client-side for users to view and interact with and also does server-side rendering and API routes for performing server-side functions like accessing data from a database.
 
@@ -392,7 +439,7 @@ function User() {
     setUserData("I am the user data")
     console.log("user component rendered")
   }, [])
-	
+
   if (typeof userData == 'undefined') {
     return <p>Loading…</p>;
   }
@@ -421,7 +468,7 @@ function User() {
         setUserData(response.results);
       });
   }, [])
-	
+
   if (typeof userData == 'undefined') {
     return <p>Loading…</p>;
   }
