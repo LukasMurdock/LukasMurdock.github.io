@@ -13,6 +13,8 @@ See also:
 - [General Advice](/advice/)
 - [Wealth](/wealth/)
 
+> [All relationship compatibility dimensions boil down to the ability to communicate with each other. Including looks.](https://ava.substack.com/p/communication-on-all-levels)
+
 [Who do we spend time with across our lifetime](https://ourworldindata.org/time-with-others-lifetime)?
 
 <iframe src="https://ourworldindata.org/grapher/time-spent-with-relationships-by-age-us?tab=chart&stackMode=absolute&region=World" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
@@ -88,6 +90,8 @@ The 5 Love Languages by Gary Chapman:
 - **Quality Time:** Make dedicated time to be with your partner. This doesn't mean being together in the same room. It means having one-on-one time to focus on how to help each other grow and continue to love each other.
 - **Receiving Gifts:** For some, receiving gifts signals that you remain top of mind for your partner and that they can't shake the desire to make you feel good. Gifts can be tangible or intangible, expensive or free.
 
+[Love has no gain or loss](https://moretothat.com/love-has-no-gain-or-loss/)
+
 ## Family
 
 Family is charted on a steep decline until the late 20s before making the slightest rebound around 40. So, see you then.
@@ -144,7 +148,7 @@ School, while not so good at what it claims to be, is good at the first two; the
 
 For the most part, all you can control are the first two. One piece of advice: show up. Opportunities don’t visit caves.
 
-And I’m speaking from experience. I viscerally felt that drop at 18; I’m not one to show up at parties. I’m lucky to have grown up in a neighborhood with a group of guys that became my band of brothers. But, at the time of writing, they’re not an active part of my life, and I’m not an active part of theirs. All of my friendships are dormant. That’s largely how I’ve always been; I’ve only ever actively confided in my partner. But, we got a lot of years to go, we’ll see how this goes—as of writing I’m only 20. 
+And I’m speaking from experience. I viscerally felt that drop at 18; I’m not one to show up at parties. I’m lucky to have grown up in a neighborhood with a group of guys that became my band of brothers. But, at the time of writing, they’re not an active part of my life, and I’m not an active part of theirs. All of my friendships are dormant. That’s largely how I’ve always been; I’ve only ever actively confided in my partner. But, we got a lot of years to go, we’ll see how this goes—as of writing I’m only 20.
 
 [Friendcatchers](https://www.swyx.io/friendcatchers/).
 
@@ -171,10 +175,12 @@ Psyche’s [How to make friends as an adult](https://psyche.co/guides/how-to-mak
 - You need to make a deliberate effort to meet new people. It’s on you to create proximity and repeated interactions.
 - Initiate. Most social scenes suffer from lack of initiative, not excess.
 - Assume that people like you—[people systematically underestimate how much people like them and enjoy their company](https://journals.sagepub.com/doi/10.1177/0956797618783714)!
-- Keep showing up. Repeated interactions! 
+- Keep showing up. Repeated interactions!
 - Get vulnerable. Confide in each other.
 
 Ask people to meet for food or coffee. No, seriously, [just ask when you want something](https://www.lesswrong.com/posts/rEBXN3x6kXgD4pLxs/tell-culture).
+
+[Friendships form via shared context, not shared activities](https://news.ycombinator.com/item?id=31562478)
 
 A few ideas for my future self:
 
@@ -199,3 +205,6 @@ In terms of the diversity of interactions, this chart suggests that the number o
 ## Coworkers
 
 Yeah, I have no idea. I’ll see you then.
+
+Misc:
+- [Models of human relationships – tools to understand people](http://bearlamp.com.au/models-of-human-relationships-tools-to-understand-people/)

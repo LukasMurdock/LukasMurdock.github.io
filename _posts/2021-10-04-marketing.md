@@ -19,9 +19,21 @@ Marketers understand the feelings of those they seek to serve and look to serve 
 >
 > — Seth Godin
 
+> Marketing is the work of helping people get what they’ve wanted all along. Marketing is about establishing the conditions for a small group of people to eagerly spread the word and build connection. Modern marketing changes the culture by establishing what the new norms are, and does it in a way that makes things better for those it serves.
+>
+> — [Seth Godin](https://seths.blog/2022/04/modern-marketing-and-hustle/)
+
 Marketing is about gaining trust, showing the people you seek to serve the benefit and advantage in outcomes they can expect from doing business with you. It’s being able to speak to people in ways no-one else has.
 
 What’s your promise? What change do you seek to make? How are you helping the people you seek to serve move forward through that change?
+
+You have to figure out what things like "powerful" mean to the people you seek to serve, and what would equip them to become that by designing a product around a stack ranked set of values.
+
+> [Your main job is persuading the people you work with to ship great stuff. No junk. No shortcuts. If you’re not the defender of the brand, who is?](https://seths.blog/2022/04/defender-of-the-brand/)
+
+> I tell you what our goal is. Our goal is to make the best personal computers in the world and to make products we are proud to sell and would recommend to our family and friends and we want to do that at the lowest price as we can. But I have to tell you, there’s some stuff in our industry that we wouldn’t be proud to ship, that we wouldn’t be proud to recommend to our family and friends, and we can’t do it. We just can’t ship junk. There are thresholds that we can’t cross because of who we are, but we want to make the best personal computers in the industry.
+>
+> — [Steve Jobs](https://lukasmurdock.com/steve-jobs/#:~:text=I%20tell%20you,in%20the%20industry.)
 
 How are you [optimizing the perception](https://lukasmurdock.com/perception-optimization/) of it all?
 

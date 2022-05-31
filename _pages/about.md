@@ -401,6 +401,7 @@ With this stack my entire website is currently free, aside from paying for the d
 - [18th Century Library](https://youtu.be/irdN1XAby6I)
 - [r/RetroLibraryMusic](https://www.reddit.com/r/RetroLibraryMusic/)
 - [Lofi.cafe](https://www.lofi.cafe/)
+- [PurrpleCatmusic](https://www.youtube.com/c/PurrpleCatmusic)
 - Brown noise [Focus](https://youtu.be/QW0u2sajpQ0) / [Sleep](https://www.youtube.com/watch?v=RfocDdUn9tI)
 
 #### Soundcloud

@@ -20,6 +20,8 @@ Attention is a gift.
 
 We give value to things by giving them our attention. *What’s focal is causal*. What happens when we’re not in control of our attention?
 
+Where should you direct your precious attention? Regrets: Foundation (do the work), Boldness (take the chance), Moral (do the right thing), Connection (reach out). Focus on doing the work, taking the chance, doing the right thing, and reaching out. That’s it. [Ignore everything else.](https://www.danpink.com/wp-content/uploads/2022/05/Pink-commencement-FINAL.pdf)
+
 ## Interruption is assault
 There is violence in interruption. Interruption cuts into the guts of our attention–just as if we were slapped or shoved, we are forced to defend ourselves from the current onslaught and from anticipated onslaughts in the future.
 
@@ -55,3 +57,4 @@ I don’t have the attention for anything else.
 - [The Attention Economy](https://www.youtube.com/watch?v=xxyRf3hfRXg)
 - [Attention Monsters](https://craigmod.com/essays/media_accounting/)
 - [Interruption as Assault](https://www.takingti.me/articles/interruptionasassault)
+- [Ignoring Your Way to Success](https://www.danpink.com/wp-content/uploads/2022/05/Pink-commencement-FINAL.pdf)

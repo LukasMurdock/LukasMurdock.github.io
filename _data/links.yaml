@@ -8,6 +8,829 @@
 
 linkslist:
 
+  - Date: May 2022
+    Links:
+
+    - Title: "Traditional Web Design Process is Fundamentally Broken"
+      Link: "https://cloudfour.com/thinks/traditional-web-design-process-is-fundamentally-broken/"
+      Comment: ""
+      Date: 2022-05-31
+
+    - Title: "Tackling Typescript"
+      Link: "https://exploringjs.com/tackling-ts/"
+      Comment: ""
+      Date: 2022-05-31
+
+    - Title: "Windows 95 Startup Sound (Slowed 4000%)"
+      Link: "https://youtu.be/BnoX3E2WFcc"
+      Comment: "Brian Eno."
+      Date: 2022-05-31
+
+    - Title: "How change happens"
+      Link: "https://seths.blog/2022/05/how-change-happens/"
+      Comment: "Seth Godin."
+      Date: 2022-05-31
+
+    - Title: "Learning to walk through walls"
+      Link: "https://drmaciver.substack.com/p/learning-to-walk-through-walls?s=r"
+      Comment: ""
+      Date: 2022-05-31
+
+    - Title: "The Most Important Performance Management Rule For Software Engineers"
+      Link: "https://staysaasy.com/startups/2022/04/03/performance-management.html"
+      Comment: "Merge code every week."
+      Date: 2022-05-31
+
+    - Title: "The Elephant in the room: The myth of exponential hypergrowth"
+      Link: "https://longform.asmartbear.com/docs/exponential-growth/"
+      Comment: ""
+      Date: 2022-05-31
+
+    - Title: "When Everything is Important But Nothing is Getting Done"
+      Link: "https://sharedphysics.com/everything-is-important/"
+      Comment: "Management."
+      Date: 2022-05-31
+
+    - Title: "Donald Knuth on work habits, problem solving, and happiness"
+      Link: "https://news.ycombinator.com/item?id=31482116"
+      Comment: ""
+      Date: 2022-05-31
+
+    - Title: "Safer, Yet More Afraid Than Ever"
+      Link: "https://www.collaborativefund.com/blog/safer-yet-more-afraid-than-ever/"
+      Comment: "Ted Lamade"
+      Date: 2022-05-31
+
+    - Title: "The Rise After the Fall"
+      Link: "https://www.collaborativefund.com/blog/the-rise-after-the-fall/"
+      Comment: "Ted Lamade"
+      Date: 2022-05-31
+
+    - Title: "Trying Too Hard"
+      Link: "https://www.collaborativefund.com/blog/trying-too-hard/"
+      Comment: "Morgan Housel."
+      Date: 2022-05-31
+
+    - Title: "Three ways to get paid"
+      Link: "https://jasonzweig.com/three-ways-to-get-paid/"
+      Comment: ""
+      Date: 2022-05-31
+
+    - Title: "The Making of the MCU was a Sh*t Show (Pt 1: Forging Iron Man)"
+      Link: "https://youtu.be/wSfAQ2b0Fk4"
+      Comment: ""
+      Media: video
+      Date: 2022-05-31
+
+    - Title: "Ignoring Your Way to Success"
+      Link: "https://www.danpink.com/wp-content/uploads/2022/05/Pink-commencement-FINAL.pdf"
+      Comment: "Where should you direct your precious attention? Regrets: Foundation (do the work), Boldness (take the chance), Moral (do the right thing), Connection (reach out). That’s it. Ignore everything else."
+      Date: 2022-05-31
+
+    - Title: "Influence marketing, no r"
+      Link: "https://twitter.com/randfish/status/1403425690980999172?s=20&t=Y1z4tA7JCdIw63FX5PJ02w"
+      Comment: "Rand Fishkin"
+      Date: 2022-05-31
+
+    - Title: "Models are for the obedience of fools and the guidance of the wise"
+      Link: "https://jchyip.medium.com/spotify-models-are-for-the-obedience-of-fools-and-the-guidance-of-the-wise-173305d149ed"
+      Comment: ""
+      Date: 2022-05-31
+
+    - Title: "Renewal emails and good copy"
+      Link: "https://alearningaday.blog/2022/05/10/renewal-emails-and-good-copy/"
+      Comment: "Marketing."
+      Date: 2022-05-31
+
+    - Title: "Lord give me the confidence of this dude using my DMs to record his grocery shopping list"
+      Link: "https://twitter.com/ParikPatelCFA/status/1523337079211630594?s=20&t=Bo5e5WV4GiV8RtqF4EWUcg"
+      Comment: ""
+      Date: 2022-05-31
+
+    - Title: "Executive Dashboards"
+      Link: "https://tomcritchlow.com/2022/05/06/executive-dashboards/"
+      Comment: "Tom Critchlow"
+      Date: 2022-05-31
+
+    - Title: "Short URLs: why and how"
+      Link: "https://sive.rs/su"
+      Comment: "Derek Sivers."
+      Date: 2022-05-31
+
+    - Title: "RSS Feed Best Practises"
+      Link: "https://kevincox.ca/2022/05/06/rss-feed-best-practices/"
+      Comment: ""
+      Date: 2022-05-31
+
+    - Title: "Getting Along Is Overrated"
+      Link: "https://www.artofmanliness.com/people/relationships/podcast-799-getting-along-is-overrated/"
+      Comment: "AOM."
+      Date: 2022-05-31
+
+    - Title: "Chesterton’s Fence vs. The Five Monkeys"
+      Link: "https://critter.blog/2022/05/06/chestertons-fence-vs-the-five-monkeys/"
+      Comment: ""
+      Date: 2022-05-31
+
+    - Title: "Going for baroque"
+      Link: "https://seths.blog/2022/05/going-for-baroque/"
+      Comment: "Seth Godin."
+      Date: 2022-05-31
+
+    - Title: "Pace Layers of SEO"
+      Link: "https://seomba.substack.com/p/pace-layers-of-seo"
+      Comment: "Tom Critchlow"
+      Date: 2022-05-01
+
+    - Title: "The Only Unbreakable Law"
+      Link: "https://youtu.be/5IUj1EZwpJY"
+      Comment: ""
+      Media: video
+      Date: 2022-05-01
+
+    - Title: "Marketing’s Uncomfortable Relationship with the Truth"
+      Link: "https://kellblog.com/2022/04/25/marketings-uncomfortable-relationship-with-the-truth/"
+      Comment: "Kellblog."
+      Date: 2022-04-01
+
+  - Date: April 2022
+    Links:
+
+    - Title: "Marketing’s Uncomfortable Relationship with the Truth"
+      Link: "https://kellblog.com/2022/04/25/marketings-uncomfortable-relationship-with-the-truth/"
+      Comment: "Kellblog."
+      Date: 2022-04-01
+
+    - Title: "The Endgames of Bad Faith Communication"
+      Link: "https://consilienceproject.org/endgames-of-bad-communication/"
+      Comment: ""
+      Date: 2022-04-01
+
+    - Title: "103 Bits of Advice I Wish I Had Known"
+      Link: "https://kk.org/thetechnium/103-bits-of-advice-i-wish-i-had-known/"
+      Comment: "Kevin Kelly."
+      Date: 2022-04-01
+
+    - Title: "Feynman’s Ode to the Wonder of Life"
+      Link: "https://kottke.org/22/04/feynmans-ode-to-the-wonder-of-life"
+      Comment: ""
+      Date: 2022-04-01
+
+    - Title: "The Details: production databases"
+      Link: "https://technically.substack.com/p/the-details-production-databases?s=r"
+      Comment: ""
+      Date: 2022-04-01
+
+    - Title: "We Need Someone Who Has Done It Before"
+      Link: "https://cutlefish.substack.com/p/tbm-1852-we-need-someone-who-has?s=r"
+      Comment: "John Cutler. Management. 1—Use old playbooks (copy and paste) 2—Combine playbooks (mix and match) 3—Adapt and customize playbooks (adapt and customize) 4—Create new playbooks (invent)"
+      Date: 2022-04-01
+
+    - Title: "20 Classic Poems"
+      Link: "https://www.artofmanliness.com/living/reading/20-best-poems/"
+      Comment: "AOM."
+      Date: 2022-04-01
+
+    - Title: "Building a JavaScript Bundler"
+      Link: "https://cpojer.net/posts/building-a-javascript-bundler"
+      Comment: ""
+      Date: 2022-04-01
+
+    - Title: "The Ministry of Rites and the Compassionate Man"
+      Link: "https://www.epsilontheory.com/the-ministry-of-rites-and-the-compassionate-man/"
+      Comment: "Epsilon Theory"
+      Date: 2022-04-01
+
+    - Title: "List of common misconceptions"
+      Link: "https://en.wikipedia.org/wiki/List_of_common_misconceptions"
+      Comment: "Wikipedia."
+      Date: 2022-04-01
+
+    - Title: "Home lab beginners guide"
+      Link: "https://news.ycombinator.com/item?id=31094301"
+      Comment: ""
+      Date: 2022-04-01
+
+    - Title: "Consilience"
+      Link: "https://en.wikipedia.org/wiki/Consilience"
+      Comment: "Wikipedia. The principle that evidence from independent, unrelated sources can converge on strong conclusions."
+      Date: 2022-04-01
+
+    - Title: "Materialism In Society And How We Can Overcome It"
+      Link: "https://durmonski.com/well-being/materialism-in-society/"
+      Comment: "Ivaylo Durmonski."
+      Date: 2022-04-01
+
+    - Title: "Lies Told To Children"
+      Link: "https://www.lesswrong.com/posts/uyBeAN5jPEATMqKkX/lies-told-to-children-1"
+      Comment: "LessWrong."
+      Date: 2022-04-01
+
+    - Title: "Cocktail party ideas"
+      Link: "https://danluu.com/cocktail-ideas/"
+      Comment: "Dan Luu. About people explaining how a field works or should work."
+      Date: 2022-04-01
+
+    - Title: ""
+      Link: "https://jacobian.org/2022/apr/12/professionalism-introduction/"
+      Comment: ""
+      Date: 2022-04-01
+
+    - Title: "Heatmap"
+      Link: "https://xkcd.com/1138/"
+      Comment: "XKCD"
+      Date: 2022-04-01
+
+    - Title: "Rethinking categories of media"
+      Link: "https://seths.blog/2022/04/rethinking-categories-of-media/"
+      Comment: "Seth Godin."
+      Date: 2022-04-01
+
+    - Title: "communication on all levels"
+      Link: "https://ava.substack.com/p/communication-on-all-levels"
+      Comment: "Bookbear Express."
+      Date: 2022-04-01
+
+    - Title: "Can Do vs. Should Do"
+      Link: "https://cutlefish.substack.com/p/tbm-1652-can-do-vs-should-do"
+      Comment: "John Cutler. Management."
+      Date: 2022-04-01
+
+    - Title: "The Insanely Difficult Standards of History’s Hardest P.E. Program"
+      Link: "https://www.artofmanliness.com/health-fitness/program-review/the-insanely-difficult-standards-of-historys-hardest-p-e-program/"
+      Comment: "AOM."
+      Date: 2022-04-01
+
+    - Title: "Ability to See Expertise is a Milestone Worth Aiming For"
+      Link: "https://commoncog.com/blog/seeing-expertise-milestone-worth-aiming-for/"
+      Comment: "You get to the higher wage group by changing the network you’re sourcing clients from."
+      Date: 2022-04-01
+
+    - Title: "My attempted cult recruitment"
+      Link: "https://dynomight.net/cult/"
+      Comment: ""
+      Date: 2022-04-01
+
+    - Title: "Modern marketing and hustle"
+      Link: "https://seths.blog/2022/04/modern-marketing-and-hustle/"
+      Comment: "Marketing."
+      Date: 2022-04-01
+
+    - Title: "What key was pressed? HTTP 203"
+      Link: "https://www.youtube.com/watch?v=jLqTXkFtEH0"
+      Comment: "Google Chrome Developers."
+      Media: video
+      Date: 2022-04-01
+
+    - Title: "The Art of Product Management"
+      Link: "https://newsletter.bringthedonuts.com/p/the-art-of-product-management?s=r"
+      Comment: "Management. Why and How to Develop the Essential Human Skills"
+      Date: 2022-04-01
+
+    - Title: "Learn About Concept Maps"
+      Link: "https://cmap.ihmc.us/docs/learn.php"
+      Comment: "CMAP Software."
+      Date: 2022-04-01
+
+    - Title: "Provable Marketing Attribution is a Boondoggle; Trust Your Gut Instead"
+      Link: "https://sparktoro.com/blog/provable-marketing-attribution-is-a-boondoggle-trust-your-gut-instead/"
+      Comment: "Rand Fishkin"
+      Date: 2022-04-01
+
+    - Title: "This is why you shouldn't interrupt a programmer"
+      Link: "https://heeris.id.au/2013/this-is-why-you-shouldnt-interrupt-a-programmer/"
+      Comment: ""
+      Date: 2022-04-01
+
+    - Title: "The surprising thing about expectations"
+      Link: "https://seths.blog/2022/04/the-surprising-thing-about-expectations/"
+      Comment: "Seth Godin"
+      Date: 2022-04-01
+
+  - Date: March 2022
+    Links:
+
+    - Title: "How To Criticize Coworkers"
+      Link: "https://alexturek.com/2022-03-18-How-to-criticize-coworkers/"
+      Comment: "Alex Turek. Management."
+      Date: 2022-03-01
+
+    - Title: "Counter-theses on Sleep"
+      Link: "https://www.lesswrong.com/posts/sbcmACvB6DqYXYidL/counter-theses-on-sleep"
+      Comment: "LessWrong"
+      Date: 2022-03-01
+
+    - Title: "Safer, Yet More Afraid Than Ever"
+      Link: "https://www.collaborativefund.com/blog/safer-yet-more-afraid-than-ever/"
+      Comment: ""
+      Date: 2022-03-01
+
+    - Title: "A few things to know before stealing my 914"
+      Link: "https://www.hagerty.com/media/advice/a-few-things-to-know-before-you-steal-my-914/"
+      Comment: ""
+      Date: 2022-03-01
+
+    - Title: "How to do less"
+      Link: "https://alexturek.com/2022-03-07-How-to-do-less/"
+      Comment: "You probably need to do fewer things right now."
+      Date: 2022-03-01
+
+    - Title: "Take This Job And..."
+      Link: "https://bulmash.com/04-10-97.html"
+      Comment: "A resume"
+      Date: 2022-03-01
+
+    - Title: "GitHub Actions by Example"
+      Link: "https://www.actionsbyexample.com/"
+      Comment: ""
+      Date: 2022-03-01
+
+    - Title: "Models of human relationships – tools to understand people"
+      Link: "http://bearlamp.com.au/models-of-human-relationships-tools-to-understand-people/"
+      Comment: ""
+      Date: 2022-03-01
+
+    - Title: "Apple design, squircles, and curvature"
+      Link: "https://www.johndcook.com/blog/2018/02/13/squircle-curvature/"
+      Comment: ""
+      Date: 2022-03-01
+
+    - Title: "You are not your name: Hacker News Discussion"
+      Link: "https://news.ycombinator.com/item?id=30584458"
+      Comment: ""
+      Date: 2022-03-01
+
+    - Title: "What the world needs is people who have come alive."
+      Link: "https://critter.blog/2022/03/31/what-the-world-needs-is-people-who-have-come-alive/"
+      Comment: "Mike Crittenden"
+      Date: 2022-03-01
+
+    - Title: "The Pyramid of Leisure"
+      Link: "https://www.artofmanliness.com/living/leisure/the-pyramid-of-leisure/"
+      Comment: "AOM."
+      Date: 2022-03-01
+
+    - Title: "Managing Expectations by finding Good Comparisons"
+      Link: "https://seomba.substack.com/p/managing-expectations-by-finding"
+      Comment: "Tom Critchlow"
+      Date: 2022-03-01
+
+    - Title: "Mastodon 3.5 Hacker News Discussion"
+      Link: "https://news.ycombinator.com/item?id=30862612"
+      Comment: ""
+      Date: 2022-03-01
+
+    - Title: "Noise cancellation for development"
+      Link: "https://christianheilmann.com/2022/03/14/noise-cancellation-for-development/"
+      Comment: ""
+      Date: 2022-03-01
+
+    - Title: "Jon Bellion - Beautiful Mind Documentary"
+      Link: "https://youtu.be/Lr3AvyhXQ3g"
+      Comment: ""
+      Media: video
+      Date: 2022-03-01
+
+    - Title: "Towards a Unified Theory of Web Performance"
+      Link: "https://infrequently.org/2022/03/a-unified-theory-of-web-performance/"
+      Comment: "Alex Russell."
+      Date: 2022-03-01
+
+    - Title: "Hard to work with"
+      Link: "https://lethain.com/hard-to-work-with/"
+      Comment: "lethain"
+      Date: 2022-03-01
+
+    - Title: "If You Make Money Every Day, You’re Not Maximizing"
+      Link: "https://moontowermeta.com/if-you-make-money-every-day-youre-not-maximizing/"
+      Comment: ""
+      Date: 2022-03-01
+
+    - Title: "You can’t delight users you’ve annoyed"
+      Link: "https://dev.to/tigt/speed-needs-design-or-you-cant-delight-users-youve-annoyed-bl6"
+      Comment: ""
+      Date: 2022-03-01
+
+    - Title: "The Location Field Is the New Command Line"
+      Link: "https://daringfireball.net/2004/06/location_field"
+      Comment: "John Gruber"
+      Date: 2022-03-01
+
+    - Title: "Choose Your Status Game Wisely"
+      Link: "https://ofdollarsanddata.com/choose-your-status-game-wisely/"
+      Comment: "Nick Maggiulli"
+      Date: 2022-03-01
+
+    - Title: "Just One More"
+      Link: "https://ofdollarsanddata.com/just-one-more/"
+      Comment: "Nick Maggiulli"
+      Date: 2022-03-01
+
+    - Title: "The Story of Next.js"
+      Link: "https://youtu.be/BILxV_vrZO0"
+      Comment: "uidotdev"
+      Media: video
+      Date: 2022-03-01
+
+    - Title: "The Birth & Death of JavaScript"
+      Link: "https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript"
+      Comment: "A talk by Gary Bernhardt from PyCon 2014"
+      Media: video
+      Date: 2022-03-01
+
+    - Title: "Stop asking for general solutions to specific problems"
+      Link: "https://critter.blog/2022/03/28/stop-asking-for-general-solutions-to-specific-problems/"
+      Comment: "Mike Crittenden"
+      Date: 2022-03-01
+
+    - Title: "Eight Laws of Statistics"
+      Link: "https://measuringu.com/abelsons-laws/"
+      Comment: "Chance is lumpy, overconfidence abhors uncertainty, never flout a convention just once, don’t talk Greek if you don’t know the English translation, if you have nothing to say, don’t say anything, there is no free hunch, you can’t see the dust if you don’t move the couch, criticism is the mother of methodology."
+      Date: 2022-03-01
+
+    - Title: "We have a hole in the floor"
+      Link: "https://alearningaday.blog/2022/03/27/we-have-a-hole-in-the-floor/"
+      Comment: "The most useful thing we can do is to be constructive, roll up our sleeves, and take action."
+      Date: 2022-03-01
+
+    - Title: "Storytelling"
+      Link: "https://www.brainspodcast.com/episode/storytelling"
+      Comment: "Brains Podcast: Tim Urban."
+      Date: 2022-03-01
+
+    - Title: "Stay on the bus"
+      Link: "https://alearningaday.blog/2022/03/26/stay-on-the-bus/"
+      Comment: "It’s the separation that makes all the difference."
+      Date: 2022-03-01
+
+    - Title: "How the Ancient Greeks Invented Programming"
+      Link: "https://www.infoq.com/presentations/Philosophy-Programming/"
+      Comment: ""
+      Media: video
+      Date: 2022-03-01
+
+    - Title: "Weasel word"
+      Link: "https://en.wikipedia.org/wiki/Weasel_word"
+      Comment: "Wikipedia."
+      Date: 2022-03-01
+
+    - Title: "Words to Avoid (or Use with Care) Because They Are Loaded or Confusing"
+      Link: "https://www.gnu.org/philosophy/words-to-avoid.en.html"
+      Comment: "GNU Philosophy"
+      Date: 2022-03-01
+
+    - Title: "I hate almost all software"
+      Link: "https://tinyclouds.org/rant.html"
+      Comment: ""
+      Date: 2022-03-01
+
+    - Title: "Where do symbols live"
+      Link: "https://seths.blog/2022/03/where-do-symbols-live/"
+      Comment: "If you want to turn your object into a more powerful symbol, it might pay to get rid of the object."
+      Date: 2022-03-01
+
+    - Title: "Aldous Huxley Narrates a One-Hour Radio Dramatization of Brave New World"
+      Link: "https://kottke.org/22/03/aldous-huxley-narrates-a-one-hour-radio-dramatization-of-brave-new-world"
+      Comment: ""
+      Date: 2022-03-01
+
+    - Title: "Ancestors, Luck, and Descendants"
+      Link: "https://sive.rs/ald"
+      Comment: "Derek Sivers. The choices of your ancestors led to the circumstances of your life. And the choices you make will affect the lives of your descendants for many generations to come."
+      Date: 2022-03-01
+
+    - Title: "Ikigai"
+      Link: "https://sive.rs/book/Ikigai"
+      Comment: "Derek Sivers"
+      Date: 2022-03-01
+
+    - Title: "Ways to Expand Your SaaS Business"
+      Link: "https://staysaasy.com/product/2022/03/23/expanding-saas-business.html"
+      Comment: "Go up market, go down market, expand product lines, expand industries, add services, expand geographies."
+      Date: 2022-03-01
+
+    - Title: "But life had other plans ..."
+      Link: "https://danlebrero.com/2022/03/23/but-life-had-other-plans/"
+      Comment: ""
+      Date: 2022-03-01
+
+    - Title: "Tsundoku"
+      Link: "https://en.wikipedia.org/wiki/Tsundoku"
+      Comment: "Acquiring reading materials but letting them pile up in one's home without reading them"
+      Date: 2022-03-01
+
+    - Title: "SystemSix"
+      Link: "https://www.engineersneedart.com/systemsix/systemsix.html"
+      Comment: "A desk calendar that displays the weather forecast and phase of the moon on an e-ink display."
+      Date: 2022-03-01
+
+    - Title: "Guiding Principles Behind the Readymag User Interface"
+      Link: "https://readymag.com/readymag/design-principles/an-interface-is-communication/"
+      Comment: ""
+      Date: 2022-03-01
+
+    - Title: "Highlights from Patricia Lockwood’s No One Is Talking About This"
+      Link: "https://kottke.org/22/03/highlights-no-one-is-talking-about-this"
+      Comment: ""
+      Date: 2022-03-01
+
+    - Title: "Our Fundamental Right To Shame And Shun The New York Times"
+      Link: "https://popehat.substack.com/p/our-fundamental-right-to-shame-and?s=r"
+      Comment: ""
+      Date: 2022-03-01
+
+    - Title: "Carl Sagan: reinvent the universe"
+      Link: "https://www.youtube.com/watch?v=7s664NsLeFM"
+      Comment: "If you wish to make an apple pie from scratch, you must first invent the universe."
+      Media: video
+      Date: 2022-03-01
+
+    - Title: "Rhyme-as-Reason Effect"
+      Link: "https://effectiviology.com/rhyme-as-reason/"
+      Comment: "Why Rhyming Makes Messages More Persuasive"
+      Date: 2022-03-01
+
+    - Title: "The Federation Fallacy"
+      Link: "https://rosenzweig.io/blog/the-federation-fallacy.html"
+      Comment: "We need information democracy."
+      Date: 2022-03-01
+
+    - Title: "How People Think"
+      Link: "http://www.collaborativefund.com/blog/think/"
+      Comment: "Morgan Housel"
+      Date: 2022-03-01
+
+    - Title: "Social Justice and words, words, words"
+      Link: "https://slatestarcodex.com/2014/07/07/social-justice-and-words-words-words/"
+      Comment: "SSC."
+      Date: 2022-03-01
+
+    - Title: "Loving someone with depression"
+      Link: "https://www.mentalhealth.org.uk/stories/andrew-loving-someone-depression"
+      Comment: ""
+      Date: 2022-03-01
+
+    - Title: "Plaintext Productivity"
+      Link: "https://plaintext-productivity.net/"
+      Comment: ""
+      Date: 2022-03-01
+
+    - Title: "Against credentialism"
+      Link: "https://marginalrevolution.com/marginalrevolution/2022/03/against-credentialism.html?utm_source=rss&utm_medium=rss&utm_campaign=against-credentialism"
+      Comment: "Tyler Cowen"
+      Date: 2022-03-01
+
+    - Title: "A Taxonomy of Video Game Difficulty"
+      Link: "https://kottke.org/22/03/a-taxonomy-of-video-game-difficulty"
+      Comment: ""
+      Date: 2022-03-01
+
+    - Title: "People can read their manager's mind"
+      Link: "https://yosefk.com/blog/people-can-read-their-managers-mind.html"
+      Comment: ""
+      Date: 2022-03-01
+
+    - Title: "If You Don't Like It"
+      Link: "https://www.econlib.org/archives/2012/06/if_you_dont_lik.html"
+      Comment: "Bryan Caplan"
+      Date: 2022-03-01
+
+    - Title: "Thesis on Sleep"
+      Link: "https://www.lesswrong.com/posts/HvcZmKS43SLCbJvRb/theses-on-sleep"
+      Comment: ""
+      Date: 2022-03-01
+
+    - Title: "How Google, Twitter, and Spotify built a culture of documentation"
+      Link: "https://blog.doctave.com/2021/09/07/how-google-twitter-and-spotify-build-culture-of-documentation.html"
+      Comment: ""
+      Date: 2022-03-01
+
+    - Title: "The Consultant’s Stance"
+      Link: "https://seomba.substack.com/p/the-consultants-stance"
+      Comment: "Tom Critchlow"
+      Date: 2022-03-01
+
+    - Title: "Great Depression or Bust"
+      Link: "https://ofdollarsanddata.com/great-depression-or-bust/"
+      Comment: "Nick Maggiulli"
+      Date: 2022-03-01
+
+    - Title: "Useful Books"
+      Link: "https://www.usefulbooks.com/"
+      Comment: "community, process, and tools to help you write great nonfiction, from first idea to first edition"
+      Date: 2022-03-01
+
+    - Title: "How on earth I became an entrepreneur"
+      Link: "https://www.deepsouthventures.com/how-on-earth/"
+      Comment: ""
+      Date: 2022-03-01
+
+    - Title: "My list of my lists"
+      Link: "https://critter.blog/2022/03/15/my-list-of-my-lists/"
+      Comment: "Mike Crittenden"
+      Date: 2022-03-01
+
+    - Title: "WINTER & COMPANY product selector"
+      Link: "https://www.winter-company.com/en/product-selector/"
+      Comment: "inspiration as well as a digital pattern card: discover and compare over 1300 products"
+      Date: 2022-03-01
+
+    - Title: "Horizontal scrolling nav"
+      Link: "https://markdotto.com/2022/03/10/horizontal-scrolling-nav/"
+      Comment: ""
+      Date: 2022-03-01
+
+    - Title: "In Search of a Local-First Database"
+      Link: "https://jaredforsyth.com/posts/in-search-of-a-local-first-database/"
+      Comment: "Jared Forsyth"
+      Date: 2022-03-01
+
+    - Title: "Indie Microblogging"
+      Link: "https://book.micro.blog/"
+      Comment: "Manton Reece"
+      Date: 2022-03-01
+
+    - Title: "On the hook"
+      Link: "https://seths.blog/2022/03/on-the-hook-2/"
+      Comment: "Seth Godin. It’s scary. That’s the point."
+      Date: 2022-03-01
+
+    - Title: "The Uniformity and Exclusion Movement"
+      Link: "https://www.econlib.org/the-uniformity-and-exclusion-movement/"
+      Comment: "Bryan Caplan"
+      Date: 2022-03-01
+
+    - Title: "Idyll: create explorable explanations"
+      Link: "https://idyll-lang.org/docs"
+      Comment: ""
+      Date: 2022-03-01
+
+    - Title: "Arun Desk Setup"
+      Link: "https://www.arun.is/blog/evolution-desk-setup/"
+      Comment: ""
+      Date: 2022-03-01
+
+    - Title: "Everything about Framer Motion layout animations"
+      Link: "https://blog.maximeheckel.com/posts/framer-motion-layout-animations/"
+      Comment: ""
+      Date: 2022-03-01
+
+    - Title: "Mindset That Kills Product Thinking"
+      Link: "https://www.jpattonassociates.com/mindset-that-kills-product-thinking/"
+      Comment: ""
+      Date: 2022-03-01
+
+    - Title: "The Wicked Problem Experience"
+      Link: "https://www.cold-takes.com/the-wicked-problem-experience/"
+      Comment: ""
+      Date: 2022-03-01
+
+    - Title: "The Long Strange Trip to Java"
+      Link: "http://www.blinkenlights.com/classiccmp/javaorigin.html"
+      Comment: ""
+      Date: 2022-03-01
+
+    - Title: "Don’t flip the bozo bit"
+      Link: "https://critter.blog/2021/01/04/dont-flip-the-bozo-bit/"
+      Comment: "Everyone has something to contribute. Instead of flipping the bozo bit on the idiot, talk to them about it."
+      Date: 2022-03-01
+
+    - Title: "The Freedom of the University"
+      Link: "https://crookedtimber.org/2014/09/17/the-freedom-of-the-university/"
+      Comment: ""
+      Date: 2022-03-01
+
+    - Title: "Edward Tufte Interview"
+      Link: "https://www.edwardtufte.com/tufte/complit_9497"
+      Comment: "there are only two industries which refer to their customers as users, drugs and computers."
+      Date: 2022-03-01
+
+    - Title: "Natural Thinker"
+      Link: "http://www.naturalthinker.net/"
+      Comment: ""
+      Date: 2022-03-01
+
+    - Title: "Mind the Moat, a 7 Powers Review"
+      Link: "http://florentcrivello.com/index.php/2018/07/29/mind-the-moat-a-7-powers-review/"
+      Comment: "Florent Crivello."
+      Date: 2022-03-01
+
+    - Title: "Own the Demand"
+      Link: "https://florentcrivello.com/index.php/2018/10/22/own-the-demand/"
+      Comment: "Owning demand. Aggregate the demand side."
+      Date: 2022-03-01
+
+    - Title: "Rant about feed readers and crawlers"
+      Link: "https://rachelbythebay.com/w/2022/03/07/get/"
+      Comment: ""
+      Date: 2022-03-01
+
+    - Title: "Evolution in software"
+      Link: "http://scripting.com/2022/03/04/134033.html?title=evolutionInSoftware"
+      Comment: ""
+      Date: 2022-03-01
+
+    - Title: "Poison for the Heart"
+      Link: "http://www.naturalthinker.net/trl/texts/Solway,Kevin/poison/23-0-mean.html"
+      Comment: "The fish trap exists because of the fish; once you have the fish, you can forget the trap. Words exist because of meaning, once you've gotten the meaning, you can forget the words. Where can I find a man who has forgotten words so I can have a word with him?"
+      Date: 2022-03-01
+
+    - Title: "Don't build (or build) that feature"
+      Link: "https://dont.build/"
+      Comment: "A simple, opinionated tool for helping decide whether a software feature is worth building."
+      Date: 2022-03-01
+
+    - Title: "All desktop calculators are wrong"
+      Link: "https://chachatelier.fr/chalk/article/chalk.html"
+      Comment: ""
+      Date: 2022-03-01
+
+    - Title: "How to learn JavaScript"
+      Link: "https://sive.rs/learn-js"
+      Comment: "Derek Sivers"
+      Date: 2022-03-01
+
+    - Title: "Intro to Naturalism: Knowing"
+      Link: "https://www.lesswrong.com/posts/S8kAJamj66gekjBwC/knowing"
+      Comment: "there are points, and there are paintings we superimpose upon them, and that these things are different. That the constellations are of a wholly different nature than the stars. … Knowing the territory takes patient and direct observation"
+      Date: 2022-03-01
+
+    - Title: "Intro to Naturalism: Orientation"
+      Link: "https://www.lesswrong.com/posts/pPWiLGsWCtN92vLwu/intro-to-naturalism-orientation"
+      Comment: "LessWrong."
+      Date: 2022-03-01
+
+    - Title: "Always Go To The Funeral"
+      Link: "https://www.npr.org/2005/08/08/4785079/always-go-to-the-funeral"
+      Comment: ""
+      Date: 2022-03-01
+
+    - Title: "Punctuated equilibrium"
+      Link: "https://en.wikipedia.org/wiki/Punctuated_equilibrium"
+      Comment: ""
+      Date: 2022-03-01
+
+    - Title: "Misidentifying talent"
+      Link: "https://danluu.com/talent/"
+      Comment: "Dan Luu."
+      Date: 2022-03-01
+
+    - Title: "Losing My Religion"
+      Link: "https://www.overcomingbias.com/2022/02/losing-my-religion.html"
+      Comment: "Robin Hanson."
+      Date: 2022-03-01
+
+    - Title: "Selling to the Enterprise: Be Enterprise-Ready"
+      Link: "https://staysaasy.com/product/2022/02/19/enterprise-selling-be-enterprise-ready.html"
+      Comment: ""
+      Date: 2022-03-01
+
+    - Title: "The Peak–End Rule"
+      Link: "https://www.nngroup.com/articles/peak-end-rule/"
+      Comment: "Our memories focus on the way an experience ends."
+      Date: 2022-03-01
+
+    - Title: "Casualties of your own success"
+      Link: "https://www.collaborativefund.com/blog/casualties-of-your-own-success/"
+      Comment: "Morgan Housel"
+      Date: 2022-03-01
+
+    - Title: "Delegation is an art, not a science"
+      Link: "http://larahogan.github.io/blog/delegation-is-an-art/"
+      Comment: "Management. Lara Hogan."
+      Date: 2022-03-01
+
+    - Title: "A user guide to working with you"
+      Link: "https://almanac.io/docs/ceo-user-guide-qgrX6JybtClEKUEGt96x5sMlzQLmRwPL"
+      Comment: "An example from Adam Nathan."
+      Date: 2022-03-01
+
+    - Title: "Transit Panel"
+      Link: "https://news.ycombinator.com/item?id=30475410"
+      Comment: "A web app on a tablet by a front door that tells you when you should leave to catch the next train."
+      Date: 2022-03-01
+
+    - Title: "How I See Numbers"
+      Link: "https://news.ycombinator.com/item?id=30539292"
+      Comment: "Hacker News discussion"
+      Date: 2022-03-01
+
+    - Title: "Unforgivable"
+      Link: "https://betonit.substack.com/p/unforgivable?s=r"
+      Comment: "Bryan Caplan. The Unforgivable Heuristic."
+      Date: 2022-03-01
+
+    - Title: "Ultracrepidarianism"
+      Link: "https://critter.blog/2022/03/02/ultracrepidarianism/"
+      Comment: "The habit or act of giving opinions on matters outside the scope of one’s knowledge. Don’t be an ultracrepidarian. Advice is a last resort."
+      Date: 2022-03-01
+
+    - Title: "Counterintuitive Marketing Strategies That Actually Work"
+      Link: "https://sparktoro.com/blog/8-counterintuitive-marketing-strategies-that-actually-work/"
+      Comment: "Marketing. Sparktoro."
+      Date: 2022-03-01
+
+
   - Date: February 2022
     Links:
 

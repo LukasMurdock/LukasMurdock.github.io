@@ -30,6 +30,7 @@ date: 'September 23, 2021'
 - [Bored our of their minds](https://www.gse.harvard.edu/news/ed/17/01/bored-out-their-minds)
 - [Noam Chomsky - On Being Truly Educated](https://youtu.be/eYHQcXVp4F4)
 - [Unbundling the University](https://darkblueheaven.com/unbundling/)
+- [Akimbo: Enforcement and enrollment](https://shows.acast.com/akimbo/episodes/enforcement-and-enrollment)
 
 ## On Self Learning
 ### Articles
@@ -55,6 +56,8 @@ date: 'September 23, 2021'
 - [LW: Study Guide for technical problems we don’t understand](https://www.lesswrong.com/posts/bjjbp5i5G8bekJuxv/study-guide)
 - [How Learning Works: Components, Systems, and Loops](https://romandesign.co/how-learning-works-components-systems-and-loops/)
 - [True Learning Is Done With Agency](https://moretothat.com/true-learning-is-done-with-agency/)
+- [Deliberate Practice Theory](https://durmonski.com/self-improvement/deliberate-practice-theory/)
+- [The Autodidacts](https://www.autodidacts.io/)
 
 ### Books
 - [David A. Kolb: Experiential Learning: Experience as the Source of Learning and Development](https://www.amazon.com/Experiential-Learning-Experience-Source-Development-dp-0133892409/dp/0133892409/ref=dp_ob_title_bk) (1984)

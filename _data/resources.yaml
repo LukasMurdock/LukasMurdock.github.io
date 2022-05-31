@@ -60,6 +60,11 @@ fulldata:
         Comment: "Go beyond applications and resumes, and launch a career that makes you come alive."
         Date: August 11, 2020
 
+      - Title: "Software Engineering Principles"
+        Link: "http://engineering-principles.onejl.uk/"
+        Comment: "John Lewis IT Software Engineering Principles"
+        Date: 2022-05-23
+
       - Title: "The Guide To Design"
         Link: "https://start.uxdesign.cc/"
         Comment: "A self-guided class to help you get started in UX and answer key questions about craft, design, and career."
@@ -380,6 +385,11 @@ fulldata:
         Link: "https://yangshun.github.io/front-end-interview-handbook/"
         Comment: "Almost complete answers you can use to interview potential candidates, test yourself or completely ignore."
         Date: July 20, 2020
+
+      - Title: "Microsoft: Web Development for Beginners"
+        Link: "https://github.com/microsoft/Web-Dev-For-Beginners"
+        Comment: ""
+        Date: 2022-05-31
 
       - Title: Developer Roadmap
         Link: https://roadmap.sh
@@ -716,6 +726,16 @@ fulldata:
         Comment: "A reference site designed to help you learn about high-level software development topics like domain driven design, design patterns, and antipatterns."
         Date: 2021-08-25
 
+      - Title: "The Catalog of Design Patterns"
+        Link: "https://refactoring.guru/design-patterns/catalog"
+        Comment: ""
+        Date: 2022-05-23
+
+      - Title: "Code Smells"
+        Link: "https://refactoring.guru/refactoring/smells"
+        Comment: ""
+        Date: 2022-05-23
+
       - Title: "Awesome Software Engineering"
         Link: "https://github.com/rolanddb/awesome-software-engineering"
         Comment: "A curated list of roadmaps."
@@ -991,6 +1011,21 @@ fulldata:
         Comment: "Learn from what leading companies A/B test."
         Date: July 16, 2020
 
+      - Title: "UI Design Patterns"
+        Link: "https://ui-patterns.com/patterns"
+        Comment: "Recurring solutions that solve common design problems"
+        Date: 2022-05-31
+
+      - Title: "Pageflows"
+        Link: "https://pageflows.com/"
+        Comment: "Design better user flows by learning from proven products"
+        Date: 2022-05-31
+
+      - Title: "Nicelydone"
+        Link: "https://nicelydone.club/"
+        Comment: "Web applications inspiration examples & user flows library"
+        Date: 2022-05-31
+
       - Title: UI Goodies
         Link: https://www.uigoodies.com/
         Comment: "Weekly UI resources straight to your inbox."
@@ -1015,6 +1050,11 @@ fulldata:
         Link: https://brand.uber.com/
         Comment: "A bold new brand awaits."
         Date: Apr 22, 2020
+
+      - Title: "HUDs and GUIs"
+        Link: "https://www.hudsandguis.com/"
+        Comment: "HUDS and GUIS is an inspiration resource site featuring Future User Interfaces, Graphic User Interfaces, Heads Up Displays and UX/UI Design from areas such as film and games."
+        Date: 2022-05-31
 
       - Title: UX Frameworks
         Link: https://www.uxframeworks.design
@@ -1115,6 +1155,11 @@ fulldata:
         Link: "https://bioicons.com/?query="
         Comment: ""
         Date: 2021-08-25
+
+      - Title: "Otl Aicher Pictograms "
+        Link: "https://www.piktogramm.de/en/"
+        Comment: "otl aicher pictograms set benchmarks in directional signage, advertising, sporting events, websites and media of all kinds."
+        Date: 2022-05-31
 
       - Title: "All Unicode Arrows"
         Link: "https://unicodearrows.com/all-arrows"
@@ -3872,6 +3917,11 @@ fulldata:
         Link: "https://earth2day.com/TheWall/"
         Comment: ""
         Date: 2022-01-18
+
+      - Title: "NoiseCraft modular drum machine"
+        Link: "https://noisecraft.app/557"
+        Comment: "A modular drum machine for you to play with"
+        Date: 2022-05-31
 
 
 

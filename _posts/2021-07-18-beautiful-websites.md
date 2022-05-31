@@ -4,6 +4,9 @@ title: 'Beautiful Websites'
 description: ''
 date: 'July 18, 2021'
 ---
+
+[How much does a website cost?](https://www.viget.com/articles/how-much-does-a-website-cost-anywhere-from-50-to-5-000-000/)
+
 ## Company
 - https://bejamas.io/
 - https://vercel.com/
@@ -23,6 +26,7 @@ date: 'July 18, 2021'
 - https://opalcamera.com/
 - [The Avocado Collective](http://www.theavocadocollective.com.au/)
 - [Nomad Goods](https://nomadgoods.com/)
+- [Frame.io](https://frame.io/)
 
 ## Personal
 - https://adamsilver.io/
@@ -62,6 +66,9 @@ date: 'July 18, 2021'
 - [https://melanie-richards.com/](https://melanie-richards.com/)
 - [https://adactio.com/](https://adactio.com/)
 - [https://www.ben-evans.com/](https://www.ben-evans.com/)
+- [Robin Rendle](https://www.robinrendle.com/)
+
+[Cool Things People Do With Their Blogs](https://brainbaking.com/post/2022/04/cool-things-people-do-with-their-blogs/)
 
 ## Misc
 - https://setups.co/
@@ -70,3 +77,11 @@ date: 'July 18, 2021'
 - https://rsms.me/inter/
 - https://nichrome.mass-driver.com/
 - http://bitfission.com/
+- https://plaintextsports.com/
+
+
+## Aggregators
+- [SaaS Landing Page](https://saaslandingpage.com/)
+
+
+- [A poster exhibition that celebrates the 90 anniversary of Massimo Vignelli](https://www.vignelli.design/)
