@@ -22,9 +22,9 @@ Elements of a web application stack:
 * ORM
 * Database
 * Linter
-* Formater
+* Formatter
 * Test framework
-* API Mock
+* API Mock framework
 * Host
 * Secrets manager
 

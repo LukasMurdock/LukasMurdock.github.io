@@ -192,7 +192,8 @@ MKT 335 — 3 Credit Hours
 ESP 490 — 3 Credit Hours  
 Miami University Redhawk Launch Accelerator.  
 [Learn How to Pitch Your Startup](https://fi.co/pitch-deck)  
-[Learn Pitch Training](https://www.basetemplates.com/investor-pitch-training)
+[Learn Pitch Training](https://www.basetemplates.com/investor-pitch-training)  
+[Stripe Atlas Guides: How to pitch your startup](https://stripe.com/atlas/guides/pitching)
 
 **Principles Of Macroeconomics**  
 ECO 202 — 3 Credit Hours  
@@ -215,3 +216,6 @@ MKT 345 — 3 Credit Hours
 
 **Social Psychology**  
 PSY 221 — 3 Credit Hours  
+
+**Empire and Utopia**  
+RUS 256 — 3 Credit Hours  
