@@ -126,7 +126,6 @@ Various technologies I dove into before I started tracking when I learned them. 
 - Ruby
 
 ### Technical Things I Don’t Know
-- Python
 - Gatsby
 - GraphQL
 - SCSS / Sass
