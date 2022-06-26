@@ -3,6 +3,7 @@ layout: post
 title: 'Bayesian Average'
 description: ""
 date: June 26, 2022
+code: true
 ---
 
 We have a list of products. Each product has:
@@ -10,7 +11,7 @@ We have a list of products. Each product has:
 - a count of received ratings
 - its average rating
 
-However, we don’t want to blindly trust any given products average rating.
+However, we don’t want to blindly trust an average rating of a product.
 
 The more ratings a product has, the more confidence we can have in its average rating. Conversely, the less ratings a product has, the less confidence we can have in its average rating.
 
