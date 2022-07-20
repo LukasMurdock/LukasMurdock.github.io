@@ -26,6 +26,11 @@ Leadership here refers to team leadership, in contrast to the wider [marketing l
 - [Doist: Deep Work](https://blog.doist.com/deep-work/)
 - [Shields Down](https://randsinrepose.com/archives/shields-down/)
 - [Bad engineering managers think leadership is about power, good managers think leadership is about competently serving their team](https://ewattwhere.substack.com/p/bad-managers-think-leadership-is)
+- [By design](https://randsinrepose.com/archives/by-design/)
+- [Share an anonymous feedback form for yourself](https://critter.blog/2022/06/20/share-an-anonymous-feedback-form-for-yourself/)
+- [Clear ownership and decision making with DRI](https://newsletter.buditanrim.co/p/clear-ownership-and-decision-making)
+- [On project management](https://newsletter.buditanrim.co/p/on-project-management)
+- [Binstack: Making a maximal multi-dimensional decision](https://longform.asmartbear.com/docs/maximized-decision/)
 
 ## Videos
 - [17:48] [Simon Sinek: How great leaders inspire action](https://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action)

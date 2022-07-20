@@ -31,6 +31,7 @@ date: 'September 23, 2021'
 - [Noam Chomsky - On Being Truly Educated](https://youtu.be/eYHQcXVp4F4)
 - [Unbundling the University](https://darkblueheaven.com/unbundling/)
 - [Akimbo: Enforcement and enrollment](https://shows.acast.com/akimbo/episodes/enforcement-and-enrollment)
+- [I should have loved biology](https://jsomers.net/i-should-have-loved-biology/)
 
 ## On Self Learning
 ### Articles
@@ -58,6 +59,8 @@ date: 'September 23, 2021'
 - [True Learning Is Done With Agency](https://moretothat.com/true-learning-is-done-with-agency/)
 - [Deliberate Practice Theory](https://durmonski.com/self-improvement/deliberate-practice-theory/)
 - [The Autodidacts](https://www.autodidacts.io/)
+- [Incidental Learning](https://effectiviology.com/incidental-learning/)
+- [Learning and teaching practical wisdom](https://drmaciver.substack.com/p/learning-and-teaching-practical-wisdom)
 
 ### Books
 - [David A. Kolb: Experiential Learning: Experience as the Source of Learning and Development](https://www.amazon.com/Experiential-Learning-Experience-Source-Development-dp-0133892409/dp/0133892409/ref=dp_ob_title_bk) (1984)

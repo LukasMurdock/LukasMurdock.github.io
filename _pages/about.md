@@ -424,6 +424,9 @@ With this stack my entire website is currently free, aside from paying for the d
 
 ### Fonts
 
+- [Atkinson Hyperlegible](https://brailleinstitute.org/freefont)
+- [HEX Franklin](https://hex.xyz/HEX_Franklin/) (no matter what weight you use, the letters are always the same width)
+
 #### Font Foundries
 - [Klim Type](https://klim.co.nz/)
 - [Schick toikka](https://www.schick-toikka.com/)

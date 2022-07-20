@@ -104,6 +104,8 @@ Awesome lists:
 
 - Open an app: `open -a slack`
 
+- [Who is listening on a given TCP port on Mac OS X](https://stackoverflow.com/a/30029855) `sudo lsof -iTCP -sTCP:LISTEN -n -P`
+
 ## iTerm2
 [iTerm2 Features](https://iterm2.com/features.html)
 
@@ -231,6 +233,8 @@ AWK is a programming language for manipulating columns of data. gawk is the GNU 
 
 ### FFmpeg
 [FFmpeg](https://www.ffmpeg.org/) is a package to record, convert and stream audio and video.
+
+[ffmpeg buddy](https://news.ycombinator.com/item?id=31557809)
 
 {% highlight shell %}
 {% raw %}

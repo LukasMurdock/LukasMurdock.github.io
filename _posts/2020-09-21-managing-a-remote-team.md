@@ -6,6 +6,12 @@ date: September 21, 2020
 tags: annual
 ---
 
+[The four time buckets of managers](https://critter.blog/2022/06/10/the-four-time-buckets-of-managers/):
+- Information gathering
+- Decision making
+- Nudging
+- Being a role model
+
 In your first 30 days, try to understand the landscape:
 - Where is my team going? What’s our vision?
 - Where is my team now?
@@ -155,6 +161,13 @@ From The Culture Code by Daniel Coyle:
 
 > One misconception about highly successful cultures is that they are happy, lighthearted places. This is mostly not the case. They are energized and engaged, but at their core their members are oriented less around achieving happiness than around solving hard problems together. This task involves many moments of high-candor feedback, uncomfortable truth-telling, when they confront the gap between where the group is, and where it ought to be.
 
+## Flip meetings
+
+1. Meeting time should be reserved for meaningful interaction, not conveying information.
+2. No one should feel obliged to attend a meeting where their active participation isn’t needed.
+3. Meetings should be limited to fewer than eight people — the upper limit beyond which meaningful participation falls off and people become more guarded and less candid. Five or fewer is even better.
+4. Outcomes should always be documented afterward for people who couldn’t or didn’t need to attend.
+
 ## The Basecamp Guide to Internal Communication
 The following is a paraphrased and quoted section from [The Basecamp Guide to Internal Communication](https://basecamp.com/guides/how-we-communicate).
 
@@ -194,6 +207,8 @@ The following is a paraphrased and quoted section from [The Basecamp Guide to In
 
 Switch "How's everything going?" with "What's one thing that could be better?". This is the difference between being open to feedback and seeking feedback.
 
+> [It is normal for me to take 2 days to read my emails and 2 more days to reflect on the matter and respond calmly. The culture of immediacy and the constant fragmentation of time are not very compatible with the kind of life I lead.](https://twitter.com/lucy_hunt/status/1337031131607261184?s=20&t=koKi6O2WjoERZHifySoRoQ)
+
 Related:
 - [Basecamp: Group Chat Problems](https://basecamp.com/guides/group-chat-problems)
 - [Active? Away? How about neither](https://world.hey.com/jason/active-away-how-about-neither-ed70fd69)
@@ -217,3 +232,7 @@ Related:
 - [Almanac: The Async Encyclopedia](https://almanac.io/magazine/the-async-encyclopedia)
 - [Leading through crisis](https://larahogan.me/blog/resources-leading-through-crises/)
 - [What the heck is asynchronous communication anyway?](https://async.twist.com/asynchronous-communication/)
+- [Flipped meeting model](https://async.twist.com/flipped-meeting-model/)
+- [Book Review: Talent](https://thezvi.substack.com/p/book-review-talent)
+- [The weekly CEO e-mail](https://medium.com/@gokulrajaram/the-weekly-ceo-e-mail-b5eaafcee6fa)
+- [BICEPS](https://critter.blog/2022/06/28/show-me-your-biceps-%f0%9f%92%aa/)

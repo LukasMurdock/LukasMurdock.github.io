@@ -27,6 +27,8 @@ date: 'July 18, 2021'
 - [The Avocado Collective](http://www.theavocadocollective.com.au/)
 - [Nomad Goods](https://nomadgoods.com/)
 - [Frame.io](https://frame.io/)
+- [Reflect.app](https://reflect.app/)
+- [Chartmetric](https://chartmetric.com/)
 
 ## Personal
 - https://adamsilver.io/

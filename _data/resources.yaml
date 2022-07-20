@@ -841,6 +841,11 @@ fulldata:
         Comment: "Free Keynote & Powerpoint with Light & Dark themes."
         Date: Sep 16, 2020
 
+      - Title: "Storybook component showcase"
+        Link: "https://storybook.js.org/showcase"
+        Comment: "Explore components and libraries"
+        Date: 2022-07-19
+
       - Title: "Hacker UI"
         Link: "https://hacker-ui.com/"
         Comment: "A simple component library."
@@ -1130,6 +1135,11 @@ fulldata:
         Link: https://mixkit.co/
         Comment: "Completely free HD video & art for you to use, anywhere."
         Date: Apr 22, 2020
+
+      - Title: "Icônes logos"
+        Link: "https://icones.js.org/collection/logos"
+        Comment: ""
+        Date: 2022-07-19
 
       - Title: Teeny Icons
         Link: "https://teenyicons.com/"
@@ -2001,6 +2011,11 @@ fulldata:
         Link: https://ethical.net/resources/
         Comment: "Ethical Alternatives & Resources"
         Date: Apr 22, 2020
+
+      - Title: "Privacy Tools"
+        Link: "https://www.privacytools.io/"
+        Comment: ""
+        Date: 2022-07-19
 
       - Title: Brave Browser
         Link: https://brave.com/
@@ -2879,6 +2894,11 @@ fulldata:
         Comment: "Wikipedia. A list of company names with their name origins explained."
         Date: May 03, 2021
 
+      - Title: "wtfhappenedin1971"
+        Link: "https://wtfhappenedin1971.com/"
+        Comment: ""
+        Date: 2022-07-19
+
 
 
   #Software
@@ -3160,6 +3180,11 @@ fulldata:
         Link: "https://almanac.io/docs/template-150-useful-email-phrases-that-will-make-your-life-easier-3a5baafd73426c1081c3a923b2380c35"
         Comment: "150+ templates that will make your life easier."
         Date: July 10, 2020
+
+      - Title: "How to professionally say..."
+        Link: "https://howtoprofessionallysay.akashrajpurohit.com/"
+        Comment: ""
+        Date: 2022-07-19
 
       - Title: "Cold email templates"
         Link: "https://hunter.io/templates"

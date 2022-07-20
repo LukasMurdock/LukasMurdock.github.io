@@ -85,6 +85,33 @@ Much of the difference between the [marketing types](https://lukasmurdock.com/ma
 
 Reaching, helping someone move forward, or browsing social media will be relatively different from someone reading their email and even more different from someone attending an event. Different spaces garner different [Perception Optimization](https://lukasmurdock.com/perception-optimization/) specialists. Sure, there is going to be overlap; it’s all helping people move forward. Same strategy; sometimes tactics differ.
 
+> Actual marketing success happens after the trough, when people become loyal, when the product or service is remarkable and when the word spreads.
+> — [Seth Godin](https://seths.blog/2022/06/failing-in-the-trough/)
+
+Who’s it for?
+
+What’s it for?
+
+What change do you seek to make?
+
+What’s the hard part?
+
+If you could learn one skill that would help your project, what would it be?
+
+How can you tell if it’s working?
+
+Would it be easier if you had help?
+
+Would it be easier to make an impact if you were willing to give up credit or control?
+
+Does this project matter?
+
+Is the journey worth it?
+
+What are you afraid of?
+
+Would they miss you if you stopped?
+
 ## A Land & Expand Reading Program
 - 1984 [Robert Cialdini: Influence](https://www.goodreads.com/book/show/28815.Influence)
 - 2013 [A.G. Lafley: Playing to Win](https://www.amazon.com/dp/B00AJVJ1HI/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
