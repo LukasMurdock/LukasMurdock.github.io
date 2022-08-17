@@ -9,6 +9,8 @@ tags: annual
 
 First, I’m currently running an Intel Mac, and using Homebrew as a package manager.
 
+[Taco Bell Programming](http://widgetsandshit.com/teddziuba/2010/10/taco-bell-programming.html)
+
 [Homebrew analytics](https://formulae.brew.sh/analytics/)
 
 Timely -> [Missing Semester of Your CS Education](https://missing.csail.mit.edu/)

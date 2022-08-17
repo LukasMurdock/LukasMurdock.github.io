@@ -90,7 +90,13 @@ Various technologies I dove into before I started tracking when I learned them. 
 - JS
 - Liquid
 
-### Technical Things I’ve learned in 2021
+### Technical Things I’ve learned in 2022
+- Remix.js
+- Fly.io
+- API design
+- Supabase
+
+### Technical Things I learned in 2021
 - Docker
 - Tailwind
 - Next.js
