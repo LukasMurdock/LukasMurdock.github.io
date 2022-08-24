@@ -32,6 +32,9 @@ code: true
 ### Websites
 - [Project Gutenburg](https://www.gutenberg.org/)
 - [Standard Ebooks](https://standardebooks.org/)
+- [HathiTrust](https://www.hathitrust.org/)
+- [Open Library](https://openlibrary.org/)
+- [Librivox](https://librivox.org/)
 - https://whereislibgen.vercel.app/
 - https://z-lib.org/
 - https://whereisscihub.vercel.app/
