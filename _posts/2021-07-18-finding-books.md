@@ -30,9 +30,10 @@ code: true
 ## Finding Books Online
 
 ### Websites
+- [Project Gutenburg](https://www.gutenberg.org/)
+- [Standard Ebooks](https://standardebooks.org/)
 - https://whereislibgen.vercel.app/
 - https://z-lib.org/
-- https://www.gutenberg.org/
 - https://whereisscihub.vercel.app/
 - https://the-eye.eu/
     - e.g. [Psychology](https://the-eye.eu/public/WorldTracker.org/Psychology/)
