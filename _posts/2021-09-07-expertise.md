@@ -99,3 +99,20 @@ It’s the living dynamic between the triad that matters.  E.g., demand goes dow
 ## Strategic Rehearsals
 
 Given an idea, look for a history of application. Look for an application of how this can be useful.
+
+
+## Cognitive Flexibility Theory
+
+Cognitive Flexibility Theory (CFT) is a theory of expertise in ill-structured domains.
+
+Concepts in computer programming (e.g., variables, loops) always show up in the exact same way—computer programming is a well structured domain. Well-structured domains are domains where concepts show up in the exact same way.
+
+Concepts in software design often vary with the details of the problem—software design is an ill-structured domain. Ill-structured domains are domains where concept instantiations are highly variable.
+
+Expertise in a well-structured domain is suited towards understanding principles.
+
+Expertise in an ill-structured domain is suited towards having examples of concept instantiations. You need to know examples of principles _in action_. Principles or frameworks are not enough, as the concept are highly variable. Experts in ill-structured domains can reason by combining examples of concept instantiations.
+
+In ill-structured domains, universal principles apply themselves  in so many different ways that knowing the ways and contexts they show up is more important than knowing the principles. No framework perfectly captures the novelty of real-world situations.
+
+You have to compare cases—what’s similar? Does it remind you of a particular case—if no, what’s different?

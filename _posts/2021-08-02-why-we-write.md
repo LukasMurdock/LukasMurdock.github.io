@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Why we write'
+title: 'Why we write: meetings'
 description: ''
 date: 'August 02, 2021'
 ---
@@ -32,7 +32,7 @@ Often, there’s no craft in meetings–we settle to have pointless, aimless mee
 Again, your reluctance to write because it requires you to take the time to think deeper, *means that you need to write*.
 
 > Our goal as presenters is not to merely introduce an idea but to demonstrate that it’s been carefully weighed and thoroughly analyzed. Unlike a PowerPoint deck, a solid narrative can—and must—demonstrate how its many, often disparate, facts and analyses are interconnected. While an ideal PowerPoint presentation can do this, experience has shown that they rarely do in practice.
-> 
+>
 > A complete narrative should also anticipate the likely objections, concerns, and alternate points of view that we expect our team to deliver. Writers will be forced to anticipate smart questions, reasonable objections, even common misunderstandings—and to address them proactively in their narrative document. You simply cannot gloss over an important topic in a narrative presentation, especially when you know it’s going to be dissected by an audience full of critical thinkers. While this may seem a bit intimidating at first, it merely reflects our long-standing commitment to thinking deeply and correctly about our opportunities.
 
 **A long-standing commitment to thinking deeply and correctly about our opportunities**. If we cannot do that, there’s no point in any of us being here.
