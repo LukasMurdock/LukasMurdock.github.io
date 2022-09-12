@@ -5,6 +5,36 @@ description: 'What is marketing?'
 date: 'October 04, 2021'
 ---
 
+You mean different things to different people. Your product, your brand, your idea, all mean different things to different people. You can’t be everything to everybody.
+
+Who’s it for? What’s it for? What is the worldview of the audience you’re seeking to reach?
+
+> You don’t get to say, “well, we’ll just wait for the next random person to find us.” Instead, you have to choose your customers–who’s it for and what’s it for. And when you’ve identified them, the opportunity/requirement is to create so much delight and connection that they choose to spread the word to like-minded peers.
+> — [Seth Godin](https://seths.blog/2022/05/the-smallest-viable-audience/)
+
+Marketing works within the domain of status. Marketing is raising the status of the people you seek to serve, so that they would miss you if you were gone.
+
+There’s channel-specific marketing skills:
+- SEO
+- Social media marketing
+- Copywriting
+
+And there’s positioning. Positioning impacts:
+- Marketing: messaging, audience targeting, campaign development.
+- Sales and business development: target customer segmentation and account strategy.
+- Customer success: onboarding and account expansion strategy.
+- Product and development: roadmaps and prioritisation of features.
+
+
+
+The [5+1 Components of Positioning](https://commoncog.com/obviously-awesome/):
+1. What would your best customers would do if your solution didn’t exist?
+2. What features do you have that alternatives lack?
+3. What benefits do those features enable for customers?
+4. What are the common characteristics of buyers who care about the value you deliver?
+5. What is the market you describe yourself as being a part of, to help your customers understand your value?
+6. What relevant trends make your product more relevant right now?
+
 > [Marketing exists to make sales easier]((https://kellblog.com/2020/04/26/marketing-exists-to-make-sales-easier/)).
 
 Marketing and sales are two sides of the same coin–helping people move forward by generously showing up to solve their problems.
