@@ -12,7 +12,7 @@ Who’s it for? What’s it for? What is the worldview of the audience you’re 
 > You don’t get to say, “well, we’ll just wait for the next random person to find us.” Instead, you have to choose your customers–who’s it for and what’s it for. And when you’ve identified them, the opportunity/requirement is to create so much delight and connection that they choose to spread the word to like-minded peers.
 > — [Seth Godin](https://seths.blog/2022/05/the-smallest-viable-audience/)
 
-Marketing works within the domain of status. Marketing is raising the status of the people you seek to serve, so that they would miss you if you were gone.
+Marketing works within the domain of status, affiliation, and convenience. Marketing is raising the status of the people you seek to serve, so that they would miss you if you were gone. Marketing is giving people the opportunity to say “people like us do things like this”. Marketing makes things better by making better things.
 
 There’s channel-specific marketing skills:
 - SEO
@@ -23,7 +23,7 @@ And there’s positioning. Positioning impacts:
 - Marketing: messaging, audience targeting, campaign development.
 - Sales and business development: target customer segmentation and account strategy.
 - Customer success: onboarding and account expansion strategy.
-- Product and development: roadmaps and prioritisation of features.
+- Product and development: roadmaps and prioritization of features.
 
 
 
