@@ -48,6 +48,7 @@ I elevator pitch myself as a Designer, Developer, and Marketer, but here I try t
 - Find a quest
 - Slow down, deliberate
 - Less, but better
+- [Everything must be paid for twice](https://www.raptitude.com/2022/01/everything-must-be-paid-for-twice/)
 - [Idea labs, not echo chambers](https://waitbutwhy.com/2019/10/idea-labs-echo-chambers.html)
 - Long-term games with long-term people
 - [You can’t teach what they aren’t ready to know](https://commoncog.com/blog/you-cant-teach-what-they-arent-ready-to-know/)

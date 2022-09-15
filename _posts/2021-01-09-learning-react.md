@@ -7,6 +7,7 @@ date: January 09, 2021
 
 
 ## Free React Resources
+- [Super simple start to react](https://kentcdodds.com/blog/super-simple-start-to-react)
 - https://egghead.io/courses/the-beginner-s-guide-to-react
 - https://react2025.com/
 - https://usehooks.com/

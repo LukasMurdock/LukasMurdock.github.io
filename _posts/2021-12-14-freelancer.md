@@ -5,6 +5,8 @@ description: ''
 date: 'December 14, 2021'
 ---
 
+- [HN: So you want to be a consultant?](https://news.ycombinator.com/item?id=32532505)
+
 Videos:
 - The Futur: [You Are a Business](https://thefutur.com/video/you-are-not-a-freelancer)
 - The Futur x Jonathan Stark: [Guide To Freelancing](https://www.youtube.com/watch?v=9xF0kcs9lm4)

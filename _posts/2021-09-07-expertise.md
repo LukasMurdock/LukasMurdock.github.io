@@ -116,3 +116,10 @@ Expertise in an ill-structured domain is suited towards having examples of conce
 In ill-structured domains, universal principles apply themselves  in so many different ways that knowing the ways and contexts they show up is more important than knowing the principles. No framework perfectly captures the novelty of real-world situations.
 
 You have to compare cases—what’s similar? Does it remind you of a particular case—if no, what’s different?
+
+## Extracting Expertise
+
+> The most important lessons from history are the takeaways that are so broad they can apply to other fields, other eras, and other people. That’s where lessons have leverage and are most likely to apply to your own life.
+> — [Morgan Housel](https://collabfund.com/blog/five-lessons-from-history/)
+
+[HIG Interrogation Best Practices Report](https://www.fbi.gov/file-repository/hig-report-august-2016.pdf/view)

@@ -7,11 +7,12 @@ code: true
 last_modified_at: 2020-04-17T23:58:27+0000
 ---
 
+[CAN-SPAM Act: A Compliance Guide for Business](https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business)
 
 During my role as a Communications Consultant for ABB, I was responsible for the preparation and disbursement of communications that involved various media such as radio, television, and publications, and also preparing brochures and presentation materials for presentation to clients. I was responsible for conducting marketing research, planning and developing communications directed at increasing sales and improving services. I recommended and implemented marketing strategies designed to maximize profit margins and ensure customer satisfaction.
 
 ## Driving Interest
-Email is used to drive consumer interest and inquiry into the products and services of a company. To engage with customers you need two things:  
+Email is used to drive consumer interest and inquiry into the products and services of a company. To engage with customers you need two things:
 1.	Their contact information
 2.	Their permission
 
@@ -36,7 +37,7 @@ Your job is a cycle of:
 2. Content creation
 3. Content reach
 
-Brand and content are tied closely together — remember you have to earn permission to follow up, earn enrollment to teach — to organize and lead — to build confidence in writing the future. Together. And that comes down to trust and making good on your promises. 
+Brand and content are tied closely together — remember you have to earn permission to follow up, earn enrollment to teach — to organize and lead — to build confidence in writing the future. Together. And that comes down to trust and making good on your promises.
 
 Your goal is to build a connection to serve as a foundation and grow from there. We primarily discover things through digital interaction, coming across content by searching Google or browsing platforms such as LinkedIn, Facebook, etc.​
 
@@ -51,7 +52,7 @@ To add value to your audience, you need to answer questions like:​
 - Are they on board with your vision?​
 - How can you speak to them personally?​
 
-Keep in mind, that unless the people you are targeting have a previous connection to you, they don't care about you, your dreams, or your company. Even if you have the right solution and you’re excited to share it, people don’t want your solution. People want any solution that works for them. 
+Keep in mind, that unless the people you are targeting have a previous connection to you, they don't care about you, your dreams, or your company. Even if you have the right solution and you’re excited to share it, people don’t want your solution. People want any solution that works for them.
 
 This would be easy if every prospect and customer thought the way you do. So begin by understanding why people don’t choose you and what you have to offer them. Until you can be honest about why you're going to waste time and money (of your business and your customers). ​
 
@@ -67,12 +68,12 @@ It helps to use data and analytics to see what your current customers are spendi
 
 Understanding who you serve means treating people less like defaults and instead more like people with real lives.
 
-> People don’t buy for logical reasons. They buy for emotional reasons.​"  
+> People don’t buy for logical reasons. They buy for emotional reasons.​"
 — Zig Ziglar
 
 Never focus on talking about how you’re “better than the competition.” Get clear on the story you tell. It’s about helping someone see how you can fill a hole in their lives, and relating this to things they already understand. It’s about connecting the dots for someone, using the dots they know. ​
 
-Your goal is to keep moving closer to the foundational need. When the promise you make and the story you tell resonate with one of our core beliefs, they’ll have a larger impact. 
+Your goal is to keep moving closer to the foundational need. When the promise you make and the story you tell resonate with one of our core beliefs, they’ll have a larger impact.
 
 When your customers hear what you do, some of them will say “that’s exactly what I’ve been waiting for, tell me more about it.” ​
 
@@ -138,39 +139,39 @@ Cascading Style Sheets (CSS) is a style sheet language used for describing the p
 
 Not teaching HTML or CSS here.
 
-Basic table HTML format:  
+Basic table HTML format:
 
 {% highlight HTML %}
-<table> 
-  <tr> 
+<table>
+  <tr>
     <td></td>
     <td>
-      <table> 
-        <tr> 
+      <table>
+        <tr>
           <td>[content]</td>
-        </tr> 
-      </table> 
-    </td> 
-    <td></td> 
-  <tr> 
-</table> 
+        </tr>
+      </table>
+    </td>
+    <td></td>
+  <tr>
+</table>
 ​{% endhighlight %}
 
 
 Basic table HTML and inline CSS format:
 {% highlight HTML %}
-<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" style="background:#ebebeb" width="100%"> 
-  <tr> 
-    <td></td> 
+<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" style="background:#ebebeb" width="100%">
+  <tr>
+    <td></td>
       <td width="600" align="center">
-        <table align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidth" height="48" width="100%"> 
-          <tr> 
-           <td>[content]</td> 
-          </tr> 
-        </table> 
-      </td> 
-    <td></td> 
-  <tr> 
+        <table align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidth" height="48" width="100%">
+          <tr>
+           <td>[content]</td>
+          </tr>
+        </table>
+      </td>
+    <td></td>
+  <tr>
 </table>
 ​{% endhighlight %}
 
@@ -178,17 +179,17 @@ Basic table HTML and inline CSS format:
 
 That’s a lot to take in. Let’s explain why there are so many HTML tags:
 
-```<table>``` defines a table.  
-```<tr>``` defines a row in the table.  
-```<td>``` defines a cell in the row.  
+```<table>``` defines a table.
+```<tr>``` defines a row in the table.
+```<td>``` defines a cell in the row.
 
-The first ```<table>``` sets the background color for the email section. 
+The first ```<table>``` sets the background color for the email section.
 
-The empty ```<td></td>``` with no content allows the center to format properly by creating cells to fill in the sides of your content. 
+The empty ```<td></td>``` with no content allows the center to format properly by creating cells to fill in the sides of your content.
 
 The ```<td style=“width=“600”>``` provides a fluid width that acts as a max-width for your content while still allowing the text to wrap on smaller screens.
 
-By designing with fluid design in mind we allow content to adjust automatically based on the user’s set up. 
+By designing with fluid design in mind we allow content to adjust automatically based on the user’s set up.
 
 ---
 
@@ -211,11 +212,11 @@ A few things to take note of when designing for Outlook for Windows:
 
 ### A few more tips
 **Preview Text:**
-```<div>[Preview Text]</div>```  
+```<div>[Preview Text]</div>```
 To write custom preview text, place hidden text in the top of the email in a ```<div>``` element.
 
-**Responsive images:** ```<img width="600" style="width: 100%;">```  
-Most email clients (i.e. not Outlook) will follow ```style="100%"``` and keep it fluid while outlook will use ```width="600"``` — sadly this means that there is no such thing as fluid images in Outlook.  
+**Responsive images:** ```<img width="600" style="width: 100%;">```
+Most email clients (i.e. not Outlook) will follow ```style="100%"``` and keep it fluid while outlook will use ```width="600"``` — sadly this means that there is no such thing as fluid images in Outlook.
 
 
 <span style="color: rgba(51,51,51,.5);">Note: Images should be double the pixel size of their container (the container is 600 pixels in this case) in order to maintain a crisp quality.</span>
@@ -232,12 +233,12 @@ Although most email clients use HTML messages some clients and devices can't dis
 There are two main ways to send HTML emails from Outlook.
 
 #### Method 01: Copy and Paste
-1. Open saved HTML document in a browser 
-2. CTRL + A to select everything on the page 
-3. CTRL + C to copy 
-4. Create a new email in Outlook 
+1. Open saved HTML document in a browser
+2. CTRL + A to select everything on the page
+3. CTRL + C to copy
+4. Create a new email in Outlook
 5. CTRL + V to paste email into Outlook
-6. Edit text as normal  
+6. Edit text as normal
 
 This is the simplest method. However, if your HTML is not written with Outlook in mind this will break some things. As Outlook is converting the HTML to be editable with Outlook styles.
 
@@ -245,9 +246,9 @@ This is the simplest method. However, if your HTML is not written with Outlook i
 1. Using Outlook for Windows customize the Quick Access Toolbar by clicking the utmost top left down-arrow.
 2. Select “More Commands…”
 3. Then Choose Commands from “Compose Tools \| Message Tab”
-4. Find the “Attach File” function without an arrow. 
+4. Find the “Attach File” function without an arrow.
 5. Create a new email in Outlook
-6. Click the new Attach File button in the Quick Access TOolbar (located in the utmost top left) 
+6. Click the new Attach File button in the Quick Access TOolbar (located in the utmost top left)
 7. Select the HTML file and insert it as text
 8. Edit text as normal
 

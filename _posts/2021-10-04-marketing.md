@@ -5,6 +5,20 @@ description: 'What is marketing?'
 date: 'October 04, 2021'
 ---
 
+> [Brands grow by focusing on new customer acquisition, driven by increasing mental and physical availability, resulting in behaviorally loyal buyers.](https://www.themarketingstudent.com/how-brands-grow/)
+
+Is the problem you are not getting enough new prospects? Not enough trials? Too much churn?
+
+[Extreme questions for triggering ideas](https://critter.blog/2022/08/19/extreme-questions-for-triggering-ideas/):
+- If we were forced to increase our prices by 10x, what would we have to do to justify it?
+- If all our customers vanished, and we had to earn our growth and brand from scratch, what would we do?
+- If we were never allowed to provide tech support, in any form, what would have to change?
+- If our biggest competitor copied every single feature we have, how do we still win?
+- What if we are forced to ship a full, completed (at least MVP) new feature, in just two weeks, that would delight and surprise some fraction of our customers?
+- If we were not allowed to have a website, how would we still grow our business?
+- If we could never talk to our customers again, how would we figure out what to build?
+- What externality has the potential to kill the entire company?
+
 You mean different things to different people. Your product, your brand, your idea, all mean different things to different people. You can’t be everything to everybody.
 
 Who’s it for? What’s it for? What is the worldview of the audience you’re seeking to reach?
@@ -15,17 +29,22 @@ Who’s it for? What’s it for? What is the worldview of the audience you’re 
 Marketing works within the domain of status, affiliation, and convenience. Marketing is raising the status of the people you seek to serve, so that they would miss you if you were gone. Marketing is giving people the opportunity to say “people like us do things like this”. Marketing makes things better by making better things.
 
 There’s channel-specific marketing skills:
-- SEO
-- Social media marketing
+- SEO (where [2/3 of Google searches end without a click](https://sparktoro.com/blog/in-2020-two-thirds-of-google-searches-ended-without-a-click/), and [zero-click](https://sparktoro.com/blog/zero-click-content-the-counterintuitive-way-to-succeed-in-a-platform-native-world/))
+- [Social media marketing](https://stratechery.com/2022/instagram-tiktok-and-the-three-trends/)
+    - ([reject the algorithm](https://ofdollarsanddata.com/reject-the-algorithm/))
+    - [Out-group animosity drives engagement on social media](https://www.pnas.org/doi/10.1073/pnas.2024292118)
+    - [being online does not make most people more aggressive or hostile; it allows a small number of aggressive people to attack a much larger set of victims](https://psyarxiv.com/hwb83/)
 - Copywriting
+
+And these always succumb to the [Law of Shitty Clickthroughs](https://andrewchen.co/the-law-of-shitty-clickthroughs/).
+
+A growth setup requires experimenting with market positioning, product functionality, marketing channels, and even new monetisation models.
 
 And there’s positioning. Positioning impacts:
 - Marketing: messaging, audience targeting, campaign development.
 - Sales and business development: target customer segmentation and account strategy.
 - Customer success: onboarding and account expansion strategy.
 - Product and development: roadmaps and prioritization of features.
-
-
 
 The [5+1 Components of Positioning](https://commoncog.com/obviously-awesome/):
 1. What would your best customers would do if your solution didn’t exist?
@@ -36,6 +55,10 @@ The [5+1 Components of Positioning](https://commoncog.com/obviously-awesome/):
 6. What relevant trends make your product more relevant right now?
 
 > [Marketing exists to make sales easier]((https://kellblog.com/2020/04/26/marketing-exists-to-make-sales-easier/)).
+
+> The product. The warranty. The team. The color choices. The pricing. The way it feels in your hand. The urgency we have to tell our friends…
+> If you wait until you’re done before you do the marketing, you’ve waited far too long.
+> — [Seth Godin](https://seths.blog/2022/08/when-do-we-get-to-the-marketing-part/)
 
 Marketing and sales are two sides of the same coin–helping people move forward by generously showing up to solve their problems.
 
@@ -78,6 +101,8 @@ Because the best story wins. Not the best idea. Not the right answer. Just whoev
 - Silence
 
 (emphasis mine)
+
+[How tellable is the story?](https://www.ribbonfarm.com/2022/07/13/storytelling-tellability/)
 
 > Girard discovered that most of what we desire is mimetic (mi-met-ik) or imitative, not intrinsic. **Humans learn—through imitation—to want the same things other people want**, just as they learn how to speak the same language and play by the same cultural rules. Imitation plays a far more pervasive role in our society than anyone had ever openly acknowledged.
 >
@@ -419,3 +444,9 @@ Objects:
         * Code
         * Webhook
     * Physical
+
+- [If Rebranding’s the Answer, What was the Question?](https://kellblog.com/2019/08/31/if-rebrandings-the-answer-what-was-the-question/)
+- [HN: I remember feeling derisive about marketing](https://news.ycombinator.com/item?id=32226001)
+- [Growth loops: how does your product grow?](https://www.reforge.com/blog/growth-loops)
+- [Influence marketing](https://twitter.com/randfish/status/1403425690980999172?s=20&t=d31MOlx5kEGFSIoGgXkQoQ): no R.
+- [The Business Impact of Design](https://preciousm.co/the-business-impact-of-design)

@@ -17,6 +17,7 @@ last_modified_at: 2020-04-22T04:08:49+0000
 - [w3c Atom Docs](https://validator.w3.org/feed/docs/atom.html)
 - [Movable Type docs](https://movabletype.org/documentation/developer/api/atom-feeds/)
 - [Atom: Wikipedia](https://en.wikipedia.org/wiki/Atom_(Web_standard))
+- [RSS Feed Best Practises](https://kevincox.ca/2022/05/06/rss-feed-best-practices/)
 
 ---
 

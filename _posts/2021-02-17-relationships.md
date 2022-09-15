@@ -180,7 +180,11 @@ Psyche’s [How to make friends as an adult](https://psyche.co/guides/how-to-mak
 
 Ask people to meet for food or coffee. No, seriously, [just ask when you want something](https://www.lesswrong.com/posts/rEBXN3x6kXgD4pLxs/tell-culture).
 
+[What has become clearer since we last met?](https://alearningaday.blog/2022/07/20/what-has-become-clearer/)
+
 [Friendships form via shared context, not shared activities](https://news.ycombinator.com/item?id=31562478)
+
+[Are you my friend?](https://moretothat.com/are-you-my-friend/)
 
 A few ideas for my future self:
 

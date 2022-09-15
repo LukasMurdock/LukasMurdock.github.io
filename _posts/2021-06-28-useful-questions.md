@@ -5,6 +5,8 @@ description: ''
 date: 'June 28, 2021'
 ---
 
+[Quick answers](https://quick-answers.kronis.dev/)
+
 ## The Seven Essential Questions
 
 From The Coaching Habit.
@@ -203,4 +205,3 @@ details[open] summary {
     margin-bottom: .5em;
 }
 </style>
- 

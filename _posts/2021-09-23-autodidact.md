@@ -32,6 +32,7 @@ date: 'September 23, 2021'
 - [Unbundling the University](https://darkblueheaven.com/unbundling/)
 - [Akimbo: Enforcement and enrollment](https://shows.acast.com/akimbo/episodes/enforcement-and-enrollment)
 - [I should have loved biology](https://jsomers.net/i-should-have-loved-biology/)
+- [Confessions of a Prep School College Counselor](https://www.theatlantic.com/magazine/archive/2001/09/confessions-of-a-prep-school-college-counselor/302281/)
 
 ## On Self Learning
 ### Articles
@@ -61,6 +62,13 @@ date: 'September 23, 2021'
 - [The Autodidacts](https://www.autodidacts.io/)
 - [Incidental Learning](https://effectiviology.com/incidental-learning/)
 - [Learning and teaching practical wisdom](https://drmaciver.substack.com/p/learning-and-teaching-practical-wisdom)
+- [Veritasium: The 4 things it takes to be an expert](https://youtu.be/5eW6Eagr9XA)
+    1. Repeated attempts with feedback
+    2. Valid environment
+    3. Timely feedback
+    4. Don’t get too comfortable
+- [HN: Spaced repetition can allow for infinite recall](https://news.ycombinator.com/item?id=32381206)
+- [ACT: Skills Plateau Because Of Decay And Interference](https://astralcodexten.substack.com/p/skills-plateau-because-of-decay-and)
 
 ### Books
 - [David A. Kolb: Experiential Learning: Experience as the Source of Learning and Development](https://www.amazon.com/Experiential-Learning-Experience-Source-Development-dp-0133892409/dp/0133892409/ref=dp_ob_title_bk) (1984)

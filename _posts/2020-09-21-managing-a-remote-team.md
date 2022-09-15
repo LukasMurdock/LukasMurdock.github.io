@@ -236,3 +236,4 @@ Related:
 - [Book Review: Talent](https://thezvi.substack.com/p/book-review-talent)
 - [The weekly CEO e-mail](https://medium.com/@gokulrajaram/the-weekly-ceo-e-mail-b5eaafcee6fa)
 - [BICEPS](https://critter.blog/2022/06/28/show-me-your-biceps-%f0%9f%92%aa/)
+- [Intense teams not tense teams](https://critter.blog/2022/08/16/intense-teams-not-tense-teams/)

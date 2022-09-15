@@ -26,6 +26,8 @@ Wes Bos [Command Line Power User](https://commandlinepoweruser.com/)
 - `git pull origin main`
 - `git push origin main`
 
+[Git in two minutes](https://www.garyrobinson.net/2014/10/git-in-two-minutes-for-a-solo-developer.html)
+
 ## Config
 - `/scripts`
 - `/dotfiles`

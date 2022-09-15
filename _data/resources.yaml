@@ -1066,6 +1066,11 @@ fulldata:
         Comment: "Find and share frameworks for design research, synthesis, and ideation."
         Date: Apr 22, 2020
 
+      - Title: "Copybook"
+        Link: "https://copybook.me/"
+        Comment: "A collection of commonly used texts."
+        Date: 2022-09-14
+
       - Title: Copy Ipsum
         Link: "https://www.copyipsum.com/"
         Comment: "A landing template that shows you how to write unignorable web copy."
@@ -1150,6 +1155,11 @@ fulldata:
         Link: "https://tablericons.com/"
         Comment: "Fully customizable free SVG icons."
         Date: July 16, 2020
+
+      - Title: "Basic Icons"
+        Link: "https://basicons.xyz/"
+        Comment: "Basic icons for product design & development"
+        Date: 2022-09-14
 
       - Title: "Simple Icons"
         Link: "https://simpleicons.org/"
@@ -3709,6 +3719,11 @@ fulldata:
         Link: "http://www.aaronsw.com/"
         Comment: "No summary can do Aaron justice. Remember Aaron Swartz."
         Date: Dec 04, 2020
+
+      - Title: "Bugwood Wiki"
+        Link: "https://wiki.bugwood.org/Main_Page"
+        Comment: ""
+        Date: 2022-09-14
 
   #The Great Forums
   - Type: The Great Forums

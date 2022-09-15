@@ -23,7 +23,7 @@ When you teach you get feedback on your articulation.
 
 You’re often not even aware of your own process. To better understand your process and what’s missing, articulate it.
 
-Feedback allows you to find gaps you couldn’t see before. To improve something, create better feedback loops. 
+Feedback allows you to find gaps you couldn’t see before. To improve something, create better feedback loops.
 
 Noisy feedback can ruin you. Carefully select the feedback you pay attention and reduce the noise to get more of the signal.
 
@@ -35,6 +35,8 @@ Make high intensity, rapid feedback situations. It’s hard, it’s uncomfortabl
 
 [Read more about Learning here](https://lukasmurdock.com/ultralearning/)
 
-Improving is bottlenecked by feedback loops. To improve faster, create faster feedback loops. AI has the fastest feedback loop ever seen. The process and scale from input to alteration is faster than anything humans are remotely capable of. 
+Improving is bottlenecked by feedback loops. To improve faster, create faster feedback loops. AI has the fastest feedback loop ever seen. The process and scale from input to alteration is faster than anything humans are remotely capable of.
 
 Moving forward we need to see how we can enhance our own feedback loops. Just because we have machines doesn’t mean we can stop improving what we know.
+
+- [Want feedback? Demand it.](https://critter.blog/2022/07/29/want-feedback-demand-it/)
