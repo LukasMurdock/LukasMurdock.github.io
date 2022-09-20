@@ -133,7 +133,7 @@ Technology:
 * CSS
 * Javascript
 
-## (2021) Virra
+## (2021) Virra App v1
 
 A startup founded by a fellow student at University. Invited me to redesign their website, became a solo project to redesign and rebuild their website and build new web applications.
 
@@ -156,7 +156,6 @@ Technology:
 * SQLite
 * Docker
 * Deno (explored)
-* Git
 * Fly.io
 
 ## (2022) Virra Flask API Exploration
@@ -165,8 +164,18 @@ Backend exploration.
 
 Technology:
 * Flask (Python)
-* Git
 * Fly.io
+
+## (2022) Virra App v2
+
+Technology:
+* Remix.js (React.js/Node.js)
+* Tailwind
+* Prisma
+* Planetscale
+* Upstash
+* Vercel
+* Directus
 
 ## (2022) Bloxsmith
 

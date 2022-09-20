@@ -169,13 +169,13 @@ Would they miss you if you stopped?
 
 ## A Land & Expand Reading Program
 - 1984 [Robert Cialdini: Influence](https://www.goodreads.com/book/show/28815.Influence)
+- 2002 [Adam Curtis: The Century of the Self](https://thoughtmaybe.com/the-century-of-the-self/) (video)
 - 2013 [A.G. Lafley: Playing to Win](https://www.amazon.com/dp/B00AJVJ1HI/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
 - 2014 [Erin Meyer: The Culture Map](https://erinmeyer.com/books/the-culture-map/)
 - 2015 [Yuval Noah Harari: Sapiens](https://www.ynharari.com/book/sapiens-2/)
 - 2016 [Robert Cialdini: Pre-suasion](https://www.amazon.com/Pre-Suasion-Revolutionary-Way-Influence-Persuade-ebook/dp/B01C36E2YS)
 - 2018 [Eliezer Yudkowsky: Map and Territory](https://www.amazon.com/gp/product/B07LDF7J3Q?notRedirectToSDP=1&ref_=dbs_mng_calw_0&storeType=ebooks)
 - 2018 [Seth Godin: This Is Marketing](https://seths.blog/tim/)
-
 
 ### Other books
 - 🌳 Edward Bernays: Propaganda (1928)
