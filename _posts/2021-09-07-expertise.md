@@ -123,3 +123,7 @@ You have to compare cases—what’s similar? Does it remind you of a particular
 > — [Morgan Housel](https://collabfund.com/blog/five-lessons-from-history/)
 
 [HIG Interrogation Best Practices Report](https://www.fbi.gov/file-repository/hig-report-august-2016.pdf/view)
+
+
+- [Venkatesh Rao: Thinking in OODA Loops](https://www.ribbonfarm.com/2021/12/06/thinking-in-ooda-loops/)
+- [Cedric Chin: Much Ado About The OODA Loop](https://commoncog.com/much-ado-about-the-ooda-loop/)
