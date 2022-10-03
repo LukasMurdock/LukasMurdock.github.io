@@ -33,6 +33,7 @@ last_modified_at: 2021-06-01T14:33:01-0400
 Google Chrome | https://lukasmurdock.com/chrome-extensions/::
 Brave Browser | https://brave.com/::
 Visual Studio Code | https://lukasmurdock.com/vs-code/::
+Dash | https://kapeli.com/dash::
 iTerm2 | https://lukasmurdock.com/command-line::
 iA Writer | https://ia.net/writer::
 Spark mail | https://sparkmailapp.com/::
@@ -45,7 +46,6 @@ Horo | https://matthewpalmer.net/horo-free-timer-mac/::
 Rocket | https://matthewpalmer.net/rocket/::
 NetNewsWire | https://netnewswire.com/::
 Readwise | https://readwise.io/::
-Express VPN | https://www.expressvpn.com/::
 Vector Magic | https://vectormagic.com/::
 Carbon Copy Cloner | https://bombich.com/::
 Transmission | https://transmissionbt.com/::
