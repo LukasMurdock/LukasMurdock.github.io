@@ -9,6 +9,7 @@ After hearing and laughing about the Mucinex sickwear, I’ve been collecting wh
 
 To a larger extent, these exist as concept instantiations of affiliation, so I’ve marked decided to list them here.
 
+- [Michelin Guide](https://en.wikipedia.org/wiki/Michelin_Guide)
 - [Mucinex sickwear](https://www.erikiversenproductions.com/recent-historical/mucinex-sickwear)
 - [Chill by Netflix](https://www.netflix.shop/collections/chill-by-netflix-season-1)
 - [Arby’s Deep Friend Turkey Pillow](https://arbysdeepfriedturkeypillow.com/)
