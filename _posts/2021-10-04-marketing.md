@@ -450,3 +450,5 @@ Objects:
 - [Growth loops: how does your product grow?](https://www.reforge.com/blog/growth-loops)
 - [Influence marketing](https://twitter.com/randfish/status/1403425690980999172?s=20&t=d31MOlx5kEGFSIoGgXkQoQ): no R.
 - [The Business Impact of Design](https://preciousm.co/the-business-impact-of-design)
+- [Be Big, Be Special](https://www.invencion.com/campaigns/view-email/ujsjjLyl-fJZtiVSXk8NvB1EAt6rOH8GnhWJZU3_vqJfDTX7hgmh25ZyVkAQ967-FmnpcQnTX_rGUQJe3WFq-nBtDJgXf4a0sj0PoM8Mrno-84IaiUEAVFle1rTxZE1p8A==?ss_source=sscampaigns&ss_campaign_id=63287baf0e778a6202a47c05&ss_email_id=632c4adaf3f4955743181d4a&ss_campaign_name=Off+Kilter+112%3A+Be+Big%2C+Be+Special.&ss_campaign_sent_date=2022-09-22T11%3A45%3A44Z)
+- [The chief hype officer](https://seths.blog/2022/09/the-chief-hype-officer/)

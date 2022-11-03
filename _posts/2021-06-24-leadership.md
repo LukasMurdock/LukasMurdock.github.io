@@ -31,6 +31,8 @@ Leadership here refers to team leadership, in contrast to the wider [marketing l
 - [Clear ownership and decision making with DRI](https://newsletter.buditanrim.co/p/clear-ownership-and-decision-making)
 - [On project management](https://newsletter.buditanrim.co/p/on-project-management)
 - [Binstack: Making a maximal multi-dimensional decision](https://longform.asmartbear.com/docs/maximized-decision/)
+- [Focus on tradeoffs](https://vaughntan.org/unpacking-boris)
+- [Project management: Fluffy & Ambiguous](https://cutlefish.substack.com/p/tbm-4252-fluffy-and-ambiguous)
 
 ## Videos
 - [17:48] [Simon Sinek: How great leaders inspire action](https://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action)
