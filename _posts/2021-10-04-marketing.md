@@ -452,3 +452,5 @@ Objects:
 - [The Business Impact of Design](https://preciousm.co/the-business-impact-of-design)
 - [Be Big, Be Special](https://www.invencion.com/campaigns/view-email/ujsjjLyl-fJZtiVSXk8NvB1EAt6rOH8GnhWJZU3_vqJfDTX7hgmh25ZyVkAQ967-FmnpcQnTX_rGUQJe3WFq-nBtDJgXf4a0sj0PoM8Mrno-84IaiUEAVFle1rTxZE1p8A==?ss_source=sscampaigns&ss_campaign_id=63287baf0e778a6202a47c05&ss_email_id=632c4adaf3f4955743181d4a&ss_campaign_name=Off+Kilter+112%3A+Be+Big%2C+Be+Special.&ss_campaign_sent_date=2022-09-22T11%3A45%3A44Z)
 - [The chief hype officer](https://seths.blog/2022/09/the-chief-hype-officer/)
+- [How to Sell](https://nabeelqu.co/post-selling)
+- [Millennials are out; blah blahs are your next target group](https://www.marketingweek.com/mark-ritson-millennials-are-out-blah-blahs-are-your-next-target-group/)

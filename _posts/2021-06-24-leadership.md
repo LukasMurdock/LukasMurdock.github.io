@@ -33,6 +33,9 @@ Leadership here refers to team leadership, in contrast to the wider [marketing l
 - [Binstack: Making a maximal multi-dimensional decision](https://longform.asmartbear.com/docs/maximized-decision/)
 - [Focus on tradeoffs](https://vaughntan.org/unpacking-boris)
 - [Project management: Fluffy & Ambiguous](https://cutlefish.substack.com/p/tbm-4252-fluffy-and-ambiguous)
+- [Reality distortion field](https://en.wikipedia.org/wiki/Reality_distortion_field)
+- [Promise me that whenever you’re scared to ask something, you’ll ask](https://critter.blog/2022/10/03/promise-me-that-whenever-youre-scared-to-ask-something-youll-ask/)
+- [Lara Hogan: Resources for navigating complex leadership work](https://larahogan.me/blog/management-resource-library/)
 
 ## Videos
 - [17:48] [Simon Sinek: How great leaders inspire action](https://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action)

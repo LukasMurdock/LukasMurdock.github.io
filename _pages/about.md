@@ -458,6 +458,7 @@ My favorite fonts on Google Fonts.
 - [Outfit](https://fonts.google.com/specimen/Outfit#standard-styles)
 - [Readex Pro](https://fonts.google.com/specimen/Readex+Pro#standard-styles)
 - [Spline Sans](https://fonts.google.com/specimen/Spline+Sans#standard-styles)
+- [Figtree](https://www.erikdkennedy.com/projects/figtree.html)
 
 ##### Soft-serif
 - [Fraunces](https://github.com/undercasetype/fraunces)

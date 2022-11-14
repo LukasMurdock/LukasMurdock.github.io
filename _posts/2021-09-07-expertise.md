@@ -127,3 +127,5 @@ You have to compare cases—what’s similar? Does it remind you of a particular
 
 - [Venkatesh Rao: Thinking in OODA Loops](https://www.ribbonfarm.com/2021/12/06/thinking-in-ooda-loops/)
 - [Cedric Chin: Much Ado About The OODA Loop](https://commoncog.com/much-ado-about-the-ooda-loop/)
+- [Cedric Chin: Ability to See Expertise is a Milestone Worth Aiming For](https://commoncog.com/seeing-expertise-milestone-worth-aiming-for/)
+- [Mapping the Unknown – The Ten Steps to Map Any Industry](https://steveblank.com/2022/09/20/mapping-the-unknown-the-ten-steps-to-map-any-industry/)
