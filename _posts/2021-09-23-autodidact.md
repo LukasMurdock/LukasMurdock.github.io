@@ -3,6 +3,7 @@ layout: post
 title: 'Autodidactism'
 description: ''
 date: 'September 23, 2021'
+tags: annual
 ---
 
 ## On School and Education
@@ -87,3 +88,78 @@ date: 'September 23, 2021'
 
 - [ADS: Beware the Casual Polymath](https://applieddivinitystudies.com/2020/09/28/polymath/)
 - [Robin Rendle: Growing and Learning](https://www.robinrendle.com/notes/growing-and-learning/)
+
+## Research
+
+[https://lukasmurdock.com/knowledge/#academia](https://lukasmurdock.com/knowledge/#academia)
+
+## Selected Set
+- Mathematics
+- Physics
+- Business
+
+### Mathematics
+- [Wikipedia: Outline of Mathematics](https://en.wikipedia.org/wiki/Outline_of_mathematics)
+- [Kill Math](http://worrydream.com/KillMath/)
+
+### Physics
+- [Wikipedia: Outline of Physics](https://en.wikipedia.org/wiki/Outline_of_physics)
+- [So You Want To Learn Physics...](https://www.susanjfowler.com/blog/2016/8/13/so-you-want-to-learn-physics)
+- [Physics Travel Guide](https://physicstravelguide.com/)
+
+## [Outline of academic disciplines](https://en.wikipedia.org/wiki/Outline_of_academic_disciplines)
+1. Humanities
+2. Social science
+3. Natural science
+4. Formal science
+5. Applied science
+
+### 1. Humanities
+1. Performing Arts
+2. Visual arts
+3. [History](https://en.wikipedia.org/wiki/Outline_of_history)
+4. [Languages and literature](https://en.wikipedia.org/wiki/Outline_of_literature)
+5. [Law](https://en.wikipedia.org/wiki/Outline_of_law)
+6. [Philosophy](https://en.wikipedia.org/wiki/Outline_of_philosophy)
+7. Religious studies
+8. [Theology](https://en.wikipedia.org/wiki/Outline_of_theology)
+
+### 2. Social science
+1. [Anthropology](https://en.wikipedia.org/wiki/Outline_of_anthropology)
+2. [Archaeology](https://en.wikipedia.org/wiki/Outline_of_archaeology)
+3. [Economics](https://en.wikipedia.org/wiki/Outline_of_economics)
+4. [Geography](https://en.wikipedia.org/wiki/Outline_of_geography)
+5. [Political science](https://en.wikipedia.org/wiki/Outline_of_political_science)
+6. [Psychology](https://en.wikipedia.org/wiki/Outline_of_psychology)
+7. [Sociology](https://en.wikipedia.org/wiki/Outline_of_sociology)
+8. [Social work](https://en.wikipedia.org/wiki/Social_work)
+
+### 3. Natural science
+1. [Biology](https://en.wikipedia.org/wiki/Outline_of_biology)
+2. [Chemistry](https://en.wikipedia.org/wiki/Outline_of_chemistry)
+3. Earth science
+4. [Astronomy](https://en.wikipedia.org/wiki/Outline_of_astronomy)
+5. [Physics](https://en.wikipedia.org/wiki/Outline_of_physics)
+
+### 4. Formal science
+1. [Computer science](https://en.wikipedia.org/wiki/Outline_of_computer_science)
+2. [Mathematics](https://en.wikipedia.org/wiki/Outline_of_mathematics)
+
+### 5. Applied science
+1. Agriculture
+2. Architecture and design
+3. [Business](https://en.wikipedia.org/wiki/Outline_of_business)
+4. Divinity
+5. [Education](https://en.wikipedia.org/wiki/Outline_of_education)
+6. Engineering and technology
+7. Environmental studies and forestry
+8. Family and consumer science
+9. Human physical performance and recreation
+10. Journalism, media studies and communication
+11. Law
+12. Library and museum studies
+13. Medicine and health
+14. Military services
+15. Public administration
+16. Social work
+17. Transportation
