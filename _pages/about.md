@@ -449,6 +449,7 @@ My favorite fonts on Google Fonts.
 - Libre Baskerville
 - [Literata](https://fonts.google.com/specimen/Literata)
 - [Besley](https://fonts.google.com/specimen/Besley)
+- [Rosarivo](https://fonts.google.com/specimen/Rosarivo)
 
 ##### Sans-Serif
 - [Roboto](https://fonts.google.com/specimen/Roboto)
