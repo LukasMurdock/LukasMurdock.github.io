@@ -433,6 +433,8 @@ With this stack my entire website is currently free, aside from paying for the d
 
 - [Atkinson Hyperlegible](https://brailleinstitute.org/freefont)
 - [HEX Franklin](https://hex.xyz/HEX_Franklin/) (no matter what weight you use, the letters are always the same width)
+- [Iowan Old Style](https://en.wikipedia.org/wiki/Iowan_Old_Style)
+- [Figtree](https://www.erikdkennedy.com/projects/figtree.html)
 
 #### Font Foundries
 - [Klim Type](https://klim.co.nz/)
@@ -459,7 +461,6 @@ My favorite fonts on Google Fonts.
 - [Outfit](https://fonts.google.com/specimen/Outfit#standard-styles)
 - [Readex Pro](https://fonts.google.com/specimen/Readex+Pro#standard-styles)
 - [Spline Sans](https://fonts.google.com/specimen/Spline+Sans#standard-styles)
-- [Figtree](https://www.erikdkennedy.com/projects/figtree.html)
 
 ##### Soft-serif
 - [Fraunces](https://github.com/undercasetype/fraunces)
@@ -467,32 +468,8 @@ My favorite fonts on Google Fonts.
 ##### Slab Serif
 
 
-### Companies that seem cool
-- Automattic
-    - All-remote, WordPress, Tublr, WooCommerce, Jetpack, WP VIP, VaultPress, Akismet, Longreads, Simplenot, Crowdsignal, Happy Tools, Gravatar, WP for iOS
-- Basecamp
-    - All-remote, DHH, JF, it’s Basecamp.
-- Webflow
-    - They produce incredibly well-produced tutorials for their incredibly well-produced product
-- Stripe
-    - Patrick McKenzie wrote about it
-- Shopify
-    - Alex Danco wrote about it
-- Vercel
-    - Design is just *mwah*, and Lee Robinson made React 2025
-- U.S. Web Design System (USWDS)
-    - A design system for the federal government‽
-- TheFutur
-    - Produces amazing educational content and courses
-- Airtable
-    - The product is fun to use, no offline support is annoying though
-- Asana
-    - Same deal, it’s just pretty
-- Wealthfront
-    - Pretty
-
-### Names that raise my blood pressure just by hearing
-- Adobe
-- Pearson
-- Proctorio
-- GoDaddy
+### 💩 List
+- [Adobe](https://en.wikipedia.org/wiki/Adobe_Inc.#Criticisms)
+- [GoDaddy](https://en.wikipedia.org/wiki/GoDaddy#Controversies)
+- [Pearson](https://en.wikipedia.org/wiki/Pearson_plc#Criticism)
+- [Proctorio](/learning-integrity/)
