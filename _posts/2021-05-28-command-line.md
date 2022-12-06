@@ -9,22 +9,22 @@ tags: annual
 
 First, I’m currently running an Intel Mac, and using Homebrew as a package manager.
 
-[Taco Bell Programming](http://widgetsandshit.com/teddziuba/2010/10/taco-bell-programming.html)
+## References
 
-[Homebrew analytics](https://formulae.brew.sh/analytics/)
-
-Timely -> [Missing Semester of Your CS Education](https://missing.csail.mit.edu/)
-
-[Unofficial Guide to dotfiles on GitHub](https://dotfiles.github.io/tutorials/)
-
-Wes Bos [Command Line Power User](https://commandlinepoweruser.com/)
+- [Taco Bell Programming](http://widgetsandshit.com/teddziuba/2010/10/taco-bell-programming.html)
+- [Homebrew analytics](https://formulae.brew.sh/analytics/)
+- [Missing Semester of Your CS Education](https://missing.csail.mit.edu/)
+- [Unofficial Guide to dotfiles on GitHub](https://dotfiles.github.io/tutorials/)
+- Wes Bos [Command Line Power User](https://commandlinepoweruser.com/)
 
 ## Git
-- `git status`
-- `git add <file>`
-- `git commit -m ""`
-- `git pull origin main`
-- `git push origin main`
+```
+git status
+git add <file>
+git commit -m ""
+git pull origin main
+git push origin main
+```
 
 [Git in two minutes](https://www.garyrobinson.net/2014/10/git-in-two-minutes-for-a-solo-developer.html)
 
@@ -32,7 +32,7 @@ Wes Bos [Command Line Power User](https://commandlinepoweruser.com/)
 - `/scripts`
 - `/dotfiles`
 
-To maintain configurations across computers I keep a `/dotfiles` folder in Github. This folder has the `.zshrc` file that I use. (I feel like this might be better as a Gist?)
+To maintain configurations across computers I keep a `/dotfiles` folder in Github. This folder has the `.zshrc` file that I use. (might be better as a Gist?)
 
 I clone the `/dotfiles` folder to the Home directory.
 
@@ -98,16 +98,13 @@ Awesome lists:
 
 
 ## Basic Terminal Things
-[Keyboard shortcuts in Terminal on Mac
-](https://support.apple.com/guide/terminal/keyboard-shortcuts-trmlshtcts/mac)
+[Keyboard shortcuts in Terminal on Mac](https://support.apple.com/guide/terminal/keyboard-shortcuts-trmlshtcts/mac)
 - Clear terminal: <kbd>Command</kbd> + <kbd>K</kbd>
 - Clear terminal line: <kbd>Control</kbd> + <kbd>U</kbd>
 - Delete forward to the end of the word: <kbd>Escape</kbd> + <kbd>D</kbd>
     - <kbd>Option</kbd> + <kbd>D</kbd> is available with [Use Option as Meta Key](https://support.apple.com/guide/terminal/change-profiles-keyboard-preferences-trmlkbrd/2.11/mac/11.0))
 - Reposition insertion point: <kbd>Option</kbd> + <kbd>Click</kbd>
-
 - Open an app: `open -a slack`
-
 - [Who is listening on a given TCP port on Mac OS X](https://stackoverflow.com/a/30029855) `sudo lsof -iTCP -sTCP:LISTEN -n -P`
 
 ## iTerm2

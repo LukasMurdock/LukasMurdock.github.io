@@ -1,0 +1,234 @@
+{
+    "events": [
+      {
+        "start_date": {
+          "year": "1478",
+          "month": "2",
+          "day": "7"
+        },
+        "end_date": {
+          "year": "1535",
+          "month": "7",
+          "day": "6"
+        },
+        "text": {
+          "headline": "Sir Thomas More",
+          "text": "<p>Sir Thomas More was an English lawyer, judge, social philosopher, author, statesman, and noted Renaissance humanist. He also served Henry VIII as Lord High Chancellor of England from October 1529 to May 1532.</p>"
+        }
+      },
+      {
+        "start_date": {
+          "year": "1516"
+        },
+        "text": {
+          "headline": "“Utopia”",
+          "text": "<p>Thomas More’s Utopia, published in Latin, was the first record of the word “Utopia”.</p>"
+        }
+      },
+      {
+        "start_date": {
+          "year": "1806",
+          "month": "5",
+          "day": "20"
+        },
+        "end_date": {
+          "year": "1873",
+          "month": "5",
+          "day": "7"
+        },
+        "text": {
+          "headline": "John Stuart Mill",
+          "text": "<p>John Stuart Mill was an English philosopher, political economist, Member of Parliament (MP) and civil servant. One of the most influential thinkers in the history of classical liberalism, he contributed widely to social theory, political theory, and political economy. Dubbed “the most influential English-speaking philosopher of the nineteenth century”, he conceived of liberty as justifying the freedom of the individual in opposition to unlimited state and social control.</p>"
+        }
+      },
+      {
+        "start_date": {
+          "year": "1839",
+          "month": "7",
+          "day": "8"
+        },
+        "end_date": {
+          "year": "1937",
+          "month": "5",
+          "day": "23"
+        },
+        "text": {
+          "headline": "John D. Rockefeller",
+          "text": "<p>John Davison Rockefeller Sr. was an American business magnate and philanthropist. He has been widely considered the wealthiest American of all time and the richest person in modern history.</p>"
+        }
+      },
+      {
+        "start_date": {
+          "year": "1868",
+          "month": "3",
+          "day": "12"
+        },
+        "text": {
+          "headline": "“Dystopian”",
+          "text": "<p>The first use of “Dystopian” as an “imaginary bad place” was in a speech given by John Stuart Mill in 1868 during an adjourned debate.</p><blockquote>I may be permitted, as one who, in common with many of my betters, have been subjected to the charge of being Utopian, to congratulate the Government on having joined that goodly company. It is, perhaps, too complimentary to call them Utopians, they ought rather to be called dys-topians, cacotopians. What is commonly called Utopian is something too good to be practicable; but what they appear favour is too bad to be practicable.</blockquote>"
+        }
+      },
+      {
+        "start_date": {
+          "year": "1863"
+        },
+        "end_date": {
+          "year": "1869",
+          "month": "5",
+          "day": "10"
+        },
+        "text": {
+          "headline": "First transcontinental railroad",
+          "text": "<p>North America's first transcontinental railroad (known originally as the “Pacific Railroad” and later as the “Overland Route”) was a 1,911-mile (3,075 km) continuous railroad line constructed between 1863 and 1869."
+        }
+      },
+      {
+        "start_date": {
+          "year": "1863",
+          "month": "11",
+          "day": "14"
+        },
+        "end_date": {
+          "year": "1944",
+          "month": "2",
+          "day": "23"
+        },
+        "text": {
+          "headline": "Leo Baekeland",
+          "text": "Leo Hendrik Baekeland was a Belgian chemist. He is best known for the inventions of Velox photographic paper in 1893, and Bakelite in 1907. He has been called “The Father of the Plastics Industry” for his invention of Bakelite, an inexpensive, non-flammable and versatile plastic, which marked the beginning of the modern plastics industry."
+        }
+      },
+      {
+        "start_date": {
+          "year": "1863",
+          "month": "7",
+          "day": "30"
+        },
+        "end_date": {
+          "year": "1947",
+          "month": "4",
+          "day": "7"
+        },
+        "text": {
+          "headline": "Henry Ford",
+          "text": "Henry Ford was an American industrialist, business magnate, founder of the Ford Motor Company, and chief developer of the assembly line technique of mass production. By creating the first automobile that middle-class Americans could afford, he converted the automobile from an expensive luxury into an accessible conveyance that profoundly impacted the landscape of the 20th century."
+        }
+      },
+      {
+        "start_date": {
+          "year": "1866",
+          "month": "9",
+          "day": "21"
+        },
+        "end_date": {
+          "year": "1946",
+          "month": "8",
+          "day": "13"
+        },
+        "text": {
+          "headline": "Herbert George (H.G.) Wells",
+          "text": "<p>H.G. Wells was an English writer. Prolific in many genres, he wrote more than fifty novels and dozens of short stories. His non-fiction output included works of social commentary, politics, history, popular science, satire, biography and autobiography. Wells is now best remembered for his science fiction novels and has been called the “father of science fiction.”</p>"
+        }
+      },
+      {
+        "start_date": {
+          "year": "1875",
+          "month": "6",
+          "day": "28"
+        },
+        "end_date": {
+          "year": "1941",
+          "month": "7",
+          "day": "26"
+        },
+        "text": {
+          "headline": "Henri Lebesgue",
+          "text": "<p>Henri Léon Lebesgue was a French mathematician known for his theory of integration, which was a generalization of the 17th-century concept of integration—summing the area between an axis and the curve of a function defined for that axis. His theory was published originally in his dissertation Intégrale, longueur, aire (“Integral, length, area”) at the University of Nancy during 1902.</p>"
+        }
+      },
+      {
+        "start_date": {
+          "year": "1884",
+          "month": "2",
+          "day": "1"
+        },
+        "end_date": {
+          "year": "1937",
+          "month": "3",
+          "day": "10"
+        },
+        "text": {
+          "headline": "Yevgeny Zamyatin",
+          "text": "<p>Yevgeny Ivanovich Zamyatin was a Russian author of science fiction, philosophy, literary criticism, and political satire.</p>"
+        }
+      },
+      {
+        "start_date": {
+          "year": "1894",
+          "month": "7",
+          "day": "26"
+        },
+        "end_date": {
+          "year": "1963",
+          "month": "11",
+          "day": "22"
+        },
+        "text": {
+          "headline": "Aldous Huxley",
+          "text": "<p>Aldous Huxley was an English writer and philosopher. He wrote nearly 50 books, both novels and non-fiction works, as well as wide-ranging essays, narratives, and poems.</p>"
+        }
+      },
+      {
+        "start_date": {
+          "year": "1903",
+          "month": "6",
+          "day": "25"
+        },
+        "end_date": {
+          "year": "1950",
+          "month": "1",
+          "day": "21"
+        },
+        "text": {
+          "headline": "George Orwell",
+          "text": "<p>Eric Arthur Blair, better known by his pen name George Orwell, was an English novelist, essayist, journalist, and critic. His work is characterized by lucid prose, social criticism, opposition to totalitarianism, and support of democratic socialism.</p>"
+        }
+      },
+      {
+        "start_date": {
+          "year": "1911"
+        },
+        "text": {
+          "headline": "Standard Oil: a monopoly",
+          "text": "<p>Rockefeller’s wealth came from Standard Oil, a petroleum company so large the U.S. Supreme Court ruled it was an illegal monopoly in 1911. Standard Oil lives on through its descendants who continue to make up the largest oil and gas companies.</p>"
+        }
+      },
+      {
+        "start_date": {
+          "year": "1924"
+        },
+        "text": {
+          "headline": "We by Yevgeny Zamyatin",
+          "text": "<p><em>We</em> was first published as an English translation by Gregory Zilboorg in 1924.</p>"
+        }
+      },
+      {
+        "start_date": {
+          "year": "1932"
+        },
+        "text": {
+          "headline": "Brave New World by Aldous Huxley"
+        }
+      },
+      {
+        "start_date": {
+          "year": "1949",
+          "month": "6",
+          "day": "8"
+        },
+        "text": {
+          "headline": "Nineteen Eighty-Four by George Orwell"
+        }
+      }
+    ]
+  }

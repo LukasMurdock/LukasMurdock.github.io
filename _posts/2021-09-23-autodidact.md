@@ -157,7 +157,7 @@ tags: annual
 9. Human physical performance and recreation
 10. Journalism, media studies and communication
 11. Law
-12. Library and museum studies
+12. [Library and museum studies](https://en.wikipedia.org/wiki/Outline_of_library_and_information_science)
 13. Medicine and health
 14. Military services
 15. Public administration
