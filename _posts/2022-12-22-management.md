@@ -30,11 +30,13 @@ Internal:
 - 1984 [Eliyahu M. Goldratt: The Goal](https://jamesclear.com/book-summaries/the-goal)
 - 1987 [Timothy Lister, Tom DeMarco: Peopleware](https://www.oreilly.com/library/view/peopleware-productive-projects/9780133440706/)
 - 1989 [Stephen R. Covey: The 7 Habits of Highly Effective People](https://www.franklincovey.com/the-7-habits/)
+- 1993 [David Maister: Managing the Professional Service Firm](https://davidmaister.com/books/mtpsf/)
 - 1998 [John C. Maxwell: The 21 Irrefutable Laws of Leadership](https://store.maxwellleadership.com/The-21-Irrefutable-Laws-of-Leadership-25th-Anniversary-Edition-Hardcover_p_3038.html)
 - 2001 [Tom DeMarco: Slack](https://www.penguinrandomhouse.com/books/39276/slack-by-tom-demarco/)
 - 2001 [David Allen: Getting Things Done](https://gettingthingsdone.com/)
 - 2002 [Patrick Lencioni: the Five Dysfunctions of a Team](https://www.tablegroup.com/product/dysfunctions/)
 - 2007 [Michael Lopp: Managing Humans](https://link.springer.com/book/10.1007/978-1-4842-7116-2)
+- 2008 [David Allen: Making It All Work](https://www.samuelthomasdavies.com/book-summaries/business/making-it-all-work/)
 - 2013 [L. David Marquet: Turn the Ship Around](https://davidmarquet.com/turn-the-ship-around-book/)
 - 2014 [Jeff Sutherland: Scrum](https://www.scruminc.com/new-scrum-the-book/)
 - 2015 [Jocko Willink, Leif Babin: Extreme Ownership](https://us.macmillan.com/books/9781250183866/extremeownership)
@@ -42,6 +44,7 @@ Internal:
 - 2017 [John Doerr: Measure What Matters](https://www.whatmatters.com/the-book)
 - 2018 [Daniel Coyle: The Culture Code](https://danielcoyle.com/the-culture-code/)
 - 2019 [Matt Mochary: The Great CEO Within](https://mocharymethod.org/the-great-ceo-within/)
+- 2019 [David Allen: The Getting Things Done Workbook](https://gettingthingsdone.com/books/)
 - 2021 [Alex MacCaw: The Manager’s Handbook](https://themanagershandbook.com/)
 
 ## Frameworks
