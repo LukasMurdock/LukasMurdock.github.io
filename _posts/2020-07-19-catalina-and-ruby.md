@@ -4,6 +4,7 @@ title: 'Catalina and Ruby'
 description: "Running Jekyll on macOS Catalina"
 code: true
 date: July 19, 2020
+tags: dev
 ---
 
 When I first updated my 2018 MacBook Pro, I had problems—as is due is course when installing ruby.

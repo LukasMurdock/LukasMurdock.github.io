@@ -3,6 +3,7 @@ layout: post
 title: 'Management'
 description: ''
 date: 'December 22, 2022'
+tags: business
 ---
 
 Management is a core [business challenge](/business-challenges/).

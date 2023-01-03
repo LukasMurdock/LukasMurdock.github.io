@@ -3,6 +3,7 @@ layout: post
 title: 'Learning Vim'
 description: ''
 date: 'June 02, 2021'
+tags: dev
 ---
 
 - *Practical Vim*, by Drew Neil

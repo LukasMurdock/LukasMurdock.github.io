@@ -3,6 +3,7 @@ layout: post
 title: 'Best Flash Games'
 description: ''
 date: 'December 30, 2021'
+tags: me
 ---
 
 For posterity, the flash games I recall:

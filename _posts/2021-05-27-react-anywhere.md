@@ -5,6 +5,7 @@ description: "Today I learned…"
 date: May 27, 2021
 code: true
 display_in_newsletter: false
+tags: dev
 ---
 
 
@@ -39,7 +40,7 @@ Okay, I already knew those two things. But I didn’t synthesize them to realize
     ReactDOM.render(element, rootElement)
 </script>
 
-And here’s another example with a functional component vv 
+And here’s another example with a functional component vv
 
 {% highlight javascript %}
 // the code that loads React!

@@ -9,6 +9,13 @@ last_modified_at: 2020-06-22
 
 <p style="text-align: center;">Words Written: <span id="odometer" hidden>0{% for post in site.posts %}+{{ post.content | number_of_words }}{% endfor %}</span></p>
 
+<p><a href="/business/">The Business Collection</a></p>
+<p><a href="/dev-posts/">The Dev Collection</a></p>
+<p><a href="/poems/">The Poem Collection</a></p>
+<p><a href="/me/">The Me Collection</a></p>
+
+<hr/>
+
     {% for post in site.posts %}
       {% include post-card.html %}
     {% endfor %}

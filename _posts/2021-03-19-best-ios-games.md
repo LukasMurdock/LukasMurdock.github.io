@@ -3,6 +3,7 @@ layout: post
 title: 'Best iOS Games'
 description: "The best games and the best games to play on repeat."
 date: March 19, 2021
+tags: me
 ---
 
 I was a part of the first generation to grow up from a young age with iPhones, I got my first iPhone, the iPhone 5, sometime early-on in middle school.

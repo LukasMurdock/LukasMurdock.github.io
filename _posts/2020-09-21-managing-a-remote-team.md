@@ -3,7 +3,7 @@ layout: post
 title: 'Managing a remote team'
 description: "How to manage and work with a remote team."
 date: September 21, 2020
-tags: annual
+tags: annual, business
 ---
 
 [The four time buckets of managers](https://critter.blog/2022/06/10/the-four-time-buckets-of-managers/):

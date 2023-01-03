@@ -3,6 +3,7 @@ layout: post
 title: 'Business Challenges'
 description: ''
 date: 'June 23, 2021'
+tags: annual, business
 ---
 
 [Table Stakes: Unblock Your Business](https://www.permanentequity.com/writings/table-stakes)

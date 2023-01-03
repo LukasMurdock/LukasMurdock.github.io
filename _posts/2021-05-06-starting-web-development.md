@@ -5,6 +5,7 @@ description: "An introduction to web development."
 date: May 06, 2021
 last_modified_at: 2021-05-06T19:35:12+0000
 code: true
+tags: dev
 ---
 
 Here’s my introduction to web development. I’ll continue working on this over time and hopefully it becomes as smooth as ice.

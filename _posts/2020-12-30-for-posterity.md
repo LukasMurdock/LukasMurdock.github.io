@@ -3,7 +3,7 @@ layout: post
 title: 'For Posterity'
 description: "For future generations."
 date: December 30, 2020
-tags: annual
+tags: longnow
 last_modified_at: 2021-06-28T19:13:37Z
 ---
 
@@ -29,16 +29,16 @@ Recognize that they are not alone in the world; they are part of a web of relati
 
 So if we care about their legacy, if we care about their future welfare, we have to care not just about their life, we have to care about all life.
 
-Your future self is depending on you.  
-Your descendants are depending on you.  
+Your future self is depending on you.
+Your descendants are depending on you.
 Our future generations are depending on us.
 
 For posterity.
 
-> This chasm that has been as naught to me  
-> To that fair-haired youth may a pitfall be;  
-> He, too, must cross in the twilight dim;  
-> Good friend, I am building this bridge for him!”  
+> This chasm that has been as naught to me
+> To that fair-haired youth may a pitfall be;
+> He, too, must cross in the twilight dim;
+> Good friend, I am building this bridge for him!”
 > – [Bridge Builder](/bridge-builder)
 
 [How many cross without stopping to build bridges?](https://youtu.be/E8TkRKWGSVc)

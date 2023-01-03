@@ -3,6 +3,7 @@ layout: post
 title: 'First Apartment'
 description: "Getting my first apartment."
 date: January 18, 2021
+tags: me
 ---
 
 Going unfurnished to test what I *really* need. When I travel I take a mere [backpack](https://www.thenorthface.com/shop/borealis-nf0a3kv3) with everything I need.
@@ -51,7 +52,7 @@ I have a partner, so size requirements go up to queen—if I’m going to go big
 
 | Product | Price for Full (2x for 75x54") | Price for Queen (2x for 80x60) |
 |:--|:--|:--|
-| Tatami Mats (Optional) | $[440](https://jlifeinternational.com/collections/tatami-mats/products/european-full-tatami-mat)  | $[500](https://jlifeinternational.com/collections/tatami-mats/products/queen-tatami-mat) | 
+| Tatami Mats (Optional) | $[440](https://jlifeinternational.com/collections/tatami-mats/products/european-full-tatami-mat)  | $[500](https://jlifeinternational.com/collections/tatami-mats/products/queen-tatami-mat) |
 | Shikifuton with Cover | $[500](https://jlifeinternational.com/collections/shikifutons/products/j-life-shikifuton-with-sakura-navy-removable-cover?variant=7088002629683) | $[540](https://jlifeinternational.com/collections/shikifutons/products/j-life-shikifuton-with-sakura-navy-removable-cover?variant=7088002695219) |
 | [Kakefuton with Cover](https://jlifeinternational.com/collections/kakefutons/products/j-life-sakura-gold-custom-kakefuton-with-removable-cover) | $360 | $360 |
 | [Buckwheat Hull Pillow](https://jlifeinternational.com/collections/pillows-shams/products/j-life-seikai-ha-navy-buckwheat-hull-pillow?variant=7133590454323) | $50 | $100 |
@@ -69,7 +70,7 @@ After watching [J-Life International Full Futon Bed Setup and First Impressions]
 
 Alternative [Amazon option for $375](https://www.amazon.com/dp/B073Q61JH6/?tag=thewire06-20&linkCode=xm2&ascsubtag=AwEAAAAAAAAAAaxj). Scroll down to see the frequently bought together section.
 
-- $**168.00** FULI Japanese Traditional Shiki Futon (shikibuton) High Grade Floor Mattress, Twin XL. Made in Japan 
+- $**168.00** FULI Japanese Traditional Shiki Futon (shikibuton) High Grade Floor Mattress, Twin XL. Made in Japan
 - $**158.00** FULI Japanese Traditional Igusa (Rush Grass) Tatami Mattress, Twin XL. Made in Japan
 - $**49.99** FULI 100% Cotton Cover for Traditional Japanese Floor Futon Mattress, Twin XL, Gray. Made in Japan
 

@@ -4,7 +4,7 @@ title: 'Command Line'
 description: ""
 date: May 28, 2021
 code: true
-tags: annual
+tags: dev
 ---
 
 First, I’m currently running an Intel Mac, and using Homebrew as a package manager.

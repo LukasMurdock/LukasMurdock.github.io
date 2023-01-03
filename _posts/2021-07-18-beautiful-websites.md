@@ -3,6 +3,7 @@ layout: post
 title: 'Beautiful Websites'
 description: ''
 date: 'July 18, 2021'
+tags: me
 ---
 
 [How much does a website cost?](https://www.viget.com/articles/how-much-does-a-website-cost-anywhere-from-50-to-5-000-000/)

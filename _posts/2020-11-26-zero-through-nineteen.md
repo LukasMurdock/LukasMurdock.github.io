@@ -4,6 +4,7 @@ title: 'zero through nineteen'
 description: "As of writing, I have less than two weeks until I turn 20."
 date: November 26, 2020
 last_modified_at: 2021-05-29T13:50:39
+tags: me
 ---
 
 Edit 03/07/2021: I started this as a reflection of years as I neared my last of being a teenager. I like this and hopefully will keep it updated as a loose timeline of sorts.
@@ -164,4 +165,3 @@ Moved into new Florida house with parents.
 Joined Virra Marketing through Andre.
 
 Built my first production web application with Firebase and Next.js.
-

@@ -3,6 +3,7 @@ layout: post
 title: 'Pain and growth'
 description: "Search for those moments."
 date: September 02, 2020
+tags: me
 ---
 
 The goal isn’t to prevent yourself from feeling any pain now and in the future. It’s in those moments that growth happens.

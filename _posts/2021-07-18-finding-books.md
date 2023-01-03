@@ -4,6 +4,7 @@ title: 'Finding Books'
 description: 'How do you find books to read? And where can you find them online?'
 date: 'July 18, 2021'
 code: true
+tags: me
 ---
 
 [Read old books](https://austinkleon.com/2019/12/11/read-old-books/). [Read Great books](https://en.wikipedia.org/wiki/Great_books).

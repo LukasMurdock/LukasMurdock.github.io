@@ -3,6 +3,7 @@ layout: post
 title: 'Amazon 1997 Letter To Shareholders'
 description: ''
 date: 'August 02, 2021'
+tags: business
 ---
 
 To our shareholders:
@@ -70,6 +71,6 @@ We now know vastly more about online commerce than when Amazon.com was founded, 
 
 1997 was indeed an incredible year. We at Amazon.com are grateful to our customers for their business and trust, to each other for our hard work, and to our shareholders for their support and encouragement.
 
-Jeffrey P. Bezos  
-Founder and Chief Executive Officer  
+Jeffrey P. Bezos
+Founder and Chief Executive Officer
 Amazon.com, Inc.

@@ -3,6 +3,7 @@ layout: post
 title: 'Marketing and Positioning'
 description: "A riff on marketing and positioning"
 date: July 20, 2020
+tags: business
 ---
 
 Regardless of your title, It’s your job to inspire the people you seek to serve to take action. To reassure them that you are indeed an expert and of great worth.

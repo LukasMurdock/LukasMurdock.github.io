@@ -4,6 +4,7 @@ title: 'Black Friday Deals'
 description: "What does your “deal” change for the people who didn’t choose you before?"
 date: October 01, 2020
 last_modified_at: 2020-10-07T20:15:11+0000
+tags: business
 ---
 
 A few reasons the people you’re looking for didn’t choose you before:

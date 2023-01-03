@@ -3,14 +3,14 @@ layout: post
 title: 'Chrome Extensions'
 description: "A list of useful Chrome Extensions."
 date: June 19, 2020
-tags: annual
+tags: dev, me
 # update
 last_modified_at: 2020-06-19T13:50:00
 ---
 
-I have a [Chrome Apps section on my knowledge page](https://lukasmurdock.com/knowledge/#chrome%20apps) that I need to update. But before that I want to keep an ongoing list of Chrome Extensions I’ve installed. 
+I have a [Chrome Apps section on my knowledge page](https://lukasmurdock.com/knowledge/#chrome%20apps) that I need to update. But before that I want to keep an ongoing list of Chrome Extensions I’ve installed.
 
-## Grammarly 
+## Grammarly
 <img loading="lazy" style="max-width:60px" src="https://lh3.googleusercontent.com/Flk1NVzGhvKA6c3jmGy_2Kip918xGisTgVhRLZFdDLA1o-cSLEuIjxmLTBPAeqLecpXjsliKQWg=w128-h128-e365" alt="Grammarly">
 
 [View Grammarly in Chrome Web Store](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen?hl=en)
@@ -19,7 +19,7 @@ I have a [Chrome Apps section on my knowledge page](https://lukasmurdock.com/kno
 
 ## WordTune
 
-## Fonts Ninja 
+## Fonts Ninja
 <img loading="lazy" style="max-width:60px" src="https://lh3.googleusercontent.com/GhFN4M6IfPERQRXIyHNcQ5K3k42X63kV2D-hl45u0vDTZBoTjwitgqAIPDBH7AZQX2J79cYetA0=w128-h128-e365" alt="Fonts Ninja">
 
 [View Fonts Ninja in Chrome Web Store](https://chrome.google.com/webstore/detail/fontface-ninja/eljapbgkmlngdpckoiiibecpemleclhh?hl=en)

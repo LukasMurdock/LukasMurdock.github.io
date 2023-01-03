@@ -112,13 +112,17 @@ last_modified_at: 2020-10-24T21:51:21+0000
 		</div>
 
 		<h2>Popular Writings</h2>
+		<p><a href="{{site.baseurl}}/sideloading-iphone-5/">Sideloading iPhone 5</a></p>
 		<p><a href="{{site.baseurl}}/make-it-count/">Make it count</a></p>
-		<p><a href="{{site.baseurl}}/the-social-dilemma/">The Social Dilemma</a></p>
-		<p><a href="{{site.baseurl}}/2020-presidential-font-comparison/">2020 Presidential font comparison</a></p>
 		<p><a href="{{site.baseurl}}/a-timeline-of-inventions/">Timeline of inventions</a></p>
+		<p><a href="{{site.baseurl}}/jb/">Jon Bellion Discography</a></p>
 		<p><a href="https://lukasmurdock.com/ultralearning/">Ultralearning</a></p>
 
 		<h2>Long Content</h2>
+        <p><a href="/business/">The Business Collection</a></p>
+        <p><a href="/dev-posts/">The Dev Collection</a></p>
+        <p><a href="/poems/">The Poem Collection</a></p>
+        <p><a href="/me/">The Me Collection</a></p>
 		{% assign long-posts = site.posts | where: "tags","annual" %}
 		{% for post in long-posts %}
 		<p><a href="{{post.url}}">{{post.title}}</a></p>

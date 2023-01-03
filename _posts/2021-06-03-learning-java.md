@@ -3,6 +3,7 @@ layout: post
 title: 'Learning Java'
 description: ''
 date: 'June 03, 2021'
+tags: dev
 ---
 
 CSE 174 Course Materials: WP V5 STUDENT PACKAGE FOR BIG JAVA LATE OBJECTS (Must be purchased new! Scum.)
@@ -24,7 +25,7 @@ Some free starting Java resources:
 - [Alex Lee Java YouTube Tutorials](https://www.youtube.com/channel/UC_fFL5jgoCOrwAVoM_fBYwA)
 
 Editions:
--  
+-
 
 Java Specifications and Documentation:
 - [Java Language and Virtual Machine Specifications](https://docs.oracle.com/javase/specs/)

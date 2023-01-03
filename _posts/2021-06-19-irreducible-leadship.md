@@ -3,6 +3,7 @@ layout: post
 title: 'The Irreducible Components of Leadership'
 description: ''
 date: 'June 19, 2021'
+tags: business
 ---
 
 In a [powerful 2009 address to healthcare CEOs](https://youtu.be/htLCVqaLBvo), [Paul O'Neill](https://en.wikipedia.org/wiki/Paul_H._O%27Neill) shares what he has learned are the fundamental components of leadership necessary for an organization to achieve greatness, and encourages the CEOs to apply these ideas and methods in their own institutions.  The Tennessee Hospital Association and BlueCross Blue Shield of Tennessee sponsored the meeting.

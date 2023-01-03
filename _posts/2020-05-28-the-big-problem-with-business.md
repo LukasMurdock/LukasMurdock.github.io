@@ -3,6 +3,7 @@ layout: post
 title: 'The big problem with business'
 description: "Why don't people choose you?"
 date: May 28, 2020
+tags: business
 ---
 
 
@@ -36,7 +37,7 @@ Instead of asking, “How can I get to the top of Google, how can I get more fol
 
 You can ask, “What change do I seek to make?”
 
-Instead of trying to persuade more people to listen to you, listen to them. 
+Instead of trying to persuade more people to listen to you, listen to them.
 
 Hear what they have to say and make a product or service for them.
 

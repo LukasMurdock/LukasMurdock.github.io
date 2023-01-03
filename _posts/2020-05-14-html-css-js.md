@@ -4,6 +4,7 @@ title: 'HTML, CSS, and JS'
 description:  Starting Web Development Part 01
 date: May 14, 2020
 code: true
+tags: dev
 ---
 
 This is part one of the series *Starting Web Development*. Best viewed in a browser.
@@ -19,7 +20,7 @@ Sometime in the ’90s, Sir Tim Berners-Lee invented **Hypertext Markup Language
 <p>Sometime in the ’90s Sir Tim Berners-Lee invented…</p>
 {% endhighlight %}
 
-Soon after, Håkon Wium Lie, who worked with Tim Berners-Lee, proposed **Cascading Style Sheets (CSS)** as a way to add styling (e.g. fonts, color, spacing) to HTML elements. All current [CSS specifications have their own specific versions ranging from 1 to 4](https://www.w3.org/Style/CSS/current-work), but CSS as a whole does not have a version. Both HTML and CSS existed in some form since Standard Generalized Markup Language (SGML) which came out of the ’80s. 
+Soon after, Håkon Wium Lie, who worked with Tim Berners-Lee, proposed **Cascading Style Sheets (CSS)** as a way to add styling (e.g. fonts, color, spacing) to HTML elements. All current [CSS specifications have their own specific versions ranging from 1 to 4](https://www.w3.org/Style/CSS/current-work), but CSS as a whole does not have a version. Both HTML and CSS existed in some form since Standard Generalized Markup Language (SGML) which came out of the ’80s.
 
 {% highlight HTML %}
 <h1 style="font-weight: 600; margin-bottom: 20px;">HTML, CSS, and JS</h1>

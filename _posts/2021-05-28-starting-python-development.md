@@ -4,6 +4,7 @@ title: 'Starting Python Development'
 description: ""
 date: May 28, 2021
 code: true
+tags: dev
 ---
 
 First, I’m currently running an Intel Mac.
@@ -67,7 +68,7 @@ Now we can check the pipenv version with `pipenv --version`
 We can install Django globally with: `python -m pip install Django`
 
 
-And then we can create a new Django project with: `django-admin startproject djangotestsite` 
+And then we can create a new Django project with: `django-admin startproject djangotestsite`
 
 And then:
 - Change directory to the project: `cd djangotestsite`

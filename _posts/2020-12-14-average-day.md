@@ -3,7 +3,7 @@ layout: post
 title: 'Average Day'
 description: "What my average day looks like across the years."
 date: December 14, 2020
-tags: annual
+tags: annual, me
 last_modified_at: 2021-12-31T13:51:13
 ---
 

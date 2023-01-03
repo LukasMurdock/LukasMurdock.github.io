@@ -3,6 +3,7 @@ layout: post
 title: 'Notes from Heroic Leadership'
 description: "Real leaders—real heroes—find fulfillment, meaning, and even success by shifting their gaze beyond self-interest and serving others."
 date: June 17, 2020
+tags: business
 ---
 
 
@@ -41,7 +42,7 @@ Leaders image an inspiring future and strive to shape it rather than passively w
 
 
 
-Each member undertakes a systematic self-examination where one should emerge energized, focused, and able to articulate life goals and personal weaknesses. 
+Each member undertakes a systematic self-examination where one should emerge energized, focused, and able to articulate life goals and personal weaknesses.
 
 A clear idea about how we work as a team—driven by heroism, open to new opportunities, and tightly bound by mutual support.
 
@@ -69,7 +70,7 @@ How many people join companies looking to prove their heroism in action? Why has
 Leadership is how the job is done, this means influencing, visioning, persevering, energizing, innovating, and teaching.
 
 * Most people never face the challenge of motivating armies of subordinates; we face Goes’s more prosaic day-by-day challenge to motivate ourselves through long and sometimes unpromising journeys.
-* Rarely does life unfold with the predictability of the carefully scripted strategic plan; far more leadership is improvised. 
+* Rarely does life unfold with the predictability of the carefully scripted strategic plan; far more leadership is improvised.
 * Unlike the general heading into battle or the coach heading into game seven, few of us experience dramatic defining moments. Rather, our defining “moment” is a pattern slowly etched through a lifetime studded with ordinary opportunities to make subtle differences.
 * Most of us must derive satisfaction not from manifest results but from the mere personal conviction that our actions, decisions, and choices have value.
 
@@ -86,10 +87,10 @@ Ongoing success depends on turning recruits into leaders. Solve that problem, an
 
 
 Emotional intelligence in Goleman’s terms:
-**Self-awareness**: the ability to recognize and understand your moods, emotions, and drives.  
-**Self-regulation**: the ability to control or redirect disruptive impulses and moods; the propensity to suspend judgement—to think before acting.  
-**Motivation**: a passion to work for reasons that go beyond money or status.  
-**Empathy**: the ability to understand the emotional makeup of other people.  
+**Self-awareness**: the ability to recognize and understand your moods, emotions, and drives.
+**Self-regulation**: the ability to control or redirect disruptive impulses and moods; the propensity to suspend judgement—to think before acting.
+**Motivation**: a passion to work for reasons that go beyond money or status.
+**Empathy**: the ability to understand the emotional makeup of other people.
 **Social Skill**: proficiency in managing relationships and building networks; an ability to find common ground and build rapport.
 
 Reread the list. How many companies interview candidates with the above criteria in mind?
@@ -100,7 +101,7 @@ Central to and irreplaceable in the process were Spiritual Exercises. East Jesui
 * Profound respect for other people and for all of creation.
 * Appreciation of oneself as loved and important.
 * The ability to tune out everyday distractions in order to reflect, and the habit of doing so daily.
-* A method for considering choices and making decisions. 
+* A method for considering choices and making decisions.
 
 
 The Spiritual Exercises. What might be called a self-awareness “handbook.” It is not a book to be read; one achieves self-awareness not by reading how someone else achieved it but through focused reflection on one’s own experience.
@@ -121,7 +122,7 @@ Every day upon arising, Jesuits are to remind themselves of key personal goals. 
 
 In other words, the recruit recalls in his mind all the events of the day, the opportunities and challenges presented, and how he reacted to them—whether his subsequent attitudes and choices brought him closer to his long-term goals or moved him further away.
 
-The aim and end of this Society is, by traveling through the various regions of the world to preach, hear confessions, and use all other means it can to help souls. 
+The aim and end of this Society is, by traveling through the various regions of the world to preach, hear confessions, and use all other means it can to help souls.
 
 In case he didn’t fully absorb the message, each trainee was given a sole-testing. Each was dispatched on a monthlong pilgrimage. Trainees set out empty-handed, begging for food and lodging along the way, the challenge symbolic and unmistakable: be resourceful, mobile, creative, free of attachments, and able to operate independently.
 
@@ -164,11 +165,11 @@ A restless, countercultural instinct to keep challenging the status quo we built
 It’s not the job that’s heroic; it’s the attitude one brings to it.
 
 
-Jesuits in one region after another saw schools as the ideal way to make a unique, long-range impact while cementing local status and reputation. 
+Jesuits in one region after another saw schools as the ideal way to make a unique, long-range impact while cementing local status and reputation.
 
 There were virtually no broad-based systems of free or subsidized education—those who were educated were those few whose families could pay.
 
-Not only were Jesuits offering Europe’s best secondary education, they were offering it free of charge. 
+Not only were Jesuits offering Europe’s best secondary education, they were offering it free of charge.
 
 Only a company enamored with “heroic goals” would be foolish enough to launch such a vast, novel, and labor-intensive experiment while plagued by a lack of manpower and funding—and, characteristic of heroes, pull it off.
 
@@ -178,7 +179,7 @@ BHAGs—big, hairy, audacious goals.
 
 There was only one problem. The network was built from the bottom up, not visioned top down. The result was extraordinary, but it was accomplished person by person, each one internalizing and shaping the company mission. Each one was motivated by a spirit of *magis* to look beyond an ordinary potential outcome and wonder if there wasn’t something more, something greater he could accomplish.
 
-Such heroism can’t be bought, bartered, manipulated, or forced. It’s freely offered and passed along by self-motivated individuals enthused about their work. 
+Such heroism can’t be bought, bartered, manipulated, or forced. It’s freely offered and passed along by self-motivated individuals enthused about their work.
 Successful leaders know that eliciting heroism is not as simple as dreaming up an ambitious enough BHAG. Instead, they spend their time creating environments where individuals will choose heroism as a way of working and living.
 
 

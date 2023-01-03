@@ -3,6 +3,7 @@ layout: post
 title: 'Marketing'
 description: 'What is marketing?'
 date: 'October 04, 2021'
+tags: business
 ---
 
 > [Brands grow by focusing on new customer acquisition, driven by increasing mental and physical availability, resulting in behaviorally loyal buyers.](https://www.themarketingstudent.com/how-brands-grow/)

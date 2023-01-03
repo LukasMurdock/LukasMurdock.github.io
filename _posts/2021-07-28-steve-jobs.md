@@ -3,6 +3,7 @@ layout: post
 title: 'Steve Jobs Excerpts'
 description: ''
 date: 'July 28, 2021'
+tags: business
 ---
 
 ## 2010 D8 Conference
@@ -187,7 +188,7 @@ So can I just start of with the second one?
 
 **Interviewer:** Sure.
 
-Right. The second really big explosion in our industry has been desktop publishing–happened in nineteen eighty-five with the Macintosh and the LaserWriter printer. And at that point people could start to do on their desktops things that only typesetters and Printers could do prior to that. And that's been a very big revolution in publishing. And those are really, those two explosions have been the only two real major revolutions which have caused a lot of people to buy these things and use them. The third one is starting to happen now. And the third one is: let's do for human to human communication what spreadsheets did for financial planning, and what public desktop publishing did for publishing. Let's revolutionize it using these desktop devices. And we're already starting to see the signs of that. 
+Right. The second really big explosion in our industry has been desktop publishing–happened in nineteen eighty-five with the Macintosh and the LaserWriter printer. And at that point people could start to do on their desktops things that only typesetters and Printers could do prior to that. And that's been a very big revolution in publishing. And those are really, those two explosions have been the only two real major revolutions which have caused a lot of people to buy these things and use them. The third one is starting to happen now. And the third one is: let's do for human to human communication what spreadsheets did for financial planning, and what public desktop publishing did for publishing. Let's revolutionize it using these desktop devices. And we're already starting to see the signs of that.
 
 As an example in an organization we're starting to see that as business conditions change faster and faster with each year, we cannot change our management hierarchical organization very fast relative to the changing business conditions. We can't have somebody working for a new boss every week. We also can't change our geographic organization very fast, matter of fact even slower than the management one, we can't be moving people around the country every week. But we can change an electronic organization *snaps* like that. And what's starting to happen is we start to link these computers together with sophisticated networks and great user interfaces, we're starting to be able to create clusters of people working on a common task in literally in 15 minutes worth of setup. And these 15 people can work together extremely efficiently no matter where they are geographically and no matter who they work for hierarchically. And these organizations can live for as long as they're needed and then vanish. And we're finding we can reorganize our companies electronically very rapidly. And that's the only type of organization that can begin to keep pace with the changing business conditions. And I believe that this collaborative model has existed in higher education for a long time. But we're starting to see it applied into the commercial world as well. And this is going to be the third major revolution that these desktop computers provide is revolutionizing human to human communication and group work.
 
@@ -224,7 +225,7 @@ So, we're attempting to create the fourth platform software standard and hopeful
 **Interviewer:** What happens when you have a network that allows the
 relative minorities in a whole different area come together? How does it change the democracy?
 
-I don't know. But, what I have seen, is I've seen interpersonal computing happening at our own company. Maybe the best way to put it is. I remember when the first spreadsheet came out, I saw it fly through Apple as well as other companies. And when we when we invented desktop publishing, of course, it influenced Apple first. And I've seen the same thing happened with interpersonal computing here at NeXT 
+I don't know. But, what I have seen, is I've seen interpersonal computing happening at our own company. Maybe the best way to put it is. I remember when the first spreadsheet came out, I saw it fly through Apple as well as other companies. And when we when we invented desktop publishing, of course, it influenced Apple first. And I've seen the same thing happened with interpersonal computing here at NeXT
 
 We decided to put a NeXT machine on every employee's desktop about 18 months ago and connecting with you know the very high speed networking that's built in and I've seen the revolution here with my own eyes. And it's actually larger than the first two. Let me give you some examples. If we want to if we're going to be doing a special project,let's say with a company, and let's say the
 company's called–what's your?
@@ -329,7 +330,7 @@ Now we hooked up with Mike just around the time we introduced the Apple II, mayb
 **Interviewer:** How important was a disk drive in the development of Apple?
 
 Disk drive was crucial. One of the things that people forget when they think about Apple, and the Apple II in particular, was that that we were the first company to come out with a reliable, inexpensive floppy disk drive. And we had a low-cost floppy disk drive that really worked about two to three years before any of our competitors. And that was an incredibly important reason why the Apple II was successful. Matter of fact, there were a few others. The Apple II could hold up to
-48 kilobytes of memory–which today doesn't seem like much but at that time was maybe three times as much as its competitors. And that's why VisiCalc was written for the Apple II–it was the only computer that could hold it. And so if VisiCalc had been written for some other computer, you'd be interviewing somebody else right now. And it was because of that design decision, and other design decisions like it, that the Apple II really beat its competition. 
+48 kilobytes of memory–which today doesn't seem like much but at that time was maybe three times as much as its competitors. And that's why VisiCalc was written for the Apple II–it was the only computer that could hold it. And so if VisiCalc had been written for some other computer, you'd be interviewing somebody else right now. And it was because of that design decision, and other design decisions like it, that the Apple II really beat its competition.
 
 **Interviewer:** How did the Apple II change the world of computing?
 
@@ -389,7 +390,7 @@ Oh great.
 **Interviewer:** Yeah and I was gonna go speak with Jack Kilby, unfortunately he’s in the hospital. […] Going back to the Mac, in meeting the deadline for the Mac, how crazy did it get? And you'd already said that you were going to have this big splash of the
 Super Bowl.
 
-Actually, we wanted to get the Mac out a year before we did. So, we had internal deadlines that we were not able to meet. But by the time we set, by the time we bought the spots for the super bowl and things like that I mean it was basically in the bag. It's not that we didn't work 24 hours a day for the last six months to get it out, but we were on the bomb run at that time. 
+Actually, we wanted to get the Mac out a year before we did. So, we had internal deadlines that we were not able to meet. But by the time we set, by the time we bought the spots for the super bowl and things like that I mean it was basically in the bag. It's not that we didn't work 24 hours a day for the last six months to get it out, but we were on the bomb run at that time.
 
 
 **Interviewer:** I love this thing that you did which is have everybody sign the cases, that was great. Why did you do that?
@@ -451,7 +452,7 @@ Okay good. Thanks.
 
 No. I gotta go.
 
-**Interviewer:** This is great, thank you very much. 
+**Interviewer:** This is great, thank you very much.
 
 
 ## Steve Jobs on Apple’s Vision
@@ -542,7 +543,7 @@ And star also didn't really solve the the general problem. Remember that all the
 
 The point I'm trying to make is: it's very easy to do something when you
 write all the applications. Because then every application can know about every other one. And in general a company turns out five or six applications and they all know about each other and you can give a
-great demo with these apps. But the real key is to come up with an underlying structure that'll let third parties who never talk to each other have these capabilities within their apps. And no one's yet done that–no one has yet done that well. And I think you'll you'll see some of that next year. 
+great demo with these apps. But the real key is to come up with an underlying structure that'll let third parties who never talk to each other have these capabilities within their apps. And no one's yet done that–no one has yet done that well. And I think you'll you'll see some of that next year.
 
 **Interviewer:** One of the pieces that we're doing is is going to be about as much as we ever get into things like personalities. So let me just ask you: looking back from from the day that you guys came up with the notion for Apple one, how much has your life changed and how has it changed?
 
@@ -576,7 +577,7 @@ successful of a fashion–which is not true. Industry after industry has shown u
 
 Ask John Scully.
 
-**Interviewer:** I'm going to. 
+**Interviewer:** I'm going to.
 
 So, saying it's Wall Street is too easy. We've got Apple, we've got IBM, and many other companies with hundreds of millions, if not billions of dollars, in the bank in cash. Raising the capital is not
 the problem and Wall Street is not the problem. The problem is that in many cases the management of our companies is not from an engineering or manufacturing background anymore. And may not appreciate the dependence we have on these underlying technologies. Where if you go to Japan, the people running these companies are engineers, or they're from the manufacturing backgrounds, and they very much appreciate

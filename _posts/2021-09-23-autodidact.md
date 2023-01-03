@@ -3,7 +3,7 @@ layout: post
 title: 'Autodidactism'
 description: ''
 date: 'September 23, 2021'
-tags: annual
+tags: annual, me
 ---
 
 ## On School and Education

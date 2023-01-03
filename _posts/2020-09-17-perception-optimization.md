@@ -3,6 +3,7 @@ layout: post
 title: 'Perception Optimization'
 description: "Optimizing the value of what you've created for a specific audience."
 date: September 17, 2020
+tags: business
 ---
 
 Marketing involves understanding how humans make choices to make efforts so that you’re chosen.
@@ -38,7 +39,7 @@ So, I bring to the world **Perception Optimization**.
 ## Differentiation
 This is the first time I’ve thought of a new category. Category creation like this—where you call the whole game something else, is a key differentiation strategy.
 
-Category creation changes how people *perceive* you. People create categories to stand out and be different. 
+Category creation changes how people *perceive* you. People create categories to stand out and be different.
 
 *Category creation is Perception Optimization.*
 
@@ -50,7 +51,7 @@ Drift is a live chat tool. Live chat tools are a crowded market. So, to stand ou
 I’ve touched on the mess of [marketing differentiation](https://lukasmurdock.com/marketing-differentiation/) before, so let’s see how this works.
 
 - Search Engine Optimization (SEO) → Search Perception Optimization
-- Digital Marketing → Digital Perception Optimization 
+- Digital Marketing → Digital Perception Optimization
 - Content Marketing → Content Perception Optimization
 - Search Engine Marketing (SEM) → Search Perception Optimization
 - Email Marketing → Email Perception Optimization

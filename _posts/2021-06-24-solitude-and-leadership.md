@@ -3,7 +3,7 @@ layout: post
 title: 'Solitude and Leadership'
 description: ''
 date: 'June 24, 2021'
-tags: otherAuthor
+tags: otherAuthor, business
 ---
 
 Title: Solitude and Leadership

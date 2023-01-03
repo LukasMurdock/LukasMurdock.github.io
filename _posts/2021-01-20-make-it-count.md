@@ -4,7 +4,7 @@ title: 'Make It Count'
 description: "Call it whatever you want. Marketing is what controls and expands your reach, your impact, your outcomes, your effects, your changes, and your results."
 image: make-it-count.png
 date: January 20, 2021
-tags: annual
+tags: business, annual
 # update
 last_modified_at: 2021-01-20T13:52:10
 ---
@@ -63,7 +63,7 @@ Figure things out in public.
 
 The best real direct measure of your work is change in human behavior. What do they do with it?
 
-Nothing? Not enough? 
+Nothing? Not enough?
 
 **Your work is a vehicle for change**. **If no change happens, get back to working on how it’s perceived**.
 

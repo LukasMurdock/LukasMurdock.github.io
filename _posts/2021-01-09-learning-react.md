@@ -3,6 +3,7 @@ layout: post
 title: 'Learning React'
 description: "Resources to learn React, and my log of doing it."
 date: January 09, 2021
+tags: dev
 ---
 
 

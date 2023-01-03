@@ -3,7 +3,7 @@ layout: post
 title: 'Financial Investments'
 description: "Unfolding my story one bit at a time. Not financial advice."
 date: April 17, 2021
-tags: annual
+tags: annual, me
 last_modified_at: 	2021-04-17T19:43:08+0000
 ---
 
@@ -81,7 +81,7 @@ The moral of the story is pretty much this: **Spend less than you earn—invest 
 
 The book also led me to discover [Mr. Money Mustache](https://www.mrmoneymustache.com/) (MMM).
 
-> the whole country seemed to be displaying the same odd behavior: living ridiculously expensive lifestyles while thinking they were completely normal, and then being baffled when they had no money left over to buy their own freedom. 
+> the whole country seemed to be displaying the same odd behavior: living ridiculously expensive lifestyles while thinking they were completely normal, and then being baffled when they had no money left over to buy their own freedom.
 
 Relevant ideas from [The 2021 Early Retirement Update](https://livingafi.com/2021/03/17/the-2021-early-retirement-update/):
 - Conspicuous Consumption
@@ -89,9 +89,9 @@ Relevant ideas from [The 2021 Early Retirement Update](https://livingafi.com/202
 - Seeking to be Visibly Awesome
 
 > At any rate, I didn’t realize that this happened to so many people: Once they have been established in their careers for a decade or more, they 1) feel secure in their job 2) have accumulated some money and 3) feel compelled to start spending. And once everyone in your peer group is spending more money — well, then everyone is looking over their shoulder at everyone else’s spending and this is really how the whole Keeping Up game begins.
-> 
+>
 > […]
-> 
+>
 > she wasn’t trying that hard anyway, because she had acquired, somehow, New Life Dreams, which had to do with Conspicuous Consumption and Keeping Up and being Visibly Awesome — dreams which are at odds with my own.
 
 And although it’s a bit old now, MMM wrote about [Betterment vs Vanguard](https://www.mrmoneymustache.com/betterment-vs-vanguard/).
@@ -101,9 +101,9 @@ And although it’s a bit old now, MMM wrote about [Betterment vs Vanguard](http
 > - automatic tax-saving coordination between your standard and retirement accounts with Betterment
 > - really good tools to show you things like, “how much tax would I owe if I sold these shares right now?”, “how much income would my portfolio generate if I retired right now?”, and other useful visualizations
 > - a very sleek charitable giving system, which makes it easy to donate some of your appreciated shares – giving you a much bigger tax advantage than simply giving cash.
-> 
+>
 > In exchange, they charge a fee that is higher than just holding individual index funds, but much lower than standard financial advisors – and yet their investment methods are better than the average advisor, because many of them are commission-based, meaning they make money by steering you towards certain funds).
-> 
+>
 > So in my view, Robo-advisors are a good way to invest for people who want things to run on autopilot.
 
 I’m not financially literate enough to properly weigh “this vs. that” (yet?). And as of now, I have never spoken to a financial advisor. And as of writing, I don’t have that much money built up, so it’s not as consequential.

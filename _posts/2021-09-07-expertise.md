@@ -3,6 +3,7 @@ layout: post
 title: 'A Model of Business Expertise'
 description: 'Business expertise comes from better ways of structuring or organizing knowledge.'
 date: 'September 07, 2021'
+tags: business
 ---
 
 # Expertise

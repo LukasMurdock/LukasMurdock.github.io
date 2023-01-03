@@ -3,6 +3,7 @@ layout: post
 title: 'Dev Timeline'
 description: ''
 date: 'September 14, 2022'
+tags: dev
 ---
 
 - 1969: Email

@@ -4,6 +4,7 @@ title: 'Mental Models and Principles'
 description: A few of my personal mental models and principles.
 date: February 01, 2020
 redirect_from: /2020/02/01/mental-models/
+tags: me
 ---
 
 ## Gain perspective. Discover strengths. Focus action.
@@ -11,16 +12,16 @@ Soak up everything you can, learn everything and try everything. The reason we�
 
 
 ## Drops make waves in the ocean
-It’s the small habits and things that matter. Whatever you repeat, you reinforce. That goes for thoughts and actions. Life is just today, over and over and over again. A series of short terms; that’s what makes the long term. If all you’re doing is maximizing in the short term, you’re going to break the system, because the system is not the short term. The system is the life you’ve chosen to live. 
+It’s the small habits and things that matter. Whatever you repeat, you reinforce. That goes for thoughts and actions. Life is just today, over and over and over again. A series of short terms; that’s what makes the long term. If all you’re doing is maximizing in the short term, you’re going to break the system, because the system is not the short term. The system is the life you’ve chosen to live.
 
 ## Good habits make time your ally. Bad habits make time your enemy.
-Rigorously eliminate everything from your life which doesn't fit inside your top X critical priorities. Where X is as small as possible, and seek to cull it further by combining equivalents and trying to identify why some 'important' things might actually be utter wastes of time in the first place. Increase your output by just a tiny fraction on a consistent basis. 
+Rigorously eliminate everything from your life which doesn't fit inside your top X critical priorities. Where X is as small as possible, and seek to cull it further by combining equivalents and trying to identify why some 'important' things might actually be utter wastes of time in the first place. Increase your output by just a tiny fraction on a consistent basis.
 
 When making plans, think big. When making progress, think small.
 
 
 ## However they think you are, that's who you are.
-You know yourself mostly by your thoughts. Everyone else knows you only by your actions. It would be easy if everyone thought the way you do. If you want to be chosen, begin by understanding why people don’t choose you and what you have to offer them. Until you can be honest about why, you’re going to waste time and money. 
+You know yourself mostly by your thoughts. Everyone else knows you only by your actions. It would be easy if everyone thought the way you do. If you want to be chosen, begin by understanding why people don’t choose you and what you have to offer them. Until you can be honest about why, you’re going to waste time and money.
 
 Get clear on the story you tell and connect the dots for people using the dots they know.
 
@@ -58,7 +59,7 @@ Success comes from doing what others are not willing to do. Real success goes to
 
 
 ## Change
-The truth is, you change effortlessly and all the time. The primary job of the brain is to adjust your behavior based on the environment. Your willpower will never beat out your environment. Design a better environment. Change will happen naturally. 
+The truth is, you change effortlessly and all the time. The primary job of the brain is to adjust your behavior based on the environment. Your willpower will never beat out your environment. Design a better environment. Change will happen naturally.
 
 If you want to make a long-term impact, build the roads.
 

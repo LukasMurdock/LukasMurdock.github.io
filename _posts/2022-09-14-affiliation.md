@@ -3,6 +3,7 @@ layout: post
 title: 'Affiliation'
 description: ''
 date: 'September 14, 2022'
+tags: business
 ---
 
 After hearing and laughing about the Mucinex sickwear, I’ve been collecting what I refer to as (Crazy?) Corporate merch.

@@ -3,7 +3,7 @@ layout: post
 title: 'Leadership'
 description: ''
 date: 'June 24, 2021'
-tags: annual
+tags: business
 ---
 
 We're all leading all the time, well or poorly.

@@ -3,6 +3,7 @@ layout: post
 title: 'Useful Questions'
 description: ''
 date: 'June 28, 2021'
+tags: business
 ---
 
 [Quick answers](https://quick-answers.kronis.dev/)

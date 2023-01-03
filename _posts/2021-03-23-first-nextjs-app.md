@@ -3,6 +3,7 @@ layout: post
 title: 'Reflections on my first Next JS App'
 description: ""
 date: March 23, 2021
+tags: dev
 ---
 
 Next.js seems to be soaring in popularity at the moment ([See usage statistics](https://trends.builtwith.com/framework/Next.js)).
@@ -62,7 +63,7 @@ In looking back on building this application I can *feel* the shift from a [fron
 
 ## What I Know Now
 
-Building this gave me a much better [understanding of web development](https://lukasmurdock.com/starting-web-development/). 
+Building this gave me a much better [understanding of web development](https://lukasmurdock.com/starting-web-development/).
 
 Here are some valuable things I’ve learned since:
 

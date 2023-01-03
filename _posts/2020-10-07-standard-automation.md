@@ -3,6 +3,7 @@ layout: post
 title: 'Standard Automation'
 description: "I very much dislike situations where I ask myself the question, “what do I do?”"
 date: October 07, 2020
+tags: business
 ---
 
 I imagine nobody likes this feeling very much.
@@ -52,10 +53,10 @@ What doesn’t get standardized? Better yet, what should never be standardized? 
 
 In Elena Shalvenas *[In Defence of the Humanities](https://quillette.com/2020/07/14/in-defence-of-the-humanities/)*, she writes,
 
-> Because, once again, the real purpose of education is not to acquire skills. It is to develop the mind. Fill it with knowledge, yes—but also charge it with fire, like a torch, so that, long after we have left the student bench, the mind still gleams and glares and throws a challenge to the maddening mysteries of the world. 
+> Because, once again, the real purpose of education is not to acquire skills. It is to develop the mind. Fill it with knowledge, yes—but also charge it with fire, like a torch, so that, long after we have left the student bench, the mind still gleams and glares and throws a challenge to the maddening mysteries of the world.
 
 
-Education teaches us how to use our freedom. To not follow a manual, but instead be guided by an urge to do what is right. 
+Education teaches us how to use our freedom. To not follow a manual, but instead be guided by an urge to do what is right.
 
 Allan Bloom’s The Closing of the American Mind, published in 1987, instigated a battle over the American university’s soul by reminding us that education’s goal was not to become open to *all ideas* but to cultivate the search for the *best ideas*.
 

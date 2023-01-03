@@ -4,6 +4,7 @@ title: 'Marketing Differentiation'
 description: "The mess of differentiation."
 date: August 10, 2020
 last_modified_at: 2020-10-02T14:41:07+0000
+tags: business
 ---
 
 Here’s a quick list of types of marketing. This list is only going to get longer as time progresses.

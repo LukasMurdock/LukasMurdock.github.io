@@ -3,6 +3,7 @@ layout: post
 title: 'Mastering Issues'
 description: ''
 date: 'August 29, 2021'
+tags: dev
 ---
 
 https://blog.placemark.io/2021/07/19/issues-only-management.html
