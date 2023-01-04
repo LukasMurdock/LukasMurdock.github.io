@@ -3758,6 +3758,16 @@ fulldata:
   - Type: Creative Coding
     List:
 
+      - Title: "Purrli"
+        Link: "https://purrli.com/"
+        Comment: "The internet has a cat"
+        Date: 2023-01-04
+
+      - Title: "Infinite Canvas"
+        Link: "https://infinitecanvas.tools/gallery/"
+        Comment: "Tools that work the way we think"
+        Date: 2023-01-04
+
       - Title: What Web Can Do Today
         Link: "https://whatwebcando.today/"
         Comment: "An overview of the device integration HTML5 APIs"

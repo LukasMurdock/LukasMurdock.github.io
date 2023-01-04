@@ -66,8 +66,60 @@ https://www.atlassian.com/team-playbook/plays/okrs
 
 RAPID is short for Recommend, Agree, Perform, Input and Decide.
 
+### Facts, Assumptions, Beliefs (FAB)
+
+[TBM 46/52: (F)acts, (A)ssumptions, (B)eliefs](https://cutlefish.substack.com/p/tbm-4652-facts-assumptions-beliefs)
+[Spotify Wants To Be Good at Failing](https://www.infoq.com/news/2016/07/spotify-good-at-failing/)
+
+1. Start a document
+2. List incontrovertible facts relevant to your work, with links to support these facts. (e.g., [Competitor] recently launched [Product])
+3. List assumptions relevant to your work with a level of certainty.
+4. List your beliefs.
+5. Regularly revisit document.
+
+### Outcome super prompt
+
+[Outcome Super Prompt](https://cutlefish.substack.com/p/tbm-4252-outcome-super-prompt)
+
+> Right now we are working to improve the ______A________ ______B________ for ______C_______ which we could potentially measure by tracking _____D_______.
+
+### The Tick Tock Doc
+
+[The tick tock doc](https://larahogan.me/blog/the-art-of-the-tick-tock-doc/)
+
+1. Draft the most important and straightforward version of what you need to share with your team.
+    - (The what) I need my team to know  ________________________.
+    - (The why) This change is happening right now because  ________________________.
+    - (The who and how) This will impact ________________________.
+    - (The when) The timeline for this change is ________________________.
+2. Craft your talking points by threading together the key points from step 1.
+3. Create a new row per audience (an audience might just be one person, a team or function, or the entire organization)
+4. Prioritize audience order based on required input and impact.
+5. Assign a message, delivery medium, and communicator for each audience.
+6. Ask the other communicators for feedback and concerns about working, timing, and mediums.
+7. As you execute communication make notes of feedback and reactions and share with other communicators.
+
+| Date | Owner | Channel | Talking Points | Feedback |
+|:----:|:-----:|:-------:|:--------------:|:--------:|
+
+### Success and velocity metrics
+
+[Success & Velocity](https://breakingpoint.substack.com/p/success-and-velocity)
+
+Success metrics tell you whether you have achieved your goal. At any given time you should be able to measure your progress towards your goals using success metrics.
+
+Velocity is how fast you’re moving. Your velocity should always be increasing, and if it’s slowing down then you likely have some significant problems.
+
+Success metrics are many of the common metrics you likely use in your business today, including Revenue, MAU/DAU, Net Retention, and Churn Rate. You likely have goals right now that are measured by success metrics.
+
+Velocity metrics measure the drivers of success. You always want to be more productive than you were last month, and velocity metrics are a measure of that productivity. Given the same level of investment, will you get more out of it in the future? Velocity metrics will tell you exactly that.
+
+
+
 ## Management Resources
 
 - [Workshop tactics](https://www.workshoptactics.com/pages/tactics)
 - [Atlassian: Team Playbook](https://www.atlassian.com/team-playbook)
 - [Managers playbook](https://github.com/ksindi/managers-playbook)
+- [Managing Complex Change](https://addyosmani.com/blog/managing-complex-change/)
+- [Focus on high-leverage activities](https://addyosmani.com/blog/high-leverage-activites/)

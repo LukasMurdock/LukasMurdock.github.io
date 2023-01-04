@@ -70,6 +70,8 @@ tags: me
 - [https://adactio.com/](https://adactio.com/)
 - [https://www.ben-evans.com/](https://www.ben-evans.com/)
 - [Robin Rendle](https://www.robinrendle.com/)
+- [Sergio Mattei](https://matteing.com/)
+- [Bartosz Ciechanowski](https://ciechanow.ski/)
 
 [Cool Things People Do With Their Blogs](https://brainbaking.com/post/2022/04/cool-things-people-do-with-their-blogs/)
 
@@ -88,3 +90,8 @@ tags: me
 
 
 - [A poster exhibition that celebrates the 90 anniversary of Massimo Vignelli](https://www.vignelli.design/)
+
+
+## Articles
+
+- [Huge type on the web](https://matejlatin.com/blog/2022/11/06/huge-type-on-the-web/)

@@ -21,6 +21,9 @@ To a larger extent, these exist as concept instantiations of affiliation, so Iâ€
 - [Puma x White Castle](https://us.puma.com/us/en/pd/puma-x-white-castle-rs-x-mens-sneakers/384466.html)
 - [Cash by Cash App](https://shop.cash.app/)
 - [Titoâ€™s in a Can](https://www.titosvodka.com/titos-in-a-can/)
+- [Hefty Pumpkin Spice trash bags](https://www.prnewswire.com/news-releases/hefty-brings-fall-to-the-trash-can-with-pumpkin-spice-trash-bags-301634203.html)
+- [Lay's x Balenciaga Potato Chip Bag Clutch](https://hypebeast.com/2022/10/lays-balenciaga-potato-chip-bag-clutch-1800-usd-price-info)
+- [Burger King Sauna](https://web.archive.org/web/20200218004345/https://burgerking.fi/sauna) and [Paul Rudd](https://youtu.be/2DAsp_lxtZU)
 
 
 Brand shops:

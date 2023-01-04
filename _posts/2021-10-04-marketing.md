@@ -455,3 +455,5 @@ Objects:
 - [The chief hype officer](https://seths.blog/2022/09/the-chief-hype-officer/)
 - [How to Sell](https://nabeelqu.co/post-selling)
 - [Millennials are out; blah blahs are your next target group](https://www.marketingweek.com/mark-ritson-millennials-are-out-blah-blahs-are-your-next-target-group/)
+- [How to Measure “Hard-to-Measure” Marketing Channels](https://sparktoro.com/blog/how-to-measure-hard-to-measure-marketing-channels/)
+- [Small But Mighty: Tiny Brand Advertising Strategies](https://www.bandt.com.au/small-but-mighty-tiny-brand-advertising-strategies/)

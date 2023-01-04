@@ -8,6 +8,7 @@ tags: annual, me
 
 ## On School and Education
 
+- [Education is not about Learning](https://www.gwern.net/education-is-not-about-learning)
 - [Seth Godin: School vs. progress](https://seths.blog/2021/11/school-vs-progress/)
 - [Seth Godin: Stop stealing dreams](https://seths.blog/2014/09/the-shameful-fraud-of-sorting-for-youth-meritocracy/)
 - [Seth Godin: Self-directed, project-based learning](https://seths.blog/2020/09/self-directed-project-based-learning/)
@@ -34,6 +35,7 @@ tags: annual, me
 - [Akimbo: Enforcement and enrollment](https://shows.acast.com/akimbo/episodes/enforcement-and-enrollment)
 - [I should have loved biology](https://jsomers.net/i-should-have-loved-biology/)
 - [Confessions of a Prep School College Counselor](https://www.theatlantic.com/magazine/archive/2001/09/confessions-of-a-prep-school-college-counselor/302281/)
+- [All People Are Created Educable](https://www.exurbe.com/educable/)
 
 ## On Self Learning
 ### Articles
@@ -73,6 +75,7 @@ tags: annual, me
 - [(HN) Learning Is Remembering](https://news.ycombinator.com/item?id=32982513)
 - [Fierce Nerds](http://www.paulgraham.com/fn.html)
 - [Contemporary Thinkers](https://contemporarythinkers.org/)
+- [Pursue Mastery, Not Status](https://moretothat.com/pursue-mastery-not-status/)
 
 ### Books
 - [David A. Kolb: Experiential Learning: Experience as the Source of Learning and Development](https://www.amazon.com/Experiential-Learning-Experience-Source-Development-dp-0133892409/dp/0133892409/ref=dp_ob_title_bk) (1984)

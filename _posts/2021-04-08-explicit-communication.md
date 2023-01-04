@@ -3,7 +3,7 @@ layout: post
 title: 'Explicit Communication'
 description: ""
 date: April 8, 2021
-last_modified_at: 	2021-04-08T19:43:08+0000
+last_modified_at: 2021-04-08T19:43:08+0000
 ---
 
 Strange how it seems we only see the word *explicit* used when it’s labeling a song or a word as… explicit.
@@ -62,3 +62,6 @@ See:
 - [Managing a remote team](https://lukasmurdock.com/managing-a-remote-team/)
 - [Thoughtful Communication Makes Us Unreasonably Productive](https://www.ashbyhq.com/culture/blog/thoughtful-communication)
 - [Ruling Out Everything Else](https://www.lesswrong.com/posts/57sq9qA3wurjres4K/ruling-out-everything-else)
+- [Communication Techniques for Mutual Understanding](https://9600.dev/blog/posts/communication-techniques-for-mutual-understanding.html)
+- [Crocker's rules](https://wiki.lesswrong.com/wiki/Crocker%27s_rules)
+- [Wait vs. Interrupt culture](https://news.ycombinator.com/item?id=33266372)

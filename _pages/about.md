@@ -45,7 +45,7 @@ I elevator pitch myself as a Designer, Developer, and Marketer, but here I try t
 - Write it up, don’t chat it down.
 - Find new ways to confuse yourself
 - [Find solace in learning](https://lukasmurdock.com/autodidact/)
-- Find a quest
+- Find a quest, find [something to be enthusiastic about](https://critter.blog/2022/10/28/something-to-be-enthusiastic-about/)
 - Slow down, deliberate
 - Less, but better
 - [Everything must be paid for twice](https://www.raptitude.com/2022/01/everything-must-be-paid-for-twice/)
@@ -173,11 +173,12 @@ December 2015 – July 2017
 In no particular order
 - The Library of Congress
 - [The Interval](https://theinterval.org/)
-- [Ise Grand Shrine](https://en.wikipedia.org/wiki/Ise_Grand_Shrine) in 2033!
 - [California Redwood Forest](https://www.skunktrain.com/railbikes-on-the-noyo/)
 - Cambridge University Library
 - Walden Pond
 - Japan
+    - [Patio11 recs](https://www.kalzumeus.com/japan-recommendations/)
+    - [Ise Grand Shrine](https://en.wikipedia.org/wiki/Ise_Grand_Shrine) in 2033!
 - Germany
 - Brazil
 - China
@@ -409,6 +410,7 @@ With this stack my entire website is currently free, aside from paying for the d
 - [Lofi.cafe](https://www.lofi.cafe/)
 - [PurrpleCatmusic](https://www.youtube.com/c/PurrpleCatmusic)
 - Brown noise [Focus](https://youtu.be/QW0u2sajpQ0) / [Sleep](https://www.youtube.com/watch?v=RfocDdUn9tI)
+- [Monstercat Instinct Vol. 1 (Album Mix)](https://www.youtube.com/watch?v=qNMT476v9C8)
 
 #### Soundcloud
 - [Remixes of popular songs](https://soundcloud.com/kiwi129/sets/best-remixes-of-popular-songs)

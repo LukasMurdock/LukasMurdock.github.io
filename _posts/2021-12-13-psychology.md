@@ -45,3 +45,4 @@ Books:
 - [American Psychological Association](https://www.apa.org/)
 - [American Psychological Association PsycNet](https://psycnet.apa.org/home)
 - [Fandom: Psychology Wiki](https://psychology.fandom.com/wiki/Psychology_Wiki)
+- [Alderian Psychotherapy](https://www.apa.org/pubs/books/Alderian-Psychotherapy-Intro-Sample.pdf)

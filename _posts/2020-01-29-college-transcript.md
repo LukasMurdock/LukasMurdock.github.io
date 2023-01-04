@@ -8,6 +8,8 @@ last_modified_at: 2021-01-06T07:34:41+0000
 tags: school, me
 ---
 
+Check out [collegescorecard.ed.gov](https://collegescorecard.ed.gov/)
+
 <span style="font-size: 12px;">Last Updated: {{ page.date | date: '%B %d, %Y' }}</span>
 
 ## Year 01
