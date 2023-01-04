@@ -125,7 +125,6 @@ You have to compare cases—what’s similar? Does it remind you of a particular
 
 [HIG Interrogation Best Practices Report](https://www.fbi.gov/file-repository/hig-report-august-2016.pdf/view)
 
-
 - [Venkatesh Rao: Thinking in OODA Loops](https://www.ribbonfarm.com/2021/12/06/thinking-in-ooda-loops/)
 - [Cedric Chin: Much Ado About The OODA Loop](https://commoncog.com/much-ado-about-the-ooda-loop/)
 - [Cedric Chin: Ability to See Expertise is a Milestone Worth Aiming For](https://commoncog.com/seeing-expertise-milestone-worth-aiming-for/)

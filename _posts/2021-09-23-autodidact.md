@@ -72,6 +72,7 @@ tags: annual, me
 - [ACT: Skills Plateau Because Of Decay And Interference](https://astralcodexten.substack.com/p/skills-plateau-because-of-decay-and)
 - [(HN) Learning Is Remembering](https://news.ycombinator.com/item?id=32982513)
 - [Fierce Nerds](http://www.paulgraham.com/fn.html)
+- [Contemporary Thinkers](https://contemporarythinkers.org/)
 
 ### Books
 - [David A. Kolb: Experiential Learning: Experience as the Source of Learning and Development](https://www.amazon.com/Experiential-Learning-Experience-Source-Development-dp-0133892409/dp/0133892409/ref=dp_ob_title_bk) (1984)

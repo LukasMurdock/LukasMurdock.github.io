@@ -61,3 +61,4 @@ Put everything in writing. Putting everything in writing reduces confusion and s
 See:
 - [Managing a remote team](https://lukasmurdock.com/managing-a-remote-team/)
 - [Thoughtful Communication Makes Us Unreasonably Productive](https://www.ashbyhq.com/culture/blog/thoughtful-communication)
+- [Ruling Out Everything Else](https://www.lesswrong.com/posts/57sq9qA3wurjres4K/ruling-out-everything-else)

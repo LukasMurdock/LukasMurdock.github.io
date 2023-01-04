@@ -35,6 +35,7 @@ tags: me
 - [Standard Ebooks](https://standardebooks.org/)
 - [HathiTrust](https://www.hathitrust.org/)
 - [Open Library](https://openlibrary.org/)
+- [Libretexts](https://libretexts.org/)
 - [Librivox](https://librivox.org/)
 - https://whereislibgen.vercel.app/
 - https://z-lib.org/
@@ -42,6 +43,8 @@ tags: me
 - https://the-eye.eu/
     - e.g. [Psychology](https://the-eye.eu/public/WorldTracker.org/Psychology/)
 - https://archive.org/
+- [The Internet Classics Archive](http://classics.mit.edu/)
+- [Online Library of Liberty](https://oll.libertyfund.org/)
 
 ### Custom Google Search
 
