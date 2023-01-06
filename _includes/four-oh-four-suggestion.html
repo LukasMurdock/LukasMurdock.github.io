@@ -155,6 +155,7 @@ Perhaps you're looking for <span id="four-oh-four-suggestion"></span>?
         if (xhr.status === 200) {
         const xml = xhr.responseXML;
         const urls = Array.from(xml.querySelectorAll('urlset > url > loc')).map((el) => el.textContent);
+        console.log(urls)
         const url = new URL(closest(window.location.href, urls));
         div.innerHTML = `<a href="${url.href}">${url.pathname}</a>`;
         } else {
