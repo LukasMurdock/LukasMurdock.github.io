@@ -52,17 +52,23 @@ Internal:
 
 ### Areas of Responsibility (AOR) and Directly Responsible Individuals (DRI)
 
+Process goal: clarify roles and responsibilities
+
 https://www.atlassian.com/team-playbook/plays/roles-and-responsibilities
 
 https://about.gitlab.com/handbook/people-group/directly-responsible-individuals/
 
 ### Objectives and Key Results (OKRs)
 
+Process goal: clarify vision, goals, and progress
+
 https://rework.withgoogle.com/guides/set-goals-with-okrs/steps/introduction/
 
 https://www.atlassian.com/team-playbook/plays/okrs
 
 ### RAPID
+
+Process goal: clarify decision accountability
 
 RAPID is short for Recommend, Agree, Perform, Input and Decide.
 
@@ -72,7 +78,11 @@ RAPID is short for Recommend, Agree, Perform, Input and Decide.
 - Input: people whose input is worth considering
 - Decide: the one who will make the decision
 
+https://www.bain.com/insights/rapid-tool-to-clarify-decision-accountability/
+
 ### Facts, Assumptions, Beliefs (FAB)
+
+Process goal: align teams on foundations of work
 
 [TBM 46/52: (F)acts, (A)ssumptions, (B)eliefs](https://cutlefish.substack.com/p/tbm-4652-facts-assumptions-beliefs)
 [Spotify Wants To Be Good at Failing](https://www.infoq.com/news/2016/07/spotify-good-at-failing/)
@@ -85,11 +95,15 @@ RAPID is short for Recommend, Agree, Perform, Input and Decide.
 
 ### Outcome super prompt
 
+Process goal: help teams focus on what they are measuring (instead of how they will measure it).
+
 [Outcome Super Prompt](https://cutlefish.substack.com/p/tbm-4252-outcome-super-prompt)
 
 > Right now we are working to improve the ______A________ ______B________ for ______C_______ which we could potentially measure by tracking _____D_______.
 
 ### The Tick Tock Doc
+
+Process goal: strategy for sharing new information throughout an organization.
 
 [The tick tock doc](https://larahogan.me/blog/the-art-of-the-tick-tock-doc/)
 
@@ -120,7 +134,11 @@ Success metrics are many of the common metrics you likely use in your business t
 
 Velocity metrics measure the drivers of success. You always want to be more productive than you were last month, and velocity metrics are a measure of that productivity. Given the same level of investment, will you get more out of it in the future? Velocity metrics will tell you exactly that.
 
+### WBR (Weekly Business Review)
 
+Process goal: Provide a heartbeat of the business for operators to know what’s going on.
+
+https://www.holistics.io/blog/how-amazon-measures/
 
 ## Management Resources
 
