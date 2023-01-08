@@ -66,6 +66,12 @@ https://www.atlassian.com/team-playbook/plays/okrs
 
 RAPID is short for Recommend, Agree, Perform, Input and Decide.
 
+- Recommend: the person who proposed the Issue and Solution
+- Agree: people whose input is required to make the decision
+- Perform: people who will have to enact any decision and therefore should be heard
+- Input: people whose input is worth considering
+- Decide: the one who will make the decision
+
 ### Facts, Assumptions, Beliefs (FAB)
 
 [TBM 46/52: (F)acts, (A)ssumptions, (B)eliefs](https://cutlefish.substack.com/p/tbm-4652-facts-assumptions-beliefs)
