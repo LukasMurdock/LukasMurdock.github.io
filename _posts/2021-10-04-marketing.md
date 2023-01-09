@@ -39,7 +39,15 @@ There’s channel-specific marketing skills:
 
 And these always succumb to the [Law of Shitty Clickthroughs](https://andrewchen.co/the-law-of-shitty-clickthroughs/).
 
-A growth setup requires experimenting with market positioning, product functionality, marketing channels, and even new monetisation models.
+Pre-existing demand? Search
+
+No existing demand? Social
+
+More time than money? [Content](/content-marketing)
+
+More money than time? Ads
+
+A growth setup requires experimenting with market positioning, product functionality, marketing channels, and even new monetization models.
 
 And there’s positioning. Positioning impacts:
 - Marketing: messaging, audience targeting, campaign development.

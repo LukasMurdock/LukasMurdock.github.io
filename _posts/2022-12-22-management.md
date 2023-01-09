@@ -140,6 +140,17 @@ Process goal: Provide a heartbeat of the business for operators to know what’s
 
 https://www.holistics.io/blog/how-amazon-measures/
 
+### ADRs (Architectural Decision Record)
+
+Lightweight ADRs:
+- Title
+- Status (proposed, accepted, rejected, deprecated, superseded)
+- Context (The issue motivating this decision or change)
+- Decision (The change made)
+- Consequences (What became easier or more difficult because of the change made)
+
+https://adr.github.io/
+
 ## Management Resources
 
 - [Workshop tactics](https://www.workshoptactics.com/pages/tactics)
