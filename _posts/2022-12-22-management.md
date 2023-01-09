@@ -99,7 +99,7 @@ Process goal: help teams focus on what they are measuring (instead of how they w
 
 [Outcome Super Prompt](https://cutlefish.substack.com/p/tbm-4252-outcome-super-prompt)
 
-> Right now we are working to improve the ______A________ ______B________ for ______C_______ which we could potentially measure by tracking _____D_______.
+> Right now we are working to improve the [variable_A] [variable_B] for [for who] which we could potentially measure by tracking [measurement].
 
 ### The Tick Tock Doc
 
@@ -120,7 +120,7 @@ Process goal: strategy for sharing new information throughout an organization.
 7. As you execute communication make notes of feedback and reactions and share with other communicators.
 
 | Date | Owner | Channel | Talking Points | Feedback |
-|:----:|:-----:|:-------:|:--------------:|:--------:|
+|------|-------|---------|----------------|----------|
 
 ### Success and velocity metrics
 
