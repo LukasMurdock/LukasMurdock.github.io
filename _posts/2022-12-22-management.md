@@ -140,6 +140,12 @@ Process goal: Provide a heartbeat of the business for operators to know what’s
 
 https://www.holistics.io/blog/how-amazon-measures/
 
+### Improvement Proposals
+
+Process goal: Source improvements and clarify decision-making accountability by removing uncertainty over roles or responsibilities for a decision.
+
+[Improvement proposals](/improvement-proposals)
+
 ### ADRs (Architectural Decision Record)
 
 Lightweight ADRs:
