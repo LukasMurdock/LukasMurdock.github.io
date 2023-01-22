@@ -147,6 +147,13 @@ Technology:
 * Cypress
 * Vercel
 
+## (2022) Personal Countdown
+
+Technology:
+- Next.js
+- Tailwind
+- Vercel
+
 ## (2022) Miami University Explorer
 
 Solo project built to explore buildings and courses at Miami University.
@@ -165,6 +172,7 @@ Backend exploration.
 
 Technology:
 * Flask (Python)
+* Docker
 * Fly.io
 
 ## (2022) Virra App v2
@@ -192,3 +200,11 @@ Technology:
 	* Database (Postgres)
 * Prisma
 * Vercel
+
+## (2022) Tables — [tables.lukas.icu](https://tables.lukas.icu/)
+
+Technology:
+- HTML
+- CSS
+- JavaScript
+- Cloudflare Pages

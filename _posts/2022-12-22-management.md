@@ -21,6 +21,14 @@ Internal:
 - Motivation
 
 
+## A Land & Expand Reading Program
+- 1966 [Peter Drucker: The Effective Executive](https://www.harpercollins.com/products/the-effective-executive-peter-f-drucker?variant=32207495856162)
+- 1982 [Ken Blanchard, Spencer Johnson: The One Minute Manager](https://www.kenblanchard.com/Store/The-New-One-Minute-Manager)
+- 1983 [Andrew Grove: High Output Management](https://about.gitlab.com/handbook/leadership/high-output-management/)
+- 1993 [David Maister: Managing the Professional Service Firm](https://davidmaister.com/books/mtpsf/)
+- 2019 [Matt Mochary: The Great CEO Within](https://mocharymethod.org/the-great-ceo-within/)
+- 2021 [Alex MacCaw: The Manager’s Handbook](https://themanagershandbook.com/)
+
 ## Management Books
 
 - 1936 [Dale Carnegie: How to win friends and influence people](https://fs.blog/how-to-win-friends-and-influence-people/)
