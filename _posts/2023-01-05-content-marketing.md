@@ -27,3 +27,19 @@ Example outcome goals:
 - Improve email subscriber forward rate which we could potentially measure by tracking the number of subscribers who forward the newsletter to others.
 - Improve email subscriber conversion rate which we could potentially measure by tracking the number of subscribers who take a specific action, such as signing up for a webinar or making a purchase, after receiving the newsletter.
 - Improve social media engagement from our social media followers which we could potentially measure by tracking the number of likes, comments, and shares on our social media posts.
+
+
+Publishing checklist:
+- Include keyword in title
+- Choose an evergreen URL. [Cool URIs don’t change](https://www.w3.org/Provider/Style/URI)
+
+Updating posts:
+- Make it longer (more context, more tips)
+- Make it richer (more data, more research, more user-cases)
+- Make it stickier (more examples, imagery, gifs, videos)
+
+Finding ideas with Ahrefs:
+1. List competing sites
+2. Search them within Ahrefs
+3. Tap top pages
+4. Find the top pages with a <10 RD (Competing articles with <10 RD are low-hanging fruits to update and reach out to those linking to original piece.)
