@@ -9,16 +9,16 @@ date: 'January 25, 2023'
 
 [Recovery Housing Gap Analysis](https://www.interactforhealth.org/upl/media/recovery_housing_gap_analysis.pdf) was prepared for Interact for Health by: M. Cameron Hay, Professor of Anthropology, and Abbe Lackmeyer, Project Manager, Miami University on April 30, 2020.
 
-[Recovery Housing in Ohio: Analysis of Resident Survey Data](https://www.ohiorecoveryhousing.org/_files/ugd/195f09_700c5f8846bf48f8a69d05b645648693.pdf) was prepared by Prepared by [Mighty Crow Media, LLC](https://mightycrow.com/). and Ohio Recovery Housing
-
 Recommendations from analysis:
 1. More recovery houses
 2. More recovery houses in safe residential areas with access to transportation, supportive services, and employment opportunities
 3. Regular monitoring of certification process
 4. Enable people to estimate potential fit in a house prior to arrival
-5. Anti-stigma campaigns
+5. Anti-stigma campaigns about recovery housing
 6. Agree on language for recovery housing and attributes for recovery housing
 7. Connect committed individuals to place more people struggling with SUD in recovery homes
+
+[Recovery Housing in Ohio: Analysis of Resident Survey Data](https://www.ohiorecoveryhousing.org/_files/ugd/195f09_700c5f8846bf48f8a69d05b645648693.pdf) was prepared by Prepared by [Mighty Crow Media, LLC](https://mightycrow.com/). and Ohio Recovery Housing in November 2020.
 
 A proposal was made in 2021 to the ODHE ([Ohio Department of Higher Education](https://highered.ohio.gov/about)).
 
