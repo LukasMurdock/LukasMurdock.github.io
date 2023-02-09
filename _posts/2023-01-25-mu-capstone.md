@@ -64,7 +64,7 @@ Recovery housing is a housing environment that is free from alcohol and illicit 
 
 Example recovery home: [Talbert House](https://www.talberthouse.org/help/)
 
-Here are the steps that someone might take to find themselves in recovery housing from Substance Use Disorder:
+Here are steps someone might take to find themselves in recovery housing from Substance Use Disorder:
 
 Seeking help → Assessment → Detox → Rehabilitation → Aftercare → Ongoing support
 
