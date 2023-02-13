@@ -5,9 +5,39 @@ description: ''
 date: 'January 25, 2023'
 ---
 
+A team of researchers and professors have received a grant from the Ohio Department of Higher Education to develop a cell phone app to help people with substance use disorders and their family members find suitable recovery placement options. The app will provide information on availability, qualifications, and potential fit of different recovery facilities. The project will last 18 months and involve partnerships with multiple organizations and stakeholders to ensure the app meets the needs of the community.
+
+---
+
 [Interact for Health](https://interactforhealth.org/) focuses on reducing tobacco use, addressing the opioid epidemic and ensuring that children have access to health care through school-based health centers. They are an independent foundation that serves 20 counties in Ohio, Kentucky and Indiana.
 
 [Recovery Housing Gap Analysis](https://www.interactforhealth.org/upl/media/recovery_housing_gap_analysis.pdf) was prepared for Interact for Health by: M. Cameron Hay, Professor of Anthropology, and Abbe Lackmeyer, Project Manager, Miami University on April 30, 2020.
+
+Some states have accrediting or certifying bodies for recovery housing:
+- [Ohio Recovery Housing](https://www.ohiorecoveryhousing.org) (ORH)
+- [Indiana National Alliance for Recovery Residences](https://inarr.org) (INARR)
+
+Ohio’s population is multiples larger than Indiana and Kentucky combined.
+
+Self reported levels of recovery houses from Ohio:
+1. Peer run: 0
+2. Monitored: 25 houses, 421 beds (avg 16 beds/house)
+3. Supervised: 8 houses, 87 beds (avg 10 beds/house)
+4. Service provider: 16 houses, 256 beds (avg 16 beds/house)
+5. Unknown: 13 houses, 17 beds (avg 1 bed/house)
+
+Annual estimate of adults who receive SUD treatment in Ohio: 10,660
+
+Summary statistics from Greater Cincinnati region:
+- Total houses: 103
+- Certified houses: 22 (21%)
+- Total beds: 1,259
+- Total staff: 228
+- Houses with paid staff: 36 (34%)
+- Length of stay: 90 days to 3+ years
+- Weekly fee: $75-$120
+- Monthly fee: $300-$600
+- Weekly denials from lacking beds: 56
 
 Recommendations from analysis:
 1. More recovery houses
