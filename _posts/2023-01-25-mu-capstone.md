@@ -5,7 +5,7 @@ description: ''
 date: 'January 25, 2023'
 ---
 
-A team of researchers and professors have received a grant from the Ohio Department of Higher Education to develop a cell phone app to help people with substance use disorders and their family members find suitable recovery placement options. The app will provide information on availability, qualifications, and potential fit of different recovery facilities. The project will last 18 months and involve partnerships with multiple organizations and stakeholders to ensure the app meets the needs of the community.
+A team of researchers and professors have received a grant from the Ohio Department of Higher Education to develop “a downloadable cell-phone ready application” to help people with substance use disorders and their family members find suitable recovery placement options. The app will provide information on availability, qualifications, and potential fit of different recovery facilities. The project will last 18 months and involve partnerships with multiple organizations and stakeholders to ensure the app meets the needs of the community.
 
 ---
 
