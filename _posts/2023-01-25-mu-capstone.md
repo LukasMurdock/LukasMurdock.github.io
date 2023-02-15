@@ -65,7 +65,21 @@ Recovery housing is a housing environment that is free from alcohol and illicit 
 
 Example recovery home: [Talbert House](https://www.talberthouse.org/help/)
 
-Here are steps someone might take to find themselves in recovery housing from Substance Use Disorder:
+Recovery housing is a [type of treatment](https://findtreatment.gov/what-to-expect/treatment#Types%20of%20Treatment) among:
+- Supervised withdrawal from substance use (detox)
+- Daily medication and emergency counseling (interim care)
+- Treatment at a program site while a patient lives on their own (outpatient)
+- 24/7 care connected to a hospital, lasting days or weeks (hospital inpatient)
+- Live-in care, lasting for one month to one year (residential)
+- A temporary space to stay while transitioning from an intensive treatment setting. Sometimes called a halfway house or sober living facility. (transitional housing)
+- Integrated care that addresses substance use and mental illness
+- Care given over the phone or online to support treatment and recovery (telemedicine)
+
+The categorization of housing is not standardized across the US. Some states do have category standards.
+
+(2018) [Ohio housing categories and definitions](https://mha.ohio.gov/static/Portals/0/assets/SchoolsAndCommunities/CommunityAndHousing/HousingResources/Housing-Definitions_122018.pdf)
+
+Here are steps someone might take to find themselves in recovery housing from [Substance Use Disorder](https://www.nimh.nih.gov/health/topics/substance-use-and-mental-health):
 
 Seeking help → Assessment → Detox → Rehabilitation → Aftercare → Ongoing support
 
