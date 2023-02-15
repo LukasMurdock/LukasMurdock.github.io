@@ -53,6 +53,14 @@ Items on the syllabus include:
 
 ## Background on Recovery Housing
 
+Recovery housing is for:
+- People who struggle with addiction
+- People in addiction recovery
+- People leaving residential treatment programs (after addiction program, before returning home)
+- People without a home
+- People leaving the criminal justice system
+- People with mental health issues
+
 Recovery housing is a housing environment that is free from alcohol and illicit drug use and offers peer support, connection to treatment, recovery supports, and other associated supports in the community.
 
 Example recovery home: [Talbert House](https://www.talberthouse.org/help/)
