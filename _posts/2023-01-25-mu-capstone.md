@@ -100,6 +100,45 @@ People with SUD (Substance Use Disorder) can find recovery homes through several
 - Hotlines: Substance abuse hotlines can provide information about recovery homes and help connect individuals with appropriate resources.
 - Community organizations: Community organizations such as churches or non-profits may have information about recovery homes and can provide referrals.
 
+## Organizations
+
+### [Substance Abuse and Mental Health Services Administratition (SAMHSA)](https://www.samhsa.gov/)
+
+The Substance Abuse and Mental Health Services Administration (SAMHSA) is the agency within the U.S. Department of Health and Human Services that leads public health efforts to advance the behavioral health of the nation.
+
+Congress established the Substance Abuse and Mental Health Services Administration (SAMHSA) in 1992 to make substance use and mental disorder information, services, and research more accessible.
+
+[ICF](https://www.icf.com/) conducts the [National Substance Use and Mental Health Services Survey (N‑SUMHSS)](https://info.nsumhss.samhsa.gov/) on behalf of SAMHSA. SAMHSA gives the option for N-SUMHSS participants to be listed in SAMHSA’s online Behavioral Health Treatment Services Locator ([https://findtreatment.samhsa.gov](https://findtreatment.samhsa.gov)).
+
+### [National Alliance for Recovery Residences (NARR)](https://narronline.org/)
+
+NARR is a 501-c3 nonprofit organization dedicated to expanding the availability of well-operated, ethical and supportive recovery housing.
+
+NARR was founded in 2011 by a group of organizations and individuals with deep recovery housing expertise, and a goal of developing and promoting best practices in the operation of recovery residences.
+
+NARR works with federal government agencies, national addiction and recovery organizations, state-level recovery housing organizations, and with state addiction services agencies in pursuit of better and more accessible recovery housing opportunities.
+
+### [Ohio Recovery Housing (ORH)](https://www.ohiorecoveryhousing.org/)
+
+ORH is a state affiliate of the National Alliance for Recovery Residences (NARR).
+
+ORH was officially established on September 19, 2014 after years of work to organize recovery housing in Ohio.
+
+ORH creates and maintains standards of excellence for recovery housing in Ohio that meet expectations of NARR.
+
+ORH provides opportunities for peer reviews that regularly document an ongoing commitment to ORH quality standards.
+
+### [the Ohio Department of Mental Health and Addiction Services (OhioMHAS)](https://mha.ohio.gov/)
+
+The Ohio Department of Mental Health and Addiction Services (OhioMHAS) exists to provide statewide leadership of a high-quality mental health and addiction prevention, treatment and recovery system that is effective and valued by all Ohioans.
+
+[Read the OhioMHAS Strategic Plan for 2021-2024](https://mha.ohio.gov/wps/wcm/connect/gov/12fea5fa-3653-47ec-99dd-a05745892b27/strategic-plan-2021-2024+FINAL.pdf?MOD=AJPERES&CVID=nNQnPWi).
+
+The [Get Help > Get Help Now](https://mha.ohio.gov/get-help/get-help-now/get-help-now) page on OhioMHAS links to the SAMHSA FindTreatment.gov resource.
+
+The [Get Help > Recovery Supports > Housing Assistance](https://mha.ohio.gov/get-help/recovery-supports/housing-assistance) page on OhioMHAS links to the Ohio Recovery Housing Finder.
+
+
 ## Resources
 
 (2000) [SAMHSA: Substance Abuse Treatment for Persons With HIV/AIDS](https://store.samhsa.gov/sites/default/files/d7/priv/sma12-4137.pdf)
@@ -218,6 +257,12 @@ Between March 2016 and November 2020:
 - In criminal justice system: 50%
 
 ### (2021) [MHA: Environmental Scan of Recovery Housing in Ohio](https://mha.ohio.gov/static/SupportingProviders/HousingProviders/RecoveryHusing/Recovery-Housing-in-Ohio-2021-Environmental-Scan.pdf)
+
+### (2022) [SAMHSA: National Substance Use and Mental Health Services Survey (N-SUMHHS)](https://info.nsumhss.samhsa.gov/)
+
+The N‑SUMHSS is the most comprehensive source of substance use and mental health treatment data in the country. SAMHSA, other Federal, state, and local agencies, and behavioral health care professionals use these data to understand treatment availability and identify gaps in our nation’s treatment services. The survey gathers information about the services that treatment facilities provide and summary‐level information about the clients served.
+
+Participating facilities will have the option of being listed in SAMHSA’s online Behavioral Health Treatment Services Locator (https://findtreatment.samhsa.gov), which will make others aware of your services, and help you reach potential clients in your community you do not currently reach. Your facility must complete the N‑SUMHSS every year to maintain your listing on the locator.
 
 ## Wikipedia
 
