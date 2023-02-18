@@ -28,6 +28,8 @@ Phases:
 6. Spring 2023 Highwire Brand Studio develops marketing campaign for app
 7. May 2023 deliver app, business plan, and marketing plan
 
+[Third Frontier & Technology](https://development.ohio.gov/business/third-frontier-and-technology)
+
 On May 01, 2022, Miami University news published _The Wrap-Up: May_ and noted an ODHE grant for $278,750.
 
 > Cameron Hay-Rollins, chair and professor of Anthropology, Michael Bailey-Van Kuren, interim chair and associate professor of EBTD, Christopher Sutter, associate professor of Entrepreneurship, and Timothy Greenlee, professor of Marketing, received a grant from the Ohio Department of Higher Education of $278,750 for their project “Finding Recovery: Research and Development to Match People with Substance Use Disorders to Recovery Services in Real Time.” ([MU News](https://miamioh.edu/news/2022/06/the-wrap-up-may.html))
@@ -79,13 +81,13 @@ The categorization of housing is not standardized across the US. Some states do 
 
 (2018) [Ohio housing categories and definitions](https://mha.ohio.gov/static/Portals/0/assets/SchoolsAndCommunities/CommunityAndHousing/HousingResources/Housing-Definitions_122018.pdf)
 
-Here are steps someone might take to find themselves in recovery housing from [Substance Use Disorder](https://www.nimh.nih.gov/health/topics/substance-use-and-mental-health):
+Here are steps someone might take to find themselves in recovery housing from [Substance Use Disorder](https://www.nimh.nih.gov/health/topics/substance-use-and-mental-health): [What happens next?](https://findtreatment.gov/what-to-expect/treatment#What%20Happens%20Next?)
 
 Seeking help → Assessment → Detox → Rehabilitation → Aftercare → Ongoing support
 
 1. **Seeking help**: The first step is to admit that there is a problem and to seek help. This could involve talking to a trusted friend or family member, seeing a doctor or mental health professional, or reaching out to a local support group.
 2. **Assessment**: A professional will conduct an assessment to determine the extent of the substance use disorder and to develop a treatment plan.
-3. **Detox**: Depending on the severity of the addiction, a medical detox may be necessary to help the individual safely withdraw from the substance they are using.
+3. **Detox**: Depending on the severity of the addiction, a medically supervised withdrawal may be necessary to help the individual safely withdraw from the substance they are using as withdrawal can be so severe that people hallucinate, have convulsions, or develop other dangerous conditions. Detox can take place on a regular medical ward of a hospital, in a specialized inpatient detoxification unit, or on an outpatient basis with close medical supervision. Detoxification may take several days to a week or more.
 4. **Rehabilitation**: After detox, the individual may enter a rehabilitation program where they receive treatment and support for their addiction. This could involve individual or group therapy, counseling, and participation in support groups.
 5. **Aftercare**: Upon completion of the rehabilitation program, the individual may transition to recovery housing where they can continue to receive support as they work on their recovery.
 6. **Ongoing support**: It is important for the individual to continue to attend support groups, therapy sessions, and to have a strong support network as they work on their ongoing recovery.
@@ -104,7 +106,14 @@ People with SUD (Substance Use Disorder) can find recovery homes through several
 
 (2013) [MHA: Ohio Environmental Scan](https://mha.ohio.gov/static/Portals/0/assets/SchoolsAndCommunities/CommunityAndHousing/HousingResources/2013%20Ohio%20Environmental%20Scan.pdf)
 
-(2018) [GAO: Information on Recovery Housing Prevalence, Selected States' Oversight, and Funding](https://www.gao.gov/assets/700/691302.pdf)
+### (2018) [GAO: Information on Recovery Housing Prevalence, Selected States' Oversight, and Funding](https://www.gao.gov/assets/700/691302.pdf)
+
+Contents:
+- Nationwide prevalence of recovery housing is unknown, but national organizations collect data on the number and characteristics of a subset of recovery homes
+- Most states we reviewed have investigated potential fraud related to recovery housing and taken steps to enhance oversight
+- Certain SAMHSA grant funding can be used for recovery housing, and selected states have used SAMHSA and state funding to support recovery housing
+
+Fraudulent activities identified by state investigators included schemes in which recovery housing operators recruited individuals with SUD to specific recovery homes and treatment providers, who then billed patients’ insurance for extensive and unnecessary drug testing for the purposes of profit. For example, officials from the Florida state attorney’s office told GAO that SUD treatment providers were paying $300 to $500 or more per week to recovery housing operators for every patient they referred for treatment and were billing patients’ insurance for hundreds of thousands of dollars in unnecessary drug testing over the course of several months. Some of these investigations have resulted in arrests and other actions, such as changes to insurance payment policies.
 
 (2020-01) [MHACBO: National Overview of Recovery Housing Accreditation Legislation and Licensing](https://mhacbo.org/media/NATIONAL.OVERVIEW.RECOVERY.HOUSING.January.2020.pdf)
 
@@ -207,3 +216,17 @@ Between March 2016 and November 2020:
 - In recovery from methamphetamines: 34%
 - In recovery from multiple substances: 60%
 - In criminal justice system: 50%
+
+### (2021) [MHA: Environmental Scan of Recovery Housing in Ohio](https://mha.ohio.gov/static/SupportingProviders/HousingProviders/RecoveryHusing/Recovery-Housing-in-Ohio-2021-Environmental-Scan.pdf)
+
+## Wikipedia
+
+- [Substance Use Disorder](https://en.wikipedia.org/wiki/Substance_use_disorder#United_States)
+- [Halfway house](https://en.wikipedia.org/wiki/Halfway_house)
+- [Sober living houses](https://en.wikipedia.org/wiki/Sober_living_houses)
+- [Drug rehabilitation](https://en.wikipedia.org/wiki/Drug_rehabilitation)
+- [Twelve-step program](https://en.wikipedia.org/wiki/Twelve-step_program)
+
+## HRSA Map Tool
+
+[HRSA Map Tool](https://data.hrsa.gov/maps/map-tool/)
