@@ -46,3 +46,4 @@ Books:
 - [American Psychological Association PsycNet](https://psycnet.apa.org/home)
 - [Fandom: Psychology Wiki](https://psychology.fandom.com/wiki/Psychology_Wiki)
 - [Alderian Psychotherapy](https://www.apa.org/pubs/books/Alderian-Psychotherapy-Intro-Sample.pdf)
+- [René Girard's Mimetic Theory](https://www.youtube.com/watch?app=desktop&v=5Qu6vBebwwg&list=PL_xn3B6eWvGsILrh5v5nq0rMp6OjuBOo9)

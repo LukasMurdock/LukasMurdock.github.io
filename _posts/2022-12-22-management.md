@@ -172,3 +172,4 @@ https://adr.github.io/
 - [Managers playbook](https://github.com/ksindi/managers-playbook)
 - [Managing Complex Change](https://addyosmani.com/blog/managing-complex-change/)
 - [Focus on high-leverage activities](https://addyosmani.com/blog/high-leverage-activites/)
+- [Manage like an engineer](https://ben.balter.com/2023/01/10/manage-like-an-engineer/)

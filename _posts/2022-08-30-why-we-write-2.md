@@ -18,3 +18,4 @@ Like-minded people need a lighthouse. Write to find the others.
 - [Getting Big Things Done](https://brooker.co.za/blog/2020/10/19/big-changes.html)
 - [why it matters and 5 steps to hone your craft](https://alearningaday.blog/2022/08/22/writing-why-it-matters-and-5-steps-to-hone-your-craft/)
 - [Typing is thinking](https://gallant.dev/posts/typing-is-thinking/)
+- [Writing Is Magic](https://brooker.co.za/blog/2022/11/08/writing.html)

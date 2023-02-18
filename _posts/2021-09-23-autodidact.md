@@ -36,6 +36,8 @@ tags: annual, me
 - [I should have loved biology](https://jsomers.net/i-should-have-loved-biology/)
 - [Confessions of a Prep School College Counselor](https://www.theatlantic.com/magazine/archive/2001/09/confessions-of-a-prep-school-college-counselor/302281/)
 - [All People Are Created Educable](https://www.exurbe.com/educable/)
+- [“Yay, College!” Part 1: The Smiley-Face Super-Villainy of American Higher Education](https://www.epsilontheory.com/yay-college-part-1-the-smiley-face-super-villainy-of-american-higher-education/)
+- [Can college level the playing field? No, it really can’t.](https://crookedtimber.org/2023/02/06/can-college-level-the-playing-field-no-it-really-cant/)
 
 ## On Self Learning
 ### Articles
@@ -76,6 +78,8 @@ tags: annual, me
 - [Fierce Nerds](http://www.paulgraham.com/fn.html)
 - [Contemporary Thinkers](https://contemporarythinkers.org/)
 - [Pursue Mastery, Not Status](https://moretothat.com/pursue-mastery-not-status/)
+- [How to Solve It – and by It – I Mean Anything](https://nightingaledvs.com/how-to-solve-it-and-by-it-i-mean-anything/)
+- [Structured Academic Controversy: A Variant](https://crookedtimber.org/2023/01/11/structured-academic-controversy-a-variant/)
 
 ### Books
 - [David A. Kolb: Experiential Learning: Experience as the Source of Learning and Development](https://www.amazon.com/Experiential-Learning-Experience-Source-Development-dp-0133892409/dp/0133892409/ref=dp_ob_title_bk) (1984)

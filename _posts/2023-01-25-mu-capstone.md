@@ -102,7 +102,7 @@ People with SUD (Substance Use Disorder) can find recovery homes through several
 
 ## Organizations
 
-### [Substance Abuse and Mental Health Services Administratition (SAMHSA)](https://www.samhsa.gov/)
+### [Substance Abuse and Mental Health Services AdministrationSAMHSA)](https://www.samhsa.gov/)
 
 The Substance Abuse and Mental Health Services Administration (SAMHSA) is the agency within the U.S. Department of Health and Human Services that leads public health efforts to advance the behavioral health of the nation.
 

@@ -6,6 +6,18 @@ date: December 19, 2020
 last_modified_at: 2020-12-20T04:14:55Z
 ---
 
+[Basics of rationalist discourse](https://www.lesswrong.com/posts/XPv4sYrKnPzeJASuk/basics-of-rationalist-discourse-1):
+1. Don't say straightforwardly false things.
+2. Track (for yourself) and distinguish (for others) your inferences from your observations.
+3. Estimate (for yourself) and make clear (for others) your rough level of confidence in your assertions.
+4. Make your claims clear, explicit, and falsifiable, or explicitly acknowledge that you aren't doing so (or can't).
+5. Aim for convergence on truth, and behave as if your interlocutors are also aiming for convergence on truth.
+6. Don't jump to conclusions—maintain at least two hypotheses consistent with the available information.
+7. Be careful with extrapolation, interpretation, and summary/restatement—distinguish between what was actually said, and what it sounds like/what it implies/what you think it looks like in practice/what it's tantamount to. If you believe that a statement A strongly implies B, and you are disagreeing with A because you disagree with B, explicitly note that "A strongly implies B" is a part of your model.
+8. Allow people to restate, clarify, retract, and redraft their points, if they say that their first attempt failed to convey their intended meaning; do not hold people to the first or worst version of their claim.
+9. Don't weaponize equivocation/don't abuse categories/don't engage in motte-and-bailey shenanigans.
+10. Hold yourself to the absolute highest standard when directly modeling or assessing others' internal states, values, and thought processes.
+
 Less Wrong is a community resource devoted to refining the art of human rationality, sometimes known as rationalism.
 
 Less Wrong believes in promoting lifestyle changes that lead to increased rationality and self-improvement. Writing posts that often focus on avoiding biases related to decision-making, the evaluation of evidence, and psychological barriers that prevent good decision-making.

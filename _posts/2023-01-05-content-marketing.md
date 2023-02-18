@@ -19,6 +19,7 @@ Content Marketing is the buzzword for digital publishing across the web, email, 
 - [Ann Handley: How to Create Ridiculously Good Content](https://vimeo.com/478618381/e4f59f172c) (video)
 - [Daniel Miessler: Content Value Hierarchy](https://danielmiessler.com/blog/the-content-value-hierarchy-cvh/)
 - [Successes and failures of startup content marketing](https://digital-freelancer.org/blog/successes-failures-startups-content-marketing)
+- [Trying to bet on virality is just, it’s not, it’s something you can prepare for, but you can’t actually create](https://hunterwalk.com/2023/01/23/trying-to-bet-on-virality-is-just-its-not-its-something-you-can-prepare-for-but-you-cant-actually-create/)
 
 Example outcome goals:
 - Improve website traffic volume which we could potentially measure by tracking the number of unique visitors to the site.

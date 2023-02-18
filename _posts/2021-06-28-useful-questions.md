@@ -8,6 +8,14 @@ tags: business
 
 [Quick answers](https://quick-answers.kronis.dev/)
 
+[A list of ways to answer a question, in order of low to high leverage](https://critter.blog/2022/12/12/on-maximizing-leverage/):
+
+1. Answering one person’s question in a direct message (so only the person asking the question benefits)
+2. Answering one person’s question in a public channel (so anyone else following the channel that day can benefit)
+3. Answering one person’s question by documenting the answer and sharing the link with them (so anyone searching the docs in the future can benefit)
+4. Take action (fix a bug, add automation, etc.) to make the question obsolete so nobody ever asks it again
+
+
 ## The Seven Essential Questions
 
 From The Coaching Habit.
