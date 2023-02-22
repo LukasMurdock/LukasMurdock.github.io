@@ -100,6 +100,39 @@ People with SUD (Substance Use Disorder) can find recovery homes through several
 - Hotlines: Substance abuse hotlines can provide information about recovery homes and help connect individuals with appropriate resources.
 - Community organizations: Community organizations such as churches or non-profits may have information about recovery homes and can provide referrals.
 
+### Recovery home directories
+
+- [FindTreatment.gov](https://findtreatment.gov)
+- [Ohio Recovery Housing Locator](https://find.ohiorecoveryhousing.org)
+
+## Opioid Treatment Programs
+
+In the United States, the use of medication for opioid use disorder (MOUD) in opioid treatment programs (OTPs) is governed by the [Certification of Opioid Treatment Programs, 42 Code of Federal Regulations (CFR) 8](https://www.govregs.com/regulations/expand/title42_chapterI_part8_subpartC_section8.12).
+
+The regulation created a system to certify and accredit OTPs, allowing them to administer and dispense FDA-approved medications. In addition, opioid use disorder (OUD) patients receiving these medications also receive counseling and other behavioral therapies to provide patients with a whole-person approach.
+
+An OTP can help connect individuals with recovery housing options in their community, and may have established relationships with local recovery housing providers. The OTP staff can also help the individual navigate the process of securing housing, including identifying funding sources or other resources that may be available to support their transition.
+
+[https://www.samhsa.gov/medications-substance-use-disorders/become-accredited-opioid-treatment-program](https://www.samhsa.gov/medications-substance-use-disorders/become-accredited-opioid-treatment-program)
+
+### OPT Medication Units
+
+Certified OTPs may establish medication units that are authorized to dispense opioid agonist treatment medications for observed ingestion.
+
+If a patient in a hospital or long-term care facility needs maintenance or detoxification treatment during their stay, but the patient was admitted for medical conditions other than opioid use disorder, an OTP is not required to have certification to provide maintenance or detoxification treatment.
+
+**[Required Services of a Certified OTP](https://www.govregs.com/regulations/expand/title42_chapterI_part8_subpartC_section8.12#regulation_1)**
+
+- Initial medical examination
+- Special services for pregnant patients
+- Initial and periodic assessment
+- Counseling
+- Drug abuse testing
+
+Opioid Treatment Program directory: [https://dpt2.samhsa.gov/treatment/](https://dpt2.samhsa.gov/treatment/)
+
+There are 117 Opioid Treatment Programs in Ohio.
+
 ## Organizations
 
 ### [Substance Abuse and Mental Health Services AdministrationSAMHSA)](https://www.samhsa.gov/)
@@ -138,6 +171,16 @@ The [Get Help > Get Help Now](https://mha.ohio.gov/get-help/get-help-now/get-hel
 
 The [Get Help > Recovery Supports > Housing Assistance](https://mha.ohio.gov/get-help/recovery-supports/housing-assistance) page on OhioMHAS links to the Ohio Recovery Housing Finder.
 
+[OhioMHAS community partners](https://mha.ohio.gov/community-partners)
+
+- Peer supporters
+- First responders
+
+#### OhioMHAS [certified peer supporters](https://mha.ohio.gov/community-partners/peer-supporters)
+
+A certified peer supporter is someone who has direct lived experience with behavioral health challenges, or someone who has navigated services on behalf of an individual with behavioral health challenges. Certified peer supporters are trained and certified in using their lived experience to help others  impacted by  mental illness or substance use disorders. Ohio offers three types of Peer Supporter certification: Adult, Family, and Youth/Young Adult.
+
+> Five peer organizations have partnered with OhioPRO and OhioMHAS to create technical assistance call centers for peers. These centers will be staffed by certified peer recovery supporters who will be available to answer any questions regarding the new eLicensing platform. They have received training so that they may provide information and answer any questions related to peer recovery supporter certification or recertification. ([OhioMHAS](https://mha.ohio.gov/community-partners/peer-supporters/resources/elicense-help))
 
 ## Resources
 
