@@ -9,6 +9,14 @@ tl;dr: A team of researchers and professors received a grant from the Ohio Depar
 
 ---
 
+## Table of Contents
+- [Background on Recovery Housing](#background-on-recovery-housing)
+- [Opioid Treatment Programs](#opioid-treatment-programs)
+    - Title 42 of the Code of Federal Regulations: Public Health
+- [Organizations](#organizations)
+- [Bills](#bills)
+- [Resources](#resources)
+
 [Interact for Health](https://interactforhealth.org/) focuses on reducing tobacco use, addressing the opioid epidemic and ensuring that children have access to health care through school-based health centers. They are an independent foundation that serves 20 counties in Ohio, Kentucky and Indiana.
 
 M. Cameron Hay, Professor of Anthropology at Miami University, and Abbe Lackmeyer prepared the report “[Recovery Housing Gap Analysis](https://www.interactforhealth.org/upl/media/recovery_housing_gap_analysis.pdf)” for Interact for Health on April 30, 2020.
@@ -115,14 +123,75 @@ An OTP can help connect individuals with recovery housing options in their commu
 
 [https://www.samhsa.gov/medications-substance-use-disorders/become-accredited-opioid-treatment-program](https://www.samhsa.gov/medications-substance-use-disorders/become-accredited-opioid-treatment-program)
 
-### OPT Medication Units
+### Title 42 of the Code of Federal Regulations: Public Health
+
+[Title 42](https://www.ecfr.gov/current/title-42) is the principal set of rules and regulations issued by federal agencies of the United States regarding public health.
+
+- [Title 42](https://www.ecfr.gov/current/title-42): Public Health
+    - [Chapter 1](https://www.ecfr.gov/current/title-42/chapter-I): Public Health Service, Department of Health and Human Services
+        - [Subchapter A](https://www.ecfr.gov/current/title-42/chapter-I/subchapter-A): General Provisions
+            - [Part 8](https://www.ecfr.gov/current/title-42/chapter-I/subchapter-A/part-8): Medication Assisted Treatment for Opioid Use Disorders
+                - Subpart A: General Provisions
+                    - § 8.1	Scope.
+                    - § 8.2	Definititions.
+                - Subpart B: Accreditation of Opioid Treatment Programs
+                    - § 8.3 Application for approval as an accreditation body.
+                    - § 8.4 Accreditation body responsibilities.
+                    - § 8.5 Periodic evaluation of accreditation bodies.
+                    - § 8.6 Withdrawal of approval of accreditation bodies.
+                - Subpart C: Certification and Treatment Standards for Opioid Treatment Programs
+                    - § 8.11 Opioid treatment program certification.
+                    - § 8.12 Federal opioid treatment standards.
+                    - § 8.13 Revocation of accreditation and accreditation body approval.
+                    - § 8.14 Suspension or revocation of certification.
+                    - § 8.15 Forms.
+                - Subpart D: Procedures for Review of Suspension or Proposed Revocation of OTP Certification, and of Adverse Action Regarding Withdrawal of Approval of an Accreditation Body
+                - Subpart E: [Reserved]
+                - Subpart F: Authorization To Increase Patient Limit to 275 Patients
+
+#### Definitions
+
+- **Accredation body**: a body that has been approved by SAMHSA to accredit opioid treatment programs using opioid agonist treatment medications.
+- **Accredation survey**: an onsite review and evaluation of an opioid treatment program by an accreditation body for the purpose of determining compliance with the Federal opioid treatment standards described in [§ 8.12](https://www.ecfr.gov/current/title-42/chapter-I/subchapter-A/part-8/subpart-C/section-8.12).
+- **Accredited opiod treatment program**: an opioid treatment program that is the subject of a current, valid accreditation from an accreditation body approved by SAMHSA under § 8.3(d).
+- **Behavioral health services**: any non-pharmacological intervention carried out in a therapeutic context at an individual, family, or group level. Interventions may include structured, professionally administered interventions (e.g., cognitive behavior therapy or insight oriented psychotherapy) delivered in person, interventions delivered remotely via telemedicine shown in clinical trials to facilitate medication-assisted treatment (MAT) outcomes, or non-professional interventions.
+- **Certified opioid treatment program**: an opioid treatment program that is the subject of a current, valid certification under § 8.11.
+- **Comprehensive maintenance treatment**: maintenance treatment provided in conjunction with a comprehensive range of appropriate medical and rehabilitative services.
+- **Detoxification treatment**: the dispensing of an opioid agonist treatment medication in decreasing doses to an individual to alleviate adverse physical or psychological effects incident to withdrawal from the continuous or sustained use of an opioid drug and as a method of bringing the individual to a drug-free state within such period.
+- **Interim maintenance treatment**: maintenance treatment provided in an opioid treatment program in conjunction with appropriate medical services while a patient is awaiting transfer to a program that provides comprehensive maintenance treatment.
+- **Long-term detoxification treatment**: detoxification treatment for a period more than 30 days but not in excess of 180 days.
+- **Short-term detoxification treatment**: detoxification treatment for a period not in excess of 30 days.
+- **Maintenance treatment**: the dispensing of an opioid agonist treatment medication at stable dosage levels for a period in excess of 21 days in the treatment of an individual for opioid use disorder.
+- **Medical director**: a physician, licensed to practice medicine in the jurisdiction in which the opioid treatment program is located, who assumes responsibility for administering all medical services performed by the program, either by performing them directly or by delegating specific responsibility to authorized program physicians and healthcare professionals functioning under the medical director's direct supervision.
+- **Medical and rehabilitative services**: means services such as medical evaluations, counseling, and rehabilitative and other social programs (e.g., vocational and educational guidance, employment placement), that are intended to help patients in opioid treatment programs become and/or remain productive members of society.
+- **Medication-Assisted Treatment (MAT)**: the use of medication in combination with behavioral health services to provide an individualized approach to the treatment of substance use disorder, including opioid use disorder.
+- **Medication unit**: a facility established as part of, but geographically separate from, an opioid treatment program from which licensed private practitioners or community pharmacists dispense or administer an opioid agonist treatment medication or collect samples for drug testing or analysis.
+- **Opioid agonist treatment medication**: any opioid agonist drug that is approved by the Food and Drug Administration under section 505 of the Federal Food, Drug, and Cosmetic Act (21 U.S.C. 355) for use in the treatment of opioid use disorder.
+- **Opioid treatment program (OPT)**: a program or practitioner engaged in opioid treatment of individuals with an opioid agonist treatment medication registered under [21 U.S.C. 823(g)(1)](https://www.govinfo.gov/content/pkg/USCODE-2021-title21/pdf/USCODE-2021-title21-chap13-subchapI-partC-sec823.pdf).
+- **Patient**: for purposes of subparts B through E of this part, means any individual who receives maintenance or detoxification treatment in an opioid treatment program. For purposes of subpart F of this part, patient means any individual who is dispensed or prescribed covered medications by a practitioner.
+- **Practitioner**: means a physician who is appropriately licensed by the State to dispense covered medications and who possesses a waiver under 21 U.S.C. 823(g)(2).
+
+#### [Certification of Opioid Treatment Programs, 42 Code of Federal Regulations (CFR) 8](https://www.ecfr.gov/current/title-42/chapter-I/subchapter-A/part-8/subpart-C)
+
+**[General](https://www.ecfr.gov/current/title-42/chapter-I/subchapter-A/part-8/subpart-C#p-8.11(a))**
+
+An OTP must be the subject of a current, valid certification from SAMHSA to be considered qualified by the Secretary under section 303(g)(1) of the Controlled Substances Act ([21 U.S.C. 823(g)(1)](https://www.govinfo.gov/content/pkg/USCODE-2021-title21/pdf/USCODE-2021-title21-chap13-subchapI-partC-sec823.pdf)) to dispense opioid drugs in the treatment of opioid use disorder.
+
+To obtain certification from SAMHSA, an OTP must meet the Federal opioid treatment standards in § 8.12, must be the subject of a current, valid accreditation by an accreditation body or other entity designated by SAMHSA, and must comply with any other conditions for certification established by SAMHSA.
+
+Certification shall be granted for a term not to exceed 3 years, except that certification may be extended during the third year if an application for accreditation is pending.
+
+An OTP must be determined to be qualified under section 303(g)(1) of the Controlled Substances Act, and must be determined to be qualified by the Attorney General under section 303(g)(1), to be registered by the Attorney General to dispense opioid agonist treatment medications to individuals for treatment of opioid use disorder.
+
+**[Medication units, long-term care facilities and hospitals](https://www.ecfr.gov/current/title-42/chapter-I/subchapter-A/part-8/subpart-C#p-8.11(i))**
 
 Certified OTPs may establish medication units that are authorized to dispense opioid agonist treatment medications for observed ingestion.
 
 If a patient in a hospital or long-term care facility needs maintenance or detoxification treatment during their stay, but the patient was admitted for medical conditions other than opioid use disorder, an OTP is not required to have certification to provide maintenance or detoxification treatment.
 
-**[Required Services of a Certified OTP](https://www.govregs.com/regulations/expand/title42_chapterI_part8_subpartC_section8.12#regulation_1)**
+**[Required Services of a Certified OTP](https://www.ecfr.gov/current/title-42/chapter-I/subchapter-A/part-8/subpart-C#p-8.12(f))**
 
+- adequate medical, counseling, vocational, educational, and other assessment and treatment services.
 - Initial medical examination
 - Special services for pregnant patients
 - Initial and periodic assessment
@@ -133,15 +202,20 @@ Opioid Treatment Program directory: [https://dpt2.samhsa.gov/treatment/](https:/
 
 There are 117 Opioid Treatment Programs in Ohio.
 
+
 ## Organizations
 
-### [Substance Abuse and Mental Health Services AdministrationSAMHSA)](https://www.samhsa.gov/)
+### [Substance Abuse and Mental Health Services Administration (SAMHSA)](https://www.samhsa.gov/)
 
 The Substance Abuse and Mental Health Services Administration (SAMHSA) is the agency within the U.S. Department of Health and Human Services that leads public health efforts to advance the behavioral health of the nation.
 
 Congress established the Substance Abuse and Mental Health Services Administration (SAMHSA) in 1992 to make substance use and mental disorder information, services, and research more accessible.
 
 [ICF](https://www.icf.com/) conducts the [National Substance Use and Mental Health Services Survey (N‑SUMHSS)](https://info.nsumhss.samhsa.gov/) on behalf of SAMHSA. SAMHSA gives the option for N-SUMHSS participants to be listed in SAMHSA’s online Behavioral Health Treatment Services Locator ([https://findtreatment.samhsa.gov](https://findtreatment.samhsa.gov)).
+
+#### [Certification of Opioid Treatment Programs (OTPs)](https://www.samhsa.gov/medications-substance-use-disorders/become-accredited-opioid-treatment-program)
+
+[SAMHSA’s Division of Pharmacologic Therapies (DPT)](https://www.samhsa.gov/medications-substance-use-disorders/about-dpt), part of the [SAMHSA Center for Substance Abuse Treatment (CSAT)](https://www.samhsa.gov/about-us/who-we-are/offices-centers/csat), is responsible for certifying that an Opioid Treatment Program (OTP) conforms with federal regulations governing treatment for substance use Disorders
 
 ### [National Alliance for Recovery Residences (NARR)](https://narronline.org/)
 
@@ -186,7 +260,44 @@ A certified peer supporter is someone who has direct lived experience with behav
 
 (2000) [SAMHSA: Substance Abuse Treatment for Persons With HIV/AIDS](https://store.samhsa.gov/sites/default/files/d7/priv/sma12-4137.pdf)
 
-(2013) [MHA: Ohio Environmental Scan](https://mha.ohio.gov/static/Portals/0/assets/SchoolsAndCommunities/CommunityAndHousing/HousingResources/2013%20Ohio%20Environmental%20Scan.pdf)
+### (2000) [SAMHSA: Comprehensive Case Management for Substance Abuse Treatment (TIP: Treatment Improvement Protocol)](https://store.samhsa.gov/sites/default/files/d7/priv/sma15-4215.pdf)
+
+Although it defies precise definition, case management generally can be described as a coordinated approach to the delivery of health, substance abuse, mental health, and social services, linking clients with appropriate services to address specific needs and achieve stated goals.
+
+Two reasons why case management is effective as an adjunct to substance abuse treatment:
+1. Retention in treatment is associated with better outcomes, and a principal goal of case management is to keep clients engaged in treatment and moving toward recovery.
+2. Treatment may be more likely to succeed when a client’s other problems are address concurrently with substance abuse.
+
+A treatment professional utilizing case management will:
+- Provide the client a single point of contact for multiple health and social services systems
+- Advocate for the client
+- Be flexible, community-based, and client-oriented
+- Assist the client with needs generally thought to be outside the realm of substance abuse treatment
+
+A treatment professional should possess particular knowledge, skills, and attitudes including:
+- Understanding various models and theories of addiction and other problems related to substance abuse
+- Describe philosophies, practices, policies, and outcomes of models of treatment, recovery, relapse prevention, and continuing care for addiction and other substance-related problems
+- Recognize importance of family, social networks, community systems, and self-help groups in the treatment and recovery process
+- Understanding available insurance and health maintenance options and importance of access
+- Understanding diverse cultures and incorporating the relevant needs of culturally diverse groups, as well as people with disabilities, into clinical practice
+- Understanding the value of an interdisciplinary approach to addiction treatment
+
+Substance abuse treatment and case management functions differ in that treatment involves activities that help substance abusers recognize their problems, acquire the motivation and tools to stay abstinent, and use the acquired tools; case management focuses on helping the substance abuser acquire needed resources.
+
+In the field of substance abuse, three interagency models have been identified.
+1. Single agency model: case manager personally establishes a series of distinct relationships on an as-needed basis with counterparts in other agencies.
+2. Informal partnership model: staff members from several agencies work as a collaborative team, often constituted case by case
+3. Formal consortium: binds case managers and service providers through formal written agreements.
+
+Many communities have published directories of social, health, welfare, housing, vocational, and other service organizations to help case management programs identify resources, possible provider linkages, and potential gaps in services for their clients. Although such directories are a good starting point, it is important to follow up on the listings to ensure they are still accurate and will be of use to the client.
+
+Substance abuse treatment programs, including those that receive public funding, are increasingly operating in a managed care environment. In such an environment, policy and clinical decision making rely on outcome data that traditionally describe the impact of case management and substance abuse treatment interventions in the context of services used and money spent.
+
+Treatment programs may undertake case-finding activities through formal liaisons with potential referral sources such as employers, law enforcement authorities, public welfare agencies, acute emergency medical care facilities, and managed care companies. Health maintenance organizations and managed care companies often require case finding when hotlines are called. General media campaigns and word of mouth also lead substance abusers to contact treatment programs.
+
+Some treatment programs operate aggressive outreach street programs to identify and engage clients. Outreach workers contact prospective clients and offer to facilitate their entry into treatment. Although treatment admission may be the foremost goal of the worker and the treatment program, prospective clients frequently have other requests before agreeing to participate. Much of the assistance offered by outreach workers resembles case management in that it is community-based, responds to an immediate client need, and is pragmatic.
+
+### (2013) [MHA: Ohio Environmental Scan](https://mha.ohio.gov/static/Portals/0/assets/SchoolsAndCommunities/CommunityAndHousing/HousingResources/2013%20Ohio%20Environmental%20Scan.pdf)
 
 ### (2018) [GAO: Information on Recovery Housing Prevalence, Selected States' Oversight, and Funding](https://www.gao.gov/assets/700/691302.pdf)
 
@@ -306,6 +417,101 @@ Between March 2016 and November 2020:
 The N‑SUMHSS is the most comprehensive source of substance use and mental health treatment data in the country. SAMHSA, other Federal, state, and local agencies, and behavioral health care professionals use these data to understand treatment availability and identify gaps in our nation’s treatment services. The survey gathers information about the services that treatment facilities provide and summary‐level information about the clients served.
 
 Participating facilities will have the option of being listed in SAMHSA’s online Behavioral Health Treatment Services Locator (https://findtreatment.samhsa.gov), which will make others aware of your services, and help you reach potential clients in your community you do not currently reach. Your facility must complete the N‑SUMHSS every year to maintain your listing on the locator.
+
+## Bills
+
+### [H.R.2376: Excellence in Recovery Housing Act](https://www.congress.gov/bill/117th-congress/house-bill/2376/text)
+
+- Sponsor: Rep. Trone, David J. [D-MD-6] (Introduced 04/05/2021)
+- Committees: House - Energy and Commerce
+- Latest Action: House - 04/06/2021 Referred to the Subcommittee on Health
+
+To amend title V of the Public Health Service Act to provide for increased oversight of recovery housing, and for other purposes.
+
+**Sec. 2. Clarifying the role of SAMHSA in promoting the availability of high-quality recovery housing**
+
+(26) collaborate with national accrediting entities and reputable providers and analysts of recovery housing services and all relevant Federal agencies, including the Centers for Medicare & Medicaid Services, the Health Resources and Services Administration, other offices and agencies within the Department of Health and Human Services, the Office of National Drug Control Policy, the Department of Justice, the Department of Housing and Urban Development, and the Department of Agriculture, to promote the availability of high-quality recovery housing for individuals with a substance use disorder.
+
+**Sec. 3. Developing guidelines for states to promote the availability of high-quality recovery housing**
+
+Substance use disorder treatment services—In this section, the term ‘substance use disorder treatment services’ means items or services furnished for the treatment of a substance use disorder, including—
+- medications approved by the Food and Drug Administration for use in such treatment, excluding each such medication used to prevent or treat a drug overdose;
+- the administering of such medications;
+- recommendations for such treatment;
+- clinical assessments and referrals;
+- counseling with a physician, psychologist, or mental health professional (including individual and group therapy); and
+- toxicology testing.
+
+**Sec. 4. Coordination of federal activities to promote the availability of high-quality recovery housing.**
+
+Federal agencies described:
+- The Department of Health and Human Services
+- The Centers for Medicare & Medicaid Services
+- The Substance Abuse and Mental Health Services Administration
+- The Health Resources and Services Administration
+- The Indian Health Service
+- The Department of Housing and Urban Development
+- The Department of Agriculture
+- The Department of Justice
+- The Office of National Drug Control Policy
+- The Bureau of Indian Affairs
+- The Department of Labor
+- Any other Federal agency as the co-chairs determine appropriate
+
+**Sec. 5. Nas study and report.**
+
+General
+
+the Secretary of Health and Human Services, acting through the Assistant Secretary for Mental Health and Substance Use, shall enter into an arrangement with the National Academies of Sciences, Engineering, and Medicine to conduct a study, which may include a literature review and case studies as appropriate, on
+
+- the quality and effectiveness of recovery housing in the United States, including the availability in the United States of high-quality recovery housing and whether that availability meets the demand for such housing in the United States; and
+- State, Tribal, and local regulation and oversight of recovery housing.
+
+Topics: a literature review of studies that
+
+- examine the quality of, and effectiveness outcomes for, the types and characteristics of covered recovery housing programs listed in subsection (c); and
+- identify the research and data gaps that must be filled to better report on the quality of, and effectiveness outcomes related to, covered recovery housing.
+
+Type and characteristics of covered recovery housing programs:
+
+- Nonprofit and for-profit covered recovery housing.
+- Private and public covered recovery housing.
+- Covered recovery housing programs that provide services to
+    - residents on a voluntary basis
+    - residents pursuant to a judicial order
+- Number of clients served, disaggregated to the extent possible by covered recovery housing serving
+    - 6 or fewer recovering residents
+    - 10 to 13 recovering residents
+    - 18 or more recovering residents
+- Bedroom occupancy in a house, disaggregated to the extent possible by
+    - single room occupancy
+    - 2 residents occupying 1 room
+    - more than 2 residents occupying 1 room
+- Duration of services received by clients, disaggregated to the extent possible according to whether the services were
+    - 30 days or fewer
+    - 31 to 90 days
+    - more than 90 days and fewer than 6 months
+    - 6 months or more
+- Certification levels of staff
+- Fraudulent and abusive practices by operators of covered recovery housing and inpatient and outpatient treatment facilities, both individually and in concert, including
+    - deceptive or misleading marketing practices, including
+        - inaccurate outcomes-based marketing
+        - marketing based on non-evidence-based practices
+    - illegal patient brokering
+    - third-party recruiters
+    - deceptive or misleading marketing practices of treatment facility and recovery housing online aggregators
+    - the impact of such practices on health care costs and recovery rates
+
+### [H.R. 2367: SOBER Homes Act](https://www.congress.gov/bill/117th-congress/house-bill/2367/text)
+
+- Sponsor: Rep. Levin, Mike [D-CA-49] (Introduced 04/05/2021)
+- Committees: House - Energy and Commerce
+- Latest Action: House - 04/06/2021 Referred to the Subcommittee on Health.
+
+To direct the Secretary of Health and Human Services to enter an agreement with the National Academies of Sciences, Engineering, and Medicine to conduct a study on the quality and effectiveness of covered recovery housing in the United States, and for other purposes.
+
+This Act may be cited as the “Studying Outcomes and Benchmarks for Effective Recovery Homes Act” or the “SOBER Homes Act”.
+
 
 ## Wikipedia
 
