@@ -55,7 +55,7 @@ AORs:
 - Marketing Plan: Greenlee
 - Prototype and Beta App: Bailey-Van Kuren
 
-On the first day, they put us into groups to come up with a list of names, without much explanation. Why? The name and logo they’ve used for 2 years was “denied by legal”.
+On the first day, they put us into groups to come up with a list of names, without much explanation. The name and logo they’ve used for two years was denied by legal.
 
 Items on the syllabus include:
 - Market analysis presentation (Mon, Feb 27 – Wed, Mar 1)
@@ -91,7 +91,28 @@ Recovery housing is a [type of treatment](https://findtreatment.gov/what-to-expe
 
 The categorization of housing is not standardized across the US. Some states do have category standards.
 
-(2018) [Ohio housing categories and definitions](https://mha.ohio.gov/static/Portals/0/assets/SchoolsAndCommunities/CommunityAndHousing/HousingResources/Housing-Definitions_122018.pdf)
+(2018) [OhioMHAS: Ohio housing categories and definitions](https://mha.ohio.gov/static/Portals/0/assets/SchoolsAndCommunities/CommunityAndHousing/HousingResources/Housing-Definitions_122018.pdf)
+
+OhioMHAS lists four housing categories (confirm):
+1. Permanent housing
+    - Private apartments
+    - Permanent supportive housing (PSI)
+    - Recovery residence
+2. Residential care
+    - Child residential care/group home
+    - Residential facility
+    - Assisted living
+3. Temporary
+    - Foster care (adult or child)
+    - Homeless emergency shelter
+    - Respite care
+    - Temporary housing
+    - Transitional housing
+4. Residential treatment
+    - Crisis care
+    - Detox
+    - Residential facility class 1 (residential treatment mental health)
+    - Recovery residence Level 4 (residential treatment substance use)
 
 Here are steps someone might take to find themselves in recovery housing from [Substance Use Disorder](https://www.nimh.nih.gov/health/topics/substance-use-and-mental-health): [What happens next?](https://findtreatment.gov/what-to-expect/treatment#What%20Happens%20Next?)
 
@@ -116,6 +137,20 @@ People with SUD (Substance Use Disorder) can find recovery homes through several
 
 - [FindTreatment.gov](https://findtreatment.gov)
 - [Ohio Recovery Housing Locator](https://find.ohiorecoveryhousing.org)
+
+### [Medications for Substance Use Disorders](https://www.samhsa.gov/medications-substance-use-disorders)
+
+FDA has approved several different medications to treat alcohol use disorders (AUD) and opioid use disorders (OUD). These medications relieve the withdrawal symptoms and psychological cravings that cause chemical imbalances in the body. Medications used are evidence-based treatment options and do not just substitute one drug for another.
+
+**Medications for Alcohol Use Disorder (MAUD)**
+
+Acamprosate, disulfiram, and naltrexone are the most common medications used to treat alcohol use disorder. They do not provide a cure for the disorder but are most effective for people who participate in a treatment program.
+
+**Medications for Opioid Use Disorder (MOUD)**
+
+Buprenorphine, methadone, and naltrexone are the most common medications used to treat OUD. These medications operate to normalize brain chemistry, block the euphoric effects of alcohol and opioids, relieve physiological cravings, and normalize body functions without the negative and euphoric effects of the substance used.
+
+Buprenorphine, methadone, and naltrexone are used to treat OUD to short-acting opioids such as heroin, morphine, and codeine, as well as semi-synthetic opioids like oxycodone and hydrocodone. These medications are safe to use for months, years, or even a lifetime.
 
 ## Opioid Treatment Programs
 
@@ -155,9 +190,9 @@ An OTP can help connect individuals with recovery housing options in their commu
 
 #### Definitions
 
-- **Accredation body**: a body that has been approved by SAMHSA to accredit opioid treatment programs using opioid agonist treatment medications.
-- **Accredation survey**: an onsite review and evaluation of an opioid treatment program by an accreditation body for the purpose of determining compliance with the Federal opioid treatment standards described in [§ 8.12](https://www.ecfr.gov/current/title-42/chapter-I/subchapter-A/part-8/subpart-C/section-8.12).
-- **Accredited opiod treatment program**: an opioid treatment program that is the subject of a current, valid accreditation from an accreditation body approved by SAMHSA under § 8.3(d).
+- **Accreditation body**: a body that has been approved by SAMHSA to accredit opioid treatment programs using opioid agonist treatment medications.
+- **Accreditation survey**: an onsite review and evaluation of an opioid treatment program by an accreditation body for the purpose of determining compliance with the Federal opioid treatment standards described in [§ 8.12](https://www.ecfr.gov/current/title-42/chapter-I/subchapter-A/part-8/subpart-C/section-8.12).
+- **Accredited opioid treatment program**: an opioid treatment program that is the subject of a current, valid accreditation from an accreditation body approved by SAMHSA under § 8.3(d).
 - **Behavioral health services**: any non-pharmacological intervention carried out in a therapeutic context at an individual, family, or group level. Interventions may include structured, professionally administered interventions (e.g., cognitive behavior therapy or insight oriented psychotherapy) delivered in person, interventions delivered remotely via telemedicine shown in clinical trials to facilitate medication-assisted treatment (MAT) outcomes, or non-professional interventions.
 - **Certified opioid treatment program**: an opioid treatment program that is the subject of a current, valid certification under § 8.11.
 - **Comprehensive maintenance treatment**: maintenance treatment provided in conjunction with a comprehensive range of appropriate medical and rehabilitative services.
