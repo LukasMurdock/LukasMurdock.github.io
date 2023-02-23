@@ -21,7 +21,8 @@ date: 'January 25, 2023'
     - [622200: Psychiatric and substance abuse hospitals](#622210-psychiatric-and-substance-abuse-hospitals)
     - [623220: Residential mental health and substance abuse facilities](#623220-residential-mental-health-and-substance-abuse-facilities)
     - [623990: Other residential care facilities](#623990-other-residential-care-facilities)
-    - [624200: Community food and housing, and emergency and other relief services](#6242-community-food-and-housing-and-emergency-and-other-relief-services)
+    - [624221: Temporary shelters](#624221-temporary-shelters)
+    - [624229: Other community housing services](#624229-other-community-housing-services)
 - [Organizations](#organizations)
     - [Substance Abuse and Mental Health Services Administration (SAMHSA)](#substance-abuse-and-mental-health-services-administration-samhsa)
     - [National Alliance for Recovery Residences (NARR)](#national-alliance-for-recovery-residences-narr)
@@ -72,7 +73,7 @@ AORs:
 - Marketing Plan: Greenlee
 - Prototype and Beta App: Bailey-Van Kuren
 
-On the first day, they put us into groups to come up with a list of names, without much explanation. The name and logo they’ve used for two years was denied by legal.
+On the first day, they put us into groups to come up with a list of names, without much explanation. The name and logo they had used for two years was denied by legal.
 
 Items on the syllabus include:
 - Market analysis presentation (Mon, Feb 27 – Wed, Mar 1)
@@ -100,9 +101,15 @@ Recovery housing is a [type of treatment](https://findtreatment.gov/what-to-expe
 - Supervised withdrawal from substance use (detox)
 - Daily medication and emergency counseling (interim care)
 - Treatment at a program site while a patient lives on their own (outpatient)
+    - See [NAICS: 621420, Outpatient mental health and substance abuse centers](#621420-outpatient-mental-health-and-substance-abuse-centers)
 - 24/7 care connected to a hospital, lasting days or weeks (hospital inpatient)
+    - See [NAICS: 622210, Psychiatric and substance abuse hospitals](#622210-psychiatric-and-substance-abuse-hospitals)
 - Live-in care, lasting for one month to one year (residential)
+    - See [NAICS: 623220, Residential mental health and substance abuse facilities](#623220-residential-mental-health-and-substance-abuse-facilities)
+    - See [NAICS: 623990, Other residential care facilities](#623990-other-residential-care-facilities)
 - A temporary space to stay while transitioning from an intensive treatment setting. Sometimes called a halfway house or sober living facility. (transitional housing)
+    - See [NAICS: 624221, Temporary shelters](#624221-temporary-shelters)
+    - See [NAICS: 624229, Other community housing services](#624229-other-community-housing-services)
 - Integrated care that addresses substance use and mental illness
 - Care given over the phone or online to support treatment and recovery (telemedicine)
 
@@ -312,8 +319,6 @@ There are 117 Opioid Treatment Programs in Ohio.
 
 ## NAICS
 
-[NAICS code description](https://www.naics.com/naics-code-description/)
-
 Establishments primarily engaged in providing treatment of mental health and substance abuse illnesses on an exclusively outpatient basis are classified in Industry 621420, Outpatient Mental Health and Substance Abuse Centers.
 
 Establishments primarily engaged in providing residential care for persons with intellectual and developmental disabilities are classified in Industry 623210, Residential Intellectual and Developmental Disability Facilities.
@@ -338,6 +343,8 @@ Relevant industries:
             - [623990: Other residential care facilities](#623990-other-residential-care-facilities)
     - 624000: Social assistance
         - [624200: Community food and housing, and emergency and other relief services](#6242-community-food-and-housing-and-emergency-and-other-relief-services)
+            - [624221: Temporary shelters](#624221-temporary-shelters)
+            - [624229: Other community housing services](#624221-other-community-housing-services)
 - Sector 99: Federal, state, and local government
     - [999300: Local government](https://www.bls.gov/oes/current/naics4_999300.htm)
 
@@ -413,6 +420,23 @@ Illustrative Examples:
 - [BLS: 624200](https://www.bls.gov/oes/current/naics4_624200.htm)
 
 This industry group comprises establishments primarily engaged in one of the following: (1) collecting, preparing, and delivering food for the needy; (2) providing short-term emergency shelter, temporary residential shelter, transitional housing, volunteer construction or repair of low-cost housing, and/or repair of homes for individuals or families in need; or (3) providing food, shelter, clothing, medical relief, resettlement, and counseling to victims of domestic or international disasters or conflicts (e.g., wars).
+
+### 624221: Temporary shelters
+
+- [NAICS code description: 624221](https://www.naics.com/naics-code-description/?code=624221)
+
+This U.S. industry comprises establishments primarily engaged in providing (1) short-term emergency shelter for victims of domestic violence, sexual assault, or child abuse and/or (2) temporary residential shelter for homeless individuals or families, runaway youth, and patients and families caught in medical crises. These establishments may operate their own shelters or may subsidize housing using existing homes, apartments, hotels, or motels.
+
+- Emergency shelters
+- Homeless shelters
+- Runaway youth shelters
+- Temporary housing for families of medical patients
+
+### 624229: Other Community Housing Services
+
+- [NAICS code description: 624229](https://www.naics.com/naics-code-description/?code=624229)
+
+This U.S. industry comprises establishments primarily engaged in providing one or more of the following community housing services: (1) transitional housing to low-income individuals and families; (2) volunteer construction or repair of low-cost housing, in partnership with the homeowner who may assist in the construction or repair work; and (3) the repair of homes for elderly or disabled homeowners. These establishments may subsidize housing using existing homes, apartments, hotels, or motels or may require a low-cost mortgage or sweat equity. These establishments may also provide low-income families with furniture and household supplies.
 
 
 ## Organizations
