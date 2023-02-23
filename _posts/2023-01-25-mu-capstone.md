@@ -8,9 +8,15 @@ date: 'January 25, 2023'
 ## Table of Contents
 
 - [Background on project](#background-on-project)
-- [Background on Recovery Housing](#background-on-recovery-housing)
-- [Opioid Treatment Programs](#opioid-treatment-programs)
+- [Background on recovery housing](#background-on-recovery-housing)
+- [Mental health and substance use disorder treatment](#mental-health-and-substance-use-disorder-treatment)
+    - [Who provides care?](#who-provides-care)
+        - [Substance abuse, behavioral disorder, and mental health counselors](#substance-abuse-behavioral-disorder-and-mental-health-counselors)
+        - [Social workers](#social-workers)
+    - [Medications for Substance Use Disorders](#medications-for-substance-use-disorders)
+- [Opioid treatment programs](#opioid-treatment-programs)
     - Title 42 of the Code of Federal Regulations: Public Health
+- [NAICS](#naics)
 - [Organizations](#organizations)
 - [Resources](#resources)
 - [Bills](#bills)
@@ -125,12 +131,6 @@ Seeking help → Assessment → Detox → Rehabilitation → Aftercare → Ongoi
 5. **Aftercare**: Upon completion of the rehabilitation program, the individual may transition to recovery housing where they can continue to receive support as they work on their recovery.
 6. **Ongoing support**: It is important for the individual to continue to attend support groups, therapy sessions, and to have a strong support network as they work on their ongoing recovery.
 
-[Who provides care?](https://findtreatment.gov/what-to-expect/treatment#Who%20Provides%20Care?)
-
-In most treatment programs, the main caregivers are specially trained individuals who are certified or licensed as substance use treatment counselors.
-
-Most treatment programs assign patients to a treatment team of professionals. Depending on the type of treatment, teams can be made up of social workers, counselors, doctors, nurses, psychologists, and psychiatrists.
-
 People with SUD (Substance Use Disorder) can find recovery homes through several ways, including:
 
 - Referrals from healthcare providers: Doctors, therapists, or other healthcare providers may know about recovery homes in the area and can make a referral.
@@ -143,6 +143,14 @@ People with SUD (Substance Use Disorder) can find recovery homes through several
 
 - [FindTreatment.gov](https://findtreatment.gov)
 - [Ohio Recovery Housing Locator](https://find.ohiorecoveryhousing.org)
+
+## Mental health and substance use disorder treatment
+
+### [Who provides care?](https://findtreatment.gov/what-to-expect/treatment#Who%20Provides%20Care?)
+
+In most treatment programs, the main caregivers are specially trained individuals who are certified or licensed as substance use treatment counselors.
+
+Most treatment programs assign patients to a treatment team of professionals. Depending on the type of treatment, teams can be made up of social workers, counselors, doctors, nurses, psychologists, and psychiatrists.
 
 ### [Substance abuse, behavioral disorder, and mental health counselors](https://www.bls.gov/ooh/community-and-social-service/substance-abuse-behavioral-disorder-and-mental-health-counselors.htm)
 
@@ -170,6 +178,23 @@ Substance abuse, behavioral disorder, and mental health counselors work in a var
 - Residential intellectual and developmental disability, mental health, and substance abuse facilities: 35,410 (5.78% of industry)
 
 [Geographic profile for Substance Abuse, Behavioral Disorder, and Mental Health Counselors](https://www.bls.gov/oes/current/oes211018.htm#st)
+
+### [Social Workers](https://www.bls.gov/ooh/community-and-social-service/social-workers.htm)
+
+Social workers help people prevent and cope with problems in their everyday lives.
+
+Social workers are employed in a variety of settings, including child welfare and human service agencies, healthcare providers, and schools. Most work full time, and some work evenings, weekends, and holidays.
+
+- Number of jobs (2021): 708,100
+- Job outlook: 9% (faster than average)
+
+**[Mental Health and Substance Abuse Social Workers](https://www.bls.gov/oes/current/oes211023.htm#(1))**
+
+Industry profile for Mental Health and Substance Abuse Social Workers:
+- Outpatient care centers: 24,900 (2.52% of industry)
+- Individual and family services: 14,860 (0.56% of industry)
+- Residential Intellectual and Developmental Disability, Mental Health, and Substance Abuse Facilities: 11,960 (1.95% of industry)
+- Psychiatric and Substance Abuse Hospitals: 10,370 (4.33% of industry)
 
 ### [Medications for Substance Use Disorders](https://www.samhsa.gov/medications-substance-use-disorders)
 
@@ -273,6 +298,110 @@ If a patient in a hospital or long-term care facility needs maintenance or detox
 Opioid Treatment Program directory: [https://dpt2.samhsa.gov/treatment/](https://dpt2.samhsa.gov/treatment/)
 
 There are 117 Opioid Treatment Programs in Ohio.
+
+## NAICS
+
+[NAICS code description](https://www.naics.com/naics-code-description/)
+
+Establishments primarily engaged in providing treatment of mental health and substance abuse illnesses on an exclusively outpatient basis are classified in Industry 621420, Outpatient Mental Health and Substance Abuse Centers.
+
+Establishments primarily engaged in providing residential care for persons with intellectual and developmental disabilities are classified in Industry 623210, Residential Intellectual and Developmental Disability Facilities.
+
+Establishments known and licensed as hospitals primarily engaged in providing inpatient treatment of mental health and substance abuse illnesses with an emphasis on medical treatment and monitoring are classified in Industry 622210, Psychiatric and Substance Abuse Hospitals.
+
+Establishments primarily engaged in operating halfway group homes for delinquents and ex-offenders are classified in Industry 623990, Other Residential Care Facilities.
+
+---
+
+Relevant industries:
+- Sector 62: Health care and social assistance
+    - 621000: Ambulatory Health care services
+        - 621400: Outpatient care centers
+            - 621420: Outpatient mental health and substance abuse centers
+    - 622000: Hospitals
+        - 622200: Psychiatric and substance abuse hospitals
+    - 623000: Nursing and residential care facilities
+        - 623200: Residential intellectual and developmental disability, mental health, and substance abuse facilities
+            - 623220: Residential Mental Health and Substance Abuse Facilities
+        - 623900: Other Residential Care Facilities
+            - 623990: Other Residential Care Facilities
+    - 624000: Social assistance
+        - 624200: Community food and housing, and emergency and other relief services
+- Sector 99: Federal, state, and local government
+    - [999300: Local government](https://www.bls.gov/oes/current/naics4_999300.htm)
+
+### 621420: Outpatient mental health and substance abuse centers
+
+- [NAICS code description: 621420](https://www.naics.com/naics-code-description/?code=621420)
+- [BLS: 621420](https://www.bls.gov/oes/current/naics5_621420.htm)
+
+This industry comprises establishments with medical staff primarily engaged in providing outpatient services related to the diagnosis and treatment of mental health disorders and alcohol and other substance abuse. These establishments generally treat patients who do not require inpatient treatment. They may provide a counseling staff and information regarding a wide range of mental health and substance abuse issues and/or refer patients to more extensive treatment programs, if necessary.
+
+Illustrative examples:
+- Outpatient alcoholism treatment centers and clinics (except hospitals)
+- Outpatient mental health centers and clinics (except hospitals)
+- Outpatient detoxification centers and clinics (except hospitals)
+- Outpatient substance abuse treatment centers and clinics (except hospitals)
+- Outpatient drug addiction treatment centers and clinics (except hospitals)
+
+### 622210: Psychiatric and substance abuse hospitals
+
+- [NAICS code description: 622210](https://www.naics.com/naics-code-description/?code=622210)
+- [BLS: 622200](https://www.bls.gov/oes/current/naics4_622200.htm)
+
+This industry comprises establishments known and licensed as psychiatric and substance abuse hospitals primarily engaged in providing diagnostic, medical treatment, and monitoring services for inpatients who suffer from mental illness or substance abuse disorders. The treatment often requires an extended stay in the hospital. These establishments maintain inpatient beds and provide patients with food services that meet their nutritional requirements. They have an organized staff of physicians and other medical staff to provide patient care services. Psychiatric, psychological, and social work services are available at the facility. These hospitals usually provide other services, such as outpatient services, clinical laboratory services, diagnostic X-ray services, and electroencephalograph services.
+
+- Alcoholism rehabilitation hospitals
+- Children's hospitals, psychiatric or substance abuse
+- Detoxification hospitals
+- Drug addiction rehabilitation hospitals
+- Hospitals for alcoholics
+- Hospitals, addiction
+- Hospitals, mental (except intellectual and developmental disability)
+- Hospitals, psychiatric (except convalescent)
+- Hospitals, psychiatric pediatric
+- Hospitals, substance abuse
+- Mental (except intellectual and developmental disability) hospitals
+- Mental health hospitals
+- Psychiatric hospitals (except convalescent)
+- Rehabilitation hospitals, alcoholism and drug addiction
+
+### 623220: Residential mental health and substance abuse facilities
+
+- [NAICS code description: 623220](https://www.naics.com/naics-code-description/?code=623220)
+- [BLS: 623220](https://www.bls.gov/oes/current/naics5_623220.htm)
+
+This industry comprises establishments primarily engaged in providing residential care and treatment for patients with mental health and substance abuse illnesses. These establishments provide room, board, supervision, and counseling services. Although medical services may be available at these establishments, they are incidental to the counseling, mental rehabilitation, and support services offered. These establishments generally provide a wide range of social services in addition to counseling.
+
+Illustrative examples:
+- Alcoholism or drug addiction rehabilitation facilities (except licensed hospitals)
+- Psychiatric convalescent homes or hospitals
+- Mental health halfway houses
+- Residential group homes for the emotionally disturbed
+
+### 623990: Other Residential Care Facilities
+
+- [NAICS code description: 623990](https://www.naics.com/naics-code-description/?code=623990)
+- [BLS: 623990](https://www.bls.gov/oes/current/naics4_623900.htm)
+
+This industry comprises establishments primarily engaged in providing residential care (except residential intellectual and developmental disability facilities, residential mental health and substance abuse facilities, continuing care retirement communities, and assisted living facilities for the elderly). These establishments also provide supervision and personal care services.
+
+Illustrative Examples:
+- Boot or disciplinary camps (except correctional) for delinquent youth
+- Group homes for the hearing or visually impaired
+- Child group foster homes
+- Halfway group homes for delinquents or ex-offenders
+- Delinquent youth halfway group homes
+- Homes for unwed mothers
+- Group homes for the disabled without nursing care
+- Orphanages
+
+### 6242: Community food and housing, and emergency and other relief services
+
+- [NAICS code description: 6242](https://www.naics.com/naics-code-description/?code=6242)
+- [BLS: 624200](https://www.bls.gov/oes/current/naics4_624200.htm)
+
+This industry group comprises establishments primarily engaged in one of the following: (1) collecting, preparing, and delivering food for the needy; (2) providing short-term emergency shelter, temporary residential shelter, transitional housing, volunteer construction or repair of low-cost housing, and/or repair of homes for individuals or families in need; or (3) providing food, shelter, clothing, medical relief, resettlement, and counseling to victims of domestic or international disasters or conflicts (e.g., wars).
 
 
 ## Organizations
