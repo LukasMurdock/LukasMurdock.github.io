@@ -125,6 +125,12 @@ Seeking help → Assessment → Detox → Rehabilitation → Aftercare → Ongoi
 5. **Aftercare**: Upon completion of the rehabilitation program, the individual may transition to recovery housing where they can continue to receive support as they work on their recovery.
 6. **Ongoing support**: It is important for the individual to continue to attend support groups, therapy sessions, and to have a strong support network as they work on their ongoing recovery.
 
+[Who provides care?](https://findtreatment.gov/what-to-expect/treatment#Who%20Provides%20Care?)
+
+In most treatment programs, the main caregivers are specially trained individuals who are certified or licensed as substance use treatment counselors.
+
+Most treatment programs assign patients to a treatment team of professionals. Depending on the type of treatment, teams can be made up of social workers, counselors, doctors, nurses, psychologists, and psychiatrists.
+
 People with SUD (Substance Use Disorder) can find recovery homes through several ways, including:
 
 - Referrals from healthcare providers: Doctors, therapists, or other healthcare providers may know about recovery homes in the area and can make a referral.
@@ -137,6 +143,33 @@ People with SUD (Substance Use Disorder) can find recovery homes through several
 
 - [FindTreatment.gov](https://findtreatment.gov)
 - [Ohio Recovery Housing Locator](https://find.ohiorecoveryhousing.org)
+
+### [Substance abuse, behavioral disorder, and mental health counselors](https://www.bls.gov/ooh/community-and-social-service/substance-abuse-behavioral-disorder-and-mental-health-counselors.htm)
+
+Substance abuse, behavioral disorder, and mental health counselors advise people on a range of issues, such as those relating to alcoholism, addictions, or depression.
+
+Substance abuse, behavioral disorder, and mental health counselors work in a variety of settings, such as mental health centers, community health centers, and private practice. Most work full time, although part-time work is common.
+
+- Number of jobs (2021): 351,000
+- Job outlook: 22% (much faster than average)
+
+[Similar occupations](https://www.bls.gov/ooh/community-and-social-service/substance-abuse-behavioral-disorder-and-mental-health-counselors.htm):
+- Health education specialists and community health workers
+- Probation officers and correctional treatment specialists
+- Psychologists
+- Registered nurses
+- Rehabilitation counselors
+- Social and community services managers
+- Social and human service assistants
+- Social workers
+
+[Industry profile for Substance Abuse, Behavioral Disorder, and Mental Health Counselors](https://www.bls.gov/oes/current/oes211018.htm#ind):
+- Outpatient care centers: 72,820 (7.38% of industry)
+- Individual and family services: 51,580 (1.94% of industry)
+- Officies of other health practitioners 38,250 (3.93% of industry)
+- Residential intellectual and developmental disability, mental health, and substance abuse facilities: 35,410 (5.78% of industry)
+
+[Geographic profile for Substance Abuse, Behavioral Disorder, and Mental Health Counselors](https://www.bls.gov/oes/current/oes211018.htm#st)
 
 ### [Medications for Substance Use Disorders](https://www.samhsa.gov/medications-substance-use-disorders)
 
