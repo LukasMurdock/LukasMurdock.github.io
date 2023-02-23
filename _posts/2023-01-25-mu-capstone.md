@@ -5,17 +5,21 @@ description: ''
 date: 'January 25, 2023'
 ---
 
-tl;dr: A team of researchers and professors received a grant from the Ohio Department of Higher Education to develop “a downloadable cell-phone ready application” to help people with substance use disorders and their family members find suitable recovery placement options. In addition, the app will provide information on the availability, qualifications, and potential fit of different recovery facilities. The project will last 18 months and involve partnerships with multiple organizations and stakeholders to ensure the app meets the community’s needs.
-
----
-
 ## Table of Contents
+
+- [Background on project](#background-on-project)
 - [Background on Recovery Housing](#background-on-recovery-housing)
 - [Opioid Treatment Programs](#opioid-treatment-programs)
     - Title 42 of the Code of Federal Regulations: Public Health
 - [Organizations](#organizations)
-- [Bills](#bills)
 - [Resources](#resources)
+- [Bills](#bills)
+
+## Background on project
+
+tl;dr: A team of researchers and professors received a grant from the Ohio Department of Higher Education to develop “a downloadable cell-phone ready application” to help people with substance use disorders and their family members find suitable recovery placement options. In addition, the app will provide information on the availability, qualifications, and potential fit of different recovery facilities. The project will last 18 months and involve partnerships with multiple organizations and stakeholders to ensure the app meets the community’s needs.
+
+---
 
 [Interact for Health](https://interactforhealth.org/) focuses on reducing tobacco use, addressing the opioid epidemic and ensuring that children have access to health care through school-based health centers. They are an independent foundation that serves 20 counties in Ohio, Kentucky and Indiana.
 
