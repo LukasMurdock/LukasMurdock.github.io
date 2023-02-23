@@ -17,9 +17,20 @@ date: 'January 25, 2023'
 - [Opioid treatment programs](#opioid-treatment-programs)
     - Title 42 of the Code of Federal Regulations: Public Health
 - [NAICS](#naics)
+    - [621420: Outpatient mental health and substance abuse centers](#621420-outpatient-mental-health-and-substance-abuse-centers)
+    - [622200: Psychiatric and substance abuse hospitals](#622210-psychiatric-and-substance-abuse-hospitals)
+    - [623220: Residential mental health and substance abuse facilities](#623220-residential-mental-health-and-substance-abuse-facilities)
+    - [623990: Other residential care facilities](#623990-other-residential-care-facilities)
+    - [624200: Community food and housing, and emergency and other relief services](#6242-community-food-and-housing-and-emergency-and-other-relief-services)
 - [Organizations](#organizations)
+    - [Substance Abuse and Mental Health Services Administration (SAMHSA)](#substance-abuse-and-mental-health-services-administration-samhsa)
+    - [National Alliance for Recovery Residences (NARR)](#national-alliance-for-recovery-residences-narr)
+    - [Ohio Recovery Housing (ORH)](#ohio-recovery-housing-orh)
+    - [the Ohio Department of Mental Health and Addiction Services (OhioMHAS)](#the-ohio-department-of-mental-health-and-addiction-services-ohiomhas)
 - [Resources](#resources)
 - [Bills](#bills)
+
+---
 
 ## Background on project
 
@@ -317,16 +328,16 @@ Relevant industries:
 - Sector 62: Health care and social assistance
     - 621000: Ambulatory Health care services
         - 621400: Outpatient care centers
-            - 621420: Outpatient mental health and substance abuse centers
+            - [621420: Outpatient mental health and substance abuse centers](#621420-outpatient-mental-health-and-substance-abuse-centers)
     - 622000: Hospitals
-        - 622200: Psychiatric and substance abuse hospitals
+        - [622200: Psychiatric and substance abuse hospitals](#622210-psychiatric-and-substance-abuse-hospitals)
     - 623000: Nursing and residential care facilities
         - 623200: Residential intellectual and developmental disability, mental health, and substance abuse facilities
-            - 623220: Residential Mental Health and Substance Abuse Facilities
+            - [623220: Residential mental health and substance abuse facilities](#623220-residential-mental-health-and-substance-abuse-facilities)
         - 623900: Other Residential Care Facilities
-            - 623990: Other Residential Care Facilities
+            - [623990: Other residential care facilities](#623990-other-residential-care-facilities)
     - 624000: Social assistance
-        - 624200: Community food and housing, and emergency and other relief services
+        - [624200: Community food and housing, and emergency and other relief services](#6242-community-food-and-housing-and-emergency-and-other-relief-services)
 - Sector 99: Federal, state, and local government
     - [999300: Local government](https://www.bls.gov/oes/current/naics4_999300.htm)
 
