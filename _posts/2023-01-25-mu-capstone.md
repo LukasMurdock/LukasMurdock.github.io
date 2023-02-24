@@ -15,7 +15,7 @@ date: 'January 25, 2023'
         - Social workers
             - [Healthcare social workers](#healthcare-social-workers)
             - [Mental health and substance abuse social workers](#mental-health-and-substance-abuse-social-workers)
-        - Miscellaneous Community and Social Service Specialists
+        - Miscellaneous community and social service specialists
             - [Health education specialists](#health-education-specialists)
             - [Probation officers and correctional treatment specialists](#probation-officers-and-correctional-treatment-specialists)
             - [Social and human service assistants](#social-and-human-service-assistants)
@@ -35,7 +35,7 @@ date: 'January 25, 2023'
     - [National Alliance for Recovery Residences (NARR)](#national-alliance-for-recovery-residences-narr)
     - [Ohio Recovery Housing (ORH)](#ohio-recovery-housing-orh)
     - [the Ohio Department of Mental Health and Addiction Services (OhioMHAS)](#the-ohio-department-of-mental-health-and-addiction-services-ohiomhas)
-- [Resources](#resources)
+- [Reports](#reports)
 - [Bills](#bills)
 
 ---
@@ -188,13 +188,10 @@ Substance abuse, behavioral disorder, and mental health counselors work in a var
 
 [Similar occupations](https://www.bls.gov/ooh/community-and-social-service/substance-abuse-behavioral-disorder-and-mental-health-counselors.htm):
 - Health education specialists and community health workers
-- Probation officers and correctional treatment specialists
 - Psychologists
 - Registered nurses
 - Rehabilitation counselors
 - Social and community services managers
-- Social and human service assistants
-- Social workers
 
 [Industry profile for Substance Abuse, Behavioral Disorder, and Mental Health Counselors](https://www.bls.gov/oes/current/oes211018.htm#ind):
 - Outpatient care centers: 72,820 (7.38% of industry)
@@ -410,6 +407,7 @@ Relevant industries:
 
 - [NAICS code description: 621420](https://www.naics.com/naics-code-description/?code=621420)
 - [BLS: 621420](https://www.bls.gov/oes/current/naics5_621420.htm)
+- [IBISWorld: 62142](https://my-ibisworld-com.proxy.lib.miamioh.edu/us/en/industry/62142/about) (Miami proxy)
 
 This industry comprises establishments with medical staff primarily engaged in providing outpatient services related to the diagnosis and treatment of mental health disorders and alcohol and other substance abuse. These establishments generally treat patients who do not require inpatient treatment. They may provide a counseling staff and information regarding a wide range of mental health and substance abuse issues and/or refer patients to more extensive treatment programs, if necessary.
 
@@ -424,6 +422,7 @@ Illustrative examples:
 
 - [NAICS code description: 622210](https://www.naics.com/naics-code-description/?code=622210)
 - [BLS: 622200](https://www.bls.gov/oes/current/naics4_622200.htm)
+- [IBISWorld: 62221](https://my-ibisworld-com.proxy.lib.miamioh.edu/us/en/industry/62221) (Miami proxy)
 
 This industry comprises establishments known and licensed as psychiatric and substance abuse hospitals primarily engaged in providing diagnostic, medical treatment, and monitoring services for inpatients who suffer from mental illness or substance abuse disorders. The treatment often requires an extended stay in the hospital. These establishments maintain inpatient beds and provide patients with food services that meet their nutritional requirements. They have an organized staff of physicians and other medical staff to provide patient care services. Psychiatric, psychological, and social work services are available at the facility. These hospitals usually provide other services, such as outpatient services, clinical laboratory services, diagnostic X-ray services, and electroencephalograph services.
 
@@ -482,6 +481,7 @@ This industry comprises establishments known and licensed as psychiatric and sub
 
 - [NAICS code description: 623220](https://www.naics.com/naics-code-description/?code=623220)
 - [BLS: 623220](https://www.bls.gov/oes/current/naics5_623220.htm)
+- [IBISWorld: 62322](https://my-ibisworld-com.proxy.lib.miamioh.edu/us/en/industry/62322/about) (Miami proxy)
 
 This industry comprises establishments primarily engaged in providing residential care and treatment for patients with mental health and substance abuse illnesses. These establishments provide room, board, supervision, and counseling services. Although medical services may be available at these establishments, they are incidental to the counseling, mental rehabilitation, and support services offered. These establishments generally provide a wide range of social services in addition to counseling.
 
@@ -495,6 +495,7 @@ Illustrative examples:
 
 - [NAICS code description: 623990](https://www.naics.com/naics-code-description/?code=623990)
 - [BLS: 623990](https://www.bls.gov/oes/current/naics4_623900.htm)
+- [IBISWorld: 62399](https://my-ibisworld-com.proxy.lib.miamioh.edu/us/en/industry/62399/about) (Miami proxy)
 
 This industry comprises establishments primarily engaged in providing residential care (except residential intellectual and developmental disability facilities, residential mental health and substance abuse facilities, continuing care retirement communities, and assisted living facilities for the elderly). These establishments also provide supervision and personal care services.
 
@@ -512,12 +513,14 @@ Illustrative Examples:
 
 - [NAICS code description: 6242](https://www.naics.com/naics-code-description/?code=6242)
 - [BLS: 624200](https://www.bls.gov/oes/current/naics4_624200.htm)
+- [IBISWorld: 62399](https://my-ibisworld-com.proxy.lib.miamioh.edu/us/en/industry/62399/about) (Miami proxy)
 
 This industry group comprises establishments primarily engaged in one of the following: (1) collecting, preparing, and delivering food for the needy; (2) providing short-term emergency shelter, temporary residential shelter, transitional housing, volunteer construction or repair of low-cost housing, and/or repair of homes for individuals or families in need; or (3) providing food, shelter, clothing, medical relief, resettlement, and counseling to victims of domestic or international disasters or conflicts (e.g., wars).
 
 ### 624221: Temporary shelters
 
 - [NAICS code description: 624221](https://www.naics.com/naics-code-description/?code=624221)
+- [IBISWorld: 62422](https://my-ibisworld-com.proxy.lib.miamioh.edu/us/en/industry/62422/about) (Miami proxy)
 
 This U.S. industry comprises establishments primarily engaged in providing (1) short-term emergency shelter for victims of domestic violence, sexual assault, or child abuse and/or (2) temporary residential shelter for homeless individuals or families, runaway youth, and patients and families caught in medical crises. These establishments may operate their own shelters or may subsidize housing using existing homes, apartments, hotels, or motels.
 
@@ -586,7 +589,7 @@ A certified peer supporter is someone who has direct lived experience with behav
 
 > Five peer organizations have partnered with OhioPRO and OhioMHAS to create technical assistance call centers for peers. These centers will be staffed by certified peer recovery supporters who will be available to answer any questions regarding the new eLicensing platform. They have received training so that they may provide information and answer any questions related to peer recovery supporter certification or recertification. ([OhioMHAS](https://mha.ohio.gov/community-partners/peer-supporters/resources/elicense-help))
 
-## Resources
+## Reports
 
 (2000) [SAMHSA: Substance Abuse Treatment for Persons With HIV/AIDS](https://store.samhsa.gov/sites/default/files/d7/priv/sma12-4137.pdf)
 
