@@ -164,6 +164,8 @@ People with SUD (Substance Use Disorder) can find recovery homes through several
 - Hotlines: Substance abuse hotlines can provide information about recovery homes and help connect individuals with appropriate resources.
 - Community organizations: Community organizations such as churches or non-profits may have information about recovery homes and can provide referrals.
 
+See [NAICS 62322: Residential mental health and substance abuse facilities](#623220-residential-mental-health-and-substance-abuse-facilities)
+
 ### Recovery home directories
 
 - [FindTreatment.gov](https://findtreatment.gov)
@@ -478,6 +480,19 @@ This industry comprises establishments known and licensed as psychiatric and sub
 - 51-0000  Production Occupations
 - 53-0000  Transportation and Material Moving Occupations
 
+[IBISWorld competitive landscape](https://my-ibisworld-com.proxy.lib.miamioh.edu/us/en/industry/62221/competitive-landscape)
+
+Key success factors
+
+- Accreditation with the Joint Commission on the Accreditation of Healthcare Organizations can enhance reputation, attract staff and help to gain access to private and government insurance reimbursement programs.
+- Access to highly skilled workforce
+- Hospitals located close to referring doctors and the general population are in a stronger position to attract patients.
+- Larger hospital operators can spread fixed costs over a greater number of patients, thereby improving profitability.
+
+Competition in psychiatric hospital services is relatively low due to high fragmentation and growing demand for services.
+
+IBISWorld major companies: [Universal Health Services](https://uhs.com/) (17.4% market share)
+
 ### 623220: Residential mental health and substance abuse facilities
 
 - [NAICS code description: 623220](https://www.naics.com/naics-code-description/?code=623220)
@@ -491,6 +506,30 @@ Illustrative examples:
 - Psychiatric convalescent homes or hospitals
 - Mental health halfway houses
 - Residential group homes for the emotionally disturbed
+
+[IBISWorld market segmentation](https://my-ibisworld-com.proxy.lib.miamioh.edu/us/en/industry/62322/products-and-markets)
+
+- 45.6% Medicare and medicaid
+- 24.7% All other government funding (SAMHSA)
+- 14.4% Other
+- 10.7% Private insurance
+- 4.6% Out-of-pocket payers
+
+Government is the largest source of funding.
+
+[IBISWorld competitive landscape](https://my-ibisworld-com.proxy.lib.miamioh.edu/us/en/industry/62322/competitive-landscape)
+
+Providing in-residence mental health or substance abuse center care is often more expensive than outpatient services alone. Consequently, most facilities are small-sized. Two-thirds of centers had under 20 employees in 2020.
+
+Most residential centers (62.0% in 2020) are nonprofit and operate one to two locations.
+
+Key success factors
+
+- Must comply with government regulations
+- Proximity to key markets (located close to referring doctors or their home, school or office)
+- Access to highly skilled workforce
+
+
 
 ### 623990: Other Residential Care Facilities
 
@@ -754,7 +793,15 @@ Participating facilities will have the option of being listed in SAMHSA’s onli
 
 ## Bills
 
-### [H.R.2376: Excellence in Recovery Housing Act](https://www.congress.gov/bill/117th-congress/house-bill/2376/text)
+### [110C H.R.6983: Mental Health Parity and Addiction Equity Act of 2008](https://www.congress.gov/bill/110th-congress/house-bill/6983)
+
+Health insurers are required to provide the same level of benefits for mental health and substance use treatment for medical and surgical care.
+
+### [115C H.R.6: SUPPORT for Patients and Communities Act of 2018](https://www.congress.gov/bill/115th-congress/house-bill/6)
+
+To provide for opioid use disorder prevention, recovery, and treatment, and for other purposes.
+
+### [117C H.R.2376: Excellence in Recovery Housing Act](https://www.congress.gov/bill/117th-congress/house-bill/2376/text)
 
 - Sponsor: Rep. Trone, David J. [D-MD-6] (Introduced 04/05/2021)
 - Committees: House - Energy and Commerce
@@ -836,7 +883,7 @@ Type and characteristics of covered recovery housing programs:
     - deceptive or misleading marketing practices of treatment facility and recovery housing online aggregators
     - the impact of such practices on health care costs and recovery rates
 
-### [H.R. 2367: SOBER Homes Act](https://www.congress.gov/bill/117th-congress/house-bill/2367/text)
+### [117C H.R. 2367: SOBER Homes Act](https://www.congress.gov/bill/117th-congress/house-bill/2367/text)
 
 - Sponsor: Rep. Levin, Mike [D-CA-49] (Introduced 04/05/2021)
 - Committees: House - Energy and Commerce
