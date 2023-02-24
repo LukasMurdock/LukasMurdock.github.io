@@ -25,7 +25,7 @@ date: 'January 25, 2023'
     - [Title 42 of the Code of Federal Regulations: Public Health](#title-42-of-the-code-of-federal-regulations-public-health)
 - [NAICS](#naics)
     - [621420: Outpatient mental health and substance abuse centers](#621420-outpatient-mental-health-and-substance-abuse-centers)
-    - [622200: Psychiatric and substance abuse hospitals](#622210-psychiatric-and-substance-abuse-hospitals)
+    - [622210: Psychiatric and substance abuse hospitals](#622210-psychiatric-and-substance-abuse-hospitals)
     - [623220: Residential mental health and substance abuse facilities](#623220-residential-mental-health-and-substance-abuse-facilities)
     - [623990: Other residential care facilities](#623990-other-residential-care-facilities)
     - [624221: Temporary shelters](#624221-temporary-shelters)
