@@ -12,10 +12,17 @@ date: 'January 25, 2023'
 - [Mental health and substance use disorder treatment](#mental-health-and-substance-use-disorder-treatment)
     - [Who provides care?](#who-provides-care)
         - [Substance abuse, behavioral disorder, and mental health counselors](#substance-abuse-behavioral-disorder-and-mental-health-counselors)
-        - [Social workers](#social-workers)
-    - [Medications for Substance Use Disorders](#medications-for-substance-use-disorders)
+        - Social workers
+            - [Healthcare social workers](#healthcare-social-workers)
+            - [Mental health and substance abuse social workers](#mental-health-and-substance-abuse-social-workers)
+        - Miscellaneous Community and Social Service Specialists
+            - [Health education specialists](#health-education-specialists)
+            - [Probation officers and correctional treatment specialists](#probation-officers-and-correctional-treatment-specialists)
+            - [Social and human service assistants](#social-and-human-service-assistants)
+            - [Community health workers](#community-health-workers)
 - [Opioid treatment programs](#opioid-treatment-programs)
-    - Title 42 of the Code of Federal Regulations: Public Health
+    - [Medications for Substance Use Disorders](#medications-for-substance-use-disorders)
+    - [Title 42 of the Code of Federal Regulations: Public Health](#title-42-of-the-code-of-federal-regulations-public-health)
 - [NAICS](#naics)
     - [621420: Outpatient mental health and substance abuse centers](#621420-outpatient-mental-health-and-substance-abuse-centers)
     - [622200: Psychiatric and substance abuse hospitals](#622210-psychiatric-and-substance-abuse-hospitals)
@@ -206,13 +213,74 @@ Social workers are employed in a variety of settings, including child welfare an
 - Number of jobs (2021): 708,100
 - Job outlook: 9% (faster than average)
 
-**[Mental Health and Substance Abuse Social Workers](https://www.bls.gov/oes/current/oes211023.htm#(1))**
+### [Healthcare Social Workers](https://www.bls.gov/oes/current/oes211022.htm)
 
-Industry profile for Mental Health and Substance Abuse Social Workers:
+Provide individuals, families, and groups with the psychosocial support needed to cope with chronic, acute, or terminal illnesses. Services include advising family caregivers. Provide patients with information and counseling, and make referrals for other services. May also provide case and care management or interventions designed to promote health, prevent disease, and address barriers to access to healthcare.
+
+Employment: 173,860
+
+**Industry profile for Healthcare Social Workers**
+
+- General Medical and Surgical Hospitals	43,120 (0.77% of industry)
+- Individual and Family Services	22,040 (0.83% of industry)
+- Home Health Care Services	21,350 (1.41% of industry)
+- Nursing Care Facilities (Skilled Nursing Facilities)	13,510 (0.96% of industry)
+- Outpatient Care Centers	13,480 (1.37% of industry)
+
+### [Mental Health and Substance Abuse Social Workers](https://www.bls.gov/oes/current/oes211023.htm)
+
+Assess and treat individuals with mental, emotional, or substance abuse problems, including abuse of alcohol, tobacco, and/or other drugs. Activities may include individual and group therapy, crisis intervention, case management, client advocacy, prevention, and education.
+
+Employment: 113,810
+
+**Industry profile for Mental Health and Substance Abuse Social Workers**
+
 - Outpatient care centers: 24,900 (2.52% of industry)
 - Individual and family services: 14,860 (0.56% of industry)
 - Residential Intellectual and Developmental Disability, Mental Health, and Substance Abuse Facilities: 11,960 (1.95% of industry)
 - Psychiatric and Substance Abuse Hospitals: 10,370 (4.33% of industry)
+
+### [Health Education Specialists](https://www.bls.gov/oes/current/oes211091.htm)
+
+Provide and manage health education programs that help individuals, families, and their communities maximize and maintain healthy lifestyles. Use data to identify community needs prior to planning, implementing, monitoring, and evaluating programs designed to encourage healthy lifestyles, policies, and environments. May link health systems, health providers, insurers, and patients to address individual and population health needs. May serve as resource to assist individuals, other health professionals, or the community, and may administer fiscal resources for health education programs. Excludes “Community Health Workers” (21-1094).
+
+Employment: 55,830
+
+### [Probation Officers and Correctional Treatment Specialists](https://www.bls.gov/oes/current/oes211092.htm)
+
+Provide social services to assist in rehabilitation of law offenders in custody or on probation or parole. Make recommendations for actions involving formulation of rehabilitation plan and treatment of offender, including conditional release and education and employment stipulations.
+
+Employment: 92,140
+
+### [Social and Human Service Assistants](https://www.bls.gov/oes/current/oes211093.htm)
+
+Assist other social and human service providers in providing client services in a wide variety of fields, such as psychology, rehabilitation, or social work, including support for families. May assist clients in identifying and obtaining available benefits and social and community services. May assist social workers with developing, organizing, and conducting programs to prevent and resolve problems relevant to substance abuse, human relationships, rehabilitation, or dependent care. Excludes “Rehabilitation Counselors” (21-1015), “Psychiatric Technicians” (29-2053), “Personal Care Aides” (31-1122), and “Eligibility Interviewers, Government Programs” (43-4061).
+
+Employment: 398,380
+
+**Industry profile for Social and Human Service Assistants**
+
+- Individual and Family Services	116,000	(4.37% of industry)
+- Local Government	47,310	(0.88% of industry)
+- State Government	38,270	(1.74% of industry)
+- Residential Intellectual and Developmental Disability, Mental Health, and Substance Abuse Facilities	31,670	(5.17% of industry)
+- Community Food and Housing, and Emergency and Other Relief Services	28,520	(15.00% of industry)
+
+### [Community Health Workers](https://www.bls.gov/oes/current/oes211094.htm)
+
+Promote health within a community by assisting individuals to adopt healthy behaviors. Serve as an advocate for the health needs of individuals by assisting community residents in effectively communicating with healthcare providers or social service agencies. Act as liaison or advocate and implement programs that promote, maintain, and improve individual and overall community health. May deliver health-related preventive services such as blood pressure, glaucoma, and hearing screenings. May collect data to help identify community health needs. Excludes “Health Education Specialists” (21-1091).
+
+Employment: 61,010
+
+## Opioid Treatment Programs
+
+In the United States, the use of medication for opioid use disorder (MOUD) in opioid treatment programs (OTPs) is governed by the [Certification of Opioid Treatment Programs, 42 Code of Federal Regulations (CFR) 8](https://www.govregs.com/regulations/expand/title42_chapterI_part8_subpartC_section8.12).
+
+The regulation created a system to certify and accredit OTPs, allowing them to administer and dispense FDA-approved medications. In addition, opioid use disorder (OUD) patients receiving these medications also receive counseling and other behavioral therapies to provide patients with a whole-person approach.
+
+An OTP can help connect individuals with recovery housing options in their community, and may have established relationships with local recovery housing providers. The OTP staff can also help the individual navigate the process of securing housing, including identifying funding sources or other resources that may be available to support their transition.
+
+[https://www.samhsa.gov/medications-substance-use-disorders/become-accredited-opioid-treatment-program](https://www.samhsa.gov/medications-substance-use-disorders/become-accredited-opioid-treatment-program)
 
 ### [Medications for Substance Use Disorders](https://www.samhsa.gov/medications-substance-use-disorders)
 
@@ -227,16 +295,6 @@ Acamprosate, disulfiram, and naltrexone are the most common medications used to 
 Buprenorphine, methadone, and naltrexone are the most common medications used to treat OUD. These medications operate to normalize brain chemistry, block the euphoric effects of alcohol and opioids, relieve physiological cravings, and normalize body functions without the negative and euphoric effects of the substance used.
 
 Buprenorphine, methadone, and naltrexone are used to treat OUD to short-acting opioids such as heroin, morphine, and codeine, as well as semi-synthetic opioids like oxycodone and hydrocodone. These medications are safe to use for months, years, or even a lifetime.
-
-## Opioid Treatment Programs
-
-In the United States, the use of medication for opioid use disorder (MOUD) in opioid treatment programs (OTPs) is governed by the [Certification of Opioid Treatment Programs, 42 Code of Federal Regulations (CFR) 8](https://www.govregs.com/regulations/expand/title42_chapterI_part8_subpartC_section8.12).
-
-The regulation created a system to certify and accredit OTPs, allowing them to administer and dispense FDA-approved medications. In addition, opioid use disorder (OUD) patients receiving these medications also receive counseling and other behavioral therapies to provide patients with a whole-person approach.
-
-An OTP can help connect individuals with recovery housing options in their community, and may have established relationships with local recovery housing providers. The OTP staff can also help the individual navigate the process of securing housing, including identifying funding sources or other resources that may be available to support their transition.
-
-[https://www.samhsa.gov/medications-substance-use-disorders/become-accredited-opioid-treatment-program](https://www.samhsa.gov/medications-substance-use-disorders/become-accredited-opioid-treatment-program)
 
 ### Title 42 of the Code of Federal Regulations: Public Health
 
@@ -383,6 +441,42 @@ This industry comprises establishments known and licensed as psychiatric and sub
 - Mental health hospitals
 - Psychiatric hospitals (except convalescent)
 - Rehabilitation hospitals, alcoholism and drug addiction
+
+**622210 SOC major groups**
+
+- 00-0000  All Occupations
+- 11-0000  Management Occupations
+- 13-0000  Business and Financial Operations Occupations
+- 15-0000  Computer and Mathematical Occupations
+- 19-0000  Life, Physical, and Social Science Occupations
+- 21-0000  Community and Social Service Occupations
+    - 21-1000   Counselors, Social Workers, and Other Community and Social Service Specialists
+        - 21-1010   Counselors
+            - [21-1018   Substance Abuse, Behavioral Disorder, and Mental Health Counselors](#substance-abuse-behavioral-disorder-and-mental-health-counselors)
+        - [21-1020   Social Workers](#social-workers)
+            - 21-1022   [Healthcare Social Workers](#healthcare-social-workers)
+            - 21-1023   [Mental Health and Substance Abuse Social Workers](#mental-health-and-substance-abuse-social-workers)
+        - 21-1090   Miscellaneous Community and Social Service Specialists
+            - 21-1091   [Health Education Specialists](#health-education-specialists)
+            - 21-1092   [Probation Officers and Correctional Treatment Specialists](#probation-officers-and-correctional-treatment-specialists)
+            - 21-1093   [Social and Human Service Assistants](#social-and-human-service-assistants)
+            - 21-1094   [Community Health Workers](#community-health-workers)
+- 23-0000  Legal Occupations
+- 25-0000  Educational Instruction and Library Occupations
+- 27-0000  Arts, Design, Entertainment, Sports, and Media Occupations
+- 29-0000  Healthcare Practitioners and Technical Occupations
+    - 29-1223   Psychiatrists
+- 31-0000  Healthcare Support Occupations
+- 33-0000  Protective Service Occupations
+- 35-0000  Food Preparation and Serving Related Occupations
+- 37-0000  Building and Grounds Cleaning and Maintenance Occupations
+- 39-0000  Personal Care and Service Occupations
+- 41-0000  Sales and Related Occupations
+- 43-0000  Office and Administrative Support Occupations
+- 47-0000  Construction and Extraction Occupations
+- 49-0000  Installation, Maintenance, and Repair Occupations
+- 51-0000  Production Occupations
+- 53-0000  Transportation and Material Moving Occupations
 
 ### 623220: Residential mental health and substance abuse facilities
 
