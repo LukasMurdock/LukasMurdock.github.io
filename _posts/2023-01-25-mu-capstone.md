@@ -8,6 +8,7 @@ date: 'January 25, 2023'
 ## Table of Contents
 
 - [Background on project](#background-on-project)
+- [Project challenges](#project-challenges)
 - [Background on recovery housing](#background-on-recovery-housing)
 - [Mental health and substance use disorder treatment](#mental-health-and-substance-use-disorder-treatment)
     - [Who provides care?](#who-provides-care)
@@ -90,6 +91,30 @@ Items on the syllabus include:
 
 ---
 
+## Project challenges
+
+See [business challenges](/business-challenges) for a broader overview of challenges.
+
+A directory is a [two-sided network](https://en.wikipedia.org/wiki/Two-sided_market) subject to [network effects](https://en.wikipedia.org/wiki/Network_effect), or [Allee effect](https://en.wikipedia.org/wiki/Allee_effect). Networks effects are destructive when starting—new networks regress to zero. At the start, this project is subject to the [Cold Start Problem](https://en.wikipedia.org/wiki/Cold_start_(recommender_systems)).
+
+Reaching critical mass from a cold start is a major challenge for this project.
+
+> There are usually a minority of users that will create disproportionate value and as a result, they will have disproportionate power. This the “Hard Side” of your network. They do more work, contribute more to your network, but are that much harder to acquire and retain. For social networks, these are often the content creators that generate the media everyone consumes. For app stores, these are the developers that actually create the products. For workplace apps, these are the managers that author and create documents and projects, and who invite coworkers to participate. For marketplaces, these are usually the sellers and providers who spend their entire day attracting users with their products and services.
+>
+> [The Cold Start Problem, Andrew Chen](https://andrewchen.com/solve-a-hard-problem-cold-start-problem/)
+
+Questions to hypothesize:
+- Who is the hard side of your network and how will they use the product?
+- How do they first hear about the app, and in what context?
+- As the network grows, why will people on the hard side come back?
+- What makes the hard side sticky to the network such that when a new network emerges, they will retain on the product?
+
+**The hard side of this network is residential mental health and substance abuse facilities.**
+
+This directory could lean into the [Rich Barton Playbook](https://kwokchain.com/2019/04/09/making-uncommon-knowledge-common/)—win markets with products that make uncommon knowledge common. Focus on becoming the authoritative public source on a subject at scale and low cost. High quality pages unique for each listing for an SEO land grab.
+
+[FindTreatment.gov](https://findtreatment.gov/locator/details?U2FsdGVkX19qOSOYOSb61wsx6mC/Xpha3Nb8DJwNebUkiijkG+OAkZk13WTxU97vJynBn3CLt/onJRDWt29HwMvoiPsqekQlhsJBkU1KqX8flzgd99l/947OEQl5CtIKfQg0OvIrMbqr2TkxGR6zaySfXlKqfQ7kHtkEB0h1bRs=) has _extremely_ authoritative pages for listings. However, these pages lack even basic structured metadata (dev: what are you even using react helmet for??).
+
 ## Background on Recovery Housing
 
 Recovery housing is for:
@@ -169,7 +194,12 @@ See [NAICS 62322: Residential mental health and substance abuse facilities](#623
 ### Recovery home directories
 
 - [FindTreatment.gov](https://findtreatment.gov)
+    - !!! No SSR, 1.5 minutes to load on Slow 3G
+    - !! No metadata for facilities
+    - ! Requires JS
+    - _extremely_ authoritative pages for facilities
 - [Ohio Recovery Housing Locator](https://find.ohiorecoveryhousing.org)
+    - No facility pages
 
 ## Mental health and substance use disorder treatment
 

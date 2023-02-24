@@ -248,7 +248,7 @@ Amazon founded by Jeff Bezos
 First rover successfully deployed on another planet
 
 **1998 ({{ "today" | date: "%Y" | minus: 1998}} years ago)**<br>
-Google founded by Larry Page and Sergey Brin 
+Google founded by Larry Page and Sergey Brin
 
 **1999 ({{ "today" | date: "%Y" | minus: 1999}} years ago)**<br>
 First commercial camera phone produced by Kyocera Corporation.<br>
@@ -277,11 +277,16 @@ First iPhone introduced by Apple
 **2010 ({{ "today" | date: "%Y" | minus: 2010}} years ago)**<br>
 First iPad introduced by Apple
 
+**2020 ({{ "today" | date: "%Y" | minus: 2010}} years ago)**<br>
+GPT-3 released
+
+**2022 ({{ "today" | date: "%Y" | minus: 2010}} years ago)**<br>
+ChatGPT released
 
 ## Moving into the future
 Woah, shouldn't there be more notable things of the last decade? Yes, and if you feel like this list is lacking something, feel free to [contact me here and let me know.](/contact/)
 
-As science advances, technology becomes more and more outside the realm of common understanding. Many innovative improvements being made in fields don't mean anything to me as I'm not specialized in that specific field. And a lot of “innovations” we see is technology that has already been around for decades. Now that doesn't mean I'm not excited to see VR and AI take over every field, but these inventions aren't necessarily new, more of they're being applied. 
+As science advances, technology becomes more and more outside the realm of common understanding. Many innovative improvements being made in fields don't mean anything to me as I'm not specialized in that specific field. And a lot of “innovations” we see is technology that has already been around for decades. Now that doesn't mean I'm not excited to see VR and AI take over every field, but these inventions aren't necessarily new, more of they're being applied.
 
 For example the first working AI programs were developed in 1951 by Christopher Strachey and Dietrich Prinz, while the first VR headset was created in 1968 by Ivan Sutherland and Bob Sproull, and the first autonomous cars appeared in the 1980s. None of these technologies are quite like what we have today but they are the earliest parts of the idea put in application.
 
