@@ -187,17 +187,18 @@ Substance abuse, behavioral disorder, and mental health counselors work in a var
 - Job outlook: 22% (much faster than average)
 
 [Similar occupations](https://www.bls.gov/ooh/community-and-social-service/substance-abuse-behavioral-disorder-and-mental-health-counselors.htm):
-- Health education specialists and community health workers
 - Psychologists
 - Registered nurses
 - Rehabilitation counselors
 - Social and community services managers
 
 [Industry profile for Substance Abuse, Behavioral Disorder, and Mental Health Counselors](https://www.bls.gov/oes/current/oes211018.htm#ind):
-- Outpatient care centers: 72,820 (7.38% of industry)
+- [Outpatient care centers](#621420-outpatient-mental-health-and-substance-abuse-centers): 72,820 (7.38% of industry)
 - Individual and family services: 51,580 (1.94% of industry)
 - Officies of other health practitioners 38,250 (3.93% of industry)
-- Residential intellectual and developmental disability, mental health, and substance abuse facilities: 35,410 (5.78% of industry)
+- [Residential intellectual and developmental disability, mental health, and substance abuse facilities](#623220-residential-mental-health-and-substance-abuse-facilities): 35,410 (5.78% of industry)
+- [Psychiatric and substance abuse hospitals](#622210-psychiatric-and-substance-abuse-hospitals): 15,270 (6.38% of industry)
+- [Other residential care facilities](#623990-other-residential-care-facilities): 7,660 (5.08% of industry)
 
 [Geographic profile for Substance Abuse, Behavioral Disorder, and Mental Health Counselors](https://www.bls.gov/oes/current/oes211018.htm#st)
 
@@ -218,11 +219,11 @@ Employment: 173,860
 
 **Industry profile for Healthcare Social Workers**
 
-- General Medical and Surgical Hospitals	43,120 (0.77% of industry)
-- Individual and Family Services	22,040 (0.83% of industry)
-- Home Health Care Services	21,350 (1.41% of industry)
-- Nursing Care Facilities (Skilled Nursing Facilities)	13,510 (0.96% of industry)
-- Outpatient Care Centers	13,480 (1.37% of industry)
+- General medical and surgical hospitals: 43,120 (0.77% of industry)
+- Individual and family services: 22,040 (0.83% of industry)
+- Home health care services: 21,350 (1.41% of industry)
+- Nursing care facilities (Skilled Nursing Facilities): 13,510 (0.96% of industry)
+- [Outpatient care centers](#621420-outpatient-mental-health-and-substance-abuse-centers): 13,480 (1.37% of industry)
 
 ### [Mental Health and Substance Abuse Social Workers](https://www.bls.gov/oes/current/oes211023.htm)
 
@@ -232,10 +233,10 @@ Employment: 113,810
 
 **Industry profile for Mental Health and Substance Abuse Social Workers**
 
-- Outpatient care centers: 24,900 (2.52% of industry)
+- [Outpatient care centers](#621420-outpatient-mental-health-and-substance-abuse-centers): 24,900 (2.52% of industry)
 - Individual and family services: 14,860 (0.56% of industry)
-- Residential Intellectual and Developmental Disability, Mental Health, and Substance Abuse Facilities: 11,960 (1.95% of industry)
-- Psychiatric and Substance Abuse Hospitals: 10,370 (4.33% of industry)
+- [Residential intellectual and developmental disability, mental health, and substance abuse facilities](#623220-residential-mental-health-and-substance-abuse-facilities): 11,960 (1.95% of industry)
+- [Psychiatric and substance abuse hospitals](#622210-psychiatric-and-substance-abuse-hospitals): 10,370 (4.33% of industry)
 
 ### [Health Education Specialists](https://www.bls.gov/oes/current/oes211091.htm)
 
@@ -257,11 +258,11 @@ Employment: 398,380
 
 **Industry profile for Social and Human Service Assistants**
 
-- Individual and Family Services	116,000	(4.37% of industry)
-- Local Government	47,310	(0.88% of industry)
-- State Government	38,270	(1.74% of industry)
-- Residential Intellectual and Developmental Disability, Mental Health, and Substance Abuse Facilities	31,670	(5.17% of industry)
-- Community Food and Housing, and Emergency and Other Relief Services	28,520	(15.00% of industry)
+- Individual and family services: 116,000	(4.37% of industry)
+- Local government: 47,310	(0.88% of industry)
+- State government: 38,270	(1.74% of industry)
+- [Residential intellectual and developmental disability, mental health, and substance abuse facilities](#623220-residential-mental-health-and-substance-abuse-facilities): 31,670 (5.17% of industry)
+- [Community food and housing, and emergency and other relief services](#6242-community-food-and-housing-and-emergency-and-other-relief-services): 28,520 (15.00% of industry)
 
 ### [Community Health Workers](https://www.bls.gov/oes/current/oes211094.htm)
 
