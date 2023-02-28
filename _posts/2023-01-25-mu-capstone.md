@@ -49,6 +49,8 @@ tl;dr: A team of researchers and professors received a grant from the Ohio Depar
 
 [Interact for Health](https://interactforhealth.org/) focuses on reducing tobacco use, addressing the opioid epidemic and ensuring that children have access to health care through school-based health centers. They are an independent foundation that serves 20 counties in Ohio, Kentucky and Indiana.
 
+August 22, 2019: [Survey by Miami U. will connect addicts with recovery options](https://www.daytondailynews.com/news/first-its-kind-survey-miami-will-connect-addicts-with-recovery-options/r5qInvsmJKGLL2skFFaWlJ/), funded by Interact for Health.
+
 M. Cameron Hay, Professor of Anthropology at Miami University, and Abbe Lackmeyer prepared the report “[Recovery Housing Gap Analysis](https://www.interactforhealth.org/upl/media/recovery_housing_gap_analysis.pdf)” for Interact for Health on April 30, 2020.
 
 A proposal was made in 2021 to the ODHE ([Ohio Department of Higher Education](https://highered.ohio.gov/about)).
@@ -95,7 +97,11 @@ Items on the syllabus include:
 
 See [business challenges](/business-challenges) for a broader overview of challenges.
 
-A directory is a [two-sided network](https://en.wikipedia.org/wiki/Two-sided_market) subject to [network effects](https://en.wikipedia.org/wiki/Network_effect), or [Allee effect](https://en.wikipedia.org/wiki/Allee_effect). Networks effects are destructive when starting—new networks regress to zero. At the start, this project is subject to the [Cold Start Problem](https://en.wikipedia.org/wiki/Cold_start_(recommender_systems)).
+Two core challenges:
+1. An atomic network that can grow on its own
+2. An accessible service that all can use
+
+A directory is a [two-sided network](https://en.wikipedia.org/wiki/Two-sided_market) subject to [network effects](https://en.wikipedia.org/wiki/Network_effect), or [allee effect](https://en.wikipedia.org/wiki/Allee_effect). Network effects are destructive when starting—new networks regress to zero. At the start, this project is subject to the [Cold Start Problem](https://en.wikipedia.org/wiki/Cold_start_(recommender_systems)).
 
 Reaching critical mass from a cold start is a major challenge for this project.
 
@@ -114,6 +120,42 @@ Questions to hypothesize:
 This directory could lean into the [Rich Barton Playbook](https://kwokchain.com/2019/04/09/making-uncommon-knowledge-common/)—win markets with products that make uncommon knowledge common. Focus on becoming the authoritative public source on a subject at scale and low cost. High quality pages unique for each listing for an SEO land grab.
 
 [FindTreatment.gov](https://findtreatment.gov/locator/details?U2FsdGVkX19qOSOYOSb61wsx6mC/Xpha3Nb8DJwNebUkiijkG+OAkZk13WTxU97vJynBn3CLt/onJRDWt29HwMvoiPsqekQlhsJBkU1KqX8flzgd99l/947OEQl5CtIKfQg0OvIrMbqr2TkxGR6zaySfXlKqfQ7kHtkEB0h1bRs=) has _extremely_ authoritative pages for listings. However, these pages lack even basic structured metadata (dev: what are you even using react helmet for??).
+
+
+## Treatment facility directories
+
+Service core
+
+- **Network:** The service must have the smallest possible network that is stable and can grow on its own
+- **Accessible:** The service must be more accessible than alternatives
+    - The goal is access for all
+    - [WCAG: Four principles of accessibility](https://www.w3.org/WAI/WCAG21/Understanding/intro#understanding-the-four-principles-of-accessibility)
+        1. The information must be perceivable to them
+        2. The information must be understandable to them
+        3. The interface must be operable
+        4. The interface must be robust
+
+Mental and substance abuse disorder treatment directories
+
+- [FindTreatment.gov](https://findtreatment.gov)
+    - Accessibility is not a priority, terrible performance
+        - !!! 1.5 minutes to load on Slow 3G (Large bundle sizes, no SSR)
+        - !! No metadata for facility pages
+        - ! Requires JS (No SSR)
+        - ! Filter state does not exist in URL
+    - ✓ Facilities have URLs
+    - ✓ _Extremely_ authoritative
+    - ✓ Robust treatment filters
+    - ✓ Search results are paginated
+    - ✓ Button to redirect to print-friendly search results page
+    - ✓ Button to download search results as Excel and CSV
+    - ✓ Backed by SAMHSA
+- [Ohio Recovery Housing Locator](https://find.ohiorecoveryhousing.org)
+    - Accessibility is not a priority: bad performance, bad screen reader support
+    - !! Facilities do not have URLs or views
+    - !! Search results are not paginated
+    - ✓ SSR, does not require JS
+    - ✓ Filter state exists in URL
 
 ## Background on Recovery Housing
 
@@ -190,16 +232,6 @@ People with SUD (Substance Use Disorder) can find recovery homes through several
 - Community organizations: Community organizations such as churches or non-profits may have information about recovery homes and can provide referrals.
 
 See [NAICS 62322: Residential mental health and substance abuse facilities](#623220-residential-mental-health-and-substance-abuse-facilities)
-
-### Recovery home directories
-
-- [FindTreatment.gov](https://findtreatment.gov)
-    - !!! No SSR, 1.5 minutes to load on Slow 3G
-    - !! No metadata for facilities
-    - ! Requires JS
-    - _extremely_ authoritative pages for facilities
-- [Ohio Recovery Housing Locator](https://find.ohiorecoveryhousing.org)
-    - No facility pages
 
 ## Mental health and substance use disorder treatment
 
@@ -451,6 +483,14 @@ Illustrative examples:
 - Outpatient substance abuse treatment centers and clinics (except hospitals)
 - Outpatient drug addiction treatment centers and clinics (except hospitals)
 
+**IBISWorld Industry at a glance**
+
+- $33.1BN Revenue
+- $1.8BN Profit
+- 15,163 Businesses
+- 319K Employment
+- $15.9BN Wages
+
 ### 622210: Psychiatric and substance abuse hospitals
 
 - [NAICS code description: 622210](https://www.naics.com/naics-code-description/?code=622210)
@@ -473,6 +513,14 @@ This industry comprises establishments known and licensed as psychiatric and sub
 - Mental health hospitals
 - Psychiatric hospitals (except convalescent)
 - Rehabilitation hospitals, alcoholism and drug addiction
+
+**IBISWorld Industry at a glance**
+
+- $33.1BN Revenue
+- $1.8BN Profit
+- 466 Businesses
+- 264K Employment
+- $18.2BN Wages
 
 **622210 SOC major groups**
 
@@ -536,6 +584,14 @@ Illustrative examples:
 - Psychiatric convalescent homes or hospitals
 - Mental health halfway houses
 - Residential group homes for the emotionally disturbed
+
+**IBISWorld Industry at a glance**
+
+- $24.8BN Revenue
+- $1.5BN Profit
+- 4,649 Businesses
+- 240K Employment
+- $10.7BN Wages
 
 [IBISWorld market segmentation](https://my-ibisworld-com.proxy.lib.miamioh.edu/us/en/industry/62322/products-and-markets)
 
@@ -931,6 +987,7 @@ This Act may be cited as the “Studying Outcomes and Benchmarks for Effective R
 - [Sober living houses](https://en.wikipedia.org/wiki/Sober_living_houses)
 - [Drug rehabilitation](https://en.wikipedia.org/wiki/Drug_rehabilitation)
 - [Twelve-step program](https://en.wikipedia.org/wiki/Twelve-step_program)
+- [Caseworker](https://en.wikipedia.org/wiki/Caseworker)
 
 ## HRSA Map Tool
 
