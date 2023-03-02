@@ -91,6 +91,8 @@ Items on the syllabus include:
 - Tactical execution presentation (Mon, Apr 17 – Wed, Apr 19)
 - Final presentation (Wed, May 3)
 
+~Between late February and March 1st, [Seven Hills Technology](https://sevenhillstechnology.com/)
+
 ---
 
 ## Project challenges
