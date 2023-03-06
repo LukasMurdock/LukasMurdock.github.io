@@ -96,7 +96,8 @@ Items on the syllabus include:
 - Tactical execution presentation (Mon, Apr 17 – Wed, Apr 19)
 - Final presentation (Wed, May 3)
 
-~Between late February and March 1st, [Seven Hills Technology](https://sevenhillstechnology.com/)
+~Between late February and March 1st, [Seven Hills Technology](https://sevenhillstechnology.com/) selected as app partner.
+
 ---
 
 ## Project challenges
@@ -161,7 +162,7 @@ Service core
     - ✓ At some point in 2020, the [“SAMHSA box”](https://www.seroundtable.com/google-samhsa-national-hotline-for-rehab-addiction-queries-29519.html) now shows above all relevant Google searches and for others, SAMHSA results will appear above other results
     - ✓ Data from SAMHSA’s National Substance Use and Mental Health Services Survey (N‑SUMHSS)
     - ✓ [Recover Together](https://recovertogether.withgoogle.com/treatment/) project by Google links to FindTreatment.gov
-    - ✓ Authorized by the [21st Century Cures Act]
+    - ✓ Authorized by the [21st Century Cures Act](#hr34-21st-century-cures-act-of-2016)
 - [Ohio Recovery Housing Locator](https://find.ohiorecoveryhousing.org)
     - Accessibility is not a priority: bad performance, bad screen reader support
     - !! Facilities do not have URLs or views
