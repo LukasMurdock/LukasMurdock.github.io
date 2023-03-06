@@ -9,6 +9,7 @@ date: 'January 25, 2023'
 
 - [Background on project](#background-on-project)
 - [Project challenges](#project-challenges)
+- [Treatment facility directories](#treatment-facility-directories)
 - [Background on recovery housing](#background-on-recovery-housing)
 - [Mental health and substance use disorder treatment](#mental-health-and-substance-use-disorder-treatment)
     - [Who provides care?](#who-provides-care)
@@ -155,6 +156,7 @@ Service core
     - ✓ Search results are paginated
     - ✓ Button to redirect to print-friendly search results page
     - ✓ Button to download search results as Excel and CSV
+    - ✓ Designated people to update status and location information
     - ✓ Backed by [SAMHSA](#substance-abuse-and-mental-health-services-administration-samhsa)
     - ✓ At some point in 2020, the [“SAMHSA box”](https://www.seroundtable.com/google-samhsa-national-hotline-for-rehab-addiction-queries-29519.html) now shows above all relevant Google searches and for others, SAMHSA results will appear above other results
     - ✓ Data from SAMHSA’s National Substance Use and Mental Health Services Survey (N‑SUMHSS)
@@ -170,11 +172,13 @@ Service core
 
 The Center for Behavioral Health Statistics and Quality (CBHSQ), SAMHSA, provides FindTreatment.gov as a resource for persons seeking treatment for themselves or for someone else. However, CBHSQ is not a treatment referral agency and cannot make specific recommendations or endorsements regarding individual treatment facilities or types of treatment.
 
+SAMHSA has designated representatives in each State Mental Health Agency (SMHA) and Single State Agency for substance use (SSA) who are responsible for updating the status and location information for substance use and mental health facilities in their jurisdictions.
+
 Wayback machine shows:
 - [findtreatment.samhsa.gov/locator](https://web.archive.org/web/20230000000000*/https://findtreatment.samhsa.gov/locator) first saved in 2014.
 - [findtreatment.gov](https://web.archive.org/web/20230000000000*/https://findtreatment.gov/) first saved sometime in 2019.
 
-In 2015, [H.R.34 - 21st Century Cures Act](https://www.congress.gov/bill/114th-congress/house-bill/34) codified the Center for Behavioral Health Statistics and Quality (CBHSQ), which serves as the federal government’s lead agency for behavioral health statistics. CBHSQ conducts national surveys tracking population-level behavioral health issues, including the National Survey on Drug Use and Health.
+In December 2016, the [21st Century Cures Act](https://www.congress.gov/bill/114th-congress/house-bill/34) was signed into law, codified the Center for Behavioral Health Statistics and Quality (CBHSQ), which serves as the federal government’s lead agency for behavioral health statistics. CBHSQ conducts national surveys tracking population-level behavioral health issues, including the National Survey on Drug Use and Health.
 
 SEC. 520E–4. TREATMENT REFERRAL ROUTING SERVICE
 
@@ -188,7 +192,7 @@ REMOVING PRACTITIONER CONTACT INFORMATION.—In the event that the Internet webs
 1. shall provide an opportunity to such practitioner to have the contact information of the practitioner removed from the website at the request of the practitioner
 2. may evaluate other methods to periodically update the information displayed on such website
 
-FindTreatment.gov is authorized by the 21st Century Cures Act (Public Law 114-255, Section 9006; 42 U.S.C. 290bb-36d).
+
 
 ## Background on Recovery Housing
 
