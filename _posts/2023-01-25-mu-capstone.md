@@ -74,6 +74,10 @@ On May 01, 2022, Miami University news published _The Wrap-Up: May_ and noted an
 
 > Cameron Hay-Rollins, chair and professor of Anthropology, Michael Bailey-Van Kuren, interim chair and associate professor of EBTD, Christopher Sutter, associate professor of Entrepreneurship, and Timothy Greenlee, professor of Marketing, received a grant from the Ohio Department of Higher Education of $278,750 for their project “Finding Recovery: Research and Development to Match People with Substance Use Disorders to Recovery Services in Real Time.” ([MU News](https://miamioh.edu/news/2022/06/the-wrap-up-may.html))
 
+On July 15, 2022, a Formative Report was provided to the ODHE.
+
+>  Currently peer support case workers use a facebook group and carry a binder to find placements in recovery houses. Some houses (particularly for-profit houses) send emails daily to case managers on a list serv to update the number of available beds. Case managers tell clients about the houses, but reported that clients do not feel like they have much choice. Case workers underscored how this app would allow them to quickly narrow down options to a couple of potential houses for their clients, enabling those clients or their advocates to visually weigh the options, make choices, and directly contact the house within the app.
+
 On January 23, 2023, Highwire Brand Studio had its first day of class. Led by:
 - Dr. Tim Greenlee, Professor, Department of Marketing
 - Christy Carr, Assistant Teaching Professor, Communication Design
@@ -92,7 +96,6 @@ Items on the syllabus include:
 - Final presentation (Wed, May 3)
 
 ~Between late February and March 1st, [Seven Hills Technology](https://sevenhillstechnology.com/)
-
 ---
 
 ## Project challenges
@@ -872,6 +875,26 @@ Between March 2016 and November 2020:
 - In criminal justice system: 50%
 
 ### (2021) [MHA: Environmental Scan of Recovery Housing in Ohio](https://mha.ohio.gov/static/SupportingProviders/HousingProviders/RecoveryHusing/Recovery-Housing-in-Ohio-2021-Environmental-Scan.pdf)
+
+### (07-15-2022) Finding Recovery: ODHE formative report
+
+Finding Recovery is a project developing a downloadable cell-phone application (app) to fill the current gap in recovery support services.
+
+Identified target audience: recovery house managers, peer support case workers, and family members.
+
+Currently peer support case workers use a facebook group and carry a binder to find placements in recovery houses. Some houses (particularly for-profit houses) send emails daily to case managers on a list serv to update the number of available beds. Case managers tell clients about the houses, but reported that clients do not feel like they have much choice. Case workers underscored how this app would allow them to quickly narrow down options to a couple of potential houses for their clients, enabling those clients or their advocates to visually weigh the options, make choices, and directly contact the house within the app.
+
+Identified most important filters useful for peer support case workers and family members to search for best potential fit recovery houses on behalf of people seeking recovery housing.
+
+Identified most important attributes about houses to help narrow the options and that recovery house managers have found are of key importance to maximizing the likelihood that someone will “fit” with the house.
+
+Account for differences in recovery house resources, so that houses can choose whether they want to live update bed availability.
+
+The two respondents who were unsure voiced concerns about accessibility to people who are homeless, concerns about protection of privacy of clients who were in recovery, and concerns that family members who used the app might not understand the language (e.g. the difference between recovery houses that have clinical treatment components and those that do not).
+
+Recovery house managers are excited that this app would save them time advertising their house to case workers and filling beds with people who are most likely going to do well in their house (“fit”). Case workers are excited that this app would save them time and help them better assist clients in making choices regarding recovery houses. The few family members we talked to thought that this app would help parents feel a bit more informed about recovery houses and how to find them.
+
+Make the transitions into recovery housing easier, more efficient, and not dependent upon who one knows in the recovery world.
 
 ### (2022) [SAMHSA: National Substance Use and Mental Health Services Survey (N-SUMHHS)](https://info.nsumhss.samhsa.gov/)
 
