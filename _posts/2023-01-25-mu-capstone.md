@@ -149,12 +149,14 @@ Mental and substance abuse disorder treatment directories
         - ! Requires JS (No SSR)
         - ! Filter state does not exist in URL
     - ✓ Facilities have URLs
-    - ✓ _Extremely_ authoritative
+    - ✓ _Extremely_ authoritative pages
     - ✓ Robust treatment filters
     - ✓ Search results are paginated
     - ✓ Button to redirect to print-friendly search results page
     - ✓ Button to download search results as Excel and CSV
-    - ✓ Backed by SAMHSA
+    - ✓ Backed by [SAMHSA](#substance-abuse-and-mental-health-services-administration-samhsa)
+    - ✓ SAMHSA will show above many addiction Google searches, and link to this online treatment locator)
+    - ✓ Data from SAMHSA’s National Substance Use and Mental Health Services Survey (N‑SUMHSS)
 - [Ohio Recovery Housing Locator](https://find.ohiorecoveryhousing.org)
     - Accessibility is not a priority: bad performance, bad screen reader support
     - !! Facilities do not have URLs or views
@@ -306,6 +308,8 @@ Employment: 113,810
 - Individual and family services: 14,860 (0.56% of industry)
 - [Residential intellectual and developmental disability, mental health, and substance abuse facilities](#623220-residential-mental-health-and-substance-abuse-facilities): 11,960 (1.95% of industry)
 - [Psychiatric and substance abuse hospitals](#622210-psychiatric-and-substance-abuse-hospitals): 10,370 (4.33% of industry)
+
+[Data USA](https://datausa.io/profile/soc/mental-health-and-substance-abuse-social-workers)
 
 ### [Health Education Specialists](https://www.bls.gov/oes/current/oes211091.htm)
 
