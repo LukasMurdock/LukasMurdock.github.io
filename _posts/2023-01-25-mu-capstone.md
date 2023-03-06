@@ -5,6 +5,81 @@ description: ''
 date: 'January 25, 2023'
 ---
 
+<style>
+
+/*=------------------------------=*/
+/*= Internal (within-site) links =*/
+/*=------------------------------=*/
+
+main a[href^="/"]::after {
+    content: "𝔏";
+    position: static;
+    margin: 0;
+    padding: 2px;
+    opacity: 0.6;
+}
+
+main a[href^="#"]::after {
+    content: "↴";
+    position: static;
+    font-size: 12px;
+    margin: 0;
+    padding: 2px;
+    /* opacity: 0.6; */
+}
+
+/*=---------------------------------=*/
+/*= Graphical per-domain link icons =*/
+/*=---------------------------------=*/
+
+a[href*="wikipedia.org"]::after{
+    display: inline-block;
+    content: '';
+    position: static;
+    background-image: url('/images/icons/wikipedia.svg');
+    background-size: 17px 17px;
+    background-position-x: center;
+    height: 17px;
+    width: 17px;
+    margin: 0;
+    opacity: 0.6;
+}
+
+a[href*="bls.gov"]::after{
+    display: inline-block;
+    content: '';
+    position: static;
+    background-image: url('/images/icons/bls.svg');
+    background-size: 17px 17px;
+    background-position-x: center;
+    height: 17px;
+    width: 17px;
+    margin: 0;
+    opacity: 0.6;
+}
+
+a[href*="hhs.gov"]::after, a[href*="samhsa.gov"]::after, a[href*="findtreatment.gov"]::after{
+    display: inline-block;
+    content: '';
+    position: static;
+    background-image: url('/images/icons/hhs.svg');
+    background-size: 17px 17px;
+    background-position-x: center;
+    height: 17px;
+    width: 17px;
+    margin: 0;
+    opacity: 0.6;
+}
+
+/*
+internetarchive
+naics
+ibisworld
+bls
+*/
+
+</style>
+
 ## Table of Contents
 
 - [Background on project](#background-on-project)
