@@ -6,6 +6,14 @@ date: 'June 23, 2021'
 tags: annual, business
 ---
 
+[Creating value as an entrepreneur](https://seths.blog/2023/03/creating-value-as-an-entrepreneur/)
+
+- **Customer traction**: Every day, are there more people who would miss you if you were gone? More customers who don’t want to switch to save a few dollars? More organizations that are building their future around what you do?
+- **Permission**: Who wants to hear from you?
+- **Distribution**: How much shelf space do you have? Mental shelf space and physical as well.
+- **Networks**: Does it work better if I tell my friends and use it with them? Is this actually happening or are you simply hoping for it?
+- **Smallest viable audience**: Have you figured out precisely who it’s for? And do they agree?
+
 [Table Stakes: Unblock Your Business](https://www.permanentequity.com/writings/table-stakes)
 
 “the business of business” in five buckets, listed here in order of importance to become a fully functioning enterprise:
