@@ -1,4 +1,6 @@
 ---
+- firsttime: "Accepted a full-time offer."
+  date: 2023-03-06
 - firsttime: "Ran `git reset --hard` in a project before making a single commit."
   date: 2023-03-05
 - firsttime: "Mapped and drove to right address, wrong city."

@@ -3,6 +3,7 @@ layout: page
 title: Uses
 description: The tools Lukas Murdock uses
 last_modified_at: 2021-06-01T14:33:01-0400
+tags: me
 ---
 
 ## Hardware
@@ -17,7 +18,8 @@ last_modified_at: 2021-06-01T14:33:01-0400
 * <del>iPhone 5s</del>
 * <del>iPhone 8</del> (switched April 2021)
 * iPhone 12 mini
-* Kindle Paperwhite 10th Gen (PQ94WIF)
+* <del>Kindle Paperwhite 10th Gen (PQ94WIF)</del>
+* iPad mini (MK7V3LL/A)
 
 ### Other Hardware
 * Custom PC built in 2016
@@ -27,6 +29,27 @@ last_modified_at: 2021-06-01T14:33:01-0400
     * (alt) Lenovo ThinkVision 22" T2254pC – mounted vertically
 * Philips Hue Go Light
 
+
+## Subscriptions
+
+- 1Password
+- Dropbox
+- Fastmail
+- Grammarly
+- [Readwise](https://readwise.io/)
+- [Commoncog](https://commoncog.com/)
+- [Brand New](https://www.underconsideration.com/brandnew/)
+- [Monica CRM](https://www.monicahq.com/)
+- [Nebula](https://nebula.tv/)
+
+Have previously subscribed to:
+
+- Youtube Music (cancelled 2021-01-07)
+- Stadia (rip)
+- [Mailbrew](https://mailbrew.com/)
+- [Clean Email](https://clean.email/) (cancelled 2021-11-18)
+- [IFTTT](https://ifttt.com/) (cancelled June 22, 2021)
+- [TTT](https://trafficthinktank.com/) (cancelled 2021-04-10)
 
 
 {% capture desktopApps %}

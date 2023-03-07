@@ -5,6 +5,10 @@ description: Who am I online & what have I done? Contact information; sites I us
 last_modified_at: 2020-12-18T15:03:41-0500
 ---
 
+Other pages:
+- [Now](/now)
+- [Uses](/uses)
+
 ## Target Audience
 The content on this website is for my future self, who is intelligent and interested, but has forgotten. So I hope to remember why I decided something by noting down everything I found interesting about it for future reference. I hope you might find some topics as interesting as I have, and the essay useful or at least entertaining–but the intended audience is my future self.
 
@@ -49,6 +53,7 @@ I elevator pitch myself as a Designer, Developer, and Marketer, but here I try t
 - Slow down, deliberate
 - Less, but better
 - [Everything must be paid for twice](https://www.raptitude.com/2022/01/everything-must-be-paid-for-twice/)
+- [It’s okay to not like things](https://youtu.be/0la5DBtOVNI)
 - [Idea labs, not echo chambers](https://waitbutwhy.com/2019/10/idea-labs-echo-chambers.html)
 - Long-term games with long-term people
 - [You can’t teach what they aren’t ready to know](https://commoncog.com/blog/you-cant-teach-what-they-arent-ready-to-know/)
