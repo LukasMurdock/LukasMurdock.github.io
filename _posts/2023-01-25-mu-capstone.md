@@ -246,30 +246,35 @@ Service core
 ### Mental and substance abuse disorder treatment directories
 
 - Social workers will carry binders with information on treatment locations
-- [FindTreatment.gov](https://findtreatment.gov)
-    - Accessibility is not a priority, terrible performance
-        - !!! 1.5 minutes to load on Slow 3G (Large bundle sizes, no SSR)
-        - !! No metadata for facility pages
-        - ! Requires JS (No SSR)
-        - ! Filter state does not exist in URL
-    - ✓ Facilities have URLs
-    - ✓ _Extremely_ authoritative pages
-    - ✓ Robust treatment filters
-    - ✓ Search results are paginated
-    - ✓ Button to redirect to print-friendly search results page
-    - ✓ Button to download search results as Excel and CSV
-    - ✓ Designated people to update status and location information
-    - ✓ Backed by [SAMHSA](#substance-abuse-and-mental-health-services-administration-samhsa)
-    - ✓ At some point in 2020, the [“SAMHSA box”](https://www.seroundtable.com/google-samhsa-national-hotline-for-rehab-addiction-queries-29519.html) now shows above all relevant Google searches and for others, SAMHSA results will appear above other results
-    - ✓ Data from SAMHSA’s National Substance Use and Mental Health Services Survey (N‑SUMHSS)
-    - ✓ [Recover Together](https://recovertogether.withgoogle.com/treatment/) project by Google links to FindTreatment.gov
-    - ✓ Authorized by the [21st Century Cures Act](#hr34-21st-century-cures-act-of-2016)
+- SAMHSA Treatment Locators
+    - [FindTreatment.gov](https://findtreatment.gov)
+        - Accessibility is not a priority, terrible performance
+            - !!! 1.5 minutes to load on Slow 3G (Large bundle sizes, no SSR)
+            - !! No metadata for facility pages
+            - ! Requires JS (No SSR)
+            - ! Filter state does not exist in URL
+        - ✓ Facilities have URLs
+        - ✓ _Extremely_ authoritative pages
+        - ✓ Robust treatment filters
+        - ✓ Search results are paginated
+        - ✓ Button to redirect to print-friendly search results page
+        - ✓ Button to download search results as Excel and CSV
+        - ✓ Designated people to update status and location information
+        - ✓ Backed by [SAMHSA](#substance-abuse-and-mental-health-services-administration-samhsa)
+        - ✓ At some point in 2020, the [“SAMHSA box”](https://www.seroundtable.com/google-samhsa-national-hotline-for-rehab-addiction-queries-29519.html) now shows above all relevant Google searches and for others, SAMHSA results will appear above other results
+        - ✓ Data from SAMHSA’s National Substance Use and Mental Health Services Survey (N‑SUMHSS)
+        - ✓ [Recover Together](https://recovertogether.withgoogle.com/treatment/) project by Google links to FindTreatment.gov
+        - ✓ Authorized by the [21st Century Cures Act](#hr34-21st-century-cures-act-of-2016)
+    - [Buprenorphine Practitioner Locator](https://www.samhsa.gov/medication-assisted-treatment/find-treatment/treatment-practitioner-locator)
+    - [Early Serious Mental Illness Treatment Locator](https://www.samhsa.gov/esmi-treatment-locator)
+    - [Opioid Treatment Program Directory](https://dpt2.samhsa.gov/treatment/)
 - [Ohio Recovery Housing Locator](https://find.ohiorecoveryhousing.org)
     - Accessibility is not a priority: bad performance, bad screen reader support
     - !! Facilities do not have URLs or views
     - !! Search results are not paginated
     - ✓ SSR, does not require JS
     - ✓ Filter state exists in URL
+
 
 
 ## Background on Recovery Housing
@@ -353,6 +358,8 @@ People with SUD (Substance Use Disorder) can find recovery homes through several
 See [NAICS 62322: Residential mental health and substance abuse facilities](#623220-residential-mental-health-and-substance-abuse-facilities)
 
 ## Mental health and substance use disorder treatment
+
+[Find treatment](https://www.samhsa.gov/find-treatment)
 
 ### [Who provides care?](https://findtreatment.gov/what-to-expect/treatment#Who%20Provides%20Care?)
 
