@@ -207,13 +207,19 @@ This directory could lean into the [Rich Barton Playbook](https://kwokchain.com/
 
 Who:
 - People looking for information on treatment facilities
-    - Organizations
-        - Government organizations supporting people with SUD
+    - Organizations supporting people with SUD
+        - Government
             - [SAMHSA](#substance-abuse-and-mental-health-services-administration-samhsa)
             - [OhioMHAS](#the-ohio-department-of-mental-health-and-addiction-services-ohiomhas)
-        - Non-profit organizations supporting people with SUD
+        - Non-profit
             - [NARR](#national-alliance-for-recovery-residences-narr)
-        - For-profit organizations supporting people with SUD
+        - For-profit (assumption)
+            - [Outpatient mental health and substance abuse centers](#621420-outpatient-mental-health-and-substance-abuse-centers)
+            - [Psychiatric and substance abuse hospitals](#622210-psychiatric-and-substance-abuse-hospitals)
+            - [Residential mental health and substance abuse facilities](#623220-residential-mental-health-and-substance-abuse-facilities)
+            - [Other residential care facilities](#623990-other-residential-care-facilities)
+            - [Temporary shelters](#624221-temporary-shelters)
+            - [Other community housing services](#624229-other-community-housing-services)
     - Jobs supporting people with SUD
         - [Substance abuse, behavioral disorder, and mental health counselors](#substance-abuse-behavioral-disorder-and-mental-health-counselors)
         - [Social workers](#social-workers)
