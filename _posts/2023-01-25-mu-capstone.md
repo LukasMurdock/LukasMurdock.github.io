@@ -213,6 +213,7 @@ Who:
             - [OhioMHAS](#the-ohio-department-of-mental-health-and-addiction-services-ohiomhas)
         - Non-profit
             - [NARR](#national-alliance-for-recovery-residences-narr)
+            - [AA](https://www.aa.org/)
         - For-profit (assumption)
             - [Outpatient mental health and substance abuse centers](#621420-outpatient-mental-health-and-substance-abuse-centers)
             - [Psychiatric and substance abuse hospitals](#622210-psychiatric-and-substance-abuse-hospitals)
@@ -274,6 +275,8 @@ Service core
 ## Background on Recovery Housing
 
 [SAMHSA: Recovery and Recovery Support](https://www.samhsa.gov/find-help/recovery)
+
+[One Step Software: Sober living all-in-one software, website, and marketing](https://www.onestepsoftware.com/)
 
 Recovery housing is for:
 - People who struggle with addiction
