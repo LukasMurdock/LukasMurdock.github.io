@@ -210,18 +210,20 @@ Who:
     - Organizations
         - Government organizations supporting people with SUD
             - [SAMHSA](#substance-abuse-and-mental-health-services-administration-samhsa)
+            - [OhioMHAS](#the-ohio-department-of-mental-health-and-addiction-services-ohiomhas)
         - Non-profit organizations supporting people with SUD
+            - [NARR](#national-alliance-for-recovery-residences-narr)
         - For-profit organizations supporting people with SUD
     - Jobs supporting people with SUD
         - [Substance abuse, behavioral disorder, and mental health counselors](#substance-abuse-behavioral-disorder-and-mental-health-counselors)
         - [Social workers](#social-workers)
         - [Miscellaneous community and social service specialists](#health-education-specialists)
-    - Communities supporting people with SUD
     - Friends of a person with SUD
     - Family of a person with SUD
     - Researchers
 - People looking to make information on their treatment facilities available
-
+    - Facility owners
+    - Facility managers
 
 Service core
 
