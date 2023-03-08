@@ -205,6 +205,24 @@ This directory could lean into the [Rich Barton Playbook](https://kwokchain.com/
 
 ## Treatment facility directories
 
+Who:
+- People looking for information on treatment facilities
+    - Organizations
+        - Government organizations supporting people with SUD
+            - [SAMHSA](#substance-abuse-and-mental-health-services-administration-samhsa)
+        - Non-profit organizations supporting people with SUD
+        - For-profit organizations supporting people with SUD
+    - Jobs supporting people with SUD
+        - [Substance abuse, behavioral disorder, and mental health counselors](#substance-abuse-behavioral-disorder-and-mental-health-counselors)
+        - [Social workers](#social-workers)
+        - [Miscellaneous community and social service specialists](#health-education-specialists)
+    - Communities supporting people with SUD
+    - Friends of a person with SUD
+    - Family of a person with SUD
+    - Researchers
+- People looking to make information on their treatment facilities available
+
+
 Service core
 
 - **Network:** The service must have the smallest possible network that is stable and can grow on its own
@@ -246,6 +264,8 @@ Service core
 
 
 ## Background on Recovery Housing
+
+[SAMHSA: Recovery and Recovery Support](https://www.samhsa.gov/find-help/recovery)
 
 Recovery housing is for:
 - People who struggle with addiction
