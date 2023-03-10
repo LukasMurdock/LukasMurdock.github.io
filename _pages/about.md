@@ -152,6 +152,7 @@ Various technologies I dove into before I started tracking when I learned them. 
     - [Statistical rethinking](https://github.com/rmcelreath/stat_rethinking_2022)
 - Piano // keyboard
 - Web scraping
+- [Network programming](https://beej.us/guide/bgnet/)
 - How to stop subscribing to newsletters
 
 ### Companies I’ve Worked For

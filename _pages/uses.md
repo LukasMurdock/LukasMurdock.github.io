@@ -41,6 +41,7 @@ tags: me
 - [Brand New](https://www.underconsideration.com/brandnew/)
 - [Monica CRM](https://www.monicahq.com/)
 - [Nebula](https://nebula.tv/)
+- [Quizlet](https://quizlet.com/)
 
 Have previously subscribed to:
 

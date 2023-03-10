@@ -79,40 +79,10 @@ date: 'January 25, 2023'
 
 </style>
 
-## Table of Contents
+## Table of contents
 
-- [Background on project](#background-on-project)
-- [Project challenges](#project-challenges)
-- [Treatment facility directories](#treatment-facility-directories)
-- [Background on recovery housing](#background-on-recovery-housing)
-- [Mental health and substance use disorder treatment](#mental-health-and-substance-use-disorder-treatment)
-    - [Who provides care?](#who-provides-care)
-        - [Substance abuse, behavioral disorder, and mental health counselors](#substance-abuse-behavioral-disorder-and-mental-health-counselors)
-        - Social workers
-            - [Healthcare social workers](#healthcare-social-workers)
-            - [Mental health and substance abuse social workers](#mental-health-and-substance-abuse-social-workers)
-        - Miscellaneous community and social service specialists
-            - [Health education specialists](#health-education-specialists)
-            - [Probation officers and correctional treatment specialists](#probation-officers-and-correctional-treatment-specialists)
-            - [Social and human service assistants](#social-and-human-service-assistants)
-            - [Community health workers](#community-health-workers)
-- [Opioid treatment programs](#opioid-treatment-programs)
-    - [Medications for Substance Use Disorders](#medications-for-substance-use-disorders)
-    - [Title 42 of the Code of Federal Regulations: Public Health](#title-42-of-the-code-of-federal-regulations-public-health)
-- [NAICS](#naics)
-    - [621420: Outpatient mental health and substance abuse centers](#621420-outpatient-mental-health-and-substance-abuse-centers)
-    - [622210: Psychiatric and substance abuse hospitals](#622210-psychiatric-and-substance-abuse-hospitals)
-    - [623220: Residential mental health and substance abuse facilities](#623220-residential-mental-health-and-substance-abuse-facilities)
-    - [623990: Other residential care facilities](#623990-other-residential-care-facilities)
-    - [624221: Temporary shelters](#624221-temporary-shelters)
-    - [624229: Other community housing services](#624229-other-community-housing-services)
-- [Organizations](#organizations)
-    - [Substance Abuse and Mental Health Services Administration (SAMHSA)](#substance-abuse-and-mental-health-services-administration-samhsa)
-    - [National Alliance for Recovery Residences (NARR)](#national-alliance-for-recovery-residences-narr)
-    - [Ohio Recovery Housing (ORH)](#ohio-recovery-housing-orh)
-    - [the Ohio Department of Mental Health and Addiction Services (OhioMHAS)](#the-ohio-department-of-mental-health-and-addiction-services-ohiomhas)
-- [Reports](#reports)
-- [Bills](#bills)
+* Do not remove this line (it will not be displayed)
+{:toc}
 
 ---
 
@@ -367,6 +337,17 @@ In most treatment programs, the main caregivers are specially trained individual
 
 Most treatment programs assign patients to a treatment team of professionals. Depending on the type of treatment, teams can be made up of social workers, counselors, doctors, nurses, psychologists, and psychiatrists.
 
+- [Who provides care?](#who-provides-care)
+    - [Substance abuse, behavioral disorder, and mental health counselors](#substance-abuse-behavioral-disorder-and-mental-health-counselors)
+    - Social workers
+        - [Healthcare social workers](#healthcare-social-workers)
+        - [Mental health and substance abuse social workers](#mental-health-and-substance-abuse-social-workers)
+    - Miscellaneous community and social service specialists
+        - [Health education specialists](#health-education-specialists)
+        - [Probation officers and correctional treatment specialists](#probation-officers-and-correctional-treatment-specialists)
+        - [Social and human service assistants](#social-and-human-service-assistants)
+        - [Community health workers](#community-health-workers)
+
 ### [Substance abuse, behavioral disorder, and mental health counselors](https://www.bls.gov/ooh/community-and-social-service/substance-abuse-behavioral-disorder-and-mental-health-counselors.htm)
 
 Substance abuse, behavioral disorder, and mental health counselors advise people on a range of issues, such as those relating to alcoholism, addictions, or depression.
@@ -401,7 +382,7 @@ Social workers are employed in a variety of settings, including child welfare an
 - Number of jobs (2021): 708,100
 - Job outlook: 9% (faster than average)
 
-### [Healthcare Social Workers](https://www.bls.gov/oes/current/oes211022.htm)
+#### [Healthcare Social Workers](https://www.bls.gov/oes/current/oes211022.htm)
 
 Provide individuals, families, and groups with the psychosocial support needed to cope with chronic, acute, or terminal illnesses. Services include advising family caregivers. Provide patients with information and counseling, and make referrals for other services. May also provide case and care management or interventions designed to promote health, prevent disease, and address barriers to access to healthcare.
 
@@ -415,7 +396,7 @@ Employment: 173,860
 - Nursing care facilities (Skilled Nursing Facilities): 13,510 (0.96% of industry)
 - [Outpatient care centers](#621420-outpatient-mental-health-and-substance-abuse-centers): 13,480 (1.37% of industry)
 
-### [Mental Health and Substance Abuse Social Workers](https://www.bls.gov/oes/current/oes211023.htm)
+#### [Mental Health and Substance Abuse Social Workers](https://www.bls.gov/oes/current/oes211023.htm)
 
 Assess and treat individuals with mental, emotional, or substance abuse problems, including abuse of alcohol, tobacco, and/or other drugs. Activities may include individual and group therapy, crisis intervention, case management, client advocacy, prevention, and education.
 
@@ -430,19 +411,21 @@ Employment: 113,810
 
 [Data USA](https://datausa.io/profile/soc/mental-health-and-substance-abuse-social-workers)
 
-### [Health Education Specialists](https://www.bls.gov/oes/current/oes211091.htm)
+### Miscellaneous community and social service specialists
+
+#### [Health Education Specialists](https://www.bls.gov/oes/current/oes211091.htm)
 
 Provide and manage health education programs that help individuals, families, and their communities maximize and maintain healthy lifestyles. Use data to identify community needs prior to planning, implementing, monitoring, and evaluating programs designed to encourage healthy lifestyles, policies, and environments. May link health systems, health providers, insurers, and patients to address individual and population health needs. May serve as resource to assist individuals, other health professionals, or the community, and may administer fiscal resources for health education programs. Excludes “Community Health Workers” (21-1094).
 
 Employment: 55,830
 
-### [Probation Officers and Correctional Treatment Specialists](https://www.bls.gov/oes/current/oes211092.htm)
+#### [Probation Officers and Correctional Treatment Specialists](https://www.bls.gov/oes/current/oes211092.htm)
 
 Provide social services to assist in rehabilitation of law offenders in custody or on probation or parole. Make recommendations for actions involving formulation of rehabilitation plan and treatment of offender, including conditional release and education and employment stipulations.
 
 Employment: 92,140
 
-### [Social and Human Service Assistants](https://www.bls.gov/oes/current/oes211093.htm)
+#### [Social and Human Service Assistants](https://www.bls.gov/oes/current/oes211093.htm)
 
 Assist other social and human service providers in providing client services in a wide variety of fields, such as psychology, rehabilitation, or social work, including support for families. May assist clients in identifying and obtaining available benefits and social and community services. May assist social workers with developing, organizing, and conducting programs to prevent and resolve problems relevant to substance abuse, human relationships, rehabilitation, or dependent care. Excludes “Rehabilitation Counselors” (21-1015), “Psychiatric Technicians” (29-2053), “Personal Care Aides” (31-1122), and “Eligibility Interviewers, Government Programs” (43-4061).
 
@@ -456,7 +439,7 @@ Employment: 398,380
 - [Residential intellectual and developmental disability, mental health, and substance abuse facilities](#623220-residential-mental-health-and-substance-abuse-facilities): 31,670 (5.17% of industry)
 - [Community food and housing, and emergency and other relief services](#6242-community-food-and-housing-and-emergency-and-other-relief-services): 28,520 (15.00% of industry)
 
-### [Community Health Workers](https://www.bls.gov/oes/current/oes211094.htm)
+#### [Community Health Workers](https://www.bls.gov/oes/current/oes211094.htm)
 
 Promote health within a community by assisting individuals to adopt healthy behaviors. Serve as an advocate for the health needs of individuals by assisting community residents in effectively communicating with healthcare providers or social service agencies. Act as liaison or advocate and implement programs that promote, maintain, and improve individual and overall community health. May deliver health-related preventive services such as blood pressure, glaucoma, and hearing screenings. May collect data to help identify community health needs. Excludes “Health Education Specialists” (21-1091).
 
@@ -1169,3 +1152,108 @@ This Act may be cited as the “Studying Outcomes and Benchmarks for Effective R
 ## HRSA Map Tool
 
 [HRSA Map Tool](https://data.hrsa.gov/maps/map-tool/)
+
+<style>
+    #toc-drawer .toc-active {
+        text-decoration: underline 3px black;
+        background: #FFDD00;
+    }
+</style>
+
+<script>
+    function useState(initialState) {
+        let state = initialState;
+
+        function getState() {
+            return state;
+        }
+
+        function setState(newState) {
+            state = newState;
+        }
+
+        return [getState, setState];
+    }
+
+    const [currentHeading, setCurrentHeading] = useState(null);
+
+    function updateHeadingId(newHeadingId) {
+        // Update state
+        setCurrentHeading(newHeadingId);
+
+        // Get all elements with class 'active' and remove it
+        const activeElements = document.getElementsByClassName('toc-active');
+        for (let i = 0; i < activeElements.length; i++) {
+            activeElements[i].classList.remove('toc-active');
+        }
+        const drawerHeadingEl = drawer.querySelector(`#markdown-toc-${newHeadingId}`);
+        if (drawerHeadingEl) {
+            // drawerHeadingEl.scrollIntoView();
+            drawerHeadingEl.classList.add('toc-active');
+        }
+    }
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                updateHeadingId(entry.target.id)
+            }
+        });
+    });
+
+    const headings = Array.from(document.querySelectorAll('h1, h2, h3, h4'));
+    headings.forEach((heading) => {
+        // observe each heading
+        observer.observe(heading);
+    });
+
+    // Clone table of contents
+
+    const clonedTableOfContents = document.getElementById('markdown-toc').cloneNode(true);
+      // Create a button element to toggle the drawer
+    const toggleButton = document.createElement('button');
+    toggleButton.textContent = 'Table of Contents';
+    toggleButton.style.position = 'fixed';
+    toggleButton.style.bottom = '20px';
+    toggleButton.style.right = '20px';
+    toggleButton.style.zIndex = '9999';
+
+    // Create a div element to hold the cloned table of contents
+    const drawer = document.createElement('div');
+    drawer.id = 'toc-drawer';
+    drawer.style.position = 'fixed';
+    drawer.style.bottom = '80px';
+    drawer.style.right = '20px';
+    drawer.style.width = '300px';
+    drawer.style.maxHeight = '70vh';
+    drawer.style.overflowY = 'auto';
+    drawer.style.padding = '10px';
+    drawer.style.background = '#fff';
+    drawer.style.boxShadow = '0 2px 8px rgba(0,0,0,0.3)';
+    drawer.style.zIndex = '9999';
+    drawer.appendChild(clonedTableOfContents);
+
+    // Add an event listener to the toggle button to show/hide the drawer
+    toggleButton.addEventListener('click', () => {
+        if (drawer.style.display === 'none') {
+            drawer.style.display = 'block';
+            // scroll to current heading
+            const currentHeadingId = currentHeading();
+
+            if (currentHeadingId) {
+                const currentHeadingElement = drawer.querySelector(`#markdown-toc-${currentHeadingId}`);
+                if (currentHeadingElement) {
+                    currentHeadingElement.scrollIntoView({
+                        behavior: 'smooth',
+                    });
+                }
+            }
+        } else {
+            drawer.style.display = 'none';
+        }
+    });
+
+    // Add the toggle button and drawer to the document
+    document.body.appendChild(toggleButton);
+    document.body.appendChild(drawer);
+</script>
