@@ -1221,6 +1221,7 @@ This Act may be cited as the “Studying Outcomes and Benchmarks for Effective R
     // Create a div element to hold the cloned table of contents
     const drawer = document.createElement('div');
     drawer.id = 'toc-drawer';
+    drawer.style.display = 'none';
     drawer.style.position = 'fixed';
     drawer.style.bottom = '80px';
     drawer.style.right = '20px';
