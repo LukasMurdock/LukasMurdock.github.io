@@ -179,23 +179,28 @@ Questions to hypothesize:
 
 **The hard side of this network is residential mental health and substance abuse facilities.**
 
-This directory could lean into the [Rich Barton Playbook](https://kwokchain.com/2019/04/09/making-uncommon-knowledge-common/)—win markets with products that make uncommon knowledge common. Focus on becoming the authoritative public source on a subject at scale and low cost. High quality pages unique for each listing for an SEO land grab.
+This directory could lean into the [Rich Barton Playbook](https://kwokchain.com/2019/04/09/making-uncommon-knowledge-common/) (founder of Expedia, Zillow, Glassdoor)—win markets with products that make uncommon knowledge common. Focus on becoming the authoritative public source on a subject at scale and low cost. High quality pages unique for each listing for an SEO land grab.
 
 [FindTreatment.gov](https://findtreatment.gov/locator/details?U2FsdGVkX19qOSOYOSb61wsx6mC/Xpha3Nb8DJwNebUkiijkG+OAkZk13WTxU97vJynBn3CLt/onJRDWt29HwMvoiPsqekQlhsJBkU1KqX8flzgd99l/947OEQl5CtIKfQg0OvIrMbqr2TkxGR6zaySfXlKqfQ7kHtkEB0h1bRs=) has _extremely_ authoritative pages for listings. However, these pages lack even basic structured metadata (dev: what are you even using react helmet for??).
 
 
 ## Treatment facility directories
 
-Who:
+### Directory users
+
 - People looking for information on treatment facilities
-    - Organizations supporting people with SUD
+    - [Organizations supporting people with SUD](#organizations)
         - Government
             - [SAMHSA](#substance-abuse-and-mental-health-services-administration-samhsa)
+            - [NIH](#national-institutes-of-health)
             - [OhioMHAS](#the-ohio-department-of-mental-health-and-addiction-services-ohiomhas)
         - Non-profit
             - [NARR](#national-alliance-for-recovery-residences-narr)
             - [AA](https://www.aa.org/)
             - [Hazelden Betty Ford Foundation](#hazelden-betty-ford-foundation)
+            - [ASAM](#american-society-of-addiction-medicine-asam)
+            - [Partnership to End Addiction](#partnership-to-end-addiction)
+            - [Young People in Recovery](#young-people-in-recovery)
         - For-profit (assumption)
             - [Outpatient mental health and substance abuse centers](#621420-outpatient-mental-health-and-substance-abuse-centers)
             - [Psychiatric and substance abuse hospitals](#622210-psychiatric-and-substance-abuse-hospitals)
@@ -215,7 +220,7 @@ Who:
     - Facility owners
     - Facility managers
 
-Service core
+### Directory core service
 
 - **Network:** The service must have the smallest possible network that is stable and can grow on its own
 - **Accessible:** The service must be more accessible than alternatives
