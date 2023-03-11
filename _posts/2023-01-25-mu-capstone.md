@@ -6,6 +6,14 @@ date: 'January 25, 2023'
 ---
 
 <style>
+    main a:hover, main a:focus {
+        text-decoration: underline 3px black;
+        background: #FFDD00;
+        color: black;
+    }
+</style>
+
+<style>
 
     /*=------------------------------=*/
     /*= Internal (within-site) links =*/
@@ -86,13 +94,6 @@ date: 'January 25, 2023'
 
 * Do not remove this line (it will not be displayed)
 {:toc}
-
-<style>
-    main a:hover, main a:focus {
-        text-decoration: underline 3px black;
-        background: #FFDD00;
-    }
-</style>
 
 ---
 
