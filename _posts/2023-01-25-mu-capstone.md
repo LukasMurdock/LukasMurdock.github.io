@@ -1236,6 +1236,12 @@ This Act may be cited as the “Studying Outcomes and Benchmarks for Effective R
         text-decoration: underline 3px black;
         background: #FFDD00;
     }
+
+    #toc-drawer a:hover, #toc-drawer a:focus {
+        text-decoration: underline 3px black;
+        background: #FFDD00;
+        color: black;
+    }
 </style>
 
 <script>
