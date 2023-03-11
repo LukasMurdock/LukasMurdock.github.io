@@ -6,7 +6,7 @@ date: 'January 25, 2023'
 ---
 
 <style>
-    main a:hover, main a:focus {
+    main a:hover {
         text-decoration: underline 3px black;
         background: #FFDD00;
         color: black;
@@ -1336,7 +1336,7 @@ This Act may be cited as the “Studying Outcomes and Benchmarks for Effective R
         background: #FFDD00;
     }
 
-    #toc-drawer a:hover, #toc-drawer a:focus {
+    #toc-drawer a:hover {
         text-decoration: underline 3px black;
         background: #FFDD00;
         color: black;
