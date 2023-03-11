@@ -195,7 +195,7 @@ This directory could lean into the [Rich Barton Playbook](https://kwokchain.com/
             - [NIH](#national-institutes-of-health)
             - [OhioMHAS](#the-ohio-department-of-mental-health-and-addiction-services-ohiomhas)
         - Non-profit
-            - [NARR](#national-alliance-for-recovery-residences-narr)
+            - [NARR](#national-alliance-of-recovery-residences-narr)
             - [AA](https://www.aa.org/)
             - [Hazelden Betty Ford Foundation](#hazelden-betty-ford-foundation)
             - [ASAM](#american-society-of-addiction-medicine-asam)
@@ -851,6 +851,13 @@ NARR was founded in 2011 by a group of organizations and individuals with deep r
 
 NARR works with federal government agencies, national addiction and recovery organizations, state-level recovery housing organizations, and with state addiction services agencies in pursuit of better and more accessible recovery housing opportunities.
 
+[narronline.org](https://narronline.org/) uses “for” in the name, however, they are [registered in Missouri](https://mblsportal.sos.state.mn.us/Business/SearchDetails?filingGuid=fd57fc9f-b8d4-e011-a886-001ec94ffe7f) as “National Alliance of Recovery Residences”.
+
+NARR has seemingly faced three separate [involuntary dissolutions](https://revisor.mo.gov/main/OneSection.aspx?section=347.143) filed on:
+- 1997-12-31
+- 2015-06-11
+- 2021-02-11
+
 [2019 tax filings](https://projects.propublica.org/nonprofits/organizations/416077863):
 - Total revenue: $389,790
 - Net income: $84,410
@@ -900,6 +907,9 @@ ASAM, founded in 1954, is a professional medical society representing over 7,000
 
 [2020 tax filing](https://projects.propublica.org/nonprofits/organizations/133177396)
 - Total revenue: $10,002,532
+    - Contributions: $2,096,572 (21.0% of revenue)
+    - Program services: $5,525,104 (55.2% of revenue)
+    - Royalties: $802,699 (8.0% of revenue)
 - Net income: -$306,897
 
 ### Hazelden Betty Ford Foundation
@@ -915,6 +925,8 @@ Addiction and mental health treatment services.
 
 [2020 tax filings](https://projects.propublica.org/nonprofits/organizations/410682405):
 - Total Revenue: $187,826,240
+    - Contributions: $13,001,552 (6.9% of revenue)
+    - Program services: $170,151,373 (90.6% of revenue)
 - Net income: $10,849,746
 
 ### Sober Nation
@@ -954,6 +966,8 @@ Young People in Recovery (YPR) is a national, peer-led organization that serves 
 
 [2020 tax filing](https://projects.propublica.org/nonprofits/organizations/464109067)
 - Total revenue: $2,217,693
+    - Contributions: $1,069,822 (48.2% of revenue)
+    - Program services: $1,144,428 (51.6% of revenue)
 - Net income: -$80,053
 
 ### Partnership to End Addiction
@@ -966,7 +980,20 @@ Partnership to End Addiction is a a 501-c3 nonprofit organization dedicated to a
 
 [2020 tax filing](https://projects.propublica.org/nonprofits/organizations/521736502):
 - Total revenue: $26,719,760
+    - Contributions: $3,779,842 (14.1% of revenue)
+    - Program services: $4,116,823 (15.4% of revenue)
+    - Sales of assets: $18,313,498 (68.5% of revenue)
 - Net income: $4,195,152
+
+### [Interact for Change](https://www.interactforhealth.org/interact-for-change/)
+
+InterAct for Change is the 501(c)(3) public charity arm of Interact for Health.
+
+[2020 tax filings](https://projects.propublica.org/nonprofits/organizations/300065901):
+- Total revenue: $756,551
+    - Contributions: $733,004 (96.9% of revenue)
+    - Program services: $9,939 (1.3% of revenue)
+- Net income: -$24,863
 
 ### Online forums
 
