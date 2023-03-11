@@ -1201,7 +1201,7 @@ This Act may be cited as the “Studying Outcomes and Benchmarks for Effective R
         });
     });
 
-    const headings = Array.from(document.querySelectorAll('h1, h2, h3, h4'));
+    const headings = Array.from(document.querySelectorAll('h1, h2, h3'));
     headings.forEach((heading) => {
         // observe each heading
         observer.observe(heading);
