@@ -58,7 +58,10 @@ date: 'January 25, 2023'
         opacity: 0.6;
     }
 
-    a[href*="hhs.gov"]::after, a[href*="samhsa.gov"]::after, a[href*="findtreatment.gov"]::after{
+    a[href*="hhs.gov"]::after,
+    a[href*="samhsa.gov"]::after,
+    a[href*="findtreatment.gov"]::after,
+    a[href*="nih.gov"]::after {
         display: inline-block;
         content: '';
         position: static;
@@ -83,6 +86,13 @@ date: 'January 25, 2023'
 
 * Do not remove this line (it will not be displayed)
 {:toc}
+
+<style>
+    main a:hover, main a:focus {
+        text-decoration: underline 3px black;
+        background: #FFDD00;
+    }
+</style>
 
 ---
 
@@ -184,6 +194,7 @@ Who:
         - Non-profit
             - [NARR](#national-alliance-for-recovery-residences-narr)
             - [AA](https://www.aa.org/)
+            - [Hazelden Betty Ford Foundation](#hazelden-betty-ford-foundation)
         - For-profit (assumption)
             - [Outpatient mental health and substance abuse centers](#621420-outpatient-mental-health-and-substance-abuse-centers)
             - [Psychiatric and substance abuse hospitals](#622210-psychiatric-and-substance-abuse-hospitals)
@@ -191,6 +202,7 @@ Who:
             - [Other residential care facilities](#623990-other-residential-care-facilities)
             - [Temporary shelters](#624221-temporary-shelters)
             - [Other community housing services](#624229-other-community-housing-services)
+            - [Sober Nation](#sober-nation)
     - Jobs supporting people with SUD
         - [Substance abuse, behavioral disorder, and mental health counselors](#substance-abuse-behavioral-disorder-and-mental-health-counselors)
         - [Social workers](#social-workers)
@@ -244,10 +256,17 @@ Service core
     - !! Search results are not paginated
     - ✓ SSR, does not require JS
     - ✓ Filter state exists in URL
+- [Sober Nation](https://sobernation.com/)
+    - ✓ Facilities have URLs
+    - ✓ Facilities have metadata
+        - head
+        - opengraph
+        - json-ld
+        - microdata
+    - ✓ Lists nearby facilities
 
 
-
-## Background on Recovery Housing
+## Background on recovery housing
 
 [SAMHSA: Recovery and Recovery Support](https://www.samhsa.gov/find-help/recovery)
 
@@ -798,13 +817,37 @@ Wayback machine shows:
 
 [SAMHSA’s Division of Pharmacologic Therapies (DPT)](https://www.samhsa.gov/medications-substance-use-disorders/about-dpt), part of the [SAMHSA Center for Substance Abuse Treatment (CSAT)](https://www.samhsa.gov/about-us/who-we-are/offices-centers/csat), is responsible for certifying that an Opioid Treatment Program (OTP) conforms with federal regulations governing treatment for substance use Disorders
 
-### [National Alliance for Recovery Residences (NARR)](https://narronline.org/)
+#### [Recovery Month](https://www.samhsa.gov/recovery-month)
+
+National Recovery Month (Recovery Month), which started in 1989, is a national observance held every September to promote and support new evidence-based treatment and recovery practices, the nation’s strong and proud recovery community, and the dedication of service providers and communities who make recovery in all its forms possible.
+
+[Recovery Month Facebook](https://www.facebook.com/RecoveryMonth/) has 55k followers but has not posted since 2019.
+
+### [National Institutes of Health](https://www.nih.gov/)
+
+#### [National Institute of Mental Health (NIMH)](https://www.nimh.nih.gov/)
+
+The National Institute of Mental Health (NIMH) is the lead federal agency for research on mental disorders.
+
+#### [National Institute on Drug Abuse (NIDA)](https://nida.nih.gov/)
+
+NIDA is the lead federal agency supporting scientific research on drug use and addiction.
+
+#### [National Institute on Alcohol Abuse and Alcoholism (NIAAA)](https://www.niaaa.nih.gov/)
+
+NIAAA supports and conducts research on the impact of alcohol use on human health and well-being.
+
+### [National Alliance of Recovery Residences (NARR)](https://narronline.org/)
 
 NARR is a 501-c3 nonprofit organization dedicated to expanding the availability of well-operated, ethical and supportive recovery housing.
 
 NARR was founded in 2011 by a group of organizations and individuals with deep recovery housing expertise, and a goal of developing and promoting best practices in the operation of recovery residences.
 
 NARR works with federal government agencies, national addiction and recovery organizations, state-level recovery housing organizations, and with state addiction services agencies in pursuit of better and more accessible recovery housing opportunities.
+
+[2019 tax filings](https://projects.propublica.org/nonprofits/organizations/416077863):
+- Total revenue: $389,790
+- Net income: $84,410
 
 ### [Ohio Recovery Housing (ORH)](https://www.ohiorecoveryhousing.org/)
 
@@ -836,6 +879,40 @@ The [Get Help > Recovery Supports > Housing Assistance](https://mha.ohio.gov/get
 A certified peer supporter is someone who has direct lived experience with behavioral health challenges, or someone who has navigated services on behalf of an individual with behavioral health challenges. Certified peer supporters are trained and certified in using their lived experience to help others  impacted by  mental illness or substance use disorders. Ohio offers three types of Peer Supporter certification: Adult, Family, and Youth/Young Adult.
 
 > Five peer organizations have partnered with OhioPRO and OhioMHAS to create technical assistance call centers for peers. These centers will be staffed by certified peer recovery supporters who will be available to answer any questions regarding the new eLicensing platform. They have received training so that they may provide information and answer any questions related to peer recovery supporter certification or recertification. ([OhioMHAS](https://mha.ohio.gov/community-partners/peer-supporters/resources/elicense-help))
+
+### Hazelden Betty Ford Foundation
+
+[Website: www.hazeldenbettyford.org](https://www.hazeldenbettyford.org/)
+
+Hazelden Betty Ford Foundation is a 501-c3 nonprofit organization providing addiction and mental health treatment services.
+
+[2020 tax filings](https://projects.propublica.org/nonprofits/organizations/410682405):
+- Total Revenue: $187,826,240
+- Net income: $10,849,746
+
+### Sober Nation
+
+[Has listings](https://sobernation.com/listing/sojourner-recovery-services-hamilton-oh/)
+
+- [Website: sobernation.com](https://sobernation.com)
+- [Facebook: @SoberNation](https://www.facebook.com/SoberNation/)
+- [Twitter: @Sober_Nation](https://twitter.com/Sober_Nation)
+- [Sobriety engine](https://www.sobrietyengine.com/)
+
+### Sobriety for Women
+
+- [Website: sobrietyforwomen.com](https://sobrietyforwomen.com/)
+- [Twitter: @Sobriety4Women](https://twitter.com/Sobriety4Women)
+
+
+### SMART Recovery
+
+- [Website: www.smartrecovery.org](https://www.smartrecovery.org/)
+- [Facebook: @SmartRecoveryUSA](https://www.facebook.com/SmartRecoveryUSA/)
+- [Twitter: @smartrecovery](https://twitter.com/smartrecovery)
+- [YouTube: @smartrecovery](https://www.youtube.com/user/smartrecovery)
+- [SMART Recovery Podcast](https://smartrecovery.libsyn.com/)
+
 
 ## Reports
 
@@ -928,7 +1005,7 @@ Recommendations from analysis:
 6. Agree on language for recovery housing and attributes for recovery housing
 7. Connect committed individuals to place more people struggling with SUD in recovery homes
 
-### (2020-11) [ORH: Recovery Housing in Ohio: Analysis of Resident Survey Data]
+### (2020-11) ORH: Recovery Housing in Ohio: Analysis of Resident Survey Data
 
 Prepared by [Mighty Crow Media, LLC](https://mightycrow.com/).
 
@@ -993,7 +1070,7 @@ Between March 2016 and November 2020:
 
 ### (2021) [MHA: Environmental Scan of Recovery Housing in Ohio](https://mha.ohio.gov/static/SupportingProviders/HousingProviders/RecoveryHusing/Recovery-Housing-in-Ohio-2021-Environmental-Scan.pdf)
 
-### (07-15-2022) Finding Recovery: ODHE formative report
+### (2022-15-07) Finding Recovery: ODHE formative report
 
 Finding Recovery is a project developing a downloadable cell-phone application (app) to fill the current gap in recovery support services.
 
@@ -1025,7 +1102,7 @@ Participating facilities will have the option of being listed in SAMHSA’s onli
 
 Health insurers are required to provide the same level of benefits for mental health and substance use treatment for medical and surgical care.
 
-### [H.R.34: 21st Century Cures Act of 2016](https://www.congress.gov/bill/114th-congress/house-bill/34)
+### [114C H.R.34: 21st Century Cures Act of 2016](https://www.congress.gov/bill/114th-congress/house-bill/34)
 
 To accelerate the discovery, development, and delivery of 21st century cures, and for other purposes.
 
