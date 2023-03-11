@@ -8,6 +8,30 @@ tags: business
 
 Content Marketing is the buzzword for digital publishing across the web, email, and social platforms.
 
+Find what your audience talks about online and:
+1. [Build data-informed marketing personas](https://sparktoro.com/blog/how-to-apply-sparktoros-data-and-get-better-marketing-results/#personas)
+2. [Optimize social & display ad targeting](https://sparktoro.com/blog/how-to-apply-sparktoros-data-and-get-better-marketing-results/#adtargeting)
+3. [Write/record/post about things to serve these interests](https://sparktoro.com/blog/how-to-apply-sparktoros-data-and-get-better-marketing-results/#contentstrategy)
+4. [Pitch outlets to cover these topics](https://sparktoro.com/blog/outreach-tips-that-are-better-than-anything-youll-find-searching-google/)
+5. [Use it in keyword research](https://sparktoro.com/blog/how-to-apply-sparktoros-data-and-get-better-marketing-results/#kwresearch)
+6. [Use in social posts for greater visibility](https://sparktoro.com/blog/how-to-apply-sparktoros-data-and-get-better-marketing-results/#socialmedia)
+
+Find what your audience follows, visits, and engages-with and:
+1. Use them as Social/display ad targets
+2. Run influencer campaigns
+3. Invite for PR, event, & cobranding opportunities
+4. Inspire content strategy & marketing
+5. Pitch for coverage or guest pieces
+6. Follow them to better understand what resonates with your audience and why
+
+Find what your audience watches, listens-to, and reads and:
+1. Sponsor these podcasts, channels, & press sources
+2. Target your YouTube, podcast, and media ad buys
+3. Pitch to be a guest, or for coverage
+4. Build relationships with hosts/reporters
+
+---
+
 - [Priceonomics: The Content Marketing Handbook](https://priceonomics.com/the-content-marketing-handbook-2/)
 - [B2C Content Marketing](https://www.growandconvert.com/content-marketing/b2c-content-marketing/)
 - [Mario Peshev: The Guide to Consistently Producing High Quality Content](https://mariopeshev.com/the-guide-to-consistently-producing-high-quality-content/)

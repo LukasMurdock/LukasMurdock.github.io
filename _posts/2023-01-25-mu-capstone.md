@@ -881,11 +881,32 @@ A certified peer supporter is someone who has direct lived experience with behav
 
 > Five peer organizations have partnered with OhioPRO and OhioMHAS to create technical assistance call centers for peers. These centers will be staffed by certified peer recovery supporters who will be available to answer any questions regarding the new eLicensing platform. They have received training so that they may provide information and answer any questions related to peer recovery supporter certification or recertification. ([OhioMHAS](https://mha.ohio.gov/community-partners/peer-supporters/resources/elicense-help))
 
+### American Society of Addiction Medicine (ASAM)
+
+The American Society of Addiction Medicine is a 501-c3 nonprofit organization.
+
+[Guidestar: ASAM](https://www.guidestar.org/profile/13-3177396)
+
+ASAM, founded in 1954, is a professional medical society representing over 7,000 physicians, clinicians, and associated professionals in the field of addiction medicine.
+
+- [Website: www.asam.org](https://www.asam.org/)
+- [Twitter: @ASAMorg](https://twitter.com/ASAMorg) (21.9k followers)
+- [Facebook: @addictionmedicine](https://www.facebook.com/addictionmedicine) (24k followers)
+
+[2020 tax filing](https://projects.propublica.org/nonprofits/organizations/133177396)
+- Total revenue: $10,002,532
+- Net income: -$306,897
+
 ### Hazelden Betty Ford Foundation
 
 [Website: www.hazeldenbettyford.org](https://www.hazeldenbettyford.org/)
 
-Hazelden Betty Ford Foundation is a 501-c3 nonprofit organization providing addiction and mental health treatment services.
+Hazelden Betty Ford Foundation is a 501-c3 nonprofit organization classified as Alcohol, Drug and Substance Abuse, Dependency Prevention and Treatment (Mental Health, Crisis Intervention)
+
+
+[Guidestar: Hazelden Betty Ford Foundation](https://www.guidestar.org/profile/41-0682405)
+
+Addiction and mental health treatment services.
 
 [2020 tax filings](https://projects.propublica.org/nonprofits/organizations/410682405):
 - Total Revenue: $187,826,240
@@ -914,6 +935,84 @@ Hazelden Betty Ford Foundation is a 501-c3 nonprofit organization providing addi
 - [YouTube: @smartrecovery](https://www.youtube.com/user/smartrecovery)
 - [SMART Recovery Podcast](https://smartrecovery.libsyn.com/)
 
+
+### Young People in Recovery
+
+Young People in Recovery is a 501-c3 nonprofit organization classified as a [(P20) Human Service Organizations - Multipurpose](https://nccs.urban.org/publication/irs-activity-codes#:~:text=Human%20Service%20Organizations).
+
+Young People in Recovery (YPR) is a national, peer-led organization that serves youth and young adults in recovery from substance use disorder.
+
+[Guidestar: YPR](https://www.guidestar.org/profile/46-4109067)
+
+- [Website: youngpeopleinrecovery.org](https://youngpeopleinrecovery.org/)
+- [Twitter: @YngPplRecover](https://twitter.com/YngPplRecover) (14.1k followers)
+
+[2020 tax filing](https://projects.propublica.org/nonprofits/organizations/464109067)
+- Total revenue: $2,217,693
+- Net income: -$80,053
+
+### Partnership to End Addiction
+
+Partnership to End Addiction is a a 501-c3 nonprofit organization dedicated to addiction prevention, treatment and recovery, made up of researchers, advocates, clinicians, communicators and more.
+
+[Guidestar: Partnership to End Addiction](https://www.guidestar.org/profile/52-1736502)
+
+[Website: drugfree.org](https://drugfree.org/)
+
+[2020 tax filing](https://projects.propublica.org/nonprofits/organizations/521736502):
+- Total revenue: $26,719,760
+- Net income: $4,195,152
+
+### Online forums
+
+- [drugs-forum.com](https://drugs-forum.com/)
+- [bluelight](https://bluelight.org/xf/)
+- [erowid](https://erowid.org/)
+    - [visualizing erowid](https://chemicalyouth.org/visualising-erowid/) (2016)
+
+### Subreddits
+
+#### [r/opiates](https://www.reddit.com/r/opiates/)
+
+Discussion of all things related to the narcotics known as opiates, from harm-reduction to pharmacology.
+
+Created June 24, 2009.
+
+192k members
+
+[Related subreddits: opiates](https://anvaka.github.io/sayit/?query=opiates)
+
+#### [r/addiction](https://www.reddit.com/r/addiction/)
+
+A place to discuss addiction. Get inspired, educated and guided to manage your addiction!
+
+Created April 18, 2009.
+
+82.4k members
+
+[Related subreddits: addiction](https://anvaka.github.io/sayit/?query=addiction)
+- r/benzodiazepines (18+, 135.3k members)
+- r/Stims (18+, 126.4k members)
+- r/askdrugs (18+, 78.9k members)
+- [r/Sober](https://www.reddit.com/r/Sober/) (60.8k members, since 2010)
+- [r/REDDITORSINRECOVERY](https://www.reddit.com/r/REDDITORSINRECOVERY/) (58.4k members, since 2009)
+- [r/alcoholism](https://www.reddit.com/r/alcoholism/) (58.1k members, since 2010)
+- [r/alcoholicsanonymous](https://www.reddit.com/r/alcoholicsanonymous/) (55.7k members, since 2010)
+- [r/AlAnon](https://www.reddit.com/r/AlAnon/) (53.2k members, since 2011)
+- [r/OpiatesRecovery](https://www.reddit.com/r/OpiatesRecovery/) (43.7k members, since 2012)
+- [r/benzorecovery](https://www.reddit.com/r/benzorecovery/) (34.7k members, since 2014)
+- [r/Methadone](https://www.reddit.com/r/Methadone/) (29.1k members, since 2011)
+- [r/StopSpeeding](https://www.reddit.com/r/StopSpeeding/) (27.7k members, since 2016)
+- [r/recovery](https://www.reddit.com/r/recovery/) (23.4k members, since 2009)
+- [r/NarcoticsAnonymous](https://www.reddit.com/r/NarcoticsAnonymous/) (17.1k members, since 2010)
+
+#### r/Drugs
+
+18+ as of 2022.
+
+…
+
+[Related subreddits: drugs](https://anvaka.github.io/sayit/?query=Drugs)
 
 ## Reports
 
