@@ -159,7 +159,7 @@ Items on the syllabus include:
 
 See [business challenges](/business-challenges) for a broader overview of challenges.
 
-Two core challenges:
+Core challenges:
 1. An atomic network that can grow on its own
 2. An accessible service that all can use
 
@@ -233,43 +233,86 @@ This directory could lean into the [Rich Barton Playbook](https://kwokchain.com/
 
 ### Mental and substance abuse disorder treatment directories
 
-- Social workers will carry binders with information on treatment locations
-- SAMHSA Treatment Locators
-    - [FindTreatment.gov](https://findtreatment.gov)
-        - Accessibility is not a priority, terrible performance
-            - !!! 1.5 minutes to load on Slow 3G (Large bundle sizes, no SSR)
-            - !! No metadata for facility pages
-            - ! Requires JS (No SSR)
-            - ! Filter state does not exist in URL
-        - ✓ Facilities have URLs
-        - ✓ _Extremely_ authoritative pages
-        - ✓ Robust treatment filters
-        - ✓ Search results are paginated
-        - ✓ Button to redirect to print-friendly search results page
-        - ✓ Button to download search results as Excel and CSV
-        - ✓ Designated people to update status and location information
-        - ✓ Backed by [SAMHSA](#substance-abuse-and-mental-health-services-administration-samhsa)
-        - ✓ At some point in 2020, the [“SAMHSA box”](https://www.seroundtable.com/google-samhsa-national-hotline-for-rehab-addiction-queries-29519.html) now shows above all relevant Google searches and for others, SAMHSA results will appear above other results
-        - ✓ Data from SAMHSA’s National Substance Use and Mental Health Services Survey (N‑SUMHSS)
-        - ✓ [Recover Together](https://recovertogether.withgoogle.com/treatment/) project by Google links to FindTreatment.gov
-        - ✓ Authorized by the [21st Century Cures Act](#hr34-21st-century-cures-act-of-2016)
-    - [Buprenorphine Practitioner Locator](https://www.samhsa.gov/medication-assisted-treatment/find-treatment/treatment-practitioner-locator)
-    - [Early Serious Mental Illness Treatment Locator](https://www.samhsa.gov/esmi-treatment-locator)
-    - [Opioid Treatment Program Directory](https://dpt2.samhsa.gov/treatment/)
-- [Ohio Recovery Housing Locator](https://find.ohiorecoveryhousing.org)
-    - Accessibility is not a priority: bad performance, bad screen reader support
-    - !! Facilities do not have URLs or views
-    - !! Search results are not paginated
-    - ✓ SSR, does not require JS
-    - ✓ Filter state exists in URL
-- [Sober Nation](https://sobernation.com/)
-    - ✓ Facilities have URLs
-    - ✓ Facilities have metadata
-        - head
-        - opengraph
-        - json-ld
-        - microdata
-    - ✓ Lists nearby facilities
+#### Binders
+
+Social workers (frequency) carry binders with information on treatment locations.
+
+> Currently peer support case workers use a facebook group and carry a binder to find placements in recovery houses.
+>
+> – July 15, 2022, Formative Report provided to ODHE
+
+
+#### FindTreatment.gov
+
+For individuals seeking substance use and mental health treatment options, FindTreatment.gov is the reliable online resource that delivers up-to-date information on available facilities, services, and providers because only FindTreatment.gov is maintained by [SAMHSA's](substance-abuse-and-mental-health-services-administration-samhsa) CBHSQ, with designated representatives in each state agency responsible for updating information, ensuring accuracy and accessibility for those in need.
+
+SAMHSA maintains other, specific, treatment locators:
+- [Buprenorphine Practitioner Locator](https://www.samhsa.gov/medication-assisted-treatment/find-treatment/treatment-practitioner-locator)
+- [Early Serious Mental Illness Treatment Locator](https://www.samhsa.gov/esmi-treatment-locator)
+- [Opioid Treatment Program Directory](https://dpt2.samhsa.gov/treatment/)
+
+FindTreatment.gov:
+
+- Accessibility is not a priority, terrible performance
+    - !!! 1.5 minutes to load on Slow 3G (Large bundle sizes, no SSR)
+    - !! No metadata for facility pages
+    - ! Requires JS (No SSR)
+    - ! Filter state does not exist in URL
+- ✓ Facilities have URLs
+- ✓ _Extremely_ authoritative pages
+- ✓ Robust treatment filters
+- ✓ Search results are paginated
+- ✓ Button to redirect to print-friendly search results page
+- ✓ Button to download search results as Excel and CSV
+- ✓ Designated people to update status and location information
+- ✓ Backed by [SAMHSA](#substance-abuse-and-mental-health-services-administration-samhsa)
+- ✓ At some point in 2020, the [“SAMHSA box”](https://www.seroundtable.com/google-samhsa-national-hotline-for-rehab-addiction-queries-29519.html) now shows above all relevant Google searches and for others, SAMHSA results will appear above other results
+- ✓ Data from SAMHSA’s National Substance Use and Mental Health Services Survey (N‑SUMHSS)
+- ✓ [Recover Together](https://recovertogether.withgoogle.com/treatment/) project by Google links to FindTreatment.gov
+- ✓ Authorized by the [21st Century Cures Act](#hr34-21st-century-cures-act-of-2016)
+
+#### [Ohio Recovery Housing Locator](https://find.ohiorecoveryhousing.org)
+
+See: [ORH](#ohio-recovery-housing-orh)
+
+- Accessibility is not a priority: bad performance, bad screen reader support
+- !! Facilities do not have URLs or views
+- !! Search results are not paginated
+- ✓ SSR, does not require JS
+- ✓ Filter state exists in URL
+- ✓ State affiliate of [NARR](#national-alliance-of-recovery-residences-narr)
+
+#### [Sober Nation](https://sobernation.com/)
+
+- ✓ Facilities have URLs
+- ✓ Facilities have metadata
+    - head
+    - opengraph
+    - json-ld
+    - microdata
+- ✓ Lists nearby facilities
+
+#### [Taste Recovery](https://tasterecovery.com/)
+
+On 2020-05-15, Brianna Nowlan registered Taste Recovery LLC in California. Taste Recovery is available on [Web](https://tasterecovery.com/home), [iOS](https://apps.apple.com/ua/app/taste-recovery/id1504035022), and [Google Play](https://play.google.com/store/apps/details?id=com.tasterecovery.app&pli=1).
+
+[LinkedIn: Brianna](https://www.linkedin.com/in/breezy-nowlan-4374a078)
+
+Runs: [Camp Sober Fest](https://campsoberfest.com/), a 3-Day event celebrating fun and fellowship in sobriety that ran October 14-16, 2022.
+
+From [FAQ](https://tasterecovery.com/faq): “you can then upgrade your house to a promoted home through our ad services.”
+
+Web version relaunched in 2023 rebuilt with Create-React-App.
+- Accessibility is not a priority, terrible performance
+    - ! Limited metadata on facility pages
+    - ! Requires JS (No SSR)
+    - ! Filter state does not exist in URL
+- ✓ [Filter state exists in API URL](https://api.tasterecovery.com/v6/living/search?paymentPeriod=any&servingForWhom=any&availability=any&pets=any&transportation=any&room=any&bathroom=any&handicapFriendly=any&smokeFriendly=any&privateChef=any&children=any&acceptMAT=any&isCertifiedSoberLiving=any&priceMin=0&priceMax=30000&page=1&stateLong=Ohio)
+    - ! API requires filters to be set
+- ✓ Allows reviews
+
+
+
 
 
 ## Background on recovery housing
@@ -864,13 +907,17 @@ NARR has seemingly faced three separate [involuntary dissolutions](https://revis
 
 ### [Ohio Recovery Housing (ORH)](https://www.ohiorecoveryhousing.org/)
 
-ORH is a state affiliate of the National Alliance for Recovery Residences (NARR).
+Ohio Recovery Housing (ORH) was officially established as a nonprofit LLC on September 19, 2014 after years of work to organize recovery housing in Ohio.
 
-ORH was officially established on September 19, 2014 after years of work to organize recovery housing in Ohio.
+ORH is a state affiliate of the National Alliance for Recovery Residences (NARR).
 
 ORH creates and maintains standards of excellence for recovery housing in Ohio that meet expectations of NARR.
 
 ORH provides opportunities for peer reviews that regularly document an ongoing commitment to ORH quality standards.
+
+Maintains [Ohio's Recovery Housing Locator](#ohio-recovery-housing-locator) at:
+- [www.ohiorecoveryhousing.org/find-a-residence](https://www.ohiorecoveryhousing.org/find-a-residence)
+- [find.ohiorecoveryhousing.org](https://find.ohiorecoveryhousing.org/)
 
 ### [the Ohio Department of Mental Health and Addiction Services (OhioMHAS)](https://mha.ohio.gov/)
 
