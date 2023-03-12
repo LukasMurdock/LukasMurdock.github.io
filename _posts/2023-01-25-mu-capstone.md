@@ -283,7 +283,7 @@ See: [ORH](#ohio-recovery-housing-orh)
 
 See: [#sobernation]
 
-- ✓ Facilities have URLs
+- ✓ [Facilities have URLs](https://sobernation.com/listing/sojourner-recovery-services-hamilton-oh/)
 - ✓ Facilities have metadata
     - head
     - opengraph
@@ -1038,16 +1038,18 @@ Addiction and mental health treatment services.
 
 ### Sober Nation
 
-Sober Nation is run by [Tim Stoddart](https://www.timstodz.com/) a [Florida LLC](http://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=OfficerRegisteredAgentName&directionType=Initial&searchNameOrder=STODDARTTIMOTHYG%20L130000239061&aggregateId=flal-l13000023906-c46652e0-99a0-4f85-8e45-a0f7e45d9f55&searchTerm=Stoddart%20%20%20%20%20%20%20%20%20%20%20%20Timothy&listNameOrder=STODDARTTIMOTHY%20L140000551231) registered in 2013.
+Sober Nation is a Florida LLC, [registered in 2013](http://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=OfficerRegisteredAgentName&directionType=Initial&searchNameOrder=STODDARTTIMOTHYG%20L130000239061&aggregateId=flal-l13000023906-c46652e0-99a0-4f85-8e45-a0f7e45d9f55&searchTerm=Stoddart%20%20%20%20%20%20%20%20%20%20%20%20Timothy&listNameOrder=STODDARTTIMOTHY%20L140000551231), run by [Tim Stoddart](https://www.timstodz.com/).
 
-Stoddard has also registered: [New Life Resources LLC](http://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=OfficerRegisteredAgentName&directionType=Initial&searchNameOrder=STODDARTTIMOTHYG%20L110000637203&aggregateId=flal-l11000063720-bf70c121-0a10-47a2-a544-3964de48f571&searchTerm=Stoddart%20%20%20%20%20%20%20%20%20%20%20%20Timothy&listNameOrder=STODDARTTIMOTHY%20L140000551231) which dissolved in 2012 and runs [Stodzy Incorporated](http://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=OfficerRegisteredAgentName&directionType=Initial&searchNameOrder=STODDARTTIMOTHYG%20P120000704421&aggregateId=domp-p12000070442-fee7620a-fff8-4747-aeba-b059d90775ff&searchTerm=Stoddart%20%20%20%20%20%20%20%20%20%20%20%20Timothy&listNameOrder=STODDARTTIMOTHY%20L140000551231) since 2012. [Stodzy Internet Marketing](https://stodzyinternetmarketing.com/our-team/)
+Stoddart has registered two other organizations in Florida:
+- [New Life Resources LLC](http://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=OfficerRegisteredAgentName&directionType=Initial&searchNameOrder=STODDARTTIMOTHYG%20L110000637203&aggregateId=flal-l11000063720-bf70c121-0a10-47a2-a544-3964de48f571&searchTerm=Stoddart%20%20%20%20%20%20%20%20%20%20%20%20Timothy&listNameOrder=STODDARTTIMOTHY%20L140000551231) which dissolved in 2012
+- [Stodzy Incorporated](http://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=OfficerRegisteredAgentName&directionType=Initial&searchNameOrder=STODDARTTIMOTHYG%20P120000704421&aggregateId=domp-p12000070442-fee7620a-fff8-4747-aeba-b059d90775ff&searchTerm=Stoddart%20%20%20%20%20%20%20%20%20%20%20%20Timothy&listNameOrder=STODDARTTIMOTHY%20L140000551231) since 2012. [Stodzy Internet Marketing](https://stodzyinternetmarketing.com/our-team/)
 
-Sober Nation [has listing pages in its directory](https://sobernation.com/listing/sojourner-recovery-services-hamilton-oh/)
+Sober Nation links:
 
 - [Website: sobernation.com](https://sobernation.com)
 - [Facebook: @SoberNation](https://www.facebook.com/SoberNation/) (300K followers)
 - [Twitter: @Sober_Nation](https://twitter.com/Sober_Nation) (17.4K followers)
-- [Sobriety engine](https://www.sobrietyengine.com/)
+- [Sobriety engine](https://www.sobrietyengine.com/) (a [Circle](https://circle.so/) community)
 
 ### Sobriety for Women
 
