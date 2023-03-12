@@ -279,7 +279,9 @@ See: [ORH](#ohio-recovery-housing-orh)
 - ✓ Filter state exists in URL
 - ✓ State affiliate of [NARR](#national-alliance-of-recovery-residences-narr)
 
-#### [Sober Nation](https://sobernation.com/)
+#### [Sober Nation directory](https://sobernation.com/)
+
+See: [#sobernation]
 
 - ✓ Facilities have URLs
 - ✓ Facilities have metadata
@@ -1036,33 +1038,35 @@ Addiction and mental health treatment services.
 
 ### Sober Nation
 
-[Has listings](https://sobernation.com/listing/sojourner-recovery-services-hamilton-oh/)
+Sober Nation is run by [Tim Stoddart](https://www.timstodz.com/) a [Florida LLC](http://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=OfficerRegisteredAgentName&directionType=Initial&searchNameOrder=STODDARTTIMOTHYG%20L130000239061&aggregateId=flal-l13000023906-c46652e0-99a0-4f85-8e45-a0f7e45d9f55&searchTerm=Stoddart%20%20%20%20%20%20%20%20%20%20%20%20Timothy&listNameOrder=STODDARTTIMOTHY%20L140000551231) registered in 2013.
+
+Stoddard has also registered: [New Life Resources LLC](http://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=OfficerRegisteredAgentName&directionType=Initial&searchNameOrder=STODDARTTIMOTHYG%20L110000637203&aggregateId=flal-l11000063720-bf70c121-0a10-47a2-a544-3964de48f571&searchTerm=Stoddart%20%20%20%20%20%20%20%20%20%20%20%20Timothy&listNameOrder=STODDARTTIMOTHY%20L140000551231) which dissolved in 2012 and runs [Stodzy Incorporated](http://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=OfficerRegisteredAgentName&directionType=Initial&searchNameOrder=STODDARTTIMOTHYG%20P120000704421&aggregateId=domp-p12000070442-fee7620a-fff8-4747-aeba-b059d90775ff&searchTerm=Stoddart%20%20%20%20%20%20%20%20%20%20%20%20Timothy&listNameOrder=STODDARTTIMOTHY%20L140000551231) since 2012. [Stodzy Internet Marketing](https://stodzyinternetmarketing.com/our-team/)
+
+Sober Nation [has listing pages in its directory](https://sobernation.com/listing/sojourner-recovery-services-hamilton-oh/)
 
 - [Website: sobernation.com](https://sobernation.com)
-- [Facebook: @SoberNation](https://www.facebook.com/SoberNation/)
-- [Twitter: @Sober_Nation](https://twitter.com/Sober_Nation)
+- [Facebook: @SoberNation](https://www.facebook.com/SoberNation/) (300K followers)
+- [Twitter: @Sober_Nation](https://twitter.com/Sober_Nation) (17.4K followers)
 - [Sobriety engine](https://www.sobrietyengine.com/)
 
 ### Sobriety for Women
 
 - [Website: sobrietyforwomen.com](https://sobrietyforwomen.com/)
-- [Twitter: @Sobriety4Women](https://twitter.com/Sobriety4Women)
+- [Twitter: @Sobriety4Women](https://twitter.com/Sobriety4Women) (8.9K followers)
 
 
 ### SMART Recovery
 
 - [Website: www.smartrecovery.org](https://www.smartrecovery.org/)
-- [Facebook: @SmartRecoveryUSA](https://www.facebook.com/SmartRecoveryUSA/)
-- [Twitter: @smartrecovery](https://twitter.com/smartrecovery)
-- [YouTube: @smartrecovery](https://www.youtube.com/user/smartrecovery)
+- [Facebook: @SmartRecoveryUSA](https://www.facebook.com/SmartRecoveryUSA/) (24K followers)
+- [Twitter: @smartrecovery](https://twitter.com/smartrecovery) (21.3K followers)
+- [YouTube: @smartrecovery](https://www.youtube.com/user/smartrecovery) (18.9K subscribers)
 - [SMART Recovery Podcast](https://smartrecovery.libsyn.com/)
 
 
 ### Young People in Recovery
 
-Young People in Recovery is a 501-c3 nonprofit organization classified as a [(P20) Human Service Organizations - Multipurpose](https://nccs.urban.org/publication/irs-activity-codes#:~:text=Human%20Service%20Organizations).
-
-Young People in Recovery (YPR) is a national, peer-led organization that serves youth and young adults in recovery from substance use disorder.
+Young People in Recovery (YPR) is a 501-c3 nonprofit organization that serves youth and young adults in recovery from substance use disorder.
 
 [Guidestar: YPR](https://www.guidestar.org/profile/46-4109067)
 
@@ -1077,7 +1081,7 @@ Young People in Recovery (YPR) is a national, peer-led organization that serves 
 
 ### Partnership to End Addiction
 
-Partnership to End Addiction is a a 501-c3 nonprofit organization dedicated to addiction prevention, treatment and recovery, made up of researchers, advocates, clinicians, communicators and more.
+Partnership to End Addiction is a 501-c3 nonprofit organization dedicated to addiction prevention, treatment and recovery, made up of researchers, advocates, clinicians, communicators and more.
 
 [Guidestar: Partnership to End Addiction](https://www.guidestar.org/profile/52-1736502)
 
@@ -1092,7 +1096,7 @@ Partnership to End Addiction is a a 501-c3 nonprofit organization dedicated to a
 
 ### [Interact for Change](https://www.interactforhealth.org/interact-for-change/)
 
-InterAct for Change is the 501(c)(3) public charity arm of Interact for Health.
+InterAct for Change is the 501-c3 public charity arm of Interact for Health.
 
 [2020 tax filings](https://projects.propublica.org/nonprofits/organizations/300065901):
 - Total revenue: $756,551
