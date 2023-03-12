@@ -246,13 +246,10 @@ Social workers (frequency) carry binders with information on treatment locations
 
 For individuals seeking substance use and mental health treatment options, FindTreatment.gov is the reliable online resource that delivers up-to-date information on available facilities, services, and providers because only FindTreatment.gov is maintained by [SAMHSA's](#substance-abuse-and-mental-health-services-administration-samhsa) CBHSQ, with designated representatives in each state agency responsible for updating information, ensuring accuracy and accessibility for those in need.
 
-SAMHSA maintains other, specific, treatment locators:
-- [Buprenorphine Practitioner Locator](https://www.samhsa.gov/medication-assisted-treatment/find-treatment/treatment-practitioner-locator)
-- [Early Serious Mental Illness Treatment Locator](https://www.samhsa.gov/esmi-treatment-locator)
-- [Opioid Treatment Program Directory](https://dpt2.samhsa.gov/treatment/)
-
-FindTreatment.gov:
-
+- ✓ Backed by [SAMHSA](#substance-abuse-and-mental-health-services-administration-samhsa)
+- ✓ Authorized by the [21st Century Cures Act](#114c-hr34-21st-century-cures-act-of-2016)
+- ✓ Data from [the National Substance Use and Mental Health Services Survey (N‑SUMHSS)](#cbhsq-data-collections)
+- ✓ Designated people to update status and location information
 - Accessibility is not a priority, terrible performance
     - !!! 1.5 minutes to load on Slow 3G (Large bundle sizes, no SSR)
     - !! No metadata for facility pages
@@ -264,12 +261,12 @@ FindTreatment.gov:
 - ✓ Search results are paginated
 - ✓ Button to redirect to print-friendly search results page
 - ✓ Button to download search results as Excel and CSV
-- ✓ Designated people to update status and location information
-- ✓ Backed by [SAMHSA](#substance-abuse-and-mental-health-services-administration-samhsa)
 - ✓ At some point in 2020, the [“SAMHSA box”](https://www.seroundtable.com/google-samhsa-national-hotline-for-rehab-addiction-queries-29519.html) now shows above all relevant Google searches and for others, SAMHSA results will appear above other results
-- ✓ Data from SAMHSA’s National Substance Use and Mental Health Services Survey (N‑SUMHSS)
 - ✓ [Recover Together](https://recovertogether.withgoogle.com/treatment/) project by Google links to FindTreatment.gov
-- ✓ Authorized by the [21st Century Cures Act](#114c-hr34-21st-century-cures-act-of-2016)
+
+Wayback machine shows:
+- [findtreatment.samhsa.gov/locator](https://web.archive.org/web/20230000000000*/https://findtreatment.samhsa.gov/locator) first saved in 2014.
+- [findtreatment.gov](https://web.archive.org/web/20230000000000*/https://findtreatment.gov/) first saved sometime in 2019.
 
 #### [Ohio Recovery Housing Locator](https://find.ohiorecoveryhousing.org)
 
@@ -849,22 +846,83 @@ The Substance Abuse and Mental Health Services Administration (SAMHSA) is the ag
 
 Congress established the Substance Abuse and Mental Health Services Administration (SAMHSA) in 1992 to make substance use and mental disorder information, services, and research more accessible.
 
-[ICF](https://www.icf.com/) conducts the [National Substance Use and Mental Health Services Survey (N‑SUMHSS)](https://info.nsumhss.samhsa.gov/) on behalf of SAMHSA. SAMHSA gives the option for N-SUMHSS participants to be listed in SAMHSA’s online Behavioral Health Treatment Services Locator ([https://findtreatment.samhsa.gov](https://findtreatment.samhsa.gov)).
+SAMHSA maintains multiple treatment directories:
+- [FindTreatment.gov](#findtreatmentgov)
+- [Buprenorphine Practitioner Locator](https://www.samhsa.gov/medication-assisted-treatment/find-treatment/treatment-practitioner-locator)
+- [Early Serious Mental Illness Treatment Locator](https://www.samhsa.gov/esmi-treatment-locator)
+- [Opioid Treatment Program Directory](https://dpt2.samhsa.gov/treatment/)
 
-[Laws and regulations pertaining to substance abuse and mental health services, SAMHSA programs, and related topics](https://www.samhsa.gov/about-us/who-we-are/laws-regulations)
+#### [SAMHSA Offices and Centers](https://www.samhsa.gov/about-us/who-we-are/offices-centers)
 
-The Center for Behavioral Health Statistics and Quality (CBHSQ), SAMHSA, provides [FindTreatment.gov](#findtreatmentgov) as a resource for persons seeking treatment for themselves or for someone else. However, CBHSQ is not a treatment referral agency and cannot make specific recommendations or endorsements regarding individual treatment facilities or types of treatment.
+SAMHSA Offices and Centers provide national leadership and assistance for quality behavioral health services while supporting states, territories, tribes, communities, and local organizations through grants and contract awards.
+
+- Office of the Assistant Secretary for Mental Health and Substance Use: responsible to the Secretary of the Department of Health and Human Services for managing and directing SAMHSA.
+
+- Office of Behavioral Health Equity Office of Behavioral Health Equity (OBHE): advances behavioral health equity by reducing disparities in racial, ethnic, LGBTQIA+, and other under-resourced communities across the country by improving access to quality services and supports that enables all to thrive, participate, and contribute to healthier communities.
+
+- Office of the Chief Medical Officer (OCMO): provides assistance to the Assistant Secretary in evaluating and organizing programs within the Agency, and to promote evidence-based and promising best practices emphasizing clinical focus.
+
+- Office of Financial Resources: develops and implements the policies and programs of the Assistant Secretary.
+
+- Office of Intergovernmental and Public Affairs: provides leadership through the development, coordination, implementation, and articulation of national behavioral health policy.
+
+- 988 & Behavioral Health Crisis Coordinating Office: transforming America’s behavioral health crisis care system to one that saves lives by serving anyone, at any time, in a seamless way, from anywhere across the nation.
+
+- Office of Management, Technology, and Operations: oversees and supports SAMHSA needs.
+
+- Office of Recovery: evaluates and initiates policy, programs and services with a recovery focus and ensure the voices of individuals in recovery are represented. The Office will forge partnerships to support all people, families and communities impacted by mental health and/or substance use conditions to pursue recovery, be resilient and achieve wellness.
+
+- National Mental Health and Substance Use Policy Laboratory: leads the equitable coordination, analysis, development, and implementation of national policy to promote mental health, prevent substance misuse and addiction, provide treatment and support recovery.
+
+- [Center for Behavioral Health Statistics and Quality (CBHSQ)](https://www.samhsa.gov/about-us/who-we-are/offices-centers/cbhsq): the lead Federal government agency for behavioral health data and research.
+
+See: [CBHSQ data collections](#cbhsq-data-collections).
+
+CBHSQ provides [FindTreatment.gov](#findtreatmentgov) as a resource for persons seeking treatment for themselves or for someone else. However, CBHSQ is not a treatment referral agency and cannot make specific recommendations or endorsements regarding individual treatment facilities or types of treatment.
 
 SAMHSA has designated representatives in each State Mental Health Agency (SMHA) and Single State Agency for substance use (SSA) who are responsible for updating the status and location information for substance use and mental health facilities in their jurisdictions.
 
-Wayback machine shows:
-- [findtreatment.samhsa.gov/locator](https://web.archive.org/web/20230000000000*/https://findtreatment.samhsa.gov/locator) first saved in 2014.
-- [findtreatment.gov](https://web.archive.org/web/20230000000000*/https://findtreatment.gov/) first saved sometime in 2019.
+- [Center for Mental Health Services (CMHS)](https://www.samhsa.gov/about-us/who-we-are/offices-centers/cmhs): leads federal efforts to promote the prevention and treatment of mental disorders. Congress created CMHS to bring new hope to adults who have serious mental illness and children with emotional disorders.
 
+- [Center for Substance Abuse Prevention (CSAP)](https://www.samhsa.gov/about-us/who-we-are/offices-centers/csap): improves behavioral health through evidence-based prevention approaches.
+
+- [Center for Substance Abuse Treatment (CSAT)](https://www.samhsa.gov/about-us/who-we-are/offices-centers/csat): promotes community-based substance use disorder treatment, and recovery support services for individuals and families in every community. CSAT provides national leadership to improve access, reduce barriers, and promote high-quality, life-saving, and effective treatment and recovery support services.
 
 #### [Certification of Opioid Treatment Programs (OTPs)](https://www.samhsa.gov/medications-substance-use-disorders/become-accredited-opioid-treatment-program)
 
 [SAMHSA’s Division of Pharmacologic Therapies (DPT)](https://www.samhsa.gov/medications-substance-use-disorders/about-dpt), part of the [SAMHSA Center for Substance Abuse Treatment (CSAT)](https://www.samhsa.gov/about-us/who-we-are/offices-centers/csat), is responsible for certifying that an Opioid Treatment Program (OTP) conforms with federal regulations governing treatment for substance use Disorders
+
+#### [SAMHSA programs](https://www.samhsa.gov/programs)
+
+SAMHSA’s programs and campaigns offer information, training, and technical assistance to improve the quality and delivery of behavioral health services across the nation.
+
+- [Medications for Substance Use Disorders](https://www.samhsa.gov/medications-substance-use-disorders)
+- [Evidence-Based Practices Resource Center](https://www.samhsa.gov/resource-search/ebp)
+- [National Network to Eliminate Disparities in Behavioral Health (NNED)](https://www.samhsa.gov/national-network-eliminate-disparities-behavioral-health-nned)
+- [National Recovery Month](https://www.samhsa.gov/recovery-month)
+- [Behavioral Health Equity](https://www.samhsa.gov/behavioral-health-equity)
+- [Screening, Brief Intervention, and Referral to Treatment (SBIRT)](https://www.samhsa.gov/sbirt)
+- ["Talk. They Hear You."® Campaign](https://www.samhsa.gov/talk-they-hear-you)
+
+#### [CBHSQ data collections](https://www.samhsa.gov/data/data-we-collect)
+
+- [Drug Abuse Warning Network (DAWN)](https://www.samhsa.gov/data/data-we-collect/dawn-drug-abuse-warning-network): a nationwide public health surveillance system that captures data on emergency department (ED) visits related to recent substance use and misuse directly from the electronic health records of participating hospitals.
+
+- [National Substance Use and Mental Health Services Survey (N-SUMHSS)](https://www.samhsa.gov/data/data-we-collect/n-sumhss-national-substance-use-and-mental-health-services-survey): a survey of all substance use and mental health treatment facilities in the United States.
+
+N-SUMHSS replaced the [National Survey of Substance Abuse Treatment Services (N-SSATS)](https://www.samhsa.gov/data/data-we-collect/n-ssats-national-survey-substance-abuse-treatment-services) and [National Mental Health Services Survey (N-MHSS)](https://www.samhsa.gov/data/data-we-collect/n-mhss-national-mental-health-services-survey)
+
+[ICF](https://www.icf.com/) conducts the [N‑SUMHSS](https://info.nsumhss.samhsa.gov/) on behalf of SAMHSA. SAMHSA gives the option for N-SUMHSS participants to be listed in SAMHSA’s online Behavioral Health Treatment Services Locator ([https://findtreatment.samhsa.gov](https://findtreatment.samhsa.gov)).
+
+- [Treatment Episode Data Set (TEDS)](https://www.samhsa.gov/data/data-we-collect/teds-treatment-episode-data-set): demographic and drug history information about individuals admitted and discharged from substance abuse treatment.
+
+- [Mental Health Client-Level Data (MH-CLD)](https://www.samhsa.gov/data/data-we-collect/mh-cld-mental-health-client-level-data): data on the demographic, clinical, and outcome characteristics of individuals receiving mental health treatment services.
+
+- [National Survey on Drug Use and Health (NSDUH)](https://www.samhsa.gov/data/data-we-collect/nsduh-national-survey-drug-use-and-health): estimates of substance use and mental illness at the national, state, and substate levels.
+
+- [Uniform Reporting System (URS)](https://www.samhsa.gov/data/data-we-collect/urs-uniform-reporting-system): a series of Excel tables that are developed by the federal government in consultation with state mental health agencies (SMHAs).
+
+[Laws and regulations pertaining to substance abuse and mental health services, SAMHSA programs, and related topics](https://www.samhsa.gov/about-us/who-we-are/laws-regulations)
 
 #### [Recovery Month](https://www.samhsa.gov/recovery-month)
 
@@ -1463,7 +1521,7 @@ This Act may be cited as the “Studying Outcomes and Benchmarks for Effective R
         });
     });
 
-    const headings = Array.from(document.querySelectorAll('h1, h2, h3'));
+    const headings = Array.from(document.querySelectorAll('h1, h2, h3, h4'));
     headings.forEach((heading) => {
         // observe each heading
         observer.observe(heading);
