@@ -244,7 +244,7 @@ Social workers (frequency) carry binders with information on treatment locations
 
 #### FindTreatment.gov
 
-For individuals seeking substance use and mental health treatment options, FindTreatment.gov is the reliable online resource that delivers up-to-date information on available facilities, services, and providers because only FindTreatment.gov is maintained by [SAMHSA's](substance-abuse-and-mental-health-services-administration-samhsa) CBHSQ, with designated representatives in each state agency responsible for updating information, ensuring accuracy and accessibility for those in need.
+For individuals seeking substance use and mental health treatment options, FindTreatment.gov is the reliable online resource that delivers up-to-date information on available facilities, services, and providers because only FindTreatment.gov is maintained by [SAMHSA's](#substance-abuse-and-mental-health-services-administration-samhsa) CBHSQ, with designated representatives in each state agency responsible for updating information, ensuring accuracy and accessibility for those in need.
 
 SAMHSA maintains other, specific, treatment locators:
 - [Buprenorphine Practitioner Locator](https://www.samhsa.gov/medication-assisted-treatment/find-treatment/treatment-practitioner-locator)
@@ -269,7 +269,7 @@ FindTreatment.gov:
 - ✓ At some point in 2020, the [“SAMHSA box”](https://www.seroundtable.com/google-samhsa-national-hotline-for-rehab-addiction-queries-29519.html) now shows above all relevant Google searches and for others, SAMHSA results will appear above other results
 - ✓ Data from SAMHSA’s National Substance Use and Mental Health Services Survey (N‑SUMHSS)
 - ✓ [Recover Together](https://recovertogether.withgoogle.com/treatment/) project by Google links to FindTreatment.gov
-- ✓ Authorized by the [21st Century Cures Act](#hr34-21st-century-cures-act-of-2016)
+- ✓ Authorized by the [21st Century Cures Act](#114c-hr34-21st-century-cures-act-of-2016)
 
 #### [Ohio Recovery Housing Locator](https://find.ohiorecoveryhousing.org)
 
