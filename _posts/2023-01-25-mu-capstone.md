@@ -853,7 +853,7 @@ Congress established the Substance Abuse and Mental Health Services Administrati
 
 [Laws and regulations pertaining to substance abuse and mental health services, SAMHSA programs, and related topics](https://www.samhsa.gov/about-us/who-we-are/laws-regulations)
 
-The Center for Behavioral Health Statistics and Quality (CBHSQ), SAMHSA, provides FindTreatment.gov as a resource for persons seeking treatment for themselves or for someone else. However, CBHSQ is not a treatment referral agency and cannot make specific recommendations or endorsements regarding individual treatment facilities or types of treatment.
+The Center for Behavioral Health Statistics and Quality (CBHSQ), SAMHSA, provides [FindTreatment.gov](#findtreatmentgov) as a resource for persons seeking treatment for themselves or for someone else. However, CBHSQ is not a treatment referral agency and cannot make specific recommendations or endorsements regarding individual treatment facilities or types of treatment.
 
 SAMHSA has designated representatives in each State Mental Health Agency (SMHA) and Single State Agency for substance use (SSA) who are responsible for updating the status and location information for substance use and mental health facilities in their jurisdictions.
 
