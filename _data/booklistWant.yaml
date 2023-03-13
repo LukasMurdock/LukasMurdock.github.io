@@ -1,5 +1,17 @@
 ---
 isbns:
+- isbn: 9781953953216
+  dateWanted: March 12, 2023
+  title: Scaling People
+  subtitle: A Tactical Guide to Company Building
+  author:
+  - Claire Hughes Johnson
+  publishedDate: '2023-03-07'
+  pageCount: 0
+  categories:
+  - Business & Economics
+  image: "/images/books/scaling-people.jpeg"
+  notFound: false
 - isbn: 9780753810125
   dateWanted: May 27, 2021
   title: The Clock of the Long Now
