@@ -56,6 +56,21 @@ Internal:
 - 2019 [David Allen: The Getting Things Done Workbook](https://gettingthingsdone.com/books/)
 - 2021 [Alex MacCaw: The Manager’s Handbook](https://themanagershandbook.com/)
 
+## Questions
+
+[How do we communicate?](/communication/)
+
+[What technology do we all use to operate?](/saas/) If non-default (e.g., Zoom over Google Meet, why? Where can we learn how to use them?
+
+[What are the core areas of responsibility and who is directly responsible for that area?](#areas-of-responsibility-aor-and-directly-responsible-individuals-dri ↴)
+
+What, specifically, are we responsible for? When?
+
+[What are we measuring?](#outcome-super-prompt)
+
+[How do we propose improvements for others to comment on?](#improvement-proposals↴)
+
+
 ## Frameworks
 
 ### Areas of Responsibility (AOR) and Directly Responsible Individuals (DRI)
