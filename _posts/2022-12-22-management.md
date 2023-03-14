@@ -58,6 +58,8 @@ Internal:
 
 ## Questions
 
+[What do we value?](/values/)
+
 [How do we communicate?](/communication/)
 
 [What technology do we all use to operate?](/saas/) If non-default (e.g., Zoom over Google Meet, why? Where can we learn how to use them?
