@@ -10,7 +10,7 @@ The RSC Primary Flow:
 - Write data: Not our job. (Next 13: Hard refresh? We’re working on it…)
 
 The Remix Primary Flow:
-- Load data: Server must know what data to fetch, now parallelize.
+- Load data: Request data at the route level, parallelize everything.
 - Write data: HTML forms, now here’s tools to progressively enhance.
 
 RSC approach footguns:
