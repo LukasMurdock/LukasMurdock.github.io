@@ -72,6 +72,7 @@ What, specifically, are we responsible for? When?
 
 [How do we propose improvements for others to comment on?](#improvement-proposals↴)
 
+How do we make decisions?
 
 ## Frameworks
 
