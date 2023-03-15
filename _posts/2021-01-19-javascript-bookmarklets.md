@@ -5,6 +5,7 @@ description: ""
 date: January 19, 2021
 last_modified_at: 2021-05-06T19:35:12+0000
 tags: dev, me
+code: true
 ---
 
 A [bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet) is a bookmark stored in a web browser that contains JavaScript commands that add new features to the browser.
@@ -16,6 +17,20 @@ Want to save JavaScript into a bookmarklet? Use [Coles Bookmarklet Creator](http
 ## My Bookmarklets
 
 Test them out by clicking the links. To use them anywhere simply drag the links to your bookmark bar.
+
+**Docs view** toggles a Google doc between 'edit' and 'preview'.
+
+```js
+javascript:(function() {
+  var path = window.location.pathname;
+  if (path.endsWith('/edit')) {
+    path = path.replace('/edit', '/preview');
+  } else if (path.endsWith('/preview')) {
+    path = path.replace('/preview', '/edit');
+  }
+  window.location.pathname = path;
+})();
+```
 
 [**Remove URL Parameters**](javascript:(function()%7Bconsole.log('Original%20URL%3A'%2Bwindow.location)%3Bwindow.history.replaceState(''%2C''%2Cwindow.location.origin%2Bwindow.location.pathname)%3B%20navigator.clipboard.writeText(window.location.origin%2Bwindow.location.pathname)%7D)()) removes URL parameters and copies the URL to the clipboard.
 
