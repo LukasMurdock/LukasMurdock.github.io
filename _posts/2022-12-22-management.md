@@ -74,6 +74,8 @@ What, specifically, are we responsible for? When?
 
 How do we make decisions?
 
+Where do decision records go?
+
 ## Frameworks
 
 ### Areas of Responsibility (AOR) and Directly Responsible Individuals (DRI)

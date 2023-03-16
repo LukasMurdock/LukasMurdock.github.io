@@ -22,7 +22,7 @@ Test them out by clicking the links. To use them anywhere simply drag the links 
 
 ```js
 javascript:(function() {
-  var path = window.location.pathname;
+  let path = window.location.pathname;
   if (path.endsWith('/edit')) {
     path = path.replace('/edit', '/preview');
   } else if (path.endsWith('/preview')) {

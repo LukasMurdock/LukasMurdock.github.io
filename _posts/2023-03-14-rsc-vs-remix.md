@@ -26,3 +26,6 @@ date: 'March 14, 2023'
 
 - Parallelize all the requests!
 - Learn how the web works
+
+#### Remix issues
+- [DX with useLoaderData typesafety](https://github.com/remix-run/remix/issues/3931)
