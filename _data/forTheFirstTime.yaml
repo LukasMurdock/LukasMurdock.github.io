@@ -1,4 +1,6 @@
 ---
+- firsttime: "Went to a rave."
+  date: 2023-03-23
 - firsttime: "Accepted a full-time offer."
   date: 2023-03-06
 - firsttime: "Ran `git reset --hard` in a project before making a single commit."

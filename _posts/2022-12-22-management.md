@@ -55,6 +55,7 @@ Internal:
 - 2019 [Matt Mochary: The Great CEO Within](https://mocharymethod.org/the-great-ceo-within/)
 - 2019 [David Allen: The Getting Things Done Workbook](https://gettingthingsdone.com/books/)
 - 2021 [Alex MacCaw: The Manager’s Handbook](https://themanagershandbook.com/)
+- 2023 [Claire Hughes Johnson: Scaling People](https://press.stripe.com/scaling-people)
 
 ## Questions
 
