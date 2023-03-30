@@ -348,6 +348,46 @@ Recovery housing is a [type of treatment](https://findtreatment.gov/what-to-expe
 - Integrated care that addresses substance use and mental illness
 - Care given over the phone or online to support treatment and recovery (telemedicine)
 
+The [2021 N-SUMHSS survey](https://www.samhsa.gov/data/sites/default/files/reports/rpt39450/2021%20N-SUMHSS%20Annual%20Detailed%20Tables_508_Compliant_2_8_2023.pdf) categorizes services in the buckets:
+- Assessment and pre-treatment services
+    - Screening for substance abuse
+- Testing
+    -  Drug and alcohol oral fluid testing
+- Medical services
+    - Hepatitis A (HAV) vaccination
+- Transitional services
+    - Discharge planning
+- Recovery support services
+    - Mentoring/peer support
+    - Self-help groups
+    - Assistance in locating housing for clients
+    - Employment counseling or training for clients
+    - Assistance with obtaining social services (for example, Medicaid, WIC, SSI, SSDI)
+    - Recovery coach
+- Education and counseling services
+    - HIV or AIDS education, counseling, or support
+- Ancillary services
+    - Case management services
+- Other services
+    - Treatment for gambling disorder
+- Pharmacotherapies
+    - Disulfiram (Antabuse®)
+
+Clinical/therapeutic approaches used frequently
+- Substance abuse counseling
+- 12-step facilitation
+- Brief intervention
+- Cognitive behavioral therapy
+- Contingency management/motivational incentives
+- Motivational interviewing
+- Trauma-related counseling
+- Anger management
+- Matrix model
+- Community reinforcement plus vouchers
+- Relapse prevention
+- Telemedicine/telehealth
+- Other treatment approach
+
 The categorization of housing is not standardized across the US. Some states do have category standards.
 
 (2018) [OhioMHAS: Ohio housing categories and definitions](https://mha.ohio.gov/static/Portals/0/assets/SchoolsAndCommunities/CommunityAndHousing/HousingResources/Housing-Definitions_122018.pdf)
