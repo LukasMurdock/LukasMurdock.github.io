@@ -466,3 +466,4 @@ Objects:
 - [How to Measure “Hard-to-Measure” Marketing Channels](https://sparktoro.com/blog/how-to-measure-hard-to-measure-marketing-channels/)
 - [Small But Mighty: Tiny Brand Advertising Strategies](https://www.bandt.com.au/small-but-mighty-tiny-brand-advertising-strategies/)
 - [Too Few Marketers Grasp the Difference Between Strategy vs. Tactics](https://sparktoro.com/blog/too-few-marketers-grasp-the-difference-between-strategy-vs-tactics-we-need-to-fix-that/)
+- [Who Will Amplify This? And Why?](https://sparktoro.com/blog/who-will-amplify-this-and-why/)
