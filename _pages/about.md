@@ -418,6 +418,7 @@ With this stack my entire website is currently free, aside from paying for the d
 - Brown noise [Focus](https://youtu.be/QW0u2sajpQ0) / [Sleep](https://www.youtube.com/watch?v=RfocDdUn9tI)
 - [Monstercat Instinct Vol. 1 (Album Mix)](https://www.youtube.com/watch?v=qNMT476v9C8)
 - [Aesthetic Lofi](https://www.youtube.com/@Aestheticlofi.)
+- [Ghibli Medley Piano](https://www.youtube.com/watch?v=Nm4seWmaMA4)
 
 #### Soundcloud
 - [Remixes of popular songs](https://soundcloud.com/kiwi129/sets/best-remixes-of-popular-songs)
