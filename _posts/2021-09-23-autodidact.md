@@ -102,18 +102,12 @@ tags: annual, me
 [https://lukasmurdock.com/knowledge/#academia](https://lukasmurdock.com/knowledge/#academia)
 
 ## Selected Set
+- Computer science
 - Mathematics
 - Physics
 - Business
 
-### Mathematics
-- [Wikipedia: Outline of Mathematics](https://en.wikipedia.org/wiki/Outline_of_mathematics)
-- [Kill Math](http://worrydream.com/KillMath/)
-
-### Physics
-- [Wikipedia: Outline of Physics](https://en.wikipedia.org/wiki/Outline_of_physics)
-- [So You Want To Learn Physics...](https://www.susanjfowler.com/blog/2016/8/13/so-you-want-to-learn-physics)
-- [Physics Travel Guide](https://physicstravelguide.com/)
+See [/wtl](/wtl).
 
 ## [Outline of academic disciplines](https://en.wikipedia.org/wiki/Outline_of_academic_disciplines)
 1. Humanities

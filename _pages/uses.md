@@ -22,6 +22,7 @@ tags: me
 * iPad mini (MK7V3LL/A)
 
 ### Other Hardware
+
 * Custom PC built in 2016
     - Dead, needs repairs
 * <del>BenQ 24" RL2455HM Monitor</del>

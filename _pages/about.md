@@ -5,9 +5,15 @@ description: Who am I online & what have I done? Contact information; sites I us
 last_modified_at: 2020-12-18T15:03:41-0500
 ---
 
-Other pages:
-- [Now](/now)
-- [Uses](/uses)
+---
+
+See also
+
+- [Now](/now) - what I am focused on at this point in my life.
+- [Uses](/uses) - what I use
+- [Want to learn](/wtl) - what I want to learn
+
+---
 
 ## Target Audience
 The content on this website is for my future self, who is intelligent and interested, but has forgotten. So I hope to remember why I decided something by noting down everything I found interesting about it for future reference. I hope you might find some topics as interesting as I have, and the essay useful or at least entertaining–but the intended audience is my future self.
@@ -145,15 +151,8 @@ Various technologies I dove into before I started tracking when I learned them. 
 - Three.js
 
 ### Things I want to learn
-- Data [science](https://r4ds.had.co.nz/introduction.html)/[analysis](https://xcelab.net/rm/statistical-rethinking/), R, [Bayesian](https://xcelab.net/rm/statistical-rethinking/)
-    - [R for Data Science](https://r4ds.had.co.nz/introduction.html)
-    - [R for applied epidemiology and public health](https://epirhandbook.com/)
-    - [R for SEO](https://www.rforseo.com/)
-    - [Statistical rethinking](https://github.com/rmcelreath/stat_rethinking_2022)
-- Piano // keyboard
-- Web scraping
-- [Network programming](https://beej.us/guide/bgnet/)
-- How to stop subscribing to newsletters
+
+Moved to [/wtl](/wtl)
 
 ### Companies I’ve Worked For
 

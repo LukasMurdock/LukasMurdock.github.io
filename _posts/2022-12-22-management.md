@@ -194,3 +194,4 @@ https://adr.github.io/
 - [Managing Complex Change](https://addyosmani.com/blog/managing-complex-change/)
 - [Focus on high-leverage activities](https://addyosmani.com/blog/high-leverage-activites/)
 - [Manage like an engineer](https://ben.balter.com/2023/01/10/manage-like-an-engineer/)
+- [Management cybernetics](https://en.wikipedia.org/wiki/Management_cybernetics)
