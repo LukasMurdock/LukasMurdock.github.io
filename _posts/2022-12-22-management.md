@@ -186,6 +186,14 @@ Lightweight ADRs:
 
 https://adr.github.io/
 
+### Next Step prompt
+
+[TBM 214: From Assumption to Next Step](https://cutlefish.substack.com/p/tbm-214-from-assumption-to-next-step)
+
+> Currently I [___A___] that [___B___] based on [___C___]. Given that assumption I [___D___]that we [___E___].
+
+
+
 ## Management Resources
 
 - [Workshop tactics](https://www.workshoptactics.com/pages/tactics)
