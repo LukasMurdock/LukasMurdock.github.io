@@ -17,6 +17,8 @@ See my [college course list](https://lukasmurdock.com/college-transcript/). ETA 
 ## Exploring
 Most of my learning comes from [wondering around online](https://lukasmurdock.com/aroundtheweb/) or [diving into books](https://lukasmurdock.com/booklist/). Who knows where I’ll go. Trying to figure out what I’m focused on. Working on feeling secure.
 
+So much I [want to learn](/wtl) and [want to read](/wanttoread/).
+
 ## Top goal
 
 2023-01-04: Receive bachelor degree
