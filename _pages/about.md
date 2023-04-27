@@ -53,6 +53,7 @@ I elevator pitch myself as a Designer, Developer, and Marketer, but here I try t
 - [Attention is a gift](https://lukasmurdock.com/attention/). Don’t sell your attention, [refuse the transaction](https://vimeo.com/345624545).
 - [Interruption is assault](https://www.takingti.me/articles/interruptionasassault).
 - Write it up, don’t chat it down.
+- [Everything should have a URL](https://ben.balter.com/2015/11/12/why-urls/)
 - Find new ways to confuse yourself
 - [Find solace in learning](https://lukasmurdock.com/autodidact/)
 - Find a quest, find [something to be enthusiastic about](https://critter.blog/2022/10/28/something-to-be-enthusiastic-about/)
