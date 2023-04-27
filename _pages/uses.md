@@ -58,6 +58,7 @@ Have previously subscribed to:
 Google Chrome | https://lukasmurdock.com/chrome-extensions/::
 Brave Browser | https://brave.com/::
 Visual Studio Code | https://lukasmurdock.com/vs-code/::
+RunJS | https://runjs.app/::
 Dash | https://kapeli.com/dash::
 iTerm2 | https://lukasmurdock.com/command-line::
 iA Writer | https://ia.net/writer::
