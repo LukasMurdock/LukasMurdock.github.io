@@ -4208,3 +4208,8 @@ fulldata:
         Link: "https://12ft.io/"
         Comment: "Show me a 10ft paywall, I’ll show you a 12ft ladder."
         Date: 2021-12-13
+
+      - Title: "Academia.edu"
+        Link: "https://www.academia.edu/"
+        Comment: "A place to share and follow research."
+        Date: 2023-05-11
