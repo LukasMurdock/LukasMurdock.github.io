@@ -11,14 +11,18 @@ last_modified_at: 2021-06-06T23:37:03-0400
 
 [A “now page” tells you what this person is focused on at this point in their life](https://nownownow.com/about). Inspired by [Derek Sivers](https://sive.rs/now).
 
-## Working towards a Bachelor’s Degree in Marketing
-See my [college course list](https://lukasmurdock.com/college-transcript/). ETA May 2023.
+## Working
+
+Turning coffee into code over at [SkyCatchFire](https://www.skycatchfire.com/).
 
 ## Exploring
+
 Most of my learning comes from [wondering around online](https://lukasmurdock.com/aroundtheweb/) or [diving into books](https://lukasmurdock.com/booklist/). Who knows where I’ll go. Trying to figure out what I’m focused on. Working on feeling secure.
 
 So much I [want to learn](/wtl) and [want to read](/wanttoread/).
 
 ## Top goal
 
-2023-01-04: Receive bachelor degree
+2023-05-14: [Learn](/wtl/), [read](/wanttoread/), and [write](/why-we-write-2/).
+
+2023-01-04: Receive bachelor degree (2023-05-14: graduated. See my [college course list](https://lukasmurdock.com/college-transcript/))
