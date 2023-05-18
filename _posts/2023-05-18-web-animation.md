@@ -13,7 +13,7 @@ tags: dev
     - [CSS Animations vs Web Animations API](https://css-tricks.com/css-animations-vs-web-animations-api/)
     - [web.dev: Animations](https://web.dev/animations/)
 - Web Animations API
-    - [MDN: Web Animations API](Web_Animations_API)
+    - [MDN: Web Animations API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API)
     - [Orchestrating Complexity With Web Animations API](https://www.smashingmagazine.com/2021/09/orchestrating-complexity-web-animations-api/)
     - [W3C: Web Animations](https://www.w3.org/TR/web-animations-1/)
 - WebGL
@@ -35,7 +35,7 @@ tags: dev
 ## JavaScript animation libraries
 
 - [GreenSock](https://greensock.com/)
-    - [GSAP](https://greensock.com/gsap/)
+    - [GSAP](https://greensock.com/gsap/) (GreenSock Animation Platform)
         - [Paid subscription plugins](https://greensock.com/club/)
         - [Plugins](https://greensock.com/gsap-plugins/)
             - [GSAP Flip plugin](https://greensock.com/docs/v3/Plugins/Flip/) 📄
