@@ -38,10 +38,14 @@ tags: dev
     - [GSAP](https://greensock.com/gsap/) (GreenSock Animation Platform)
         - [Paid subscription plugins](https://greensock.com/club/)
         - [Plugins](https://greensock.com/gsap-plugins/)
-            - [GSAP Flip plugin](https://greensock.com/docs/v3/Plugins/Flip/) 📄
+            - [Flip plugin](https://greensock.com/docs/v3/Plugins/Flip/) 📄
+            - [MotionPathPlugin](https://greensock.com/motionpath) 📄
+            - [MorphSVGPlugin](https://greensock.com/morphsvg/) 📄
+            - [DrawSVGPlugin](https://greensock.com/drawsvg/) 📄
+            - [TextPlugin](https://greensock.com/textplugin/) 📄
+            - [Physics2DPlugin](https://greensock.com/physics2d/) ✨
     - [Draggable](https://greensock.com/draggable/) 📄
     - [SplitText](https://greensock.com/SplitText/) 📄
-- [Pixi.js](https://pixijs.com/) ☀️
 - [anime.js](https://animejs.com/) 💅📄
 - [Popmotion](https://popmotion.io/) 💅📄
     - Powers [Framer Motion](https://www.framer.com/motion/) (React)
@@ -53,6 +57,7 @@ tags: dev
 - [p5.js](https://p5js.org/)
 - [D3.js](https://d3js.org/) 📄
 - (React) [react-spring](https://www.react-spring.dev/) 💅📄
+- [Pixi.js](https://pixijs.com/) ☀️
 - [three.js](https://threejs.org/) 🏞️
     - (React) [React Three Fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction)
 
