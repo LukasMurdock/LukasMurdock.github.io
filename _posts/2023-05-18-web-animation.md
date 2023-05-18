@@ -6,25 +6,15 @@ date: 'May 18, 2023'
 tags: dev
 ---
 
-## Web animation technology areas
+Web animation implementation areas:
 
-- CSS animation
-    - [MDN: animation](https://developer.mozilla.org/en-US/docs/Web/CSS/animation)
-    - [CSS Animations vs Web Animations API](https://css-tricks.com/css-animations-vs-web-animations-api/)
-    - [web.dev: Animations](https://web.dev/animations/)
-- Web Animations API
-    - [MDN: Web Animations API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API)
-    - [Orchestrating Complexity With Web Animations API](https://www.smashingmagazine.com/2021/09/orchestrating-complexity-web-animations-api/)
-    - [W3C: Web Animations](https://www.w3.org/TR/web-animations-1/)
-- WebGL
-    - [Wikipedia: WebGL](https://en.wikipedia.org/wiki/WebGL)
-    - [MDN: WebGL](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API)
-- WebGPU
-    - [Wikipedia: WebGPU](https://en.wikipedia.org/wiki/WebGPU)
-    - [MDN: WebGPU API](https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API)
-    - [W3C: WebGPU](https://www.w3.org/TR/webgpu/)
+- CSS animation property
+- JavaScript
+    - Web Animations API
+    - WebGL
+    - WebGPU
 
-## Web animation intent areas
+Web animation intent areas:
 
 - 💅 Animate CSS properties
 - 📄 Animate DOM attributes
@@ -40,8 +30,8 @@ tags: dev
         - [Plugins](https://greensock.com/gsap-plugins/)
             - [Flip plugin](https://greensock.com/docs/v3/Plugins/Flip/) 📄
             - [MotionPathPlugin](https://greensock.com/motionpath) 📄
-            - [MorphSVGPlugin](https://greensock.com/morphsvg/) 📄
-            - [DrawSVGPlugin](https://greensock.com/drawsvg/) 📄
+            - ($$) [MorphSVGPlugin](https://greensock.com/morphsvg/) 📄
+            - ($) [DrawSVGPlugin](https://greensock.com/drawsvg/) 📄
             - [TextPlugin](https://greensock.com/textplugin/) 📄
             - [Physics2DPlugin](https://greensock.com/physics2d/) ✨
     - [Draggable](https://greensock.com/draggable/) 📄
@@ -66,7 +56,42 @@ tags: dev
 - [LottieFiles](https://lottiefiles.com/)
 - [Rive](https://rive.app/)
 
-## Animation courses
+## Resources
+
+### Specs
+
+- CSS animation
+    - [MDN: animation](https://developer.mozilla.org/en-US/docs/Web/CSS/animation)
+    - [CSS Animations vs Web Animations API](https://css-tricks.com/css-animations-vs-web-animations-api/)
+    - [web.dev: Animations](https://web.dev/animations/)
+- Web Animations API
+    - [MDN: Web Animations API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API)
+    - [Orchestrating Complexity With Web Animations API](https://www.smashingmagazine.com/2021/09/orchestrating-complexity-web-animations-api/)
+    - [W3C: Web Animations](https://www.w3.org/TR/web-animations-1/)
+- WebGL
+    - [Wikipedia: WebGL](https://en.wikipedia.org/wiki/WebGL)
+    - [MDN: WebGL](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API)
+- WebGPU
+    - [Wikipedia: WebGPU](https://en.wikipedia.org/wiki/WebGPU)
+    - [MDN: WebGPU API](https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API)
+    - [W3C: WebGPU](https://www.w3.org/TR/webgpu/)
+
+### Articles
+
+- [Josh Comeau: An Interactive Guide to Keyframe Animations](https://www.joshwcomeau.com/animation/keyframe-animations/)
+- [Josh Comeau: Building a Magical 3D Button](https://www.joshwcomeau.com/animation/3d-button/)
+- [Josh Comeau: A Friendly Introduction to Spring Physics](https://www.joshwcomeau.com/animation/a-friendly-introduction-to-spring-physics/)
+- [Josh Comeau: Accessible Animations in React](https://www.joshwcomeau.com/react/prefers-reduced-motion/)
+- [Josh Comeau: Boop!](https://www.joshwcomeau.com/react/boop/)
+- [Josh Comeau: Animated Sparkles in React](https://www.joshwcomeau.com/react/animated-sparkles-in-react/)
+
+### Talks
+
+- [Josh Comeau: The Case for Whimsy](https://youtu.be/Z2d9rw9RwyE)
+- [Josh Comeau: Saving the Web, 16ms at a Time](https://www.youtube.com/watch?v=DNGGzwmfouU)
+
+### Courses
+
 - [Josh Comeau: CSS for JavaScript Developers](https://css-for-js.dev/)
 - [Bruno Simon: three.js journey](https://threejs-journey.com/)
 - [School of motion](https://www.schoolofmotion.com/)
