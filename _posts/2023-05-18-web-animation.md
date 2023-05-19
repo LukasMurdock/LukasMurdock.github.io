@@ -41,6 +41,7 @@ Web animation intent areas:
 - [Popmotion](https://popmotion.io/) 💅📄
     - Powers [Framer Motion](https://www.framer.com/motion/) (React)
 - [Motion One](https://motion.dev/) 💅📄 (By the author of Popmotion and Framer motion)
+    - [Wary](https://twitter.com/mattgperry/status/1656290186223861760?s=20)
 - [Typed.js](https://mattboldt.com/demos/typed-js/) 📄
 - [AutoAnimate](https://auto-animate.formkit.com/) 📄
 - [mo.js](https://mojs.github.io/) ✨
@@ -112,3 +113,10 @@ Web animation intent areas:
     - [Animation Bootcamp](https://www.schoolofmotion.com/courses/animation-bootcamp)
     - [Beginner's Guide to Design & Motion](https://www.schoolofmotion.com/courses/beginners-guide-to-design-motion)
 - [Tilda: Web animation](https://tilda.education/en/web-animation-course)
+- [Sam Selikoff: Build UI: Framer Motion Recipes](https://buildui.com/series/framer-motion-recipes)
+
+
+## People
+
+- [Matt Perry](https://twitter.com/mattgperry)
+- [Josh Comeau](https://www.joshwcomeau.com/)
