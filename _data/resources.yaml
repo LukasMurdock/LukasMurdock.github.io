@@ -876,6 +876,11 @@ fulldata:
         Comment: "An open source toolbox for colors."
         Date: 2022-03-01
 
+      - Title: "Happy Hues"
+        Link: "https://www.happyhues.co/"
+        Comment: "Curated colors in context."
+        Date: 2023-05-23
+
       - Title: Color & Contrast Picker
         Link: https://kevingutowski.github.io/color.html
         Comment: "View closest accessible colors."

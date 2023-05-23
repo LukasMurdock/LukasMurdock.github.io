@@ -16,16 +16,22 @@ tags: dev
 - 2005 [Apache Wicket](https://wicket.apache.org/)
 - 2005 [Django](https://www.djangoproject.com/)
 - 2006 [CodeIgniter](https://codeigniter.com/)
+- 2008 [Mojolicious](https://mojolicious.org/)
 - 2010 [Yii](https://www.yiiframework.com/)
 - 2010 [Flask](https://palletsprojects.com/p/flask/)
+- 2010 [Express](https://expressjs.com/)
 - 2011 [Laravel](https://laravel.com/)
+- 2014 [Spring Boot](https://spring.io/projects/spring-boot)
 
 ### Client side web frameworks
 
 - 2007 [jQuery UI](https://jqueryui.com/)
-- 2010 [Backbone.js](https://backbonejs.org/)
-- 2010 [AngularJS](https://angularjs.org/)
+- 2010 [SproutCore](https://sproutcore.com/)
+- 2010-10 [Backbone.js](https://backbonejs.org/)
+- 2010-10 [AngularJS](https://angularjs.org/)
+- 2010-11 [Knockout.js](https://knockoutjs.com/)
 - 2011 [EmberJS](https://emberjs.com/)
+- 2012 [MeteorJS](https://www.meteor.com/)
 - 2013 [ReactJS](https://react.dev/)
 - 2014 [Vue.js](https://vuejs.org/)
 - 2016 [Svelte](https://svelte.dev/)
@@ -33,13 +39,18 @@ tags: dev
 - 2021 [Unpoly](https://unpoly.com/)
 - 2021 [Solid](https://www.solidjs.com/)
 
-### Full stack web frameworks
+### Static site generators
 
-- 2015 [Gatsby](https://www.gatsbyjs.com/)
-- 2016 [Next.js](https://nextjs.org/)
-- 2016 [Nuxt.js](https://nuxt.com/)
-- 2021 [Remix](https://remix.run/)
+- 2008 [Jekyll](http://jekyllrb.com/)
+- 2013 [Hugo](https://gohugo.io/)
+- 2015 [Gatsby](https://www.gatsbyjs.com/) (now full stack)
+- 2016 [Next.js](https://nextjs.org/) (now full stack)
+- 2016 [Nuxt.js](https://nuxt.com/) (now full stack)
 - 2022 [Astro](https://astro.build/)
+
+### Full stack web frameworks (PESPAs: Progressively Enhanced Single Page Apps)
+
+- 2021 [Remix](https://remix.run/)
 - 2022 [Fresh](https://fresh.deno.dev/)
 - 2022 [SvelteKit](https://kit.svelte.dev/)
 - 2022 [SolidStart](https://start.solidjs.com/getting-started/what-is-solidstart)

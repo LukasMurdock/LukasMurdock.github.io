@@ -9,6 +9,7 @@ tags: me
 [How much does a website cost?](https://www.viget.com/articles/how-much-does-a-website-cost-anywhere-from-50-to-5-000-000/)
 
 ## Company
+
 - https://bejamas.io/
 - https://vercel.com/
 - https://www.netlify.com/
@@ -30,8 +31,10 @@ tags: me
 - [Frame.io](https://frame.io/)
 - [Reflect.app](https://reflect.app/)
 - [Chartmetric](https://chartmetric.com/)
+- [Fibery](https://fibery.io/anxiety)
 
 ## Personal
+
 - https://adamsilver.io/
 - https://brody.com/
 - https://sive.rs/
@@ -77,6 +80,7 @@ tags: me
 [Cool Things People Do With Their Blogs](https://brainbaking.com/post/2022/04/cool-things-people-do-with-their-blogs/)
 
 ## Misc
+
 - https://setups.co/
 - https://www.glyphfinder.com/
 - https://brianlovin.com/stack
@@ -87,6 +91,7 @@ tags: me
 
 
 ## Aggregators
+
 - [SaaS Landing Page](https://saaslandingpage.com/)
 
 

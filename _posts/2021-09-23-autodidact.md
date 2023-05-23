@@ -80,6 +80,7 @@ tags: annual, me
 - [Pursue Mastery, Not Status](https://moretothat.com/pursue-mastery-not-status/)
 - [How to Solve It – and by It – I Mean Anything](https://nightingaledvs.com/how-to-solve-it-and-by-it-i-mean-anything/)
 - [Structured Academic Controversy: A Variant](https://crookedtimber.org/2023/01/11/structured-academic-controversy-a-variant/)
+- [Stumbling Towards Rightness](https://nathanbrixius.wordpress.com/2023/05/05/stumbling-towards-rightness/)
 
 ### Books
 - [David A. Kolb: Experiential Learning: Experience as the Source of Learning and Development](https://www.amazon.com/Experiential-Learning-Experience-Source-Development-dp-0133892409/dp/0133892409/ref=dp_ob_title_bk) (1984)

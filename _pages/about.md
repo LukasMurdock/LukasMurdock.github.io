@@ -448,6 +448,7 @@ With this stack my entire website is currently free, aside from paying for the d
 - [HEX Franklin](https://hex.xyz/HEX_Franklin/) (no matter what weight you use, the letters are always the same width)
 - [Iowan Old Style](https://en.wikipedia.org/wiki/Iowan_Old_Style)
 - [Figtree](https://www.erikdkennedy.com/projects/figtree.html)
+- [Nerd fonts](https://www.nerdfonts.com/)
 
 #### Font Foundries
 - [Klim Type](https://klim.co.nz/)
