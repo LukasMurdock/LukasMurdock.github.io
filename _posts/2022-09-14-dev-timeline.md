@@ -27,9 +27,9 @@ tags: dev
 
 - 2007 [jQuery UI](https://jqueryui.com/)
 - 2010 [SproutCore](https://sproutcore.com/)
-- 2010-10 [Backbone.js](https://backbonejs.org/)
-- 2010-10 [AngularJS](https://angularjs.org/)
-- 2010-11 [Knockout.js](https://knockoutjs.com/)
+- 2010 [Backbone.js](https://backbonejs.org/)
+- 2010 [AngularJS](https://angularjs.org/)
+- 2010 [Knockout.js](https://knockoutjs.com/)
 - 2011 [EmberJS](https://emberjs.com/)
 - 2012 [MeteorJS](https://www.meteor.com/)
 - 2013 [ReactJS](https://react.dev/)
@@ -42,14 +42,38 @@ tags: dev
 ### Static site generators
 
 - 2008 [Jekyll](http://jekyllrb.com/)
+- 2009 [Middleman](https://middlemanapp.com/)
+- 2009 [Octopress](http://octopress.org/)
+- 2010 [Hakyll](https://jaspervdj.be/hakyll/)
+- 2010 [Pelican](https://getpelican.com/)
+- 2012 [Sculpin](https://sculpin.io/)
+- 2012 [Hexo](https://hexo.io/)
 - 2013 [Hugo](https://gohugo.io/)
+- 2014 [Metalsmith](https://metalsmith.io/)
+- 2015 [Zola](https://www.getzola.org/)
 - 2015 [Gatsby](https://www.gatsbyjs.com/) (now full stack)
 - 2016 [Next.js](https://nextjs.org/) (now full stack)
 - 2016 [Nuxt.js](https://nuxt.com/) (now full stack)
+- 2017 [React-static](https://github.com/react-static/react-static)
+- 2017 [Docusaurus](https://docusaurus.io/)
+- 2017 [Eleventy (11ty)](https://www.11ty.dev/)
+- 2017 [Sapper](https://sapper.svelte.dev/)
+- 2018 [VuePress](https://vuepress.vuejs.org/)
+- 2018 [Gridsome](https://gridsome.org/)
+- 2019 [RedwoodJS](https://redwoodjs.com/)
+- 2019 [Scully](https://scully.io/)
+- 2020 [Bridgetown](https://www.bridgetownrb.com/)
+- 2020 [VitePress](https://vitepress.dev/)
+
+### Partial hydration
+
+- 2020 [Elder.js](https://elderguide.com/tech/elderjs/)
+- 2021 [Slinkity](https://slinkity.dev/)
 - 2022 [Astro](https://astro.build/)
 
 ### Full stack web frameworks (PESPAs: Progressively Enhanced Single Page Apps)
 
+- 2020 [Blitz.js](https://blitzjs.com/)
 - 2021 [Remix](https://remix.run/)
 - 2022 [Fresh](https://fresh.deno.dev/)
 - 2022 [SvelteKit](https://kit.svelte.dev/)
