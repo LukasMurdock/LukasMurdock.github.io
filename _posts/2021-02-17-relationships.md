@@ -13,6 +13,9 @@ See also:
 - [General Advice](/advice/)
 - [Wealth](/wealth/)
 
+Alt:
+- [Relationship Advice Repository](https://www.lesswrong.com/posts/AvjbBjAAbKBk73v5F/relationship-advice-repository)
+
 > [All relationship compatibility dimensions boil down to the ability to communicate with each other. Including looks.](https://ava.substack.com/p/communication-on-all-levels)
 
 [Who do we spend time with across our lifetime](https://ourworldindata.org/time-with-others-lifetime)?
@@ -212,3 +215,15 @@ Yeah, I have no idea. I’ll see you then.
 
 Misc:
 - [Models of human relationships – tools to understand people](http://bearlamp.com.au/models-of-human-relationships-tools-to-understand-people/)
+
+## Socializing
+
+- [Socialising (also appears as "networking")](https://vilinskyy.substack.com/p/socialising-also-appears-as-networking)
+- [AOM: Throw a 2-Hour Cocktail Party That Can Change Your Life](https://www.artofmanliness.com/people/social-skills/2-hour-cocktail-party/)
+
+5 levels of socializing:
+1. You never meet new people, always wait to be introduced on events.
+2. You are responding to messages, but rarely meeting with new people.
+3. You outreach a lot and meet people regularly to exchange intros.
+4. You are meeting Super Relevant People and help them during call.
+5. You are getting recommended to Super Relevant People.

@@ -72,6 +72,7 @@ tags: me
 - [Robin Rendle](https://www.robinrendle.com/)
 - [Sergio Mattei](https://matteing.com/)
 - [Bartosz Ciechanowski](https://ciechanow.ski/)
+- [Matthew Skiles](https://matthewskiles.com/)
 
 [Cool Things People Do With Their Blogs](https://brainbaking.com/post/2022/04/cool-things-people-do-with-their-blogs/)
 

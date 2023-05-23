@@ -37,6 +37,8 @@ Leadership here refers to team leadership, in contrast to the wider [marketing l
 - [Promise me that whenever you’re scared to ask something, you’ll ask](https://critter.blog/2022/10/03/promise-me-that-whenever-youre-scared-to-ask-something-youll-ask/)
 - [Lara Hogan: Resources for navigating complex leadership work](https://larahogan.me/blog/management-resource-library/)
 - [Do you need a Strong Leader?](https://benjiweber.co.uk/blog/2022/10/08/do-you-need-a-strong-leader/)
+- [Typical tactics for influencing leaders at different levels](https://jchyip.medium.com/my-typical-tactics-for-influencing-leaders-at-different-levels-88166dcb3e5d)
+- [StaySassy: Culture Viruses](https://staysaasy.com/business/2023/03/01/culture-viruses.html)
 
 ## Videos
 - [17:48] [Simon Sinek: How great leaders inspire action](https://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action)

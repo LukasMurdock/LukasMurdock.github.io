@@ -67,3 +67,5 @@ I’ve touched on the mess of [marketing differentiation](https://lukasmurdock.c
 I seriously think Perception Optimization removes the confusion that *marketing* has thrown in.
 
 Though, this could be just me. Let me know what you think of when you hear Perception Optimization.
+
+([Semiotics](https://en.wikipedia.org/wiki/Semiotics))

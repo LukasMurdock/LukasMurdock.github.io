@@ -467,3 +467,4 @@ Objects:
 - [Small But Mighty: Tiny Brand Advertising Strategies](https://www.bandt.com.au/small-but-mighty-tiny-brand-advertising-strategies/)
 - [Too Few Marketers Grasp the Difference Between Strategy vs. Tactics](https://sparktoro.com/blog/too-few-marketers-grasp-the-difference-between-strategy-vs-tactics-we-need-to-fix-that/)
 - [Who Will Amplify This? And Why?](https://sparktoro.com/blog/who-will-amplify-this-and-why/)
+- [Is it a t-shirt brand?](https://seths.blog/2023/03/is-it-a-t-shirt-brand/)
