@@ -6,6 +6,8 @@ date: 'September 14, 2022'
 tags: dev
 ---
 
+Note: Some dates are certainly wrong. Some represent v1.0 while others represent whatever Wikipedia says.
+
 ## Operating systems
 
 - 1985 [Microsoft Windows](http://windows.com/)
@@ -214,7 +216,7 @@ tags: dev
 - 2001 [Apache SpamAssassin](https://spamassassin.apache.org/)
 - 2003 [OpenBSD spamd](https://www.openbsd.org/spamd/)
 
-## Client
+## Email clients
 
 - 1995 [Mutt](http://mutt.org/)
 - 2003 [Thunderbird](https://www.thunderbird.net/en-US/)
@@ -229,6 +231,20 @@ tags: dev
 - 2013 [mpv](https://mpv.io/)
 - 2015 [Pi-hole](https://pi-hole.net/)
 
+
+## AI
+
+- 1950 Alan Turing publishes [Computing Machinery and Intelligence](https://en.wikipedia.org/wiki/Computing_Machinery_and_Intelligence)
+- 1997 [IBM Deep Blue](https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)) beats reigning world chess champion, Garry Kasparov
+- 2011 [IBM Watson](https://en.wikipedia.org/wiki/IBM_Watson) beats two greatest Jeopardy! champions
+- 2016 [Google AlphaGo](https://en.wikipedia.org/wiki/AlphaGo) beats Lee Sedol in Go
+- 2020 OpenAI releases GPT-3
+- 2021 OpenAI releases DALL-E
+- 2022 Google DeepMind releases [Gato](https://en.wikipedia.org/wiki/Gato_(DeepMind))
+- 2022 OpenAI releases ChatGPT
+- 2022 OpenAI releases general-purpose speech recognition model Whisper
+- 2023 OpenAI releases GPT-4
+    - [Microsoft Research concludes GPT-4 is an early AGI system](https://arxiv.org/abs/2303.12712)
 
 ---
 
