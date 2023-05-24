@@ -129,3 +129,14 @@ You have to compare cases—what’s similar? Does it remind you of a particular
 - [Cedric Chin: Much Ado About The OODA Loop](https://commoncog.com/much-ado-about-the-ooda-loop/)
 - [Cedric Chin: Ability to See Expertise is a Milestone Worth Aiming For](https://commoncog.com/seeing-expertise-milestone-worth-aiming-for/)
 - [Mapping the Unknown – The Ten Steps to Map Any Industry](https://steveblank.com/2022/09/20/mapping-the-unknown-the-ten-steps-to-map-any-industry/)
+
+
+## Pursuit of knowledge
+
+- Commoncog series on [Becoming Data Driven in Business](https://commoncog.com/becoming-data-driven-in-business/)
+    - [Goodhart's Law Isn't as Useful as You Might Think](https://commoncog.com/goodharts-law-not-useful/)
+    - [How to Become Data Driven](https://commoncog.com/how-to-become-data-driven/)
+    - [Operational Excellence is the Pursuit of Knowledge](https://commoncog.com/operational-rigour-is-the-pursuit-of-knowledge/)
+    - [There is No Truth in Business, Only ‘Knowledge’](https://commoncog.com/no-truth-in-business-only-knowledge/)
+    - [Process Behaviour Charts](https://commoncog.com/process-behaviour-charts-more-than-you-need/)
+    - [What to Think When Looking at a Chart](https://commoncog.com/how-to-read-chart)

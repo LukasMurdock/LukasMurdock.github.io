@@ -165,6 +165,7 @@ Note: Some dates are certainly wrong. Some represent v1.0 while others represent
 
 - 2017 [Retool](https://retool.com/)
 - 2021 [Airplane](https://www.airplane.dev/)
+- 2022 [Microsoft Power Pages](https://powerpages.microsoft.com/en-us/)
 
 ## CSS frameworks
 
@@ -241,6 +242,7 @@ Note: Some dates are certainly wrong. Some represent v1.0 while others represent
 - 2020 OpenAI releases GPT-3
 - 2021 OpenAI releases DALL-E
 - 2022 Google DeepMind releases [Gato](https://en.wikipedia.org/wiki/Gato_(DeepMind))
+- 2022 [Midjourney](https://en.wikipedia.org/wiki/Midjourney) released
 - 2022 OpenAI releases ChatGPT
 - 2022 OpenAI releases general-purpose speech recognition model Whisper
 - 2023 OpenAI releases GPT-4

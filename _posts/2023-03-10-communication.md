@@ -76,3 +76,9 @@ date: 'March 10, 2023'
 
 - State what may be obvious, but is often not to everyone (vs) Holding back statement that seem obvious to you, but may not be obvious to everyone else
 - Focus on reducing ambiguity (vs) Do not focus on reducing ambiguity
+
+
+---
+
+- [Carl Braun’s Writing Lessons for Clear Thinking and Productive Communication](https://fs.blog/carl-braun-communicating/)
+- [Write useful books](https://writeusefulbooks.com/)

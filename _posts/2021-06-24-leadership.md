@@ -41,6 +41,7 @@ Leadership here refers to team leadership, in contrast to the wider [marketing l
 - [StaySassy: Culture Viruses](https://staysaasy.com/business/2023/03/01/culture-viruses.html)
 - [Underpants gnomes, Outcomes, and Intermittent Reinforcement](https://jpattonassociates.com/underpants-gnomes-outcomes-and-intermittent-reinforcement/)
 - [Why You Should Send a Weekly Summary Email](https://jefago.medium.com/why-you-should-send-a-weekly-summary-email-1c556149ed42)
+- [The real competition is the water](https://www.rkg.blog/water.php)
 
 ## Videos
 - [17:48] [Simon Sinek: How great leaders inspire action](https://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action)

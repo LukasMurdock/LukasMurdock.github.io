@@ -22,3 +22,4 @@ Like-minded people need a lighthouse. Write to find the others.
 - [The Age of the Essay](http://paulgraham.com/essay.html)
 - [A thorough team guide to RFCs](https://buriti.ca/a-thorough-team-guide-to-rfcs-8aa14f8e757c)
 - [Ribbonfarm: Salt-seeking](https://www.ribbonfarm.com/2023/03/01/salt-seeking/)
+- [Jason Fried: Don't be a knee-jerk](https://world.hey.com/jason/don-t-be-a-knee-jerk-ac7440f4)
