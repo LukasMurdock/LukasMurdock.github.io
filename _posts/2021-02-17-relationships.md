@@ -218,8 +218,12 @@ Misc:
 
 ## Socializing
 
+- [LW: The Social Recession: By the Numbers](https://www.lesswrong.com/posts/Xo7qmDakxiizG7B9c/the-social-recession-by-the-numbers)
+- [Derek Sivers: Thinking something nice about someone? Tell them.](https://sive.rs/nice)
 - [Socialising (also appears as "networking")](https://vilinskyy.substack.com/p/socialising-also-appears-as-networking)
 - [AOM: Throw a 2-Hour Cocktail Party That Can Change Your Life](https://www.artofmanliness.com/people/social-skills/2-hour-cocktail-party/)
+- [Lethain: Building your executive network](https://lethain.com/building-exec-network/)
+- [The Challenge of Social Discoordination](https://www.artofmanliness.com/people/relationships/the-challenge-of-social-discoordination/)
 
 5 levels of socializing:
 1. You never meet new people, always wait to be introduced on events.

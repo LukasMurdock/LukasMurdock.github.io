@@ -444,6 +444,7 @@ With this stack my entire website is currently free, aside from paying for the d
 
 ### Fonts
 
+- [Modern font stacks](https://modernfontstacks.com/)
 - [Atkinson Hyperlegible](https://brailleinstitute.org/freefont)
 - [HEX Franklin](https://hex.xyz/HEX_Franklin/) (no matter what weight you use, the letters are always the same width)
 - [Iowan Old Style](https://en.wikipedia.org/wiki/Iowan_Old_Style)

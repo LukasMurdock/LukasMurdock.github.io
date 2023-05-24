@@ -39,6 +39,8 @@ Leadership here refers to team leadership, in contrast to the wider [marketing l
 - [Do you need a Strong Leader?](https://benjiweber.co.uk/blog/2022/10/08/do-you-need-a-strong-leader/)
 - [Typical tactics for influencing leaders at different levels](https://jchyip.medium.com/my-typical-tactics-for-influencing-leaders-at-different-levels-88166dcb3e5d)
 - [StaySassy: Culture Viruses](https://staysaasy.com/business/2023/03/01/culture-viruses.html)
+- [Underpants gnomes, Outcomes, and Intermittent Reinforcement](https://jpattonassociates.com/underpants-gnomes-outcomes-and-intermittent-reinforcement/)
+- [Why You Should Send a Weekly Summary Email](https://jefago.medium.com/why-you-should-send-a-weekly-summary-email-1c556149ed42)
 
 ## Videos
 - [17:48] [Simon Sinek: How great leaders inspire action](https://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action)
@@ -66,6 +68,7 @@ Leadership here refers to team leadership, in contrast to the wider [marketing l
 - Simon Sinek: Start With Why (2009)
 - Daniel H. Pink: Drive (2009)
 - John C. Maxwell: The 5 Levels of Leadership (2011)
+- [Army Doctrine Publications 6-22: Army Leadership and The Profession](https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN20039-ADP_6-22-001-WEB-5.pdf) (2012)
 - Susan Cain: Quiet (2012)
 - Adam Grant: Give and Take (2013)
 - Simon Sinek: Leaders Eat Last (2014)

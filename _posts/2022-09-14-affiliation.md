@@ -28,7 +28,7 @@ To a larger extent, these exist as concept instantiations of affiliation, so Iâ€
 - [SPAM x Nom Life Collection](https://www.spam.com/nom-life-collection)
 - [Tiffany-edition Air Force 1](https://www.gq.com/story/nike-tiffany-air-force-1)
 - [Panera BAGuette](https://panerabaguettebag.com/)
-
+- [Kraft Heinz x Ed Sheeran Hot Sauce](https://news.kraftheinzcompany.com/press-releases-details/2023/Kraft-Heinz-and-Ed-Sheeran-Ready-to-Tingle-With-Launch-of-New-Bland-Busting-Hot-Sauce-Tingly-Teds/default.aspx)
 
 Brand shops:
 - [Arbyâ€™s shop](https://arbysshop.com/)

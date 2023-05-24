@@ -42,7 +42,8 @@ tags: me
 - [Brand New](https://www.underconsideration.com/brandnew/)
 - [Monica CRM](https://www.monicahq.com/)
 - [Nebula](https://nebula.tv/)
-- [Quizlet](https://quizlet.com/)
+- [Quizlet](https://quizlet.com/) (turned of auto-renewal on 2023-05-23)
+- [Consumer Reports](https://www.consumerreports.org/)
 
 Have previously subscribed to:
 

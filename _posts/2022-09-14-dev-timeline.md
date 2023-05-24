@@ -6,6 +6,86 @@ date: 'September 14, 2022'
 tags: dev
 ---
 
+## Operating systems
+
+- 1985 [Microsoft Windows](http://windows.com/)
+- 1991 [Linux kernel](https://kernel.org/)
+    - [coffee](https://www.reddit.com/r/linuxmemes/comments/vvqscx/what_your_coffee_says_about_you/)
+- 1993 [NetBSD](https://netbsd.org/)
+- 1993 [Debian GNU/Linux](https://www.debian.org/)
+- 1993 [FreeBSD](https://www.freebsd.org/)
+- 1996 [OpenBSD](https://www.openbsd.org/)
+- 2001 [macOS](https://www.apple.com/macos/)
+- 2002 [Arch Linux](https://archlinux.org/)
+- 2002 [Haiku](https://www.haiku-os.org/)
+- 2003 [NixOS](https://nixos.org/)
+- 2003 [Fedora Linux](https://fedoraproject.org/)
+- 2004 [DragonFly BSD](https://www.dragonflybsd.org/)
+- 2004 [Ubuntu](https://ubuntu.com/)
+
+## Browsers
+
+- 1992 [Lynx](https://lynx.invisible-island.net/)
+- 1995 [Opera](https://www.opera.com/)
+- 2002 [Tor Browser](https://www.torproject.org/)
+- 2004 [Firefox](https://www.mozilla.org/en-US/firefox/new/)
+- 2008 [Chromium](https://www.chromium.org/Home/)
+- 2016 [Vivaldi](https://vivaldi.com/)
+- 2019 [Brave](https://brave.com/)
+- 2021 [Nyxt](https://nyxt.atlas.engineer/)
+
+## CMS (Content management systems)
+
+- 2000 [Umbraco](https://umbraco.com/)
+- 2001 [Movable Type](https://movabletype.org/)
+- 2001 [Drupal](https://www.drupal.org/)
+- 2002 [Apache Roller](https://roller.apache.org/)
+- 2002 [MediaWiki](https://mediawiki.org/)
+- 2003 [WordPress](https://wordpress.org/)
+- 2009 [dotCMS](https://www.dotcms.com/)
+- 2009 [Apache Sling](https://sling.apache.org/)
+- 2013 [Ghost](https://ghost.org/)
+- 2022 [Microfeed](https://www.microfeed.org/)
+
+## Web servers
+
+- 1995 [Apache HTTP server](https://httpd.apache.org/)
+- 1995 [Microsoft IIS](https://www.iis.net/) (internet information services)
+- 2003 [lighttpd](https://www.lighttpd.net/)
+- 2004 [nginx](https://nginx.org/en/)
+- 2014 [OpenBSD httpd](https://www.openbsdhandbook.com/services/webserver/basic_webserver/)
+- 2015 [Caddy](https://caddyserver.com/)
+
+## HTTPs tunnels
+
+- [awesome tunneling](https://github.com/anderspitman/awesome-tunneling)
+- 2013 [ngrok](https://ngrok.com/)
+- 2018 [Cloudflare Tunnel](https://www.cloudflare.com/products/tunnel/) (formerly Argo Tunnel)
+    - [nice](https://twitter.com/wesbos/status/1634310926219333642?s=20)
+
+## Password managers
+
+- 2003 [KeePass](https://keepass.info/)
+- 2016 [bitwarden](https://bitwarden.com/)
+
+## Databases
+
+### SQL
+
+- 1995 [MySQL](https://www.mysql.com/)
+- 1996 [PostgreSQL](https://www.postgresql.org/)
+- 2000 [SQLite](https://www.sqlite.org/index.html)
+- 2009 [MariaDB](https://mariadb.org/)
+
+### Non SQL databases ([Structured storage](https://en.wikipedia.org/wiki/Category:Structured_storage))
+
+- 2003 [Memcached](https://memcached.org/)
+- 2005 [Apache CouchDB](https://couchdb.apache.org/)
+- 2009 [MongoDB](https://www.mongodb.com/)
+- 2009 [Redis](https://redis.io/)
+- 2013 [FoundationDB](https://www.foundationdb.org/)
+- 2016 [Clickhouse](https://clickhouse.com/)
+
 ## Web frameworks
 
 ### Server side web frameworks
@@ -91,6 +171,64 @@ tags: dev
 - 2017 [Tailwind CSS](https://tailwindcss.com/)
 - 2021 [Vanilla extract](https://vanilla-extract.style/)
 - 2021 [Stitches](https://stitches.dev/)
+
+## [Object Storage](https://en.wikipedia.org/wiki/Object_storage)
+
+- 2010 [Ceph](https://ceph.com/en/)
+- 2014 [Rclone](https://rclone.org/)
+- 2015 [SeaweedFS](https://seaweedfs.github.io/)
+- 2016 [MinIO](https://min.io/)
+
+### Misc storage
+
+- 2010 [TrueNAS](https://www.truenas.com/) (previously FreeNAS)
+- 2019 [NextCloud](https://nextcloud.com/)
+
+## [Identity management](https://en.wikipedia.org/wiki/Identity_management)
+
+- 2014 [Keycloak](https://www.keycloak.org/)
+- 2016 [GoTrue](https://github.com/netlify/gotrue)
+    - [Supabase fork](https://github.com/supabase/gotrue)
+- 2020 [SuperTokens](https://supertokens.com/)
+
+## Email
+
+### SMTP
+
+- 1998 [Postfix](http://www.postfix.org/)
+- 2002 [hMailServer](https://www.hmailserver.com/)
+- 2003 [Apache James](https://james.apache.org/)
+- 2011 [Haraka](https://haraka.github.io/)
+- 2013 [OpenSMTPD](https://www.opensmtpd.org/)
+
+### IMAP
+
+- 2002 [Dovecot](https://www.dovecot.org/)
+
+### DKIM
+
+- 2008 [DKIMproxy](https://dkimproxy.sourceforge.net/)
+
+### Spam
+
+- 2001 [Apache SpamAssassin](https://spamassassin.apache.org/)
+- 2003 [OpenBSD spamd](https://www.openbsd.org/spamd/)
+
+## Client
+
+- 1995 [Mutt](http://mutt.org/)
+- 2003 [Thunderbird](https://www.thunderbird.net/en-US/)
+- 2007 [Alpine](https://alpineapp.email/)
+
+## Misc
+
+- 2000 [FFmpeg](https://ffmpeg.org/)
+- 2003 [Handbrake](https://handbrake.fr/)
+- 2008 [Radicale](https://radicale.org/)
+- 2013 [Calibre](https://manual.calibre-ebook.com/index.html)
+- 2013 [mpv](https://mpv.io/)
+- 2015 [Pi-hole](https://pi-hole.net/)
+
 
 ---
 

@@ -203,3 +203,7 @@ https://adr.github.io/
 - [Focus on high-leverage activities](https://addyosmani.com/blog/high-leverage-activites/)
 - [Manage like an engineer](https://ben.balter.com/2023/01/10/manage-like-an-engineer/)
 - [Management cybernetics](https://en.wikipedia.org/wiki/Management_cybernetics)
+- [Organizational boundary problems: too many cooks or not enough kitchens?](https://medium.com/@ElizAyer/organizational-boundary-problems-too-many-cooks-or-not-enough-kitchens-2ddedc6de26a)
+- [Team topologies](https://teamtopologies.com/key-concepts)
+- [The Dangerous Animals of Product Management](https://www.productboard.com/dangerous-animals/)
+- [Your view of management is upside down](https://figuregrounds.substack.com/p/your-view-of-management-is-upside)
