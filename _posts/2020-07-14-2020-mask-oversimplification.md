@@ -24,7 +24,7 @@ Sanitation and protection is the act of taking care of life.
 Nobody wants to have doctors that refuse to wash their hands and wear a mask when undergoing surgery. Face masks protect the patient—you and your loved ones—from wound infection and contamination from the surgeon and other surgical staff members.
 Now it’s your turn to protect yourself, your loved ones, and your fellow Americans. Sanitation and protection are the weapons in this war.
 
-> He has combined with others to subject us to a jurisdiction foreign to our constitution, and unacknowledged by our laws; giving his Assent to their Acts of pretended Legislation: **For quartering large bodies of armed troops among us**.”  
+> He has combined with others to subject us to a jurisdiction foreign to our constitution, and unacknowledged by our laws; giving his Assent to their Acts of pretended Legislation: **For quartering large bodies of armed troops among us**.”
 — *The Declaration of Independence,* 1776
 
 The Quartering Act of 1765 required American Colonies to house British soldiers in barracks provided by the colonies. This act was a source of anger between colonies and Great Britain in the years leading up to the American Revolution. Not only because they had to house British soldiers, but they were taxed to pay for the troops’ supplies.
@@ -37,3 +37,5 @@ When you refuse to wear a mask, you’re willingly allowing your home to be quar
 If you believe this is a foreign virus, made to attack the American People, this next part is even more important. **Don’t quarter it.** This is our fight.
 
 There’s nothing more American than wearing a mask.
+
+[“Nobody is safe”](https://youtu.be/zI3yU5Z2adI)

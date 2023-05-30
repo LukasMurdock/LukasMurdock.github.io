@@ -207,3 +207,6 @@ https://adr.github.io/
 - [Team topologies](https://teamtopologies.com/key-concepts)
 - [The Dangerous Animals of Product Management](https://www.productboard.com/dangerous-animals/)
 - [Your view of management is upside down](https://figuregrounds.substack.com/p/your-view-of-management-is-upside)
+- [The roadmap is not the territory](https://tomcritchlow.com/2023/04/18/roadmap-territory/)
+- [Why Are You Doing This? (Wrong Answers Only)](https://cutlefish.substack.com/p/tbm-217-why-are-you-doing-this-wrong)
+- [Some mistakes I made as a new manager](https://www.benkuhn.net/newmgr/)

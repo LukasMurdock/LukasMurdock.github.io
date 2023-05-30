@@ -23,3 +23,4 @@ Like-minded people need a lighthouse. Write to find the others.
 - [A thorough team guide to RFCs](https://buriti.ca/a-thorough-team-guide-to-rfcs-8aa14f8e757c)
 - [Ribbonfarm: Salt-seeking](https://www.ribbonfarm.com/2023/03/01/salt-seeking/)
 - [Jason Fried: Don't be a knee-jerk](https://world.hey.com/jason/don-t-be-a-knee-jerk-ac7440f4)
+- [Proving and defending the value of technical writing, again](https://docsbydesign.com/2022/02/13/proving-and-defending-the-value-of-technical-writing-again/)

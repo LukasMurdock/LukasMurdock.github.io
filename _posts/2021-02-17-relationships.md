@@ -209,6 +209,8 @@ Above 40, people spend an increasing amount of time alone. Time spent alone incr
 
 In terms of the diversity of interactions, this chart suggests that the number of people with whom we interact is highest around 40, but then things change substantially after that. And this is perhaps the most conspicuous trend in the chart: above 40, people spend an increasing amount of time alone.
 
+[Game design patterns for building friendships](https://www.gamedeveloper.com/design/game-design-patterns-for-building-friendships)
+
 ## Coworkers
 
 Yeah, I have no idea. I’ll see you then.
@@ -224,6 +226,8 @@ Misc:
 - [AOM: Throw a 2-Hour Cocktail Party That Can Change Your Life](https://www.artofmanliness.com/people/social-skills/2-hour-cocktail-party/)
 - [Lethain: Building your executive network](https://lethain.com/building-exec-network/)
 - [The Challenge of Social Discoordination](https://www.artofmanliness.com/people/relationships/the-challenge-of-social-discoordination/)
+- [We’re Knot Friends](https://jeremykun.com/2023/04/01/were-knot-friends/)
+    - [Braceletbook](https://www.braceletbook.com/)
 
 5 levels of socializing:
 1. You never meet new people, always wait to be introduced on events.

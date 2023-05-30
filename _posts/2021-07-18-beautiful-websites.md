@@ -76,6 +76,7 @@ tags: me
 - [Sergio Mattei](https://matteing.com/)
 - [Bartosz Ciechanowski](https://ciechanow.ski/)
 - [Matthew Skiles](https://matthewskiles.com/)
+- [Erik Bailey](https://ericwbailey.website/)
 
 [Cool Things People Do With Their Blogs](https://brainbaking.com/post/2022/04/cool-things-people-do-with-their-blogs/)
 

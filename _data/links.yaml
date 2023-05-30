@@ -8,8 +8,209 @@
 
 linkslist:
 
+  - Date: May 2023
+    Links:
+
+    - Title: "ToyoDIY"
+      Link: "https://www.toyodiy.com/parts/"
+      Comment: "Online Toyota, Lexus and Scion Parts Catalog"
+      Date: 2023-05-28
+
+    - Title: "Chimp Empire"
+      Link: "https://daringfireball.net/linked/2023/05/22/chimp-empire"
+      Comment: ""
+      Date: 2023-05-28
+
+    - Title: "How To Legally Own Another Person"
+      Link: "https://medium.com/incerto/how-to-legally-own-another-person-4145a1802bf6"
+      Comment: "Nassim Nicholas Taleb"
+      Date: 2023-05-28
+
+    - Title: "A list of interaction design books"
+      Link: "https://anthonyhobday.com/blog/20221230.html"
+      Comment: ""
+      Date: 2023-05-28
+
+    - Title: "The Rhythm of Your Screen"
+      Link: "https://www.chrbutler.com/the-rhythm-of-your-screen"
+      Comment: "People will scroll"
+      Date: 2023-05-28
+
+    - Title: "A Personal Computer for Children of ALl Ages"
+      Link: "https://history-computer.com/Library/Kay72.pdf"
+      Comment: "Alan Kay"
+      Date: 2023-05-28
+
+    - Title: "The Father Of Mobile Computing Is Not Impressed"
+      Link: "https://www.fastcompany.com/40435064/what-alan-kay-thinks-about-the-iphone-and-technology-now"
+      Comment: ""
+      Date: 2023-05-28
+
+    - Title: "Introduction to Fourier Transforms for Image Processing"
+      Link: "https://www.cs.unm.edu/~brayer/vision/fourier.html"
+      Comment: ""
+      Date: 2023-05-28
+
+    - Title: "How Your Brain Organizes Information"
+      Link: "https://youtu.be/9qOaII_PzGY"
+      Comment: ""
+      Media: video
+      Date: 2023-05-28
+
+    - Title: "Pocket Operations"
+      Link: "https://shittyrecording.studio/"
+      Comment: "A collection of drum machine patterns"
+      Date: 2023-05-28
+
+    - Title: "Set up a new Mac, Fast"
+      Link: "https://cpojer.net/posts/set-up-a-new-mac-fast"
+      Comment: ""
+      Date: 2023-05-28
+
+    - Title: "Shin Oh's 3D Pixel Rooms"
+      Link: "https://kottke.org/23/04/shin-ohs-3d-pixel-rooms"
+      Comment: ""
+      Date: 2023-05-28
+
+    - Title: "Artifacts"
+      Link: "https://www.newgrounds.com/portal/view/881533"
+      Comment: ""
+      Media: video
+      Date: 2023-05-28
+
+    - Title: "Five Cents"
+      Link: "https://kottke.org/23/04/the-slow-but-inevitable-overwhelm-of-consumer-capitalism"
+      Comment: ""
+      Media: video
+      Date: 2023-05-28
+
+    - Title: "Why Don’t We Change?"
+      Link: "https://www.nehrlich.com/blog/2017/10/20/why-dont-we-change/"
+      Comment: ""
+      Date: 2023-05-28
+
+    - Title: "Give it the Craigslist test"
+      Link: "https://ericaheinz.com/notes/give-it-the-craigslist-test/"
+      Comment: ""
+      Date: 2023-05-28
+
+    - Title: "Science Fiction Movie Lettering"
+      Link: "https://reaganray.com/2020/05/12/sci-fi-movie-lettering.html"
+      Comment: ""
+      Date: 2023-05-28
+
+    - Title: "GMUNK: TRON Legacy"
+      Link: "https://gmunk.com/TRON-Legacy"
+      Comment: ""
+      Date: 2023-05-28
+
+    - Title: "David Hume — Why we change our mind"
+      Link: "https://ralphammer.com/david-hume-why-we-change-our-mind/"
+      Comment: ""
+      Date: 2023-05-28
+
+    - Title: "What I want in a job"
+      Link: "https://critter.blog/2023/05/05/what-i-want-in-a-job/"
+      Comment: ""
+      Date: 2023-05-28
+
+    - Title: "Focusing on the Problem, Part II"
+      Link: "https://medium.com/@schmittzu/focusing-on-the-problem-part-ii-fce4339d3693"
+      Comment: "John F. Schmitt"
+      Date: 2023-05-28
+
+    - Title: "You can't parse [X]HTML with regex"
+      Link: "https://stackoverflow.com/questions/1732348/regex-match-open-tags-except-xhtml-self-contained-tags/1732454#1732454"
+      Comment: "StackOverflow"
+      Date: 2023-05-28
+
   - Date: April 2023
     Links:
+
+    - Title: "So Your Kid Wants to Be a Twitch Streamer"
+      Link: "https://www.wired.com/story/so-your-kid-wants-to-be-a-twitch-streamer-three-questions/"
+      Comment: "Don’t panic. Instead, teach your beloved offspring to answer the Three Questions of Streaming."
+      Date: 2023-05-28
+
+    - Title: "The Four Hobbies, and Apparent Expertise"
+      Link: "https://brooker.co.za/blog/2023/04/20/hobbies.html"
+      Comment: ""
+      Date: 2023-05-28
+
+    - Title: "Saving Time: Discovering A Life Beyond the Clock | Jenny Odell"
+      Link: "https://youtu.be/9oarFok__1s"
+      Comment: "LongNow. Time is not money. Time is beans. Enjoy yourself, it’s later than you think."
+      Date: 2023-05-28
+
+    - Title: "Nabeel Qureshi: Principles"
+      Link: "https://nabeelqu.co/principles"
+      Comment: ""
+      Date: 2023-05-28
+
+    - Title: "Gwern: Rare Greek Variables"
+      Link: "https://gwern.net/variable"
+      Comment: ""
+      Date: 2023-05-28
+
+    - Title: "Gwern: Rubrication Design Examples"
+      Link: "https://gwern.net/red"
+      Comment: ""
+      Date: 2023-05-28
+
+    - Title: "Gwern: Open Questions"
+      Link: "https://gwern.net/question"
+      Comment: ""
+      Date: 2023-05-28
+
+    - Title: "Thinking something nice about someone? Tell them."
+      Link: "https://sive.rs/nice"
+      Comment: ""
+      Date: 2023-05-28
+
+    - Title: "Cookies by Douglas Adams"
+      Link: "http://www.math.toronto.edu/beni/bERNARDO_nOT_fOUND/fUNNY_sTUFF/Entries/2007/11/27_cookies.html"
+      Comment: ""
+      Date: 2023-05-28
+
+    - Title: "LongNow: The Organizational Continuity Project"
+      Link: "https://longnow.org/continuity/"
+      Comment: ""
+      Date: 2023-05-28
+
+    - Title: "Useful keyboard shortcuts"
+      Link: "https://www.autodidacts.io/useful-keyboard-shortcuts/"
+      Comment: ""
+      Date: 2023-05-28
+
+    - Title: "Elements of Rationalist Discourse"
+      Link: "https://www.lesswrong.com/posts/svuBpoSduzhYjFPrA/elements-of-rationalist-discourse"
+      Comment: "LW: Rob Bensinger"
+      Date: 2023-05-28
+
+    - Title: "d′etectable"
+      Link: "https://decidables.github.io/detectable/index.html"
+      Comment: "An Explorable Explanation of Signal Detection Theory"
+      Date: 2023-05-28
+
+    - Title: "One Big Web: A Few Ways the World Works"
+      Link: "https://collabfund.com/blog/one-big-web-a-few-ways-the-world-works/"
+      Comment: "Collabfund"
+      Date: 2023-05-28
+
+    - Title: "SPQA: The AI-based Architecture That’ll Replace Most Existing Software"
+      Link: "https://danielmiessler.com/blog/spqa-ai-architecture-replace-existing-software/"
+      Comment: ""
+      Date: 2023-05-28
+
+    - Title: "Fictional brands archive"
+      Link: "https://fictionalbrandsarchive.com/"
+      Comment: ""
+      Date: 2023-05-26
+
+    - Title: "Visual Simplicity vs. Information Density"
+      Link: "https://www.lukew.com/ff/entry.asp?15"
+      Comment: "Luke Wroblewski"
+      Date: 2023-05-25
 
     - Title: "The Law of Unintended Consequences"
       Link: "https://marginalrevolution.com/marginalrevolution/2023/03/the-law-of-unintended-consequences.html"

@@ -99,7 +99,6 @@ Web animation intent areas:
 - [Motion One: Performance](https://motion.dev/guides/performance)
 - [GreenSock: JavaScript Animation Speed Test](https://greensock.com/js/speed.html)
 
-
 ### Talks
 
 - [Josh Comeau: The Case for Whimsy](https://youtu.be/Z2d9rw9RwyE)

@@ -32,6 +32,7 @@ Find what your audience watches, listens-to, and reads and:
 
 ---
 
+- [The Hierarchy of Content](https://danielmiessler.com/blog/the-hierarchy-of-content/)
 - [Priceonomics: The Content Marketing Handbook](https://priceonomics.com/the-content-marketing-handbook-2/)
 - [B2C Content Marketing](https://www.growandconvert.com/content-marketing/b2c-content-marketing/)
 - [Mario Peshev: The Guide to Consistently Producing High Quality Content](https://mariopeshev.com/the-guide-to-consistently-producing-high-quality-content/)
@@ -44,6 +45,7 @@ Find what your audience watches, listens-to, and reads and:
 - [Daniel Miessler: Content Value Hierarchy](https://danielmiessler.com/blog/the-content-value-hierarchy-cvh/)
 - [Successes and failures of startup content marketing](https://digital-freelancer.org/blog/successes-failures-startups-content-marketing)
 - [Trying to bet on virality is just, it’s not, it’s something you can prepare for, but you can’t actually create](https://hunterwalk.com/2023/01/23/trying-to-bet-on-virality-is-just-its-not-its-something-you-can-prepare-for-but-you-cant-actually-create/)
+- [Your New KPIs to Gauge Content Quality](https://sparktoro.com/blog/your-new-kpis-to-gauge-content-quality/)
 
 Example outcome goals:
 - Improve website traffic volume which we could potentially measure by tracking the number of unique visitors to the site.

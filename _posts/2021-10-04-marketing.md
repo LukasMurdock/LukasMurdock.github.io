@@ -469,3 +469,4 @@ Objects:
 - [Who Will Amplify This? And Why?](https://sparktoro.com/blog/who-will-amplify-this-and-why/)
 - [Seth Godin: Is it a t-shirt brand?](https://seths.blog/2023/03/is-it-a-t-shirt-brand/)
 - [Seth Godin: How to change the world](https://seths.blog/2023/03/how-to-change-the-world/)
+- [When customers are “willing” to pay](https://longform.asmartbear.com/willingness-to-pay)

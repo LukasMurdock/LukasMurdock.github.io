@@ -277,10 +277,10 @@ First iPhone introduced by Apple
 **2010 ({{ "today" | date: "%Y" | minus: 2010}} years ago)**<br>
 First iPad introduced by Apple
 
-**2020 ({{ "today" | date: "%Y" | minus: 2010}} years ago)**<br>
+**2020 ({{ "today" | date: "%Y" | minus: 2020}} years ago)**<br>
 GPT-3 released
 
-**2022 ({{ "today" | date: "%Y" | minus: 2010}} years ago)**<br>
+**2022 ({{ "today" | date: "%Y" | minus: 2022}} years ago)**<br>
 ChatGPT released
 
 ## Moving into the future

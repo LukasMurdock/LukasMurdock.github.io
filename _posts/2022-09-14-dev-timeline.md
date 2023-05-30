@@ -148,7 +148,9 @@ Note: Some dates are certainly wrong. Some represent v1.0 while others represent
 - 2010 [Flask](https://palletsprojects.com/p/flask/)
 - 2010 [Express](https://expressjs.com/)
 - 2011 [Laravel](https://laravel.com/)
+- 2013 [LoopBack](https://loopback.io/)
 - 2014 [Spring Boot](https://spring.io/projects/spring-boot)
+- 2016 [NestJS](https://nestjs.com/)
 
 ### Client side web frameworks
 
@@ -158,6 +160,7 @@ Note: Some dates are certainly wrong. Some represent v1.0 while others represent
 - 2010 [AngularJS](https://angularjs.org/)
 - 2010 [Knockout.js](https://knockoutjs.com/)
 - 2011 [EmberJS](https://emberjs.com/)
+- 2012 [Marko](https://markojs.com/)
 - 2012 [MeteorJS](https://www.meteor.com/)
 - 2013 [ReactJS](https://react.dev/)
 - 2014 [Vue.js](https://vuejs.org/)
@@ -220,12 +223,27 @@ Note: Some dates are certainly wrong. Some represent v1.0 while others represent
 - 2021 [Vanilla extract](https://vanilla-extract.style/)
 - 2021 [Stitches](https://stitches.dev/)
 
+## Deployment
+
+
+- 2006 [Amazon Web Services: AWS EC2](https://aws.amazon.com/ec2/)
+- 2008 [Microsoft Azure: Windows Azure Platform](https://azure.microsoft.com/en-us)
+- 2008 [Google Cloud Platform: GCP App Engine](https://cloud.google.com/appengine/)
+- 2011 [Digital Ocean](https://www.digitalocean.com/)
+- 2014 [AWS Lambda](https://aws.amazon.com/lambda/)
+- 2015 [Netlify](https://www.netlify.com/)
+- 2015 [Vercel (Zeit)](https://vercel.com/)
+- 2018 [Render](https://render.com/)
+- 2018 [Fly.io](https://fly.io/)
+- 2021 [Cloudflare Pages](https://pages.cloudflare.com/)
+
 ## [Object Storage](https://en.wikipedia.org/wiki/Object_storage)
 
 - 2010 [Ceph](https://ceph.com/en/)
 - 2014 [Rclone](https://rclone.org/)
 - 2015 [SeaweedFS](https://seaweedfs.github.io/)
 - 2016 [MinIO](https://min.io/)
+- 2022 [MicroCeph](https://github.com/canonical/microceph)
 
 ### Misc storage
 

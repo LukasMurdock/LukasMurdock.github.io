@@ -593,3 +593,5 @@ Yeah, I know.
 Good? Thanks. *stands up*
 
 ---
+
+- [Make Something Wonderful: Steve Jobs in his own words](https://book.stevejobsarchive.com/)

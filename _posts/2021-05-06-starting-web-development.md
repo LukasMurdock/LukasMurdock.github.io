@@ -57,6 +57,50 @@ Example stack:
 * Host: Fly.io
 * Secrets manager: Doppler
 
+Backend concepts/areas:
+* Executable runtime (e.g., Node/Demo)
+* Web server (E.g., Nginx/Apache/Caddy/Node)
+* Email server (E.g., Nodemailer, or Postmark)
+* Server network (E.g., AWS Lambda)
+* Auth (E.g., Okta)
+* Encryption
+* Hashing (E.g., Argon2id)
+* Caching
+    * Server cache (E.g., LRU, Redis, Cloudflare)
+    * Browser cache
+* CORS
+* CSRF
+* Rate limiting
+* Database
+    * Query language (e.g., SQL)
+* Search engine (E.g., Algolia, ElasticSearch, TypeSense)
+* File system (E.g., Amazon EFS/S3)
+* API design
+    * Pagination
+* Service integrations
+    * Database
+    * Email (e.g., Postmark)
+    * Billing (e.g., Stripe)
+* Queues (e.g., RabbitMQ, Kafka)
+* Compression (e.g. Brotli)
+* Monitoring / logging
+* Testing
+
+Frontend concepts/areas:
+* Deployment platform
+* HTML semantics
+* JavaScript semantics
+* JavaScript libraries
+* CSS
+* CSS framework
+* Build tools
+* User Interface design
+* ARIA
+* Web fonts
+* Web security
+* Performance Analytics
+* Testing
+
 For an overview, let’s divide web development into 7 parts.
 
 Part 1: HTML and CSS

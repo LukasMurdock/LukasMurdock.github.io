@@ -39,6 +39,7 @@ tags: annual, me
 - [“Yay, College!” Part 1: The Smiley-Face Super-Villainy of American Higher Education](https://www.epsilontheory.com/yay-college-part-1-the-smiley-face-super-villainy-of-american-higher-education/)
 - [Can college level the playing field? No, it really can’t.](https://crookedtimber.org/2023/02/06/can-college-level-the-playing-field-no-it-really-cant/)
 - [More to that: The function of education](https://moretothat.com/the-function-of-education/)
+- [Vocational Training for the Soul](https://montessorium.com/blog/vocational-training-for-the-soul)
 
 ## On Self Learning
 ### Articles
@@ -85,6 +86,9 @@ tags: annual, me
 - [Everything is a rabbit hole](https://www.autodidacts.io/everything-is-a-rabbit-hole/)
 - [Physics and Mathematics Self-Study Project](https://www.diegovera.org/projects)
 - [Improving Students’ Learning With Effective Learning Techniques: Promising Directions From Cognitive and Educational Psychology](https://journals.sagepub.com/stoken/rbtfl/Z10jaVH/60XQM/full)
+- [Permissionless Research](https://www.ribbonfarm.com/2023/04/05/permissionless-research/)
+- [Insufficient forgetting](https://swellandcut.com/2023/04/22/insufficient-forgetting/)
+- [Useful assumptions for teachers](https://seths.blog/2023/05/useful-assumptions-for-teachers/)
 
 ### Books
 - [David A. Kolb: Experiential Learning: Experience as the Source of Learning and Development](https://www.amazon.com/Experiential-Learning-Experience-Source-Development-dp-0133892409/dp/0133892409/ref=dp_ob_title_bk) (1984)

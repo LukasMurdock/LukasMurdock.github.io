@@ -29,10 +29,15 @@ To a larger extent, these exist as concept instantiations of affiliation, so I�
 - [Tiffany-edition Air Force 1](https://www.gq.com/story/nike-tiffany-air-force-1)
 - [Panera BAGuette](https://panerabaguettebag.com/)
 - [Kraft Heinz x Ed Sheeran Hot Sauce](https://news.kraftheinzcompany.com/press-releases-details/2023/Kraft-Heinz-and-Ed-Sheeran-Ready-to-Tingle-With-Launch-of-New-Bland-Busting-Hot-Sauce-Tingly-Teds/default.aspx)
+- [Aldi](https://passionatepennypincher.com/aldi-clothing-line-super-fans/)
+- [Ikea bucket hat](https://www.ikea.com/us/en/p/knorva-hat-blue-50447338/)
+- [Balmain x evian](https://www.evian.com/en_int/products/limited-edition/balmain/)
 
 Brand shops:
 - [Arby’s shop](https://arbysshop.com/)
 - [Golden Arches Unlimited](https://goldenarchesunlimited.com/)
+- [Chick-fil-a](https://shop.chick-fil-a.com/)
+- [Little Caesars: Hot-n-ready shop](https://hotnreadyshop.com/)
 
 And in other weird brand integrations…
 - [MICHELIN Guide](https://guide.michelin.com/en/restaurants)
