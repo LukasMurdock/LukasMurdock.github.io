@@ -1925,6 +1925,11 @@ fulldata:
         Comment: "HTTP load generator"
         Date: 2023-05-28
 
+      - Title: "axe-core"
+        Link: "https://github.com/dequelabs/axe-core"
+        Comment: ""
+        Date: 2023-06-14
+
 
 
 
