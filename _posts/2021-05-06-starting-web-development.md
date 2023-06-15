@@ -58,11 +58,11 @@ Example stack:
 * Secrets manager: Doppler
 
 Backend concepts/areas:
-* Executable runtime (e.g., Node/Demo)
+* Executable runtime (e.g., Node, Deno, Python, .NET)
 * Web server (E.g., Nginx/Apache/Caddy/Node)
 * Email server (E.g., Nodemailer, or Postmark)
 * Server network (E.g., AWS Lambda)
-* Auth (E.g., Okta)
+* Auth (E.g., Cookies, Tokens)
 * Encryption
 * Hashing (E.g., Argon2id)
 * Caching
@@ -77,13 +77,14 @@ Backend concepts/areas:
 * File system (E.g., Amazon EFS/S3)
 * API design
     * Pagination
+    * Filtering
 * Service integrations
     * Database
+    * Error monitoring (e.g., Sentry)
     * Email (e.g., Postmark)
     * Billing (e.g., Stripe)
 * Queues (e.g., RabbitMQ, Kafka)
 * Compression (e.g. Brotli)
-* Monitoring / logging
 * Testing
 
 Frontend concepts/areas:
@@ -719,3 +720,152 @@ Because we have a build step in our web development process, it would be annoyin
 Go ahead and create an account on Vercel and deploy from your github repo.
 
 Once you’ve done that, congrats, you’ve built and deployed your first web application. Welcome to the wild world of web development.
+
+---
+
+# Web Application Architecture
+
+## Web Application Architecture Components
+
+- Web server
+- Load balancer
+- Database
+- Cache
+- Web framework
+- Message queue
+- Logging
+- Object storage
+
+Options
+- One server: Everything on it
+- Two servers: Web and database servers scale independently
+
+## Web Server
+
+See: [dev-timeline#web-servers](/dev-timeline/#web-servers)
+
+- Operating System (e.g., Linux, Windows, OpenBSD)
+- Runtime (e.g., Node.js, Python, .NET)
+  - Communicates with the OS file system
+- Web server (HTTP) framework (e.g., [Express.js](https://expressjs.com/), [Flask](https://flask.palletsprojects.com/))
+
+You can run a web server on your personal computer, likely want to use [Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/applications/configure-apps/self-hosted-apps/) to publish it securely. However, usually a server, or space on a server, is rented from a cloud provider ([someone else’s computer](https://blog.codinghorror.com/the-cloud-is-just-someone-elses-computer/)).
+
+We can categorize servers into:
+- Dedicated server
+- Virtual private servers
+- MicroVM
+
+#### Dedicated server
+
+A dedicated server is a server a provider provides solely to you.
+
+Dedicated server providers:
+- [AWS: EC2 Dedicated Hosts](https://aws.amazon.com/ec2/dedicated-hosts/)
+- [Hetzner](https://www.hetzner.com/)
+- [Vultr: Bare Metal](https://www.vultr.com/products/bare-metal/)
+- [OVHcloud: dedicated servers](https://us.ovhcloud.com/bare-metal/)
+
+#### VPS (Virtual Private Server) / VM (Virtual Machine)
+
+A VPS (Virtual Private Server) is a server a provider provides a portion of to you.
+
+VPS providers:
+- [AWS: EC2](https://aws.amazon.com/ec2/)
+- [Digital Ocean: Droplets](https://www.digitalocean.com/products/droplets)
+- [Vultr](https://www.vultr.com/) is a cloud provider that gives you root access to your own private server
+
+#### MicroVM (“serverless”)
+
+[AWS: Lambda](https://aws.amazon.com/lambda/) is a cloud service that replaces the long-running web server with a short-lived, lightweight, Firecracker microVM. The experience of working with Lambda is so painful that multi-billion dollar businesses like [Vercel](https://vercel.com/) and [Netlify](https://netlify.com/) exist to abstract it.
+
+[Fly.io](https://fly.io/) is a cloud provider that runs your application code in a long-lived, lightweight, Firecracker microVM.
+
+See: [Firecracker](https://firecracker-microvm.github.io/).
+
+### Web server location
+
+Traditionally, servers run in a single location from a cloud providers data center. Computing “at the edge” generally means running code on servers close to users instead of a single location.
+
+### Deployment architecture
+
+Environments are commonly:
+- Local: Developer’s workstation
+- Development/Trunk: Development server acting as a sandbox for unit testing
+- Staging/Pre-production: Mirror of production environment
+- Production/Live: Serves end-clients
+    - Canary: deployment that serves a new release to a limited number of end-clients
+
+Maintaining consistency across these environments is difficult. Many tools exist to help automate deployment architecture.
+- [Ansible](https://www.ansible.com/)
+- [Jenkins](https://www.jenkins.io/)
+- [AWS CDK](https://aws.amazon.com/cdk/)
+- [Terraform](https://www.terraform.io/)
+- [Pulumi](https://www.pulumi.com/)
+- [Chef](https://www.chef.io/)
+- [Nx](https://nx.dev/)
+- [Buddy](https://buddy.works/)
+- [Travis CI](https://www.travis-ci.com/)
+
+## Scaling
+
+Scaling types:
+- Vertical “scale-up”: add more CPU/RAM (only so much you can add)
+- Horizontal “scale-out”: add more servers
+
+## Load Balancer
+
+> Past a certain point, web applications outgrow a single server deployment. Companies either want to increase their availability, scalability, or both! To do this, they deploy their application across multiple servers with a load balancer in front to distribute incoming requests. Big companies may need thousands of servers running their web application to handle the load.
+> – [Sam Rose](https://samwho.dev/load-balancing/)
+
+[Scaling Web Applications with NGINX Load Balancing and Caching](https://youtu.be/jVCYaLEBCpU)
+
+Load balancer implementations:
+- [NGINX](https://nginx.org/en/docs/http/load_balancing.html)
+- [HAProxy](https://www.haproxy.org/)
+- [traefik](https://traefik.io/traefik/)
+- [OpenELB](https://github.com/openelb/openelb)
+- [GitHub Load Balancer Director](https://github.com/github/glb-director)
+- [AWS ELB](https://aws.amazon.com/elasticloadbalancing/)
+- [Azure Load Balancer](https://learn.microsoft.com/en-us/azure/load-balancer/load-balancer-overview)
+
+
+## Database replication and HA (high availability)
+
+Load balancers let you run redundant web servers; preventing the web server from being a single point of failure. If one web server goes does, the load balancer will send all requests to the other web server.
+
+> Web servers serving static web pages can be combined quite easily by merely load-balancing web requests to multiple machines. In fact, read-only database servers can be combined relatively easily too. Unfortunately, most database servers have a read/write mix of requests, and read/write servers are much harder to combine. This is because though read-only data needs to be placed on each server only once, a write to any server has to be propagated to all servers so that future read requests to those servers return consistent results.
+>
+> This synchronization problem is the fundamental difficulty for servers working together. Because there is no single solution that eliminates the impact of the sync problem for all use cases, there are multiple solutions. Each solution addresses this problem in a different way, and minimizes its impact for a specific workload.
+> — [PostgreSQL docs](https://www.postgresql.org/docs/current/high-availability.html)
+
+
+- [PostgreSQL: High Availability, Load Balancing, and Replication](https://www.postgresql.org/docs/current/high-availability.html)
+- [MariaDB: Replication](https://mariadb.com/kb/en/standard-replication/)
+- SQLite
+	- [LiteFS](https://github.com/superfly/litefs)
+	- [rqlite](https://github.com/rqlite/rqlite) / [dqlite](https://github.com/canonical/dqlite)
+
+
+## Cache
+
+“Caching” is the concept of storing the result of an expensive operation in a way that is faster to retrieve than executing the operation again. Faster retrieval is often achieved by storing data in memory rather than on disk; making data loss likely in the case the server fails.
+
+A common cache area is read-heavy requests on data that is modified infrequently; if the data is rarely modified, you can more safely lower the data-accuracy guarantee.
+
+Common caching systems:
+- [Memcached](https://memcached.org/)
+- [Redis](https://redis.io/)
+- [SQLite](https://www.sqlite.org/index.html)
+- [Varnish](https://varnish-cache.org/intro/index.html#intro)
+- [NGINX](https://www.nginx.com/blog/nginx-caching-guide/)
+
+## Web framework
+
+See: [dev-timeline#web-frameworks](/dev-timeline/#web-frameworks)
+
+## Message queue
+
+A message queue allows a service to send data to another service, even if the other service is not ready to receive it; and then allows the message to be consumed even if the sender is unavailable; it buffers the communication with a queue. Email (SMTP) is a message queue.
+
+## Logging
