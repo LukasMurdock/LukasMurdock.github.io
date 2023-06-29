@@ -65,3 +65,4 @@ See:
 - [Communication Techniques for Mutual Understanding](https://9600.dev/blog/posts/communication-techniques-for-mutual-understanding.html)
 - [Crocker's rules](https://wiki.lesswrong.com/wiki/Crocker%27s_rules)
 - [Wait vs. Interrupt culture](https://news.ycombinator.com/item?id=33266372)
+- [You Keep Using That Word](https://youtu.be/6FOCNf06lqY)

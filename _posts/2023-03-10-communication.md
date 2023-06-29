@@ -82,3 +82,5 @@ date: 'March 10, 2023'
 
 - [Carl Braun’s Writing Lessons for Clear Thinking and Productive Communication](https://fs.blog/carl-braun-communicating/)
 - [Write useful books](https://writeusefulbooks.com/)
+- [You Keep Using That Word](https://youtu.be/6FOCNf06lqY)
+- [Trust develops gradually via making bids and setting boundaries](https://www.lesswrong.com/posts/7CKF6r8MegtcCWDbT/trust-develops-gradually-via-making-bids-and-setting)

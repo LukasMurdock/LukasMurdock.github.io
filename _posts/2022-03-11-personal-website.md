@@ -79,7 +79,7 @@ Filtered for structured:
 - Habits
 
 I’ve learned the terms for what I’m looking for are:
-- **local-first** or **[offline-first](https://offlinefirst.org/)**
+- **[local-first](https://localfirstweb.dev/)** or **[offline-first](https://offlinefirst.org/)**
 - **client-side databases**
 - **multi-master / master-master replication**
 

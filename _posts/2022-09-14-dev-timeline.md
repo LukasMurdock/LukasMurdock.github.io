@@ -79,6 +79,7 @@ Note: Some dates are certainly wrong. Some represent v1.0 while others represent
 - 2012 [Elixir](https://elixir-lang.org/)
 - 2014 [Swift](https://www.swift.org/)
 - 2015 [Rust](https://www.rust-lang.org/)
+- 2015 [Raku](https://raku.org/) (Perl 6)
 - 2016 [Zig](https://ziglang.org/)
 
 ## CMS (Content management systems)

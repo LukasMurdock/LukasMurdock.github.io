@@ -210,3 +210,4 @@ https://adr.github.io/
 - [The roadmap is not the territory](https://tomcritchlow.com/2023/04/18/roadmap-territory/)
 - [Why Are You Doing This? (Wrong Answers Only)](https://cutlefish.substack.com/p/tbm-217-why-are-you-doing-this-wrong)
 - [Some mistakes I made as a new manager](https://www.benkuhn.net/newmgr/)
+- [Handoff Waste and Taylorism](https://two-wrongs.com/handoff-waste-and-taylorism.html)

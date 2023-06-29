@@ -187,6 +187,17 @@ Ask people to meet for food or coffee. No, seriously, [just ask when you want so
 
 [Friendships form via shared context, not shared activities](https://news.ycombinator.com/item?id=31562478)
 
+[Making and keeping friends](https://ava.substack.com/p/making-and-keeping-friends)
+- Shared context
+- Consistently carving out time
+- Physical proximity
+- Go to a lot of things (e.g., parties, dinners) even if they might be boring
+- Be super proud of your friendships
+- Talk to strangers
+- Write in public
+- Reach out to friends
+- Proactively ask about your friends’ lives
+
 [Are you my friend?](https://moretothat.com/are-you-my-friend/)
 
 A few ideas for my future self:
