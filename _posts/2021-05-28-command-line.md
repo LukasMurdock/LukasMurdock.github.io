@@ -54,11 +54,40 @@ https://unix.stackexchange.com/a/487889
 
 ## Scripts // alias
 
+```zsh
+# Lists all processes running on a given tcp port
+function listport {
+    local port=${1:?"The port must be specified."}
+    local processes=$(lsof -i tcp:"$port" | grep LISTEN)
+    if [[ -z $processes ]]; then
+        echo "No processes running on tcp:$port"
+    else
+        echo "$processes" | awk '{print $1, $2}'
+        printf "Do you want to kill the process? (y/n) "
+        read answer
+        if [[ $answer == "y" ]]; then
+            echo "$processes" | awk '{print $2}' | xargs kill
+        fi
+    fi
+}
+
+# Get CPU usage for Visual Studio Code extensions
+function codeplease {
+    ps aux | awk 'NR==1 { print "CPU", "Extension" }\
+    NR>1 {\
+        if ($0 ~ /Code\.app\/Contents\/Resources\/app\/extensions/) {\
+            match($0, /Code\.app\/Contents\/Resources\/app\/extensions[^[:space:]]+/);\
+            print $3, substr($0, RSTART, RLENGTH)\
+        }\
+    }'
+}
+```
+
 - browse: `/scripts/startchrome.sh`
 - update: `/scripts/update.sh`
     - update brew and git pull /scripts and /dotfiles
 - post: `/Lukasmurdock.github.io/post.sh`
-    - create and open new post
+    - create new post file and open in VS Code
 
 ## Utilities
 
