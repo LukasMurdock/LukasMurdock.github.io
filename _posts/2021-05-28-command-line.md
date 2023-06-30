@@ -79,6 +79,11 @@ function codeplease {
             match($0, /Code\.app\/Contents\/Resources\/app\/extensions[^[:space:]]+/);\
             print $3, substr($0, RSTART, RLENGTH)\
         }\
+        else
+        if ($0 ~ /\.vscode\/extensions/) {\
+            match($0, /\.vscode\/extensions[^[:space:]]+/);\
+            print $3, substr($0, RSTART, RLENGTH)\
+        }\
     }'
 }
 ```
