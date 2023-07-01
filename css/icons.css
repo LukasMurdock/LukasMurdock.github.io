@@ -1,12 +1,43 @@
 /* https://gwern.net/static/css/links.css */
 
-a[data-link-icon-type='text']::after {
+
+/*=================*/
+/*= COMMON STYLES =*/
+/*=================*/
+
+/*******************/
+/*  Graphical icons.
+*/
+a[data-link-icon-type='svg']::after {
+    --link-icon-size: 0.5em;
+    --link-icon-offset-x: 0.20em;
+    --link-icon-offset-y: 0.25em;
+
+    content: "";
+    position: static;
+    padding: 0 var(--link-icon-size) 0 0;
+    margin: 0 0 0 var(--link-icon-offset-x);
+    background-image: var(--link-icon-url);
+    background-size: var(--link-icon-size);
+    background-position-x: center;
+    background-position-y: var(--link-icon-offset-y);
+    background-repeat: no-repeat;
+    opacity: 0.6;
+}
+a[data-link-icon-type='svg']:hover::after {
+    opacity: 0.3;
+}
+
+/*****************/
+/*  Textual icons.
+*/
+a[data-link-icon-type*='text']::after {
     --link-icon-size: 0.75em;
     --link-icon-offset-x: 0.125em;
     --link-icon-offset-y: 0.25em;
-    /* --link-icon-font-serif: Noto Emoji, Quivira, var(--GW-serif-font-stack);
+    --link-icon-font-serif: Noto Emoji, Quivira, var(--GW-serif-font-stack);
     --link-icon-font-sans: Noto Emoji, Quivira, var(--GW-sans-serif-font-stack);
-    --link-icon-font-mono: Noto Emoji, Quivira, var(--GW-monospaced-font-stack); */
+    --link-icon-font-mono: Noto Emoji, Quivira, var(--GW-monospaced-font-stack);
 
     content: var(--link-icon);
     font-size: var(--link-icon-size);
@@ -24,23 +55,31 @@ a[data-link-icon-type='text']::after {
     line-height: 1;
     overflow-wrap: normal;
 }
-
-a[data-link-icon-type='svg']::after {
-    --link-icon-size: 0.5em;
-    --link-icon-offset-x: 0.20em;
-    --link-icon-offset-y: 0.25em;
-
-    content: "";
-    position: static;
-    padding: 0 var(--link-icon-size) 0 0;
-    margin: 0 0 0 var(--link-icon-offset-x);
-    background-image: var(--link-icon-url);
-    background-size: var(--link-icon-size);
-    background-position-x: center;
-    background-position-y: var(--link-icon-offset-y);
-    background-repeat: no-repeat;
-    opacity: 0.6;
+a[data-link-icon-type*='sans']::after {
+    font-family: var(--link-icon-font-sans);
 }
+
+/*===========================================*/
+/*= ICONS FOR CERTAIN LINK TYPES: BY TARGET =*/
+/*===========================================*/
+
+
+/*=----------------------------=*/
+/*= Within-page (anchor) links =*/
+/*=----------------------------=*/
+
+a[data-link-icon='¶']::after {
+    --link-icon-size: 0.75em;
+    --link-icon-offset-y: 0.45em;
+    --link-icon-offset-x: 0.2em;
+
+    font-weight: normal;
+    opacity: 0.7;
+}
+
+/*=------------------------------=*/
+/*= Internal (within-site) links =*/
+/*=------------------------------=*/
 
 a[data-link-icon='𝔏']::after {
     --link-icon-size: 0.9em;
@@ -49,6 +88,55 @@ a[data-link-icon='𝔏']::after {
 
     opacity: 0.75;
 }
+
+/*=-------------------------------=*/
+/*= Textual per-domain link icons =*/
+/*=-------------------------------=*/
+
+/****************************/
+/* Triple-letter 'tri' initials: too few for quad, but too big for
+   regular font size/offset. Common with TLA orgs. */
+   a[data-link-icon-type*='tri']::after {
+    --link-icon-size: 0.65em;
+    --link-icon-offset-y: 0.4em;
+    --link-icon-offset-x: 0.2em;
+
+    opacity: 0.90;
+}
+
+/****************************/
+/*  Quad-letter 'quad' square icons.
+*/
+a[data-link-icon-type*='quad']::after {
+    text-indent: 0;
+    overflow-wrap: break-word;
+    display: inline-block;
+    text-align: center;
+    left: 0;
+    bottom: 0.3em;
+    font-size: 0.52em;
+    font-weight: bold;
+    line-height: 0.8;
+    width: 1.5em;
+    opacity: 0.83;
+}
+
+/*  Quad-letter square icons in a sans face.
+*/
+a[data-link-icon-type*='quad'][data-link-icon-type*='sans']::after {
+    margin: 0;
+}
+
+/*  Quad-letter square icons in a monospace face.
+*/
+a[data-link-icon-type*='quad'][data-link-icon-type*='mono']::after {
+    letter-spacing: 0.05em;
+    line-height: 0.85;
+}
+
+/*=---------------------------------=*/
+/*= Graphical per-domain link icons =*/
+/*=---------------------------------=*/
 
 a[data-link-icon='github']::after {
     --link-icon-size: 0.75em;

@@ -868,4 +868,7 @@ See: [dev-timeline#web-frameworks](/dev-timeline/#web-frameworks)
 
 A message queue allows a service to send data to another service, even if the other service is not ready to receive it; and then allows the message to be consumed even if the sender is unavailable; it buffers the communication with a queue. Email (SMTP) is a message queue.
 
+- [Apache Kafka](https://kafka.apache.org/)
+- [Rabbit MQ](https://www.rabbitmq.com/)
+
 ## Logging

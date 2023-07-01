@@ -1,10 +1,10 @@
-# Inspired by https://gwern.net/design-graveyard#problems
+# Inspired by Gwern:
+# - https://gwern.net/design-graveyard#problems
+# - https://gwern.net/lorem#link-icons
 # Plugin to add data-link-icon attribute to links
 # Plugin init from: https://github.com/twinsunllc/jekyll-link-attributes/blob/main/lib/jekyll-link-attributes.rb
 
 require 'nokogiri'
-
-
 
 module Jekyll
 
@@ -13,15 +13,14 @@ module Jekyll
 
     ICON_PATH = '/images/icons/'
     # The default configuration for the plugin.
-    # Supported icon types:
-    # - "svg" (+$NAME of the SVG filename in </static/img/icons/$NAME>
-    # The link-icon for -- 'svg' type is overloaded to be a filename in `ICON_PATH${LINKICON}.svg`.
-    # - "text"
+    # https://gwern.net/static/build/LinkIcon.hs.html
+    # Types: text, quad, svg
+    # WIKIMEDIA = ['wikipedia', 'wikimedia', 'wiktionary', 'wikisource', 'wikimediafoundation', 'wikibooks', 'mediawiki'].map { |x| { includes: x, icon: 'wikipedia', type: 'svg' } }
     RULES = [
         { starts_with: '/', icon: '𝔏', type: 'text' },
-        { includes: 'wikipedia.org', icon: 'wikipedia', type: 'svg' },
+        *['wikipedia', 'wikimedia', 'wiktionary', 'wikisource', 'wikimediafoundation', 'wikibooks', 'mediawiki'].map { |x| { includes: x, icon: 'wikipedia', type: 'svg' } },
         { includes: 'github.com', icon: 'github', type: 'svg' },
-        { includes: 'seths.blog', icon: 'SG', type: 'text' },
+        { includes: 'seths.blog', icon: 'SETH', type: 'text,quad' },
         { includes: 'lesswrong.com', icon: 'LW', type: 'text' },
         { includes: 'youtu.be', icon: 'youtube', type: 'svg' },
         { includes: 'youtube.com', icon: 'youtube', type: 'svg' },

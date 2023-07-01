@@ -5,8 +5,8 @@ description: ''
 date: 'July 01, 2023'
 ---
 
-- [Wikipedia: Semantics](https://en.wikipedia.org/wiki/Semantics)
-- [Wikipedia: Category: Semantics](https://en.wikipedia.org/wiki/Category:Semantics)
+- [Semantics](https://en.wikipedia.org/wiki/Semantics)
+- [Category: Semantics](https://en.wikipedia.org/wiki/Category:Semantics)
 
 Linguistics:
 - [Formal semantics (natural language)](https://en.wikipedia.org/wiki/Formal_semantics_(natural_language))
@@ -51,5 +51,6 @@ Linguistics:
 
 
 Rel:
-- [Wiki: Semantic satiation](https://en.wikipedia.org/wiki/Semantic_satiation)
-- [LW: Semantic stopsigns](https://www.lesswrong.com/posts/FWMfQKG3RpZx6irjm/semantic-stopsigns), [Wiki: Thought-terminating cliché](https://en.wikipedia.org/wiki/Thought-terminating_clich%C3%A9)
+- [Semantic satiation](https://en.wikipedia.org/wiki/Semantic_satiation)
+- [Semantic stopsigns](https://www.lesswrong.com/posts/FWMfQKG3RpZx6irjm/semantic-stopsigns), [Thought-terminating cliché](https://en.wikipedia.org/wiki/Thought-terminating_clich%C3%A9)
+- [Semantic MediaWiki](https://www.semantic-mediawiki.org/wiki/Semantic_MediaWiki)
