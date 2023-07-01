@@ -82,6 +82,8 @@ Note: Some dates are certainly wrong. Some represent v1.0 while others represent
 - 2015 [Raku](https://raku.org/) (Perl 6)
 - 2016 [Zig](https://ziglang.org/)
 
+[A Brief, Incomplete, and Mostly Wrong History of Programming Languages](http://james-iry.blogspot.com/2009/05/brief-incomplete-and-mostly-wrong.html)
+
 ## CMS (Content management systems)
 
 - 2000 [Umbraco](https://umbraco.com/)

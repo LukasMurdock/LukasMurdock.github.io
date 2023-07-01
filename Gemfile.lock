@@ -69,10 +69,13 @@ GEM
     mime-types-data (3.2021.0225)
     minitest (5.14.4)
     multi_xml (0.6.0)
+    nokogiri (1.15.2-x86_64-darwin)
+      racc (~> 1.4)
     nuggets (1.6.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (4.0.6)
+    racc (1.7.1)
     rb-fsevent (0.11.0)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -105,8 +108,9 @@ DEPENDENCIES
   jekyll-sitemap
   jekyll-tagging
   liquid-c
+  nokogiri
   stamp (~> 0.6.0)
   webrick (~> 1.7)
 
 BUNDLED WITH
-   2.2.3
+   2.2.6

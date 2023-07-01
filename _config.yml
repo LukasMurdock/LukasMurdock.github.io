@@ -54,6 +54,10 @@ tag_permalink_style:  pretty
 # Pages path
 defaults:
   - scope:
+      path: '_posts'
+    values:
+      icons: true
+  - scope:
       path: '_pages'
     values:
       permalink: /:basename

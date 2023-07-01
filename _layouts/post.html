@@ -21,7 +21,7 @@
 <main>
   <div class="pagebody-content">
       <article>
-        
+
         {% if page.subtitle %}
         <h1>{{ page.title }}</h1>
         <h2 style="font-size: var(--font-medium-large)">{{ page.subtitle }}</h2>
@@ -29,7 +29,7 @@
         <h1>{{ page.title }}</h1>
         {% endif %}
         <h2 style="font-size: var(--font-medium-large)">{{ page.description }}</h2>
-        
+
         {% if page.image %}
         <div class="figure-container">
           <figure class="blog-figure image component image-big image-fullbleed body-copy-wide">
@@ -43,7 +43,7 @@
       </article>
   </div>
 </main>
-      
+
 
       <div style="display: grid; grid-template-columns: 50% 50%; margin: 20px auto 40px auto; max-width: var(--max-width);" class="PageNavigation">
         {% if page.next.url %}

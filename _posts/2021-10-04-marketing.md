@@ -95,9 +95,9 @@ You have to figure out what things like "powerful" mean to the people you seek t
 
 > I tell you what our goal is. Our goal is to make the best personal computers in the world and to make products we are proud to sell and would recommend to our family and friends and we want to do that at the lowest price as we can. But I have to tell you, there’s some stuff in our industry that we wouldn’t be proud to ship, that we wouldn’t be proud to recommend to our family and friends, and we can’t do it. We just can’t ship junk. There are thresholds that we can’t cross because of who we are, but we want to make the best personal computers in the industry.
 >
-> — [Steve Jobs](https://lukasmurdock.com/steve-jobs/#:~:text=I%20tell%20you,in%20the%20industry.)
+> — [Steve Jobs](/steve-jobs/#:~:text=I%20tell%20you,in%20the%20industry.)
 
-How are you [optimizing the perception](https://lukasmurdock.com/perception-optimization/) of it all?
+How are you [optimizing the perception](/perception-optimization/) of it all?
 
 Because the best story wins. Not the best idea. Not the right answer. Just whoever tells a story that catches people’s attention and gets them to nod their heads.
 
@@ -470,3 +470,4 @@ Objects:
 - [Seth Godin: Is it a t-shirt brand?](https://seths.blog/2023/03/is-it-a-t-shirt-brand/)
 - [Seth Godin: How to change the world](https://seths.blog/2023/03/how-to-change-the-world/)
 - [When customers are “willing” to pay](https://longform.asmartbear.com/willingness-to-pay)
+- [Seth Godin: The Right Marketing Question](https://seths.blog/2023/06/the-right-marketing-question/)

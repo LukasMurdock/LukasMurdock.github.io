@@ -3,6 +3,7 @@ layout: page
 title: About This Site and I
 description: Who am I online & what have I done? Contact information; sites I use; computers and software tools; things I’ve worked on; psychological profiles
 last_modified_at: 2020-12-18T15:03:41-0500
+icons: true
 ---
 
 ---
@@ -58,6 +59,7 @@ I elevator pitch myself as a Designer, Developer, and Marketer, but here I try t
 - [Find solace in learning](https://lukasmurdock.com/autodidact/)
 - Find a quest, find [something to be enthusiastic about](https://critter.blog/2022/10/28/something-to-be-enthusiastic-about/)
 - Slow down, deliberate
+- Strong opinions, loosely held
 - Less, but better
 - [Everything must be paid for twice](https://www.raptitude.com/2022/01/everything-must-be-paid-for-twice/)
 - [It’s okay to not like things](https://youtu.be/0la5DBtOVNI)
@@ -180,11 +182,16 @@ December 2015 – July 2017
 
 ### Places I Want to Visit
 In no particular order
-- The Library of Congress
-- [The Interval](https://theinterval.org/)
-- [California Redwood Forest](https://www.skunktrain.com/railbikes-on-the-noyo/)
-- Cambridge University Library
-- Walden Pond
+- USA, Washington
+    - [The Library of Congress](https://www.loc.gov/)
+- USA, California
+    - [The Interval](https://theinterval.org/)
+    - [California Redwood Forest](https://www.skunktrain.com/railbikes-on-the-noyo/)
+    - [The Huntington](https://huntington.org/)
+- USA, Massachusetts
+    - [Walden Pond](https://www.mass.gov/locations/walden-pond-state-reservation)
+- UK, Cambridge
+    - [Cambridge University Library](https://www.lib.cam.ac.uk/)
 - Japan
     - [Patio11 recs](https://www.kalzumeus.com/japan-recommendations/)
     - [Ise Grand Shrine](https://en.wikipedia.org/wiki/Ise_Grand_Shrine) in 2033!

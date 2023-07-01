@@ -84,6 +84,7 @@ Keyboard Maestro | https://www.keyboardmaestro.com/main/::
 Rocket | https://matthewpalmer.net/rocket/::
 Swish | https://highlyopinionated.co/swish/::
 Ethical.net | https://ethical.net/resources/::
+Rectangle | https://rectangleapp.com/::
 {% endcapture %}
 
 

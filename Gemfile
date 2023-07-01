@@ -14,6 +14,7 @@ group :jekyll_plugins do
     gem 'jekyll-feed'
     gem 'httparty'
     gem 'down'
+    gem 'nokogiri'
     gem 'activesupport'
     # gem 'rsvg2', '~> 3.0', '>= 3.0.7'
     # gem 'victor'

@@ -44,7 +44,7 @@ last_modified_at: 2020-01-10
     padding-left: 20px;
     margin-top: 0;
   }
-  
+
   ol:not(.nav-menu) li::before {
     counter-increment: dopeCounter 1;
     content: counter(dopeCounter,decimal-leading-zero);
@@ -56,7 +56,7 @@ last_modified_at: 2020-01-10
     height: 25px;
     color: #707070;
   }
-  
+
   p.item {
       width: 100%;
       padding: 2px 0;
@@ -84,7 +84,7 @@ last_modified_at: 2020-01-10
     {% for d in site.data.principles.principlelist %}
     <div class="grid-item">
       <h2>{{ d.Title }}</h2>
-      
+
         <ol>
           {% for list in d.Principles %}
           <li>
@@ -97,9 +97,8 @@ last_modified_at: 2020-01-10
   </div>
   </div>
 </div>
-
-
-  <div class='o-grid'>
-    {% include pagination.html %}
-  </div>
+<blockquote>
+    <p>Judge each day not by the harvest you reap but by the seeds you plant.</p>
+    <footer>William Arthur Ward</footer>
+</blockquote>
 </div>
