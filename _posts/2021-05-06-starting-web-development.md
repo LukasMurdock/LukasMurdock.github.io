@@ -847,6 +847,8 @@ Load balancers let you run redundant web servers; preventing the web server from
 	- [rqlite](https://github.com/rqlite/rqlite) / [dqlite](https://github.com/canonical/dqlite)
 
 
+[Patterns of Distributed Systems](https://martinfowler.com/articles/patterns-of-distributed-systems/)
+
 ## Cache
 
 “Caching” is the concept of storing the result of an expensive operation in a way that is faster to retrieve than executing the operation again. Faster retrieval is often achieved by storing data in memory rather than on disk; making data loss likely in the case the server fails.
@@ -874,3 +876,5 @@ A message queue allows a service to send data to another service, even if the ot
 - [Rabbit MQ](https://www.rabbitmq.com/)
 
 ## Logging
+
+- [Monitoring is a Pain](https://matduggan.com/were-all-doing-metrics-wrong/) ([HN](https://news.ycombinator.com/item?id=36469147))

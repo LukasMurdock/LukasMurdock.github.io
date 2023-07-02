@@ -40,6 +40,7 @@ tags: annual, me
 - [Can college level the playing field? No, it really can’t.](https://crookedtimber.org/2023/02/06/can-college-level-the-playing-field-no-it-really-cant/)
 - [More to that: The function of education](https://moretothat.com/the-function-of-education/)
 - [Vocational Training for the Soul](https://montessorium.com/blog/vocational-training-for-the-soul)
+- [The seduction of grad school](https://seths.blog/2023/06/the-seduction-of-grad-school/)
 
 ## On Self Learning
 ### Articles

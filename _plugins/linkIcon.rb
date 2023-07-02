@@ -20,10 +20,12 @@ module Jekyll
         { starts_with: '/', icon: '𝔏', type: 'text' },
         *['wikipedia', 'wikimedia', 'wiktionary', 'wikisource', 'wikimediafoundation', 'wikibooks', 'mediawiki'].map { |x| { includes: x, icon: 'wikipedia', type: 'svg' } },
         { includes: 'github.com', icon: 'github', type: 'svg' },
-        { includes: 'seths.blog', icon: 'SETH', type: 'text,quad' },
-        { includes: 'lesswrong.com', icon: 'LW', type: 'text' },
+        { includes: 'lesswrong.com', icon: 'LW', type: 'text,sans' },
         { includes: 'youtu.be', icon: 'youtube', type: 'svg' },
         { includes: 'youtube.com', icon: 'youtube', type: 'svg' },
+        { includes: 'news.ycombinator.com', icon: 'HN', type: 'text,sans' },
+        { includes: 'seths.blog', icon: 'SETH', type: 'text,quad' },
+        { includes: 'paulgraham.com', icon: 'PG', type: 'text,sans' },
     ]
 
 

@@ -34,3 +34,5 @@ The above is from: Unleashing the Ideavirus by Seth Godin.
 
 The goal of a presentation deck is to plant an idea:
 - [Zuora’s sales deck breakdown](https://medium.com/the-mission/the-greatest-sales-deck-ive-ever-seen-4f4ef3391ba0)
+
+[The Contagion](https://randsinrepose.com/archives/the-contagion/)

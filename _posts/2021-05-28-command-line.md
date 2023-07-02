@@ -427,3 +427,7 @@ gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=../merged.pdf $(echo $(ls
 
 {% endraw %}
 {% endhighlight %}
+
+---
+
+[macOS command-line tools you might not know about](https://news.ycombinator.com/item?id=36491704)
