@@ -1,5 +1,17 @@
 ---
 isbns:
+- isbn: 9781250037756
+  dateRead: July 02, 2023
+  title: Mr. Penumbra's 24-Hour Bookstore
+  subtitle: A Novel
+  author:
+  - Robin Sloan
+  publishedDate: '2013-09-24'
+  pageCount: 304
+  categories:
+  - Fiction
+  image: "/images/books/mr-penumbra.jpg"
+  notFound: false
 - isbn: 9781250262493
   dateRead: March 21, 2022
   title: Wanting
