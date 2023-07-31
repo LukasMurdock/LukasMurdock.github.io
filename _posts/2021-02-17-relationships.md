@@ -151,6 +151,9 @@ School, while not so good at what it claims to be, is good at the first two; the
 
 For the most part, all you can control are the first two. One piece of advice: show up. Opportunities don’t visit caves.
 
+> Your life must be an open city, with all sorts of ways to wander in.
+> – Mr. Penumbras 24-Hour Bookstore
+
 And I’m speaking from experience. I viscerally felt that drop at 18; I’m not one to show up at parties. I’m lucky to have grown up in a neighborhood with a group of guys that became my band of brothers. But, at the time of writing, they’re not an active part of my life, and I’m not an active part of theirs. All of my friendships are dormant. That’s largely how I’ve always been; I’ve only ever actively confided in my partner. But, we got a lot of years to go, we’ll see how this goes—as of writing I’m only 20.
 
 [Friendcatchers](https://www.swyx.io/friendcatchers/).

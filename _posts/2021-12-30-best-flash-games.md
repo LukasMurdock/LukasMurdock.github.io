@@ -46,3 +46,6 @@ Game sites I recall visiting//seeing:
 - Armor Games
 - Cool Math
 - Kongregate
+
+
+[Your Favorite Addictive Flash Games, Back From the Dead](https://kottke.org/23/07/your-favorite-addictive-flash-games-back-from-the-dead)

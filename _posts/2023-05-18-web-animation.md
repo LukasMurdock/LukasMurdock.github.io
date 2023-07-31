@@ -98,6 +98,7 @@ Web animation intent areas:
 - [Motion One: Feature comparison](https://motion.dev/guides/feature-comparison)
 - [Motion One: Performance](https://motion.dev/guides/performance)
 - [GreenSock: JavaScript Animation Speed Test](https://greensock.com/js/speed.html)
+- [Proper use of animation in UX](https://uxdesign.cc/the-ultimate-guide-to-proper-use-of-animation-in-ux-10bd98614fa9)
 
 ### Talks
 

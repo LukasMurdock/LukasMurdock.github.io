@@ -23,10 +23,11 @@ tags: me
 
 [Read your ass off](https://every.to/ask-jerry/follow-your-curiosity-read-your-ass-19226584).
 
-
 [Read slowly](https://nabeelqu.co/understanding). [Read slower](https://betterhumans.pub/slow-reading-is-the-new-deep-learning-452f179c0289). [Slower](https://buditanrim.co/2021/slow-thinker/).
 
 [Read something great](https://www.readsomethinggreat.com/).
+
+[Delete friction](https://garrettdimon.com/journal/posts/delete-friction)
 
 ## Finding Books Online
 

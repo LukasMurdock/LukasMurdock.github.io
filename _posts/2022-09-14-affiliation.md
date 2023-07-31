@@ -32,6 +32,7 @@ To a larger extent, these exist as concept instantiations of affiliation, so Iâ€
 - [Aldi](https://passionatepennypincher.com/aldi-clothing-line-super-fans/)
 - [Ikea bucket hat](https://www.ikea.com/us/en/p/knorva-hat-blue-50447338/)
 - [Balmain x evian](https://www.evian.com/en_int/products/limited-edition/balmain/)
+- [HOCH.CO x Southwest Airlines](https://hoch.co/)
 
 Brand shops:
 - [Arbyâ€™s shop](https://arbysshop.com/)

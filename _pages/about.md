@@ -190,6 +190,7 @@ In no particular order
     - [The Huntington](https://huntington.org/)
 - USA, Massachusetts
     - [Walden Pond](https://www.mass.gov/locations/walden-pond-state-reservation)
+    - [Bell Works](https://bell.works/new-jersey/explore/)
 - UK, Cambridge
     - [Cambridge University Library](https://www.lib.cam.ac.uk/)
 - Japan

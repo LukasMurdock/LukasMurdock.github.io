@@ -110,3 +110,5 @@ I don’t have any conferences to compare it to, but Tailwind Connect was incred
 > It’s wild to have such a large room full of my people.
 
 [Tailwind Connect 2023 Photos](https://connect.tailwindcss.com/photos)
+
+[Tailwind Connect 2023 — Keynote](https://youtu.be/CLkxRnRQtDE)
