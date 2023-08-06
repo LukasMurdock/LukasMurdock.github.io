@@ -22,6 +22,8 @@ Most of my learning comes from [wondering around online](/aroundtheweb/) or [div
 
 So much I [want to learn](/wtl) and [want to read](/wanttoread/).
 
+Making my way through [Edward Tufte’s books](https://www.edwardtufte.com/tufte/books_vdqi).
+
 ## Top goal
 
 2023-05-14: [Learn](/wtl/), [read](/wanttoread/), and [write](/why-we-write-2/).

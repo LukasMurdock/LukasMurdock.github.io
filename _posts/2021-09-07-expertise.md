@@ -143,3 +143,21 @@ You have to compare cases—what’s similar? Does it remind you of a particular
 - [Can simpler technology produce better learning outcomes?](https://medium.com/accelerating-expertise/thoughts-on-training-fidelity-f2b9a0de193e)
 - [Stumbling Towards Rightness](https://nathanbrixius.wordpress.com/2023/05/05/stumbling-towards-rightness/)
 - [Embrace Complexity; Tighten Your Feedback Loops](https://ferd.ca/embrace-complexity-tighten-your-feedback-loops.html)
+
+### Reading list
+
+#### Operations
+
+- (1984) Eliyahu M. Goldratt - The Goal: A Process of Ongoing Improvement
+- (1989) Dietrich Dörner - The Logic of Failure: Recognizing and Avoiding Error in Complex Situations
+- (1993) Donald J. Wheeler - Understanding Variation: The Key to Managing Chaos
+
+#### Market
+
+- (2016) [Hamilton Helmer - 7 Powers](/power/)
+- (2020) Bob Moesta - Demand Side Sales 101
+
+#### Capital
+
+- (2012) Will Thorndike - The Outsiders
+- (2015) Marathon Asset Management - Capital Returns: Investing Through the Capital Cycle
