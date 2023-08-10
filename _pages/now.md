@@ -24,6 +24,10 @@ So much I [want to learn](/wtl) and [want to read](/wanttoread/).
 
 Making my way through [Edward Tufte’s books](https://www.edwardtufte.com/tufte/books_vdqi).
 
+## Running every day
+
+On 2023-08-08 I decided I was going to run a mile every day. The idea of every day is inspired by [Beeple everydays](https://www.beeple-crap.com/everydays), [Seth’s blog](https://seths.blog/2017/11/this-is-post-7000/), and [Atomic Habits](https://jamesclear.com/atomic-habits-summary) by James Clear. This every day is inspired by me needing to move away from my desk.
+
 ## Top goal
 
 2023-05-14: [Learn](/wtl/), [read](/wanttoread/), and [write](/why-we-write-2/).
