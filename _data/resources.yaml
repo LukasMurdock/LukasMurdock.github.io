@@ -306,6 +306,11 @@ fulldata:
         Comment: "Matthew Butterick's practical typography book."
         Date: Apr 22, 2020
 
+      - Title: "Legible Typography"
+        Link: "https://legible-typography.com/en/"
+        Comment: ""
+        Date: 2023-08-21
+
       - Title: Getting started in Type Design
         Link: "https://arrowtype.github.io/type-blog/2020-05-01--getting-started-in-type/"
         Comment: "Getting started in Type Design (and possible next steps)"

@@ -16,6 +16,8 @@ First, I’m currently running an Intel Mac, and using Homebrew as a package man
 - [Missing Semester of Your CS Education](https://missing.csail.mit.edu/)
 - [Unofficial Guide to dotfiles on GitHub](https://dotfiles.github.io/tutorials/)
 - Wes Bos [Command Line Power User](https://commandlinepoweruser.com/)
+- [Command-line Tools can be 235x Faster than your Hadoop Cluster](https://adamdrake.com/command-line-tools-can-be-235x-faster-than-your-hadoop-cluster.html)
+- [Cascadia 2011 - The Unix Chainsaw by Gary Bernhardt](https://youtu.be/ZQnyApKysg4?si=XhGtCCBgzJKwiuwc)
 
 ## Git
 ```

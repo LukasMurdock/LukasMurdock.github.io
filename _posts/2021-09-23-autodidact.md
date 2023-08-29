@@ -90,6 +90,7 @@ tags: annual, me
 - [Permissionless Research](https://www.ribbonfarm.com/2023/04/05/permissionless-research/)
 - [Insufficient forgetting](https://swellandcut.com/2023/04/22/insufficient-forgetting/)
 - [Useful assumptions for teachers](https://seths.blog/2023/05/useful-assumptions-for-teachers/)
+- [Learning Styles FAQ](http://www.danielwillingham.com/learning-styles-faq.html)
 
 ### Books
 - [David A. Kolb: Experiential Learning: Experience as the Source of Learning and Development](https://www.amazon.com/Experiential-Learning-Experience-Source-Development-dp-0133892409/dp/0133892409/ref=dp_ob_title_bk) (1984)

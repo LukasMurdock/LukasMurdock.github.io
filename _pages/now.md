@@ -26,7 +26,7 @@ Making my way through [Edward Tufte’s books](https://www.edwardtufte.com/tufte
 
 ## Running every day
 
-On 2023-08-08 I decided I was going to run a mile every day. The idea of every day is inspired by [Beeple everydays](https://www.beeple-crap.com/everydays), [Seth’s blog](https://seths.blog/2017/11/this-is-post-7000/), and [Atomic Habits](https://jamesclear.com/atomic-habits-summary) by James Clear. This every day is inspired by me needing to move away from my desk.
+On 2023-08-08 I decided I was going to run a mile every day. The idea of every day is inspired by [Beeple everydays](https://www.beeple-crap.com/everydays), [Seth’s blog](https://seths.blog/2017/11/this-is-post-7000/), [Atomic Habits](https://jamesclear.com/atomic-habits-summary) by James Clear, and [this post](https://duarteocarmo.com/blog/run-every-day). This every day is inspired by me needing to move away from my desk.
 
 ## Top goal
 

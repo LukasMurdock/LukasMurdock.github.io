@@ -211,3 +211,4 @@ https://adr.github.io/
 - [Why Are You Doing This? (Wrong Answers Only)](https://cutlefish.substack.com/p/tbm-217-why-are-you-doing-this-wrong)
 - [Some mistakes I made as a new manager](https://www.benkuhn.net/newmgr/)
 - [Handoff Waste and Taylorism](https://two-wrongs.com/handoff-waste-and-taylorism.html)
+- [Leaky Delegation: You are not a Commodity](https://www.lesswrong.com/posts/tTWL6rkfEuQN9ivxj/leaky-delegation-you-are-not-a-commodity)

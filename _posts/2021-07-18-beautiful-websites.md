@@ -89,6 +89,7 @@ tags: me
 - https://nichrome.mass-driver.com/
 - http://bitfission.com/
 - https://plaintextsports.com/
+- https://library.juddfoundation.org/#floorplan
 
 
 ## Aggregators
