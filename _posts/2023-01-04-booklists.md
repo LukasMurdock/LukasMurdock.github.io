@@ -68,3 +68,8 @@ date: 'January 04, 2023'
 [Jordan B. Peterson: Book list](https://www.jordanbpeterson.com/books/book-list/)
 
 [High Performance Organizations Reading List](https://github.com/pdfernhout/High-Performance-Organizations-Reading-List)
+
+
+[Dan Luu: Programming book recommendations and anti-recommendations](https://danluu.com/programming-books/)
+
+[Oxford Reference](https://www.oxfordreference.com/)
