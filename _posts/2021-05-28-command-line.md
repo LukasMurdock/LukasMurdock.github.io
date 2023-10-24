@@ -248,6 +248,24 @@ First, make sure you have Homebrew installed.
 
 [wget](https://www.gnu.org/software/wget/) is a package for retrieving files with the most widely used Internet protocols (HTTP, HTTPS, FTP and FTPS). It’s strong point is recursive downloads.
 
+Spider mode
+
+```sh
+wget --spider -r https://example.com/ 2>&1 | tee crawl.txt
+```
+
+Get unique urls from crawl
+
+```sh
+grep -Eo 'https?://[^ ]+' crawl.txt | sort -u > unique_urls.txt
+```
+
+Get unique folders from crawl (the sed part removes trailing slashes to deduplicate)
+
+```sh
+grep -Eo 'https?://[^ ]+' crawl.txt | grep -Eo '(https?://[^/]+/[^ ]+)' | sed 's/\/$//' | sort -u > unique_folders.txt
+```
+
 ### curl
 
 [curl](https://curl.se/) is a library for transferring data with URLs. It’s great for testing APIs.

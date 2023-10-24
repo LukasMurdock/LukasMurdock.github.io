@@ -56,8 +56,11 @@ Average day in 2020 looks like checking:
 - stratechery.com
 - Effectiviology
 - Baymard Institute
+- [Paul, Invencion](https://www.invencion.com/off-kilter)
 
-List of emails is currently continued here: [https://airtable.com/shrJNX4hOeufXgfOX](https://airtable.com/shrJNX4hOeufXgfOX)
+List of emails was for sometime continued here: [https://airtable.com/shrJNX4hOeufXgfOX](https://airtable.com/shrJNX4hOeufXgfOX)
+
+See also: [https://webref.lukas.icu/newsletters](https://webref.lukas.icu/newsletters)
 
 ## NetNewsWire Feeds:
 - [Accidentally in Code](https://cate.blog/)
