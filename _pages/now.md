@@ -20,9 +20,14 @@ Turning coffee into code over at [SkyCatchFire](https://www.skycatchfire.com/).
 
 Most of my learning comes from [wondering around online](/aroundtheweb/) or [diving into books](/booklist/). Who knows where I’ll go. Trying to figure out what I’m focused on. Working on feeling secure.
 
-So much I [want to learn](/wtl) and [want to read](/wanttoread/).
+So much I [want to learn](/wtl) and [want to read](/wanttoread/) (created [To Read bookshelf](https://library.lukas.icu/bookshelves/To_Read) in library).
 
-Making my way through [Edward Tufte’s books](https://www.edwardtufte.com/tufte/books_vdqi).
+Making my way through
+
+- [books](https://library.lukas.icu/bookshelves/Reading_Now)
+- Adrian Cantrill’s [AWS Certified Developer - Associate](https://learn.cantrill.io/p/aws-certified-developer-associate) course
+- [Smart Interface Design Patterns](https://smart-interface-design-patterns.com/)
+- [How a car works](https://www.howacarworks.com/video-course)
 
 ## Running every day
 
