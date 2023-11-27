@@ -95,6 +95,8 @@ The 5 Love Languages by Gary Chapman:
 
 [Love has no gain or loss](https://moretothat.com/love-has-no-gain-or-loss/)
 
+[A Divorce Attorney's Thoughts On Love and Marriage-James Sexton](https://youtu.be/o5z8-9Op2nM?si=kZJbB-UxX8w7_NsL)
+
 ## Family
 
 Family is charted on a steep decline until the late 20s before making the slightest rebound around 40. So, see you then.

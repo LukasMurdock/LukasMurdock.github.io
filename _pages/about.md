@@ -193,6 +193,10 @@ In no particular order
     - [Bell Works](https://bell.works/new-jersey/explore/)
 - UK, Cambridge
     - [Cambridge University Library](https://www.lib.cam.ac.uk/)
+- UK, London
+    - [The Royal Institution](https://www.rigb.org/)
+- UK, Buckinghamshire
+    - [The National Museum of Computing (TNMOC)](https://www.tnmoc.org/)
 - Japan
     - [Patio11 recs](https://www.kalzumeus.com/japan-recommendations/)
     - [Ise Grand Shrine](https://en.wikipedia.org/wiki/Ise_Grand_Shrine) in 2033!
@@ -457,6 +461,7 @@ With this stack my entire website is currently free, aside from paying for the d
 - [HEX Franklin](https://hex.xyz/HEX_Franklin/) (no matter what weight you use, the letters are always the same width)
 - [Iowan Old Style](https://en.wikipedia.org/wiki/Iowan_Old_Style)
 - [Figtree](https://www.erikdkennedy.com/projects/figtree.html)
+- [B612](https://b612-font.com/)
 - [Nerd fonts](https://www.nerdfonts.com/)
 
 #### Font Foundries

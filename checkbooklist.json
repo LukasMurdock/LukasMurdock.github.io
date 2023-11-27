@@ -2,19 +2,20 @@
   "items": [
     {
       "volumeInfo": {
-        "title": "Mr. Penumbra's 24-Hour Bookstore",
-        "subtitle": "A Novel",
+        "title": "Conquering the Electron",
+        "subtitle": "The Geniuses, Visionaries, Egomaniacs, and Scoundrels who Built Our Electronic Age",
         "authors": [
-          "Robin Sloan"
+          "Derek T. Cheung",
+          "Eric Brach"
         ],
-        "publishedDate": "2013-09-24",
-        "description": "A Winner of the Alex Award, a finalist for the Los Angeles Times Book Prize for First Fiction, named a Best Book of the Year by NPR, Los Angeles Times, and San Francisco Chronicle The Great Recession has shuffled Clay Jannon away from life as a San Francisco web-design drone and into the aisles of Mr. Penumbra's 24-Hour Bookstore. But after a few days on the job, Clay discovers that the store is more curious than either its name or its gnomic owner might suggest. The customers are few, and they never seem to buy anything--instead, they \"check out\" large, obscure volumes from strange corners of the store. Suspicious, Clay engineers an analysis of the clientele's behavior, seeking help from his variously talented friends. But when they bring their findings to Mr. Penumbra, they discover the bookstore's secrets extend far beyond its walls. Rendered with irresistible brio and dazzling intelligence, Robin Sloan's Mr. Penumbra's 24-Hour Bookstore is exactly what it sounds like: an establishment you have to enter and will never want to leave.",
-        "pageCount": 304,
+        "publishedDate": "2014",
+        "description": "\"A ... history of the world of electronics, beginning with the discoveries of static electricity and magnetism and ending with the creation of the smartphone and the iPad. This book shows the interconnection of each advance to the next on the long journey to our modern-day technologies. Exploring the combination of genius, infighting and luck that powered the creation of today's electronic age, [this] debunks the hero worship so often plaguing the stories of great advances ... presenting each revolutionary technical advance right alongside the blow-by-blow personal battles that all too often took place\"--Publisher's description.",
+        "pageCount": 0,
         "categories": [
-          "Fiction"
+          "Science"
         ],
         "imageLinks": {
-          "thumbnail": "http://books.google.com/books/content?id=p2fIlgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+          "thumbnail": "http://books.google.com/books/content?id=ivEWngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
         }
       }
     }

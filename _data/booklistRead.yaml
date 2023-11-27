@@ -1,5 +1,19 @@
 ---
 isbns:
+- isbn: 9781442231535
+  dateRead: November 26, 2023
+  title: Conquering the Electron
+  subtitle: The Geniuses, Visionaries, Egomaniacs, and Scoundrels who Built Our Electronic
+    Age
+  author:
+  - Derek T. Cheung
+  - Eric Brach
+  publishedDate: '2014'
+  pageCount: 320
+  categories:
+  - Science
+  image: "/images/books/conquering-the-electron.jpeg"
+  notFound: false
 - isbn: 9781250037756
   dateRead: July 02, 2023
   title: Mr. Penumbra's 24-Hour Bookstore
