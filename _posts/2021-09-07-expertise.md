@@ -97,6 +97,94 @@ A simple evaluation of your skill might go something like this:
 
 It’s the living dynamic between the triad that matters.  E.g., demand goes down, it instantly changes the opportunities and constraints in the other two.
 
+## Service Business Systems Thinking
+
+- Operations
+    - Decisions (focus)
+    - Change management
+    - Communications
+    - CUA factor
+    - Economic incentives
+    - Contractual obligations (policy)
+    - Culture “people like us do things like this”
+    - Operational rigor
+    - Labor skill mix (junior, mid, senior)
+- Market
+    - Market cycles 🧠
+    - Competition
+    - Positioning
+    - Regulations
+- Capital
+    - Capital acquisition
+    - Capital allocation
+
+Below stocks and flows are a thought in progress and could be completely wrong.
+
+### Stocks
+
+A stock is measured at one specific time, and represents a quantity existing at that point in time. For example YYYY-MM-DDT00:00:00Z. “I care about viewing this at a specific date and time”.
+
+- Debt (e.g., loans, bonds, notes, mortgages)
+- Employees
+- Contractors
+- Cash reserves
+- Active clients
+- Active projects
+
+### Flows
+
+A flow variable is measured over an interval of time.
+
+- YYYY-MM-DDT00:00:00Z – YYYY-MM-DDT24:00:00Z (day)
+- YYYY-01-DDT00:00:00Z – YYYY-02-DDT00:00:00Z (month)
+- 2000-MM-DDT00:00:00Z – 2001-YY-MMT24:00:00Z (year)
+- YYYY-MM-DDT00:00:00Z – YYYY-XX-XXT00:00:00Z (year-to-date)
+
+“I care about viewing this over a period of time”.
+
+### Symbols and functions
+
+- Ν number of new [] in duration (count)
+- Σ sum of new [] in duration
+- x̄ average of new [] in duration
+- Δ new [] in duration compared to new [] in last duration (change)
+
+---
+
+- Ν(Employees) (new hires)
+- x̄(Employee duration)
+- x̄(Employee satisfaction rating)
+- Ν(Contractors)
+- x̄(Contractor duration)
+- Σ(Debt)
+- Σ(Payroll spend)
+- Σ(Technology spend)
+- Σ(Training and Development spend)
+- Σ([Ad platform] spend)
+- Ν(Marketing emails)
+- Ν(Outreach emails)
+- Ν([social media platform] posts)
+- Ν(Internal meetings)
+- x̄(Internal meeting duration)
+- x̄(Internal meeting satisfaction rating)
+- Ν(Non-client meetings)
+- x̄(Non-client meeting duration)
+- Ν(Non-client meeting no-shows)
+- x̄(Non-client meeting satisfaction rating)
+- N(Invoices) (draft, deleted, open, paid, uncollectible, void)
+- N(Subscriptions)
+- N(Client meetings)
+- x̄(Client meeting duration)
+- N(Client meeting no-shows)
+- x̄(Client meeting satisfaction rating)
+- x̄(Project duration)
+- x̄(Ticket lead time)
+- x̄(N(Invoices) / N(Clients)) “Average invoices per client”
+- x̄(Σ(Invoice.amount_paid) / N(Clients)) “Average invoice amount paid per client”
+- x̄(Client satisfaction rating)
+
+
+
 ## Strategic Rehearsals
 
 Given an idea, look for a history of application. Look for an application of how this can be useful.
