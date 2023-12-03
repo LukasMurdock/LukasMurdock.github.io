@@ -1,5 +1,17 @@
 ---
 isbns:
+- isbn: 9781603580557
+  dateRead: December 03, 2023
+  title: Thinking in Systems
+  subtitle: A Primer
+  author:
+  - Donella H. Meadows
+  publishedDate: '2008'
+  pageCount: 242
+  categories:
+  - Science
+  image: "/images/books/thinking-in-systems.jpeg"
+  notFound: false
 - isbn: 9781442231535
   dateRead: November 26, 2023
   title: Conquering the Electron
