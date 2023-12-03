@@ -120,6 +120,8 @@ It’s the living dynamic between the triad that matters.  E.g., demand goes dow
 
 Below stocks and flows are a thought in progress and could be completely wrong.
 
+Documenting flows over time enables calculating stocks at a point in time.
+
 ### Stocks
 
 A stock is measured at one specific time, and represents a quantity existing at that point in time. For example YYYY-MM-DDT00:00:00Z. “I care about viewing this at a specific date and time”.
@@ -128,8 +130,8 @@ A stock is measured at one specific time, and represents a quantity existing at 
 - Employees
 - Contractors
 - Cash reserves
-- Active clients
-- Active projects
+- Clients
+- Projects
 
 ### Flows
 
@@ -157,6 +159,7 @@ A flow variable is measured over an interval of time.
 - Ν(Contractors)
 - x̄(Contractor duration)
 - Σ(Debt)
+- Σ(Revenue)
 - Σ(Payroll spend)
 - Σ(Technology spend)
 - Σ(Training and Development spend)
@@ -172,15 +175,16 @@ A flow variable is measured over an interval of time.
 - Ν(Non-client meeting no-shows)
 - x̄(Non-client meeting satisfaction rating)
 - N(Invoices) (draft, deleted, open, paid, uncollectible, void)
+- x̄(N(Invoices) / N(Clients)) “Average invoices per client”
+- x̄(Σ(Invoice.amount_paid) / N(Clients)) “Average invoice amount paid per client”
 - N(Subscriptions)
 - N(Client meetings)
 - x̄(Client meeting duration)
 - N(Client meeting no-shows)
 - x̄(Client meeting satisfaction rating)
 - x̄(Project duration)
+- N(Tickets)
 - x̄(Ticket lead time)
-- x̄(N(Invoices) / N(Clients)) “Average invoices per client”
-- x̄(Σ(Invoice.amount_paid) / N(Clients)) “Average invoice amount paid per client”
 - x̄(Client satisfaction rating)
 
 
