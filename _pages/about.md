@@ -184,6 +184,7 @@ December 2015 – July 2017
 In no particular order
 - USA, Washington
     - [The Library of Congress](https://www.loc.gov/)
+    - [Connections Museum Seattle](https://www.telcomhistory.org/connections-museum-seattle/)
 - USA, California
     - [The Interval](https://theinterval.org/)
     - [California Redwood Forest](https://www.skunktrain.com/railbikes-on-the-noyo/)
@@ -191,6 +192,7 @@ In no particular order
 - USA, Massachusetts
     - [Walden Pond](https://www.mass.gov/locations/walden-pond-state-reservation)
     - [Bell Works](https://bell.works/new-jersey/explore/)
+    - [Museum of Printing](https://museumofprinting.org/)
 - UK, Cambridge
     - [Cambridge University Library](https://www.lib.cam.ac.uk/)
 - UK, London

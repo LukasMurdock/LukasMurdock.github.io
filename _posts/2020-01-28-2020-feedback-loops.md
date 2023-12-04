@@ -40,3 +40,4 @@ Improving is bottlenecked by feedback loops. To improve faster, create faster fe
 Moving forward we need to see how we can enhance our own feedback loops. Just because we have machines doesn’t mean we can stop improving what we know.
 
 - [Want feedback? Demand it.](https://critter.blog/2022/07/29/want-feedback-demand-it/)
+- [Get more out of design reviews](https://grillopress.github.io/2023/11/26/get-more-out-of-design-reviews.html)

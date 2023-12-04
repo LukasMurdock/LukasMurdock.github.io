@@ -235,6 +235,7 @@ You have to compare cases—what’s similar? Does it remind you of a particular
 - [Can simpler technology produce better learning outcomes?](https://medium.com/accelerating-expertise/thoughts-on-training-fidelity-f2b9a0de193e)
 - [Stumbling Towards Rightness](https://nathanbrixius.wordpress.com/2023/05/05/stumbling-towards-rightness/)
 - [Embrace Complexity; Tighten Your Feedback Loops](https://ferd.ca/embrace-complexity-tighten-your-feedback-loops.html)
+- [Scaling tacit knowledge](https://nintil.com/scaling-tacit-knowledge/)
 
 ### Reading list
 

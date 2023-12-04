@@ -94,6 +94,7 @@ tags: annual, me
 - [Your life should be on an accelerated learning curve](https://www.hottakes.space/p/your-life-should-be-on-an-accelerated)
 - [Massive input and/or spaced repetition](https://nintil.com/massive-input-spaced-repetition)
 - [Thoughts on the manual](https://seths.blog/2023/09/thoughts-on-the-manual/)
+- [Fake Journal Club: Teaching Critical Reading](https://gwern.net/fake-journal-club)
 
 ### Books
 - [David A. Kolb: Experiential Learning: Experience as the Source of Learning and Development](https://www.amazon.com/Experiential-Learning-Experience-Source-Development-dp-0133892409/dp/0133892409/ref=dp_ob_title_bk) (1984)

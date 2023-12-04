@@ -66,3 +66,4 @@ See:
 - [Crocker's rules](https://wiki.lesswrong.com/wiki/Crocker%27s_rules)
 - [Wait vs. Interrupt culture](https://news.ycombinator.com/item?id=33266372)
 - [You Keep Using That Word](https://youtu.be/6FOCNf06lqY)
+- [Key words for use in RFCs to Indicate Requirement Levels](https://datatracker.ietf.org/doc/html/rfc2119)
