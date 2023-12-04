@@ -95,6 +95,8 @@ tags: annual, me
 - [Massive input and/or spaced repetition](https://nintil.com/massive-input-spaced-repetition)
 - [Thoughts on the manual](https://seths.blog/2023/09/thoughts-on-the-manual/)
 - [Fake Journal Club: Teaching Critical Reading](https://gwern.net/fake-journal-club)
+- [How to Explain Anything to Anyone](https://www.drmaciver.com/2018/10/how-to-explain-anything-to-anyone/)
+- [How to Learn Anything Easily](https://www.scotthyoung.com/blog/2023/11/28/learn-anything-easily/)
 
 ### Books
 - [David A. Kolb: Experiential Learning: Experience as the Source of Learning and Development](https://www.amazon.com/Experiential-Learning-Experience-Source-Development-dp-0133892409/dp/0133892409/ref=dp_ob_title_bk) (1984)

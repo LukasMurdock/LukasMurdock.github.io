@@ -212,3 +212,4 @@ https://adr.github.io/
 - [Some mistakes I made as a new manager](https://www.benkuhn.net/newmgr/)
 - [Handoff Waste and Taylorism](https://two-wrongs.com/handoff-waste-and-taylorism.html)
 - [Leaky Delegation: You are not a Commodity](https://www.lesswrong.com/posts/tTWL6rkfEuQN9ivxj/leaky-delegation-you-are-not-a-commodity)
+- 1970-03: [NASA SP-287: What Made Apollo a Success?](https://history.nasa.gov/SP-287/sp287.htm)

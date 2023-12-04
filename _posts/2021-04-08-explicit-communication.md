@@ -67,3 +67,5 @@ See:
 - [Wait vs. Interrupt culture](https://news.ycombinator.com/item?id=33266372)
 - [You Keep Using That Word](https://youtu.be/6FOCNf06lqY)
 - [Key words for use in RFCs to Indicate Requirement Levels](https://datatracker.ietf.org/doc/html/rfc2119)
+- [Transparent collaboration is the andon of your knowledge production system](https://ben.balter.com/2023/08/30/transparency-collaboration-is-the-andon-of-knowledge-production/)
+- [The Sliding Scale of Giving a Fuck](https://capwatkins.com/blog/the-sliding-scale-of-giving-a-fuck)

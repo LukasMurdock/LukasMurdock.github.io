@@ -84,4 +84,3 @@ date: 'March 10, 2023'
 - [Write useful books](https://writeusefulbooks.com/)
 - [You Keep Using That Word](https://youtu.be/6FOCNf06lqY)
 - [Trust develops gradually via making bids and setting boundaries](https://www.lesswrong.com/posts/7CKF6r8MegtcCWDbT/trust-develops-gradually-via-making-bids-and-setting)
-- [Transparent collaboration is the andon of your knowledge production system](https://ben.balter.com/2023/08/30/transparency-collaboration-is-the-andon-of-knowledge-production/)
