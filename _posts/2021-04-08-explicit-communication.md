@@ -69,3 +69,4 @@ See:
 - [Key words for use in RFCs to Indicate Requirement Levels](https://datatracker.ietf.org/doc/html/rfc2119)
 - [Transparent collaboration is the andon of your knowledge production system](https://ben.balter.com/2023/08/30/transparency-collaboration-is-the-andon-of-knowledge-production/)
 - [The Sliding Scale of Giving a Fuck](https://capwatkins.com/blog/the-sliding-scale-of-giving-a-fuck)
+- [How GitHub Engineering communicates](https://github.com/github/how-engineering-communicates)
