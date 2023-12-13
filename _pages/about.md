@@ -43,6 +43,8 @@ I elevator pitch myself as a Designer, Developer, and Marketer, but here I try t
 ### Core Values
 - [Tsuyoku Naritai](https://www.lesswrong.com/posts/DoLQN5ryZ9XkZjq5h/tsuyoku-naritai-i-want-to-become-stronger)–I want to become stronger.
     - The important thing is to do better, to keep moving ahead, to take one more step forward.
+    - [Be serious about the things that matter to you.](https://visakanv.substack.com/p/are-you-serious)
+    - The standard pace is for chumps. [There is no speed limit](https://sive.rs/kimo).
 - Process over outcome.
     - Infinite games over finite games
     - First-time mistakes are common and expected. Second-time mistakes means there‘s a problem with a process. Third-time mistakes means there needs to be an intervention.
