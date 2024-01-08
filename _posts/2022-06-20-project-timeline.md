@@ -149,6 +149,8 @@ Technology:
 
 ## (2022) Personal Countdown
 
+I wanted a way to know how much time (e.g., 30 mins) until my next class, or my next-next class, or tomorrows classes. None of my calendars could do this, so I made an application to do it.
+
 Technology:
 - Next.js
 - Tailwind
@@ -208,3 +210,47 @@ Technology:
 - CSS
 - JavaScript
 - Cloudflare Pages
+
+## (2023) Capsule Supplies
+
+Technology:
+- Remix
+- Shopify
+
+## (2023) Produce Path — [www.producepath.org](https://www.producepath.org/)
+
+- Proximity map
+
+Technology:
+- Next.js
+- AWS Amplify
+- AWS Cognito
+- AWS RDS
+
+## (2023) ByBlack — (internal tool)
+
+Technology:
+- Next.js App Router
+- Vercel
+- MongoDB Atlas
+
+## (2023) ProVia
+
+* Vision board
+
+Technology:
+- HTML
+- CSS
+- JavaScript
+- PHP
+- WordPress
+- WPEngine
+
+## (2023) FoxTrot
+
+Technology:
+- React
+- AWS AppSync
+- AWS Lambda
+- AWS DynamoDB
+- Serverless Framework

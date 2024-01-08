@@ -51,14 +51,27 @@ I started with n=23, arbitrarily picked because that’s my age. Choosing my age
 
 ## Top goal
 
+2024-01-07: Get significantly better at extracting knowledge and revealing knowledge.
+
 2023-05-14: [Learn](/wtl/), [read](/wanttoread/), and [write](/why-we-write-2/).
 
 2023-01-04: Receive bachelor degree (2023-05-14: graduated. See my [college course list](/college-transcript/))
 
 ---
 
-Good at
+Specific areas I want to significantly improve
 
+- Extracting knowledge and revealing knowledge (Cognitive Task Analysis)
+- Accelerating expertise / understanding systems
 - Software design
-- Software testing
-- Software modeling
+
+Areas I want to get slightly better at
+
+- Project management
+
+Areas I want to suck at
+
+- Fashion
+- Social media
+
+Inspired by [Ivaylo Durmonski](https://durmonski.com/self-improvement/1-better-every-day/)

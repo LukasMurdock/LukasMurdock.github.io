@@ -213,7 +213,7 @@ A few ideas for my future self:
 - Just call/text “[NAME]” whenever you feel like it.
 - [Face fear together](https://zenhabits.net/cold-swimming/)
 
-
+[walk and talk](https://sive.rs/wt)
 
 What do you do after you show up?
 

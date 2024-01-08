@@ -8,86 +8,96 @@ tags: business
 
 # Expertise
 
-## A Model of Business Expertise
+## A land and expand reading program on expertise
 
-Better business expertise does not come from greater analysis or greater information, but *better ways of structuring or organizing knowledge*.
+- Accelerated Expertise
+- The Oxford Handbook of Expertise
 
-Business expertise is *distributed cognition*.
+Accelerated learning has been defined a number of ways in [Accelerated Proficiency and Facilitated Retention: Recommendations Based on an Integration of Research and Findings from a Working Meeting](https://www.semanticscholar.org/paper/Accelerated-Proficiency-and-Facilitated-Retention%3A-Hoffman-Feltovich/291d0e189963659e0eed0d4bf2a005b1cac2e853).
 
-Business expertise is domain-specific mental models of the business and cognitive agility (the ability to update mental models in light of new information).
+<div class="figure-container">
+    <figure class="blog-figure image component image-big image-fullbleed body-copy-wide">
+        <img class="picture-image" src="../images/posts/expertise/29-Figure1.1-1.png" alt="Figure 1.1">
+        <figcaption class="image-text">Figure 1.1 A concept map about different senses of accelerated learning</figcaption>
+    </figure>
+</div>
 
-Business expertise means a deep understanding of:
-1. Factors involved in effective operations
-2. Forces influencing the market
-3. Forces driving business finance and economic climates
+1. The first sense is _rapidized training_—the idea of training individuals to achieve some minimal level of proficiency at a rate faster than usual.
+2. The second sense is _accelerated proficiency_—the idea of getting individuals to achieve high levels of proficiency at a rate faster than ordinary (i.e., accelerated proficiency).
+3. The third sense is _facilitated retention_—the idea of making learning less susceptible to decay.
+4. The fourth sense is _rapidized cognitive task analysis_—while both training design and tool design depend crucially on cognitive task analysis, cognitive task analysis (CTA) is understood to be too labor and time-intensive.
+5. Fifth and finally, how might _rapidized transposition_ of knowledge from the operational setting to the training setting be brought about? The fast transposition of “lessons learned” from workplace to schoolhouse is a crucial need in many domains, spanning the academy, business, and the military.
+
+Alt
+
+- Rapidized training: attain a minimal level of proficiency in less time.
+    - Masses/blocked practice
+- Accelerated proficiency: turn an apprentice into an expert in less than ten years.
+    - Practice problems that stretch current competency in differing contexts in robust, resilient, and adaptive ways
+    - Maintain effectiveness across a range of tasks, situations, and conditions. (Robustness)
+    - Recover from a destabilizing perturbation in the work as it attempts to reach its primary goals. (Resilience)
+    - Employ multiple ways to succeed and the capacity to move seamlessly among them. (Adaptivity)
+- Facilitated retention: maintain a high level of proficiency and minimize the amount of decay
+- Rapidized Cognitive Task Analysis
+- Rapidized Transposition: quickly transfer lessons learned from the workplace or operational setting into training
+    - This requires:
+      1. rapid transfer of knowledge from the professional to the trainer without significant increase in anyone’s workload
+      2. rapid transformation of the transferred knowledge into products that can be shared, preserved, and readily used by the trainer, and
+      3. rapid transmission of the preserved knowledge via the trainer to the trainee.
+
+
+<div class="figure-container">
+    <figure class="blog-figure image component image-big image-fullbleed body-copy-wide">
+        <img class="picture-image" src="../images/posts/expertise/30-Figure1.2-1.png" alt="Figure 1.2">
+        <figcaption class="image-text">Figure 1.2 A concept map about rapidized training and accelerated proficiency</figcaption>
+    </figure>
+</div>
+
+#### Table 2.1 Some features of high proficiency
+
+- The expert is highly regarded by peers.
+- The expert’s judgments are accurate and reliable.
+- The expert’s performance shows consummate skill (i.e., more effective and/or qualitatively different strategies) and economy of effort (i.e., more efficient).
+- For simple, routine activities, experts display signs of “automaticity” where the expert seems to be carrying out a task without significant cognitive load and conscious processing is reserved for strategic control and/or more complex activities.
+- The expert possesses knowledge that is fine-grained, detailed and highly organized.
+- The expert knows that his knowledge is constantly changing and continually contingent.
+- The expert forms rich mental models of cases or situations to support sensemaking and anticipatory thinking.
+- The expert is able to create new procedures and conceptual distinctions.
+- The expert is able to cope with rare and tough cases.
+- The expert is able to effectively manage resources under conditions of high stakes, high risk and high stress.
+- Typically, experts have special knowledge or abilities derived from extensive experience with subdomains.
+- The expert has refined pattern perception skills and can apprehend meaningful relationships that non-experts cannot.
+- Experts are able to recognize aspects of a problem that make it novel or unusual, and will bring special strategies to bear to solve “tough cases.”
+
+#### Table 2.3: Basic proficiency categories based on the traditional craft guild terminology (adapted from Hoffman, 1998)
+
+- **Naïve**: One who is ignorant of a domain.
+- Novice: Literally, someone who is new—a probationary member. There has been some (“minimal”) exposure to the domain.
+- **Initiate**: Literally, someone who has been through an initiation ceremony—a novice who has begun introductory instruction.
+- **Apprentice**: Literally, one who is learning—a student undergoing a program of instruction beyond the introductory level. - Traditionally, the apprentice is immersed in the domain by living with and assisting someone at a higher level. The length of an apprenticeship depends on the domain, ranging from about one to 12 years in the craft guilds.
+- **Journeyman**: Literally, a person who can perform a day’s labor unsupervised, although working under orders. An experienced and reliable worker, or one who has achieved a level of competence. It is possible to remain at this level for life.
+- **Expert**: The distinguished or brilliant journeyman, highly regarded by peers, whose judgments are uncommonly accurate and reliable, whose performance shows consummate skill and economy of effort, and who can deal effectively with certain types of rare or “tough” cases. Also, an expert is one who has special skills or knowledge derived from extensive experience with subdomains.
+
+#### Key ideas of Cognitive Flexibility Theory (partial Table 4.4)
+
+**Core syllogism**
+
+1. Learning is the active construction of conceptual understanding.
+2. Training must support the learner in overcoming reductive explanation.
+3. Reductive explanation reinforces and preserves itself through misconception networks and through knowledge shields.
+4. Advanced learning is the ability to flexibly apply knowledge to cases within the domain. Therefore, instruction by incremental complexification will not be conducive of advanced learning. Therefore, advanced learning is promoted by emphasizing the interconnectedness of multiple cases and concepts along multiple dimensions, and the use of multiple, highly organized representations.
+
+## A Model of Business Expertise: The Triad
+
+Li DiBello in The Oxford Handbook of Expertise, wrote [Expertise in Business](https://academic.oup.com/edited-volume/34285/chapter-abstract/290669029?redirectedFrom=fulltext&login=false).
+
+> Our research revealed that people who have achieved a high level of business expertise have a deep understanding of the following three core areas: (1) factors involved in effective operations, (2) forces influencing the market, and (3) those driving business finance and economic climates. Consistently successful business leaders have been shown to intuitively understand these areas and their impact on each other, and to pay attention to this fundamental triad in a uniquely dynamic way within a guiding context of business strategy.
 
 One way of describing it is ‘supply/demand/capital’. Another is ‘leadership/strategy/finance’.
-
-1. **Supply, or leadership**: factors involved in effective operations. Have good mental models of the org and its people, and the ability to push through plans given internal politics.
-2. **Demand, or strategy**: forces influencing the market. Includes everything from market shape, competitive analysis, positioning, changing consumer demand, and the ‘path to power’ (from 7 Powers)
-3. **Capital, or finance**: factors driving business finance and economic climates. Financial concepts like cash flow lockup, return on invested capital, margins, and their relationship with the other two categories.
-
-The key property of business expertise is in understanding how a change in one leg of the triad affects the other two legs, at least within the context of one’s specific industry.
-
-Want to get really good at business? Then systematically acquire skills in each of the three categories, specific to your particular business, and then — more importantly — *cultivate an understanding of the relationships between the three categories*.
-
-Internalize the relationships.
-
-Every business is a system, and developing intuition for a system requires you to watch that system in action.
-
-To maintain cognitive agility, one must resist being impervious to new data, not hold rigid frameworks or paradigms tightly otherwise risking to filter out new information and create blind spots. Cognitively agile individuals learn from their inaccurate predictions or judgments and improve as they go along. In the face of dynamic feedback, mental models must be rapidly revised.
-
-A committee can function as an expert only if they know where the different elements of their expertise reside.
-
-## Cognitive Agility
-
-For learning to happen people, need to have their old mental models *destroyed through visceral failure*, to make way for new models.
-
-They need to fail hard enough for the game to stop so they examine their patterns of decision making, reconstruct what happened, and compare their results to the ideal results. Only then are people ready to be facilitated to play the game with different results.
-
-People must begin to reflect on their default strategies and examine how a different approach might have accomplished their goals. Only then can people become aware of the assumptions guiding their decisions under pressure and the attendant results. They must 'deconstruct' their decisions before they can 'reorganize'.
-
-### Cognitive Transformation Theory
-#### Core Idea
-Learning consists of the *elaboration and replacement of mental models*. Mental models are limited and include knowledge shields. Knowledge shields lead to wrong diagnoses and enable the discounting of evidence.
-Therefore **learning must also involve unlearning**.
-
-#### Additional Propositions in the Theory
-- Mental models are reductive and fragmented; therefore incomplete and flawed.
-- Learning is the refinement of mental models. Mental models provide causal explanations.
-- Experts have more detailed and more sophisticated mental models than novices. Experts have more accurate causal mental models.
-- Flawed mental models are barriers to learning (knowledge shields).
-- Learning is by sense-making (discovery, reflection) as well as by teaching.
-- Refinement of mental models entails at least some un-learning (accommodation; restructuring, changes to core concepts).
-- Refinement of mental models can take the form of increased sophistication of a flawed model, making it easier for the learner to explain away inconsistencies or anomalous data.
-- Learning is discontinuous. (Learning advances when flawed mental models are replaced, and is stable when a model is refined and gets harder to disconfirm.)
-- People have a variety of fragmented mental models. “Central” mental models are causal stories.
-
-Cognitive Transformation Theory tells us that people learn when they replace flawed mental models with better ones, as a result of trial and error cycles.
-
-What makes one person more effective at trial and error when compared to another? Well, Cognitive Transformation Theory tells us that their effectiveness is limited by their ability to *unlearn previous mental models in the pursuit of better, more effective new ones*.
-
-**Sensemaking is to deliberately discover what is wrong with one’s mental models and to abandon and replace them**.
-
-As expertise increases, the work needed to replace flawed mental models *goes up*.
-
-A training program to accelerate expertise should be optimized to *break knowledge shields, and quickly*. Teams must fail in a very rapid, public manner, within a simulation that *feels* like the real company they work in. Visceral failure enables the ‘deconstruction’ phase, allowing 'reorganization' of the company’s mental models.
-
-Most people must be violently shown that their models are deficient before they are willing to learn new ones.
-
-[You can’t teach what they aren’t ready to know](https://commoncog.com/blog/you-cant-teach-what-they-arent-ready-to-know/)
-
-## The Triad
 
 1. **Supply, or leadership**: factors involved in effective operations. (Management, org design, incentives, ops…)
 2. **Demand, or strategy**: forces influencing the market. (Competition, government, Power, market cycles…)
 3. **Capital, or finance**: factors driving business finance and economic climates. (Understanding financial metrics, access to and cost of capital…)
-
-
-Or, remapped even simpler, the shape of business expertise is
-1. Expertise in making (understanding operations)
-2. Expertise in selling (understanding markets)
-3. Expertise in capital (understanding financing)
 
 A simple evaluation of your skill might go something like this:
 1. What are the operational factors involved in running a business in this industry, and what are you lacking?
@@ -96,6 +106,20 @@ A simple evaluation of your skill might go something like this:
 4. Can you predict how changes in each leg affect the other two, at least for your specific industry?
 
 It’s the living dynamic between the triad that matters.  E.g., demand goes down, it instantly changes the opportunities and constraints in the other two.
+
+Deliberately and systematically acquire skills in each of the three categories, specific to your particular business, and then — more importantly — *cultivate an understanding of the relationships between the three categories*.
+
+Better business expertise does not come from greater analysis or greater information, but _better ways of structuring or organizing knowledge_.
+
+Business expertise is _distributed cognition_; expertise is spread over a team.
+
+1. **Supply, or leadership**: Develop rich cases of org design, incentive structures, operational rigour, culture, and internal politics.
+2. **Demand, or strategy**: Develop rich cases of forces influencing the market: from market shape, competitive analysis, positioning, changing consumer demand, and the ‘path to power’ (from 7 Powers).
+3. **Capital, or finance**: Develop rich cases of factors driving business finance and economic climates. Financial concepts like cash flow lockup, return on invested capital, margins, and their relationship with the other two categories.
+
+Internalize the relationships.
+
+Every business is a system, and developing intuition for a system requires you to watch that system in action.
 
 ## Service Business Systems Thinking
 
@@ -117,8 +141,6 @@ It’s the living dynamic between the triad that matters.  E.g., demand goes dow
 - Capital
     - Capital acquisition
     - Capital allocation
-
-Below stocks and flows are a thought in progress and could be completely wrong.
 
 Documenting flows over time enables calculating stocks at a point in time.
 
@@ -174,7 +196,7 @@ A flow variable is measured over an interval of time.
 - x̄(Non-client meeting duration)
 - Ν(Non-client meeting no-shows)
 - x̄(Non-client meeting satisfaction rating)
-- N(Invoices) (draft, deleted, open, paid, uncollectible, void)
+- N(Invoices)
 - x̄(N(Invoices) / N(Clients)) “Average invoices per client”
 - x̄(Σ(Invoice.amount_paid) / N(Clients)) “Average invoice amount paid per client”
 - N(Subscriptions)
@@ -187,7 +209,43 @@ A flow variable is measured over an interval of time.
 - x̄(Ticket lead time)
 - x̄(Client satisfaction rating)
 
+## Cognitive Agility
 
+For learning to happen people, need to have their old mental models *destroyed through visceral failure*, to make way for new models.
+
+They need to fail hard enough for the game to stop so they examine their patterns of decision making, reconstruct what happened, and compare their results to the ideal results. Only then are people ready to be facilitated to play the game with different results.
+
+People must begin to reflect on their default strategies and examine how a different approach might have accomplished their goals. Only then can people become aware of the assumptions guiding their decisions under pressure and the attendant results. They must 'deconstruct' their decisions before they can 'reorganize'.
+
+### Cognitive Transformation Theory
+#### Core Idea
+Learning consists of the *elaboration and replacement of mental models*. Mental models are limited and include knowledge shields. Knowledge shields lead to wrong diagnoses and enable the discounting of evidence.
+Therefore **learning must also involve unlearning**.
+
+#### Additional Propositions in the Theory
+- Mental models are reductive and fragmented; therefore incomplete and flawed.
+- Learning is the refinement of mental models. Mental models provide causal explanations.
+- Experts have more detailed and more sophisticated mental models than novices. Experts have more accurate causal mental models.
+- Flawed mental models are barriers to learning (knowledge shields).
+- Learning is by sense-making (discovery, reflection) as well as by teaching.
+- Refinement of mental models entails at least some un-learning (accommodation; restructuring, changes to core concepts).
+- Refinement of mental models can take the form of increased sophistication of a flawed model, making it easier for the learner to explain away inconsistencies or anomalous data.
+- Learning is discontinuous. (Learning advances when flawed mental models are replaced, and is stable when a model is refined and gets harder to disconfirm.)
+- People have a variety of fragmented mental models. “Central” mental models are causal stories.
+
+Cognitive Transformation Theory tells us that people learn when they replace flawed mental models with better ones, as a result of trial and error cycles.
+
+What makes one person more effective at trial and error when compared to another? Well, Cognitive Transformation Theory tells us that their effectiveness is limited by their ability to *unlearn previous mental models in the pursuit of better, more effective new ones*.
+
+**Sensemaking is to deliberately discover what is wrong with one’s mental models and to abandon and replace them**.
+
+As expertise increases, the work needed to replace flawed mental models *goes up*.
+
+A training program to accelerate expertise should be optimized to *break knowledge shields, and quickly*. Teams must fail in a very rapid, public manner, within a simulation that *feels* like the real company they work in. Visceral failure enables the ‘deconstruction’ phase, allowing 'reorganization' of the company’s mental models.
+
+Most people must be violently shown that their models are deficient before they are willing to learn new ones.
+
+[You can’t teach what they aren’t ready to know](https://commoncog.com/blog/you-cant-teach-what-they-arent-ready-to-know/)
 
 ## Strategic Rehearsals
 

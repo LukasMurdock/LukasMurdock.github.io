@@ -8,6 +8,17 @@ tags: business
 
 > [Brands grow by focusing on new customer acquisition, driven by increasing mental and physical availability, resulting in behaviorally loyal buyers.](https://www.themarketingstudent.com/how-brands-grow/)
 
+[Eight marketing maxims](https://seths.blog/2023/12/eight-marketing-maxims/)
+
+- Trust is worth more than attention.
+- Helping people get to where they seek to go is more effective than hustling people to persuade them to go where you’re going.
+- Choose your customers, choose your future.
+- Tell ten people. If they don’t tell the others, make a better product.
+- Creating the conditions for the word to spread is the job of the marketer.
+- Customer service is free.
+- “You’ll pay a lot but get more than you paid for,” is a useful motto.
+- Act like people are watching. They are.
+
 Is the problem you are not getting enough new prospects? Not enough trials? Too much churn?
 
 [Extreme questions for triggering ideas](https://critter.blog/2022/08/19/extreme-questions-for-triggering-ideas/):
@@ -471,3 +482,5 @@ Objects:
 - [Seth Godin: How to change the world](https://seths.blog/2023/03/how-to-change-the-world/)
 - [When customers are “willing” to pay](https://longform.asmartbear.com/willingness-to-pay)
 - [Seth Godin: The Right Marketing Question](https://seths.blog/2023/06/the-right-marketing-question/)
+- [Seth Godin: The head of marketing](https://seths.blog/2023/12/the-head-of-marketing/)
+- [Seth Godin: Eight marketing maxims](https://seths.blog/2023/12/eight-marketing-maxims/)

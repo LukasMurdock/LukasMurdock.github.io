@@ -8,8 +8,71 @@
 
 linkslist:
 
+  - Date: December 2023
+    Links:
+
+    - Title: "Ask yourself dumb questions – and answer them!"
+      Link: "https://terrytao.wordpress.com/career-advice/ask-yourself-dumb-questions-and-answer-them/"
+      Comment: "Terence Tao"
+      Date: 2023-12-25
+
+    - Title: "Respect Each Others’ Delusions"
+      Link: "https://collabfund.com/blog/respect-each-others-delusions/"
+      Comment: "Morgan Housel"
+      Date: 2023-12-25
+
+    - Title: "Wild Minds"
+      Link: "https://collabfund.com/blog/wild-minds/"
+      Comment: "Morgan Housel"
+      Date: 2023-12-25
+
+    - Title: "Mazes Sequence Summary"
+      Link: "https://thezvi.substack.com/p/mazes-sequence-summary"
+      Comment: ""
+      Date: 2023-12-24
+
+    - Title: "How to Bounded Distrust"
+      Link: "https://thezvi.substack.com/p/how-to-bounded-distrust"
+      Comment: ""
+      Date: 2023-12-24
+
+    - Title: "Long-Term News"
+      Link: "https://collabfund.com/blog/long-term-news/"
+      Comment: ""
+      Date: 2023-12-24
+
   - Date: November 2023
     Links:
+
+    - Title: "The Myth of The 1% Better Every Day Theory"
+      Link: "https://durmonski.com/self-improvement/1-better-every-day/"
+      Comment: ""
+      Date: 2023-12-23
+
+    - Title: "How to ship fast"
+      Link: "https://wraptext.equals.com/how-to-ship-fast/"
+      Comment: ""
+      Date: 2023-12-23
+
+    - Title: "Reviving decade-old Macs with antiX and MX Linux"
+      Link: "https://sts10.github.io/2022/12/14/antix-on-2008-macbook-5-1.html"
+      Comment: ""
+      Date: 2023-12-23
+
+    - Title: "Measurement, benchmarking, and data analysis are underrated"
+      Link: "https://danluu.com/why-benchmark/"
+      Comment: ""
+      Date: 2023-12-23
+
+    - Title: "The Nature of Lisp"
+      Link: "https://www.defmacro.org/ramblings/lisp.html"
+      Comment: ""
+      Date: 2023-12-23
+
+    - Title: "The midwit home"
+      Link: "https://dynomight.substack.com/p/midwit-home"
+      Comment: "Less automation and less agony"
+      Date: 2023-12-23
 
     - Title: "Titles"
       Link: "https://medium.com/@gokulrajaram/the-one-thing-ceos-should-delay-as-long-as-possible-ea28347714b0"

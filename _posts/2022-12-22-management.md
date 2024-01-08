@@ -213,3 +213,5 @@ https://adr.github.io/
 - [Handoff Waste and Taylorism](https://two-wrongs.com/handoff-waste-and-taylorism.html)
 - [Leaky Delegation: You are not a Commodity](https://www.lesswrong.com/posts/tTWL6rkfEuQN9ivxj/leaky-delegation-you-are-not-a-commodity)
 - 1970-03: [NASA SP-287: What Made Apollo a Success?](https://history.nasa.gov/SP-287/sp287.htm)
+- [Tucker Connelly: Management & Leadership](https://tuckerconnelly.com/management-leadership)
+- [Measuring developer productivity? A response to McKinsey](https://tidyfirst.substack.com/p/measuring-developer-productivity)
