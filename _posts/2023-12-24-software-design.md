@@ -694,7 +694,7 @@ TOC
     - **Advanced**: Has set up instructions for projects and knows common pitfalls. May be familiar with containers. Capable of designing simple DevOps pipelines and fully understands environment progression for product(s) they work on.
     - **Expert**: Understands almost every aspect of the infrastructure required for a solution and has optimized them for performance and simplicity. Can author rich DevOps pipelines even if their knowledge may not match a dedicated professional.
 
-### Sijin Joseph Programmer Competency Matrix
+### [Sijin Joseph Programmer Competency Matrix](https://www.sijinjoseph.com/programmer-competency-matrix/)
 
 #### Computer Science
 
