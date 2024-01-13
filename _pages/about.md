@@ -16,8 +16,6 @@ See also
 
 ---
 
-I seek to learn about various concepts and become enamored by them. Often, I cannot understand them enough to meaningfully generate the concepts at the time. At best, it will float back up in my thoughts years later, and I’ll go, “Ohhhhhhhh, so _that’s_ what that means!” ([sazen](https://www.lesswrong.com/posts/k9dsbn8LZ6tTesDS3/sazen), Sabien, 2022) At worst, articulation will instantiate wrong interpretations that will take years to undo ([knowledge shields](https://www.researchgate.net/publication/235032926_Conceptual_Understanding_and_Stability_and_Knowledge_Shields_for_Fending_Off_Conceptual_Change), Spiro et al., 1994).
-
 ## Target Audience
 The content on this website is for my future self, who is intelligent and interested, but has forgotten. So I hope to remember why I decided something by noting down everything I found interesting about it for future reference. I hope you might find some topics as interesting as I have, and the essay useful or at least entertaining–but the intended audience is my future self.
 
@@ -40,7 +38,7 @@ So a goal is to actively think about how to write material that improves with ti
 
 ## About Me
 
-I elevator pitch myself as a Designer, Developer, and Marketer, but here I try to give a more extensive view of who I am by taking a look at things I’ve spent my time learning. These are all things where I understand the joys and pains of using them, but I wouldn’t call myself a master of anything.
+I seek to learn about various concepts and become enamored by them. Often, I cannot understand them enough to meaningfully generate the concepts at the time. At best, it will float back up in my thoughts years later, and I’ll go, “Ohhhhhhhh, so _that’s_ what that means!” ([sazen](https://www.lesswrong.com/posts/k9dsbn8LZ6tTesDS3/sazen), Sabien, 2022) At worst, articulation will instantiate wrong interpretations that will take years to undo ([knowledge shields](https://www.researchgate.net/publication/235032926_Conceptual_Understanding_and_Stability_and_Knowledge_Shields_for_Fending_Off_Conceptual_Change), Spiro et al., 1994).
 
 ### Core Values
 - [Tsuyoku Naritai](https://www.lesswrong.com/posts/DoLQN5ryZ9XkZjq5h/tsuyoku-naritai-i-want-to-become-stronger)–I want to become stronger.
@@ -80,82 +78,6 @@ I elevator pitch myself as a Designer, Developer, and Marketer, but here I try t
 - Trust by default.
 - [You have to trust your self](https://lukasmurdock.com/realize/#you-have-to-trust-your-self).
 - [We need you](https://lukasmurdock.com/realize/#we-need-you-to-make-a-ruckus).
-
-
-### Technical Things I’ve Learned
-Various technologies I dove into before I started tracking when I learned them. (Before I turned 20)
-- macOS
-- Windows
-- iOS
-- Adobe After Effects
-- Adobe Premiere Pro
-- Adobe Illustrator
-- Adobe Photoshop
-- Affinity Designer
-- Affinity Photo
-- Affinity Publisher
-- DaVinci Resolve
-- Final Cut Pro X
-- Motion 5
-- Microsoft Office
-- <del>G Suite</del> Google Workspace
-- Google Search Console
-- Wordpress
-- Netlify
-- GitHub
-- Jekyll
-- HTML
-- CSS
-- JS
-- Liquid
-
-### Technical Things I’ve learned in 2022
-- Remix.js
-- Fly.io
-- API design
-- Supabase
-
-### Technical Things I learned in 2021
-- Docker
-- Tailwind
-- Next.js
-- React.js
-- Node.js
-- Vercel
-- Firebase
-- Cypress
-- Sanity
-- Serverless
-- Jamstack
-- GCP
-- AWS
-- Java
-
-### Technical Things I Learned in 2020
-- Content Marketing
-- SQL
-- Email Marketing
-- Salesforce
-- Salesforce Pardot
-- RSS feeds
-- Schema Markup
-- Ahrefs
-- Screaming Frog
-- DNS
-- Google Tag Manager
-- Google Analytics
-- Google Data Studio
-- Netlify Functions
-- Google Web Stories
-- Atom Feeds
-- Ruby
-
-### Technical Things I Don’t Know
-- Gatsby
-- GraphQL
-- SCSS / Sass
-- GSAP
-- Three.js
 
 ### Things I want to learn
 
@@ -233,7 +155,7 @@ In no particular order
 See: [uses](/uses)
 
 ### Mailing Lists
-* [Currently building list on Airtable](https://airtable.com/shrJNX4hOeufXgfOX)
+* [2021 list](https://airtable.com/shrJNX4hOeufXgfOX)
 
 ### Personality
 
@@ -250,7 +172,7 @@ See: [uses](/uses)
 
 #### Enneagram
 
-type 5 ()
+type 5 - 5w6 wing (last taken 2023-01-13)
 - [site 1 (take test here)](https://www.eclecticenergies.com/enneagram/type5)
 - [site 2](https://www.enneagraminstitute.com/type-5)
 - [site 3](https://www.crystalknows.com/enneagram/type-5/wing-6)
@@ -498,12 +420,3 @@ My favorite fonts on Google Fonts.
 
 ##### Soft-serif
 - [Fraunces](https://github.com/undercasetype/fraunces)
-
-##### Slab Serif
-
-
-### 💩 List
-- [Adobe](https://en.wikipedia.org/wiki/Adobe_Inc.#Criticisms)
-- [GoDaddy](https://en.wikipedia.org/wiki/GoDaddy#Controversies)
-- [Pearson](https://en.wikipedia.org/wiki/Pearson_plc#Criticism)
-- [Proctorio](/learning-integrity/)
