@@ -16,6 +16,8 @@ See also
 
 ---
 
+I seek to learn about various concepts and become enamored by them. Often, I cannot understand them enough to meaningfully generate the concepts at the time. At best, it will float back up in my thoughts years later, and I’ll go, “Ohhhhhhhh, so _that’s_ what that means!” ([sazen](https://www.lesswrong.com/posts/k9dsbn8LZ6tTesDS3/sazen), Sabien, 2022) At worst, articulation will instantiate wrong interpretations that will take years to undo ([knowledge shields](https://www.researchgate.net/publication/235032926_Conceptual_Understanding_and_Stability_and_Knowledge_Shields_for_Fending_Off_Conceptual_Change), Spiro et al., 1994).
+
 ## Target Audience
 The content on this website is for my future self, who is intelligent and interested, but has forgotten. So I hope to remember why I decided something by noting down everything I found interesting about it for future reference. I hope you might find some topics as interesting as I have, and the essay useful or at least entertaining–but the intended audience is my future self.
 

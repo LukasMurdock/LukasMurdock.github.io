@@ -8,6 +8,41 @@ tags: business
 
 # Expertise
 
+In _[Education, a first book](https://archive.org/details/educationfirstbo00thor)_ (1912), Edward Thorndike
+https://www.jstor.org/stable/1076195 writes
+
+> Ten minutes of practice with full zeal, the worker being keen to do his very best and joyous at every advance in his accomplishment, is worth an hour of work done to avoid a worse fate or of play engaged in to pass away time.
+>
+> [Thorndike, _Education, a first book_, 1910, p. 524)](https://archive.org/details/educationfirstbo00thor/page/112/mode/2up)
+
+> To qualify as deliberate, practice activities should:
+> 1) Capture important aspects of complex performance;
+> 2) Be observable and measurable;
+> 3) Offer timely and objective feedback;
+> 4) Enable repeated engagement for refinement of skills;
+> 5) Be designed, assigned, and monitored by a coach, instructor, or mentor; 6) Address specific deficiencies in performance; and
+> 7) Require concentrated effort that is not inherently enjoyable but rather is engaged in with the goal of improving performance.
+>
+> — Fadde et al., [Learning with Zeal](https://academic.oup.com/edited-volume/34285/chapter-abstract/290671362?redirectedFrom=fulltext&login=false), 2019, p. 2)
+
+Learning with Zeal defines a continuum of cultures of expertise in professions.
+- Culture of Study, type 2, e.g,. history
+- Culture of Practice, type 1, e.g., sports, music
+- Culture of Experience, type 2, e.g., teaching
+
+> On an implementation level, teachers, trainers, coaches, and instructional designers working in type 1 domains are challenged with making better use of their familiar deliberate practice framework. In type 2 domains the challenge is to adapt the unfamiliar deliberate performance framework to fit the culture.
+>
+> — Learning with Zeal
+
+> Even highly motivated performers have limited time or inclination to pursue deliberate practice activities. Their access to performance coaches who can direct a program of deliberate practice is also limited and, in most cases, working professionals must act as self- regulated learners who assume responsibility for developing their own expertise (Zimmerman, 2006). Whether directed by a coach or by a self-regulated performer, it is difficult to manage the learning of tacit knowledge that is learned implicitly (Klein & Hoffman, 1993).
+>
+> — Learning with Zeal, p. 14
+
+
+- Expertise-Based Training (XBT) (Fadde, 2009a): interactive training with still or video images or recordings and representative tasks for recall, detection, categorization, and prediction.
+- Expert Performance-Based Training (ExPerT) (Ward, Suss, & Basevitch, 2009): a framework for identifying relevant skills, devising training activities that address these skills, and suggesting iterative rounds of evaluation and training.
+- ShadowBox (Borders, Polander, Klein, & Wright, 2015): read a scenario, presented on paper or on a computer, which pauses at various decision points with a list of observations or decisions to prioritize; decisions are then shown the priorities, along with explanatory comments, made by a panel of experts who had completed the same scenario.
+
 ## A land and expand reading program on expertise
 
 - Accelerated Expertise
