@@ -215,3 +215,7 @@ https://adr.github.io/
 - 1970-03: [NASA SP-287: What Made Apollo a Success?](https://history.nasa.gov/SP-287/sp287.htm)
 - [Tucker Connelly: Management & Leadership](https://tuckerconnelly.com/management-leadership)
 - [Measuring developer productivity? A response to McKinsey](https://tidyfirst.substack.com/p/measuring-developer-productivity)
+- [High Variance Management](https://blog.sbensu.com/posts/high-variance-management/)
+- [Demings 14 points](https://deming.org/explore/fourteen-points/)
+- [Kashs garden](https://seths.blog/2024/01/kashs-garden/)
+- [Guide to the Theory of Constraints](https://www.dbrmfg.co.nz/)

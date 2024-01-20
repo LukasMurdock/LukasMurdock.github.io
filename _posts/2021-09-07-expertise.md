@@ -8,8 +8,7 @@ tags: business
 
 # Expertise
 
-In _[Education, a first book](https://archive.org/details/educationfirstbo00thor)_ (1912), Edward Thorndike
-https://www.jstor.org/stable/1076195 writes
+In _[Education, a first book](https://www.jstor.org/stable/1076195)_ (1912), Edward Thorndike writes
 
 > Ten minutes of practice with full zeal, the worker being keen to do his very best and joyous at every advance in his accomplishment, is worth an hour of work done to avoid a worse fate or of play engaged in to pass away time.
 >

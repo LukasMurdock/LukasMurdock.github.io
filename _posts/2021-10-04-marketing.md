@@ -484,3 +484,7 @@ Objects:
 - [Seth Godin: The Right Marketing Question](https://seths.blog/2023/06/the-right-marketing-question/)
 - [Seth Godin: The head of marketing](https://seths.blog/2023/12/the-head-of-marketing/)
 - [Seth Godin: Eight marketing maxims](https://seths.blog/2023/12/eight-marketing-maxims/)
+- [The "Talk vs Walk" workshop](https://longform.asmartbear.com/talk-vs-walk/)
+- [Nonprofit Brand Score](https://www.hyperakt.com/brand-score)
+- [The roadmap to Product/Market Fit](https://longform.asmartbear.com/product-market-fit-formula)
+- [How repositioning a product allows you to 8x its price](https://longform.asmartbear.com/more-value-not-save-money/)

@@ -39,6 +39,7 @@ Brand shops:
 - [Golden Arches Unlimited](https://goldenarchesunlimited.com/)
 - [Chick-fil-a](https://shop.chick-fil-a.com/)
 - [Little Caesars: Hot-n-ready shop](https://hotnreadyshop.com/)
+- [Wonderbread Wondershop](https://wonderbread.ca/wondershop/)
 
 And in other weird brand integrations…
 - [MICHELIN Guide](https://guide.michelin.com/en/restaurants)

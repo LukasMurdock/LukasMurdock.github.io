@@ -73,3 +73,5 @@ date: 'January 04, 2023'
 [Dan Luu: Programming book recommendations and anti-recommendations](https://danluu.com/programming-books/)
 
 [Oxford Reference](https://www.oxfordreference.com/)
+
+[Nathaniel Eliason](https://www.nateliason.com/notes)

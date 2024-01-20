@@ -172,7 +172,7 @@ See: [uses](/uses)
 
 #### Enneagram
 
-type 5 - 5w6 wing (last taken 2023-01-13)
+type 5 - 5w6 wing (taken: ~2021, 2023)
 - [site 1 (take test here)](https://www.eclecticenergies.com/enneagram/type5)
 - [site 2](https://www.enneagraminstitute.com/type-5)
 - [site 3](https://www.crystalknows.com/enneagram/type-5/wing-6)

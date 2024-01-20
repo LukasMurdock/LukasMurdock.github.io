@@ -106,3 +106,13 @@ principlelist:
     - list: Exaggeration
     - list: Solid drawing
     - list: Appeal
+
+  - Title: Fredrick Lewis Donaldson Seven Social Sins
+    Principles:
+    - list: Wealth without work
+    - list: Pleasure without conscience
+    - list: Knowledge without character
+    - list: Commerce without morality
+    - list: Science without humanity
+    - list: Religion without sacrifice
+    - list: Politics without principle

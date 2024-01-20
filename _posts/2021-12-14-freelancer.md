@@ -21,6 +21,8 @@ Words:
 - [Notes On Owning Your Own Business](https://www.rosshartshorn.net/stuffrossthinksabout/small_bus_blog_post/)
 - [Ask HN: How do you start contracting?](https://news.ycombinator.com/item?id=29864014)
 - [Contracting and taxes explained](http://www.adambourg.com/contracting/1099/us-taxes/2020/11/05/Contracting-and-taxes-explained.html)
+- [Profitability tree guide](https://www.craftingcases.com/profitability-tree-guide/)
+- [The Consultant’s Role](https://davidmaister.com/articles/the-consultants-role/)
 
 Books:
 - The Freelancers Bible
