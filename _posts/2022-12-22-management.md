@@ -6,6 +6,10 @@ date: 'December 22, 2022'
 tags: business
 ---
 
+> Management is the act of aligning peoples actions, behaviors, and attitudes with the needs of the organization, and making sure little problems don’t become big ones.
+>
+> — Patrick Lencioni, The Motive
+
 Management is a core [business challenge](/business-challenges/).
 
 Internal:
