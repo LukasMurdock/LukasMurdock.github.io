@@ -8,7 +8,7 @@ date: 'January 21, 2024'
 What’s your [axis of better](/ideas-need-an-axis/)?
 - Performance
 - Accessibility
-- SEO
+- Scalability
 - Security
 - Engagement
 - Delight (design, surprise, emotion, affinity)
