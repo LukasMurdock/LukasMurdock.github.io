@@ -5,14 +5,53 @@ description: ''
 date: 'January 21, 2024'
 ---
 
-- [HTML Living Standard](https://html.spec.whatwg.org/multipage/)
-- [WAI-ARIA Standard](https://www.w3.org/TR/wai-aria/)
-- [WCAG](https://www.w3.org/TR/WCAG22/)
-- [CSS Specifications](https://www.w3.org/Style/CSS/specs.en.html)
-- [ECMA-262 -- ECMAScript® 2023 language specification](https://ecma-international.org/publications-and-standards/standards/ecma-262/)
-- [Hypertext Transfer Protocol -- HTTP/1.1](https://www.rfc-editor.org/rfc/rfc2616)
-- [WebRTC](https://www.w3.org/TR/webrtc/)
-- [WebAssembly](https://webassembly.org/specs/)
+What’s your [axis of better](/ideas-need-an-axis/)?
+- Performance
+- Accessibility
+- SEO
+- Security
+- Engagement
+- Delight (design, surprise, emotion, affinity)
+
+Why do these things actually matter? To [make it count](/make-it-count/).
+
+Common website elements that make it count
+- Services with clear positioning
+- Contact form
+- Customer success stories / use cases
+- Testimonials
+- Past partnerships
+- Press mentions / awards and recognitions
+- Portfolio / case studies
+- Virtual tour
+- FAQ
+- Team
+- Event calendar
+- News
+    - Email
+    - RSS
+    - SMS
+    - Social media
+- Live chat
+- Resources
+- Community forum / discussion board
+- Jobs / careers
+- Interactive map / location finder
+- Interactive tools (e.g., calculators, quizzes)
+- Helpful 404
+- Badges / points / achievements
+
+---
+
+- Relevant standards
+    - [HTML Living Standard](https://html.spec.whatwg.org/multipage/)
+    - [WAI-ARIA Standard](https://www.w3.org/TR/wai-aria/)
+    - [WCAG](https://www.w3.org/TR/WCAG22/)
+    - [CSS Specifications](https://www.w3.org/Style/CSS/specs.en.html)
+    - [ECMA-262 -- ECMAScript® 2023 language specification](https://ecma-international.org/publications-and-standards/standards/ecma-262/)
+    - [Hypertext Transfer Protocol -- HTTP/1.1](https://www.rfc-editor.org/rfc/rfc2616)
+    - [WebRTC](https://www.w3.org/TR/webrtc/)
+    - [WebAssembly](https://webassembly.org/specs/)
 
 ---
 
@@ -56,8 +95,10 @@ date: 'January 21, 2024'
     - RSS
     - SMS
     - Social media
-- Search Engine Optimization (SEO)
+- Security
     - TLS certificate
+    - Content Security Policy (CSP)
+- Search Engine Optimization (SEO)
     - Crawling and indexing
         - [URL structure](https://developers.google.com/search/docs/crawling-indexing/url-structure)
         - [Links](https://developers.google.com/search/docs/crawling-indexing/links-crawlable)
@@ -66,5 +107,4 @@ date: 'January 21, 2024'
         - [Crawl budget](https://developers.google.com/search/docs/crawling-indexing/large-site-managing-crawl-budget)
         - [Canonicalization](https://developers.google.com/search/docs/crawling-indexing/canonicalization)
         - [Metadata](https://developers.google.com/search/docs/crawling-indexing/valid-page-metadata)
-    - Content Security Policy (CSP)
     - Backlinks
