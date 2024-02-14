@@ -9,12 +9,12 @@
           </figure>
           {% endif %}
           <!-- </div> -->
-      
+
           <div class="index-text mobile-transition-underline">
             <h2 class="index-title" style="margin:0px;">{{ post.title }}</h2>
             <p style="margin: 0px;">{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | truncatewords: 16 }}{% endif %}</p>
 
-            <p class="index-title" style="font-size: var(--font-small); font-weight: 400; margin:0px;">{{ post.date | date: '%B %d, %Y' }}</p>
+            <p class="index-title" style="font-size: var(--font-small); font-weight: 400; margin:0px;">{{ post.date | date: '%B %d, 0%Y' }}</p>
           </div>
       </div>
     </div>
