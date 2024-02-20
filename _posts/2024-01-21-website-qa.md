@@ -58,6 +58,7 @@ Common website elements that make it count
 - Legal
     - The Americans With Disability Act (ADA) ([Title III](https://www.ada.gov/topics/title-iii/))
         - [Guidance on Web Accessibility and the ADA](https://www.ada.gov/resources/web-guidance/)
+    - 21st Century Communications and Video Accessibility Act ([CVAA](https://www.fcc.gov/cvaa))
     - Rehabilitation Act of 1973 ([Section 508](https://www.access-board.gov/about/law/ra.html#section-508-federal-electronic-and-information-technology))
     - [California Privacy Rights Act (CPRA)](https://cppa.ca.gov/regulations/)
     - [Health Insurance Portability and Accountability Act (HIPAA)](https://www.cdc.gov/phlp/publications/topic/hipaa.html)

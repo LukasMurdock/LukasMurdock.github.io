@@ -139,6 +139,8 @@ A simple evaluation of your skill might go something like this:
 3. What are the financial metrics and capital climate for this particular business? What do your competitors or peers in adjacent markets get that you do not?
 4. Can you predict how changes in each leg affect the other two, at least for your specific industry?
 
+Like [every cause wants to be a cult](https://www.lesswrong.com/posts/yEjaj7PWacno5EvWa/every-cause-wants-to-be-a-cult), every business [wants](https://www.youtube.com/watch?v=ggUduBmvQ_4) to [be](https://www.youtube.com/watch?v=mr039xnco-8) a [bank](https://www.wired.com/story/tech-companies-banks/) (switching costs, cornered resource). [The curse of capital management](https://two-wrongs.com/the-curse-of-capital-management).
+
 It’s the living dynamic between the triad that matters.  E.g., demand goes down, it instantly changes the opportunities and constraints in the other two.
 
 Deliberately and systematically acquire skills in each of the three categories, specific to your particular business, and then — more importantly — *cultivate an understanding of the relationships between the three categories*.
