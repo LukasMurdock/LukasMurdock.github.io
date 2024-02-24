@@ -78,6 +78,27 @@ date: 'March 10, 2023'
 - Focus on reducing ambiguity (vs) Do not focus on reducing ambiguity
 
 
+## Confidence level
+
+For expressions of likelihood or probability, use one of the following sets of
+terms. Source:
+[Intelligence Community Directives 203: Analytic Standards](https://www.dni.gov/files/documents/ICD/ICD-203_TA_Analytic_Standards_21_Dec_2022.pdf)
+
+| Probability Term    | Synonym                 | Percentage Range |
+| ------------------- | ----------------------- | ---------------- |
+| almost no chance    | remote                  | 01-05%           |
+| very unlikely       | highly improbable       | 05-20%           |
+| unlikely            | improbable (improbably) | 20-45%           |
+| roughly even chance | roughly even odds       | 45-55%           |
+| likely              | probable (probably)     | 55-80%           |
+| very likely         | highly probable         | 80-95%           |
+| almost certain(ly)  | nearly certain          | 95-99%           |
+
+Note causes of uncertainty ( e.g., type, currency, and amount of information,
+knowledge gaps, and the nature of the issue) and explain how uncertainties
+affect analysis (e.g., to what degree and how a judgment depends on assumptions)
+
+
 ---
 
 - [Carl Braun’s Writing Lessons for Clear Thinking and Productive Communication](https://fs.blog/carl-braun-communicating/)

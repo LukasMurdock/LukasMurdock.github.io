@@ -90,10 +90,10 @@ Moved to [/wtl](/wtl)
 ### Companies I’ve Worked For
 
 March 2023 – Present
-**[SkyCatchFire](https://www.skycatchfire.com/)** • *JavaScript Application Developer* • Remote
+**[SkyCatchFire](https://www.skycatchfire.com/)** • *Application Developer* • Remote
 
 March 2021 – March 2023
-**[Virra](https://virramarketing.com/)** • *Front End Developer* • Remote
+**[Virra](https://virramarketing.com/)** • *Full-Stack Developer* • Remote
 
 August 2020 – March 2021
 **[Loganix](https://loganix.com/)** • *Content Strategist* • Remote
