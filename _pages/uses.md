@@ -29,6 +29,7 @@ tags: me
 * Samsung 34" SJ55W Ultra WQHD Monitor
     * (alt) Lenovo ThinkVision 22" T2254pC – mounted vertically
 * Philips Hue Go Light
+* soundcore Motion+
 
 
 ## Subscriptions
@@ -42,12 +43,12 @@ tags: me
 - [Brand New](https://www.underconsideration.com/brandnew/)
 - [Monica CRM](https://www.monicahq.com/)
 - [Nebula](https://nebula.tv/)
-- [Quizlet](https://quizlet.com/) (turned of auto-renewal on 2023-05-23)
+- [Quizlet](https://quizlet.com/) (turned off auto-renewal on 2023-05-23)
 - [Consumer Reports](https://www.consumerreports.org/)
 
 Have previously subscribed to:
 
-- Youtube Music (cancelled 2021-01-07)
+- Youtube Music (cancelled 2021-01-07) (renewed when YouTube began cracking down on ad-blockers)
 - Stadia (rip)
 - [Mailbrew](https://mailbrew.com/)
 - [Clean Email](https://clean.email/) (cancelled 2021-11-18)
