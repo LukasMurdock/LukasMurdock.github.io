@@ -561,6 +561,11 @@ fulldata:
         Comment: "A few dos and don’ts on how to give a great talk."
         Date: February 04, 2021
 
+      - Title: "Speaking for Hackers"
+        Link: "https://sfhbook.netlify.app/"
+        Comment: ""
+        Date: 2024-03-23
+
       - Title: 1 on 1 Meeting Questions
         Link: https://github.com/VGraupera/1on1-questions
         Comment: "Mega list of 1 on 1 meeting questions compiled from a variety to sources."
@@ -4027,6 +4032,11 @@ fulldata:
         Link: "https://sinerider.com/"
         Comment: ""
         Date: 2023-05-28
+
+      - Title: "Simulating Fluids, Fire, and Smoke in Real-Time"
+        Link: "https://andrewkchan.dev/posts/fire.html"
+        Comment: ""
+        Date: 2024-03-23
 
 
 

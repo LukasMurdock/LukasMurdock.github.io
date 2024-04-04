@@ -76,3 +76,6 @@ setInterval(removeFixedStickyElements, 5000);
 
 ## ct.css
 Take a look inside your `<head>` with [ct.css](https://csswizardry.com/ct/).
+
+
+[Add CSS Bookmarklet](https://rocktronica.github.io/Add-CSS-Bookmarklet/)

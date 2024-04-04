@@ -8,8 +8,188 @@
 
 linkslist:
 
+  - Date: February 2024
+    Links:
+
+    - Title: "Helen (unit)"
+      Link: "https://en.wikipedia.org/wiki/Helen_(unit)"
+      Comment: ""
+      Date: 2024-03-23
+
+    - Title: "Bloom Filters"
+      Link: "https://samwho.dev/bloom-filters/"
+      Comment: ""
+      Date: 2024-03-23
+
+    - Title: "AT&T Archives: The Astonishing, Unfailing Bell System (1967)"
+      Link: "https://youtu.be/ZAJpionUxJ8?si=k73og5WhsB2-ssOA"
+      Comment: ""
+      Media: video
+      Date: 2024-03-23
+
+    - Title: "Do Things The Long, Hard, Stupid Way"
+      Link: "https://youtu.be/WjSOZI90PmE?si=A5F0vHAVSrR-BsPj"
+      Comment: "Frank Chimero"
+      Date: 2024-03-23
+
+    - Title: "Make or buy?"
+      Link: "https://seths.blog/2024/02/make-or-buy/"
+      Comment: ""
+      Date: 2024-03-23
+
+    - Title: "Virtual Stickers to Manage Replies By"
+      Link: "https://kottke.org/24/02/virtual-stickers-to-manage-replies-by"
+      Comment: ""
+      Date: 2024-03-23
+
   - Date: January 2024
     Links:
+
+    - Title: "History has no lessons for you: a warning for policymakers"
+      Link: "https://warontherocks.com/2024/02/history-has-no-lessons-for-you-a-warning-for-policymakers/"
+      Comment: ""
+      Date: 2024-03-23
+
+    - Title: "Internal Logic: What Is Our Business For?"
+      Link: "https://www.onhumanenterprise.com/internal-logic-business"
+      Comment: ""
+      Date: 2024-03-23
+
+    - Title: "Evaluating icons"
+      Link: "https://blog.streamlinehq.com/evaluating-icons/"
+      Comment: ""
+      Date: 2024-03-23
+
+    - Title: "The Emperor’s Old Clothes"
+      Link: "https://dl.acm.org/doi/pdf/10.1145/1283920.1283936"
+      Comment: "The 1980 ACM Turing Award Lecture"
+      Date: 2024-03-23
+
+    - Title: " It Can Be Done"
+      Link: "https://multicians.org/andre.html"
+      Comment: "A story about quality from the development of the Multics operating system."
+      Date: 2024-03-23
+
+    - Title: "TBM 272: The Biggest Opportunity (Part 2)"
+      Link: "https://cutlefish.substack.com/p/tbm-272-the-biggest-opportunity-part"
+      Comment: ""
+      Date: 2024-03-23
+
+    - Title: "File over app"
+      Link: "https://stephango.com/file-over-app"
+      Comment: ""
+      Date: 2024-03-23
+
+    - Title: "Why I Live in IRC"
+      Link: "https://aaronparecki.com/2015/08/29/8/why-i-live-in-irc"
+      Comment: ""
+      Date: 2024-03-23
+
+    - Title: "Instinctive sleeping and resting postures: an anthropological and zoological approach to treatment of low back and joint pain"
+      Link: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1119282/"
+      Comment: ""
+      Date: 2024-03-23
+
+    - Title: "Your Security Program Is Shit"
+      Link: "https://crankysec.com/blog/shite/"
+      Comment: ""
+      Date: 2024-03-23
+
+    - Title: "A unified theory of fucks"
+      Link: "https://aworkinglibrary.com/writing/unified-theory-of------"
+      Comment: "Good work is the art of giving a fuck about the living."
+      Date: 2024-03-23
+
+    - Title: "The web, past and future | Web Foundation"
+      Link: "https://youtu.be/cCE2EyV_IiY?si=8x1TyzvdgBGG8K0B"
+      Comment: "ForEveryone.net | Web Foundation"
+      Media: video
+      Date: 2024-03-23
+
+    - Title: "Why You’ve Never Been In A Plane Crash"
+      Link: "https://asteriskmag.com/issues/05/why-you-ve-never-been-in-a-plane-crash"
+      Comment: "It’s often much more productive to ask why than to ask who."
+      Date: 2024-03-23
+
+    - Title: "Work hard and take everything really seriously"
+      Link: "https://macwright.com/2024/01/28/work-hard-and-take-everything-seriously.html"
+      Comment: ""
+      Date: 2024-03-23
+
+    - Title: "Total Wipeout - First To Defeat The Balls! - BBC One"
+      Link: "https://youtu.be/ufc030OfmE0?si=eUpE7ZkgbKjF7fmY"
+      Comment: ""
+      Media: video
+      Date: 2024-03-23
+
+    - Title: "Just"
+      Link: "https://www.todepond.com/wikiblogarden/better-computing/just/"
+      Comment: "I don’t like that word."
+      Date: 2024-03-23
+
+    - Title: "Dieter Rams on Creative Engineers"
+      Link: "https://ryanparman.com/posts/2012/dieter-rams-on-creative-engineers/"
+      Comment: ""
+      Date: 2024-03-23
+
+    - Title: "Becoming Data Driven, From First Principles"
+      Link: "https://commoncog.com/becoming-data-driven-first-principles/"
+      Comment: ""
+      Date: 2024-03-23
+
+    - Title: "On owning Software"
+      Link: "https://avdi.codes/on-owning-software/"
+      Comment: ""
+      Date: 2024-03-23
+
+    - Title: "Signing Party"
+      Link: "https://www.folklore.org/Signing_Party.html"
+      Comment: ""
+      Date: 2024-03-23
+
+    - Title: "V.90 Dial-up Modem Handshake - Transactional Analysis"
+      Link: "https://youtu.be/VaWpi9o_hHI?si=LNvSwFwOJrwTT7o6"
+      Comment: ""
+      Media: video
+      Date: 2024-03-23
+
+    - Title: "The Stanley water bottle craze, unpacked"
+      Link: "https://youtu.be/vrUWQ56GeyU?si=Sf2srSw3azNOMl-D"
+      Comment: ""
+      Media: video
+      Date: 2024-03-23
+
+    - Title: "The "your own finger" speech from Willow"
+      Link: "https://youtu.be/kMQUW4pMl8E?si=F-PMVxlVmJh8pgDn"
+      Comment: "Forget all you know, or think you know. All that you require is your intuition. Now, the power to control the world is in which finger?"
+      Media: video
+      Date: 2024-03-23
+
+    - Title: "The Complete History & Strategy of Costco"
+      Link: "https://www.acquired.fm/episodes/costco"
+      Comment: ""
+      Date: 2024-03-23
+
+    - Title: "Examples of Great URL Design"
+      Link: "https://blog.jim-nielsen.com/2023/examples-of-great-urls/"
+      Comment: ""
+      Date: 2024-03-23
+
+    - Title: "The Essentials of Problem Solving"
+      Link: "https://youtu.be/6DxTQiJuAoc?si=9ZRUhteEKh0i1B7g"
+      Comment: ""
+      Media: video
+      Date: 2024-03-23
+
+    - Title: "Good problems to have"
+      Link: "https://longform.asmartbear.com/good-problems-to-have"
+      Comment: ""
+      Date: 2024-03-23
+
+    - Title: "Competitor Research and Strategy"
+      Link: "https://patticus.com/2023/12/16/competitive-research-playbook/"
+      Comment: ""
+      Date: 2024-03-23
 
     - Title: "Test Multiple Variables at Once"
       Link: "https://www.youtube.com/watch?v=5oULEuOoRd0"

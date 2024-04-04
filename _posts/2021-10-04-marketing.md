@@ -488,3 +488,4 @@ Objects:
 - [Nonprofit Brand Score](https://www.hyperakt.com/brand-score)
 - [The roadmap to Product/Market Fit](https://longform.asmartbear.com/product-market-fit-formula)
 - [How repositioning a product allows you to 8x its price](https://longform.asmartbear.com/more-value-not-save-money/)
+- [Using the Needs Stack for competitive strategy](https://longform.asmartbear.com/needs-stack/)

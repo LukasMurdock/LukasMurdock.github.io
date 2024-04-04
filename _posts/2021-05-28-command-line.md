@@ -20,6 +20,9 @@ First, I’m currently running an Intel Mac, and using Homebrew as a package man
 - [Cascadia 2011 - The Unix Chainsaw by Gary Bernhardt](https://youtu.be/ZQnyApKysg4?si=XhGtCCBgzJKwiuwc)
 
 ## Git
+
+[So You Think You Know Git - FOSDEM 2024](https://youtu.be/aolI_Rz0ZqY?si=izuLPr8S0rWGby7r)
+
 ```
 git status
 git add <file>
@@ -116,6 +119,7 @@ function codeplease {
 - carbon-now
 - github-cli
 - ghostscript
+- [comm](https://www.man7.org/linux/man-pages/man1/comm.1.html)
 
 ## Handy NPM Packages
 - (Manage NPM with volta (`volta install npm@7`))

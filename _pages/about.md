@@ -67,7 +67,9 @@ I seek to learn about various concepts and become enamored by them. Often, I can
 - Slow down, deliberate
 - Strong opinions, loosely held
 - Less, but better
+- [Everything is a file](https://en.wikipedia.org/wiki/Everything_is_a_file)
 - [Everything must be paid for twice](https://www.raptitude.com/2022/01/everything-must-be-paid-for-twice/)
+- [There’s always a trade-off.](https://www.todepond.com/wikiblogarden/better-computing/just/)
 - [It’s okay to not like things](https://youtu.be/0la5DBtOVNI)
 - [Idea labs, not echo chambers](https://waitbutwhy.com/2019/10/idea-labs-echo-chambers.html)
 - Long-term games with long-term people
@@ -132,7 +134,8 @@ In no particular order
 - Japan
     - [Patio11 recs](https://www.kalzumeus.com/japan-recommendations/)
     - [Ise Grand Shrine](https://en.wikipedia.org/wiki/Ise_Grand_Shrine) in 2033!
-- Germany
+- Germany, Halberstadt
+    - [St. Burchardi church](https://en.wikipedia.org/wiki/As_Slow_as_Possible) in 2026
 - Brazil
 - China
 - France
@@ -424,3 +427,7 @@ My favorite fonts on Google Fonts.
 
 ##### Soft-serif
 - [Fraunces](https://github.com/undercasetype/fraunces)
+
+#### Wild
+
+- [Chartwell](https://www.vectrotype.com/chartwell)

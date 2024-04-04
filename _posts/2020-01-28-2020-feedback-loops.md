@@ -42,3 +42,4 @@ Moving forward we need to see how we can enhance our own feedback loops. Just be
 - [Want feedback? Demand it.](https://critter.blog/2022/07/29/want-feedback-demand-it/)
 - [Get more out of design reviews](https://grillopress.github.io/2023/11/26/get-more-out-of-design-reviews.html)
 - [Proportional–integral–derivative controller](https://en.wikipedia.org/wiki/Proportional%E2%80%93integral%E2%80%93derivative_controller)
+- [Feedback 101](https://critter.blog/2024/01/11/feedback-101-chapter-rough-draft/)
