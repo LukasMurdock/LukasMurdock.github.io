@@ -41,7 +41,6 @@ a[data-link-icon-type*='text']::after {
 
     content: var(--link-icon);
     font-size: var(--link-icon-size);
-    font-weight: 600;
     font-style: normal;
     /* font-family: var(--link-icon-font-serif); */
     margin: 0 0 0 var(--link-icon-offset-x);
