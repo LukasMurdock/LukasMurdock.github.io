@@ -20,6 +20,7 @@ tags: me
 * iPhone 12 mini
 * <del>Kindle Paperwhite 10th Gen (PQ94WIF)</del>
 * iPad mini (MK7V3LL/A)
+* Apple Watch series 9 with GPS, 45mm Midnight Aluminum case
 
 ### Other Hardware
 
