@@ -97,6 +97,13 @@ The 5 Love Languages by Gary Chapman:
 
 [A Divorce Attorney's Thoughts On Love and Marriage-James Sexton](https://youtu.be/o5z8-9Op2nM?si=kZJbB-UxX8w7_NsL)
 
+[Too Good to Leave, Too Bad to Stay by Mira Kirshenbaum](https://www.samuelthomasdavies.com/book-summaries/self-help/too-good-to-leave-too-bad-to-stay/)
+
+
+[Looking for Alice](https://www.henrikkarlsson.xyz/p/looking-for-alice)
+
+[Relationships are coevolutionary loops](https://www.henrikkarlsson.xyz/p/making-a-home-together)
+
 ## Family
 
 Family is charted on a steep decline until the late 20s before making the slightest rebound around 40. So, see you then.

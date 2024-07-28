@@ -8,11 +8,12 @@ icons: true
 
 ---
 
-See also
+See other [slash pages](https://slashpages.net/)
 
 - [Now](/now) - what I am focused on at this point in my life.
 - [Uses](/uses) - what I use
 - [Want to learn](/wtl) - what I want to learn
+- [Colophon](/colophon) - how this site is made
 
 ---
 
@@ -45,17 +46,19 @@ So a goal is to actively think about how to write material that improves with ti
 I seek to learn about various concepts and become enamored by them. Often, I cannot understand them enough to meaningfully generate the concepts at the time. At best, it will float back up in my thoughts years later, and I’ll go, “Ohhhhhhhh, so _that’s_ what that means!” ([sazen](https://www.lesswrong.com/posts/k9dsbn8LZ6tTesDS3/sazen), Sabien, 2022) At worst, articulation will instantiate wrong interpretations that will take years to undo ([knowledge shields](https://www.researchgate.net/publication/235032926_Conceptual_Understanding_and_Stability_and_Knowledge_Shields_for_Fending_Off_Conceptual_Change), Spiro et al., 1994).
 
 ### Core Values
-- [Tsuyoku Naritai](https://www.lesswrong.com/posts/DoLQN5ryZ9XkZjq5h/tsuyoku-naritai-i-want-to-become-stronger)–I want to become stronger.
-    - The important thing is to do better, to keep moving ahead, to take one more step forward.
+- [Be serious about the things that matter to you](/serious)
+    - [Tsuyoku Naritai](https://www.lesswrong.com/posts/DoLQN5ryZ9XkZjq5h/tsuyoku-naritai-i-want-to-become-stronger)–I want to become stronger. The important thing is to do better, to keep moving ahead, to take one more step forward.
     - [Be serious about the things that matter to you.](https://visakanv.substack.com/p/are-you-serious)
+    - [Surely you can be serious](https://www.experimental-history.com/p/surely-you-can-be-serious)
     - The standard pace is for chumps. [There is no speed limit](https://sive.rs/kimo).
-- Process over outcome.
+- [Process over outcome](/process)
     - Infinite games over finite games
     - First-time mistakes are common and expected. Second-time mistakes means there‘s a problem with a process. Third-time mistakes means there needs to be an intervention.
 - Think Less Wrong and act Long Now
 - Find [heroes](https://seths.blog/2010/10/heroes-and-mentors/) and outgrow them.
 - When your stomach is in knots, make it heard.
 - [Choose to create](https://randsinrepose.com/archives/the-builders-high/).
+- My richness is life
 - [Give it five minutes](https://signalvnoise.com/posts/3124-give-it-five-minutes).
 - [Attention is a gift](https://lukasmurdock.com/attention/). Don’t sell your attention, [refuse the transaction](https://vimeo.com/345624545).
 - [Interruption is assault](https://www.takingti.me/articles/interruptionasassault).
@@ -64,6 +67,7 @@ I seek to learn about various concepts and become enamored by them. Often, I can
 - Find new ways to confuse yourself
 - [Find solace in learning](https://lukasmurdock.com/autodidact/)
 - Find a quest, find [something to be enthusiastic about](https://critter.blog/2022/10/28/something-to-be-enthusiastic-about/)
+- [Every day do something that won’t compute](https://www.frontporchrepublic.com/2024/05/every-day-do-something-that-wont-compute/)
 - Slow down, deliberate
 - Strong opinions, loosely held
 - Less, but better
@@ -114,9 +118,12 @@ December 2015 – July 2017
 
 ### Places I Want to Visit
 In no particular order
-- USA, Washington
+- USA, Washington, D.C.
     - [The Library of Congress](https://www.loc.gov/)
+- USA, Washington
     - [Connections Museum Seattle](https://www.telcomhistory.org/connections-museum-seattle/)
+- USA, Oregon
+    - [Evergreen Aviation & Space Museum](https://www.evergreenmuseum.org/)
 - USA, California
     - [The Interval](https://theinterval.org/)
     - [California Redwood Forest](https://www.skunktrain.com/railbikes-on-the-noyo/)
@@ -125,6 +132,8 @@ In no particular order
     - [Walden Pond](https://www.mass.gov/locations/walden-pond-state-reservation)
     - [Bell Works](https://bell.works/new-jersey/explore/)
     - [Museum of Printing](https://museumofprinting.org/)
+- USA, Rhode Island
+    - [The Breakers](https://www.newportmansions.org/mansions-and-gardens/the-breakers/)
 - UK, Cambridge
     - [Cambridge University Library](https://www.lib.cam.ac.uk/)
 - UK, London
@@ -295,62 +304,6 @@ I’m a shy guy with a fear of annoying people whenever I contact them. I’m wo
 - [Twitter](https://twitter.com/MurdockLukas): MurdockLukas
 - [LinkedIn](https://www.linkedin.com/in/lukas-murdock/): lukas-murdock
 
-## About The Development of This Website
-
-Looking at my email logs, I started building a site somewhere on or before December 29, 2018, on Squarespace. But I soon felt constricted by their customizability. I realized I could have complete customizability limited only by my skills if I rolled my own, and it would be free by utilizing developer tiers.
-
-The first commit to this site was on July 3, 2019.
-
-(This is a better version of the [About this website](/about-this-website/) I posted April 17, 2020.)
-
-
-This website is built on two principles: As little dependencies as possible and minimizing vendor lock-in. I guess a third would be to make it as simple as possible and as complex as needed, taking into account technical overhead.
-
-This has currently materialized in:
-- Data should be saved and built server side before using the client
-- Git-based structure to minimize vendor lock-in
-
-Vendors like Squarespace or Webflow are growing. Why not use vendors like Squarespace or Webflow? In the long term, all non-Free software is a dead end. The utility of all non-Free software always approaches zero. And I have the freedom to pick up my site and take it elsewhere if a service goes down.
-
-Why not use WordPress? Honestly, WordPress is a good option here. But while it’s free, the server isn’t, and the technical overhead that comes with it seems too annoying, especially compared to my free “low-tech” stack used here. This site is technically JAMstack now, but it started with no JavaScript or APIs, just markup.
-
-Also I like the benefits that come from static sites.
-
-### Data Sources
-APIs → YAML, Markdown, and YAML files.
-
-Posts are stored as Markdown. Book data seen on [booklist](/booklist/) and [want-to-read](https://lukasmurdock.com/wanttoread/) are pulled from APIs at build time and stored locally. The data for [knowledge](/knowledge/), [principles](/principles/), and [alivetime](/alivetime/) are YAML as well.
-
-Using these data formats prevent me from any lock-in and give me control over all the files. To have a setup like this means that content edits are Git-based.
-
-Git-based means that changes made on a local machine are pushed to the Git repository which then triggers a new build of your site. Compared to API-based where the content is held on a different server and your site needs to pull the content from an API.
-
-I’ve been getting more comfortable using Ruby build scripts that run at Jekyll build time to streamline some operations:
-- Adding only an ISBN number to the booklist or want-to-read list will pull the data I want to show from the Google Books API.
-    - [Making a booklist](/making-a-book-list/)
-    - [Optimizing my booklist](/optimizing-my-book-list/)
-    - Note: I’ve rewritten a large part of it and have yet to create another update post for it.
-
-So, currently I use Ruby to pull API (JSON) data and turn it into YAML.
-
-Note: [Jekyll supports loading data from YAML, JSON, CSV, and TSV files located in the _data directory.](https://jekyllrb.com/docs/datafiles/)
-
-### Build
-[Jekyll](https://jekyllrb.com/). “Markdown, Liquid, HTML & CSS go in. Static sites come out ready for deployment.”
-
-Jekyll uses HTML layouts that are extensible through the [Liquid template language](https://shopify.github.io/liquid/). Both Jekyll and Liquid are written in Ruby.
-
-[Jekyll also provides a number of useful Liquid additions to help you build](https://jekyllrb.com/docs/liquid/).
-
-The more I use it, the more I see how powerful it is. The next step of things that I want to do is create a collective changelog of dated tasks, books, and resources added by date (which may be possible in liquid, I’m still learning). May possibly utilize SQLite.
-
-### Deploy and CDN
-Currently hosting on Github Pages as that’s what I started on. All my other projects use Netlify and I imagine I’ll move over once they improve some things.
-
-Github Pages doesn’t support custom _plugins but my build scripts don’t need to run on *every* build, and I typically preview by building locally anyways so it’s currently not an issue.
-
-With this stack my entire website is currently free, aside from paying for the domain name and email.
-
 ## Misc
 
 ### Music
@@ -369,6 +322,7 @@ With this stack my entire website is currently free, aside from paying for the d
 - [Monstercat Instinct Vol. 1 (Album Mix)](https://www.youtube.com/watch?v=qNMT476v9C8)
 - [Aesthetic Lofi](https://www.youtube.com/@Aestheticlofi.)
 - [Ghibli Medley Piano](https://www.youtube.com/watch?v=Nm4seWmaMA4)
+- [3Hr Gentle Waterfall](https://www.youtube.com/watch?v=5jmrIggwCXc)
 
 #### Soundcloud
 - [Remixes of popular songs](https://soundcloud.com/kiwi129/sets/best-remixes-of-popular-songs)

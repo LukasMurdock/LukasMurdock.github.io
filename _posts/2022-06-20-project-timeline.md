@@ -10,7 +10,7 @@ tags: me
 
 I grew up with Windows 7 with Microsoft Office (and Internet Explorer). I remember discovering the animations tab in PowerPoint and making stick figure animations. Microsoft Office was always there, and I learned how to use it from a very young age.
 
-Note: [You Suck at Excel with Joel Spolsky](https://youtu.be/0nbkaYsR94c) is the best resource to learn more about Excel in an hour.
+Note: [You Suck at Excel with Joel Spolsky](https://youtu.be/0nbkaYsR94c) is the best resource to learn more about Excel in an hour. (See [notes from Max Masnick](https://maxmasnick.com/2015/09/15/excel/))
 
 ## (2014) TI-BASIC Programming
 

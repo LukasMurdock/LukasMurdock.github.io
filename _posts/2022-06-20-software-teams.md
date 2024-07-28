@@ -54,3 +54,19 @@ https://nintil.com/programming
 https://gist.github.com/stettix/5bb2d99e50fdbbd15dd9622837d14e2b
 
 https://staysaasy.com/startups/2022/04/03/performance-management.html
+
+https://jmlascala71.medium.com/accepting-uncertainty-the-problem-of-predictions-in-software-engineering-26dbcd120b90
+
+https://vadimkravcenko.com/shorts/why-software-projects-fail/
+
+https://vadimkravcenko.com/shorts/project-estimates/
+
+https://jacobian.org/2024/mar/11/breaking-down-tasks/
+
+https://two-wrongs.com/deliberate-abstraction
+
+https://staysaasy.com/leadership/2024/03/04/Leadership-Reading-List.html
+
+https://martinfowler.com/articles/patterns-legacy-displacement/
+
+https://how.complexsystems.fail/

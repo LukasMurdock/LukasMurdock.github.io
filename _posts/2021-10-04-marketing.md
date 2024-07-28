@@ -489,3 +489,6 @@ Objects:
 - [The roadmap to Product/Market Fit](https://longform.asmartbear.com/product-market-fit-formula)
 - [How repositioning a product allows you to 8x its price](https://longform.asmartbear.com/more-value-not-save-money/)
 - [Using the Needs Stack for competitive strategy](https://longform.asmartbear.com/needs-stack/)
+- [Great Marketing Machines Are Like Costco](https://kellblog.com/2024/03/09/great-marketing-machines-are-like-costco/)
+- [Where Are All The T-Shirts?](https://www.invencion.com/campaigns/view-email/UsWF45HsCBF7ffWJeTeiSFkoD6lEJ3tmbfjssnLJeniEp0reyWZCYXgyLEtDjlr2ky7UvNZa3lBdhmsB68YwZP8qy63Mdmoii18CWKsIrmo_JacWuJLfM_rbCdE2pStvwaK2pmXUpnlyA02I0gQBsoO456blIV0M_PcyfQ==)
+- [Seth Godin: “What will I tell my boss?”](https://seths.blog/2024/06/what-will-i-tell-my-boss/)

@@ -32,6 +32,7 @@ tags: me
 - [Reflect.app](https://reflect.app/)
 - [Chartmetric](https://chartmetric.com/)
 - [Fibery](https://fibery.io/anxiety)
+- [Webcraft](https://webcraft.joodaloop.com/)
 
 ## Personal
 
@@ -80,6 +81,8 @@ tags: me
 
 [Cool Things People Do With Their Blogs](https://brainbaking.com/post/2022/04/cool-things-people-do-with-their-blogs/)
 
+[Notes On “Microfeatures I Love in Blogs and Personal Websites”](https://frontendmasters.com/blog/notes-on-microfeatures-i-love-in-blogs-and-personal-websites/)
+
 ## Misc
 
 - https://setups.co/
@@ -96,6 +99,7 @@ tags: me
 
 - [SaaS Landing Page](https://saaslandingpage.com/)
 - [Bento grids](https://bentogrids.com/)
+- [Handheld.design](https://handheld.design/)
 
 - [A poster exhibition that celebrates the 90 anniversary of Massimo Vignelli](https://www.vignelli.design/)
 
@@ -103,3 +107,4 @@ tags: me
 ## Articles
 
 - [Huge type on the web](https://matejlatin.com/blog/2022/11/06/huge-type-on-the-web/)
+- [The B2B questions](https://seths.blog/2024/03/the-b2b-questions/)

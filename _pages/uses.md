@@ -7,13 +7,18 @@ tags: me
 ---
 
 ## Hardware
+
+
 ### Hardware that goes with me everywhere
 * 2012 MacBook Pro
     - 2TB SSD (manual upgrade)
     - 16GB RAM (manual upgrade)
 * <del>2014 MacBook Air</del>
-* 2018 MacBook Pro 15-Inch (MR932LL/A)
+* <del>2018 MacBook Pro 15-Inch (MR932LL/A)</del>
     - 250GB SSD
+    - 16GB RAM
+* 2024 MacBook Air 13-Inch, M3 (MT2A3LL/A)
+    - 500GB SSD
     - 16GB RAM
 * <del>iPhone 5s</del>
 * <del>iPhone 8</del> (switched April 2021)
@@ -264,3 +269,10 @@ Clear | https://apps.apple.com/us/app/clear-todos/id493136154::
 }
 
 </style>
+
+
+---
+
+## Other setups
+
+[Arun](https://arun.is/blog/desk-setup-for-two/)

@@ -229,3 +229,6 @@ https://adr.github.io/
 - [A3: Avoid Memos With An Agenda](https://two-wrongs.com/a3-avoid-memos-with-an-agenda.html)
 - [Handoff Waste and Taylorism](https://two-wrongs.com/handoff-waste-and-taylorism.html)
 - [REVIEW: Scaling People, by Claire Hughes Johnson](https://www.thepsmiths.com/p/review-scaling-people-by-claire-hughes)
+- [Accepting Uncertainty: The Problem of Predictions in Software Engineering](https://jmlascala71.medium.com/accepting-uncertainty-the-problem-of-predictions-in-software-engineering-26dbcd120b90)
+- [Why Aren't We Talking About Continuous Improvement?](https://cutlefish.substack.com/p/tbm-284-why-arent-we-talking-about)
+- [Managing Underperformers](https://jackdanger.com/managing-underperformers/)

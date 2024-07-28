@@ -100,6 +100,9 @@ tags: annual, me
 - [Active vs. Passive Learning](https://collabfund.com/blog/active-vs-passive-learning/)
 - [Effective learning: Twenty rules of formulating knowledge](https://www.supermemo.com/en/blog/twenty-rules-of-formulating-knowledge) | [20 rules of knowledge formulation](https://supermemo.guru/wiki/20_rules_of_knowledge_formulation)
 - [History has no lessons for you](https://warontherocks.com/2024/02/history-has-no-lessons-for-you-a-warning-for-policymakers/)
+- [You Are What You Read, Even If You Don’t Always Remember It](https://blog.jim-nielsen.com/2024/you-are-what-you-read/)
+- [Every Day Do Something that Won’t Compute](https://www.frontporchrepublic.com/2024/05/every-day-do-something-that-wont-compute/)
+- [To see is to forget the name of the thing one sees](https://geopolicraticus.wordpress.com/2009/08/21/to-see-is-to-forget-the-name-of-the-thing-one-sees/)
 
 ### Books
 - [David A. Kolb: Experiential Learning: Experience as the Source of Learning and Development](https://www.amazon.com/Experiential-Learning-Experience-Source-Development-dp-0133892409/dp/0133892409/ref=dp_ob_title_bk) (1984)

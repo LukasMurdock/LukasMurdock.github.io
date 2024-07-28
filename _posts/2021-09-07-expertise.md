@@ -6,6 +6,10 @@ date: 'September 07, 2021'
 tags: business
 ---
 
+[The Best Textbooks on Every Subject](https://www.lesswrong.com/posts/xg3hXCYQPJkwHyik2/the-best-textbooks-on-every-subjec)
+
+[The Best Tacit Knowledge Videos on Every Subject](https://www.lesswrong.com/posts/SXJGSPeQWbACveJhs/the-best-tacit-knowledge-videos-on-every-subject)
+
 # Expertise
 
 In _[Education, a first book](https://www.jstor.org/stable/1076195)_ (1912), Edward Thorndike writes
@@ -330,6 +334,7 @@ You have to compare cases—what’s similar? Does it remind you of a particular
 - [Stumbling Towards Rightness](https://nathanbrixius.wordpress.com/2023/05/05/stumbling-towards-rightness/)
 - [Embrace Complexity; Tighten Your Feedback Loops](https://ferd.ca/embrace-complexity-tighten-your-feedback-loops.html)
 - [Scaling tacit knowledge](https://nintil.com/scaling-tacit-knowledge/)
+- [Developing domain expertise: get your hands dirty](https://lethain.com/domain-expertise/)
 
 ### Reading list
 
