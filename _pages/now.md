@@ -33,6 +33,12 @@ Making my way through
 
 Training to run my first official half marathon (13.1 miles, 21 kilometers).
 
+## Thinking about
+
+- Programming [state](/state/)
+- [HTTP Data APIs](https://webref.lukas.icu/http)
+- [Document editing](/cms/)
+
 ## Top goal
 
 2024-01-07: Get significantly better at extracting knowledge and revealing knowledge.
