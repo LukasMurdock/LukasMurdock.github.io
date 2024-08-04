@@ -35,6 +35,7 @@ Training to run my first official half marathon (13.1 miles, 21 kilometers).
 
 ## Thinking about
 
+- [Business challenges](https://lukasmurdock.com/business-challenges/)
 - Programming [state](/state/)
 - [HTTP Data APIs](https://webref.lukas.icu/http)
 - [Document editing](/cms/)

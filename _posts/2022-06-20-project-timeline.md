@@ -179,6 +179,8 @@ Technology:
 
 ## (2022) Virra App v2
 
+Greenfield
+
 Technology:
 * Remix.js (React.js/Node.js)
 * Tailwind
@@ -189,6 +191,8 @@ Technology:
 * Directus
 
 ## (2022) Bloxsmith
+
+Greenfield
 
 * Web design
 * Web development
@@ -213,11 +217,15 @@ Technology:
 
 ## (2023) Capsule Supplies
 
+Greenfield
+
 Technology:
 - Remix
 - Shopify
 
 ## (2023) Produce Path — [www.producepath.org](https://www.producepath.org/)
+
+Greenfield front-end, half brownfield back-end
 
 - Proximity map
 
@@ -227,7 +235,9 @@ Technology:
 - AWS Cognito
 - AWS RDS
 
-## (2023) ByBlack — (internal tool)
+## (2023) BB
+
+Greenfield
 
 Technology:
 - Next.js App Router
@@ -235,6 +245,8 @@ Technology:
 - MongoDB Atlas
 
 ## (2023) ProVia
+
+Greenfield
 
 * Vision board
 
@@ -246,7 +258,9 @@ Technology:
 - WordPress
 - WPEngine
 
-## (2023) FoxTrot
+## (2023) FT
+
+Brownfield
 
 Technology:
 - React
@@ -254,3 +268,15 @@ Technology:
 - AWS Lambda
 - AWS DynamoDB
 - Serverless Framework
+
+## (2024) TA
+
+Greenfield
+
+Technology:
+- Remix
+- AWS RDS
+— AWS Lambda
+— AWS SES
+— AWS Cognito
+- SST
