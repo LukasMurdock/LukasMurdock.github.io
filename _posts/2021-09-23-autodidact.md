@@ -188,3 +188,10 @@ See [/wtl](/wtl).
 15. Public administration
 16. Social work
 17. Transportation
+
+
+---
+
+> I was born not knowing and have had only a little time to change that here and there.
+>
+> — Richard Feynman
