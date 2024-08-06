@@ -24,3 +24,4 @@ Like-minded people need a lighthouse. Write to find the others.
 - [Ribbonfarm: Salt-seeking](https://www.ribbonfarm.com/2023/03/01/salt-seeking/)
 - [Jason Fried: Don't be a knee-jerk](https://world.hey.com/jason/don-t-be-a-knee-jerk-ac7440f4)
 - [Proving and defending the value of technical writing, again](https://docsbydesign.com/2022/02/13/proving-and-defending-the-value-of-technical-writing-again/)
+- [How to build a writing habit](https://writinghabit.com/)
