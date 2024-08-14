@@ -1,4 +1,6 @@
 ---
+- firsttime: "Booked a vacation for myself"
+  date: 2024-08-11
 - firsttime: "Explored a city by myself"
   date: 2024-08-09
 - firsttime: "Rode a passenger train. [CVSR](https://www.cvsr.org/)."
