@@ -60,7 +60,7 @@ Average day in 2020 looks like checking:
 
 List of emails was for sometime continued here: [https://airtable.com/shrJNX4hOeufXgfOX](https://airtable.com/shrJNX4hOeufXgfOX)
 
-See also: [https://webref.lukas.icu/newsletters](https://webref.lukas.icu/newsletters)
+See also: [https://webref.lukasmurdock.com/newsletters](https://webref.lukasmurdock.com/newsletters)
 
 ## NetNewsWire Feeds:
 - [Accidentally in Code](https://cate.blog/)

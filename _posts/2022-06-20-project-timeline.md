@@ -207,7 +207,7 @@ Technology:
 * Prisma
 * Vercel
 
-## (2022) Tables — [tables.lukas.icu](https://tables.lukas.icu/)
+## (2022) Tables — [tables.lukasmurdock.com](https://tables.lukasmurdock.com/)
 
 Technology:
 - HTML

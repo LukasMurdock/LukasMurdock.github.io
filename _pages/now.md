@@ -20,11 +20,11 @@ Turning coffee into code over at [SkyCatchFire](https://www.skycatchfire.com/).
 
 Most of my learning comes from [wondering around online](/aroundtheweb/) or [diving into books](/booklist/). Who knows where I’ll go. Trying to figure out what I’m focused on. Working on feeling secure.
 
-So much I [want to learn](/wtl) and [want to read](/wanttoread/) (created [To Read bookshelf](https://library.lukas.icu/bookshelves/To_Read) in library).
+So much I [want to learn](/wtl) and [want to read](/wanttoread/) (created [To Read bookshelf](https://library.lukasmurdock.com/bookshelves/To_Read) in library).
 
 Making my way through
 
-- [books](https://library.lukas.icu/bookshelves/Reading_Now)
+- [books](https://library.lukasmurdock.com/bookshelves/Reading_Now)
 - Adrian Cantrill’s [AWS Certified Developer - Associate](https://learn.cantrill.io/p/aws-certified-developer-associate) course
 - [Smart Interface Design Patterns](https://smart-interface-design-patterns.com/)
 - [How a car works](https://www.howacarworks.com/video-course)
@@ -37,7 +37,7 @@ Training to run my first official half marathon (13.1 miles, 21 kilometers).
 
 - [Business challenges](https://lukasmurdock.com/business-challenges/)
 - Programming [state](/state/)
-- [HTTP Data APIs](https://webref.lukas.icu/http)
+- [HTTP Data APIs](https://webref.lukasmurdock.com/http)
 - [Document editing](/cms/)
 
 ## Top goal
