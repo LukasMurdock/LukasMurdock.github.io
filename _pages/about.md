@@ -88,6 +88,7 @@ I seek to learn about various concepts and become enamored by them. Often, I can
 - Trust by default.
 - [You have to trust your self](https://lukasmurdock.com/realize/#you-have-to-trust-your-self).
 - [We need you](https://lukasmurdock.com/realize/#we-need-you-to-make-a-ruckus).
+- [Appreciate everything endlessly](https://www.youtube.com/watch?v=Df_K7pIsfvg)
 
 ### Things I want to learn
 

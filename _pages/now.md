@@ -2,7 +2,7 @@
 layout: page
 title: Now
 description: What I’m doing now
-last_modified_at: 2021-06-06T23:37:03-0400
+last_modified_at: 2023-10-23T23:37:03-0400
 icons: true
 ---
 
@@ -24,21 +24,11 @@ So much I [want to learn](/wtl) and [want to read](/wanttoread/) (created [To Re
 
 Making my way through
 
-- [books](https://library.lukasmurdock.com/bookshelves/Reading_Now)
-- Adrian Cantrill’s [AWS Certified Developer - Associate](https://learn.cantrill.io/p/aws-certified-developer-associate) course
-- [Smart Interface Design Patterns](https://smart-interface-design-patterns.com/)
-- [How a car works](https://www.howacarworks.com/video-course)
+- [books](https://library.lukasmurdock.com/)
 
 ## Running
 
-Training to run my first official half marathon (13.1 miles, 21 kilometers).
-
-## Thinking about
-
-- [Business challenges](https://lukasmurdock.com/business-challenges/)
-- Programming [state](/state/)
-- [HTTP Data APIs](https://webref.lukasmurdock.com/http)
-- [Document editing](/cms/)
+Every so often.
 
 ## Top goal
 
