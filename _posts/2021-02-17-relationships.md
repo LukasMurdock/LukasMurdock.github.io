@@ -54,6 +54,8 @@ I don’t need to learn how to be alone and don’t want to pat myself on the ba
 
 I don’t remember where I saw this but the idea stuck with me. Relationships are hard and often get harder with time. Pick someone early and live it out. Play the game early and you beat the game early. In my case, that meant finding somebody in high school and then stop caring about finding anybody else. Now, obviously this doesn’t work for everybody. But it’s my plan.
 
+(edit: Unfortunately, dear reader, it did not work out.)
+
 And I give weight to this right now because if you’re looking at alternatives, alternatives will appear, and you fall down *the want curve*.
 
 I came up with this idea of the want curve in my late teens; spurred on by new perspectives of the world starting from AP Psychology. The following is something I wrote then.
@@ -81,8 +83,6 @@ So best piece of advice: acknowledge each others messes and work to be better to
 Now, some people are helpless, hopeless, trashy, disgusting, and vile. But, odds are that’s not you or your partner.
 
 I don’t have much to say on sustaining relationships past the point of getting used to each other. But my inklings tell me it’s some blend of planning and surprises.
-
-I’ll work on this more—promise love.
 
 > Marry someone you admire and are always learning from, who admires and learns from you. Help each other grow and share values, plans, experience, laughs, and time together. ([Charley Ellis](https://hbs1963.com/wisdom/marriage-family/))
 
