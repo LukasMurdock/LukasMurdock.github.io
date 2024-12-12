@@ -23,6 +23,19 @@ date: 'March 10, 2023'
     }
 </style>
 
+## Scales of culture
+
+From [_The Culture Map_](https://erinmeyer.com/books/the-culture-map/) by Erin Meyer
+
+1. Communicating: low-context vs. high-context
+2. Evaluating: direct negative feedback vs. indirect negative feedback
+3. Persuading: principles-first vs. applications first
+4. Leading: egalitarian vs. hierarchical
+5. Deciding: consensual vs. top-down
+6. Trusting: task-based vs. relationship-based
+7. Disagreeing: confrontational vs. avoids confrontation
+8. Scheduling: linear-time vs. flexible-time
+
 ## Scales of communication culture
 
 - [Good faith vs Bad faith](https://consilienceproject.org/endgames-of-bad-communication/)
@@ -98,6 +111,19 @@ Note causes of uncertainty ( e.g., type, currency, and amount of information,
 knowledge gaps, and the nature of the issue) and explain how uncertainties
 affect analysis (e.g., to what degree and how a judgment depends on assumptions)
 
+## Scales of communication needs
+
+From [diátaxis](https://diataxis.fr/)
+
+- Acquisition vs Application
+- Action vs Cognition
+
+| need          | addressed in  | the user             | the documentation |
+|:--------------|:--------------|:---------------------|:------------------|
+| learning      | tutorials     | acquires their craft | informs action    |
+| goals         | how-to guides | applies their craft  | informs action    |
+| information   | reference     | applies their craft  | informs cognition |
+| understanding | explanation   | acquires their craft | informs cognition |
 
 ---
 
