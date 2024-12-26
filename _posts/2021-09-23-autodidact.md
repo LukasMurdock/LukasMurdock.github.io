@@ -96,6 +96,7 @@ tags: annual, me
 - [Thoughts on the manual](https://seths.blog/2023/09/thoughts-on-the-manual/)
 - [Fake Journal Club: Teaching Critical Reading](https://gwern.net/fake-journal-club)
 - [How to Explain Anything to Anyone](https://www.drmaciver.com/2018/10/how-to-explain-anything-to-anyone/)
+- [How to Write Readable Posts](https://www.lesswrong.com/posts/bK8iEj25uhboJoCCP/how-to-write-readable-posts)
 - [How to Learn Anything Easily](https://www.scotthyoung.com/blog/2023/11/28/learn-anything-easily/)
 - [Active vs. Passive Learning](https://collabfund.com/blog/active-vs-passive-learning/)
 - [Effective learning: Twenty rules of formulating knowledge](https://www.supermemo.com/en/blog/twenty-rules-of-formulating-knowledge) | [20 rules of knowledge formulation](https://supermemo.guru/wiki/20_rules_of_knowledge_formulation)

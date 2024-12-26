@@ -305,6 +305,10 @@ I’m a shy guy with a fear of annoying people whenever I contact them. I’m wo
 - [Twitter](https://twitter.com/MurdockLukas): MurdockLukas
 - [LinkedIn](https://www.linkedin.com/in/lukas-murdock/): lukas-murdock
 
+## Why a five-digit year
+
+Five-year digit dates add a 10,000 year perspective to everyday interactions. Welcome to [The Long Now](https://longnow.org/).
+
 ## Misc
 
 ### Music

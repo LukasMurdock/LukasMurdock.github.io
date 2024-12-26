@@ -28,7 +28,7 @@
         {% else %}
         <h1>{{ page.title }}</h1>
         {% endif %}
-        <p>Planted {{ page.date | date: "0%Y-%m-%d" }}</p>
+        <p>Planted <a href="/about#why-a-five-digit-year">{{ page.date | date: "0%Y-%m-%d" }}</a></p>
         <h2 style="font-size: var(--font-medium-large)">{{ page.description }}</h2>
 
         {% if page.image %}
