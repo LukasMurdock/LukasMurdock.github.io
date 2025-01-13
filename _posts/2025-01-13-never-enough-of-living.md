@@ -21,10 +21,10 @@ And were no rapture of them in thy beat,  \
 For every hour of sky  \
 Stillborn in gladness would the waters wear  \
 Colors of air translucently,  \
-And the stars sleep there.  \
+And the stars sleep there.
 
 Gently, my heart, nor let one moment ever  \
 Be spilled from the brief fullness of thine urn.  \
 Plunge in its exultation star and star,  \
 Sea and plumed sea in turn.  \
-O still, my heart, nor spill this moment ever.  \
+O still, my heart, nor spill this moment ever.
