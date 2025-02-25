@@ -14,7 +14,7 @@ icons: true
 
 ## Working
 
-Turning coffee into code over at [SkyCatchFire](https://www.skycatchfire.com/).
+Building Hiking Hawaii.
 
 ## Exploring
 
