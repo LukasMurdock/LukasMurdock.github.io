@@ -105,6 +105,7 @@ tags: annual, me
 - [Every Day Do Something that Won’t Compute](https://www.frontporchrepublic.com/2024/05/every-day-do-something-that-wont-compute/)
 - [To see is to forget the name of the thing one sees](https://geopolicraticus.wordpress.com/2009/08/21/to-see-is-to-forget-the-name-of-the-thing-one-sees/)
 - [How to Build Anything Extremely Quickly](https://learnhowtolearn.org/how-to-build-extremely-quickly/)
+- [Two kinds of instructions](https://seths.blog/2025/03/two-kinds-of-instructions/)
 
 ### Books
 - [David A. Kolb: Experiential Learning: Experience as the Source of Learning and Development](https://www.amazon.com/Experiential-Learning-Experience-Source-Development-dp-0133892409/dp/0133892409/ref=dp_ob_title_bk) (1984)
