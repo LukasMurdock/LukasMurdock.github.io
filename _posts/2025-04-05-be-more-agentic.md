@@ -132,3 +132,19 @@ Something my mom does, that I now do, that people seem to _really_ dislike
     - Park in the furthest parking spot
     - Go for a 5-10 mile walk
     - I’ve walked six miles home from being out in a city
+
+## [How to be more agentic](https://usefulfictions.substack.com/p/how-to-be-more-agentic)
+
+> radical agency is about finding real edges: things you are willing to do that others aren’t, often because they’re annoying or unpleasant. These don’t always surface in awareness to the point one is actually choosing -- often they live in a cloud of aversion that strategically obscures the tradeoff.
+
+> Ask for things. Ask for things that feel unreasonable, to make sure your intuitions about what’s reasonable are accurate (of course, try not to be a jerk in the process). If you’re only asking for things you get, you’re not aiming high enough.
+
+> If you aren’t trying to get real feedback from people who know you, you’re cooking without tasting. This is, like, the lowest hanging fruit for self-improvement, but few people really try to pick it.
+
+> meet as many people doing related work
+
+> Most subject matter is learnable, even stuff that seems really hard. But beyond that, many (most?) traits that people treat as fixed are actually quite malleable if you (1) believe they are and (2) put the same kind of work into learning them as you would anything else.
+
+> making changes in your life, especially when learning new skill sets, requires you to cross a moat of low status, a period of time where you are actually bad at the thing or fail to know things that are obvious to other people. It’s called a moat both because you can’t just leap to the other side and because it gives anyone who can cross it a real advantage.
+
+> Burnout is the ultimate agency-killer. This is so true that I’ve learned to identify a reduction in agency as one of the first signs of burnout, one that shows up even before I consciously realize what’s happening. A switch flips and I start looking for ways to rule out ideas and actions, to conclude they won’t work or aren’t necessary, rather than chasing better versions.
