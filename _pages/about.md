@@ -363,6 +363,7 @@ Five-year digit dates add a 10,000 year perspective to everyday interactions. We
 - [Schick toikka](https://www.schick-toikka.com/)
 - [Grilli Type](https://www.grillitype.com/)
 - [Commercial Type](https://commercialtype.com/)
+- [Typeverything](https://typeverything.com/)
 
 #### Google Fonts
 My favorite fonts on Google Fonts.

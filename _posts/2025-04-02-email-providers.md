@@ -17,6 +17,7 @@ description: ''
 - [Mailjet](https://www.mailjet.com/)
 - [Brevo](https://www.brevo.com/) (formerly Sendinblue)
 
+
 ## Marketing email
 
 - [ActiveCampaign](https://www.activecampaign.com/)
