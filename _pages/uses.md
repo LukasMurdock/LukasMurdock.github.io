@@ -26,6 +26,7 @@ tags: me
 * <del>Kindle Paperwhite 10th Gen (PQ94WIF)</del>
 * iPad mini (MK7V3LL/A)
 * Apple Watch series 9 with GPS, 45mm Midnight Aluminum case
+* Anker MagGo Wireless Charging Station (Foldable 3-in-1)
 
 ### Other Hardware
 
@@ -41,6 +42,7 @@ tags: me
 ## Backpack
 
 * Old version of The North Face Borealis
+* Osprey Talon 22 (HT Justin)
 
 ## Subscriptions
 
@@ -51,14 +53,14 @@ tags: me
 - [Readwise](https://readwise.io/)
 - [Commoncog](https://commoncog.com/)
 - [Brand New](https://www.underconsideration.com/brandnew/)
+- Youtube Premium
+
+Have previously subscribed to:
+
 - [Monica CRM](https://www.monicahq.com/)
 - [Nebula](https://nebula.tv/)
 - [Quizlet](https://quizlet.com/) (turned off auto-renewal on 2023-05-23)
 - [Consumer Reports](https://www.consumerreports.org/)
-
-Have previously subscribed to:
-
-- Youtube Music (cancelled 2021-01-07) (renewed when YouTube began cracking down on ad-blockers)
 - Stadia (rip)
 - [Mailbrew](https://mailbrew.com/)
 - [Clean Email](https://clean.email/) (cancelled 2021-11-18)

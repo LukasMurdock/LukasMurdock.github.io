@@ -126,7 +126,7 @@ December 2015 – July 2017
 ### Places I Want to Visit
 In no particular order
 - USA, Washington, D.C.
-    - [The Library of Congress](https://www.loc.gov/)
+    - <del>[The Library of Congress](https://www.loc.gov/)</del> (2024)
 - USA, Washington
     - [Connections Museum Seattle](https://www.telcomhistory.org/connections-museum-seattle/)
 - USA, Oregon
