@@ -96,7 +96,13 @@ Moved to [/wtl](/wtl)
 
 ### Companies I’ve Worked For
 
-March 2023 – Present
+January 2025 – Present
+**Hiking Hawaii**
+
+January 2025 – Present
+ **Rove Media** • *Application Developer* • Remote
+
+March 2023 – January 2025
 **[SkyCatchFire](https://www.skycatchfire.com/)** • *Application Developer* • Remote
 
 March 2021 – March 2023
