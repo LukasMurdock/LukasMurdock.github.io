@@ -57,6 +57,8 @@ I seek to learn about various concepts and become enamored by them. Often, I can
 - Think Less Wrong and act Long Now
 - Find [heroes](https://seths.blog/2010/10/heroes-and-mentors/) and outgrow them.
 - When your stomach is in knots, make it heard.
+    - Do things not because of fear but despite it
+    - [Stare into the abyss](https://www.benkuhn.net/abyss/)
 - [Choose to create](https://randsinrepose.com/archives/the-builders-high/).
 - My richness is life
 - [Give it five minutes](https://signalvnoise.com/posts/3124-give-it-five-minutes).
