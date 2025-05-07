@@ -20,8 +20,8 @@ GEM
     ffi (1.15.1)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
-    httparty (0.18.1)
-      mime-types (~> 3.0)
+    httparty (0.21.0)
+      mini_mime (>= 1.0.0)
       multi_xml (>= 0.5.2)
     i18n (1.8.10)
       concurrent-ruby (~> 1.0)
@@ -64,9 +64,7 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
-    mime-types (3.3.1)
-      mime-types-data (~> 3.2015)
-    mime-types-data (3.2021.0225)
+    mini_mime (1.1.2)
     minitest (5.14.4)
     multi_xml (0.6.0)
     nokogiri (1.15.2-x86_64-darwin)
@@ -95,6 +93,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-19
+  x86_64-linux
 
 DEPENDENCIES
   activesupport
