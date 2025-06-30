@@ -150,6 +150,11 @@ I used [Repomix](https://repomix.com/) to pack the documentation for Hono.js and
 >
 > — [Claude Code Best Practices](https://www.anthropic.com/engineering/claude-code-best-practices)
 
+AI amplifies specific development practices. Good practices become superpowers, bad practices become disasters. The two best practices you can do right now are
+
+1. Clear documentation and convention.
+2. Defined workflows, quality gates, and testing strategies.
+
 ## Dev missteps
 
 - Storing data in SQLite >> moved to Apache Parquet
