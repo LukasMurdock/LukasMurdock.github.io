@@ -45,6 +45,8 @@ So a goal is to actively think about how to write material that improves with ti
 
 I seek to learn about various concepts and become enamored by them. Often, I cannot understand them enough to meaningfully generate the concepts at the time. At best, it will float back up in my thoughts years later, and I’ll go, “Ohhhhhhhh, so _that’s_ what that means!” ([sazen](https://www.lesswrong.com/posts/k9dsbn8LZ6tTesDS3/sazen), Sabien, 2022) At worst, articulation will instantiate wrong interpretations that will take years to undo ([knowledge shields](https://www.researchgate.net/publication/235032926_Conceptual_Understanding_and_Stability_and_Knowledge_Shields_for_Fending_Off_Conceptual_Change), Spiro et al., 1994).
 
+And yet, I aspire to get significantly better at extracting knowledge and revealing knowledge.
+
 ### Core Values
 - [Be serious about the things that matter to you](/serious)
     - [Tsuyoku Naritai](https://www.lesswrong.com/posts/DoLQN5ryZ9XkZjq5h/tsuyoku-naritai-i-want-to-become-stronger)–I want to become stronger. The important thing is to do better, to keep moving ahead, to take one more step forward.
