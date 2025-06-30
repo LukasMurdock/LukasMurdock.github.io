@@ -6,6 +6,8 @@ date: "June 29, 2025"
 code: true
 ---
 
+Note: This write up is still a work in progress but I thought you might enjoy an early look.
+
 Late one night, on the phone with a friend, I learned about [survey marks](https://en.wikipedia.org/wiki/Survey_marker).
 
 > Survey markers, also called survey marks, survey monuments, or geodetic marks, are objects placed to mark key survey points on the Earth's surface. They are used in geodetic and land surveying. A benchmark is a type of survey marker that indicates elevation (vertical position). Horizontal position markers used for triangulation are also known as triangulation stations. Benchmarking is the hobby of "hunting" for these marks.
