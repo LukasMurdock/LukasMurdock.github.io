@@ -101,7 +101,7 @@ I love this feature but interestingly enough Claude Code wrote 100% of the backe
 
 - Storing data in SQLite >> moved to Apache Parquet
 - Served data through API >> query directly from frontend
-    - [parquetjs](https://github.com/ironSource/parquetjs/tree/master) in workers runtime: `cloudflare workers fs.stat not implemented yet` >> [hyparquet](https://github.com/hyparam/hyparquet)
+    - [parquetjs](https://github.com/ironSource/parquetjs/tree/master) in workers runtime: cloudflare workers fs.stat not implemented yet >> [hyparquet](https://github.com/hyparam/hyparquet)
 
 ## AI Review
 

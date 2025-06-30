@@ -104,6 +104,8 @@ The 5 Love Languages by Gary Chapman:
 
 [Relationships are coevolutionary loops](https://www.henrikkarlsson.xyz/p/making-a-home-together)
 
+[It’s not about the nail](https://www.youtube.com/watch?v=-4EDhdAHrOg) — “She doesn’t need the guy to give her advice on how to concretely solve this one particular problem, she needs reassurance in the form of sufficient attention to indicate that he is her ally.”
+
 ## Family
 
 Family is charted on a steep decline until the late 20s before making the slightest rebound around 40. So, see you then.
