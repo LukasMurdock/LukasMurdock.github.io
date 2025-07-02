@@ -358,6 +358,10 @@ Five-year digit dates add a 10,000 year perspective to everyday interactions. We
 - [The Uptown](https://theuptown.bandcamp.com/)
 - [Brian Eno](https://brian-eno.net/)
 
+#### Misc
+
+- The whistling song I always forget the name of — [The Dead South - In Hell I’ll Be In Good Company](https://youtu.be/B9FzVhw8_bY?si=FjUJMDRhxS-R0zCS)
+
 ### Fonts
 
 - [Modern font stacks](https://modernfontstacks.com/)
