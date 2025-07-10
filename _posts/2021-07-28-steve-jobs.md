@@ -595,3 +595,7 @@ Good? Thanks. *stands up*
 ---
 
 - [Make Something Wonderful: Steve Jobs in his own words](https://book.stevejobsarchive.com/)
+
+## Playboy Interview Feb 1985
+
+[allaboutstevejobs.com](https://allaboutstevejobs.com/verbatim/interviews/playboy_1985)

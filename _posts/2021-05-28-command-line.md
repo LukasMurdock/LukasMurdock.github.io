@@ -101,6 +101,7 @@ function codeplease {
 
 ## Utilities
 
+- trash
 - grep
 - sed
 - wget
