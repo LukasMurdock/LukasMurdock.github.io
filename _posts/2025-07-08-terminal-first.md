@@ -72,11 +72,15 @@ Consequences
 
 ## Interaction tools
 
+- Text editor: neovim
+- Email client: custom
 - Media player: [MPV](https://mpv.io)
 - LLM: Ollama, opencode
 - [opencode CLI](https://opencode.ai/docs/cli/)
 - [claude code CLI](https://docs.anthropic.com/en/docs/claude-code/cli-reference)
 
+
+Rel: [why I got rid of all my neovim plugins](https://yobibyte.github.io/vim.html)
 
 ## Email workflow
 
@@ -103,3 +107,7 @@ For sending
 
 -   msmtp: send outgoing emails via SMTP
 -   aerc: terminal email client interface
+
+## Rel
+
+- [AI coding tools are perhaps our new terminal emulators](https://ghuntley.com/vt100/)
