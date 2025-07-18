@@ -196,7 +196,12 @@ https://adr.github.io/
 
 > Currently I [___A___] that [___B___] based on [___C___]. Given that assumption I [___D___]that we [___E___].
 
+## PDSA Cycle
 
+- **Plan** a change or test aimed at improvement. Set objective, ask questions and have predictions, plan to carry out the cycle (who, what, where, when)
+- **Do** carry out the change or test (preferably on a small scale). Document problems and unexpected observations.
+- **Study** the result. What did we learn? What went wrong? Summarize what we learned
+- **Act** - adopt the change, abandon it, or run through the cycle again. What changes are to be made? Next cycle?
 
 ## Management Resources
 
