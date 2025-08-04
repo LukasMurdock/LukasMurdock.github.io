@@ -2,20 +2,34 @@
   "items": [
     {
       "volumeInfo": {
-        "title": "Thinking in Systems",
-        "subtitle": "A Primer",
+        "title": "Tuesdays with Morrie",
+        "subtitle": "An Old Man, A Young Man and Life's Greatest Lesson",
         "authors": [
-          "Donella H. Meadows"
+          "Mitch Albom"
         ],
-        "publishedDate": "2008",
-        "description": "In the years following her role as the lead author of the international bestseller, Limits to Growth—the first book to show the consequences of unchecked growth on a finite planet— Donella Meadows remained a pioneer of environmental and social analysis until her untimely death in 2001. Meadows' newly released manuscript, Thinking in Systems, is a concise and crucial book offering insight for problem solving on scales ranging from the personal to the global. Edited by the Sustainability Institute's Diana Wright, this essential primer brings systems thinking out of the realm of computers and equations and into the tangible world, showing readers how to develop the systems-thinking skills that thought leaders across the globe consider critical for 21st-century life. Some of the biggest problems facing the world—war, hunger, poverty, and environmental degradation—are essentially system failures. They cannot be solved by fixing one piece in isolation from the others, because even seemingly minor details have enormous power to undermine the best efforts of too-narrow thinking. While readers will learn the conceptual tools and methods of systems thinking, the heart of the book is grander than methodology. Donella Meadows was known as much for nurturing positive outcomes as she was for delving into the science behind global dilemmas. She reminds readers to pay attention to what is important, not just what is quantifiable, to stay humble, and to stay a learner. In a world growing ever more complicated, crowded, and interdependent, Thinking in Systems helps readers avoid confusion and helplessness, the first step toward finding proactive and effective solutions.",
-        "pageCount": 242,
+        "publishedDate": "1997-08-18",
+        "description": "#1 NEW YORK TIMES BESTSELLER • The beloved book that has changed millions of lives with the story of an unforgettable friendship, the timeless wisdom of older generations, and healing lessons on loss and grief “A wonderful book, a story of the heart told by a writer with soul.”—Los Angeles Times “The most important thing in life is to learn how to give out love, and to let it come in.” Maybe it was a grandparent, or a teacher, or a colleague. Someone older, patient and wise, who understood you when you were young and searching, helped you see the world as a more profound place, gave you sound advice to help you make your way through it. For Mitch Albom, that person was Morrie Schwartz, his college professor from nearly twenty years ago. Maybe, like Mitch, you lost track of this mentor as you made your way, and the insights faded, and the world seemed colder. Wouldn't you like to see that person again, ask the bigger questions that still haunt you, receive wisdom for your busy life today the way you once did when you were younger? Mitch Albom had that second chance. He rediscovered Morrie in the last months of the older man's life. Knowing he was dying, Morrie visited with Mitch in his study every Tuesday, just as they used to back in college. Their rekindled relationship turned into one final \"class\": lessons in how to live. Tuesdays with Morrie is a magical chronicle of their time together, through which Mitch shares Morrie's lasting gift with the world.",
+        "pageCount": 208,
         "categories": [
-          "Science"
+          "Biography & Autobiography"
         ],
         "imageLinks": {
-          "thumbnail": "http://books.google.com/books/content?id=CpbLAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "thumbnail": "http://books.google.com/books/content?id=5y-l3sM3gg0C&printsec=frontcover&img=1&zoom=1&source=gbs_api"
         }
+      }
+    },
+    {
+      "volumeInfo": {
+        "title": "Michelle Lang's Biography",
+        "authors": [
+          "Astrid Lang",
+          "Lori Chan"
+        ],
+        "publishedDate": "2008",
+        "pageCount": 4,
+        "categories": [
+          "Marina (Calif.)"
+        ]
       }
     }
   ]

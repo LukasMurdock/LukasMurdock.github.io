@@ -1,5 +1,17 @@
 ---
 isbns:
+- isbn: '0385484518'
+  dateRead: August 03, 2025
+  title: Tuesdays with Morrie
+  subtitle: An Old Man, A Young Man and Life's Greatest Lesson
+  author:
+  - Mitch Albom
+  publishedDate: '1997-08-18'
+  categories:
+  - Biography & Autobiography
+  image: "/images/books/tuesdays-with-morrie.jpg"
+  pageCount: 208
+  notFound: false
 - isbn: 9781603580557
   dateRead: December 03, 2023
   title: Thinking in Systems

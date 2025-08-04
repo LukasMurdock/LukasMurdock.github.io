@@ -106,6 +106,10 @@ The 5 Love Languages by Gary Chapman:
 
 [It’s not about the nail](https://www.youtube.com/watch?v=-4EDhdAHrOg) — “She doesn’t need the guy to give her advice on how to concretely solve this one particular problem, she needs reassurance in the form of sufficient attention to indicate that he is her ally.”
 
+[the key to love is understanding](https://velvetnoise.substack.com/p/the-key-to-love-is-understanding)
+
+> The longer I live, the more deeply I learn that love — whether we call it friendship or family or romance — is the work of mirroring and magnifying each other’s light. Gentle work. Steadfast work. Life-saving work in those moments when life and shame and sorrow occlude our own light from our view, but there is still a clear-eyed loving person to beam it back. In our best moments, we are that person for another.
+
 ## Family
 
 Family is charted on a steep decline until the late 20s before making the slightest rebound around 40. So, see you then.

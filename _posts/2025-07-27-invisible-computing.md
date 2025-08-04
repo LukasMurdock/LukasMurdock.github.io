@@ -257,3 +257,10 @@ The goal of the pilot’s assistant is to enhance the ability of the pilot to fl
     - invisibility vs. explicit interaction
 - **Means for achieving either end state**
     - distributed affordances vs. focused expertise
+
+----
+
+- [Agency plus automation: Designing artificial intelligence into interactive systems](https://idl.cs.washington.edu/files/2019-AgencyPlusAutomation-PNAS.pdf)
+- [Using Artificial Intelligence to Augment Human Intelligence](https://distill.pub/2017/aia/)
+- [Is chat a good UI for AI? A Socratic dialogue](https://www.geoffreylitt.com/2025/06/29/chat-ai-dialogue)
+- [Malleable software](https://www.inkandswitch.com/essay/malleable-software/)
