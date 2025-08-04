@@ -1,0 +1,8 @@
+{
+    "name": "lukasmurdock-site",
+    "compatibility_date": "2025-08-04",
+    "assets": {
+        "directory": "./_site/",
+        "not_found_handling": "404-page"
+    }
+}
