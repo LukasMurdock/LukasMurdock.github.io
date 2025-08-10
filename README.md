@@ -39,6 +39,23 @@ The site will be available at `http://localhost:4000`
 - Custom plugins for data management
 - Responsive design
 
+## Build
+
+Build the site for production:
+```bash
+bundle exec jekyll build
+```
+
+The built site will be in the `_site/` directory.
+
 ## Deployment
 
-npx wrangler deploy
+1. Build the site:
+   ```bash
+   bundle exec jekyll build
+   ```
+
+2. Deploy to Cloudflare Pages:
+   ```bash
+   npx wrangler deploy
+   ```
