@@ -355,6 +355,9 @@ magick mogrify -format jpg *.webp
 # JPG compression
 convert INPUT.jpg -sampling-factor 4:2:0 -strip -quality 85 -interlace JPEG -colorspace RGB OUTPUT.jpg
 
+# Convert folder of heic to jpg at 95%
+for f in *.heic; do magick "$f" -quality 95% "${f%.heic}.jpg"; done
+
 {% endraw %}
 {% endhighlight %}
 
