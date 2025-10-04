@@ -186,15 +186,17 @@ See: [uses](/uses)
 
 ### Personality
 
+(Note: should retake with [openpsychometrics](https://openpsychometrics.org/))
+
 #### Myers-Briggs
 
 [INFJ-A](https://www.16personalities.com/infj-personality)
 
 #### Big 5 Personality Inventory
 - Openness to Experience: **high**
-- Conscientiousness: **medium**
-- Extraversion: **low**
-- Agreeableness: **medium**
+- Conscientiousness: **high**
+- Extraversion: **medium**
+- Agreeableness: **high**
 - Neuroticism: **medium-low**
 
 #### Enneagram
@@ -203,6 +205,12 @@ type 5 - 5w6 wing (taken: ~2021, 2023)
 - [site 1 (take test here)](https://www.eclecticenergies.com/enneagram/type5)
 - [site 2](https://www.enneagraminstitute.com/type-5)
 - [site 3](https://www.crystalknows.com/enneagram/type-5/wing-6)
+
+#### MACH-IV
+
+41/100
+
+[Open-Source Psychometrics Project](https://openpsychometrics.org/tests/MACH-IV/)
 
 #### PrinciplesYou
 
