@@ -71,6 +71,7 @@ And yet, I aspire to get significantly better at extracting knowledge and reveal
 - Find new ways to confuse yourself
 - [Find solace in learning](https://lukasmurdock.com/autodidact/)
 - Find a quest, find [something to be enthusiastic about](https://critter.blog/2022/10/28/something-to-be-enthusiastic-about/)
+- Have fractal interests
 - [Every day do something that won’t compute](https://www.frontporchrepublic.com/2024/05/every-day-do-something-that-wont-compute/)
 - Slow down, deliberate
 - Strong opinions, loosely held

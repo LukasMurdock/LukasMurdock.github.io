@@ -25,7 +25,7 @@ div.clickEffect {
     animation: clickEffect 0.4s ease-out;
     z-index: 99999;
   }
-  
+
   @keyframes clickEffect {
       0% {
       opacity: 1;
@@ -42,8 +42,8 @@ div.clickEffect {
       border-width: 20px;
     }
   }
-  
-  
+
+
 
 
 
@@ -96,7 +96,7 @@ article h1 + p {
     /* margin-bottom: -10px; */
     margin-top: -12px;
 }
-	
+
 h1,h2,h3{
 	line-height:1.2;
 }
@@ -243,7 +243,7 @@ img {
     margin-inline-start:40px;
     margin-inline-end: 40px;
 }
-  
+
 /*
 .index-padding{
       padding: 0px 80px;
@@ -356,7 +356,7 @@ footer {
 
 .cardgrid-container {
     display: grid;
-	grid-template-columns: repeat(2, 1fr);	
+	grid-template-columns: repeat(2, 1fr);
 	margin-top: 20px;
 }
 
@@ -376,18 +376,18 @@ footer {
     .cardgrid-container {
         grid-template-columns: repeat(1, 1fr);
     }
-    
+
     .two-column {
         grid-column: 1;
     }
- 
+
     .mobile-hide{
         display: none;
     }
     .mobile-show{
         display: block;
     }
-    
+
     .image.body-copy-wide.image-fullbleed .image-text{
         margin-left: auto!important;
         margin-right: auto!important;
@@ -419,7 +419,7 @@ footer {
         margin-inline-start:40px!important;
         margin-inline-end: 40px!important;
     }
-    
+
     figure {
         display: block;
         /*max-width: 375px!important;*/
@@ -455,7 +455,7 @@ footer {
         display: inline-block;
         cursor: pointer;
       }
-      
+
       .topbar, .bottombar {
         width: 24px;
         height: 3px;
@@ -468,20 +468,20 @@ footer {
           -o-transition: all 200ms ease-in-out;
              transition: all 200ms ease-in-out;
       }
-      
+
       .topbar{
       top: 6px;
       }
-      
+
       .bottombar{
       top: 15px;
       }
-      
+
       .menu_cross .topbar {
         -webkit-transform: rotate(-44deg) translate(-3px, 3.5px);
         transform: rotate(-44deg) translate(-3px, 3.5px);
       }
-      
+
       .menu_cross .bottombar {
         -webkit-transform: rotate(45deg) translate(-3px, -3px);
         transform: rotate(45deg) translate(-3px, -3px);
@@ -600,7 +600,7 @@ figure {
         /*transform: scale(.9);*/
         transition: 150ms all cubic-bezier(.2, .8, .4, 1);
     }
-    
+
     .more-btn:hover {
         background: rgba(0, 0, 0, 0.1);
     }
@@ -646,7 +646,7 @@ figure {
         background-position: 0 100%;
         transition: background-size 0.25s ease-in-out;
     }
-    
+
     .post:hover .mobile-transition-underline{
         background-size: 100% 100%;
     }
@@ -713,4 +713,15 @@ footer > a > svg {
     position: relative;
     width:24px;
     height:24px
+}
+
+.ascii-art {
+    /* dust bg */
+	background-color: #1D1D1F;
+    /* dust fg */
+	color: #FAFAFA;
+	padding: 1rem;
+	overflow-x: auto;
+	border-radius: 0.375rem;
+	position: relative;
 }
