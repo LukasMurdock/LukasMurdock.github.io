@@ -157,6 +157,8 @@ In no particular order
     - [Ise Grand Shrine](https://en.wikipedia.org/wiki/Ise_Grand_Shrine) in 2033!
 - Germany, Halberstadt
     - [St. Burchardi church](https://en.wikipedia.org/wiki/As_Slow_as_Possible) in 2026
+- Switzerland, Zürich
+    - [Zentralbibliothek Zürich](https://en.wikipedia.org/wiki/Zentralbibliothek_Z%C3%BCrich)
 - Brazil
 - China
 - France
