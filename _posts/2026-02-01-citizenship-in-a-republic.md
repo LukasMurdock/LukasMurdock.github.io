@@ -3,6 +3,7 @@ layout: post
 title: "Citizenship in a Republic"
 date: "February 01, 2026"
 description: "Theodore Roosevelt speech delivered at the Sorbonne, in Paris, France on 23 April, 1910"
+tags: [otherAuthor, speech]
 ---
 
 Strange and impressive associations rise in the mind of a man from the New World who speaks before this august body in this ancient institution of learning. Before his eyes pass the shadows of mighty kings and warlike nobles, of great masters of law and theology; through the shining dust of the dead centuries he sees crowded figures that tell of the power and learning and splendor of times gone by; and he sees also the innumerable host of humble students to whom clerkship meant emancipation, to whom it was well-nigh the only outlet from the dark thralldom of the Middle Ages.
