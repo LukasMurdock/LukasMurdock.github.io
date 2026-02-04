@@ -74,6 +74,7 @@ description: "Things to do places to be"
     - Maui Brewing Co
     - Kelley O'Neil's
     - Arnold's Beach Bar
+    - Buho Cocina y Cantina
     - Waikiki Brewing Co
     - Wang Chung’s Karaoke Bar
     - Suzy Wongs Hideaway
