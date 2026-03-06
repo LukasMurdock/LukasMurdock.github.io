@@ -282,3 +282,5 @@ Clear | https://apps.apple.com/us/app/clear-todos/id493136154::
 ## Other setups
 
 [Arun](https://arun.is/blog/desk-setup-for-two/)
+
+[James](https://www.jpt.sh/posts/2026-default-apps/)
