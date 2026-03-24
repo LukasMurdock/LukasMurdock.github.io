@@ -10,6 +10,8 @@ tags: business
 
 [Eight marketing maxims](https://seths.blog/2023/12/eight-marketing-maxims/)
 
+- [Startup Marketing System Playbook](/startup-marketing-system-playbook/)
+
 - Trust is worth more than attention.
 - Helping people get to where they seek to go is more effective than hustling people to persuade them to go where you’re going.
 - Choose your customers, choose your future.

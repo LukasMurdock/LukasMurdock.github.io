@@ -8,6 +8,8 @@ tags: business
 
 Content Marketing is the buzzword for digital publishing across the web, email, and social platforms.
 
+- [Startup Marketing System Playbook](/startup-marketing-system-playbook/)
+
 Find what your audience talks about online and:
 1. [Build data-informed marketing personas](https://sparktoro.com/blog/how-to-apply-sparktoros-data-and-get-better-marketing-results/#personas)
 2. [Optimize social & display ad targeting](https://sparktoro.com/blog/how-to-apply-sparktoros-data-and-get-better-marketing-results/#adtargeting)
