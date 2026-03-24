@@ -1,0 +1,14 @@
+[tools]
+ruby = "3.4.5"
+
+[tasks.setup]
+description = "Install Ruby dependencies"
+run = "bundle install"
+
+[tasks.dev]
+description = "Run Jekyll dev server"
+run = "bundle exec jekyll serve"
+
+[tasks.build]
+description = "Build Jekyll site"
+run = "bundle exec jekyll build"
