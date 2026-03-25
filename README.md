@@ -47,4 +47,10 @@ npm run data:mutate
 
 ## Deployment
 
-Deploy `_site/` to Cloudflare Pages (or any static host).
+Deploy to Cloudflare Workers with static assets:
+
+```bash
+npm run deploy
+```
+
+This builds `_site/` and runs `wrangler deploy` using `wrangler.jsonc` routes/assets settings.

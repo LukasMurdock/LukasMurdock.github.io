@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "npm run sync:assets && npm run data:mutate && astro dev",
     "build": "npm run sync:assets && npm run data:mutate && astro build",
-    "deploy": "npm run build && CLOUDFLARE_ACCOUNT_ID=440e7b1dda326614729fce463b0d6c33 npx wrangler pages deploy _site --project-name lukasmurdock-github-io --branch main",
+    "deploy": "npm run build && npx wrangler deploy",
     "preview": "astro preview",
     "check": "astro check",
     "sync:assets": "node scripts/sync-static-assets.mjs",
