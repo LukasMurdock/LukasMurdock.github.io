@@ -16,3 +16,4 @@ date: "September 23, 2025"
 - [Ahrefs Academy](https://ahrefs.com/academy)
 - [Google Skillshop](https://skillshop.withgoogle.com/)
 - [ABB University](https://new.abb.com/service/abb-university)
+- [Ubiquiti Academy - Fundamentals of UniFi WiFi Design](https://academy.ui.com/topics/fundamentals-of-unifi-wifi-design)
