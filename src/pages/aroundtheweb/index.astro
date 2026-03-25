@@ -166,6 +166,11 @@ const aroundGroups: AroundDateGroup[] = (linksData.linkslist ?? [])
     .date-link:hover {
       background: rgb(0 0 0 / 5%);
     }
+
+    .around-item-no-description {
+      margin-bottom: 30px;
+    }
+
   </style>
 
   <p style="margin-top:2px; text-align:center;">Links I really don&rsquo;t want to forget.</p>
@@ -208,7 +213,7 @@ const aroundGroups: AroundDateGroup[] = (linksData.linkslist ?? [])
 
           <ol style="list-style: none;" class="zero-margin">
             {group.links.map((entry) => (
-              <li>
+              <li class={!entry.comment ? "around-item-no-description" : undefined}>
                 <a
                   style="color: #333; text-decoration:none!important;"
                   class="item"
