@@ -1,0 +1,68 @@
+---
+import Head from "@/components/Head.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+
+type Props = {
+  title?: string;
+  description?: string;
+  urlPath?: string;
+  image?: string;
+  noindex?: boolean;
+  icons?: boolean;
+  isPost?: boolean;
+  publishedTime?: Date;
+  modifiedTime?: Date;
+  tags?: string[];
+  contentText?: string;
+};
+
+const {
+  title,
+  description,
+  urlPath,
+  image,
+  noindex,
+  icons,
+  isPost,
+  publishedTime,
+  modifiedTime,
+  tags,
+  contentText,
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <Head
+    title={title}
+    description={description}
+    urlPath={urlPath}
+    image={image}
+    noindex={noindex}
+    icons={icons}
+    isPost={isPost}
+    publishedTime={publishedTime}
+    modifiedTime={modifiedTime}
+    tags={tags}
+    contentText={contentText}
+  />
+
+  <body class="pagebody">
+    <script
+      data-goatcounter="https://lukasmurdock.goatcounter.com/count"
+      async
+      src="//gc.zgo.at/count.js"
+      is:inline
+    ></script>
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js"
+      data-cf-beacon='{"token": "32ff8d315bbf4217a8ea856a04fe88fd"}'
+      is:inline></script>
+
+    <Header />
+    <slot />
+    <Footer />
+  </body>
+</html>

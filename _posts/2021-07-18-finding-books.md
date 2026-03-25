@@ -49,9 +49,9 @@ tags: me
 
 ### Custom Google Search
 
-{% highlight javascript %}
+```javascript
 intitle:index.of (epub|mobi|PDF) "BOOK TITLE HERE" -HTML -htm -jsp -asp -php
-{% endhighlight %}
+```
 
 ### Other options
 - Torrent

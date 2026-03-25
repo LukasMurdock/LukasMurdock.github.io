@@ -1,0 +1,62 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { readYamlFile } from "@/lib/data";
+
+type FirstTimeItem = {
+  firsttime?: string;
+  date?: string;
+};
+
+const entries = await readYamlFile<FirstTimeItem[]>("_data/forTheFirstTime.yaml");
+
+const items = [...entries].sort((left, right) => {
+  const leftDate = left.date ? new Date(left.date).valueOf() : 0;
+  const rightDate = right.date ? new Date(right.date).valueOf() : 0;
+  return rightDate - leftDate;
+});
+---
+
+<BaseLayout
+  title="When Did You Last Do Something For The First Time?"
+  description="Things I did for the first time.">
+  <style is:inline>
+    .card-note {
+      padding: 16px 16px 12px;
+      background-color: #fff;
+      border-width: 1px;
+      border-color: rgb(196, 207, 214);
+      border-radius: 12px;
+      font-size: 20px;
+      margin-bottom: 10px;
+      overflow: hidden;
+    }
+
+    .card-note p {
+      margin: 0;
+      padding: 0;
+      white-space: pre-wrap;
+    }
+
+    .card-note time {
+      color: rgb(91, 112, 131);
+      font-size: 15px;
+      display: block;
+      margin-top: 6px;
+    }
+
+    .card-note pre {
+      overflow: scroll;
+    }
+  </style>
+
+  {items.map((item) => {
+    const anchor = encodeURIComponent(item.date ?? "");
+
+    return (
+      <div class="card-note" id={anchor}>
+        {item.firsttime && <p>{item.firsttime}</p>}
+        {item.date && <time>{item.date}</time>}
+      </div>
+    );
+  })}
+</BaseLayout>

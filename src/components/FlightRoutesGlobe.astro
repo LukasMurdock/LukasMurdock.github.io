@@ -1,0 +1,569 @@
+---
+import { AIRPORT_COORDINATES, TRIPS } from "@/lib/airport-coordinates";
+
+const airportCount = Object.keys(AIRPORT_COORDINATES).length;
+const airportEntries = Object.entries(AIRPORT_COORDINATES);
+---
+
+<div class="flight-globe-card" data-flight-globe>
+  <p class="flight-globe-card__meta">{TRIPS.length} flights · {airportCount} airports</p>
+  <div class="flight-globe-card__canvas-wrap">
+    <canvas class="flight-globe-card__canvas" width="640" height="640" aria-label="Animated globe with flight routes"></canvas>
+    <div class="flight-globe-card__labels">
+      {
+        airportEntries.map(([code, airport]) => (
+          <span
+            class="flight-globe-card__label"
+            data-airport-label
+            data-code={code}
+            data-home={code === "HNL" ? "true" : "false"}
+            title={airport.Name}
+            hidden>{code}</span
+          >
+        ))
+      }
+    </div>
+  </div>
+</div>
+
+<script>
+  import createGlobe from "cobe";
+  import { AIRPORT_COORDINATES, TRIP_ROUTES } from "@/lib/airport-coordinates";
+
+  type RouteRecord = {
+    id: string;
+    fromCode: string;
+    toCode: string;
+    from: [number, number];
+    to: [number, number];
+    count: number;
+  };
+
+  type LabelRect = {
+    left: number;
+    top: number;
+    right: number;
+    bottom: number;
+  };
+
+  type LabelPlacement = {
+    left: number;
+    top: number;
+  };
+
+  const LABEL_CYCLE_MS = 2800;
+
+  const initFlightGlobe = () => {
+    const root = document.querySelector("[data-flight-globe]");
+    if (!(root instanceof HTMLElement)) {
+      return;
+    }
+
+    const canvasWrap = root.querySelector(".flight-globe-card__canvas-wrap");
+    if (!(canvasWrap instanceof HTMLElement)) {
+      return;
+    }
+
+    const canvas = root.querySelector("canvas");
+    if (!(canvas instanceof HTMLCanvasElement)) {
+      return;
+    }
+
+    const airports = Object.entries(AIRPORT_COORDINATES).map(([code, airport]) => ({
+      code,
+      ...airport,
+    }));
+
+    const labelByCode: Record<string, HTMLSpanElement> = {};
+    for (const node of root.querySelectorAll("[data-airport-label]")) {
+      if (!(node instanceof HTMLSpanElement)) {
+        continue;
+      }
+
+      const code = node.dataset.code;
+      if (!code) {
+        continue;
+      }
+
+      labelByCode[code] = node;
+    }
+
+    const routeRecords: RouteRecord[] = TRIP_ROUTES.map((route) => {
+      const fromAirport = AIRPORT_COORDINATES[route.From];
+      const toAirport = AIRPORT_COORDINATES[route.To];
+      return {
+        id: `${route.From}-${route.To}`,
+        fromCode: route.From,
+        toCode: route.To,
+        from: [fromAirport.Lat, fromAirport.Lon],
+        to: [toAirport.Lat, toAirport.Lon],
+        count: route.Count,
+      };
+    });
+
+    const maxRouteCount = Math.max(...routeRecords.map((route) => route.count), 1);
+
+    const getAirportTraffic = (records: RouteRecord[]) => {
+      return records.reduce<Record<string, number>>((acc, route) => {
+        acc[route.fromCode] = (acc[route.fromCode] || 0) + route.count;
+        acc[route.toCode] = (acc[route.toCode] || 0) + route.count;
+        return acc;
+      }, {});
+    };
+
+    const mixColor = (from: [number, number, number], to: [number, number, number], amount: number) => {
+      const t = Math.min(1, Math.max(0, amount));
+      return [
+        from[0] + (to[0] - from[0]) * t,
+        from[1] + (to[1] - from[1]) * t,
+        from[2] + (to[2] - from[2]) * t,
+      ] as [number, number, number];
+    };
+
+    const buildMarkers = (activeAirportCodes: Set<string>) => {
+      return airports
+        .filter((airport) => activeAirportCodes.has(airport.code))
+        .map((airport) => ({
+          id: airport.code,
+          location: [airport.Lat, airport.Lon] as [number, number],
+          size: airport.code === "HNL" ? 0.05 : 0.024,
+          color: (airport.code === "HNL" ? [0.96, 0.35, 0.31] : [0.21, 0.45, 0.98]) as [number, number, number],
+        }));
+    };
+
+    const buildArcs = (records: RouteRecord[]) => {
+      return records.flatMap((route) => {
+        const normalized = route.count / maxRouteCount;
+        const base = [0.28, 0.47, 0.93] as [number, number, number];
+        const accent = [0.96, 0.59, 0.22] as [number, number, number];
+        const routeColor = mixColor(base, accent, normalized * 0.85);
+        const layers = Math.min(4, Math.max(1, Math.round(1 + normalized * 3)));
+
+        return Array.from({ length: layers }, (_, layer) => {
+          const layeredColor = mixColor(routeColor, [1, 1, 1], layer * 0.12);
+          return {
+            id: `${route.id}-${layer}`,
+            from: route.from,
+            to: route.to,
+            color: layeredColor,
+          };
+        });
+      });
+    };
+
+    const measuredWidth = () => Math.max(300, Math.min(560, Math.round(canvasWrap.clientWidth || root.clientWidth)));
+    const clamp = (value: number, min: number, max: number) => Math.min(max, Math.max(min, value));
+    const tau = Math.PI * 2;
+    const markerElevation = 0.04;
+    const globeRadius = 0.8;
+
+    let phi = 0;
+    let theta = 0.34;
+    let width = measuredWidth();
+    let isDragging = false;
+    let dragStartX = 0;
+    let dragStartY = 0;
+    let autoRotateBlockedUntil = 0;
+    let labelCycleIndex = 0;
+    let labelCycleAt = performance.now() + LABEL_CYCLE_MS;
+
+    const activeRouteRecords = routeRecords;
+    const activeAirportTraffic = getAirportTraffic(activeRouteRecords);
+    const activeAirportCodes = new Set(activeRouteRecords.flatMap((route) => [route.fromCode, route.toCode]));
+    activeAirportCodes.add("HNL");
+    const activeMarkers = buildMarkers(activeAirportCodes);
+    const activeArcs = buildArcs(activeRouteRecords);
+
+    const toUnitVector = (location: [number, number]): [number, number, number] => {
+      const lat = (location[0] * Math.PI) / 180;
+      const lon = (location[1] * Math.PI) / 180 - Math.PI;
+      const cosLat = Math.cos(lat);
+      return [-cosLat * Math.cos(lon), Math.sin(lat), cosLat * Math.sin(lon)];
+    };
+
+    const projectVector = (vector: [number, number, number]) => {
+      const cosTheta = Math.cos(theta);
+      const cosPhi = Math.cos(phi);
+      const sinTheta = Math.sin(theta);
+      const sinPhi = Math.sin(phi);
+      const x = cosPhi * vector[0] + sinPhi * vector[2];
+      const y = sinPhi * sinTheta * vector[0] + cosTheta * vector[1] - cosPhi * sinTheta * vector[2];
+      const z = -sinPhi * cosTheta * vector[0] + sinTheta * vector[1] + cosPhi * cosTheta * vector[2];
+      const aspect = canvas.width / canvas.height;
+      return {
+        x: (x / aspect + 1) / 2,
+        y: (-y + 1) / 2,
+        visible: z >= 0 || x * x + y * y >= 0.64,
+      };
+    };
+
+    const candidateOffsets: Array<[number, number]> = [
+      [10, -10],
+      [10, 10],
+      [-10, -10],
+      [-10, 10],
+      [18, 0],
+      [-18, 0],
+      [0, -18],
+      [0, 18],
+    ];
+
+    const rectsOverlap = (a: LabelRect, b: LabelRect, pad = 1) => {
+      return !(a.right + pad < b.left || a.left - pad > b.right || a.bottom + pad < b.top || a.top - pad > b.bottom);
+    };
+
+    const collidesWithAny = (rect: LabelRect, occupied: LabelRect[]) => occupied.some((other) => rectsOverlap(rect, other, 1));
+
+    const makeRect = (left: number, top: number, width: number, height: number): LabelRect => ({
+      left,
+      top,
+      right: left + width,
+      bottom: top + height,
+    });
+
+    const inBounds = (rect: LabelRect, width: number, height: number) => {
+      return rect.left >= 2 && rect.top >= 2 && rect.right <= width - 2 && rect.bottom <= height - 2;
+    };
+
+    const labelMetrics: Record<string, { width: number; height: number }> = {};
+    for (const airport of airports) {
+      const label = labelByCode[airport.code];
+      if (!label) {
+        continue;
+      }
+
+      label.hidden = false;
+      const rect = label.getBoundingClientRect();
+      labelMetrics[airport.code] = {
+        width: Math.max(20, Math.ceil(rect.width)),
+        height: Math.max(14, Math.ceil(rect.height)),
+      };
+      label.style.setProperty("--label-x", "-999px");
+      label.style.setProperty("--label-y", "-999px");
+      label.classList.remove("flight-globe-card__label--visible");
+    }
+
+    const airportPriority = (code: string) => {
+      const traffic = activeAirportTraffic[code] ?? 0;
+      return (code === "HNL" ? 10_000 : 0) + traffic;
+    };
+
+    const updateAirportLabels = () => {
+      const canvasRect = canvas.getBoundingClientRect();
+      const canvasWidth = canvasRect.width;
+      const canvasHeight = canvasRect.height;
+      if (canvasWidth === 0 || canvasHeight === 0) {
+        return;
+      }
+
+      const occupied: LabelRect[] = [];
+      const placements = new Map<string, LabelPlacement>();
+
+      const visibleAirports = airports
+        .filter((airport) => activeAirportCodes.has(airport.code))
+        .map((airport) => {
+          const unitVector = toUnitVector([airport.Lat, airport.Lon]);
+          const projected = projectVector([
+            unitVector[0] * (globeRadius + markerElevation),
+            unitVector[1] * (globeRadius + markerElevation),
+            unitVector[2] * (globeRadius + markerElevation),
+          ]);
+
+          const visible = projected.visible && projected.x >= 0 && projected.x <= 1 && projected.y >= 0 && projected.y <= 1;
+          return {
+            airport,
+            visible,
+            pointX: projected.x * canvasWidth,
+            pointY: projected.y * canvasHeight,
+            priority: airportPriority(airport.code),
+          };
+        })
+        .filter((item) => item.visible)
+        .sort((a, b) => b.priority - a.priority);
+
+      const labelBudget = canvasWidth < 420 ? 6 : 9;
+      const pinned = visibleAirports.filter((item) => item.airport.code === "HNL");
+      const pool = visibleAirports.filter((item) => item.airport.code !== "HNL");
+      const rotatingSlots = Math.max(0, labelBudget - pinned.length);
+
+      let rotatingSelection = pool.slice(0, rotatingSlots);
+      if (rotatingSlots > 0 && pool.length > rotatingSlots) {
+        const start = labelCycleIndex % pool.length;
+        rotatingSelection = Array.from({ length: rotatingSlots }, (_, index) => {
+          return pool[(start + index) % pool.length];
+        });
+      }
+
+      const airportsToPlace = [...pinned, ...rotatingSelection];
+
+      for (const item of airportsToPlace) {
+        const { airport, pointX, pointY } = item;
+        const metric = labelMetrics[airport.code] ?? { width: 34, height: 16 };
+        let placed = false;
+
+        for (const [offsetX, offsetY] of candidateOffsets) {
+          const left = pointX + offsetX;
+          const top = pointY + offsetY;
+          const rect = makeRect(left, top, metric.width, metric.height);
+          if (!inBounds(rect, canvasWidth, canvasHeight)) {
+            continue;
+          }
+
+          if (collidesWithAny(rect, occupied)) {
+            continue;
+          }
+
+          occupied.push(rect);
+          placements.set(airport.code, { left, top });
+          placed = true;
+          break;
+        }
+
+        if (placed) {
+          continue;
+        }
+
+        const fallbackLeft = clamp(pointX + 10, 2, canvasWidth - metric.width - 2);
+        const fallbackTop = clamp(pointY - 10, 2, canvasHeight - metric.height - 2);
+        const fallbackRect = makeRect(fallbackLeft, fallbackTop, metric.width, metric.height);
+        occupied.push(fallbackRect);
+        placements.set(airport.code, { left: fallbackLeft, top: fallbackTop });
+      }
+
+      for (const airport of airports) {
+        const label = labelByCode[airport.code];
+        if (!label) {
+          continue;
+        }
+
+        const placement = placements.get(airport.code);
+        if (!placement) {
+          label.classList.remove("flight-globe-card__label--visible");
+          continue;
+        }
+
+        label.style.setProperty("--label-x", `${placement.left}px`);
+        label.style.setProperty("--label-y", `${placement.top}px`);
+        label.classList.add("flight-globe-card__label--visible");
+      }
+    };
+
+    let globe;
+    try {
+      globe = createGlobe(canvas, {
+        devicePixelRatio: Math.min(window.devicePixelRatio || 1, 2),
+        width: width * 2,
+        height: width * 2,
+        phi,
+        theta,
+        dark: 0,
+        diffuse: 1.2,
+        mapSamples: 18000,
+        mapBrightness: 6,
+        mapBaseBrightness: 0.08,
+        baseColor: [0.92, 0.95, 1],
+        markerColor: [0.21, 0.45, 0.98],
+        glowColor: [0.92, 0.96, 1],
+        markerElevation,
+        markers: activeMarkers,
+        arcs: activeArcs,
+        arcColor: [0.21, 0.45, 0.98],
+        arcWidth: 0.52,
+        arcHeight: 0.22,
+      });
+    } catch {
+      root.classList.add("flight-globe-card--fallback");
+      return;
+    }
+
+    let frameId = 0;
+    const animate = () => {
+      const now = performance.now();
+
+      if (!isDragging && now >= autoRotateBlockedUntil) {
+        phi = (phi + 0.0018) % tau;
+      }
+
+      if (!isDragging && now >= labelCycleAt) {
+        labelCycleIndex += 1;
+        labelCycleAt = now + LABEL_CYCLE_MS;
+      }
+
+      globe.update({ phi, theta });
+      updateAirportLabels();
+      frameId = window.requestAnimationFrame(animate);
+    };
+
+    const onResize = () => {
+      const nextWidth = measuredWidth();
+      if (nextWidth === width) {
+        return;
+      }
+
+      width = nextWidth;
+      globe.update({
+        width: width * 2,
+        height: width * 2,
+      });
+      updateAirportLabels();
+    };
+
+    const onPointerDown = (event: PointerEvent) => {
+      isDragging = true;
+      dragStartX = event.clientX;
+      dragStartY = event.clientY;
+      autoRotateBlockedUntil = performance.now() + 4000;
+      root.classList.add("flight-globe-card--dragging");
+      canvas.setPointerCapture(event.pointerId);
+      canvas.style.cursor = "grabbing";
+    };
+
+    const onPointerMove = (event: PointerEvent) => {
+      if (!isDragging) {
+        return;
+      }
+
+      const deltaX = event.clientX - dragStartX;
+      const deltaY = event.clientY - dragStartY;
+      dragStartX = event.clientX;
+      dragStartY = event.clientY;
+
+      phi = (phi + deltaX * 0.006 + tau) % tau;
+      theta = clamp(theta + deltaY * 0.004, -0.6, 0.6);
+    };
+
+    const endDragging = (event: PointerEvent) => {
+      if (!isDragging) {
+        return;
+      }
+
+      isDragging = false;
+      autoRotateBlockedUntil = performance.now() + 2500;
+      root.classList.remove("flight-globe-card--dragging");
+      canvas.style.cursor = "grab";
+      if (canvas.hasPointerCapture(event.pointerId)) {
+        canvas.releasePointerCapture(event.pointerId);
+      }
+    };
+
+    let cleanup = () => {
+      window.cancelAnimationFrame(frameId);
+      window.removeEventListener("resize", onResize);
+      canvas.removeEventListener("pointerdown", onPointerDown);
+      canvas.removeEventListener("pointermove", onPointerMove);
+      canvas.removeEventListener("pointerup", endDragging);
+      canvas.removeEventListener("pointercancel", endDragging);
+      globe.destroy();
+    };
+
+    const hasResizeObserver = typeof window.ResizeObserver === "function";
+    if (hasResizeObserver) {
+      const resizeObserver = new ResizeObserver(() => onResize());
+      resizeObserver.observe(root);
+      cleanup = () => {
+        window.cancelAnimationFrame(frameId);
+        resizeObserver.disconnect();
+        canvas.removeEventListener("pointerdown", onPointerDown);
+        canvas.removeEventListener("pointermove", onPointerMove);
+        canvas.removeEventListener("pointerup", endDragging);
+        canvas.removeEventListener("pointercancel", endDragging);
+        globe.destroy();
+      };
+    } else {
+      window.addEventListener("resize", onResize);
+    }
+
+    canvas.addEventListener("pointerdown", onPointerDown);
+    canvas.addEventListener("pointermove", onPointerMove);
+    canvas.addEventListener("pointerup", endDragging);
+    canvas.addEventListener("pointercancel", endDragging);
+    canvas.style.cursor = "grab";
+
+    updateAirportLabels();
+    animate();
+    window.addEventListener("pagehide", cleanup, { once: true });
+  };
+
+  initFlightGlobe();
+</script>
+
+<style>
+  .flight-globe-card {
+    border-top: 1px solid rgba(0, 0, 0, 0.07);
+    padding-top: 8px;
+  }
+
+  .flight-globe-card__meta {
+    margin: 0;
+    color: #4f5b66;
+    font-size: 0.95rem;
+  }
+
+  .flight-globe-card__canvas-wrap {
+    position: relative;
+    width: min(100%, 560px);
+    margin: 10px auto 0;
+  }
+
+  .flight-globe-card__canvas {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    margin: 0 auto;
+    cursor: grab;
+    touch-action: none;
+    user-select: none;
+  }
+
+  .flight-globe-card--dragging .flight-globe-card__canvas {
+    cursor: grabbing;
+  }
+
+  .flight-globe-card__labels {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+  }
+
+  .flight-globe-card__label {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(var(--label-x), var(--label-y)) scale(0.94);
+    background: rgba(255, 255, 255, 0.86);
+    color: #1f2933;
+    border: 1px solid rgba(17, 25, 40, 0.13);
+    border-radius: 999px;
+    padding: 2px 6px;
+    font-size: 0.62rem;
+    line-height: 1;
+    letter-spacing: 0.02em;
+    font-weight: 600;
+    pointer-events: none;
+    white-space: nowrap;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.12);
+    user-select: none;
+    opacity: 0;
+    transition: opacity 0.35s ease, transform 0.35s ease;
+  }
+
+  .flight-globe-card__label--visible {
+    opacity: 1;
+    transform: translate(var(--label-x), var(--label-y)) scale(1);
+  }
+
+  .flight-globe-card__label[data-home="true"] {
+    background: rgba(249, 70, 67, 0.92);
+    border-color: rgba(176, 25, 25, 0.45);
+    color: #fff;
+  }
+
+  .flight-globe-card--fallback .flight-globe-card__canvas {
+    display: none;
+  }
+
+  .flight-globe-card--fallback .flight-globe-card__labels {
+    display: none;
+  }
+
+</style>

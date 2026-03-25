@@ -1,0 +1,29 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { getPostSlug, hasTag, isPublishablePost, sortPostsByDateDesc } from "@/lib/content";
+
+const posts = sortPostsByDateDesc((await getCollection("posts")).filter((post) => isPublishablePost(post))).filter((post) =>
+  hasTag(post, "business"),
+);
+---
+
+<BaseLayout title="The Business Collection" description="A collection of posts on business.">
+  <p>Core <a href="/business-challenges/">Business Challenges</a>:</p>
+  <ul>
+    <li><a href="/leadership/">Leadership</a></li>
+    <li><a href="/management/">Management</a></li>
+    <li><a href="/strategy/">Strategy</a></li>
+    <li><a href="/marketing/">Marketing</a></li>
+    <li><a href="/hiring/">Hiring</a></li>
+  </ul>
+
+  <h2>All Business Posts</h2>
+  <ul>
+    {posts.map((post) => (
+      <li>
+        <a href={`/${getPostSlug(post)}/`}>{post.data.title ?? getPostSlug(post)}</a>
+      </li>
+    ))}
+  </ul>
+</BaseLayout>

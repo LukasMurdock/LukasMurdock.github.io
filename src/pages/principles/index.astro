@@ -1,0 +1,109 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { readYamlFile } from "@/lib/data";
+
+type PrincipleGroup = {
+  Title?: string;
+  Principles?: Array<{ list?: string }>;
+};
+
+type PrinciplesData = {
+  principlelist?: PrincipleGroup[];
+};
+
+const principles = await readYamlFile<PrinciplesData>("_data/principles.yaml");
+---
+
+<BaseLayout title="Principles" description="Principles worth keeping close.">
+  <style is:inline>
+    h1 {
+      text-align: center;
+      margin-bottom: 0;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      padding: 0;
+    }
+
+    .grid-item {
+      padding: 5px;
+      font-size: 14px;
+      counter-reset: dopeCounter;
+      position: relative;
+    }
+
+    h2 {
+      font-size: 22px;
+      padding-left: 20px;
+      margin-bottom: 0.4em;
+    }
+
+    ol {
+      list-style: none;
+      margin-left: 0;
+      padding-left: 20px;
+      margin-top: 0;
+    }
+
+    ol:not(.nav-menu) li::before {
+      counter-increment: dopeCounter 1;
+      content: counter(dopeCounter, decimal-leading-zero);
+      position: absolute;
+      left: 0;
+      font-size: 13px;
+      padding-top: 5px;
+      width: 25px;
+      height: 25px;
+      color: #707070;
+    }
+
+    p.item {
+      width: 100%;
+      padding: 3px 0 2px;
+      border-top: 1px solid rgba(0, 0, 0, 0.07);
+      color: #000;
+      display: inline-block;
+      margin: 0;
+    }
+
+    @media screen and (max-width: 735px) {
+      .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+  </style>
+
+  <p style="text-align: center; margin-top: 2px;">Mental models and new ways to think.</p>
+
+  <div class="pagebody-content">
+    <div style="text-align: center;">
+      <a
+        style="margin-bottom: 10px; color: #000; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;"
+        class="more-btn"
+        href="/resources/">View all resources</a
+      >
+    </div>
+
+    <div class="grid-container">
+      {(principles.principlelist ?? []).map((group) => (
+        <div class="grid-item">
+          <h2>{group.Title}</h2>
+          <ol>
+            {(group.Principles ?? []).map((principle) => (
+              <li>
+                <p class="item" set:html={principle.list ?? ""}></p>
+              </li>
+            ))}
+          </ol>
+        </div>
+      ))}
+    </div>
+  </div>
+
+  <blockquote>
+    <p>Judge each day not by the harvest you reap but by the seeds you plant.</p>
+    <footer>William Arthur Ward</footer>
+  </blockquote>
+</BaseLayout>

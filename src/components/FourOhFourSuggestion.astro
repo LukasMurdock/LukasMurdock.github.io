@@ -1,0 +1,77 @@
+<p>Perhaps you're looking for <span id="four-oh-four-suggestion"></span>?</p>
+
+<script is:inline>
+  const levenshtein = (a, b) => {
+    const matrix = Array.from({ length: b.length + 1 }, (_, i) => [i]);
+
+    for (let j = 0; j <= a.length; j += 1) {
+      matrix[0][j] = j;
+    }
+
+    for (let i = 1; i <= b.length; i += 1) {
+      for (let j = 1; j <= a.length; j += 1) {
+        if (b.charAt(i - 1) === a.charAt(j - 1)) {
+          matrix[i][j] = matrix[i - 1][j - 1];
+          continue;
+        }
+
+        matrix[i][j] = Math.min(
+          matrix[i - 1][j - 1] + 1,
+          matrix[i][j - 1] + 1,
+          matrix[i - 1][j] + 1,
+        );
+      }
+    }
+
+    return matrix[b.length][a.length];
+  };
+
+  const closestUrl = (target, candidates) => {
+    if (candidates.length === 0) {
+      return undefined;
+    }
+
+    let bestCandidate = candidates[0];
+    let bestDistance = Number.POSITIVE_INFINITY;
+
+    for (const candidate of candidates) {
+      const distance = levenshtein(target, candidate);
+      if (distance < bestDistance) {
+        bestDistance = distance;
+        bestCandidate = candidate;
+      }
+    }
+
+    return bestCandidate;
+  };
+
+  const container = document.getElementById("four-oh-four-suggestion");
+
+  if (container) {
+    fetch("/sitemap.xml")
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("Could not read sitemap");
+        }
+
+        return response.text();
+      })
+      .then((xmlText) => new window.DOMParser().parseFromString(xmlText, "application/xml"))
+      .then((xmlDocument) => {
+        const links = Array.from(xmlDocument.querySelectorAll("urlset > url > loc"))
+          .map((element) => element.textContent ?? "")
+          .filter(Boolean);
+        const suggestion = closestUrl(window.location.href, links);
+
+        if (!suggestion) {
+          throw new Error("No sitemap URLs found");
+        }
+
+        const destination = new URL(suggestion);
+        container.innerHTML = `<a href="${destination.href}">${destination.pathname}</a>`;
+      })
+      .catch(() => {
+        container.innerHTML = '<a href="/">/</a>';
+      });
+  }
+</script>

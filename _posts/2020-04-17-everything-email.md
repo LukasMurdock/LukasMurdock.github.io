@@ -141,7 +141,7 @@ Not teaching HTML or CSS here.
 
 Basic table HTML format:
 
-{% highlight HTML %}
+```html
 <table>
   <tr>
     <td></td>
@@ -155,11 +155,11 @@ Basic table HTML format:
     <td></td>
   <tr>
 </table>
-​{% endhighlight %}
+​```
 
 
 Basic table HTML and inline CSS format:
-{% highlight HTML %}
+```html
 <table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" style="background:#ebebeb" width="100%">
   <tr>
     <td></td>
@@ -173,7 +173,7 @@ Basic table HTML and inline CSS format:
     <td></td>
   <tr>
 </table>
-​{% endhighlight %}
+​```
 
 ---
 

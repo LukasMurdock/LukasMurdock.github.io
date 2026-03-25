@@ -1,0 +1,49 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import PostCard from "@/components/PostCard.astro";
+import {
+  countWords,
+  createExcerpt,
+  formatLongNowDate,
+  getPostDate,
+  getPostSlug,
+  isPublishablePost,
+  resolvePostImagePath,
+  sortPostsByDateDesc,
+} from "@/lib/content";
+
+const allPosts = await getCollection("posts");
+const posts = sortPostsByDateDesc(allPosts.filter((post) => isPublishablePost(post)));
+const wordsWritten = posts.reduce((sum, post) => sum + countWords(post.body ?? ""), 0);
+
+const collections = [
+  { href: "/business/", label: "The Business Collection" },
+  { href: "/dev-posts/", label: "The Dev Collection" },
+  { href: "/poems/", label: "The Poem Collection" },
+  { href: "/me/", label: "The Me Collection" },
+];
+---
+
+<BaseLayout
+  title="Writing"
+  description="Writing from Lukas Murdock — We can use the internet to explore the places that we know we should be exploring."
+>
+  <p style="text-align: center;">Words Written: <span>{wordsWritten.toLocaleString("en-US")}</span></p>
+
+  {collections.map((collection) => (
+    <p><a href={collection.href}>{collection.label}</a></p>
+  ))}
+
+  <hr />
+
+  {posts.map((post) => (
+    <PostCard
+      href={`/${getPostSlug(post)}/`}
+      title={post.data.title ?? getPostSlug(post)}
+      description={post.data.description || createExcerpt(post.body ?? "")}
+      date={formatLongNowDate(getPostDate(post))}
+      image={resolvePostImagePath(post.data.image)}
+    />
+  ))}
+</BaseLayout>

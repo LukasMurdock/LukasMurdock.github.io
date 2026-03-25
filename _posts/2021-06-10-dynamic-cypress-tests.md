@@ -26,7 +26,7 @@ So, next, I set the data as an environment variable when we initially run Cypres
 
 I think the best method might be to store it in a separate JSON file as a fixture when we initially run Cypress.
 
-{% highlight javascript %}
+```javascript
 // plugins/index.js
 const fs = require('fs');
 const walk = function (dir) {
@@ -57,9 +57,9 @@ JSON.stringify(walk('./pages/api')),
 module.exports = (on, config) => {
     // …
 };
-{% endhighlight %}
+```
 
-{% highlight javascript %}
+```javascript
 // api_spec.js
 describe('API locked', () => {
   const apiRoutes = require('../fixtures/apiroutes');
@@ -77,6 +77,6 @@ describe('API locked', () => {
     });
   });
 });
-{% endhighlight %}
+```
 
 [Cypress example recipes for dynamic tests](https://github.com/cypress-io/cypress-example-recipes/tree/master/examples/fundamentals__dynamic-tests).

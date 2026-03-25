@@ -31,7 +31,6 @@ I need to add more feeds, and combine some. For now, here are the feeds I have s
 - [aroundtheweb](https://lukasmurdock.com/aroundtheweb.xml) – Around the web, (needs to be fixed)
 - [booklist](https://lukasmurdock.com/booklist.xml) – Books I’ve read and don’t want to forget
 - [knowledge](https://lukasmurdock.com/knowledge.xml) – Knowledge
-- [newsletter](https://lukasmurdock.com/newsletter.xml) – This is what I would load in to send out every week
 - [notes](https://lukasmurdock.com/notes.xml) – Like subscribing to my own personal twitter
 
 #### Other RSS feeds

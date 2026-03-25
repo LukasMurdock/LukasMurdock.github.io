@@ -37,5 +37,5 @@ Example: “Limited time only!”
 **Unity: People like us do things like this.**
 Example: Jargon, exclusivity, Us vs them, experience sharing
 
-[You can find Influence: The Psychology of Persuasion on Amazon here.](https://www.amazon.com/dp/B002BD2UUC/){:target="_blank"}{:rel="noopener"}
+[You can find Influence: The Psychology of Persuasion on Amazon here.](https://www.amazon.com/dp/B002BD2UUC/)
 

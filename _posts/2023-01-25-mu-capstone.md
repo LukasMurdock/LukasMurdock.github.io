@@ -90,11 +90,6 @@ date: 'January 25, 2023'
 
 </style>
 
-## Table of contents
-
-* Do not remove this line (it will not be displayed)
-{:toc}
-
 ---
 
 ## Background on project

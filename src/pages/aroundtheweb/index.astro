@@ -1,0 +1,305 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { slugifySegment } from "@/lib/content";
+import { readYamlFile, type LinksData } from "@/lib/data";
+
+const linksData = await readYamlFile<LinksData>("_data/links.yaml");
+
+type AroundLink = {
+  title: string;
+  link: string;
+  comment: string;
+  slug: string;
+};
+
+type AroundDateGroup = {
+  date: string;
+  slug: string;
+  links: AroundLink[];
+};
+
+const seenDateSlugs = new Map<string, number>();
+
+const aroundGroups: AroundDateGroup[] = (linksData.linkslist ?? [])
+  .map((group, index) => {
+    const date = typeof group.Date === "string" && group.Date.trim() ? group.Date.trim() : `Group ${index + 1}`;
+    const baseSlug = slugifySegment(date) || `group-${index + 1}`;
+    const currentCount = seenDateSlugs.get(baseSlug) ?? 0;
+    const nextCount = currentCount + 1;
+    seenDateSlugs.set(baseSlug, nextCount);
+    const slug = nextCount === 1 ? baseSlug : `${baseSlug}-${nextCount}`;
+
+    const links = (group.Links ?? [])
+      .filter((item): item is { Title?: string; Link: string; Comment?: string } => {
+        return typeof item?.Link === "string" && item.Link.trim().length > 0;
+      })
+      .map((item, linkIndex) => {
+        const title = typeof item.Title === "string" && item.Title.trim() ? item.Title.trim() : item.Link;
+        const titleSlug = slugifySegment(title) || `link-${linkIndex + 1}`;
+        return {
+          title,
+          link: item.Link,
+          comment: typeof item.Comment === "string" ? item.Comment : "",
+          slug: `${titleSlug}-${linkIndex + 1}`,
+        };
+      });
+
+    return {
+      date,
+      slug,
+      links,
+    };
+  })
+  .filter((group) => group.links.length > 0);
+---
+
+<BaseLayout
+  title="Around the web"
+  description="Links I really don't want to forget."
+  urlPath="/aroundtheweb/"
+>
+  <style is:inline>
+    a:hover {
+      color: #0070c9 !important;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 0;
+    }
+
+    .sticky {
+      position: sticky;
+      position: -webkit-sticky;
+      box-sizing: border-box;
+      top: 10px;
+      margin: 20px 0 12px;
+      display: block;
+    }
+
+    .sticky p {
+      display: inline-block;
+      margin: 0;
+      background-color: #333;
+      padding: 10px 20px;
+      border-radius: 12px;
+      box-sizing: border-box;
+      color: #f5f5f7;
+      font-weight: 800;
+    }
+
+    button {
+      line-height: 1.47059;
+      font-weight: 400;
+      letter-spacing: -0.022em;
+      color: var(--color-text);
+      border: none;
+      padding: 10px 20px;
+      border-radius: 12px;
+      background: rgb(233 233 234);
+      font-weight: 600;
+      font-size: var(--font-reg);
+    }
+
+    button:hover {
+      background: rgb(230 230 231);
+      cursor: pointer;
+    }
+
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      padding-top: 100px;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgb(0 0 0 / 40%);
+    }
+
+    .modal-content {
+      background-color: #fefefe;
+      margin: auto;
+      padding: 0 0 20px;
+      border-radius: 12px;
+      width: 80%;
+      max-height: 60vh;
+      overflow: scroll;
+      max-width: 571px;
+    }
+
+    .close-block {
+      position: sticky;
+      position: -webkit-sticky;
+      top: 0;
+      height: 40px;
+      background: rgb(0 0 0 / 10%);
+      text-align: right;
+    }
+
+    .close {
+      color: #333;
+      font-size: 28px;
+      font-weight: bold;
+      padding: 10px 20px;
+    }
+
+    .close:hover,
+    .close:focus {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .modal-content a {
+      display: block;
+      padding: 10px 20px;
+    }
+
+    .date-link:not(:first-of-type) {
+      border-top: 1px solid rgb(0 0 0 / 10%);
+    }
+
+    .date-link:focus,
+    .date-link:hover {
+      background: rgb(0 0 0 / 5%);
+    }
+  </style>
+
+  <p style="margin-top:2px; text-align:center;">Links I really don&rsquo;t want to forget.</p>
+
+  <div class="pagebody-content">
+    <div style="text-align: center;">
+      <a
+        style="margin-bottom: 10px; color: #000; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;"
+        class="more-btn"
+        href="/resources/">View all resources</a
+      >
+      <br />
+      Wow, that&rsquo;s a lot! <a id="around-random-resource" style="margin-bottom: 10px;" href="#">Give me something random!</a>
+    </div>
+
+    <div id="around-modal" class="modal">
+      <div class="modal-content">
+        <div class="close-block">
+          <span id="around-close" class="close" role="button" tabindex="0">&times;</span>
+        </div>
+        {aroundGroups.map((group) => (
+          <a
+            class="date-link"
+            tabindex="0"
+            id={`menu-${group.slug}`}
+            href={`#${group.slug}`}
+            data-close-modal="true">{group.date}</a
+          >
+        ))}
+      </div>
+    </div>
+
+    <div class="grid-container">
+      {aroundGroups.map((group) => (
+        <div class="grid-item">
+          <div class="sticky">
+            <a href={`#${group.slug}`}><p id={group.slug}>{group.date}</p></a>
+            <button type="button" class="around-date-button" data-goto={group.slug}>Select Date</button>
+          </div>
+
+          <ol style="list-style: none;" class="zero-margin">
+            {group.links.map((entry) => (
+              <li>
+                <a
+                  style="color: #333; text-decoration:none!important;"
+                  class="item"
+                  target="_blank"
+                  href={entry.link}
+                  rel="noopener noreferrer"
+                >
+                  <h2 id={entry.slug} class="item zero-margin">{entry.title}</h2>
+                  {entry.comment && <p style="margin-top:0; margin-bottom: 30px;"><i>{entry.comment}</i></p>}
+                </a>
+              </li>
+            ))}
+          </ol>
+        </div>
+      ))}
+    </div>
+  </div>
+
+  <script is:inline define:vars={{ aroundGroups }}>
+    function getRandomInt(max) {
+      return Math.floor(Math.random() * Math.floor(max));
+    }
+
+    const modal = document.getElementById("around-modal");
+    const closeButton = document.getElementById("around-close");
+
+    function closeModal() {
+      if (modal) {
+        modal.style.display = "none";
+      }
+    }
+
+    function openModalAndFocusDate(slug) {
+      if (!modal) {
+        return;
+      }
+
+      modal.style.display = "block";
+      const target = document.getElementById(`menu-${slug}`);
+      if (target instanceof HTMLElement) {
+        target.focus();
+      }
+    }
+
+    closeButton?.addEventListener("click", closeModal);
+
+    closeButton?.addEventListener("keydown", (event) => {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        closeModal();
+      }
+    });
+
+    document.querySelectorAll(".around-date-button").forEach((button) => {
+      button.addEventListener("click", () => {
+        const slug = button.getAttribute("data-goto");
+        if (slug) {
+          openModalAndFocusDate(slug);
+        }
+      });
+    });
+
+    document.querySelectorAll("[data-close-modal='true']").forEach((link) => {
+      link.addEventListener("click", closeModal);
+    });
+
+    window.addEventListener("click", (event) => {
+      if (event.target === modal) {
+        closeModal();
+      }
+    });
+
+    const randomResourceLink = document.getElementById("around-random-resource");
+    randomResourceLink?.addEventListener("click", (event) => {
+      event.preventDefault();
+
+      if (!Array.isArray(aroundGroups) || aroundGroups.length === 0) {
+        return;
+      }
+
+      const randomDate = aroundGroups[getRandomInt(aroundGroups.length)];
+      if (!Array.isArray(randomDate.links) || randomDate.links.length === 0) {
+        return;
+      }
+
+      const randomEntry = randomDate.links[getRandomInt(randomDate.links.length)];
+      if (!randomEntry?.link) {
+        return;
+      }
+
+      window.open(randomEntry.link, "_blank", "noopener,noreferrer")?.focus();
+    });
+  </script>
+</BaseLayout>

@@ -193,10 +193,10 @@ The sed substitute command has four parts:
 - `/../../g` Global replacement
 
 ### Use sed on inline string
-{% highlight shell %}
+```shell
 echo "string" | sed 's/ring/yle/'
 # // style
-{% endhighlight %}
+```
 
 ### Delete the first instance of a specific character
 Delete an 'a' from a file: `sed 's/a//' sample.txt`
@@ -296,8 +296,7 @@ AWK is a programming language for manipulating columns of data. gawk is the GNU 
 
 [ffmpeg buddy](https://news.ycombinator.com/item?id=31557809)
 
-{% highlight shell %}
-{% raw %}
+```shell
 # Convert .mp4 to .mp3
 ffmpeg -i FILE-TO-CONVERT.mp4 -q:a 0 -map a OUTPUT-FILE-NAME.mp3
 
@@ -310,8 +309,7 @@ ffmpeg -safe 0 -f concat -i fileCombine.txt -c copy output.mp4
 ### file ./video01.mov
 ### file ./video02.mov
 
-{% endraw %}
-{% endhighlight %}
+```
 
 See:
 - [Combine video files](https://ffmpeg.org/faq.html#How-can-I-concatenate-video-files)
@@ -321,8 +319,7 @@ See:
 
 [youtube-dl](https://youtube-dl.org/) is a package to download videos from YouTube and a few more sites.
 
-{% highlight shell %}
-{% raw %}
+```shell
 # Download video from YouTube
 youtube-dl --recode-video mp4 VIDEO-LINK-OR-PLAYLIST-ID
 
@@ -332,8 +329,7 @@ youtube-dl -f bestaudio --extract-audio --audio-format mp3 --audio-quality 0 VID
 # Download single Frame image from YouTube
 ffmpeg -ss "[SCREENSHOT_TIME]" -i $(youtube-dl -f 22 --get-url "[YOUTUBE_URL]") -vframes 1 -q:v 2 "[FILENAME].jpeg"
 
-{% endraw %}
-{% endhighlight %}
+```
 
 ([H/T](https://askubuntu.com/questions/1155446/is-it-possible-to-only-download-a-single-frame-from-a-youtube-videos))
 
@@ -344,8 +340,7 @@ ffmpeg -ss "[SCREENSHOT_TIME]" -i $(youtube-dl -f 22 --get-url "[YOUTUBE_URL]") 
 
 [Fred's ImageMagick Scripts](http://www.fmwconcepts.com/imagemagick/glow/index.php)
 
-{% highlight shell %}
-{% raw %}
+```shell
 # Convert image (webp to jpg)
 magick INPUT.webp OUTPUT.jpg
 
@@ -358,21 +353,18 @@ convert INPUT.jpg -sampling-factor 4:2:0 -strip -quality 85 -interlace JPEG -col
 # Convert folder of heic to jpg at 95%
 for f in *.heic; do magick "$f" -quality 95% "${f%.heic}.jpg"; done
 
-{% endraw %}
-{% endhighlight %}
+```
 
 ### Docker
 
 [Docker](https://www.docker.com/) delivers software by isolated containers.
 
-{% highlight shell %}
-{% raw %}
+```shell
 # Get Jekyll in docker or something
 docker run --rm --volume="$PWD:/srv/jekyll" -p 4000:4000 jekyll/jekyll jekyll serve
 
 Docker-compose up
-{% endraw %}
-{% endhighlight %}
+```
 
 ### Taskwarrior
 
@@ -382,8 +374,7 @@ Taskwarrior manages a TODO list from the command line.
 
 [Taskwarrior best practices](https://taskwarrior.org/docs/best-practices.html)
 
-{% highlight shell %}
-{% raw %}
+```shell
 # Add a project and assign it a project
 task add project:{PROJECT} {INSERT TASK}
 
@@ -405,8 +396,7 @@ task {ID} modify +next
 # Represent dependencies where appropriate
 task {ID} modify depends:{OTHER_ID}
 
-{% endraw %}
-{% endhighlight %}
+```
 
 [Taskwarrior date synonyms](https://taskwarrior.org/docs/dates.html#:~:text=you%20can%20use%20a%20date%20synonym%20instead)
 
@@ -445,16 +435,14 @@ Only get the info we want: `gh api notifications | jq '.[] | {title: .subject.ti
 
 [Ghostscript](https://www.ghostscript.com/) is an interpreter for the PostScript®  language and PDF files.
 
-{% highlight shell %}
-{% raw %}
+```shell
 # Combine PDFs into one
 gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=merged.pdf file1.pdf file2.pdf
 
 # Combine all files current directory into a file outside the directory
 gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=../merged.pdf $(echo $(ls))
 
-{% endraw %}
-{% endhighlight %}
+```
 
 ---
 

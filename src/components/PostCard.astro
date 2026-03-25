@@ -1,0 +1,31 @@
+---
+type Props = {
+  href: string;
+  title: string;
+  description: string;
+  date: string;
+  image?: string;
+};
+
+const { href, title, description, date, image } = Astro.props;
+---
+
+<div class="post">
+  <a href={href}>
+    <div class="index-grid">
+      <div class="index-item">
+        {image && (
+          <figure class="index-item-image-wrapper">
+            <img class="index-item-image" alt={title} src={image} />
+          </figure>
+        )}
+
+        <div class="index-text mobile-transition-underline">
+          <h2 class="index-title" style="margin:0px;">{title}</h2>
+          <p style="margin: 0px;">{description}</p>
+          <p class="index-title" style="font-size: var(--font-small); font-weight: 400; margin:0px;">{date}</p>
+        </div>
+      </div>
+    </div>
+  </a>
+</div>

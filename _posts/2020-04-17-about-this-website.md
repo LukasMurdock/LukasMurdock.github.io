@@ -36,17 +36,17 @@ I wrote [how I made a book list with only ISBNs](https://lukasmurdock.com/making
 Here's a preview of how each YAML file is structured:
 
 `booklist.yaml`
-{% highlight yaml %}
+```yaml
 ---
 books:
   - isbn: 9781250237231
   - isbn: 9780316478526
   - isbn: 9780525540830
-{% endhighlight %}
+```
 
 
 `links.yaml`
-{% highlight yaml %}
+```yaml
 ---
 linkslist:
   - Date: April 2020
@@ -58,10 +58,10 @@ linkslist:
       - Title: Being and Time
         Link: https://www.scotthyoung.com/blog/2020/04/13/being-and-time/
         Comment: "About an interesting book you probably shouldn't read."
-{% endhighlight %}
+```
 
 `principles.yaml`
-{% highlight yaml %}
+```yaml
 ---
 linkslist:
 principlelist:
@@ -77,10 +77,10 @@ principlelist:
     - list: Good design is thorough down to the last detail
     - list: Good design is environmentally friendly
     - list: Good design is as little design as possible
-{% endhighlight %}
+```
 
 `resources.yaml`
-{% highlight yaml %}
+```yaml
 ---
 fulldata:
   #Guides
@@ -94,7 +94,7 @@ fulldata:
       - Title: How to Speak
         Link: https://ocw.mit.edu/resources/res-tll-005-how-to-speak-january-iap-2018/how-to-speak/index.htm
         Comment: "Maximize the opportunity to have your ideas valued and accepted by the people you speak with."
-{% endhighlight %}
+```
 
 
 ## Javascript

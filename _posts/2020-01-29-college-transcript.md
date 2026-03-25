@@ -10,7 +10,7 @@ tags: school, me
 
 Check out [collegescorecard.ed.gov](https://collegescorecard.ed.gov/)
 
-<span style="font-size: 12px;">Last Updated: {{ page.date | date: '%B %d, %Y' }}</span>
+<span style="font-size: 12px;">Last Updated: January 06, 2021</span>
 
 ## Year 01
 ### Semester 01 (Fall Semester 2019-20)
@@ -21,24 +21,24 @@ BUS 101 — 2 Credit Hours
 
 Terrible class to explain working in groups.
 
-- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span>[ Group work](https://www.amazon.com/dp/B01MSY1Y6Z/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1){:target="_blank"}{:rel="noopener"}
-- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span>[ Group Effectiveness](hhttps://rework.withgoogle.com/guides/understanding-team-effectiveness/steps/introduction/){:target="_blank"}{:rel="noopener"}
+- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span>[ Group work](https://www.amazon.com/dp/B01MSY1Y6Z/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
+- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span>[ Group Effectiveness](hhttps://rework.withgoogle.com/guides/understanding-team-effectiveness/steps/introduction/)
 
 
 **Foundations BUS Communication**
 
 BUS 102 — 2 Credit Hours
 
-- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span>[ Communication](https://speaking.io/){:target="_blank"}{:rel="noopener"}
+- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span>[ Communication](https://speaking.io/)
 
 **Computational Thinking**
 
 BUS 104 — 2 Credit Hours
 
-- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ Javascript](https://www.w3schools.com/js/){:target="_blank"}{:rel="noopener"}
-- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ Javascript Standard](https://www.ecma-international.org/publications/standards/Ecma-262.htm){:target="_blank"}{:rel="noopener"}
-- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ Learning what you don't know about Javascript](https://github.com/getify/You-Dont-Know-JS){:target="_blank"}{:rel="noopener"}
-- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ SQL](https://www.w3schools.com/sql/){:target="_blank"}{:rel="noopener"}
+- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ Javascript](https://www.w3schools.com/js/)
+- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ Javascript Standard](https://www.ecma-international.org/publications/standards/Ecma-262.htm)
+- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ Learning what you don't know about Javascript](https://github.com/getify/You-Dont-Know-JS)
+- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ SQL](https://www.w3schools.com/sql/)
 
 **FSB Success Strategies**
 
@@ -50,7 +50,7 @@ BUS 106 — 1 Credit Hour
 
 ESP 103 — 2 Credit Hours
 
-- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ the practice of shipping creative work](https://seths.blog/thepractice/){:target="_blank"}{:rel="noopener"}
+- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ the practice of shipping creative work](https://seths.blog/thepractice/)
 
 
 
@@ -58,13 +58,13 @@ ESP 103 — 2 Credit Hours
 
 MTH 151 — 5 Credit Hours
 
-- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ Calculus](https://www.khanacademy.org/math/calculus-1){:target="_blank"}{:rel="noopener"}
+- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ Calculus](https://www.khanacademy.org/math/calculus-1)
 
 **Physics & Society**
 
 PHY 101 — 3 Credit Hours
 
-- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ Physics](https://www.khanacademy.org/science/physics){:target="_blank"}{:rel="noopener"}
+- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ Physics](https://www.khanacademy.org/science/physics)
 
 
 ### Semester 02 (Spring Semester 2019-20)
@@ -73,13 +73,13 @@ PHY 101 — 3 Credit Hours
 
 ACC 221 — 3 Credit Hours
 
-- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ Accounting](https://www.youtube.com/watch?v=56xscQ4viWE&list=PL5zKSeS09l339nB6ujJPQ9Rsv99_b-aTb){:target="_blank"}{:rel="noopener"}
+- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ Accounting](https://www.youtube.com/watch?v=56xscQ4viWE&list=PL5zKSeS09l339nB6ujJPQ9Rsv99_b-aTb)
 
 **Business Computing**
 
 CSE 148 — 3 Credit Hours
 
-- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ Excel](https://www.youtube.com/watch?v=0nbkaYsR94c){:target="_blank"}{:rel="noopener"}
+- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ Excel](https://www.youtube.com/watch?v=0nbkaYsR94c)
 
 **Composition and Rhetoric**
 
@@ -91,11 +91,11 @@ ENG 111 — 3 Credit Hours
 
 MTH 151 — 5 Credit Hours
 
-- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ Calculus Better Explained](https://betterexplained.com/guides/calculus/){:target="_blank"}{:rel="noopener"}
-- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ Calculus Refresher](http://pages.stat.wisc.edu/~ifischer/calculus.pdf){:target="_blank"}{:rel="noopener"}
-- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ Essense of Calculus](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr){:target="_blank"}{:rel="noopener"}
-- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ Derivative Rules](https://www.google.com/search?biw=1680&bih=840&tbm=isch&sxsrf=ACYBGNRtYk73x-d34apKpsVKq_KL8dIIAw%3A1580204858271&sa=1&ei=OgMwXo6UENCEsAWluqy4DQ&q=differentiation+rules&oq=differe+rules&gs_l=img.3.0.0i7i30l10.5654.6289..6890...0.0..0.67.618.10......0....1..gws-wiz-img.......35i39j0.C-1YbasupQU#imgrc=KYS4xEanf9upPM:){:target="_blank"}{:rel="noopener"}
-- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ Class Notes](https://tutorial.math.lamar.edu/){:target="_blank"}{:rel="noopener"}
+- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ Calculus Better Explained](https://betterexplained.com/guides/calculus/)
+- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ Calculus Refresher](http://pages.stat.wisc.edu/~ifischer/calculus.pdf)
+- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ Essense of Calculus](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)
+- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ Derivative Rules](https://www.google.com/search?biw=1680&bih=840&tbm=isch&sxsrf=ACYBGNRtYk73x-d34apKpsVKq_KL8dIIAw%3A1580204858271&sa=1&ei=OgMwXo6UENCEsAWluqy4DQ&q=differentiation+rules&oq=differe+rules&gs_l=img.3.0.0i7i30l10.5654.6289..6890...0.0..0.67.618.10......0....1..gws-wiz-img.......35i39j0.C-1YbasupQU#imgrc=KYS4xEanf9upPM:)
+- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ Class Notes](https://tutorial.math.lamar.edu/)
 
 
 
@@ -118,29 +118,29 @@ I didn’t find nor use other resources outside the digital ones given from the 
 
 IMS 171 — 3 Credit Hours
 
-- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ Superintelligence](https://en.wikipedia.org/wiki/Superintelligence:_Paths,_Dangers,_Strategies){:target="_blank"}{:rel="noopener"}
-- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ Biases](https://www.lesswrong.com/rationality){:target="_blank"}{:rel="noopener"}
+- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ Superintelligence](https://en.wikipedia.org/wiki/Superintelligence:_Paths,_Dangers,_Strategies)
+- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ Biases](https://www.lesswrong.com/rationality)
 
 **IT & Intelligent Enterprise**
 
 ISA 235 — 3 Credit Hours
 
-- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ Web History](https://css-tricks.com/category/history/){:target="_blank"}{:rel="noopener"}
-- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ Salesforce](https://trailhead.salesforce.com/en/home){:target="_blank"}{:rel="noopener"}
-- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ Tableau](https://www.tableau.com/learn){:target="_blank"}{:rel="noopener"}
+- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ Web History](https://css-tricks.com/category/history/)
+- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ Salesforce](https://trailhead.salesforce.com/en/home)
+- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ Tableau](https://www.tableau.com/learn)
 
 **Prof Comm for Business**
 
 BUS 284 — 3 Credit Hours
 
-- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ Intercultural Communication](https://erinmeyer.com/books/the-culture-map/){:target="_blank"}{:rel="noopener"}
+- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ Intercultural Communication](https://erinmeyer.com/books/the-culture-map/)
 
 
 **China, Korea, Japan**
 
 ART 286 — 3 Credit Hours
-- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ Traditional Japanese Wood Joinery](https://youtu.be/3KqIIOyuo1Q){:target="_blank"}{:rel="noopener"}
-- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ Woodblock Printing](https://youtu.be/M8ma5q9-lA0){:target="_blank"}{:rel="noopener"}
+- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ Traditional Japanese Wood Joinery](https://youtu.be/3KqIIOyuo1Q)
+- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ Woodblock Printing](https://youtu.be/M8ma5q9-lA0)
 
 
 <!-- http://www.bozemanscience.com/ap-environmental-science -->
@@ -153,8 +153,8 @@ ART 286 — 3 Credit Hours
 
 BLS 342 — 3 Credit Hours
 
-- <span class="full-underline" style="font-size: 12px;">Textbook:</span>[ Business Law: Text and Cases, Kenneth W. Clarkson/Roger LeRoy Miller](https://openlibrary.org/search?q=Business+Law+Text+and+Cases+Kenneth+W.+Clarkson&mode=everything){:target="_blank"}{:rel="noopener"}
-- <span class="full-underline" style="font-size: 12px;">Learn</span> [ Business Law](https://www.youtube.com/user/JMGordonful/playlists?view=50&sort=dd&shelf_id=2){:target="_blank"}{:rel="noopener"}
+- <span class="full-underline" style="font-size: 12px;">Textbook:</span>[ Business Law: Text and Cases, Kenneth W. Clarkson/Roger LeRoy Miller](https://openlibrary.org/search?q=Business+Law+Text+and+Cases+Kenneth+W.+Clarkson&mode=everything)
+- <span class="full-underline" style="font-size: 12px;">Learn</span> [ Business Law](https://www.youtube.com/user/JMGordonful/playlists?view=50&sort=dd&shelf_id=2)
 
 While this class surely wasn’t the best format for learning business law, I don’t know other resources (aside from Quizlets other people have made from this class) to learn what was taught in class.
 
@@ -171,21 +171,21 @@ GEO 201 — 3 Credit Hours
 
 I enjoyed this class very much, I did not enjoy that it was done under the current educational system. The foundation this class sought after was to see things you previously overlooked. To notice the unnoticed.
 
-- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ Urbanized](https://www.hustwit.com/urbanized){:target="_blank"}{:rel="noopener"}
+- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ Urbanized](https://www.hustwit.com/urbanized)
 
 
 **Principles of Marketing**
 
 MKT 291 — 3 Credit Hours
 
-- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ What is marketing?](https://seths.blog/tim/){:target="_blank"}{:rel="noopener"}
+- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ What is marketing?](https://seths.blog/tim/)
 
 **Intro to Management & Leadership**
 
 MGT 291 — 3 Credit Hours
 
-- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ The Coaching Habit](https://boxofcrayons.com/the-coaching-habit-book/){:target="_blank"}{:rel="noopener"}
-- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ The Making of a Manager](https://www.juliezhuo.com/book/manager.html){:target="_blank"}{:rel="noopener"}
+- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ The Coaching Habit](https://boxofcrayons.com/the-coaching-habit-book/)
+- <span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ The Making of a Manager](https://www.juliezhuo.com/book/manager.html)
 
 ## Year 03
 ### Semester 01 (Fall Semester 2021-22)
@@ -194,7 +194,7 @@ MGT 291 — 3 Credit Hours
 
 MKT 395 — 3 Credit Hours
 
-<span class="full-underline" style="font-size: 12px;">See</span> [ How Strategy Really Works](https://youtu.be/3vAIur-N8gM){:target="_blank"}{:rel="noopener"}
+<span class="full-underline" style="font-size: 12px;">See</span> [ How Strategy Really Works](https://youtu.be/3vAIur-N8gM)
 
 **Professional Selling**
 
@@ -212,19 +212,19 @@ Sales booklist (from [Commoncog](https://commoncog.com/blog/reading-program-b2b-
 
 CSE 174 — 3 Credit Hours
 
-<span class="full-underline" style="font-size: 12px;">See</span> [ my notes](https://github.com/LukasMurdock/cse-174){:target="_blank"}{:rel="noopener"}
+<span class="full-underline" style="font-size: 12px;">See</span> [ my notes](https://github.com/LukasMurdock/cse-174)
 
 **Business Analytics**
 
 ISA 225 — 3 Credit Hours
 
-<span class="full-underline" style="font-size: 12px;">See</span> [ my notes](https://lukasmurdock.com/isa225/){:target="_blank"}{:rel="noopener"}
+<span class="full-underline" style="font-size: 12px;">See</span> [ my notes](https://lukasmurdock.com/isa225/)
 
 **Introduction to Operations and Supply Chain Management**
 
 MGT 302 — 3 Credit Hours
 
-<span class="full-underline" style="font-size: 12px;">See</span> [ my notes](https://lukasmurdock.com/mgt302/){:target="_blank"}{:rel="noopener"}
+<span class="full-underline" style="font-size: 12px;">See</span> [ my notes](https://lukasmurdock.com/mgt302/)
 
 ### Semester 02 (Spring Semester 2021-22)
 
@@ -269,13 +269,13 @@ Miami University Redhawk Launch Accelerator.
 ECO 202 — 3 Credit Hours
 
 I scored a 4 on AP Micro and a 2 on AP Macro. I’m two-for-two on Economics teachers being the realist teachers.
-<span class="full-underline" style="font-size: 12px;">Learn</span> [ Macroeconomics](https://www.khanacademy.org/economics-finance-domain/ap-macroeconomics){:target="_blank"}{:rel="noopener"}
+<span class="full-underline" style="font-size: 12px;">Learn</span> [ Macroeconomics](https://www.khanacademy.org/economics-finance-domain/ap-macroeconomics)
 
 **Object-Oriented Programming**
 
 CSE 271 — 3 Credit Hours
 
-<span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ OOP](https://news.ycombinator.com/item?id=12495117){:target="_blank"}{:rel="noopener"}
+<span class="full-underline" style="font-size: 12px;">Way better alternative to learn</span> [ OOP](https://news.ycombinator.com/item?id=12495117)
 
 
 ## Year 04
@@ -297,7 +297,7 @@ PSY 221 — 3 Credit Hours
 
 RUS 256 — 3 Credit Hours
 
-<span class="full-underline" style="font-size: 12px;">See</span> [ my notes](/rus256/){:target="_blank"}{:rel="noopener"}
+<span class="full-underline" style="font-size: 12px;">See</span> [ my notes](/rus256/)
 
 ### Semester 02 (Spring Semester 2022-23)
 

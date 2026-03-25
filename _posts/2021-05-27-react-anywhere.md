@@ -16,7 +16,7 @@ Two things:
 
 Okay, I already knew those two things. But I didn’t synthesize them to realize you can use React pretty much anywhere.
 
-{% highlight javascript %}
+```javascript
 // the code that loads React!
 <div id="root"></div>
 <script src="https://unpkg.com/react@^17/umd/react.development.js"></script>
@@ -27,7 +27,7 @@ Okay, I already knew those two things. But I didn’t synthesize them to realize
     const element = <div className="container">This is loaded in react!</div>
     ReactDOM.render(element, rootElement)
 </script>
-{% endhighlight %}
+```
 
 
 <div id="root"></div>
@@ -42,7 +42,7 @@ Okay, I already knew those two things. But I didn’t synthesize them to realize
 
 And here’s another example with a functional component vv
 
-{% highlight javascript %}
+```javascript
 // the code that loads React!
 <div id="root"></div>
 <script src="https://unpkg.com/react@^17/umd/react.development.js"></script>
@@ -61,7 +61,7 @@ And here’s another example with a functional component vv
     const element = <div className="container">This is loaded in react!</div>
     ReactDOM.render(<Element/>, rootElement)
 </script>
-{% endhighlight %}
+```
 
 <div id="root2"></div>
 <script type="text/babel">

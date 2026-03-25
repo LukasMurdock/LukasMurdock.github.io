@@ -1,0 +1,410 @@
+---
+import { getCollection } from "astro:content";
+import ShellLayout from "@/layouts/ShellLayout.astro";
+import FlightRoutesGlobe from "@/components/FlightRoutesGlobe.astro";
+import { getPostSlug, hasTag, isPublishablePost, sortPostsByDateDesc } from "@/lib/content";
+import { SITE } from "@/lib/site";
+
+const posts = sortPostsByDateDesc((await getCollection("posts")).filter((post) => isPublishablePost(post)));
+const annualPosts = posts.filter((post) => hasTag(post, "annual"));
+---
+
+<ShellLayout title={SITE.title} description={SITE.description} urlPath="/">
+  <main
+    style="margin: 20px auto 40px auto; max-width: var(--max-width); line-height: 1.47059; font-weight: 400; letter-spacing: -.022em; color: var(--color-text);"
+  >
+    <div style="margin-left: auto; margin-right: auto; width: 87.5%; margin-top: 60px; margin-bottom: 30px;">
+      <h1 id="SpeakableHeadline" style="font-size: 2.5rem; text-align: left; margin: 0; padding-bottom: 10px;">
+        Hello, I&rsquo;m Lukas.
+      </h1>
+      <p id="SpeakableSummary" style="margin: 0; font-size: 1.0625rem;">
+        Here&rsquo;s to finding new ways to confuse yourself.
+      </p>
+    </div>
+
+    <pre class="ascii-art" aria-hidden="true"><code>
+                                       ▓░
+                                      ░░▒░▒█
+                                     ░░░██▒░░
+                                  ░░░░▒████▓░░
+                              ░░░░░░░░▒████▒░░░░░░▓
+                            ░░░▒██▓███████████▓▒▒▒▓▒
+                          ░░░░▒▒██████████████████▓░░
+                 ░▒░░░░░░░░░░▒▓███████████████████▓░▓
+                ░░░▓▓▒▒█▒▒░░▒██████████████████████▒░░
+               ░░░▒▓███████▒▓███████████████████████░
+         ░░░░░░▒▒▒█████████████████████████████████░░
+    █████████████████████████████████████████████▒░░░
+         ░░░░░░▒▒▒█████████████████████████████████░░
+               ░░░▒▓███████▒▓███████████████████████░
+                ░░░▓▓▒▒█▒▒░░▒██████████████████████▒░░
+                 ░▒░░░░░░░░░░▒▓███████████████████▓░▓
+                          ░░░░▒▒██████████████████▓░░
+                            ░░░▒██▓███████████▓▒▒▒▓▒
+                              ░░░░░░░░▒████▒░░░░░░▓
+                                  ░░░░▒████▓░░
+                                     ░░░██▒░░
+                                      ░░▒░▒█
+                                       ▓░              </code></pre>
+
+    <blockquote>
+      <p>
+        Many important spatial patterns of nature are either irregular or fragmented to such an extreme degree that
+        classical geometry is hardly of any help in describing their form. It is possible in many cases to remedy
+        this absence of geometric representation by using a family of shapes called fractals.
+      </p>
+      <footer><cite>Benoit Mandelbrot</cite></footer>
+    </blockquote>
+
+    <div class="mobile-margin">
+      <section id="well-known">
+        <h2>.well-known</h2>
+        <ul>
+          <li><a href="/.well-known/avatar.png">avatar.png</a></li>
+          <li><a href="/now/">now</a></li>
+          <li><a href="/timeline/">timeline</a></li>
+          <li><a href="/uses/">uses</a></li>
+        </ul>
+      </section>
+
+      <section id="core">
+        <h2>/core</h2>
+        <ul>
+          <li><a href="/values/">values</a></li>
+        </ul>
+      </section>
+
+      <section id="lists">
+        <h2>/lists</h2>
+        <ul>
+          <li><a href="/forthefirsttime/">for the first time</a></li>
+          <li><a href="https://library.lukasmurdock.com/">library</a></li>
+          <li><a href="https://webref.lukasmurdock.com/">web reference</a></li>
+          <li><a href="/yt/">youtube</a></li>
+          <li><a href="/updates/">updates</a></li>
+          <li><a href="/a-timeline-of-inventions/">inventions</a></li>
+          <li><a href="/lists/fonts">fonts</a></li>
+          <li><a href="/best-ios-games/">ios games</a></li>
+          <li><a href="/best-console-games/">console games</a></li>
+          <li><a href="/best-flash-games/">flash games</a></li>
+          <li><a href="/bored/">bored?</a></li>
+          <li><a href="/lists/chrome-setup">chrome setup</a></li>
+          <li><a href="/gifts/">gifts</a></li>
+        </ul>
+      </section>
+
+      <section id="design">
+        <h2>/design</h2>
+        <ul>
+          <li>typography</li>
+          <li>ui</li>
+          <li>accessibility</li>
+        </ul>
+      </section>
+
+      <section id="tech">
+        <h2>/tech</h2>
+        <ul>
+          <li>ios</li>
+          <li>web</li>
+          <li>automation</li>
+          <li>typescript</li>
+        </ul>
+      </section>
+
+      <section id="music">
+        <h2>/music</h2>
+        <ul>
+          <li><a href="/events/">events</a></li>
+          <li><a href="/jb/">jon bellion</a></li>
+          <li>eden</li>
+          <li>bo burnham</li>
+          <li><a href="/music/yt">youtube channels</a></li>
+        </ul>
+      </section>
+
+      <section id="places">
+        <h2>/places</h2>
+        <ul>
+          <li>
+            usa
+            <ul>
+              <li>
+                hawaii
+                <ul>
+                  <li>honolulu</li>
+                </ul>
+              </li>
+              <li>
+                florida
+                <ul>
+                  <li>tampa</li>
+                  <li>orlando</li>
+                  <li>fort myers</li>
+                  <li>naples</li>
+                  <li>miami</li>
+                </ul>
+              </li>
+              <li>
+                ohio
+                <ul>
+                  <li>dayton</li>
+                  <li>columbus</li>
+                  <li>cuyahoga valley</li>
+                  <li>cincinnati</li>
+                  <li>oxford</li>
+                  <li>mansfield</li>
+                  <li>cleveland</li>
+                </ul>
+              </li>
+              <li>d.c.</li>
+              <li>
+                california
+                <ul>
+                  <li>san diego</li>
+                  <li>san fran</li>
+                </ul>
+              </li>
+              <li>
+                illinois
+                <ul>
+                  <li>chicago</li>
+                </ul>
+              </li>
+              <li>
+                colorado
+                <ul>
+                  <li>denver</li>
+                  <li>boulder</li>
+                </ul>
+              </li>
+              <li>
+                new york
+                <ul>
+                  <li>new york</li>
+                </ul>
+              </li>
+              <li>
+                kentucky
+                <ul>
+                  <li>lexington</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            canada
+            <ul>
+              <li>toronto</li>
+              <li>vancouver</li>
+            </ul>
+          </li>
+          <li>
+            japan
+            <ul>
+              <li>tokyo</li>
+            </ul>
+          </li>
+          <li>TODO: ireland</li>
+          <li>TODO: deutschland</li>
+          <li>TODO: australia</li>
+        </ul>
+      </section>
+
+      <section id="flight-routes">
+        <h2>/flight-routes</h2>
+        <FlightRoutesGlobe />
+      </section>
+
+      <section id="conferences">
+        <h2>/conferences</h2>
+        <ul>
+          <li><a href="/twconnect/">tailwind connect 2023</a></li>
+          <li>THOTCON 0xD - Chicago's Hacking Conference May 30th and 31st, 2025</li>
+          <li>epic web conf 2025</li>
+          <li>react miami 2025</li>
+          <li>bsides hawaii 2025</li>
+          <li>sync conf 2025</li>
+        </ul>
+      </section>
+
+      <section id="misc">
+        <h2>/misc</h2>
+        <ul>
+          <li>etymology</li>
+          <li>film</li>
+          <li>cinematography</li>
+          <li>psychology</li>
+        </ul>
+      </section>
+
+      <section id="cats">
+        <h2>/cats</h2>
+        <figure>
+          <img
+            src="/images/posts/young_lukas.JPG"
+            alt="Young Lukas asleep with a small kitten"
+            style="max-width: 100%; height: auto;"
+          />
+          <figcaption>Young Lukas asleep with a smol kitten.</figcaption>
+        </figure>
+      </section>
+
+      <p>now you know some stuff about me, so here&rsquo;s an open invitation: <a href="/talk/">talk to me</a></p>
+    </div>
+
+    <div class="mobile-margin">
+      <hr />
+
+      <div class="cardgrid-container">
+        <div class="card-noshadow">
+          <div class="resource-text">
+            <h2 class="resource-title">Writing</h2>
+            <a href="/writing/">Check out my writing&nbsp;&rarr;</a>
+            <svg preserveAspectRatio="xMinYMax meet" width="100%" viewBox="0 0 600 360" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="writingLineHome1" x1="0" y1="0" x2="1" y2="0">
+                  <stop offset="0%" stop-color="#8fd3f4"></stop>
+                  <stop offset="100%" stop-color="#84fab0"></stop>
+                </linearGradient>
+                <linearGradient id="writingLineHome2" x1="0" y1="0" x2="1" y2="0">
+                  <stop offset="0%" stop-color="#84fab0"></stop>
+                  <stop offset="100%" stop-color="#8fd3f4"></stop>
+                </linearGradient>
+              </defs>
+              <rect x="110" y="140" width="380" height="24" rx="12" fill="url(#writingLineHome1)"></rect>
+              <rect x="110" y="194" width="300" height="24" rx="12" fill="url(#writingLineHome2)"></rect>
+              <rect x="110" y="248" width="355" height="24" rx="12" fill="url(#writingLineHome1)"></rect>
+            </svg>
+          </div>
+        </div>
+
+        <div class="card-noshadow">
+          <div class="resource-text">
+            <h2 class="resource-title">Knowledge</h2>
+            <a href="/knowledge/">Explore design, development, and marketing&nbsp;&rarr;</a>
+            <svg preserveAspectRatio="xMinYMax meet" width="100%" viewBox="0 0 600 360" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="knowledgeOrbHome1" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#84fab0"></stop>
+                  <stop offset="100%" stop-color="#8fd3f4"></stop>
+                </linearGradient>
+                <linearGradient id="knowledgeOrbHome2" x1="1" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stop-color="#8fd3f4"></stop>
+                  <stop offset="100%" stop-color="#84fab0"></stop>
+                </linearGradient>
+                <linearGradient id="knowledgeOrbHome3" x1="0" y1="1" x2="1" y2="0">
+                  <stop offset="0%" stop-color="#9dfbbf"></stop>
+                  <stop offset="100%" stop-color="#8fd3f4"></stop>
+                </linearGradient>
+              </defs>
+              <circle cx="170" cy="246" r="108" fill="url(#knowledgeOrbHome1)" fill-opacity="0.92"></circle>
+              <circle cx="300" cy="246" r="108" fill="url(#knowledgeOrbHome2)" fill-opacity="0.88"></circle>
+              <circle cx="430" cy="246" r="108" fill="url(#knowledgeOrbHome3)" fill-opacity="0.92"></circle>
+            </svg>
+          </div>
+        </div>
+
+        <div class="card-noshadow">
+          <div class="resource-text">
+            <h2 class="resource-title">Around the Web</h2>
+            <a href="/aroundtheweb/">Links from all over&nbsp;&rarr;</a>
+            <svg
+              preserveAspectRatio="xMinYMax meet"
+              style="vertical-align:top; flex-grow: 1;"
+              viewBox="0 0 1144 561"
+              xmlns="http://www.w3.org/2000/svg"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              stroke-linejoin="round"
+              stroke-miterlimit="2"
+              ><path d="M396.855 561.959a173.366 173.366 0 01-.833-17.004c0-94.86 77.015-171.875 171.875-171.875s171.875 77.015 171.875 171.875c0 5.739-.282 11.413-.833 17.004H396.855z" fill="url(#aroundthewebGradientHome1)"></path><circle cx="329.555" cy="213.288" r="115.625" fill="url(#aroundthewebGradientHome2)"></circle><circle cx="93.75" cy="466.83" r="93.75" fill="url(#aroundthewebGradientHome3)"></circle><circle cx="924.639" cy="432.678" r="78.125" fill="url(#aroundthewebGradientHome4)"></circle><circle cx="1002.76" cy="140.625" r="140.625" fill="url(#aroundthewebGradientHome5)"></circle><defs><linearGradient id="aroundthewebGradientHome1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="rotate(-26.115 1488.188 -397.719) scale(548.37)"><stop offset="0" stop-color="#9dfbbf"></stop><stop offset="1" stop-color="#a2dbf6"></stop></linearGradient><linearGradient id="aroundthewebGradientHome2" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="scale(408.552) rotate(65.538 .245 .502)"><stop offset="0" stop-color="#84fab0"></stop><stop offset="1" stop-color="#f2f2f2"></stop></linearGradient><linearGradient id="aroundthewebGradientHome3" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="rotate(-23.147 1247.17 255.4) scale(252.617)"><stop offset="0" stop-color="#84fab0"></stop><stop offset="1" stop-color="#f2f2f2"></stop></linearGradient><linearGradient id="aroundthewebGradientHome4" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="scale(-252.83) rotate(-38.17 -4.056 5.164)"><stop offset="0" stop-color="#8fd3f4"></stop><stop offset="1" stop-color="#e5feee"></stop></linearGradient><linearGradient id="aroundthewebGradientHome5" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="scale(356.574) rotate(-33.849 2.258 -3.625)"><stop offset="0" stop-color="#e5feee"></stop><stop offset="1" stop-color="#8fd3f4"></stop></linearGradient></defs></svg
+            >
+          </div>
+        </div>
+
+        <div class="card-noshadow">
+          <div class="resource-text">
+            <h2 class="resource-title">Booklist</h2>
+            <a href="/booklist/">Books I really don&rsquo;t want to forget&nbsp;&rarr;</a>
+            <svg preserveAspectRatio="xMinYMax meet" width="100%" viewBox="0 0 600 360" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="bookHomeCover1" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#9dfbbf"></stop>
+                  <stop offset="100%" stop-color="#8fd3f4"></stop>
+                </linearGradient>
+                <linearGradient id="bookHomeCover2" x1="1" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stop-color="#8fd3f4"></stop>
+                  <stop offset="100%" stop-color="#9dfbbf"></stop>
+                </linearGradient>
+              </defs>
+              <rect x="58" y="146" width="136" height="258" rx="12" fill="url(#bookHomeCover1)"></rect>
+              <rect x="232" y="146" width="136" height="258" rx="12" fill="url(#bookHomeCover2)"></rect>
+              <rect x="406" y="146" width="136" height="258" rx="12" fill="url(#bookHomeCover1)"></rect>
+            </svg>
+          </div>
+        </div>
+
+        <div class="card-noshadow two-column">
+          <div class="resource-text">
+            <h2 class="resource-title">Principles</h2>
+            <a href="/principles/">See things dispassionately for what they are&nbsp;&rarr;</a>
+            <svg
+              preserveAspectRatio="xMinYMax meet"
+              style="vertical-align:top;"
+              viewBox="0 0 1063 562"
+              xmlns="http://www.w3.org/2000/svg"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              stroke-linejoin="round"
+              stroke-miterlimit="2"
+              ><path d="M.875 561.959A537.852 537.852 0 010 531.25C0 238.045 238.045 0 531.25 0c293.205 0 531.25 238.045 531.25 531.25 0 10.321-.295 20.573-.875 30.709H.875z" fill="#8fd3f4" fill-opacity=".4"></path><path d="M126.147 561.959A410.383 410.383 0 01125 531.25C125 307.035 307.035 125 531.25 125S937.5 307.035 937.5 531.25c0 10.336-.387 20.583-1.147 30.709H126.147z" fill="#8fd3f4" fill-opacity=".5"></path><path d="M251.661 561.959A283.748 283.748 0 01250 531.25C250 376.024 376.024 250 531.25 250S812.5 376.024 812.5 531.25c0 10.369-.562 20.608-1.661 30.709H251.661z" fill="#8fd3f4" fill-opacity=".6"></path><path d="M256.435 152.429l-60.371-16.176-16.176 60.37 60.37 16.177 16.177-60.371z" fill="url(#principlesGradientHome1)"></path><path d="M1026.39 281.25v-62.5h-62.5v62.5h62.5z" fill="url(#principlesGradientHome2)"></path><path d="M684.958 270.641l-31.25-54.127-54.127 31.25 31.25 54.127 54.127-31.25z" fill="url(#principlesGradientHome3)"></path><path d="M191.947 444.293l-54.126-31.25-31.25 54.127 54.126 31.25 31.25-54.127z" fill="url(#principlesGradientHome4)"></path><path d="M393.889 561.959L363.18 531.25l176.777-176.777L716.734 531.25l-30.709 30.709H393.889z" fill="url(#principlesGradientHome5)"></path><defs><linearGradient id="principlesGradientHome1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="rotate(50.178 -26.613 247.727) scale(142.2205)"><stop offset="0" stop-color="#8fd3f4"></stop><stop offset="1" stop-color="#9dfbbf"></stop></linearGradient><linearGradient id="principlesGradientHome2" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="scale(-133.5591) rotate(-46.695 -5.67 8.255)"><stop offset="0" stop-color="#8fd3f4"></stop><stop offset="1" stop-color="#9dfbbf"></stop></linearGradient><linearGradient id="principlesGradientHome3" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="rotate(107.5 259.462 342.02) scale(137.1111)"><stop offset="0" stop-color="#8fd3f4"></stop><stop offset="1" stop-color="#9dfbbf"></stop></linearGradient><linearGradient id="principlesGradientHome4" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="scale(159.4469) rotate(9.342 -16.666 3.712)"><stop offset="0" stop-color="#8fd3f4"></stop><stop offset="1" stop-color="#9dfbbf"></stop></linearGradient><linearGradient id="principlesGradientHome5" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(707.107 0 0 414.971 186.404 458.216)"><stop offset="0" stop-color="#9dfbbf"></stop><stop offset="1" stop-color="#8fd3f4"></stop></linearGradient></defs></svg
+            >
+          </div>
+        </div>
+      </div>
+
+      <h2>Popular Writings</h2>
+      <p><a href="/sideloading-iphone-5/">Sideloading iPhone 5</a></p>
+      <p><a href="/make-it-count/">Make it count</a></p>
+      <p><a href="/a-timeline-of-inventions/">Timeline of inventions</a></p>
+      <p><a href="/jb/">Jon Bellion Discography</a></p>
+      <p><a href="/ultralearning/">Ultralearning</a></p>
+
+      <h2>Long Content</h2>
+      <p><a href="/business/">The Business Collection</a></p>
+      <p><a href="/dev-posts/">The Dev Collection</a></p>
+      <p><a href="/poems/">The Poem Collection</a></p>
+      <p><a href="/me/">The Me Collection</a></p>
+      {annualPosts.map((post) => (
+        <p><a href={`/${getPostSlug(post)}/`}>{post.data.title ?? getPostSlug(post)}</a></p>
+      ))}
+
+      <h2>About</h2>
+      <p><a href="/about/">Read about this site and I</a>.</p>
+      <p><a href="/now/">Read what I&rsquo;m doing now</a>.</p>
+      <hr />
+
+      <h2>Platforms</h2>
+      <ul>
+        <li><a href="mailto:lukas.murdock@gmail.com">Gmail</a> since 2010</li>
+        <li><a href="https://twitter.com/MurdockLukas">Twitter</a> since 2012</li>
+        <li><a href="https://www.instagram.com/lukasauras.rex/">Instagram</a> since 2012</li>
+        <li><a href="https://github.com/LukasMurdock">Github</a> since 2012</li>
+        <li><a href="https://www.youtube.com/channel/UCG8ZhvCtKlnPXkoJG2u52lw">YouTube</a> since 2013</li>
+        <li><a href="https://www.snapchat.com/add/rexisking7">Snapchat</a> since 2014</li>
+        <li><a href="https://www.reddit.com/user/LukasMurdock">Reddit</a> since 2015</li>
+        <li><a href="https://www.facebook.com/lukas.rex.murdock/">Facebook</a> since 2016</li>
+        <li><a href="https://www.linkedin.com/in/lukas-murdock/">LinkedIn</a> since 2016</li>
+        <li><a href="https://www.pinterest.com/murdocklukas/">Pinterest</a> since 2018</li>
+        <li><a href="https://lukasmurdock.com/">Lukasmurdock.com</a> since 2018</li>
+        <li><a href="https://www.lesswrong.com/">Less Wrong</a> since 2020</li>
+        <li><a href="https://longnow.org/">Long Now</a> since 02020 #11261</li>
+      </ul>
+
+      <hr />
+      <blockquote><a href="/principles/">As little design as possible.</a>&rdquo;</blockquote>
+      <hr />
+    </div>
+  </main>
+</ShellLayout>

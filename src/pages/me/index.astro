@@ -1,0 +1,19 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { getPostSlug, hasTag, isPublishablePost, sortPostsByDateDesc } from "@/lib/content";
+
+const posts = sortPostsByDateDesc((await getCollection("posts")).filter((post) => isPublishablePost(post))).filter((post) =>
+  hasTag(post, "me"),
+);
+---
+
+<BaseLayout title="The Me Collection" description="Posts tagged me.">
+  <ul>
+    {posts.map((post) => (
+      <li>
+        <a href={`/${getPostSlug(post)}/`}>{post.data.title ?? getPostSlug(post)}</a>
+      </li>
+    ))}
+  </ul>
+</BaseLayout>

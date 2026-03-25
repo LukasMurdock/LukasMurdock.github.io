@@ -1,0 +1,122 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { parseDate, slugifySegment } from "@/lib/content";
+import { readYamlFile, type ResourcesData } from "@/lib/data";
+
+type TimelineItem = {
+  title: string;
+  link: string;
+  comment: string;
+  date: Date;
+};
+
+const resourcesData = await readYamlFile<ResourcesData>("_data/resources.yaml");
+const monthNames = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
+];
+
+const EXCLUDED_MONTH_INDEX = 3;
+const EXCLUDED_DAY = 22;
+
+const timelineItems: TimelineItem[] = (resourcesData.fulldata ?? [])
+  .flatMap((group) => group.List ?? [])
+  .flatMap((item) => {
+    const parsedDate = parseDate(item.Date);
+    if (!parsedDate || typeof item.Title !== "string" || typeof item.Link !== "string") {
+      return [];
+    }
+
+    return [
+      {
+        title: item.Title,
+        link: item.Link,
+        comment: item.Comment ?? "",
+        date: parsedDate,
+      },
+    ];
+  });
+
+const groupedByMonthAndDay = new Map<string, { month: number; day: number; items: TimelineItem[] }>();
+
+for (const item of timelineItems) {
+  const month = item.date.getMonth();
+  const day = item.date.getDate();
+  const bucketKey = `${month}-${day}`;
+
+  if (!groupedByMonthAndDay.has(bucketKey)) {
+    groupedByMonthAndDay.set(bucketKey, {
+      month,
+      day,
+      items: [],
+    });
+  }
+
+  groupedByMonthAndDay.get(bucketKey)?.items.push(item);
+}
+
+const months = monthNames
+  .map((monthName, monthIndex) => {
+    const days = [...groupedByMonthAndDay.values()]
+      .filter((bucket) => bucket.month === monthIndex)
+      .filter((bucket) => !(bucket.month === EXCLUDED_MONTH_INDEX && bucket.day === EXCLUDED_DAY))
+      .sort((left, right) => left.day - right.day)
+      .map((bucket) => ({
+        id: `${monthIndex + 1}-${bucket.day}`,
+        label: `${monthName} ${bucket.day}`,
+        items: bucket.items,
+      }));
+
+    return {
+      id: `month-${slugifySegment(monthName)}`,
+      label: monthName,
+      days,
+    };
+  })
+  .filter((month) => month.days.length > 0);
+---
+
+<BaseLayout
+  title="On This Day"
+  description="Updates from Lukas Murdock — We can use the internet to explore the places that we know we should be exploring."
+  urlPath="/on-this-day/"
+  noindex={true}
+>
+  {months.map((month) => (
+    <section id={month.id}>
+      <h2>{month.label}</h2>
+
+      {month.days.map((day) => (
+        <section id={`day-${day.id}`}>
+          <h3>{day.label}</h3>
+
+          {day.items.map((item) => (
+            <p>
+              <a href={item.link}>{item.title}</a>
+              <br />
+              {item.comment}
+            </p>
+          ))}
+        </section>
+      ))}
+    </section>
+  ))}
+</BaseLayout>
+
+<script is:inline>
+  const currentMonth = new Date().toLocaleString("en-US", { month: "long" }).toLowerCase();
+  const target = document.getElementById(`month-${currentMonth}`);
+  if (target) {
+    target.scrollIntoView();
+  }
+</script>

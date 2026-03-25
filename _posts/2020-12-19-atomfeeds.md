@@ -6,9 +6,9 @@ date: December 19, 2020
 code: true
 ---
 
-The `<id>` element an be defined by using the format {% highlight xml %}<id>tag:exampledomain.com,2020:uniqueidentifier</id>{% endhighlight %}
+The `<id>` element an be defined by using the format ```xml<id>tag:exampledomain.com,2020:uniqueidentifier</id>```
 
-For example I used {% highlight xml %}<id>tag:lukasmurdock.com,2020-12-19:/booklist/map-and-territory</id>{% endhighlight %}
+For example I used ```xml<id>tag:lukasmurdock.com,2020-12-19:/booklist/map-and-territory</id>```
 
 1. Starts with `tag`
 2. Followed by a `:`
@@ -22,7 +22,7 @@ As I found out from [How to ATOM id](http://web.archive.org/web/20110514113830/h
 
 
 
-{% highlight xml %}
+```xml
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0">
     <title>Lukas Murdock</title>
     <link rel="alternate" type="text/html" href="https://lukasmurdock.com/"/>
@@ -55,12 +55,11 @@ As I found out from [How to ATOM id](http://web.archive.org/web/20110514113830/h
     </entry>
 
 </feed>
-{% endhighlight %}
+```
 
 And here it is with Liquid in Jekyll for my `booklist.yaml` file
 
-{% highlight xml %}
-{% raw %}
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0">
     <title>{{ site.title | xml_escape }}</title>
@@ -98,5 +97,4 @@ And here it is with Liquid in Jekyll for my `booklist.yaml` file
     {% endfor %}
 
 </feed>
-{% endraw %}
-{% endhighlight %}
+```
