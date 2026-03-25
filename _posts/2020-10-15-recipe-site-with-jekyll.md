@@ -39,13 +39,13 @@ Starting a site with plain HTML and CSS is wonderful.
 ### Recipes in Jekyll
 To add a recipe collection, I created a `_recipe` folder make Jekyll see the collection by adding some code to the `_config.yml` file:
 
-{% highlight yaml %}
+```yaml
 collections:
   recipes:
     output: true
     permalink: /:collection/:name/
     layout: "recipe"
-{% endhighlight %}
+```
 
 ## Recipe Structured Data
 After learning about how to [implement structured data](https://lukasmurdock.com/adding-schema-markup/) on this site previously I’ve wanted to explore more examples of schema data.
@@ -71,7 +71,7 @@ These make up the front matter of every recipe post, to be added to from the Net
 
 Here is an example of what the front matter looks like:
 
-{% highlight yaml %}
+```yaml
 ---
 layout: recipe
 title: Old-Fashioned Goulash
@@ -107,7 +107,7 @@ preptime: 10
 cooktime: 60
 servings: 6
 ---
-{% endhighlight %}
+```
 
 #### Adding time in Jekyll
 Jekyll uses the liquid templating language created by Shopify.
@@ -118,13 +118,11 @@ That is surprisingly difficult.
 
 I’ll spare the details and toiling and show the end result.
 
-{% highlight html %}
-{% raw %}
+```html
 {% assign totaltime = recipe.preptime | plus: recipe.cooktime %}
 {% assign minutes = totaltime | modulo: 60 %}
 <p>{% if totaltime > 60 %}{{ totaltime | divided_by: 60}} hours{% endif %}{% if minutes > 0 %} {{ minutes }} minutes{% endif %}</p>
-{% endraw %}
-{% endhighlight %}
+```
 
 It’s not perfect, it will say “1 hours,” but it works.
 
@@ -135,7 +133,7 @@ Netlify CMS has its own `config.yml` file that you create in a folder titled `ad
 
 I’ll spare the details and toiling it took to get the end result and just show the code for the Netlify CMS `config.yml`:
 
-{% highlight yaml %}
+```yaml
 media_folder: "images" # Media files will be stored in the repo under images
 public_folder: "/assets/images/" # The src attribute for uploaded media will begin with /images
 
@@ -184,5 +182,5 @@ collections:
       - {label: "Cook Time", name: "cooktime", widget: "number", hint: "Time in minutes!"}
       - {label: "Servings", name: "servings", widget: "number", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
-{% endhighlight %}
+```
 

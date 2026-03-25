@@ -1,0 +1,217 @@
+---
+import { getCollection, render, type CollectionEntry } from "astro:content";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import PostLayout from "@/layouts/PostLayout.astro";
+import {
+  createExcerpt,
+  getPageSlug,
+  getPostDate,
+  getPostSlug,
+  getPostTags,
+  isPublishablePost,
+  parseDate,
+  resolvePostImagePath,
+  sortPostsByDateDesc,
+  stripMarkup,
+} from "@/lib/content";
+
+type PostRouteProps = {
+  kind: "post";
+  entry: CollectionEntry<"posts">;
+  previous?: { href: string; title: string };
+  next?: { href: string; title: string };
+};
+
+type PageRouteProps = {
+  kind: "page";
+  entry: CollectionEntry<"pages">;
+};
+
+type RouteProps = PostRouteProps | PageRouteProps;
+type RenderedContent = (...args: unknown[]) => unknown;
+
+export async function getStaticPaths() {
+  const paths: Array<{ params: { slug: string }; props: RouteProps }> = [];
+  const reservedSlugs = new Set([
+    "index",
+    "writing",
+    "business",
+    "dev-posts",
+    "poems",
+    "me",
+    "longnow",
+    "forthefirsttime",
+    "uses",
+    "now",
+    "updates",
+    "work",
+    "tag",
+  ]);
+
+  const allPosts = await getCollection("posts");
+  const posts = sortPostsByDateDesc(allPosts.filter((post) => isPublishablePost(post)));
+  const seenSlugs = new Set<string>();
+
+  posts.forEach((entry, index) => {
+    const slug = getPostSlug(entry);
+    if (!slug || reservedSlugs.has(slug) || seenSlugs.has(slug)) {
+      return;
+    }
+
+    seenSlugs.add(slug);
+
+    const previousPost = index > 0 ? posts[index - 1] : undefined;
+    const nextPost = index < posts.length - 1 ? posts[index + 1] : undefined;
+
+    paths.push({
+      params: { slug },
+      props: {
+        kind: "post",
+        entry,
+        previous: previousPost
+          ? {
+              href: `/${getPostSlug(previousPost)}/`,
+              title: previousPost.data.title ?? getPostSlug(previousPost),
+            }
+          : undefined,
+        next: nextPost
+          ? {
+              href: `/${getPostSlug(nextPost)}/`,
+              title: nextPost.data.title ?? getPostSlug(nextPost),
+            }
+          : undefined,
+      },
+    });
+  });
+
+  const pages = await getCollection("pages");
+
+  for (const entry of pages) {
+    const slug = getPageSlug(entry);
+    if (!slug || reservedSlugs.has(slug) || seenSlugs.has(slug)) {
+      continue;
+    }
+
+    seenSlugs.add(slug);
+    paths.push({
+      params: { slug },
+      props: {
+        kind: "page",
+        entry,
+      },
+    });
+  }
+
+  return paths;
+}
+
+const props = Astro.props as RouteProps;
+
+let postView:
+  | {
+      title: string;
+      subtitle?: string;
+      description: string;
+      date: Date;
+      image?: string;
+      caption?: string;
+      urlPath: string;
+      tags: string[];
+      contentText: string;
+      previous?: { href: string; title: string };
+      next?: { href: string; title: string };
+      modifiedTime?: Date;
+      icons: boolean;
+      Content: RenderedContent;
+    }
+  | undefined;
+
+let pageView:
+  | {
+      title: string;
+      subtitle?: string;
+      description?: string;
+      urlPath: string;
+      noindex: boolean;
+      icons: boolean;
+      image?: string;
+      Content: RenderedContent;
+    }
+  | undefined;
+
+if (props.kind === "post") {
+  const slug = getPostSlug(props.entry);
+  const date = getPostDate(props.entry);
+  const modifiedTime = parseDate(props.entry.data.last_modified_at) ?? date;
+  const tags = getPostTags(props.entry);
+  const rendered = await render(props.entry);
+  const body = props.entry.body ?? "";
+
+  postView = {
+    title: props.entry.data.title ?? slug,
+    subtitle: props.entry.data.subtitle,
+    description: props.entry.data.description || createExcerpt(body),
+    date,
+    image: resolvePostImagePath(props.entry.data.image),
+    caption: props.entry.data.caption,
+    urlPath: `/${slug}/`,
+    tags: tags.map((tag) => tag.label),
+    contentText: stripMarkup(body),
+    previous: props.previous,
+    next: props.next,
+    modifiedTime,
+    icons: props.entry.data.icons ?? true,
+    Content: rendered.Content,
+  };
+}
+
+if (props.kind === "page") {
+  const slug = getPageSlug(props.entry);
+  const rendered = await render(props.entry);
+
+  pageView = {
+    title: props.entry.data.title ?? slug,
+    subtitle: props.entry.data.subtitle,
+    description: props.entry.data.description,
+    urlPath: `/${slug}/`,
+    noindex: props.entry.data.index === "noindex",
+    icons: props.entry.data.icons ?? false,
+    image: resolvePostImagePath(props.entry.data.image),
+    Content: rendered.Content,
+  };
+}
+---
+
+{postView && (
+  <PostLayout
+    title={postView.title}
+    subtitle={postView.subtitle}
+    description={postView.description}
+    date={postView.date}
+    image={postView.image}
+    caption={postView.caption}
+    urlPath={postView.urlPath}
+    tags={postView.tags}
+    contentText={postView.contentText}
+    previous={postView.previous}
+    next={postView.next}
+    modifiedTime={postView.modifiedTime}
+    icons={postView.icons}
+  >
+    <postView.Content />
+  </PostLayout>
+)}
+
+{pageView && (
+  <BaseLayout
+    title={pageView.title}
+    subtitle={pageView.subtitle}
+    description={pageView.description}
+    urlPath={pageView.urlPath}
+    noindex={pageView.noindex}
+    icons={pageView.icons}
+    image={pageView.image}
+  >
+    <pageView.Content />
+  </BaseLayout>
+)}

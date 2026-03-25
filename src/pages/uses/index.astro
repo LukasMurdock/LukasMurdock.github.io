@@ -1,0 +1,230 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+
+type AppLink = {
+  name: string;
+  href: string;
+};
+
+const desktopApps: AppLink[] = [
+  { name: "Google Chrome", href: "https://lukasmurdock.com/chrome-extensions/" },
+  { name: "Brave Browser", href: "https://brave.com/" },
+  { name: "Visual Studio Code", href: "https://lukasmurdock.com/vs-code/" },
+  { name: "RunJS", href: "https://runjs.app/" },
+  { name: "Dash", href: "https://kapeli.com/dash" },
+  { name: "iTerm2", href: "https://lukasmurdock.com/command-line" },
+  { name: "iA Writer", href: "https://ia.net/writer" },
+  { name: "Spark mail", href: "https://sparkmailapp.com/" },
+  { name: "TickTick", href: "https://ticktick.com/" },
+  { name: "Slack", href: "https://slack.com/" },
+  { name: "Radio Silence", href: "https://radiosilenceapp.com/" },
+  { name: "Signal", href: "https://signal.org/en/" },
+  { name: "Books.app", href: "https://www.apple.com/apple-books/" },
+  { name: "Horo", href: "https://matthewpalmer.net/horo-free-timer-mac/" },
+  { name: "Rocket", href: "https://matthewpalmer.net/rocket/" },
+  { name: "NetNewsWire", href: "https://netnewswire.com/" },
+  { name: "Readwise", href: "https://readwise.io/" },
+  { name: "Vector Magic", href: "https://vectormagic.com/" },
+  { name: "Carbon Copy Cloner", href: "https://bombich.com/" },
+  { name: "Transmission", href: "https://transmissionbt.com/" },
+  { name: "Affinity Suite", href: "https://affinity.serif.com/en-gb/" },
+  { name: "Adobe Suite", href: "https://www.adobe.com/creativecloud.html" },
+  {
+    name: "DaVinci Resolve",
+    href: "https://www.blackmagicdesign.com/products/davinciresolve/",
+  },
+  { name: "1Password", href: "https://1password.com/" },
+  { name: "Keyboard Maestro", href: "https://www.keyboardmaestro.com/main/" },
+  { name: "Rocket", href: "https://matthewpalmer.net/rocket/" },
+  { name: "Swish", href: "https://highlyopinionated.co/swish/" },
+  { name: "Ethical.net", href: "https://ethical.net/resources/" },
+  { name: "Rectangle", href: "https://rectangleapp.com/" },
+];
+
+const iosApps: AppLink[] = [
+  { name: "YouTube", href: "https://www.youtube.com/" },
+  { name: "Snapchat", href: "https://www.snapchat.com/" },
+  { name: "Overcast", href: "https://overcast.fm/" },
+  { name: "NetNewsWire", href: "https://netnewswire.com/" },
+  { name: "Spark mail", href: "https://sparkmailapp.com/" },
+  { name: "Signal", href: "https://signal.org/en/" },
+  { name: "Books.app", href: "https://www.apple.com/apple-books/" },
+  { name: "Google Workspace", href: "https://workspace.google.com/" },
+  { name: "iA Writer", href: "https://ia.net/writer" },
+  { name: "Readwise", href: "https://readwise.io/" },
+  { name: "Clear", href: "https://apps.apple.com/us/app/clear-todos/id493136154" },
+];
+
+function faviconUrl(url: string): string {
+  return `https://s2.googleusercontent.com/s2/favicons?domain_url=${url}`;
+}
+---
+
+<BaseLayout title="Uses" description="The tools Lukas Murdock uses" urlPath="/uses/">
+  <h2>Hardware</h2>
+
+  <h3>Hardware that goes with me everywhere</h3>
+  <ul>
+    <li>2012 MacBook Pro
+      <ul>
+        <li>2TB SSD (manual upgrade)</li>
+        <li>16GB RAM (manual upgrade)</li>
+      </ul>
+    </li>
+    <li><del>2014 MacBook Air</del></li>
+    <li><del>2018 MacBook Pro 15-Inch (MR932LL/A)</del>
+      <ul>
+        <li>250GB SSD</li>
+        <li>16GB RAM</li>
+      </ul>
+    </li>
+    <li>2024 MacBook Air 13-Inch, M3 (MT2A3LL/A)
+      <ul>
+        <li>500GB SSD</li>
+        <li>16GB RAM</li>
+      </ul>
+    </li>
+    <li><del>iPhone 5s</del></li>
+    <li><del>iPhone 8</del> (switched April 2021)</li>
+    <li>iPhone 12 mini</li>
+    <li><del>Kindle Paperwhite 10th Gen (PQ94WIF)</del></li>
+    <li>iPad mini (MK7V3LL/A)</li>
+    <li>Apple Watch series 9 with GPS, 45mm Midnight Aluminum case</li>
+    <li>Anker MagGo Wireless Charging Station (Foldable 3-in-1)</li>
+  </ul>
+
+  <h3>Other Hardware</h3>
+  <ul>
+    <li>Custom PC built in 2016
+      <ul>
+        <li>Dead, needs repairs</li>
+      </ul>
+    </li>
+    <li><del>BenQ 24&quot; RL2455HM Monitor</del></li>
+    <li>Samsung 34&quot; SJ55W Ultra WQHD Monitor
+      <ul>
+        <li>(alt) Lenovo ThinkVision 22&quot; T2254pC - mounted vertically</li>
+      </ul>
+    </li>
+    <li>Philips Hue Go Light</li>
+    <li>soundcore Motion+</li>
+  </ul>
+
+  <h2>Backpack</h2>
+  <ul>
+    <li>Old version of The North Face Borealis</li>
+    <li>Osprey Talon 22 (HT Justin)</li>
+  </ul>
+
+  <h2>Subscriptions</h2>
+  <ul>
+    <li>1Password</li>
+    <li>Dropbox</li>
+    <li>Fastmail</li>
+    <li>Grammarly</li>
+    <li><a href="https://readwise.io/">Readwise</a></li>
+    <li><a href="https://commoncog.com/">Commoncog</a></li>
+    <li><a href="https://www.underconsideration.com/brandnew/">Brand New</a></li>
+    <li>Youtube Premium</li>
+  </ul>
+
+  <p>Have previously subscribed to:</p>
+
+  <ul>
+    <li><a href="https://www.monicahq.com/">Monica CRM</a></li>
+    <li><a href="https://nebula.tv/">Nebula</a></li>
+    <li><a href="https://quizlet.com/">Quizlet</a> (turned off auto-renewal on 2023-05-23)</li>
+    <li><a href="https://www.consumerreports.org/">Consumer Reports</a></li>
+    <li>Stadia (rip)</li>
+    <li><a href="https://mailbrew.com/">Mailbrew</a></li>
+    <li><a href="https://clean.email/">Clean Email</a> (cancelled 2021-11-18)</li>
+    <li><a href="https://ifttt.com/">IFTTT</a> (cancelled June 22, 2021)</li>
+    <li><a href="https://trafficthinktank.com/">TTT</a> (cancelled 2021-04-10)</li>
+  </ul>
+
+  <div class="pagebody-content">
+    <h2>Desktop Apps</h2>
+    <ol>
+      {desktopApps.map((product) => (
+        <li>
+          <a class="item" target="_blank" href={product.href} rel="noopener">
+            <img loading="lazy" alt="" src={faviconUrl(product.href)} />
+            {product.name}
+          </a>
+        </li>
+      ))}
+    </ol>
+
+    <h2>iOS Apps</h2>
+    <ol>
+      {iosApps.map((product) => (
+        <li>
+          <a class="item" target="_blank" href={product.href} rel="noopener">
+            <img loading="lazy" alt="" src={faviconUrl(product.href)} />
+            {product.name}
+          </a>
+        </li>
+      ))}
+    </ol>
+  </div>
+
+  <p>(TBH, I have over 400 apps installed, but these are the ones I use consistently on a daily basis)</p>
+
+  <hr />
+
+  <h2>Other setups</h2>
+  <p><a href="https://arun.is/blog/desk-setup-for-two/">Arun</a></p>
+  <p><a href="https://www.jpt.sh/posts/2026-default-apps/">James</a></p>
+
+  <style is:inline>
+    h1 {
+      text-align: center;
+      margin-bottom: 0;
+    }
+
+    h2 {
+      font-size: 22px;
+      padding-left: 20px;
+      text-align: left;
+      margin-bottom: 0.4em;
+    }
+
+    img {
+      width: 16px;
+      height: 16px;
+      margin-right: 4px;
+      margin-top: 2px;
+      float: left;
+    }
+
+    ol {
+      list-style: none;
+      margin-left: 0;
+      padding: 0;
+      margin-top: 0;
+    }
+
+    a.item {
+      width: 100%;
+      padding: 3px 0 2px;
+      border-top: 1px solid rgba(0, 0, 0, 0.07);
+      color: #000;
+      display: inline-block;
+      text-align: left;
+    }
+
+    a.item:focus {
+      background-color: #84fab0;
+    }
+
+    .pagebody-content {
+      text-align: center;
+    }
+
+    @media screen and (max-width: 735px) {
+      a.item {
+        padding: 14px 0;
+      }
+    }
+  </style>
+</BaseLayout>

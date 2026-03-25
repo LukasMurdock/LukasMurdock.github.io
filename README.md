@@ -1,61 +1,56 @@
 # LukasMurdock.github.io
 
-Personal website and blog built with Jekyll.
+Personal website and blog built with Astro.
 
-## Setup
+## Requirements
 
-1. Install Ruby and Bundler
-2. Install dependencies:
-   ```bash
-   bundle install
-   ```
+- Node.js 22+
+- npm 10+
 
-## Development
+## Install
 
-Run the site locally:
 ```bash
-bundle exec jekyll serve
+npm install
 ```
 
-The site will be available at `http://localhost:4000`
+## Commands
 
-## Structure
-
-- `_posts/` - Blog posts
-- `_pages/` - Static pages
-- `_data/` - Data files (booklists, resources, etc.)
-- `_includes/` - Reusable components
-- `_layouts/` - Page templates
-- `_plugins/` - Custom Jekyll plugins
-- `css/` - Stylesheets
-- `js/` - JavaScript files
-- `images/` - Image assets
-
-## Features
-
-- Blog with posts and pages
-- Book tracking and recommendations
-- Resource collections
-- Custom plugins for data management
-- Responsive design
-
-## Build
-
-Build the site for production:
 ```bash
-bundle exec jekyll build
+npm run dev
+npm run check
+npm run build
+npm run preview
 ```
 
-The built site will be in the `_site/` directory.
+Additional commands:
+
+```bash
+npm run sync:assets
+npm run data:mutate
+```
+
+## Build Pipeline
+
+`npm run build` runs three steps:
+
+1. `npm run sync:assets` copies static directories/files into `public/` and generates legacy `.html` redirect files.
+2. `npm run data:mutate` applies data updates (note timestamp formatting, book metadata hydration, cover localization).
+3. `astro build` generates the final static site in `_site/`.
+
+## Project Structure
+
+- `src/` Astro routes, layouts, components, and utility modules.
+- `scripts/` Build-time sync and data mutation scripts.
+- `_posts/`, `_pages/`, `_workpages/`, `_teardowns/` Legacy content sources loaded through Astro collections.
+- `_data/` Structured content data (books, resources, notes, links).
+- `css/`, `js/`, `images/`, `walksoflife/`, `.well-known/` Static assets synced into `public/`.
 
 ## Deployment
 
-1. Build the site:
-   ```bash
-   bundle exec jekyll build
-   ```
+Deploy to Cloudflare Workers with static assets:
 
-2. Deploy to Cloudflare Pages:
-   ```bash
-   npx wrangler deploy
-   ```
+```bash
+npm run deploy
+```
+
+This builds `_site/` and runs `wrangler deploy` using `wrangler.jsonc` routes/assets settings.

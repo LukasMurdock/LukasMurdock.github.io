@@ -1,0 +1,65 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { readYamlFile, type LinksData, type ResourcesData } from "@/lib/data";
+
+type VideoItem = {
+  title: string;
+  link: string;
+  comment?: string;
+};
+
+function isVideo(media: string | undefined): boolean {
+  return typeof media === "string" && media.trim().toLowerCase() === "video";
+}
+
+const linksData = await readYamlFile<LinksData>("_data/links.yaml");
+const resourcesData = await readYamlFile<ResourcesData>("_data/resources.yaml");
+
+const aroundTheWebVideos: VideoItem[] = (linksData.linkslist ?? [])
+  .flatMap((group) => group.Links ?? [])
+  .filter((item) => isVideo(item.Media) && typeof item.Link === "string" && typeof item.Title === "string")
+  .map((item) => ({
+    title: item.Title as string,
+    link: item.Link as string,
+    comment: item.Comment,
+  }));
+
+const knowledgeVideos: VideoItem[] = (resourcesData.fulldata ?? [])
+  .flatMap((group) => group.List ?? [])
+  .filter((item) => isVideo(item.Media) && typeof item.Link === "string" && typeof item.Title === "string")
+  .map((item) => ({
+    title: item.Title as string,
+    link: item.Link as string,
+    comment: item.Comment,
+  }));
+
+const videos = [...aroundTheWebVideos, ...knowledgeVideos];
+---
+
+<BaseLayout
+  title="Video Resources"
+  description="Video resources from Lukas Murdock."
+  urlPath="/video/"
+  noindex={true}
+>
+  <p style="margin-top:2px; text-align:center;">A video-only list of resources from around the web and knowledge.</p>
+
+  <p style="text-align:center;">
+    <a
+      style="margin-bottom: 10px; color: #000; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;"
+      class="more-btn"
+      href="/resources/">View all resources</a
+    >
+  </p>
+
+  <ol style="list-style: none; padding-left: 0;" class="zero-margin">
+    {videos.map((video) => (
+      <li>
+        <a style="color: #333; text-decoration:none!important;" class="item" target="_blank" href={video.link} rel="noopener noreferrer">
+          <h2 class="item zero-margin">{video.title}</h2>
+          {video.comment && <p style="margin-top:0; margin-bottom: 30px;"><i>{video.comment}</i></p>}
+        </a>
+      </li>
+    ))}
+  </ol>
+</BaseLayout>

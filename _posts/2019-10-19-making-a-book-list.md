@@ -12,7 +12,7 @@ redirect_from:
   - /2019/10/19/Making-a-book-list/
 ---
 
-**2020 Update:** [I have now optimized the book list for static loading]({{site.baseurl}}/optimizing-my-book-list/)
+**2020 Update:** [I have now optimized the book list for static loading](/optimizing-my-book-list/)
 
 <span style="color: rgba(51,51,51,.5);">The Problem: </span>finding all the information on books is annoying and time consuming.
 
@@ -62,19 +62,18 @@ My thoughts: ISBN codes.
 Jekyll supports [YAML](https://jekyllrb.com/docs/datafiles/) for it's `_data` directory and the structure is [relatively simple](https://idratherbewriting.com/documentation-theme-jekyll/mydoc_yaml_tutorial). To add a book the only thing I need to find is the ISBN code. Everything else auto populates from that.
 
 `booklist.yaml`
-{% highlight yaml %}
+```yaml
 ---
 #Book List
 books:
   - isbn: 9781250237231
   - isbn: 9780316478526
   - isbn: 9780525540830
-{% endhighlight %}
+```
 
 Now we can pass this YAML formatted document as a JSON file and assign it to a variable on the `/booklist/` page.
 
-{% highlight java %}
-{% raw %}
+```java
 // Initializing variables for later
 var book_url;
 var imageLink;
@@ -84,13 +83,11 @@ var i=0;
 {% assign isbncheck = site.data.booklist.books | jsonify %}
 
 var isbns = {{ isbncheck }}
-{% endraw %}
-{% endhighlight %}
+```
 
 I had to do a lot of looking to figure out how to optimize performance and query every book in a single request. I couldn't find [this solution](https://www.sitepoint.com/community/t/how-to-solve-google-books-api-403-restriction/286374/2) anywhere in the docs. Glad those errors are over with.
 
-{% highlight java %}
-{% raw %}
+```java
 for ( i = 0; i < isbns.length; i++)
     {
       isbnslist.push(String(isbns[i].isbn));
@@ -103,13 +100,11 @@ const url = isbnslist.reduce(
 
 book_url = url + "+&fields=items(volumeInfo/description,volumeInfo/title,volumeInfo/authors,volumeInfo/imageLinks/thumbnail,volumeInfo/industryIdentifiers/identifier)+&maxResults=40"
 
-{% endraw %}
-{% endhighlight %}
+```
 
 Just to show a little bit of what's going on here without explaining it.
 
-{% highlight java %}
-{% raw %}
+```java
 // ISBN list is now an array
 console.log(isbnslist)
 [
@@ -140,13 +135,11 @@ isbn:9780525540830+
 )
 +&maxResults=40"
 
-{% endraw %}
-{% endhighlight %}
+```
 
 Now that we have the URLs to the data, all we have to do fetch it and plug it where we want it.
 
-{% highlight java %}
-{% raw %}
+```java
 fetch(book_url)
 .then(res => res.json())
 .then((out) => {
@@ -154,26 +147,22 @@ fetch(book_url)
   for (i=0; i < out.items.length; i++){
   document.getElementById("grid-container").innerHTML += "<div class="grid-item"> <a rel="nofollow" target="_blank" href="https://www.google.com/search?q=" + out.items[i].volumeInfo.title.replace(/ /g, "+") + "+by+" + out.items[i].volumeInfo.authors[0].replace(/ /g, "+") + ""> <div> <img alt="" + out.items[i].volumeInfo.title + " book cover" src="" + out.items[i].volumeInfo.imageLinks.thumbnail.replace("&edge=curl","") + ""> </div></a> <div> <h3><a rel="nofollow" target="_blank" href="https://www.google.com/search?q=" + out.items[i].volumeInfo.title.replace(/ /g, "+") + "+by+" + out.items[i].volumeInfo.authors[0].replace(/ /g, "+") + "">" + out.items[i].volumeInfo.title + "</a></h3> <p class="item">by " + out.items[i].volumeInfo.authors[0] + "</p> </div> </div>";
 }
-{% endraw %}
-{% endhighlight %}
+```
 
 That super long '`document.getElementByID`' provides the entire HTML structure of the books selection. It loops for every book returned from the Google Books API (so it adds that HTML for every book). For a cheat sheet on what the variables link to:
 
-{% highlight java %}
-{% raw %}
+```java
 /*
   Title: out.items[0].volumeInfo.title
   Author: out.items[0].volumeInfo.authors[0]
   Thumbnail: out.items[0].volumeInfo.imageLinks.thumbnail
   Description: out.items[0].volumeInfo.description
 */
-{% endraw %}
-{% endhighlight %}
+```
 
 To add some error handling in case the ISBN provided does not show up within the Google API I managed to throw an error to the console to determine which ISBN would need to be fixed.
 
-{% highlight java %}
-{% raw %}
+```java
   i=0
   var loadedBooks = []
   while (i < Object.keys(out.items).length){
@@ -198,16 +187,14 @@ To add some error handling in case the ISBN provided does not show up within the
   console.log(isbnslist.diff(loadedBooks))
 })
 .catch(err => { console.log({{ isbn.isbn }}); throw err });
-{% endraw %}
-{% endhighlight %}
+```
 
 The `loadedBooks` array saves ISBNs that returned from the Google Books API. The `Array.prototype.diff` compares the `loadedBooks` against our `isbnslist` and logs any left out ISBNs to the console.
 
-[View the book list]({{ "/booklist/" | prepend: site.baseurl }})
+[View the book list](/booklist/)
 
 ### Full code
-{% highlight java %}
-{% raw %}
+```java
 // Initializing variables for later
 var book_url;
 var imageLink;
@@ -267,5 +254,4 @@ fetch(book_url)
   console.log(isbnslist.diff(loadedBooks))
 })
 .catch(err => { console.log({{ isbn.isbn }}); throw err });
-{% endraw %}
-{% endhighlight %}
+```

@@ -1,0 +1,33 @@
+---
+import { getCollection, render } from "astro:content";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { getWorkSlug, resolvePostImagePath } from "@/lib/content";
+
+export async function getStaticPaths() {
+  const workpages = await getCollection("workpages");
+
+  return workpages.map((entry) => ({
+    params: {
+      slug: getWorkSlug(entry),
+    },
+    props: {
+      entry,
+    },
+  }));
+}
+
+const { entry } = Astro.props;
+const slug = getWorkSlug(entry);
+const { Content } = await render(entry);
+---
+
+<BaseLayout
+  title={entry.data.title ?? slug}
+  subtitle={entry.data.subtitle}
+  description={entry.data.description}
+  urlPath={`/work/${slug}/`}
+  icons={entry.data.icons ?? false}
+  image={resolvePostImagePath(entry.data.image)}
+>
+  <Content />
+</BaseLayout>

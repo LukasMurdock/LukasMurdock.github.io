@@ -1,0 +1,159 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { readYamlFile, type NoteLogItem } from "@/lib/data";
+
+const notes = await readYamlFile<NoteLogItem[]>("_data/noteLog.yaml");
+
+const sortedNotes = [...notes].sort((left, right) => {
+  const leftDate = left.initialTimestamp ? new Date(left.initialTimestamp).valueOf() : 0;
+  const rightDate = right.initialTimestamp ? new Date(right.initialTimestamp).valueOf() : 0;
+  return rightDate - leftDate;
+});
+---
+
+<BaseLayout title="Notes" description="Quick notes from Lukas Murdock.">
+  <style is:inline>
+    .card-note {
+      padding: 16px 16px 12px;
+      background-color: #fff;
+      border-width: 1px;
+      border-color: rgb(196, 207, 214);
+      border-radius: 12px;
+      font-size: 20px;
+      margin-bottom: 10px;
+      overflow: hidden;
+    }
+
+    .card-note p {
+      margin: 0;
+      padding: 0;
+      white-space: pre-wrap;
+    }
+
+    .card-note time {
+      color: rgb(91, 112, 131);
+      font-size: 15px;
+      display: block;
+      margin-top: 6px;
+    }
+
+    .card-note pre {
+      overflow: scroll;
+    }
+
+    .odometer.odometer-auto-theme,
+    .odometer.odometer-theme-plaza {
+      display: inline-block;
+      vertical-align: middle;
+      position: relative;
+      border-radius: 0.15em;
+      background-color: #f0f8ff;
+      font-family: "Helvetica Neue", sans-serif;
+      font-weight: 100;
+      padding: 0 0.12em;
+      line-height: 1.2em;
+      font-size: 1.2em;
+      background-size: 16px 16px;
+    }
+
+    .odometer.odometer-auto-theme .odometer-digit,
+    .odometer.odometer-theme-plaza .odometer-digit {
+      display: inline-block;
+      vertical-align: middle;
+      position: relative;
+      border-radius: 0.1em;
+      padding: 0 0.03em;
+      color: #648baf;
+    }
+
+    .odometer.odometer-auto-theme .odometer-digit .odometer-digit-spacer,
+    .odometer.odometer-theme-plaza .odometer-digit .odometer-digit-spacer {
+      display: inline-block;
+      vertical-align: middle;
+      visibility: hidden;
+    }
+
+    .odometer.odometer-auto-theme .odometer-digit .odometer-digit-inner,
+    .odometer.odometer-theme-plaza .odometer-digit .odometer-digit-inner {
+      text-align: left;
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0.03em;
+      right: 0;
+      bottom: 0;
+      overflow: hidden;
+    }
+
+    .odometer.odometer-auto-theme .odometer-digit .odometer-ribbon,
+    .odometer.odometer-theme-plaza .odometer-digit .odometer-ribbon,
+    .odometer.odometer-auto-theme .odometer-digit .odometer-ribbon-inner,
+    .odometer.odometer-theme-plaza .odometer-digit .odometer-ribbon-inner,
+    .odometer.odometer-auto-theme .odometer-digit .odometer-value,
+    .odometer.odometer-theme-plaza .odometer-digit .odometer-value {
+      display: block;
+      -webkit-backface-visibility: hidden;
+      -webkit-transform: translateZ(0);
+    }
+
+    .odometer.odometer-auto-theme .odometer-digit .odometer-value.odometer-last-value,
+    .odometer.odometer-theme-plaza .odometer-digit .odometer-value.odometer-last-value {
+      position: absolute;
+    }
+
+    .odometer.odometer-auto-theme.odometer-animating-up .odometer-ribbon-inner,
+    .odometer.odometer-theme-plaza.odometer-animating-up .odometer-ribbon-inner {
+      transition: transform 2s;
+    }
+
+    .odometer.odometer-auto-theme.odometer-animating-up.odometer-animating .odometer-ribbon-inner,
+    .odometer.odometer-theme-plaza.odometer-animating-up.odometer-animating .odometer-ribbon-inner,
+    .odometer.odometer-auto-theme.odometer-animating-down .odometer-ribbon-inner,
+    .odometer.odometer-theme-plaza.odometer-animating-down .odometer-ribbon-inner {
+      transform: translateY(-100%);
+    }
+
+    .odometer.odometer-auto-theme.odometer-animating-down.odometer-animating .odometer-ribbon-inner,
+    .odometer.odometer-theme-plaza.odometer-animating-down.odometer-animating .odometer-ribbon-inner {
+      transition: transform 2s;
+      transform: translateY(0);
+    }
+  </style>
+
+  <script src="/js/odometer.min.js" is:inline></script>
+
+  <p><a href="/notes.xml">RSS Feed</a></p>
+
+  <p>
+    <strong>Note</strong>, <em>n.</em>
+    <a href="https://www.websters1913.com/words/Note">A brief remark</a>; a marginal comment or
+    explanation; hence, an annotation on a text or author; a comment; a critical, explanatory, or
+    illustrative observation.
+  </p>
+
+  <p style="text-align: center;">Notes Written: <span id="odometer" hidden>{sortedNotes.length}</span></p>
+
+  {sortedNotes.map((entry) => {
+    const timestamp = entry.initialTimestamp ?? "";
+    const anchor = encodeURIComponent(timestamp);
+
+    return (
+      <div class="card-note" id={anchor}>
+        {entry.note && <p>{entry.note}</p>}
+        <time>{entry.prettyTime ?? timestamp}</time>
+      </div>
+    );
+  })}
+
+  <script is:inline>
+    const el = document.getElementById("odometer");
+    if (el && typeof window !== "undefined" && "Odometer" in window) {
+      new window.Odometer({
+        el,
+        value: 0,
+      });
+      el.innerHTML = String(el.innerHTML || "0");
+      el.hidden = false;
+    }
+  </script>
+</BaseLayout>

@@ -1,6 +1,19 @@
 {
-    "name": "lukasmurdock-site",
+    "$schema": "node_modules/wrangler/config-schema.json",
+    "name": "lukasmurdock-github-io",
     "compatibility_date": "2025-08-04",
+    "account_id": "440e7b1dda326614729fce463b0d6c33",
+    "workers_dev": true,
+    "routes": [
+        {
+            "pattern": "lukasmurdock.com",
+            "custom_domain": true
+        },
+        {
+            "pattern": "www.lukasmurdock.com",
+            "custom_domain": true
+        }
+    ],
     "assets": {
         "directory": "./_site/",
         "not_found_handling": "404-page"

@@ -132,12 +132,11 @@ With this we can define:
 * inLanguage
 
 
-I’ll be using [jsonld.com](https://jsonld.com/blog-post/) for a template for BlogPosting Schema markup. As this site is [built with Jekyll]({{site.baseurl}}/about-this-website/) I can use tags provided by Jekyll to automatically generate the structured data.
+I’ll be using [jsonld.com](https://jsonld.com/blog-post/) for a template for BlogPosting Schema markup. As this site is [built with Jekyll](/about-this-website/) I can use tags provided by Jekyll to automatically generate the structured data.
 
 First I’ll create an if statement in the `<head>` tag to include  a `postSchema.html` file if the page is a post. Then in the `postSchema.html` I can format all the post schema!
 
-{% highlight HTML %}
-{% raw %}
+```html
 <script type="application/ld+json">
     { "@context": "https://schema.org", 
         "@type": "BlogPosting",
@@ -189,8 +188,7 @@ First I’ll create an if statement in the `<head>` tag to include  a `postSchem
         "inLanguage": "en-US"
     }
 </script>
-{% endraw %}
-{% endhighlight%}
+```
 
 I went back and forth from the view-source page and [The Google Structured Data Testing Tool](https://search.google.com/structured-data/testing-tool/) to make sure I was doing things right. This tests the structured data for usability within [Google Search](https://developers.google.com/search/docs/guides/search-gallery).
 
@@ -201,8 +199,7 @@ Next is setting up Person schema, I can exist! This was a little tricky and took
 
 I removed the `<script>` tags from `postSchema.html` and the structured data with Jekyll templating now looks like this:
 
-{% highlight HTML %}
-{% raw %}
+```html
 
 <script type="application/ld+json">
     {
@@ -242,7 +239,6 @@ I removed the `<script>` tags from `postSchema.html` and the structured data wit
 ]}
 </script>
 
-{% endraw %}
-{% endhighlight%}
+```
 
 I’ll update after committing and further testing.

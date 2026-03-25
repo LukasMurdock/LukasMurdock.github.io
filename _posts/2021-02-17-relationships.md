@@ -7,7 +7,7 @@ tags: annual
 last_modified_at: 2021-02-17T05:02:30+0000
 ---
 
-Last updated on: {{ page.last_modified_at | date: '%B %d, %Y'}}
+Last updated on: February 17, 2021
 
 See also:
 - [General Advice](/advice/)

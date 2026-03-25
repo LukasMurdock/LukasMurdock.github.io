@@ -13,10 +13,10 @@ My mission was to help the latest Olentangy Education Foundation event become th
 
 <br>
 
-![Zota-olentangy-event-design-01](/images/pages/Zota-olentangy-event-design-01.png){:class="img-responsive"}
-![Zota-olentangy-event-design-02](/images/pages/Zota-olentangy-event-design-02.png){:class="img-responsive"}
-![Zota-olentangy-event-design-03](/images/pages/Zota-olentangy-event-design-03.png){:class="img-responsive"}
-![Zota-olentangy-event-design-04](/images/pages/Zota-olentangy-event-design-04.jpeg){:class="img-responsive"}
-![Zota-olentangy-event-design-05](/images/pages/Zota-olentangy-event-design-05.png){:class="img-responsive"}
-![Zota-olentangy-event-design-06](/images/pages/Zota-olentangy-event-design-06.png){:class="img-responsive"}
-![Zota-olentangy-event-design-07](/images/pages/Zota-olentangy-event-design-07.png){:class="img-responsive"}
+<img class="img-responsive" src="/images/pages/Zota-olentangy-event-design-01.png" alt="Zota-olentangy-event-design-01" />
+<img class="img-responsive" src="/images/pages/Zota-olentangy-event-design-02.png" alt="Zota-olentangy-event-design-02" />
+<img class="img-responsive" src="/images/pages/Zota-olentangy-event-design-03.png" alt="Zota-olentangy-event-design-03" />
+<img class="img-responsive" src="/images/pages/Zota-olentangy-event-design-04.jpeg" alt="Zota-olentangy-event-design-04" />
+<img class="img-responsive" src="/images/pages/Zota-olentangy-event-design-05.png" alt="Zota-olentangy-event-design-05" />
+<img class="img-responsive" src="/images/pages/Zota-olentangy-event-design-06.png" alt="Zota-olentangy-event-design-06" />
+<img class="img-responsive" src="/images/pages/Zota-olentangy-event-design-07.png" alt="Zota-olentangy-event-design-07" />

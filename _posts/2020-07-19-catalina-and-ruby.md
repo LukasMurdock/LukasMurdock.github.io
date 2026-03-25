@@ -15,27 +15,27 @@ I use Jekyll to build this site, and Jekyll runs on Ruby. To build the site loca
 
 Console would log errors like:
 
-{% highlight console %}
+```console
 `bad interpreter: /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/ruby: no such file or directory`
-{% endhighlight %}
+```
 
-{% highlight console %}
+```console
 `Could not find 'bundler' (2.1.4) required by your Gemfile.lock`
-{% endhighlight %}
+```
 
 
-{% highlight console %}
+```console
 `To install the missing version, run 'gem install bundler:2.1.4'`
-{% endhighlight %}
+```
 
 
 
 So I run `gem install bundler:2.1.4`
 
 And it logs,
-{% highlight console %}
+```console
 `You don't have write permissions for the /Library/Ruby/Gems/2.6.0 directory.`
-{% endhighlight %}
+```
 
 Haaaa. Okay what now?
 
@@ -54,17 +54,17 @@ So first we need to install Ruby.
 Then find `which ruby`
 
 If it shows /usr/bin/ruby then run
-{% highlight console %}
+```console
 `echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.zshrc`
-{% endhighlight %}
+```
 
-{% highlight console %}
+```console
 `echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.bash_profile`
-{% endhighlight %}
+```
 
-{% highlight console %}
+```console
 `source ~/.zprofile`
-{% endhighlight %}
+```
 
 
 And then run `which ruby` again.

@@ -1,0 +1,164 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { readYamlFile, type BookEntry, type BookListData } from "@/lib/data";
+
+const readBooksData = await readYamlFile<BookListData>("_data/booklistRead.yaml");
+
+const books = [...(readBooksData.isbns ?? [])].sort((left: BookEntry, right: BookEntry) => {
+  const leftDate = left.dateRead ? new Date(left.dateRead).valueOf() : 0;
+  const rightDate = right.dateRead ? new Date(right.dateRead).valueOf() : 0;
+  return rightDate - leftDate;
+});
+
+const toList = (value: string[] | string | undefined) => {
+  if (!value) {
+    return [];
+  }
+
+  if (Array.isArray(value)) {
+    return value;
+  }
+
+  return [value];
+};
+
+function resolveBookHref(book: BookEntry): string {
+  if (typeof book.link === "string" && book.link.trim().length > 0) {
+    return book.link;
+  }
+
+  const firstAuthor = toList(book.author)[0] ?? "";
+  const searchQuery = encodeURIComponent(`${book.title ?? ""} by ${firstAuthor}`.trim());
+  return `https://www.google.com/search?q=${searchQuery}`;
+}
+
+function resolveBookImage(image: string | undefined): string | undefined {
+  if (!image) {
+    return undefined;
+  }
+
+  return image.replace(/^http:/, "https:").replace("&edge=curl", "");
+}
+---
+
+<BaseLayout title="Books I've Read" description="and really don't want to forget." urlPath="/booklist/">
+  <style is:inline>
+    h1 {
+      text-align: center;
+      margin-bottom: 0;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      padding: 0;
+      overflow-wrap: anywhere;
+    }
+
+    .grid-item {
+      padding: 5px;
+      font-size: 14px;
+      counter-reset: dopeCounter;
+      position: relative;
+      grid-template-columns: min-content 1fr;
+      display: grid;
+      grid-column-gap: 5px;
+      padding-top: 5px;
+    }
+
+    h2 {
+      font-size: 22px;
+      margin: 0;
+    }
+
+    img {
+      width: 80px;
+      height: auto;
+      margin-right: 24px;
+      margin-bottom: 24px;
+    }
+
+    ol {
+      list-style: none;
+      counter-reset: li;
+      margin-left: 0;
+      padding-left: 20px;
+      margin-top: 0;
+    }
+
+    ol:not(.nav-menu) li::before {
+      counter-increment: dopeCounter 1;
+      content: counter(dopeCounter, decimal-leading-zero);
+      position: absolute;
+      left: 0;
+      font-size: 13px;
+      padding-top: 5px;
+      width: 25px;
+      height: 25px;
+      color: #707070;
+    }
+
+    p.item {
+      width: 100%;
+      padding: 2px 0;
+      padding-top: 3px;
+      margin: 0;
+    }
+
+    .overflow {
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    @media screen and (max-width: 735px) {
+      .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+  </style>
+
+  <p style="text-align:center; margin-top: 2px;">and really don&apos;t want to forget.</p>
+
+  <div class="pagebody-content">
+    <div style="text-align: center;">
+      <a
+        style="margin-bottom: 10px; color: #000; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;"
+        class="more-btn"
+        href="/resources/">View all resources</a
+      >
+    </div>
+
+    <div id="grid-container" class="grid-container">
+      {books.map((book) => {
+        const href = resolveBookHref(book);
+        const image = resolveBookImage(book.image);
+        const authors = toList(book.author);
+        const categories = toList(book.categories);
+
+        return (
+          <div class="grid-item">
+            <a rel="nofollow" target="_blank" href={href}>
+              <div>{image && <img alt={`${book.title ?? "Book"} book cover`} src={image} />}</div>
+            </a>
+
+            <div>
+              <h2>
+                <a rel="nofollow" target="_blank" href={href}>{book.title ?? "Untitled"}</a>
+              </h2>
+              {book.subtitle && <p class="item"><b>{book.subtitle}</b></p>}
+              {authors.length > 0 && <p class="item">By {authors.join(", ")}</p>}
+              {book.publishedDate && <p class="item">&middot; {book.publishedDate}</p>}
+              {typeof book.pageCount === "number" && <p class="item">&middot; {book.pageCount} pages</p>}
+              {categories.length > 0 && <p class="item">&middot; {categories.join(", ")}</p>}
+              {book.dateWanted && <p class="item">Wanted: {book.dateWanted}</p>}
+              {book.dateRead && <p class="item">Read: {book.dateRead}</p>}
+            </div>
+          </div>
+        );
+      })}
+    </div>
+
+    <p style="padding: 20px 0; margin: 0;"><a href="https://nabeelqu.co/reading-lists">Other Reading Lists</a></p>
+    <p style="padding: 20px 0; margin: 0;"><a href="https://en.wikipedia.org/wiki/Great_books#Reading_lists">The Great Books</a></p>
+  </div>
+</BaseLayout>

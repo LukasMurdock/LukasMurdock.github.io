@@ -1,0 +1,30 @@
+---
+import ShellLayout from "@/layouts/ShellLayout.astro";
+
+type Props = {
+  title?: string;
+  subtitle?: string;
+  description?: string;
+  urlPath?: string;
+  image?: string;
+  noindex?: boolean;
+  icons?: boolean;
+};
+
+const { title, subtitle, description, urlPath, image, noindex, icons } = Astro.props;
+---
+
+<ShellLayout
+  title={title}
+  description={description}
+  urlPath={urlPath}
+  image={image}
+  noindex={noindex}
+  icons={icons}
+>
+  <article class="mobile-margin">
+    {title && <h1>{title}</h1>}
+    {subtitle && <h2 style="font-size: var(--font-medium-large)">{subtitle}</h2>}
+    <slot />
+  </article>
+</ShellLayout>

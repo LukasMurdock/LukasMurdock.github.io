@@ -16,15 +16,12 @@ The available widget extension methods are:
 Register Editor Component sounds like what I want.
 
 
-{% highlight javascript %}
-{% raw %}
+```javascript
 CMS.registerEditorComponent(definition)
-{% endraw %}
-{% endhighlight %}
+```
 
 The component definition must specify:
-{% highlight javascript %}
-{% raw %}
+```javascript
 {
     id: 'blockquote', // Internal id of the component
     label: 'Blockquote', // Visible label
@@ -72,8 +69,7 @@ The component definition must specify:
     },
     })
 }
-{% endraw %}
-{% endhighlight %}
+```
 
 It seems editor components in Netlify CMS work by regex matching some declared text and replacing it.
 
@@ -83,8 +79,7 @@ Done like this, it would seem I would have to make another parser on the fronten
 
 Better to just start with semantic HTML.
 
-{% highlight javascript %}
-{% raw %}
+```javascript
 CMS.registerEditorComponent({
     id: 'blockquote', // Internal id of the component
     label: 'Blockquote', // Visible label
@@ -132,7 +127,6 @@ CMS.registerEditorComponent({
         )
     },
 })
-{% endraw %}
-{% endhighlight %}
+```
 
 Perrrfect.

@@ -61,7 +61,7 @@ So I made another janky section of code to sort `booklist.json` by `booklist.yam
 
 After hours of trial and error here is the Ruby script. I’ll note that this is definitely not a well written script, but it works. If you know a way to optimize this feel free to reach out and let me know.
 
-{% highlight ruby %}
+```ruby
 require 'rubygems'
 require 'bundler/setup'
 require 'yaml'
@@ -188,6 +188,6 @@ puts "Booklist needs organized!"
 end
 
 
-{% endhighlight %}
+```
 
 For further static optimization I would like to implement a handler for downloading and managing the book cover images but for now I’ll just leave those to call the Google Books API.

@@ -15,9 +15,9 @@ Many sites (including this one) simply utilize system fonts available on the dev
 
 This is most commonly done by:  
 
-{% highlight CSS %}
+```css
 --font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-{% endhighlight %}
+```
 
 With Chrome 81, sites that default to the system font can no longer set font-weight on macOS Catalina.
 

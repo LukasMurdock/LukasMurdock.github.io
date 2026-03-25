@@ -1,0 +1,173 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { slugifySegment } from "@/lib/content";
+import { readYamlFile, type ResourcesData } from "@/lib/data";
+
+const resources = await readYamlFile<ResourcesData>("_data/resources.yaml");
+
+type KnowledgeLink = {
+  title: string;
+  link: string;
+  comment: string;
+};
+
+type KnowledgeGroup = {
+  type: string;
+  slug: string;
+  links: KnowledgeLink[];
+};
+
+const knowledgeGroups: KnowledgeGroup[] = (resources.fulldata ?? [])
+  .map((group) => {
+    const type = typeof group.Type === "string" && group.Type.trim() ? group.Type.trim() : "Resources";
+    const links = (group.List ?? [])
+      .filter((item): item is { Title?: string; Link: string; Comment?: string } => {
+        return typeof item?.Link === "string" && item.Link.trim().length > 0;
+      })
+      .map((item) => ({
+        title: typeof item.Title === "string" && item.Title.trim() ? item.Title.trim() : item.Link,
+        link: item.Link,
+        comment: typeof item.Comment === "string" ? item.Comment : "",
+      }));
+
+    return {
+      type,
+      slug: slugifySegment(type),
+      links,
+    };
+  })
+  .filter((group) => group.links.length > 0);
+---
+
+<BaseLayout
+  title="Knowledge"
+  description="Master the best of what other people have already figured out. Start exploring."
+  urlPath="/knowledge/"
+>
+  <style is:inline>
+    h1 {
+      text-align: center;
+      margin-bottom: 0;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid-item {
+      padding: 5px;
+      font-size: 14px;
+      counter-reset: dopeCounter;
+      position: relative;
+    }
+
+    h2 {
+      font-size: 22px;
+      padding-left: 20px;
+      text-align: left;
+      margin-bottom: 0.4em;
+    }
+
+    img {
+      width: 16px;
+      height: 16px;
+      margin-right: 4px;
+      margin-top: 2px;
+      float: left;
+    }
+
+    ol {
+      list-style: none;
+      margin-left: 0;
+      padding: 0;
+      margin-top: 0;
+    }
+
+    a.item {
+      width: 100%;
+      padding: 2px 0;
+      padding-top: 3px;
+      border-top: 1px solid rgba(0, 0, 0, 0.07);
+      color: #000;
+      display: inline-block;
+      text-align: left;
+    }
+
+    a.item:focus {
+      background-color: #84fab0;
+    }
+
+    .pagebody-content {
+      text-align: center;
+    }
+
+    @media screen and (max-width: 735px) {
+      .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+      }
+
+      a.item {
+        padding: 14px 0;
+      }
+    }
+  </style>
+
+  <p style="text-align:center; margin-top: 2px;">Explore design, development, and marketing.</p>
+
+  <div class="pagebody-content">
+    <a
+      style="margin-bottom: 10px; color: #000; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;"
+      class="more-btn"
+      href="/resources/">View all resources</a
+    >
+    <br />
+    Wow, that&rsquo;s a lot! <a id="knowledge-random-resource" style="margin-bottom: 10px;" href="#">Give me something random!</a>
+
+    <div class="grid-container">
+      {knowledgeGroups.map((group) => (
+        <div id={group.slug} class="grid-item">
+          <h2>{group.type}</h2>
+          <ol>
+            {group.links.map((entry) => (
+              <li title={entry.comment}>
+                <a class="item" target="_blank" href={entry.link} rel="noopener noreferrer">
+                  <img loading="lazy" alt="" src={`https://s2.googleusercontent.com/s2/favicons?domain_url=${entry.link}`} />
+                  {entry.title}
+                </a>
+              </li>
+            ))}
+          </ol>
+        </div>
+      ))}
+    </div>
+  </div>
+
+  <script is:inline define:vars={{ knowledgeGroups }}>
+    function getRandomInt(max) {
+      return Math.floor(Math.random() * Math.floor(max));
+    }
+
+    const randomResourceLink = document.getElementById("knowledge-random-resource");
+
+    randomResourceLink?.addEventListener("click", (event) => {
+      event.preventDefault();
+
+      if (!Array.isArray(knowledgeGroups) || knowledgeGroups.length === 0) {
+        return;
+      }
+
+      const randomCategory = knowledgeGroups[getRandomInt(knowledgeGroups.length)];
+      if (!Array.isArray(randomCategory.links) || randomCategory.links.length === 0) {
+        return;
+      }
+
+      const randomEntry = randomCategory.links[getRandomInt(randomCategory.links.length)];
+      if (!randomEntry?.link) {
+        return;
+      }
+
+      window.open(randomEntry.link, "_blank", "noopener,noreferrer")?.focus();
+    });
+  </script>
+</BaseLayout>

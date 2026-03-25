@@ -126,13 +126,11 @@ Open up Notepad → Save as → `index.html` → Select UTF-8 in Encoding drop-d
 
 **HyperText Markup Langage (HTML)** was invented as a way to provide instruction for browsers, in the form of *markup*, on how to display elements.
 
-{% highlight HTML %}
-{% raw %}
+```html
 <h1>Languages of the Web</h1>
 
 <p>Web pages are really just that. <i>Pages</i>. They're documents, just like papers you've written in the past. Documents with heading levels, sections, paragraphs, and more. The web started with the idea of <i>linking</i> documents. So let's learn how to create a document.</p>
-{% endraw %}
-{% endhighlight %}
+```
 
 (Sidenote: Sir Tim Berners-Lee invented HTML at CERN sometime in the ’90s. Then the Internet Engineering Task Force primarily maintained HTML until the creation of the World Wide Web Consortium (W3C) in 1995. And HTML5 is the fifth and last major HTML version from W3C. The current specification is the [HTML Living Standard](https://html.spec.whatwg.org/multipage/) maintained by a group made up from various people from major browsers called the [Web Hypertext Application Technology Working Group (WHATWG)](https://whatwg.org/).)
 
@@ -140,13 +138,11 @@ Browsers like Google Chrome, Safari, and Firefox take HTML markup and render it 
 
 Soon after HTML came **Cascading Style Sheets (CSS)** as a way to add styling (e.g. fonts, color, spacing) to HTML elements.
 
-{% highlight HTML %}
-{% raw %}
+```html
 <h1 style="font-weight: 600; margin-bottom: 20px;">Languages of the Web</h1>
 
 <p style="line-height: 1.4;">Web pages are really just that. <i>Pages</i>. They're documents, just like papers you've written in the past. Documents with heading levels, sections, paragraphs, and more. The web started with the idea of <i>linking</i> documents. So let's learn how to create a document.</p>
-{% endraw %}
-{% endhighlight %}
+```
 
 (Sidenote: Håkon Wium Lie, a coworker of Tim Berners-Lee invented CSS. The World Wide Web Consortium (W3C) maintains the [CSS specifications](https://www.w3.org/Style/CSS/current-work). CSS does not have a version as a whole like HTML or JS. All current CSS specifications have their own specific versions ranging from 1 to 4.)
 
@@ -160,8 +156,7 @@ A few notes here:
 At it's simplest, a website is simply an HTML file. You can add CSS to your HTML to make it look a little nicer and some JS to start scripting. To keep things more readable developers often link to separate CSS and JS files.
 
 
-{% highlight HTML %}
-{% raw %}
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -177,8 +172,7 @@ At it's simplest, a website is simply an HTML file. You can add CSS to your HTML
     </p>
   </body>
 </html>;
-{% endraw %}
-{% endhighlight %}
+```
 
 HTML defines the document structure and CSS applies the styling. JavaScript enables everything you’ve seen a web page do anything other than just sit there — content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc.
 
@@ -327,18 +321,15 @@ We’ll install PostCSS and Tailwind at the same time:
 3. Auto generate the TailwindCSS and PostCSS config files by running `npx tailwindcss init -p`
 4. Open tailwind.config.js to configure Tailwind to remove unused styles in production by replacing the *purge* array with the following:
 
-{% highlight javascript %}
-{% raw %}
+```javascript
 purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
-{% endraw %}
-{% endhighlight %}
+```
 
 Now, to include Tailwind in our CSS, for speed we’ll just import Tailwind directly in our app.
 
 Next.js uses an App component to enable global things like CSS on every page. To override the default App, create the file `./pages/_app.js` as shown below:
 
-{% highlight javascript %}
-{% raw %}
+```javascript
 import 'tailwindcss/tailwind.css'
 
 function App({ Component, pageProps }) {
@@ -346,8 +337,7 @@ function App({ Component, pageProps }) {
 }
 
 export default App
-{% endraw %}
-{% endhighlight %}
+```
 
 We did it! Now run `npm run dev` and Tailwind will be ready to use.
 
@@ -357,15 +347,13 @@ Here’s the official guide to [Install Tailwind CSS with Next.js](https://tailw
 
 Now, above the `export default function Home() { … }`  write the following:
 
-{% highlight javascript %}
-{% raw %}
+```javascript
 function User() {
   console.log("user function called")
 
   return <p>User data</p>
 }
-{% endraw %}
-{% endhighlight %}
+```
 
 Congrats, you just wrote your first **[React Component](https://reactjs.org/docs/components-and-props.html)**! Components let you split the UI into independent, reusable pieces, and think about each piece in isolation.
 
@@ -383,17 +371,14 @@ We want to render our `<User/>` component on page load (we’ve already done tha
 
 React offers a *hook* called **useEffect** that tells React that the component needs to do something *after it renders*. We can use this hook in Next.js by importing it at the top of the file:
 
-{% highlight javascript %}
-{% raw %}
+```javascript
 import { useState, useEffect } from 'react';
 import Head from 'next/head';
-{% endraw %}
-{% endhighlight %}
+```
 
 The code above is importing another hook called **useState**. useState lets you add React state to function components. Our User component is a function component! And we’re looking to add state that changes with the data from an API. First let’s set up the useEffect hook:
 
-{% highlight javascript %}
-{% raw %}
+```javascript
 function User() {
 
   useEffect(() => {
@@ -402,15 +387,13 @@ function User() {
 
   return <p>User data</p>
 }
-{% endraw %}
-{% endhighlight %}
+```
 
 You can see with this, it still only logs one time, as the component is only rendered once–on page load.
 
 So, let’s give our User component some state with the useState hook:
 
-{% highlight javascript %}
-{% raw %}
+```javascript
 function User() {
 
   const [userData, setUserData] = useState();
@@ -424,8 +407,7 @@ function User() {
 
   return <p>User data</p>
 }
-{% endraw %}
-{% endhighlight %}
+```
 
 
 Now in our browser console we can notice a few things:
@@ -436,14 +418,12 @@ Now in our browser console we can notice a few things:
 
 To fix #2, where the component is rendered twice, we can add a dependency array to the useEffect call (the dependency array is the [] after the useEffect):
 
-{% highlight javascript %}
-{% raw %}
+```javascript
   useEffect(() => {
     setUserData("I am the user data")
     console.log("user component rendered")
   }, [])
-{% endraw %}
-{% endhighlight %}
+```
 
 Our dependency array is empty! An empty dependency array tells React that our effect doesn’t depend on any values from props or state, so it never needs to re-run and should run only once.
 
@@ -451,8 +431,7 @@ Now, if we want to *render* our `userData` variable in our component, we’ll ha
 
 To solve for this, React utilizes **JSX**. We can call the variable in our returned HTML simply by wrapping it in `{userData}`:
 
-{% highlight javascript %}
-{% raw %}
+```javascript
 function User() {
 
   const [userData, setUserData] = useState();
@@ -466,15 +445,13 @@ function User() {
 
   return <p>{userData}</p>
 }
-{% endraw %}
-{% endhighlight %}
+```
 
 This should throw an error. The culprit? Remember how userData is *undefined* at first? We need to account for that!
 
 The component renders before our useEffect sets the userData (and soon, before calling the API). So we can return something that doesn’t use the userData variable to display until the userData loads in and we can re-render the component with the userData:
 
-{% highlight javascript %}
-{% raw %}
+```javascript
 function User() {
 
   const [userData, setUserData] = useState();
@@ -492,15 +469,13 @@ function User() {
 
   return <p>{userData}</p>
 }
-{% endraw %}
-{% endhighlight %}
+```
 
 Great!
 
 Now, we can call an API and set the user data to it’s response:
 
-{% highlight javascript %}
-{% raw %}
+```javascript
 function User() {
 
   const [userData, setUserData] = useState();
@@ -521,40 +496,34 @@ function User() {
 
   return <p>{userData}</p>
 }
-{% endraw %}
-{% endhighlight %}
+```
 
 Another error! It seems the userData response returns an object. And since we’re trying to render an object with JSX, React doesn’t like that!
 
 So let’s remove the userData from the return and log userData to the console to debug:
 
-{% highlight javascript %}
-{% raw %}
+```javascript
 […]
   console.log(userData)
 
   return <p>debugging!</p>
 }
-{% endraw %}
-{% endhighlight %}
+```
 
 Ah! We need to go into `userData[0]` and then pick a key. I’ll go with name.first:
 
-{% highlight javascript %}
-{% raw %}
+```javascript
 […]
 
   return <p>{userData[0].name.first}</p>
 }
-{% endraw %}
-{% endhighlight %}
+```
 
 We did it!
 
 Now, I’ll write out a component that utilizes tailwind styling for you here:
 
-{% highlight javascript %}
-{% raw %}
+```javascript
 function User() {
   const [userData, setUserData] = useState();
 
@@ -590,16 +559,13 @@ function User() {
     </ul>
   );
 }
-{% endraw %}
-{% endhighlight %}
+```
 
 Okay, our page is getting to be a bit much! Remember when we added the tailwind purge configuration, it included a components folder?
 
-{% highlight javascript %}
-{% raw %}
+```javascript
 purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
-{% endraw %}
-{% endhighlight %}
+```
 
 Components like the one we’ve just built typically exist in the components folder to keep our code cleaner and more reusable. So, there’s a few things we need to do:
 1. Create a folder at the root of the project called components
@@ -609,8 +575,7 @@ Now let’s copy our entire User component (but not the Home component) from the
 
 Since we want to change the component name, make sure the change the function name to UserCard as well.
 
-{% highlight javascript %}
-{% raw %}
+```javascript
 // UserCard.js
 import { useState, useEffect } from 'react';
 
@@ -652,13 +617,11 @@ function UserCard() {
 
 export default UserCard;
 
-{% endraw %}
-{% endhighlight %}
+```
 
 Hopefully you noticed that I added an `export default UserCard;` in our `UserCard.js` file. This declares a single entity (There can only be one `export default` per file), in this case we’re exporting the module `UserCard.js` that contains our functional component `UserCard`. We can then use it in our `index.js` file by importing it.
 
-{% highlight javascript %}
-{% raw %}
+```javascript
 // index.js
 import Head from 'next/head';
 import UserCard from '../components/UserCard';
@@ -670,8 +633,7 @@ export default function Home() {
     […]
   );
 }
-{% endraw %}
-{% endhighlight %}
+```
 
 Now, you can see that `index.js` is also exporting a function, `Home()`, and it declares it all in one line. I’m not 100% sure they’re exactly the same thing, I think it’s just personal preference.
 
@@ -687,11 +649,11 @@ Note: Git uses a `.gitignore` file to specify files and directories that Git sho
 
 At the very least, you should create a `.gitignore` with the following in it:
 
-{% highlight config %}
+```ini
 # .gitignore
 
 node_modules
-{% endhighlight %}
+```
 
 ## IDE (VS Code)
 

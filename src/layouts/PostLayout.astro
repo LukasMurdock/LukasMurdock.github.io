@@ -1,0 +1,100 @@
+---
+import ShellLayout from "@/layouts/ShellLayout.astro";
+import { formatLongNowIsoDate } from "@/lib/content";
+
+type NavLink = {
+  title: string;
+  href: string;
+};
+
+type Props = {
+  title: string;
+  subtitle?: string;
+  description?: string;
+  date: Date;
+  image?: string;
+  caption?: string;
+  urlPath: string;
+  tags?: string[];
+  contentText?: string;
+  previous?: NavLink;
+  next?: NavLink;
+  modifiedTime?: Date;
+  icons?: boolean;
+};
+
+const {
+  title,
+  subtitle,
+  description,
+  date,
+  image,
+  caption,
+  urlPath,
+  tags,
+  contentText,
+  previous,
+  next,
+  modifiedTime,
+  icons,
+} = Astro.props;
+
+const plantedDate = formatLongNowIsoDate(date);
+---
+
+<ShellLayout
+  title={title}
+  description={description}
+  urlPath={urlPath}
+  image={image}
+  isPost={true}
+  publishedTime={date}
+  modifiedTime={modifiedTime ?? date}
+  tags={tags}
+  contentText={contentText}
+  icons={icons}
+>
+  <main>
+    <div class="pagebody-content">
+      <article>
+        <h1>{title}</h1>
+        {subtitle && <h2 style="font-size: var(--font-medium-large)">{subtitle}</h2>}
+        <p>
+          Planted <a href="/about/#why-a-five-digit-year">{plantedDate}</a>
+        </p>
+        {description && <h2 style="font-size: var(--font-medium-large)">{description}</h2>}
+
+        {image && (
+          <div class="figure-container">
+            <figure class="blog-figure image component image-big image-fullbleed body-copy-wide">
+              <img class="picture-image" alt={title} src={image} />
+              {caption && <figcaption class="image-text">{caption}</figcaption>}
+            </figure>
+          </div>
+        )}
+
+        <slot />
+      </article>
+    </div>
+  </main>
+
+  <div
+    style="display: grid; grid-template-columns: 50% 50%; margin: 20px auto 40px auto; max-width: var(--max-width);"
+    class="PageNavigation"
+  >
+    {next && (
+      <a
+        style="color: #000; text-align: left; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;"
+        class="next more-btn"
+        href={next.href}>&laquo; {next.title}</a
+      >
+    )}
+    {previous && (
+      <a
+        style="color: #000; text-align: right; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;"
+        class="prev more-btn"
+        href={previous.href}>{previous.title} &raquo;</a
+      >
+    )}
+  </div>
+</ShellLayout>

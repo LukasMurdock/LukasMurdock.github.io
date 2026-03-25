@@ -1,0 +1,42 @@
+{
+  "name": "lukasmurdock.github.io",
+  "version": "1.0.0",
+  "description": "Personal website migration from Jekyll to Astro.",
+  "scripts": {
+    "dev": "npm run sync:assets && npm run data:mutate && astro dev",
+    "build": "npm run sync:assets && npm run data:mutate && astro build",
+    "deploy": "npm run build && npx wrangler deploy",
+    "preview": "astro preview",
+    "check": "astro check",
+    "sync:assets": "node scripts/sync-static-assets.mjs",
+    "data:mutate": "node scripts/run-data-mutations.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukasMurdock/LukasMurdock.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LukasMurdock/LukasMurdock.github.io/issues"
+  },
+  "homepage": "https://github.com/LukasMurdock/LukasMurdock.github.io#readme",
+  "dependencies": {
+    "@astrojs/rss": "^4.0.17",
+    "@astrojs/sitemap": "^3.7.1",
+    "astro": "^6.0.8",
+    "cobe": "^2.0.1",
+    "date-fns": "^4.1.0",
+    "date-fns-tz": "^3.2.0",
+    "fast-glob": "^3.3.3",
+    "gray-matter": "^4.0.3",
+    "js-yaml": "^4.1.1",
+    "unist-util-visit": "^5.1.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.8",
+    "@types/js-yaml": "^4.0.9",
+    "typescript": "^5.9.3"
+  }
+}

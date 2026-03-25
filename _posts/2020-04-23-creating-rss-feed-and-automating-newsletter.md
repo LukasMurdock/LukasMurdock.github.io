@@ -27,8 +27,7 @@ I want to write more. Not just for future reference or awareness but simply to g
 This site is built using [Jekyll](https://jekyllrb.com/). There is a [Jekyll Feed plugin](https://github.com/jekyll/jekyll-feed) that generates an RSS feed of Jekyll posts.
 This creates a `feed.xml` file that looks like the following:
 
-{% highlight HTML %}
-{% raw %}
+```html
 ---
 layout: null
 ---
@@ -37,7 +36,7 @@ layout: null
   <channel>
     <title>{{ site.title | xml_escape }}</title>
     <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
+    <link>{{ site.url }}/</link>
     <webfeeds:icon>https://lukasmurdock.com/safari-pinned-tab.svg</webfeeds:icon>
     <webfeeds:logo>https://lukasmurdock.com/safari-pinned-tab.svg</webfeeds:logo>
     <webfeeds:accentColor>F94643</webfeeds:accentColor>
@@ -71,8 +70,7 @@ layout: null
 
   </channel>
 </rss>
-{% endraw %}
-{% endhighlight %}
+```
 
 It’s not perfect but it gets the job done.
 
@@ -95,21 +93,18 @@ Now XML doesn’t support HTML, it needs to be converted. To solve this we can p
 
 After a lot of trial and error of trying to get this to work I realized that the HTML wasn’t changing and I could just input it [already XML escaped](https://www.freeformatter.com/xml-escape.html) to begin with…
 
-Okay but now we need to filter for only items added within the last week. Luckily I had solved this problems earlier when trying to *kinda* automate emails. You can view that [here](https://lukasmurdock.com/newsletter/).
+Okay but now we need to filter for only items added within the last week. Luckily I had solved this problems earlier when trying to *kinda* automate emails. You can view that [here](https://lukasmurdock.com/updates/).
 
 It utilizes a Jekyll filter that pulls every post from within a week of the latest website build. To get the timeframe of a week we can set:
-{% highlight liquid %}
-{% raw %}
+```liquid
 
 {% assign timeframe = 604800 %}
 
-{% endraw %}
-{% endhighlight %}
+```
 
 Then to get all writings from the last week we can:
 
-{% highlight HTML %}
-{% raw %}
+```html
 {% assign timeframe = 604800 %}
 
 <item>
@@ -130,14 +125,12 @@ Then to get all writings from the last week we can:
     <link>{{ "/writing" | prepend: site.baseurl | prepend: site.url }}</link>
 </item>
 
-{% endraw %}
-{% endhighlight %}
+```
 
 Note the XML escaped HTML—this is not ideal for genuine RSS feeds but we’re just using this as a proxy for an HTML email so it works great.
 
 For the Resources section I had to go through some trial and error to get the nestings right and sort them by date. Due to how the data is structured it sorts them by category and then by date:
-{% highlight HTML %}
-{% raw %}
+```html
 <item>
     <title>Resources</title>
     <description>
@@ -160,13 +153,11 @@ For the Resources section I had to go through some trial and error to get the ne
     </description>
     <link>{{ "/resources" | prepend: site.baseurl | prepend: site.url }}</link>
 </item>
-{% endraw %}
-{% endhighlight %}
+```
 
 Because the Around the Web section is built by date I can simply filter it for the first entry, which will return everything added within the current month.
 
-{% highlight HTML %}
-{% raw %}
+```html
 <item>
     <title>Around the Web</title>
     <description>
@@ -184,8 +175,7 @@ Because the Around the Web section is built by date I can simply filter it for t
     </description>
     <link>{{ "/aroundtheweb" | prepend: site.baseurl | prepend: site.url }}</link>
 </item>
-{% endraw %}
-{% endhighlight %}
+```
 
 Now because I appended `Date: Apr 23, 2020` to every resource the initial email will contain every single resource. I thought it serves as a nice hallmark to the day I finally figured out how to automate updates.
 
