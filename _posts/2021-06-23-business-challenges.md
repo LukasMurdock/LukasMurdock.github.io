@@ -138,3 +138,11 @@ Categories:
 3. Deploying technology for innovation
 4. Training staff at large
 5. Keeping up to speed with innovations
+
+[The Power Parthenon](https://s3-us-west-2.amazonaws.com/jayabrahamassets/Wiki+Resouces/The%2BPower%2BParthenon%2B8-19-05+(1).pdf)
+
+Three ways to grow:
+
+1. Increase number of customers
+2. Increase average transaction value
+3. Increase purchase frequency
