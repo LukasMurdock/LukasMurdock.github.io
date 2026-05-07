@@ -129,3 +129,14 @@ Those are the lengths you have to go to if you want to be certain that your info
 And on that point, I have to agree with them.
 
 Oh-and by the way? Almost none of the speculation in that story about Bush steel tariffs proved true.
+
+---
+
+See also:
+- [Eliezer Yudkowsky: Do We Believe Everything We're Told?](https://www.lesswrong.com/posts/TiDGXt3WrQwtCdDj3/do-we-believe-everything-we-re-told)
+- [Goodbye Serenity](https://www.nybooks.com/online/2011/12/05/goodbye-serenity/)
+- [Noam Chomsky: The five filters of the mass media machine](https://www.youtube.com/watch?v=34LGPIXvU5M)
+- [Seth Godin: Rethinking categories of media](https://seths.blog/2022/04/rethinking-categories-of-media/)
+- [Gwern: Littlewood’s Law and the Global Media](https://gwern.net/littlewood)
+- [How Social Media Destroyed my Generation](https://battlepenguin.com/philosophy/society/how-social-media-destroyed-my-generation/)
+- [Bad News, Selling the story of disinformation](https://harpers.org/archive/2021/09/bad-news-selling-the-story-of-disinformation/)
