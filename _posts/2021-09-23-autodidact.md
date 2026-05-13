@@ -63,6 +63,7 @@ tags: annual, me
 - [Noam Chomsky: The Common Good](https://chomsky.info/the-common-good/) (transcribed talk)
 - [How Learning Works](https://romandesign.co/how-learning-works-components-systems-and-loops/)
 - [On Bloom's two sigma problem: A systematic review of the effectiveness of mastery learning, tutoring, and direct instruction](https://nintil.com/bloom-sigma/)
+- [How To Compress a Grade Level’s Worth of Learning Much, Much Shorter Than a Year](https://www.justinmath.com/how-to-compress-learning/)
 - [LW: Study Guide for technical problems we don’t understand](https://www.lesswrong.com/posts/bjjbp5i5G8bekJuxv/study-guide)
 - [How Learning Works: Components, Systems, and Loops](https://romandesign.co/how-learning-works-components-systems-and-loops/)
 - [True Learning Is Done With Agency](https://moretothat.com/true-learning-is-done-with-agency/)

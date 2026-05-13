@@ -196,6 +196,16 @@ https://adr.github.io/
 
 > Currently I [___A___] that [___B___] based on [___C___]. Given that assumption I [___D___]that we [___E___].
 
+## Design from the Inside
+
+[Design from the inside](https://mattstromawn.com/writing/design-from-the-inside/) argues that in fast-moving companies, designers should stop trying to map the whole product from the outside and instead work inside the product system.
+
+- Work in the codebase
+- Use real data and realistic conditions
+- Ship small changes
+- Build rituals instead of introducing processes
+- Collapse feedback loops through support, instrumentation, and direct product changes
+
 ## PDSA Cycle
 
 - **Plan** a change or test aimed at improvement. Set objective, ask questions and have predictions, plan to carry out the cycle (who, what, where, when)
@@ -209,6 +219,7 @@ https://adr.github.io/
 - [Atlassian: Team Playbook](https://www.atlassian.com/team-playbook)
 - [Managers playbook](https://github.com/ksindi/managers-playbook)
 - [Managing Complex Change](https://addyosmani.com/blog/managing-complex-change/)
+- [How Complex Systems Fail](https://how.complexsystems.fail/)
 - [Focus on high-leverage activities](https://addyosmani.com/blog/high-leverage-activites/)
 - [Manage like an engineer](https://ben.balter.com/2023/01/10/manage-like-an-engineer/)
 - [Management cybernetics](https://en.wikipedia.org/wiki/Management_cybernetics)

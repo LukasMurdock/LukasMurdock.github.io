@@ -14,6 +14,8 @@ tags: annual, business
 - **Networks**: Does it work better if I tell my friends and use it with them? Is this actually happening or are you simply hoping for it?
 - **Smallest viable audience**: Have you figured out precisely who it’s for? And do they agree?
 
+[Where Are You in the Context Supply Chain?](https://educatedguesser.substack.com/p/where-are-you-in-the-context-supply) frames much organizational work as a coordination tax: carrying, repackaging, and recontextualizing product context across teams.
+
 [Table Stakes: Unblock Your Business](https://www.permanentequity.com/writings/table-stakes)
 
 “the business of business” in five buckets, listed here in order of importance to become a fully functioning enterprise:

@@ -62,6 +62,8 @@ More money than time? Ads
 
 A growth setup requires experimenting with market positioning, product functionality, marketing channels, and even new monetization models.
 
+[Kill your onboarding](https://blog.railway.com/p/kill-your-onboarding): use product telemetry to identify the right accounts and replace generic onboarding drips with timely, contextual help.
+
 And there’s positioning. Positioning impacts:
 - Marketing: messaging, audience targeting, campaign development.
 - Sales and business development: target customer segmentation and account strategy.
