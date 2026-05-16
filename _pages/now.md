@@ -14,7 +14,7 @@ icons: true
 
 ## Working
 
-Building Hiking Hawaii.
+I help small teams find the systems problems underneath messy work, make those problems legible, and ship practical improvements to how the team operates.
 
 ## Exploring
 

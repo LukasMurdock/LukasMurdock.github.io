@@ -196,6 +196,20 @@ https://adr.github.io/
 
 > Currently I [___A___] that [___B___] based on [___C___]. Given that assumption I [___D___]that we [___E___].
 
+### The Core Magic Loop
+
+Process goal: Help employees grow their skills and career by building a mutually beneficial relationship with their manager.
+
+[The Core Magic Loop](https://drive.google.com/file/d/124Bvy9SUKlalweLBY2cPyUSepc0LJ5C-/view) is a five-step loop for growing an employee's skills, responsibilities, position, and compensation inside a job:
+
+1. Do your current job well.
+2. Ask your manager how you can help them.
+3. Do what they ask.
+4. Ask your manager if you could help in a way that also grows your skills toward a particular goal.
+5. Do as they suggest, then repeat from step 4.
+
+The loop works because people tend to invest in those who help them. Before asking for growth opportunities, the employee should verify they are in good standing with their current responsibilities. After completing useful work for their manager, they can ask for opportunities that both help the manager and develop them toward a specific goal, such as learning a skill, gaining responsibility, earning a raise, or preparing for promotion.
+
 ## Design from the Inside
 
 [Design from the inside](https://mattstromawn.com/writing/design-from-the-inside/) argues that in fast-moving companies, designers should stop trying to map the whole product from the outside and instead work inside the product system.

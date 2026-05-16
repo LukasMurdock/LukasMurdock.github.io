@@ -101,11 +101,8 @@ Moved to [/wtl](/wtl)
 
 ### Companies I’ve Worked For
 
-January 2025 – Present
-**Hiking Hawaii**
-
-January 2025 – Present
- **Rove Media** • *Application Developer* • Remote
+August 2019 – Present
+**[Tame Systems](https://tamesystems.org/)** • *AI Engineer/Operator* • Remote
 
 March 2023 – January 2025
 **[SkyCatchFire](https://www.skycatchfire.com/)** • *Application Developer* • Remote

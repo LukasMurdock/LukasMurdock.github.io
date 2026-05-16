@@ -3,6 +3,7 @@ layout: post
 title: "A manager of infinite minds"
 date: "January 01, 2026"
 description: "The constraint is orientation."
+tags: llms
 ---
 
 The strategy memo looked perfect. Well-structured, professionally argued, footnoted. It took four minutes to generate. It took six weeks to unwind the decisions made from its confident, subtly wrong framing.

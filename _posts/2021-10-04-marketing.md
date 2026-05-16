@@ -78,6 +78,8 @@ The [5+1 Components of Positioning](https://commoncog.com/obviously-awesome/):
 5. What is the market you describe yourself as being a part of, to help your customers understand your value?
 6. What relevant trends make your product more relevant right now?
 
+[Position or Perish: The Narrative Blueprint](https://www.selfonomics.com/p/position-or-perish-the-narrative) argues that positioning is upstream of marketing, product, pricing, hiring, fundraising, and PR: write the messaging spine, hold the frame, and make every artifact confirm the same position.
+
 > [Marketing exists to make sales easier](https://kellblog.com/2020/04/26/marketing-exists-to-make-sales-easier/).
 
 > The product. The warranty. The team. The color choices. The pricing. The way it feels in your hand. The urgency we have to tell our friends…
