@@ -244,6 +244,7 @@ The loop works because people tend to invest in those who help them. Before aski
 - [The roadmap is not the territory](https://tomcritchlow.com/2023/04/18/roadmap-territory/)
 - [Why Are You Doing This? (Wrong Answers Only)](https://cutlefish.substack.com/p/tbm-217-why-are-you-doing-this-wrong)
 - [Some mistakes I made as a new manager](https://www.benkuhn.net/newmgr/)
+- [Project management for engineers](https://www.benkuhn.net/pjm/)
 - [Handoff Waste and Taylorism](https://two-wrongs.com/handoff-waste-and-taylorism.html)
 - [Leaky Delegation: You are not a Commodity](https://www.lesswrong.com/posts/tTWL6rkfEuQN9ivxj/leaky-delegation-you-are-not-a-commodity)
 - 1970-03: [NASA SP-287: What Made Apollo a Success?](https://history.nasa.gov/SP-287/sp287.htm)
