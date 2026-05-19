@@ -12,6 +12,25 @@ tags: business
 
 Management is a core [business challenge](/business-challenges/).
 
+## Management is an information system
+
+Management is the practice of keeping the organization's model of reality updated fast enough to act.
+
+A team fails when reality changes faster than the team can notice, interpret, decide, and respond. The manager's job is to increase the speed and quality of that loop without creating unnecessary bureaucracy.
+
+This means management is not primarily meetings, status reports, or task tracking. Those are tools. The actual work is:
+
+- clarifying the goal
+- making ownership explicit
+- surfacing reality early
+- shortening feedback loops
+- resolving uncertainty
+- communicating changes
+- making decisions legible
+- preventing small problems from becoming big ones
+
+A good manager creates the conditions where people can make better local decisions without waiting for permission.
+
 Internal:
 
 - Vision and values
@@ -23,43 +42,6 @@ Internal:
 - Decision making
 - Communication
 - Motivation
-
-
-## A Land & Expand Reading Program
-- 1966 [Peter Drucker: The Effective Executive](https://www.harpercollins.com/products/the-effective-executive-peter-f-drucker?variant=32207495856162)
-- 1982 [Ken Blanchard, Spencer Johnson: The One Minute Manager](https://www.kenblanchard.com/Store/The-New-One-Minute-Manager)
-- 1983 [Andrew Grove: High Output Management](https://about.gitlab.com/handbook/leadership/high-output-management/)
-- 1993 [David Maister: Managing the Professional Service Firm](https://davidmaister.com/books/mtpsf/)
-- 2019 [Matt Mochary: The Great CEO Within](https://mocharymethod.org/the-great-ceo-within/)
-- 2021 [Alex MacCaw: The Manager’s Handbook](https://themanagershandbook.com/)
-
-## Management Books
-
-- 1936 [Dale Carnegie: How to win friends and influence people](https://fs.blog/how-to-win-friends-and-influence-people/)
-- 1966 [Peter Drucker: The Effective Executive](https://www.harpercollins.com/products/the-effective-executive-peter-f-drucker?variant=32207495856162)
-- 1973 [Peter Drucker: Management: Tasks, Responsibilities, Practices](https://www.academia.edu/7194379/Management_Tasks_Responsibilitiesit_Peter_Drucker_)
-- 1982 [Ken Blanchard, Spencer Johnson: The One Minute Manager](https://www.kenblanchard.com/Store/The-New-One-Minute-Manager)
-- 1983 [Andrew Grove: High Output Management](https://about.gitlab.com/handbook/leadership/high-output-management/)
-- 1984 [Eliyahu M. Goldratt: The Goal](https://jamesclear.com/book-summaries/the-goal)
-- 1987 [Timothy Lister, Tom DeMarco: Peopleware](https://www.oreilly.com/library/view/peopleware-productive-projects/9780133440706/)
-- 1989 [Stephen R. Covey: The 7 Habits of Highly Effective People](https://www.franklincovey.com/the-7-habits/)
-- 1993 [David Maister: Managing the Professional Service Firm](https://davidmaister.com/books/mtpsf/)
-- 1998 [John C. Maxwell: The 21 Irrefutable Laws of Leadership](https://store.maxwellleadership.com/The-21-Irrefutable-Laws-of-Leadership-25th-Anniversary-Edition-Hardcover_p_3038.html)
-- 2001 [Tom DeMarco: Slack](https://www.penguinrandomhouse.com/books/39276/slack-by-tom-demarco/)
-- 2001 [David Allen: Getting Things Done](https://gettingthingsdone.com/)
-- 2002 [Patrick Lencioni: the Five Dysfunctions of a Team](https://www.tablegroup.com/product/dysfunctions/)
-- 2007 [Michael Lopp: Managing Humans](https://link.springer.com/book/10.1007/978-1-4842-7116-2)
-- 2008 [David Allen: Making It All Work](https://www.samuelthomasdavies.com/book-summaries/business/making-it-all-work/)
-- 2013 [L. David Marquet: Turn the Ship Around](https://davidmarquet.com/turn-the-ship-around-book/)
-- 2014 [Jeff Sutherland: Scrum](https://www.scruminc.com/new-scrum-the-book/)
-- 2015 [Jocko Willink, Leif Babin: Extreme Ownership](https://us.macmillan.com/books/9781250183866/extremeownership)
-- 2016 [Mark Horstman: The Effective Manager](https://www.oreilly.com/library/view/the-effective-manager/9781119244608/)
-- 2017 [John Doerr: Measure What Matters](https://www.whatmatters.com/the-book)
-- 2018 [Daniel Coyle: The Culture Code](https://danielcoyle.com/the-culture-code/)
-- 2019 [Matt Mochary: The Great CEO Within](https://mocharymethod.org/the-great-ceo-within/)
-- 2019 [David Allen: The Getting Things Done Workbook](https://gettingthingsdone.com/books/)
-- 2021 [Alex MacCaw: The Manager’s Handbook](https://themanagershandbook.com/)
-- 2023 [Claire Hughes Johnson: Scaling People](https://press.stripe.com/scaling-people)
 
 ## Questions
 
@@ -81,7 +63,209 @@ How do we make decisions?
 
 Where do decision records go?
 
+## Communication cadence ladder
+
+Different problems need different communication cadences.
+
+### Immediate
+
+Use when there is a production issue, blocked decision, customer impact, or irreversible action.
+
+Medium: call, huddle, urgent Slack.
+
+### Daily
+
+Use when the project is time-sensitive or many people need shared context.
+
+Medium: short standup or async update.
+
+### Weekly
+
+Use for most active projects.
+
+Medium: weekly meeting plus broadcast update.
+
+### Monthly
+
+Use for business review, metrics, strategic direction, and retrospectives.
+
+Medium: WBR / MBR.
+
+### Durable
+
+Use for decisions, operating principles, strategy, architecture, and policies.
+
+Medium: working doc, ADR, decision record, handbook.
+
+## Management without authority
+
+Embedded operators often need to manage projects without being the manager.
+
+The move is not to seize authority. The move is to make the work more legible.
+
+Default proposal:
+
+> I think this project would benefit from one lightweight operating doc and a weekly update loop. I can draft the first version so we have one place for goals, risks, decisions, and current work. We can keep it minimal and adjust if it becomes overhead.
+
+Useful asks:
+
+- Can I create the project working doc?
+- Can we agree who the DRI is?
+- Can we define "done"?
+- Can we choose where decisions live?
+- Can we keep important updates in the project channel instead of DMs?
+- Can I send a weekly summary of shipped, learned, blocked, and next?
+
+Management without authority works by reducing ambiguity for everyone.
+
+## Management failure modes
+
+Knowing management theory is not the same as installing a management system.
+
+Common failure modes:
+
+### 1. Passive ownership
+
+Waiting for permission instead of proposing the operating system.
+
+Countermeasure: write the project landing page, propose the cadence, and ask for objections.
+
+### 2. Status without orientation
+
+Reporting activity without explaining whether the project is on track.
+
+Countermeasure: every update should include goal, current state, risk, next step, and ask.
+
+### 3. Invisible uncertainty
+
+Letting unknowns live in conversation, memory, or anxiety.
+
+Countermeasure: maintain a ranked uncertainty list.
+
+### 4. Decision fog
+
+Decisions happen, but nobody can find the decision later.
+
+Countermeasure: write decision records with context, decision, consequences, and date.
+
+### 5. Thread rot
+
+Important project state is buried in Slack threads, DMs, meetings, or memory.
+
+Countermeasure: summarize decisions and updates back into the project channel and working doc.
+
+### 6. Unowned escalation
+
+Problems are noticed but not raised early enough.
+
+Countermeasure: define what "at risk" means and broadcast it early.
+
+### 7. Delegating tasks instead of outcomes
+
+People receive checklists but not the goal or decision context.
+
+Countermeasure: delegate crisp outcomes, constraints, and success criteria.
+
 ## Frameworks
+
+### Project DRI Operating System
+
+Process goal: create shared context, fast feedback loops, and clear ownership for important projects.
+
+[How I've run major projects](https://www.benkuhn.net/pjm/) argues that major projects are high-leverage when someone has enough technical context and trust to make prioritization decisions.
+
+A project DRI is responsible for maintaining the system that lets the project move quickly:
+
+1. A clear goal
+2. A working doc / landing page
+3. A plan for victory
+4. A ranked uncertainty list
+5. A visible "who is working on what"
+6. A project communication channel
+7. A weekly broadcast update
+8. A regular retro
+
+The DRI does not own every task. The DRI owns direction, context, prioritization, and escalation.
+
+#### Project landing page
+
+Every important project should have one obvious place to go.
+
+Minimum contents:
+
+- Goal: what outcome are we trying to create?
+- Why now: why does this matter?
+- DRI: who owns direction and escalation?
+- People: who is involved?
+- Links: Slack channel, PRs, docs, designs, dashboards, tickets
+- Plan for victory: what steps lead to success?
+- Roadmap: intermediate milestones and rough dates
+- Open questions / risks: ranked by importance
+- Who is working on what: current work and owner
+- Running notes: meeting notes, decisions, updates
+
+#### Plan for victory
+
+A plan for victory is a concrete list of steps that ends in the goal being achieved.
+
+The point is not prediction. The point is orientation.
+
+The plan helps answer:
+
+- Are we on track?
+- What changed?
+- What is blocking us?
+- What needs to be cut?
+- What needs escalation?
+- Who else needs to know?
+
+#### Ranked uncertainty list
+
+Most projects are constrained by uncertainty, not effort.
+
+Maintain a ranked list of the most important unanswered questions:
+
+- What must be true for this project to succeed?
+- What do we not know yet?
+- Which uncertainty is on the critical path?
+- Who is resolving it?
+- When will we know more?
+
+The highest-priority uncertainty often becomes the highest-priority work.
+
+#### Weekly broadcast update
+
+Once a week, send a concise update to everyone who depends on the project.
+
+Template:
+
+- Vibe: on track / at risk / blocked
+- What changed:
+- What we learned:
+- What shipped:
+- Current risks:
+- Next:
+- Needs / asks:
+
+Optimize for signal. Do not say "worked on X." Say "accomplished Y," "learned Z," or "blocked by Q."
+
+#### Slack norms
+
+- Use the project channel, not DMs.
+- Link the working doc in the channel.
+- Summarize long threads back to the channel.
+- Cross-post important decisions.
+- Make private channels only when confidentiality requires it.
+- Bias toward shared context over hidden coordination.
+
+#### Retro cadence
+
+Every 2-8 weeks, ask:
+
+- What went well?
+- What could have gone better?
+- What should we change next cycle?
+- What action item has an owner?
 
 ### Areas of Responsibility (AOR) and Directly Responsible Individuals (DRI)
 
@@ -125,6 +309,26 @@ Process goal: align teams on foundations of work
 3. List assumptions relevant to your work with a level of certainty.
 4. List your beliefs.
 5. Regularly revisit document.
+
+### Definition of Done
+
+Process goal: prevent implicit expectations from becoming conflict.
+
+Before starting meaningful work, define what "done" means.
+
+Minimum template:
+
+- User-visible outcome:
+- Internal outcome:
+- Acceptance criteria:
+- Non-goals:
+- Required review:
+- Required documentation:
+- Rollout plan:
+- Monitoring / verification:
+- Owner who accepts completion:
+
+If "done" is not defined, the project will silently expand until someone is disappointed.
 
 ### Outcome super prompt
 
@@ -226,6 +430,120 @@ The loop works because people tend to invest in those who help them. Before aski
 - **Do** carry out the change or test (preferably on a small scale). Document problems and unexpected observations.
 - **Study** the result. What did we learn? What went wrong? Summarize what we learned
 - **Act** - adopt the change, abandon it, or run through the cycle again. What changes are to be made? Next cycle?
+
+## Templates
+
+### Small team project template
+
+```md
+## Project
+
+Name:
+
+DRI:
+
+People:
+
+Slack channel:
+
+Working doc:
+
+## Goal
+
+We are trying to:
+
+This matters because:
+
+Success means:
+
+## Plan for victory
+
+1.
+2.
+3.
+4.
+5.
+
+## Current state
+
+Status: on track / at risk / blocked
+
+Latest shipped:
+
+Latest learned:
+
+## Risks and open questions
+
+| Priority | Question / Risk | Owner | Next check |
+|---|---|---|---|
+| P0 | | | |
+| P1 | | | |
+| P2 | | | |
+
+## Who is working on what
+
+| Person | Current focus | Expected output | Date |
+|---|---|---|---|
+| | | | |
+
+## Decisions
+
+| Date | Decision | Context | Consequence |
+|---|---|---|---|
+| | | | |
+
+## Weekly update
+
+Vibe:
+
+What changed:
+
+What shipped:
+
+What we learned:
+
+Current risks:
+
+Next:
+
+Needs:
+```
+
+## A Land & Expand Reading Program
+- 1966 [Peter Drucker: The Effective Executive](https://www.harpercollins.com/products/the-effective-executive-peter-f-drucker?variant=32207495856162)
+- 1982 [Ken Blanchard, Spencer Johnson: The One Minute Manager](https://www.kenblanchard.com/Store/The-New-One-Minute-Manager)
+- 1983 [Andrew Grove: High Output Management](https://about.gitlab.com/handbook/leadership/high-output-management/)
+- 1993 [David Maister: Managing the Professional Service Firm](https://davidmaister.com/books/mtpsf/)
+- 2019 [Matt Mochary: The Great CEO Within](https://mocharymethod.org/the-great-ceo-within/)
+- 2021 [Alex MacCaw: The Manager's Handbook](https://themanagershandbook.com/)
+
+## Management Books
+
+- 1936 [Dale Carnegie: How to win friends and influence people](https://fs.blog/how-to-win-friends-and-influence-people/)
+- 1966 [Peter Drucker: The Effective Executive](https://www.harpercollins.com/products/the-effective-executive-peter-f-drucker?variant=32207495856162)
+- 1973 [Peter Drucker: Management: Tasks, Responsibilities, Practices](https://www.academia.edu/7194379/Management_Tasks_Responsibilitiesit_Peter_Drucker_)
+- 1982 [Ken Blanchard, Spencer Johnson: The One Minute Manager](https://www.kenblanchard.com/Store/The-New-One-Minute-Manager)
+- 1983 [Andrew Grove: High Output Management](https://about.gitlab.com/handbook/leadership/high-output-management/)
+- 1984 [Eliyahu M. Goldratt: The Goal](https://jamesclear.com/book-summaries/the-goal)
+- 1987 [Timothy Lister, Tom DeMarco: Peopleware](https://www.oreilly.com/library/view/peopleware-productive-projects/9780133440706/)
+- 1989 [Stephen R. Covey: The 7 Habits of Highly Effective People](https://www.franklincovey.com/the-7-habits/)
+- 1993 [David Maister: Managing the Professional Service Firm](https://davidmaister.com/books/mtpsf/)
+- 1998 [John C. Maxwell: The 21 Irrefutable Laws of Leadership](https://store.maxwellleadership.com/The-21-Irrefutable-Laws-of-Leadership-25th-Anniversary-Edition-Hardcover_p_3038.html)
+- 2001 [Tom DeMarco: Slack](https://www.penguinrandomhouse.com/books/39276/slack-by-tom-demarco/)
+- 2001 [David Allen: Getting Things Done](https://gettingthingsdone.com/)
+- 2002 [Patrick Lencioni: the Five Dysfunctions of a Team](https://www.tablegroup.com/product/dysfunctions/)
+- 2007 [Michael Lopp: Managing Humans](https://link.springer.com/book/10.1007/978-1-4842-7116-2)
+- 2008 [David Allen: Making It All Work](https://www.samuelthomasdavies.com/book-summaries/business/making-it-all-work/)
+- 2013 [L. David Marquet: Turn the Ship Around](https://davidmarquet.com/turn-the-ship-around-book/)
+- 2014 [Jeff Sutherland: Scrum](https://www.scruminc.com/new-scrum-the-book/)
+- 2015 [Jocko Willink, Leif Babin: Extreme Ownership](https://us.macmillan.com/books/9781250183866/extremeownership)
+- 2016 [Mark Horstman: The Effective Manager](https://www.oreilly.com/library/view/the-effective-manager/9781119244608/)
+- 2017 [John Doerr: Measure What Matters](https://www.whatmatters.com/the-book)
+- 2018 [Daniel Coyle: The Culture Code](https://danielcoyle.com/the-culture-code/)
+- 2019 [Matt Mochary: The Great CEO Within](https://mocharymethod.org/the-great-ceo-within/)
+- 2019 [David Allen: The Getting Things Done Workbook](https://gettingthingsdone.com/books/)
+- 2021 [Alex MacCaw: The Manager's Handbook](https://themanagershandbook.com/)
+- 2023 [Claire Hughes Johnson: Scaling People](https://press.stripe.com/scaling-people)
 
 ## Management Resources
 
