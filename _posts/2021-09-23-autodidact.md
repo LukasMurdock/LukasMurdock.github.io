@@ -94,6 +94,7 @@ tags: annual, me
 - [Learning Styles FAQ](http://www.danielwillingham.com/learning-styles-faq.html)
 - [Your life should be on an accelerated learning curve](https://www.hottakes.space/p/your-life-should-be-on-an-accelerated)
 - [Massive input and/or spaced repetition](https://nintil.com/massive-input-spaced-repetition)
+- [Good sleep, good learning, good life](https://super-memory.com/articles/sleep.htm)
 - [Thoughts on the manual](https://seths.blog/2023/09/thoughts-on-the-manual/)
 - [Fake Journal Club: Teaching Critical Reading](https://gwern.net/fake-journal-club)
 - [How to Explain Anything to Anyone](https://www.drmaciver.com/2018/10/how-to-explain-anything-to-anyone/)
