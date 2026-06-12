@@ -447,3 +447,33 @@ gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=../merged.pdf $(echo $(ls
 ---
 
 [macOS command-line tools you might not know about](https://news.ycombinator.com/item?id=36491704)
+
+---
+
+Override priority:
+1. MYAPP_*_DIR env vars / CLI flags
+2. [XDG variables](https://specifications.freedesktop.org/basedir/latest/)
+3. OS defaults
+
+App-specific overrides:
+- MYAPP_CONFIG_DIR=/some/path myapp
+- MYAPP_DATA_DIR=/some/path myapp
+- MYAPP_CACHE_DIR=/some/path myapp
+- MYAPP_STATE_DIR=/some/path myapp
+- MYAPP_LOG_DIR=/some/path myapp
+- MYAPP_RUNTIME_DIR=/some/path myapp
+
+XDG style:
+- Config:  ${XDG_CONFIG_HOME:-~/.config}/myapp/
+- Data:    ${XDG_DATA_HOME:-~/.local/share}/myapp/
+- Cache:   ${XDG_CACHE_HOME:-~/.cache}/myapp/
+- State:   ${XDG_STATE_HOME:-~/.local/state}/myapp/
+- Runtime: ${XDG_RUNTIME_DIR:-$TMPDIR}/myapp/
+
+macOS-native style:
+- Config:       ~/Library/Application Support/myapp/config/
+- Data:         ~/Library/Application Support/myapp/data/
+- State:        ~/Library/Application Support/myapp/state/
+- Cache:        ~/Library/Caches/myapp/
+- Logs:         ~/Library/Logs/myapp/
+- Temp/runtime: $TMPDIR/myapp/
