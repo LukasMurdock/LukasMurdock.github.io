@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "npm run sync:assets && npm run data:mutate && astro dev",
     "build": "npm run sync:assets && npm run data:mutate && astro build",
-    "deploy": "npm run build && npx wrangler deploy",
+    "deploy": "npm run build && pnpm exec wrangler deploy",
     "preview": "astro preview",
     "check": "astro check",
     "sync:assets": "node scripts/sync-static-assets.mjs",
@@ -32,11 +32,14 @@
     "fast-glob": "^3.3.3",
     "gray-matter": "^4.0.3",
     "js-yaml": "^4.1.1",
-    "unist-util-visit": "^5.1.0"
+    "unist-util-visit": "^5.1.0",
+    "zod": "^4.4.3"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.8",
     "@types/js-yaml": "^4.0.9",
-    "typescript": "^5.9.3"
-  }
+    "typescript": "^5.9.3",
+    "wrangler": "^4.100.0"
+  },
+  "packageManager": "pnpm@11.7.0+sha512.19cc852c120c7125760f2443ee6be0ca5b40f9f50598de1a09a1f177503e010e57c23c77646e01e761de59bf874fb22a3398c33ab9691fc13eb946b6f0f4d620"
 }

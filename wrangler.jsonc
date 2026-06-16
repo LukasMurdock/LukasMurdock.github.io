@@ -12,6 +12,10 @@
         {
             "pattern": "www.lukasmurdock.com",
             "custom_domain": true
+        },
+        {
+            "pattern": "mta-sts.lukasmurdock.com",
+            "custom_domain": true
         }
     ],
     "assets": {
