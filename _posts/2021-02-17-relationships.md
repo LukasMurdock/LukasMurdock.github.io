@@ -4,10 +4,10 @@ title: 'Relationships'
 description: "A collection of ideas on relationships."
 date: February 17, 2021
 tags: annual
-last_modified_at: 2021-02-17T05:02:30+0000
+last_modified_at: 2026-07-05T00:00:00Z
 ---
 
-Last updated on: February 17, 2021
+Last updated on: July 5, 2026
 
 See also:
 - [General Advice](/advice/)
@@ -156,6 +156,8 @@ Again, advice for my future self. I’ll see you then.
 ## Friends
 
 Friends start falling after 18. Somber. You have to start [intentionally making close friends](https://www.lesswrong.com/posts/pfibDHFZ3waBo6pAc/intentionally-making-close-friends).
+
+Aristotle distinguished between [friendships of utility, pleasure, and virtue](https://cantory.blogspot.com/2007/12/aristotle-and-his-view-of-friendship.html). The highest form is friendship where each person wishes the good of the other for their own sake—not merely because they are useful or fun.
 
 [Crucial to making close friends](https://www.nytimes.com/2012/07/15/fashion/the-challenge-of-making-friends-as-an-adult.html):
 1. proximity;
