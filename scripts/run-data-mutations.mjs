@@ -1,7 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import yaml from "js-yaml";
+import { dump, load } from "js-yaml";
 import { formatInTimeZone } from "date-fns-tz";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -25,11 +25,11 @@ function slugifySegment(value) {
 
 async function readYaml(filePath) {
   const source = await fs.readFile(filePath, "utf8");
-  return yaml.load(source);
+  return load(source);
 }
 
 async function writeYamlIfChanged(filePath, data) {
-  const nextSource = yaml.dump(data, {
+  const nextSource = dump(data, {
     lineWidth: -1,
     noRefs: true,
   });

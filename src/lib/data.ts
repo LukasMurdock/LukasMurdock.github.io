@@ -1,6 +1,6 @@
 import fs from "node:fs/promises";
 import path from "node:path";
-import yaml from "js-yaml";
+import { load } from "js-yaml";
 
 const projectRoot = process.cwd();
 
@@ -10,7 +10,7 @@ function filePath(relativePath: string): string {
 
 export async function readYamlFile<T>(relativePath: string): Promise<T> {
   const source = await fs.readFile(filePath(relativePath), "utf8");
-  return yaml.load(source) as T;
+  return load(source) as T;
 }
 
 export async function readJsonFile<T>(relativePath: string): Promise<T> {
