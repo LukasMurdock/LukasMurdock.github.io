@@ -88,6 +88,8 @@ And yet, I aspire to get significantly better at extracting knowledge and reveal
 - [Search for better questions](http://kiriakakis.net/comics/mused/a-day-at-the-park).
 - [Build for posterity](https://lukasmurdock.com/for-posterity/), [build bridges when you cross](https://lukasmurdock.com/bridge-builder/).
 - [We shape our tools, and our tools shape us](https://vimeo.com/34017777).
+- [Simple doing: Complete the moment. Just this. No need to rush. No need to run from this. Clear things out. Plan and reflect.](https://zenhabits.net/simple-doing/)
+- [Block the inputs and make a vacuum to expand output.](https://sive.rs/off23)
 - [Today you, tomorrow me](https://lukasmurdock.com/tytm/).
 - Genshai: Never treat another person in a manner that would make them feel small – including yourself.
 - Trust by default.
