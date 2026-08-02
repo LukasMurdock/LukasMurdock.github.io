@@ -19,6 +19,8 @@ const baseSchema = z.looseObject({
     code: z.any().optional(),
     sitemap: z.any().optional(),
     published: z.any().optional(),
+    series: z.string().optional(),
+    series_order: z.number().int().positive().optional(),
   });
 
 const posts = defineCollection({

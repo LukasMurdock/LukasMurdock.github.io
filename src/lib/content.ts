@@ -102,7 +102,32 @@ export function isPublishablePost(post: PostEntry, now = new Date()): boolean {
 }
 
 export function sortPostsByDateDesc(posts: PostEntry[]): PostEntry[] {
-  return [...posts].sort((left, right) => getPostDate(right).getTime() - getPostDate(left).getTime());
+  return [...posts].sort((left, right) => {
+    const dateDifference = getPostDate(right).getTime() - getPostDate(left).getTime();
+    if (dateDifference !== 0) {
+      return dateDifference;
+    }
+
+    const leftSeries = left.data.series;
+    const rightSeries = right.data.series;
+
+    if (leftSeries && leftSeries === rightSeries) {
+      const orderDifference = (left.data.series_order ?? 0) - (right.data.series_order ?? 0);
+      return orderDifference || left.id.localeCompare(right.id);
+    }
+
+    if (leftSeries && rightSeries) {
+      return leftSeries.localeCompare(rightSeries);
+    }
+    if (leftSeries) {
+      return -1;
+    }
+    if (rightSeries) {
+      return 1;
+    }
+
+    return left.id.localeCompare(right.id);
+  });
 }
 
 function cleanTagToken(token: string): string {
