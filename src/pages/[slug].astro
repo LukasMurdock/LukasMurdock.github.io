@@ -50,7 +50,25 @@ export async function getStaticPaths() {
 
   const allPosts = await getCollection("posts");
   const posts = sortPostsByDateDesc(allPosts.filter((post) => isPublishablePost(post)));
+  const seriesPosts = new Map<string, typeof posts>();
   const seenSlugs = new Set<string>();
+
+  for (const post of posts) {
+    const series = post.data.series;
+    if (!series) {
+      continue;
+    }
+
+    const entries = seriesPosts.get(series) ?? [];
+    entries.push(post);
+    seriesPosts.set(series, entries);
+  }
+
+  for (const entries of seriesPosts.values()) {
+    entries.sort((left, right) =>
+      (left.data.series_order ?? 0) - (right.data.series_order ?? 0) || left.id.localeCompare(right.id)
+    );
+  }
 
   posts.forEach((entry, index) => {
     const slug = getPostSlug(entry);
@@ -60,8 +78,18 @@ export async function getStaticPaths() {
 
     seenSlugs.add(slug);
 
-    const previousPost = index > 0 ? posts[index - 1] : undefined;
-    const nextPost = index < posts.length - 1 ? posts[index + 1] : undefined;
+    let previousPost = index > 0 ? posts[index - 1] : undefined;
+    let nextPost = index < posts.length - 1 ? posts[index + 1] : undefined;
+
+    if (entry.data.series) {
+      const entries = seriesPosts.get(entry.data.series) ?? [];
+      const seriesIndex = entries.findIndex((post) => post.id === entry.id);
+
+      // PostLayout renders `next` on the left and `previous` on the right.
+      // Keep a series' earlier part on the left and its later part on the right.
+      nextPost = seriesIndex > 0 ? entries[seriesIndex - 1] : undefined;
+      previousPost = seriesIndex < entries.length - 1 ? entries[seriesIndex + 1] : undefined;
+    }
 
     paths.push({
       params: { slug },
