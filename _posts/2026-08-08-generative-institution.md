@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 'The Generative Institution'
-description: ''
+description: 'Generate descendants.'
+date: 'August 08, 2026'
 ---
 
 How can an institution become more powerful after it disappears?
