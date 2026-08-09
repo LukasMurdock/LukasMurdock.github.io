@@ -18,5 +18,5 @@ export type {
   PlayerExternalCollision,
   PlayerSnapshot,
 } from "./driving-game/player";
-export type { DriveEndReason, DrivingGameOptions } from "./driving-game/types";
+export type { ControlMode, DriveEndReason, DrivingGameOptions } from "./driving-game/types";
 export type { ObstacleKind, WorldCollision, WorldRuntime } from "./driving-game/world/types";

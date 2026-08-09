@@ -5,12 +5,24 @@ import { createSpeedLines } from "./feedback/speed-lines";
 import { addLocalDriveResult, getLocalDriveLeaderboard } from "./local-leaderboard";
 import { GAME_MAPS, type GameMapId } from "./maps";
 import { GAME_MODES, type GameModeController, type GameModeId } from "./modes";
-import type { CameraMode, DriveEndReason, DrivingGameOptions } from "./types";
+import type { CameraMode, ControlMode, DriveEndReason, DrivingGameOptions } from "./types";
 import { createPlayerController, type PlayerControlName } from "./player";
 import { buildWorld } from "./world/build-world";
 
 
 const UP = new THREE.Vector3(0, 1, 0);
+const MANUAL_CONTROLS_UNLOCKED_KEY = "driving-game:manual-controls-unlocked:v1";
+const CONTROL_MODE_KEY = "driving-game:control-mode:v1";
+const MANUAL_CONTROL_CODE = [
+  "ArrowUp",
+  "ArrowUp",
+  "ArrowDown",
+  "ArrowDown",
+  "ArrowLeft",
+  "ArrowRight",
+  "ArrowLeft",
+  "ArrowRight",
+];
 
 export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions = {}) {
   let map = GAME_MAPS[options.map ?? "city-circuit"];
@@ -56,12 +68,23 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
   const lifecycle = new AbortController();
   const listenerOptions = { signal: lifecycle.signal };
   const coarsePointerQuery = window.matchMedia("(any-pointer: coarse)");
+  const desktopControlsQuery = window.matchMedia("(hover: hover) and (pointer: fine)");
+  let desktopControlsAvailable = desktopControlsQuery.matches;
+  let manualControlsUnlocked = readStoredBoolean(MANUAL_CONTROLS_UNLOCKED_KEY);
+  let controlMode: ControlMode = desktopControlsAvailable
+      && manualControlsUnlocked
+      && readStoredValue(CONTROL_MODE_KEY) === "manual"
+    ? "manual"
+    : "automatic";
   function updateInputCapabilities() {
     const touchCapable = navigator.maxTouchPoints > 0 || coarsePointerQuery.matches;
+    desktopControlsAvailable = desktopControlsQuery.matches;
     root.dataset.touchCapable = String(touchCapable);
+    root.dataset.desktopControls = String(desktopControlsAvailable);
   }
   updateInputCapabilities();
   coarsePointerQuery.addEventListener("change", updateInputCapabilities, listenerOptions);
+  desktopControlsQuery.addEventListener("change", updateInputCapabilities, listenerOptions);
   root.dataset.input = "keyboard";
 
   const introEyebrow = intro.querySelector<HTMLElement>(".eyebrow");
@@ -69,6 +92,9 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
   const introDescription = intro.querySelector<HTMLElement>(".intro-card > p:not(.eyebrow)");
   const modeOptions = root.querySelectorAll<HTMLButtonElement>("[data-mode-option]");
   const mapOptions = root.querySelectorAll<HTMLButtonElement>("[data-map-option]");
+  const controlModeOptions = root.querySelectorAll<HTMLButtonElement>("[data-control-mode-option]");
+  const controlModeSettings = root.querySelectorAll<HTMLElement>(".control-mode-setting");
+  const manualControlGuides = root.querySelectorAll<HTMLElement>(".manual-control-guide");
   function updateModePresentation() {
     if (introEyebrow) introEyebrow.textContent = mode.copy.eyebrow;
     if (introTitle) introTitle.textContent = mode.copy.title;
@@ -85,8 +111,17 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
     });
     root.dataset.gameMap = map.id;
   }
+  function updateControlModePresentation() {
+    controlModeSettings.forEach((setting) => (setting.hidden = !manualControlsUnlocked));
+    controlModeOptions.forEach((option) => {
+      option.setAttribute("aria-pressed", String(option.dataset.controlModeOption === controlMode));
+    });
+    manualControlGuides.forEach((guide) => (guide.hidden = controlMode !== "manual"));
+    root.dataset.controlMode = controlMode;
+  }
   updateModePresentation();
   updateMapPresentation();
+  updateControlModePresentation();
 
   const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, powerPreference: "high-performance" });
   renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
@@ -148,6 +183,7 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
     mode: mode.id,
     map: map.id,
     drivingProfile: drivingProfileId,
+    controlMode,
     limit: 100,
   });
   let modeController: GameModeController | null = null;
@@ -164,6 +200,7 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
       mode: mode.id,
       map: map.id,
       drivingProfile: drivingProfileId,
+      controlMode,
     });
     if (result) leaderboardToast.show(getLeaderboardResults(), result.id, getLeaderboardTitle());
   }
@@ -179,6 +216,7 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
     scene,
     world,
     profile: DRIVING,
+    controlMode,
     onEvent: (event) => modeController?.onPlayerEvent(event),
     onResetRequested: endDrive,
   });
@@ -188,6 +226,10 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
     KeyA: "left",
     ArrowRight: "right",
     KeyD: "right",
+    ArrowUp: "accelerate",
+    KeyW: "accelerate",
+    ArrowDown: "brake",
+    KeyS: "brake",
     Space: "handbrake",
   };
 
@@ -283,6 +325,57 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
     window.history.replaceState(window.history.state, "", url);
   }
 
+  function selectControlMode(nextMode: ControlMode) {
+    if (
+      controlMode === nextMode
+      || (nextMode === "manual" && (!manualControlsUnlocked || !desktopControlsAvailable))
+      || (running && !paused)
+    ) return;
+    const switchingPausedGame = running && paused;
+    if (switchingPausedGame) recordDrive("mode");
+    leaderboardToast.destroy();
+    leaderboardControl.setAttribute("aria-pressed", "false");
+    driveTime = 0;
+    pauseDriveTimeDisplay.textContent = formatDriveTime(driveTime);
+    controlMode = nextMode;
+    writeStoredValue(CONTROL_MODE_KEY, controlMode);
+    player.setControlMode(controlMode);
+    player.reset();
+    modeController?.reset("manual");
+    if (switchingPausedGame) {
+      modeController?.start();
+      modeController?.pause(true);
+    }
+    updateControlModePresentation();
+    resetCameraTracking();
+  }
+
+  function unlockManualControls() {
+    if (!desktopControlsAvailable) return;
+    manualControlsUnlocked = true;
+    writeStoredValue(MANUAL_CONTROLS_UNLOCKED_KEY, "true");
+    updateControlModePresentation();
+    selectControlMode("manual");
+  }
+
+  let manualCodeIndex = 0;
+  let lastManualCodeInput = Number.NEGATIVE_INFINITY;
+  function registerManualCodeInput(code: string) {
+    if (!desktopControlsAvailable || (running && !paused)) {
+      manualCodeIndex = 0;
+      return;
+    }
+    const now = performance.now();
+    if (now - lastManualCodeInput > 2500) manualCodeIndex = 0;
+    lastManualCodeInput = now;
+    if (code === MANUAL_CONTROL_CODE[manualCodeIndex]) manualCodeIndex += 1;
+    else manualCodeIndex = code === MANUAL_CONTROL_CODE[0] ? 1 : 0;
+    if (manualCodeIndex === MANUAL_CONTROL_CODE.length) {
+      manualCodeIndex = 0;
+      unlockManualControls();
+    }
+  }
+
   function switchCamera() {
     const index = (cameraModes.indexOf(cameraMode) + 1) % cameraModes.length;
     cameraMode = cameraModes[index];
@@ -316,6 +409,7 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
       player.setControl(control, pressed);
       event.preventDefault();
     }
+    if (!pressed) registerManualCodeInput(event.code);
     if (!pressed && event.code === "KeyC") switchCamera();
     if (!pressed && event.code === "KeyL") toggleLeaderboard();
     if (!pressed && event.code === "KeyR") endDrive("manual");
@@ -345,6 +439,14 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
       const mapId = option.dataset.mapOption;
       if (!mapId || !(mapId in GAME_MAPS)) return;
       selectMap(mapId as GameMapId);
+    }, listenerOptions);
+  });
+
+  controlModeOptions.forEach((option) => {
+    option.addEventListener("click", () => {
+      const nextMode = option.dataset.controlModeOption;
+      if (nextMode !== "automatic" && nextMode !== "manual") return;
+      selectControlMode(nextMode);
     }, listenerOptions);
   });
 
@@ -568,6 +670,26 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
     speedLines.destroy();
     renderer.dispose();
   }, { once: true, signal: lifecycle.signal });
+}
+
+function readStoredValue(key: string) {
+  try {
+    return window.localStorage.getItem(key);
+  } catch {
+    return null;
+  }
+}
+
+function readStoredBoolean(key: string) {
+  return readStoredValue(key) === "true";
+}
+
+function writeStoredValue(key: string, value: string) {
+  try {
+    window.localStorage.setItem(key, value);
+  } catch {
+    // Storage may be disabled by browser privacy settings.
+  }
 }
 
 function formatDriveTime(seconds: number) {

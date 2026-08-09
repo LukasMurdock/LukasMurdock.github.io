@@ -1,6 +1,6 @@
 # Driving Game Feel Specification
 
-This document is the experiential north star for the driving game in this directory. `runtime.ts` orchestrates the session, `player/` owns handling and feedback state, and `maps/`, `modes/`, and `driving-profiles.ts` define the switchable content around them. It reflects the game as it exists now: automatic throttle, steering plus a held Drift input, a double-tap hard-turn gesture, distinct drift phases, an expanded city and outer circuit, assisted arcade physics, close chase cameras, persistent marks and smoke, and reference-derived procedural engine and tire audio.
+This document is the experiential north star for the driving game in this directory. `runtime.ts` orchestrates the session, `player/` owns handling and feedback state, and `maps/`, `modes/`, and `driving-profiles.ts` define the switchable content around them. It reflects the game as it exists now: automatic throttle by default, a hidden unlockable desktop manual-control scheme, steering plus a held Drift input, a double-tap hard-turn gesture, distinct drift phases, switchable maps, assisted arcade physics, close chase cameras, persistent marks and smoke, and reference-derived procedural engine and tire audio.
 
 It is not a promise to simulate a car accurately. It defines what every system should help the player believe.
 
@@ -35,9 +35,9 @@ Weight is communicated through delayed yaw, body roll and pitch, camera lag, tir
 
 ### Acceleration
 
-Throttle is automatic. Therefore acceleration is not a separate mastery axis and the game must not pretend otherwise. Power creates constant forward pressure: the player is always arriving at the next decision.
+Throttle is automatic in the default scheme. Power creates constant forward pressure: the player is always arriving at the next decision. A hidden desktop manual scheme may transfer that authority to Up/W and use Down/S to brake and reverse, but it must not change the underlying drift model or become required for the core toy.
 
-The engine should pull hard through short gears, then settle into a lower-load overdrive at sustained maximum speed rather than droning at redline forever. A clean drift exit temporarily converts control quality into stronger forward motion.
+The engine should pull hard through short gears, then settle into a lower-load overdrive at sustained maximum speed rather than droning at redline forever. A clean drift exit temporarily converts control quality into stronger forward motion; in Manual controls, that extra force still requires acceleration input.
 
 ### Traction and breakaway
 
@@ -265,7 +265,7 @@ The game may lie about force magnitude, but it must not lie about cause and effe
 
 Do not add:
 
-- manual throttle, brake, or reverse unless the entire control fantasy is intentionally reconsidered;
+- mandatory manual throttle, brake, or reverse that displaces the accessible automatic default;
 - mandatory objectives that make free driving feel like incomplete play;
 - a speedometer merely because racing games usually have one;
 - spin-outs from ordinary angle mistakes;
@@ -319,9 +319,9 @@ The game must never become:
 
 ### Automatic throttle versus throttle mastery
 
-The old vision included throttle adjustment and earliest throttle application as skill. The current game has automatic throttle and no brake or reverse. Claiming throttle mastery would make the design dishonest.
+Automatic remains the public default and the basis of the beginner experience. An unlockable desktop Manual scheme adds acceleration, braking, and reverse for players who deliberately discover it; its leaderboards remain separate so the default game is not quietly rebalanced around it.
 
-**Direction:** preserve automatic throttle. Move that depth into entry speed, drift angle, momentum preservation, release timing, and route choice. Engine load may vary automatically, but it must not imply an input the player does not possess.
+**Direction:** preserve Automatic as the primary fantasy and keep Manual as an optional input policy over the same handling. Manual throttle must control every forward force, including clean-exit boost, while reverse remains slower and cannot enter the forward drift phases.
 
 ### Powerful assistance versus player authorship
 

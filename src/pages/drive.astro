@@ -72,9 +72,24 @@ import Head from "@/components/Head.astro";
               <span>Aprons and shortcuts</span>
             </button>
           </div>
+          <div class="control-mode-setting" hidden>
+            <span class="selector-label">Controls</span>
+            <div class="mode-select mode-select--between" role="group" aria-label="Control mode">
+              <button type="button" data-control-mode-option="automatic" aria-pressed="true">
+                <strong>Automatic</strong>
+                <span>Steering and Drift</span>
+              </button>
+              <button type="button" data-control-mode-option="manual" aria-pressed="false">
+                <strong>Manual</strong>
+                <span>Throttle and reverse</span>
+              </button>
+            </div>
+          </div>
           <button id="start-driving" type="button">Start driving <span aria-hidden="true">→</span></button>
           <div class="key-guide" aria-label="Keyboard controls">
             <span><kbd>← →</kbd> Steer · tap twice for hard turn</span>
+            <span class="manual-control-guide" hidden><kbd>↑ W</kbd> Accelerate</span>
+            <span class="manual-control-guide" hidden><kbd>↓ S</kbd> Brake · reverse</span>
             <span><kbd>Space</kbd> Drift</span>
             <span><kbd>C</kbd> Camera</span>
             <span><kbd>L</kbd> Leaders</span>
@@ -114,6 +129,19 @@ import Head from "@/components/Head.astro";
                 <strong>Crosswind</strong>
                 <span>Aprons and shortcuts</span>
               </button>
+            </div>
+            <div class="control-mode-setting" hidden>
+              <span>Controls</span>
+              <div class="mode-select mode-select--pause" role="group" aria-label="Control mode">
+                <button type="button" data-control-mode-option="automatic" aria-pressed="true">
+                  <strong>Automatic</strong>
+                  <span>Steering and Drift</span>
+                </button>
+                <button type="button" data-control-mode-option="manual" aria-pressed="false">
+                  <strong>Manual</strong>
+                  <span>Throttle and reverse</span>
+                </button>
+              </div>
             </div>
           </div>
           <div class="pause-actions">
@@ -652,7 +680,8 @@ import Head from "@/components/Head.astro";
     letter-spacing: -0.05em;
   }
 
-  .pause-mode-select > span {
+  .pause-mode-select > span,
+  .pause-mode-select > .control-mode-setting > span {
     display: block;
     margin-bottom: 8px;
     color: rgba(255, 255, 255, 0.58);
@@ -665,6 +694,8 @@ import Head from "@/components/Head.astro";
 
   .mode-select--pause { margin-bottom: 22px; }
   .mode-select--between { margin-bottom: 14px; }
+  .control-mode-setting[hidden],
+  #driving-game[data-desktop-controls="false"] .control-mode-setting { display: none; }
 
   .pause-actions {
     display: flex;
@@ -856,7 +887,8 @@ import Head from "@/components/Head.astro";
     }
 
     .selector-label,
-    .pause-mode-select > span { margin-bottom: 4px; }
+    .pause-mode-select > span,
+    .pause-mode-select > .control-mode-setting > span { margin-bottom: 4px; }
 
     .mode-select,
     .mode-select--pause,

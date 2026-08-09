@@ -1,4 +1,4 @@
-import type { DriveEndReason } from "./types";
+import type { ControlMode, DriveEndReason } from "./types";
 
 export type { DriveEndReason } from "./types";
 
@@ -13,12 +13,14 @@ export type LocalDriveResult = {
   mode: string;
   map: string;
   drivingProfile: string;
+  controlMode: ControlMode;
 };
 
 export type LocalLeaderboardFilter = {
   mode?: string;
   map?: string;
   drivingProfile?: string;
+  controlMode?: ControlMode;
   limit?: number;
 };
 
@@ -31,7 +33,7 @@ function readResults(): LocalDriveResult[] {
   try {
     const stored = JSON.parse(window.localStorage.getItem(STORAGE_KEY) ?? "[]");
     if (!Array.isArray(stored)) return [];
-    return stored.filter((entry): entry is LocalDriveResult =>
+    return stored.filter((entry) =>
       typeof entry?.id === "string"
       && typeof entry?.durationSeconds === "number"
       && Number.isFinite(entry.durationSeconds)
@@ -40,7 +42,10 @@ function readResults(): LocalDriveResult[] {
       && typeof entry?.mode === "string"
       && typeof entry?.map === "string"
       && typeof entry?.drivingProfile === "string"
-    );
+    ).map((entry) => ({
+      ...entry,
+      controlMode: entry.controlMode === "manual" ? "manual" : "automatic",
+    }) satisfies LocalDriveResult);
   } catch {
     return [];
   }
@@ -78,6 +83,7 @@ export function getLocalDriveLeaderboard(filter: LocalLeaderboardFilter = {}) {
     .filter((entry) => !filter.mode || entry.mode === filter.mode)
     .filter((entry) => !filter.map || entry.map === filter.map)
     .filter((entry) => !filter.drivingProfile || entry.drivingProfile === filter.drivingProfile)
+    .filter((entry) => !filter.controlMode || entry.controlMode === filter.controlMode)
     .sort((a, b) => b.durationSeconds - a.durationSeconds)
     .slice(0, limit);
 }

@@ -89,10 +89,15 @@ export function createChaseController(context: GameModeContext): GameModeControl
         reinforcementNotice = 1.8;
       }
 
+      const pursuitAccuracy = smoothRamp(
+        survivalTime,
+        CHASE_TUNING.accuracyRamp.startTime,
+        CHASE_TUNING.accuracyRamp.endTime,
+      );
       let nearestDistance = Number.POSITIVE_INFINITY;
       let hasVehicleContact = false;
       for (let index = 0; index < activePursuerCount; index++) {
-        const update = pursuers[index].update(dt, context.getPlayer());
+        const update = pursuers[index].update(dt, context.getPlayer(), pursuitAccuracy);
         let resolvedDistance = update.distanceToPlayer;
         if (update.playerCollision) {
           hasVehicleContact = true;
@@ -123,6 +128,11 @@ export function createChaseController(context: GameModeContext): GameModeControl
       pursuers.forEach((pursuer) => pursuer.destroy());
     },
   };
+}
+
+function smoothRamp(value: number, start: number, end: number) {
+  const progress = Math.max(0, Math.min(1, (value - start) / Math.max(end - start, 0.001)));
+  return progress * progress * (3 - 2 * progress);
 }
 
 function pursuerCountAt(survivalTime: number) {

@@ -1,7 +1,7 @@
 import * as THREE from "three";
 import { createCarAudio, type CarAudio } from "../audio/car-audio";
 import type { DrivingProfile } from "../driving-profiles";
-import type { DriftPhase, DriveEndReason } from "../types";
+import type { ControlMode, DriftPhase, DriveEndReason } from "../types";
 import { createCar } from "../vehicle/create-car";
 import { createDriftSmoke, createSkidMarks } from "../vehicle/effects";
 import type { WorldRuntime } from "../world/types";
@@ -19,17 +19,20 @@ export function createPlayerController({
   scene,
   world: initialWorld,
   profile,
+  controlMode: initialControlMode,
   onEvent,
   onResetRequested,
 }: {
   scene: THREE.Scene;
   world: WorldRuntime;
   profile: DrivingProfile;
+  controlMode: ControlMode;
   onEvent: (event: PlayerEvent) => void;
   onResetRequested: (reason: DriveEndReason) => void;
 }): PlayerController {
   let world = initialWorld;
   let DRIVING = profile;
+  let controlMode = initialControlMode;
   const car = createCar();
   scene.add(car.group);
   const driftSmoke = createDriftSmoke(scene);
@@ -82,6 +85,8 @@ export function createPlayerController({
     left: false,
     right: false,
     handbrake: false,
+    accelerate: false,
+    brake: false,
   };
 
   function setControl(name: PlayerControlName, pressed: boolean) {
@@ -175,6 +180,10 @@ export function createPlayerController({
     const speed = velocity.length();
     const steer = Number(controls.left) - Number(controls.right);
     const handbrakePressed = controls.handbrake && !previousHandbrake;
+    const throttleInput = controlMode === "automatic" ? 1 : Number(controls.accelerate);
+    const reverseInput = controlMode === "manual" && controls.brake;
+    let braking = false;
+    let reversing = forwardSpeed < -0.35;
     const onPavement = world.isOnPavement(position);
 
     // A short buffer makes pressing Drift just before steering feel intentional rather than missed.
@@ -188,7 +197,7 @@ export function createPlayerController({
     const hardDirection = Math.sign(steer);
     const wantsHardReentry = handbrakePressed
       && hardDriftReentryTime > 0
-      && speed > DRIVING.hardDrift.minimumSpeed
+      && forwardSpeed > DRIVING.hardDrift.minimumSpeed
       && (hardDirection === 0 || hardDirection === hardDriftReentryDirection);
     const hardTriggerDirection = wantsHardReentry ? hardDriftReentryDirection : hardDirection;
     if (wantsHardReentry && hardDriftEntry) {
@@ -196,7 +205,7 @@ export function createPlayerController({
       hardDriftReentryDirection = 0;
     }
     const canDirectionalHardDrift = hardDriftInputBuffer > 0
-      && speed > DRIVING.hardDrift.minimumSpeed
+      && forwardSpeed > DRIVING.hardDrift.minimumSpeed
       && Math.abs(steer) > 0.16
       && (
         driftPhase === "grip"
@@ -230,7 +239,7 @@ export function createPlayerController({
       }
     }
 
-    const canBreakAway = speed > DRIVING.drift.minimumSpeed && Math.abs(steer) > 0.16;
+    const canBreakAway = forwardSpeed > DRIVING.drift.minimumSpeed && Math.abs(steer) > 0.16;
     if (driftPhase === "grip" && canBreakAway && (controls.handbrake || driftInputBuffer > 0)) {
       driftPhase = "breakaway";
       driftDirection = Math.sign(steer);
@@ -260,11 +269,27 @@ export function createPlayerController({
     if (driftPhase === "breakaway" || driftPhase === "sustain" || driftPhase === "transition") driftTime += dt;
     if (driftPhase !== "grip") driftStayedOnPavement &&= onPavement;
 
-    // Throttle is always on: the game is about choosing a line, not managing pedals.
-    velocity.addScaledVector(forward, DRIVING.acceleration * dt);
+    if (controlMode === "automatic") {
+      velocity.addScaledVector(forward, DRIVING.acceleration * dt);
+    } else {
+      const opposingDirections = (throttleInput > 0 && reverseInput)
+        || (throttleInput > 0 && forwardSpeed < -0.35)
+        || (reverseInput && forwardSpeed > 0.35);
+      const sidewaysMotion = Math.abs(forwardSpeed) <= 0.35 && speed > 0.5;
+      if (opposingDirections || sidewaysMotion) {
+        braking = true;
+        const nextSpeed = Math.max(0, speed - DRIVING.manual.brakeDeceleration * dt);
+        if (speed > 0.0001) velocity.multiplyScalar(nextSpeed / speed);
+      } else if (throttleInput > 0) {
+        velocity.addScaledVector(forward, DRIVING.acceleration * dt);
+      } else if (reverseInput && driftPhase === "grip") {
+        velocity.addScaledVector(forward, -DRIVING.manual.reverseAcceleration * dt);
+        reversing = true;
+      }
+    }
     if (exitBoost > 0) {
       const boostEnvelope = Math.sin((exitBoost / DRIVING.exitBoost.duration) * Math.PI);
-      velocity.addScaledVector(forward, exitBoostForce * boostEnvelope * dt);
+      velocity.addScaledVector(forward, exitBoostForce * boostEnvelope * throttleInput * dt);
       exitBoost = Math.max(0, exitBoost - dt);
     }
     exitPulse = Math.max(0, exitPulse - dt * 2.3);
@@ -272,16 +297,20 @@ export function createPlayerController({
 
     forwardSpeed = velocity.dot(forward);
     const currentSpeed = velocity.length();
-    const speedRatio = THREE.MathUtils.clamp(Math.abs(forwardSpeed) / 12, 0.12, 1);
+    const minimumSteeringSpeed = controlMode === "automatic" ? 0.12 : 0;
+    const speedRatio = THREE.MathUtils.clamp(Math.abs(forwardSpeed) / 12, minimumSteeringSpeed, 1);
+    reversing = forwardSpeed < -0.35;
     const velocityHeading = currentSpeed > 0.4 ? Math.atan2(velocity.x, velocity.z) : heading;
-    const currentSlip = angleDifference(heading, velocityHeading);
+    const motionReferenceHeading = reversing ? normalizeAngle(heading + Math.PI) : heading;
+    const currentSlip = angleDifference(motionReferenceHeading, velocityHeading);
     const currentSlipDegrees = Math.abs(THREE.MathUtils.radToDeg(currentSlip));
     let grip = DRIVING.grip.lateralGrip;
     let drag = DRIVING.grip.drag;
 
     if (driftPhase === "grip") {
       // Grip steering is deliberately wider at speed; drifting is the tool for tight corners.
-      const targetYawVelocity = steer * DRIVING.grip.yawRate * speedRatio;
+      const steeringDirection = reversing ? -1 : 1;
+      const targetYawVelocity = steer * DRIVING.grip.yawRate * speedRatio * steeringDirection;
       yawVelocity = THREE.MathUtils.lerp(
         yawVelocity,
         targetYawVelocity,
@@ -470,7 +499,12 @@ export function createPlayerController({
     const lateralSpeed = velocity.dot(right);
     velocity.copy(forward.clone().multiplyScalar(forwardSpeed)).add(right.multiplyScalar(lateralSpeed * Math.exp(-grip * dt)));
     velocity.multiplyScalar(Math.exp(-drag * dt));
-    const maximumSpeed = exitBoost > 0 ? DRIVING.boostedMaximumSpeed : DRIVING.maximumSpeed;
+    const movingInReverse = velocity.dot(forward) < -0.1;
+    const maximumSpeed = movingInReverse
+      ? DRIVING.manual.maximumReverseSpeed
+      : exitBoost > 0
+        ? DRIVING.boostedMaximumSpeed
+        : DRIVING.maximumSpeed;
     if (velocity.length() > maximumSpeed) velocity.setLength(maximumSpeed);
 
     const distance = velocity.length() * dt;
@@ -481,8 +515,11 @@ export function createPlayerController({
     }
 
     const finalSpeed = velocity.length();
+    const finalForwardSpeed = velocity.dot(forward);
+    const finalReversing = finalForwardSpeed < -0.35;
     const finalVelocityHeading = finalSpeed > 0.4 ? Math.atan2(velocity.x, velocity.z) : heading;
-    visualSlip = angleDifference(heading, finalVelocityHeading);
+    const finalMotionReference = finalReversing ? normalizeAngle(heading + Math.PI) : heading;
+    visualSlip = angleDifference(finalMotionReference, finalVelocityHeading);
     const slipIntensity = THREE.MathUtils.clamp((Math.abs(THREE.MathUtils.radToDeg(visualSlip)) - 5) / 30, 0, 1)
       * THREE.MathUtils.clamp(finalSpeed / 10, 0, 1);
 
@@ -505,7 +542,7 @@ export function createPlayerController({
     car.wheels.forEach((wheel) => (wheel.rotation.x += wheelSpin));
     car.brakeLights.forEach((light) => {
       const material = light.material as THREE.MeshStandardMaterial;
-      material.emissiveIntensity = controls.handbrake || hardDriftKick > 0.05 ? 5 : 1.2;
+      material.emissiveIntensity = braking || controls.handbrake || hardDriftKick > 0.05 ? 5 : 1.2;
     });
 
     driftSmoke.update(dt, position, heading, slipIntensity, finalSpeed);
@@ -519,6 +556,9 @@ export function createPlayerController({
       phase: driftPhase,
       onPavement,
       boosting: exitBoost > 0,
+      throttle: finalReversing && reverseInput ? 1 : throttleInput,
+      braking,
+      reversing: finalReversing,
     });
     if (driftPhase !== reportedDriftPhase) {
       reportedDriftPhase = driftPhase;
@@ -587,6 +627,10 @@ export function createPlayerController({
     update,
     setWorld(nextWorld) {
       world = nextWorld;
+    },
+    setControlMode(nextMode) {
+      controlMode = nextMode;
+      clearControls();
     },
     setDrivingProfile(nextProfile) {
       const audioWasStarted = carAudio !== null;

@@ -15,7 +15,7 @@ export type PursuerUpdate = {
 export type Pursuer = {
   setVisible: (visible: boolean) => void;
   resetBehind: (player: PlayerSnapshot, formationIndex?: number) => void;
-  update: (dt: number, player: PlayerSnapshot) => PursuerUpdate;
+  update: (dt: number, player: PlayerSnapshot, accuracy: number) => PursuerUpdate;
   destroy: () => void;
 };
 
@@ -80,26 +80,47 @@ export function createPursuer(scene: THREE.Scene, world: WorldRuntime): Pursuer 
     placeCar();
   }
 
-  function update(dt: number, player: PlayerSnapshot) {
+  function update(dt: number, player: PlayerSnapshot, accuracy: number) {
     const distanceToPlayer = horizontalDistance(position, player.position);
     const predictionAmount = THREE.MathUtils.smoothstep(distanceToPlayer, 8, 30);
+    const predictionTime = THREE.MathUtils.lerp(
+      PURSUER_TUNING.predictionTime,
+      CHASE_TUNING.accuracyRamp.predictionTime,
+      accuracy,
+    );
+    const targetReactionRate = THREE.MathUtils.lerp(
+      PURSUER_TUNING.targetReactionRate,
+      CHASE_TUNING.accuracyRamp.targetReactionRate,
+      accuracy,
+    );
     target.copy(player.position).addScaledVector(
       player.velocity,
-      PURSUER_TUNING.predictionTime * predictionAmount,
+      predictionTime * predictionAmount,
     );
-    observedTarget.lerp(target, 1 - Math.exp(-PURSUER_TUNING.targetReactionRate * dt));
+    observedTarget.lerp(target, 1 - Math.exp(-targetReactionRate * dt));
     const targetHeading = Math.atan2(observedTarget.x - position.x, observedTarget.z - position.z);
     avoidanceTime = Math.max(0, avoidanceTime - dt);
     const requestedHeading = avoidanceTime > 0 ? avoidanceHeading : targetHeading;
     const headingError = angleDifference(heading, requestedHeading);
     const speedRatio = THREE.MathUtils.clamp(speed / PURSUER_TUNING.maximumSpeed, 0, 1);
-    const baseTurnRate = THREE.MathUtils.lerp(
+    const lowSpeedTurnRate = THREE.MathUtils.lerp(
       PURSUER_TUNING.lowSpeedTurnRate,
+      CHASE_TUNING.accuracyRamp.lowSpeedTurnRate,
+      accuracy,
+    );
+    const highSpeedTurnRate = THREE.MathUtils.lerp(
       PURSUER_TUNING.highSpeedTurnRate,
-      speedRatio,
+      CHASE_TUNING.accuracyRamp.highSpeedTurnRate,
+      accuracy,
+    );
+    const baseTurnRate = THREE.MathUtils.lerp(lowSpeedTurnRate, highSpeedTurnRate, speedRatio);
+    const closeRangeSteeringFloor = THREE.MathUtils.lerp(
+      0.45,
+      CHASE_TUNING.accuracyRamp.closeRangeSteeringFloor,
+      accuracy,
     );
     const closeRangeSteering = THREE.MathUtils.lerp(
-      0.45,
+      closeRangeSteeringFloor,
       1,
       THREE.MathUtils.smoothstep(distanceToPlayer, 5, 16),
     );

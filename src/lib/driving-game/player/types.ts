@@ -1,9 +1,9 @@
 import type * as THREE from "three";
 import type { DrivingProfile } from "../driving-profiles";
-import type { DriftPhase } from "../types";
+import type { ControlMode, DriftPhase } from "../types";
 import type { ObstacleKind, WorldRuntime } from "../world/types";
 
-export type PlayerControlName = "left" | "right" | "handbrake";
+export type PlayerControlName = "left" | "right" | "handbrake" | "accelerate" | "brake";
 
 export type PlayerExternalCollision = {
   normalX: number;
@@ -37,6 +37,7 @@ export type PlayerController = {
   start: () => void;
   update: (dt: number) => void;
   setWorld: (world: WorldRuntime) => void;
+  setControlMode: (mode: ControlMode) => void;
   setDrivingProfile: (profile: DrivingProfile) => void;
   setControl: (name: PlayerControlName, pressed: boolean) => void;
   clearControls: () => void;

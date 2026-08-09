@@ -3,6 +3,7 @@ export type DrivingProfile = {
   maximumSpeed: number;
   boostedMaximumSpeed: number;
   redlineAtMaximumSpeed: boolean;
+  manual: { brakeDeceleration: number; reverseAcceleration: number; maximumReverseSpeed: number };
   inputBuffer: number;
   grip: { lateralGrip: number; drag: number; yawRate: number; yawResponse: number };
   drift: {
@@ -76,6 +77,7 @@ const BALANCED_PROFILE: DrivingProfile = {
   maximumSpeed: 25,
   boostedMaximumSpeed: 27,
   redlineAtMaximumSpeed: false,
+  manual: { brakeDeceleration: 22, reverseAcceleration: 9, maximumReverseSpeed: 9 },
   inputBuffer: 0.2,
   grip: { lateralGrip: 8.2, drag: 0.46, yawRate: 1.15, yawResponse: 10 },
   drift: {

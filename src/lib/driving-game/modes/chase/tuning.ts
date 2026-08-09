@@ -4,6 +4,15 @@ export const CHASE_TUNING = {
   reinforcementCaptureGraceDuration: 1.35,
   maximumPursuers: 3,
   escalationTimes: [0, 20, 45] as const,
+  accuracyRamp: {
+    startTime: 30,
+    endTime: 45,
+    predictionTime: 0.38,
+    targetReactionRate: 4,
+    lowSpeedTurnRate: 1.65,
+    highSpeedTurnRate: 0.9,
+    closeRangeSteeringFloor: 0.5,
+  },
   pursuer: {
     radius: 1.25,
     maximumSpeed: 30,

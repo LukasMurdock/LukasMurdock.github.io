@@ -13,6 +13,9 @@ type CarAudioParameters = {
   phase: DriftPhase;
   onPavement: boolean;
   boosting: boolean;
+  throttle: number;
+  braking: boolean;
+  reversing: boolean;
 };
 
 export type CarAudio = {
@@ -173,7 +176,19 @@ export function createCarAudio(DRIVING: DrivingProfile): CarAudio | null {
   }
 
   return {
-    update({ dt, speed, signedSlipDegrees, steeringLoad, steerDirection, phase, onPavement, boosting }) {
+    update({
+      dt,
+      speed,
+      signedSlipDegrees,
+      steeringLoad,
+      steerDirection,
+      phase,
+      onPavement,
+      boosting,
+      throttle,
+      braking,
+      reversing,
+    }) {
       const now = context.currentTime;
       const speedNormalized = THREE.MathUtils.clamp(speed / DRIVING.maximumSpeed, 0, 1);
       const absoluteSlip = Math.abs(signedSlipDegrees);
@@ -189,9 +204,12 @@ export function createCarAudio(DRIVING: DrivingProfile): CarAudio | null {
       if (DRIVING.redlineAtMaximumSpeed) {
         gearEdges[gearEdges.length - 1] = DRIVING.maximumSpeed;
       }
-      let desiredGear = gear;
-      for (let i = 0; i < gearEdges.length - 1; i++) {
-        if (speed >= gearEdges[i]) desiredGear = i;
+      let desiredGear = 0;
+      if (!reversing) {
+        desiredGear = gear;
+        for (let i = 0; i < gearEdges.length - 1; i++) {
+          if (speed >= gearEdges[i]) desiredGear = i;
+        }
       }
       if (desiredGear !== gear && now - lastShiftTime > 0.38) {
         gear = desiredGear;
@@ -201,7 +219,8 @@ export function createCarAudio(DRIVING: DrivingProfile): CarAudio | null {
       const gearStart = gearEdges[gear];
       const gearEnd = gearEdges[Math.min(gear + 1, gearEdges.length - 1)];
       const gearProgress = THREE.MathUtils.clamp((speed - gearStart) / Math.max(gearEnd - gearStart, 1), 0, 1);
-      const drivingRpm = 2200 + gearProgress * 5600;
+      const reverseProgress = THREE.MathUtils.clamp(speed / DRIVING.manual.maximumReverseSpeed, 0, 1);
+      const drivingRpm = reversing ? 1700 + reverseProgress * 3200 : 2200 + gearProgress * 5600;
       const acceleration = (speed - previousVehicleSpeed) / Math.max(dt, 0.001);
       previousVehicleSpeed = speed;
       const accelerationLoad = THREE.MathUtils.smoothstep(acceleration, 0.15, 7);
@@ -213,11 +232,14 @@ export function createCarAudio(DRIVING: DrivingProfile): CarAudio | null {
       engineRpm = THREE.MathUtils.lerp(engineRpm, targetRpm, 1 - Math.exp(-dt / rpmResponse));
 
       const drifting = phase === "breakaway" || phase === "sustain" || phase === "transition";
-      let targetLoad = 0.34
+      let targetLoad = 0.16
         + speedNormalized * 0.08
-        + accelerationLoad * 0.3
+        + throttle * 0.28
+        + accelerationLoad * 0.18
+        + Number(reversing) * 0.12
         + Number(drifting) * 0.22
         + enginePunch * 0.2;
+      if (braking) targetLoad = 0.1;
       if (phase === "recover") targetLoad = 0.2;
       if (boosting) targetLoad += 0.22;
       if (now < shiftDipUntil) targetLoad = 0.08;
