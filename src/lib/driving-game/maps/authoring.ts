@@ -11,6 +11,7 @@ import type {
 export type Point2 = { x: number; z: number };
 
 export type MapStamp = {
+  roads?: readonly RoadSegmentDefinition[];
   parkingLots?: readonly ParkingLotDefinition[];
   groundPatches?: readonly GroundPatchDefinition[];
   buildings?: readonly BuildingDefinition[];
@@ -35,6 +36,7 @@ type CorridorStampPlacement = {
   side: "left" | "right";
   setback: number;
   entranceWidth: number;
+  entranceOffsets: readonly number[];
   rotation: number;
   stamp: MapStamp;
 };
@@ -98,6 +100,7 @@ export function placeAlongCorridor(
     side: "left" | "right";
     setback?: number;
     entranceWidth?: number;
+    entranceOffsets?: readonly number[];
     rotation?: number;
   },
 ): StampPlacement {
@@ -110,6 +113,7 @@ export function placeAlongCorridor(
     side: options.side,
     setback: options.setback ?? 8,
     entranceWidth: options.entranceWidth ?? 14,
+    entranceOffsets: options.entranceOffsets ?? [0],
     rotation: options.rotation ?? 0,
   };
 }
@@ -123,6 +127,12 @@ export function freightRow(options: {
   const [width, depth] = options.shedSize;
   const totalDepth = options.sheds * depth + (options.sheds - 1) * options.gap;
   return {
+    parkingLots: [{
+      x: 0,
+      z: 0,
+      width: width + 14,
+      depth: totalDepth + 2,
+    }],
     buildings: Array.from({ length: options.sheds }, (_, index) => ({
       x: 0,
       z: -totalDepth / 2 + depth / 2 + index * (depth + options.gap),
@@ -145,6 +155,7 @@ export function serviceYard(options: {
   color: number;
 }): MapStamp {
   return {
+    roads: [{ x: 0, z: 0, width: 12, depth: options.depth - 8 }],
     parkingLots: [{ x: 0, z: 0, width: options.width, depth: options.depth }],
     buildings: [
       {
@@ -193,6 +204,7 @@ export function civicBlock(options: { width: number; depth: number; colors: read
   const insetX = options.width * 0.3;
   const insetZ = options.depth * 0.3;
   return {
+    roads: [{ x: 0, z: 0, width: 12, depth: options.depth * 0.78 }],
     parkingLots: [{ x: 0, z: 0, width: options.width, depth: options.depth }],
     buildings: [
       { x: -insetX, z: -insetZ, width: 20, depth: 18, height: 16, color: options.colors[0] },
@@ -209,6 +221,7 @@ export function civicBlock(options: { width: number; depth: number; colors: read
 
 export function shoppingPlaza(options: { width: number; depth: number; color: number }): MapStamp {
   return {
+    roads: [{ x: 0, z: -options.depth * 0.12, width: 12, depth: options.depth * 0.5 }],
     parkingLots: [{ x: 0, z: 0, width: options.width, depth: options.depth }],
     buildings: [{
       x: 0,
@@ -231,6 +244,7 @@ export function shoppingPlaza(options: { width: number; depth: number; color: nu
 
 export function constructionYard(options: { width: number; depth: number }): MapStamp {
   return {
+    roads: [{ x: 0, z: 0, width: 11, depth: options.depth - 6, surfaceColor: 0x5f5849 }],
     groundPatches: [{ x: 0, z: 0, width: options.width, depth: options.depth, color: 0x8c7957 }],
     buildings: [
       { x: -options.width * 0.28, z: 0, width: 12, depth: 24, height: 5, color: 0xb9865f, style: "freight" },
@@ -356,7 +370,10 @@ export function scatterPoints(options: {
 
 function compileDistricts(source: DrivingMapSource): ExpandedStamp[] {
   const expanded: ExpandedStamp[] = [];
-  const reserved: Array<{ minX: number; maxX: number; minZ: number; maxZ: number }> = [];
+  const reserved: Array<{ minX: number; maxX: number; minZ: number; maxZ: number }> = [
+    ...(source.buildings ?? []).map((building) => rectangleBounds(building)),
+    ...(source.parkingLots ?? []).map((parkingLot) => rectangleBounds(parkingLot)),
+  ];
   for (const placement of source.districts ?? []) {
     if (placement.kind === "absolute") {
       const stamp = expandStampAt(placement.stamp, placement.at, placement.heading ?? 0, []);
@@ -392,15 +409,15 @@ function compileDistricts(source: DrivingMapSource): ExpandedStamp[] {
         x: sample.point.x + roadNormal.x * entranceDepth * 0.5 * side,
         z: sample.point.z + roadNormal.z * entranceDepth * 0.5 * side,
       };
-      const roads: RoadSegmentDefinition[] = [{
-        x: entranceCenter.x,
-        z: entranceCenter.z,
+      const roads: RoadSegmentDefinition[] = placement.entranceOffsets.map((offset) => ({
+        x: entranceCenter.x + sample.tangent.x * offset,
+        z: entranceCenter.z + sample.tangent.z * offset,
         width: placement.entranceWidth,
         depth: entranceDepth,
         rotation: roadHeading,
         markings: false,
         role: "access",
-      }];
+      }));
       const candidate = expandStampAt(placement.stamp, at, heading, roads);
       const bounds = compiledStampBounds(candidate);
       const insideBoundary = bounds.minX > -source.worldLimit
@@ -437,12 +454,24 @@ function expandStampAt(
   stamp: MapStamp,
   at: Point2,
   heading: number,
-  roads: RoadSegmentDefinition[],
+  entranceRoads: RoadSegmentDefinition[],
 ): ExpandedStamp {
   const transformPoint = (point: Point2) => ({
     x: at.x + Math.cos(heading) * point.x + Math.sin(heading) * point.z,
     z: at.z - Math.sin(heading) * point.x + Math.cos(heading) * point.z,
   });
+  const roads = [
+    ...entranceRoads,
+    ...(stamp.roads ?? []).map((road) => ({
+      ...road,
+      ...transformPoint(road),
+      rotation: (road.rotation ?? 0) + heading,
+      role: "internal" as const,
+    })),
+  ];
+  const barriers = (stamp.barriers ?? [])
+    .map((point) => transformPoint(point))
+    .filter((point) => !roads.some((road) => pointInsideRoad(point, road, 2.5)));
   return {
     roads,
     parkingLots: (stamp.parkingLots ?? []).map((lot) => ({
@@ -462,16 +491,38 @@ function expandStampAt(
     })),
     trees: (stamp.trees ?? []).map((point) => transformPoint(point)),
     streetlights: (stamp.streetlights ?? []).map((point) => transformPoint(point)),
-    barriers: (stamp.barriers ?? []).map((point) => transformPoint(point)),
+    barriers,
   };
+}
+
+function pointInsideRoad(point: Point2, road: RoadSegmentDefinition, padding: number) {
+  const heading = road.rotation ?? 0;
+  const dx = point.x - road.x;
+  const dz = point.z - road.z;
+  const localX = Math.cos(heading) * dx - Math.sin(heading) * dz;
+  const localZ = Math.sin(heading) * dx + Math.cos(heading) * dz;
+  return Math.abs(localX) <= road.width / 2 + padding
+    && Math.abs(localZ) <= road.depth / 2 + padding;
 }
 
 function stampBounds(stamp: MapStamp) {
   const bounds = emptyBounds();
-  const includeRectangle = (item: { x: number; z: number; width: number; depth: number }) => {
-    includePoint(bounds, item.x - item.width / 2, item.z - item.depth / 2);
-    includePoint(bounds, item.x + item.width / 2, item.z + item.depth / 2);
+  const includeRectangle = (item: {
+    x: number;
+    z: number;
+    width: number;
+    depth: number;
+    rotation?: number;
+  }) => {
+    const rotation = item.rotation ?? 0;
+    const extentX = Math.abs(Math.cos(rotation)) * item.width / 2
+      + Math.abs(Math.sin(rotation)) * item.depth / 2;
+    const extentZ = Math.abs(Math.sin(rotation)) * item.width / 2
+      + Math.abs(Math.cos(rotation)) * item.depth / 2;
+    includePoint(bounds, item.x - extentX, item.z - extentZ);
+    includePoint(bounds, item.x + extentX, item.z + extentZ);
   };
+  (stamp.roads ?? []).forEach(includeRectangle);
   (stamp.parkingLots ?? []).forEach(includeRectangle);
   (stamp.groundPatches ?? []).forEach(includeRectangle);
   (stamp.buildings ?? []).forEach(includeRectangle);
@@ -485,6 +536,26 @@ function stampBounds(stamp: MapStamp) {
   }
   if (!Number.isFinite(bounds.minX)) return { minX: -1, maxX: 1, minZ: -1, maxZ: 1 };
   return bounds;
+}
+
+function rectangleBounds(item: {
+  x: number;
+  z: number;
+  width: number;
+  depth: number;
+  rotation?: number;
+}) {
+  const rotation = item.rotation ?? 0;
+  const extentX = Math.abs(Math.cos(rotation)) * item.width / 2
+    + Math.abs(Math.sin(rotation)) * item.depth / 2;
+  const extentZ = Math.abs(Math.sin(rotation)) * item.width / 2
+    + Math.abs(Math.cos(rotation)) * item.depth / 2;
+  return {
+    minX: item.x - extentX,
+    maxX: item.x + extentX,
+    minZ: item.z - extentZ,
+    maxZ: item.z + extentZ,
+  };
 }
 
 function compiledStampBounds(stamp: ExpandedStamp) {
@@ -621,7 +692,10 @@ function boundsOverlap(
 function analyzeLayout(source: DrivingMapSource, districts: readonly ExpandedStamp[]) {
   let corridorLength = 0;
   let shortestSegment = Number.POSITIVE_INFINITY;
+  let shortSegments = 0;
+  let acuteIntersections = 0;
   const adjacency = source.corridors.map(() => new Set<number>());
+  const decisions = source.corridors.map((corridor) => [0, corridorLengthOf(corridor)]);
   const intersections = new Set<string>();
   for (let corridorIndex = 0; corridorIndex < source.corridors.length; corridorIndex++) {
     const corridor = source.corridors[corridorIndex];
@@ -632,13 +706,19 @@ function analyzeLayout(source: DrivingMapSource, districts: readonly ExpandedSta
       );
       corridorLength += length;
       shortestSegment = Math.min(shortestSegment, length);
+      if (length < 45) shortSegments++;
     }
     for (let otherIndex = corridorIndex + 1; otherIndex < source.corridors.length; otherIndex++) {
-      const points = corridorIntersections(corridor, source.corridors[otherIndex]);
-      if (points.length === 0) continue;
+      const details = corridorIntersectionDetails(corridor, source.corridors[otherIndex]);
+      if (details.length === 0) continue;
       adjacency[corridorIndex].add(otherIndex);
       adjacency[otherIndex].add(corridorIndex);
-      points.forEach((point) => intersections.add(`${point.x.toFixed(2)}:${point.z.toFixed(2)}`));
+      for (const detail of details) {
+        intersections.add(`${detail.point.x.toFixed(2)}:${detail.point.z.toFixed(2)}`);
+        if (!detail.joinsEndpoints && detail.angle > 1 && detail.angle < 30) acuteIntersections++;
+        decisions[corridorIndex].push(distanceAlongCorridor(corridor, detail.point));
+        decisions[otherIndex].push(distanceAlongCorridor(source.corridors[otherIndex], detail.point));
+      }
     }
   }
   let connectedComponents = 0;
@@ -655,44 +735,142 @@ function analyzeLayout(source: DrivingMapSource, districts: readonly ExpandedSta
     }
   }
   let deadEnds = 0;
+  let intentionalDeadEnds = 0;
   for (let corridorIndex = 0; corridorIndex < source.corridors.length; corridorIndex++) {
     const corridor = source.corridors[corridorIndex];
-    for (const endpoint of [corridor.points[0], corridor.points[corridor.points.length - 1]]) {
+    const endpoints = [
+      { point: corridor.points[0], allowed: corridor.allowDeadEndStart },
+      { point: corridor.points[corridor.points.length - 1], allowed: corridor.allowDeadEndEnd },
+    ];
+    for (const endpoint of endpoints) {
       const connected = source.corridors.some((other, otherIndex) => (
-        otherIndex !== corridorIndex && pointTouchesCorridor(endpoint, other)
+        otherIndex !== corridorIndex && pointTouchesCorridor(endpoint.point, other)
       ));
-      if (!connected) deadEnds++;
+      if (connected) continue;
+      if (endpoint.allowed) intentionalDeadEnds++;
+      else deadEnds++;
     }
   }
+  let maximumDecisionSpacing = 0;
+  for (const corridorDecisions of decisions) {
+    const ordered = [...new Set(corridorDecisions.map((distance) => Number(distance.toFixed(3))))]
+      .sort((first, second) => first - second);
+    for (let index = 1; index < ordered.length; index++) {
+      maximumDecisionSpacing = Math.max(maximumDecisionSpacing, ordered[index] - ordered[index - 1]);
+    }
+  }
+  const entrances = districts.flatMap((district) => district.roads.filter((road) => road.role === "access"));
+  const disconnectedEntrances = entrances.filter((road) => (
+    !source.corridors.some((corridor) => roadTouchesCorridor(road, corridor))
+  )).length;
   const graphEdges = adjacency.reduce((sum, neighbors) => sum + neighbors.size, 0) / 2;
+  const warnings: string[] = [];
+  if (connectedComponents > 1) warnings.push(`${connectedComponents} disconnected road components`);
+  if (deadEnds > 0) warnings.push(`${deadEnds} unintended dead ends`);
+  if (acuteIntersections > 0) warnings.push(`${acuteIntersections} intersections below 30°`);
+  if (shortSegments > 0) warnings.push(`${shortSegments} source segments below 45u`);
+  if (maximumDecisionSpacing > 400) warnings.push(`${maximumDecisionSpacing.toFixed(0)}u maximum decision gap`);
+  if (disconnectedEntrances > 0) warnings.push(`${disconnectedEntrances} disconnected district entrances`);
   return {
     corridorLength,
     shortestSegment: Number.isFinite(shortestSegment) ? shortestSegment : 0,
+    shortSegments,
     intersections: intersections.size,
+    acuteIntersections,
     connectedComponents,
     deadEnds,
+    intentionalDeadEnds,
     cycleRank: Math.max(0, graphEdges - source.corridors.length + connectedComponents),
+    maximumDecisionSpacing,
     districts: source.districts?.length ?? 0,
-    entrances: districts.reduce((sum, district) => (
-      sum + district.roads.filter((road) => road.role === "access").length
-    ), 0),
+    entrances: entrances.length,
+    disconnectedEntrances,
+    warnings,
   };
 }
 
-function corridorIntersections(first: RoadCorridorDefinition, second: RoadCorridorDefinition) {
-  const intersections: Point2[] = [];
+function corridorIntersectionDetails(first: RoadCorridorDefinition, second: RoadCorridorDefinition) {
+  const intersections: Array<{ point: Point2; angle: number; joinsEndpoints: boolean }> = [];
   for (let firstIndex = 1; firstIndex < first.points.length; firstIndex++) {
     for (let secondIndex = 1; secondIndex < second.points.length; secondIndex++) {
-      const point = lineSegmentIntersection(
-        first.points[firstIndex - 1],
-        first.points[firstIndex],
-        second.points[secondIndex - 1],
-        second.points[secondIndex],
-      );
-      if (point) intersections.push(point);
+      const firstStart = first.points[firstIndex - 1];
+      const firstEnd = first.points[firstIndex];
+      const secondStart = second.points[secondIndex - 1];
+      const secondEnd = second.points[secondIndex];
+      const point = lineSegmentIntersection(firstStart, firstEnd, secondStart, secondEnd);
+      if (!point) continue;
+      const firstLength = Math.hypot(firstEnd.x - firstStart.x, firstEnd.z - firstStart.z);
+      const secondLength = Math.hypot(secondEnd.x - secondStart.x, secondEnd.z - secondStart.z);
+      const dot = ((firstEnd.x - firstStart.x) * (secondEnd.x - secondStart.x)
+        + (firstEnd.z - firstStart.z) * (secondEnd.z - secondStart.z)) / (firstLength * secondLength);
+      const angle = Math.acos(Math.min(1, Math.abs(dot))) * 180 / Math.PI;
+      const firstEndpoint = distanceSquared(point, first.points[0]) < 0.04
+        || distanceSquared(point, first.points[first.points.length - 1]) < 0.04;
+      const secondEndpoint = distanceSquared(point, second.points[0]) < 0.04
+        || distanceSquared(point, second.points[second.points.length - 1]) < 0.04;
+      intersections.push({ point, angle, joinsEndpoints: firstEndpoint && secondEndpoint });
     }
   }
   return intersections;
+}
+
+function corridorLengthOf(corridor: RoadCorridorDefinition) {
+  let length = 0;
+  for (let index = 1; index < corridor.points.length; index++) {
+    length += Math.hypot(
+      corridor.points[index].x - corridor.points[index - 1].x,
+      corridor.points[index].z - corridor.points[index - 1].z,
+    );
+  }
+  return length;
+}
+
+function distanceAlongCorridor(corridor: RoadCorridorDefinition, point: Point2) {
+  let traversed = 0;
+  let closestDistance = 0;
+  let closestSquared = Number.POSITIVE_INFINITY;
+  for (let index = 1; index < corridor.points.length; index++) {
+    const start = corridor.points[index - 1];
+    const end = corridor.points[index];
+    const dx = end.x - start.x;
+    const dz = end.z - start.z;
+    const lengthSquared = dx * dx + dz * dz;
+    const amount = Math.max(0, Math.min(1, ((point.x - start.x) * dx + (point.z - start.z) * dz) / lengthSquared));
+    const candidate = { x: start.x + dx * amount, z: start.z + dz * amount };
+    const candidateSquared = distanceSquared(point, candidate);
+    const length = Math.sqrt(lengthSquared);
+    if (candidateSquared < closestSquared) {
+      closestSquared = candidateSquared;
+      closestDistance = traversed + length * amount;
+    }
+    traversed += length;
+  }
+  return closestDistance;
+}
+
+function roadTouchesCorridor(road: RoadSegmentDefinition, corridor: RoadCorridorDefinition) {
+  const heading = road.rotation ?? 0;
+  const toLocal = (point: Point2) => {
+    const dx = point.x - road.x;
+    const dz = point.z - road.z;
+    return {
+      x: Math.cos(heading) * dx - Math.sin(heading) * dz,
+      z: Math.sin(heading) * dx + Math.cos(heading) * dz,
+    };
+  };
+  const padding = corridor.width / 2 + 0.5;
+  const bounds = {
+    minX: -road.width / 2 - padding,
+    maxX: road.width / 2 + padding,
+    minZ: -road.depth / 2 - padding,
+    maxZ: road.depth / 2 + padding,
+  };
+  for (let index = 1; index < corridor.points.length; index++) {
+    if (segmentIntersectsBounds(toLocal(corridor.points[index - 1]), toLocal(corridor.points[index]), bounds)) {
+      return true;
+    }
+  }
+  return false;
 }
 
 function lineSegmentIntersection(a: Point2, b: Point2, c: Point2, d: Point2) {
@@ -742,12 +920,19 @@ function validateSource(source: DrivingMapSource) {
   for (const district of source.districts ?? []) {
     if (districtIds.has(district.id)) throw new Error(`Map "${source.id}" repeats district "${district.id}".`);
     districtIds.add(district.id);
+    if (district.kind === "corridor" && (
+      district.entranceWidth <= 0
+      || district.entranceOffsets.length === 0
+      || district.entranceOffsets.some((offset) => !Number.isFinite(offset))
+    )) {
+      throw new Error(`Map "${source.id}" district "${district.id}" has invalid entrances.`);
+    }
   }
   const corridorIds = new Set<string>();
   for (const corridor of source.corridors) {
     if (corridorIds.has(corridor.id)) throw new Error(`Map "${source.id}" repeats corridor "${corridor.id}".`);
     corridorIds.add(corridor.id);
-    if (corridor.points.length < 2 || corridor.width <= 0) {
+    if (corridor.points.length < 2 || corridor.width <= 0 || (corridor.junctionScale ?? 1) <= 0) {
       throw new Error(`Map "${source.id}" corridor "${corridor.id}" is invalid.`);
     }
     for (const point of corridor.points) {
@@ -776,6 +961,13 @@ function validateCompiledContent(map: GameMapDefinition) {
       throw new Error(`Map "${map.id}" ${kind} crosses the boundary.`);
     }
   };
+  map.roads.forEach((road) => {
+    const bounds = rectangleBounds(road);
+    if (bounds.minX <= -map.worldLimit || bounds.maxX >= map.worldLimit
+      || bounds.minZ <= -map.worldLimit || bounds.maxZ >= map.worldLimit) {
+      throw new Error(`Map "${map.id}" road crosses the boundary.`);
+    }
+  });
   map.parkingLots.forEach((lot) => assertPoint("parking lot", lot, Math.hypot(lot.width, lot.depth) / 2));
   map.groundPatches?.forEach((patch) => assertPoint(
     "ground patch",

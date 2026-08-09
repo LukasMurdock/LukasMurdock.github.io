@@ -734,6 +734,8 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
       `layout    ${diagnostics.junctions} junctions · ${diagnostics.accessRoads} entrances`,
       `network   ${map.layoutDiagnostics?.connectedComponents ?? "—"} components · ${map.layoutDiagnostics?.deadEnds ?? "—"} dead ends`,
       `cycles    ${map.layoutDiagnostics?.cycleRank ?? "—"} · shortest ${map.layoutDiagnostics?.shortestSegment.toFixed(0) ?? "—"}u`,
+      `decisions ${map.layoutDiagnostics?.maximumDecisionSpacing.toFixed(0) ?? "—"}u max · ${map.layoutDiagnostics?.acuteIntersections ?? "—"} acute`,
+      `warnings  ${map.layoutDiagnostics?.warnings.join(" · ") || "none"}`,
       `collision ${collisionAverage.toFixed(1)} candidates/query`,
       `surface   ${pavementAverage.toFixed(1)} candidates/query`,
       `GPU geom  ${renderer.info.memory.geometries}`,

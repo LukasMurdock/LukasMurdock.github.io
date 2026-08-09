@@ -6,7 +6,7 @@ export type RoadSegmentDefinition = {
   rotation?: number;
   markings?: boolean | "taxiway";
   surfaceColor?: number;
-  role?: "access";
+  role?: "access" | "internal";
 };
 
 export type ParkingLotDefinition = {
@@ -23,6 +23,9 @@ export type RoadCorridorDefinition = {
   points: readonly { x: number; z: number }[];
   markings?: boolean | "taxiway";
   surfaceColor?: number;
+  junctionScale?: number;
+  allowDeadEndStart?: boolean;
+  allowDeadEndEnd?: boolean;
 };
 
 export type BuildingDefinition = {
@@ -73,12 +76,18 @@ export type ChasePlacementDefinition = {
 export type MapLayoutDiagnostics = {
   corridorLength: number;
   shortestSegment: number;
+  shortSegments: number;
   intersections: number;
+  acuteIntersections: number;
   connectedComponents: number;
   deadEnds: number;
+  intentionalDeadEnds: number;
   cycleRank: number;
+  maximumDecisionSpacing: number;
   districts: number;
   entrances: number;
+  disconnectedEntrances: number;
+  warnings: readonly string[];
 };
 
 export type GameMapDefinition = {

@@ -87,6 +87,21 @@ const METRO_CORRIDORS = [
       { x: -350, z: 220 }, { x: -190, z: 170 }, { x: -20, z: 180 }, { x: 170, z: 205 }, { x: 350, z: 220 },
     ],
   },
+  {
+    id: "southeast-transfer",
+    width: 17,
+    markings: true,
+    points: [
+      { x: 20, z: -180 }, { x: 155, z: -220 }, { x: 285, z: -285 },
+    ],
+  },
+  {
+    id: "northwest-slip",
+    width: 15,
+    points: [
+      { x: -20, z: 180 }, { x: -115, z: 275 }, { x: -220, z: 350 },
+    ],
+  },
 ] satisfies readonly RoadCorridorDefinition[];
 
 const metroTrees = [
@@ -149,7 +164,7 @@ export const METRO_RING_MAP = defineDrivingMap({
     { x: -155, z: 210, width: 180, depth: 120, rotation: -0.08, color: 0x77745a },
   ],
   districts: [
-    placeStamp("central-reversal", openReversal(44), { x: 0, z: 0 }),
+    placeStamp("central-reversal", openReversal(30), { x: 0, z: 0 }),
     placeAlongCorridor("west-civic", civicBlock({
       width: 112,
       depth: 104,
@@ -175,9 +190,9 @@ export const METRO_RING_MAP = defineDrivingMap({
       colors: [0xb86f55, 0x668985, 0xc19a65],
     }), { corridor: "ring-southeast", distance: 300, side: "left", setback: 8, entranceWidth: 18 }),
     placeAlongCorridor("north-homes", roadsideSettlement({
-      buildings: 6,
+      buildings: 4,
       colors: [0xc58b6d, 0xd0b987, 0x738f8c],
-    }), { corridor: "ring-northwest", distance: 115, side: "left", setback: 8 }),
+    }), { corridor: "ring-northwest", distance: 70, side: "left", setback: 8 }),
     placeAlongCorridor("east-service", serviceYard({
       width: 100,
       depth: 72,
@@ -195,15 +210,9 @@ export const METRO_RING_MAP = defineDrivingMap({
       setback: 8,
       rotation: Math.PI / 2,
     }),
-    placeAlongCorridor("south-service", serviceYard({
-      width: 96,
-      depth: 70,
-      color: 0x9d8768,
-    }), { corridor: "ring-southeast", distance: 100, side: "left", setback: 8, entranceWidth: 16 }),
   ],
   buildings: [
     { x: -35, z: 255, width: 10, depth: 10, height: 31, color: 0xd16643, style: "tower" },
-    { x: 205, z: -255, width: 38, depth: 22, height: 9, color: 0x708b88, style: "hangar" },
   ],
   trees: metroTrees,
   streetlights: corridorSidePoints(METRO_CORRIDORS, { spacing: 62, shoulderOffset: 4.5 }),
@@ -217,6 +226,8 @@ export const METRO_RING_MAP = defineDrivingMap({
       { kind: "rectangle", x: 0, z: 330, width: 500, depth: 70 },
       { kind: "rectangle", x: -330, z: 0, width: 70, depth: 500 },
       { kind: "rectangle", x: 330, z: 0, width: 70, depth: 500 },
+      { kind: "rectangle", x: 150, z: -220, width: 300, depth: 60, rotation: -0.25 },
+      { kind: "rectangle", x: -120, z: 275, width: 270, depth: 56, rotation: -0.72 },
     ],
     noSpawnAreas: [
       { kind: "circle", x: 0, z: 0, radius: 55 },

@@ -94,7 +94,7 @@ export function buildWorld(
       ? roadMaterial
       : new THREE.MeshStandardMaterial({ color: road.surfaceColor, roughness: 1, flatShading: true });
     const mesh = new THREE.Mesh(new THREE.BoxGeometry(road.width, 0.12, road.depth), material);
-    const roadTop = road.role === "access" ? 0.116 + roadIndex * 0.001 : 0.1 + roadIndex * 0.002;
+    const roadTop = road.role ? 0.116 + roadIndex * 0.001 : 0.1 + roadIndex * 0.002;
     mesh.position.set(road.x, roadTop - 0.06, road.z);
     mesh.rotation.y = road.rotation ?? 0;
     mesh.receiveShadow = true;
@@ -125,8 +125,8 @@ export function buildWorld(
     const material = corridor.surfaceColor === undefined
       ? roadMaterial
       : new THREE.MeshStandardMaterial({ color: corridor.surfaceColor, roughness: 1, flatShading: true });
-    // Corridor strips intentionally overlap at junctions. A tiny deterministic stack
-    // gives the later branch a clean surface instead of leaving coplanar pixels to fight.
+    // Junction cuts remove the crossing portion of each strip. The tiny deterministic
+    // offset only keeps independent non-junction surfaces visually stable.
     worldRoot.add(createCorridorMesh(
       corridor,
       material,

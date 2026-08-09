@@ -3,6 +3,7 @@ import {
   defineDrivingMap,
   freightRow,
   openReversal,
+  placeAlongCorridor,
   placeStamp,
   scatterPoints,
   serviceYard,
@@ -39,10 +40,10 @@ const HIGH_PLAINS_CORRIDORS = [
     width: 18,
     markings: "taxiway",
     points: [
-      { x: -350, z: -80 },
+      { x: -339.47, z: -80 },
       { x: -120, z: -25 },
       { x: 80, z: 35 },
-      { x: 300, z: 105 },
+      { x: 323.46, z: 105 },
     ],
   },
   {
@@ -73,7 +74,7 @@ const HIGH_PLAINS_CORRIDORS = [
     points: [
       { x: -120, z: -25 },
       { x: -70, z: 125 },
-      { x: -85, z: 340 },
+      { x: -85, z: 393.42 },
     ],
   },
   {
@@ -81,11 +82,11 @@ const HIGH_PLAINS_CORRIDORS = [
     width: 17,
     markings: true,
     points: [
-      { x: -325, z: 95 },
+      { x: -323.65, z: 95 },
       { x: -210, z: 155 },
       { x: -70, z: 125 },
       { x: 90, z: 180 },
-      { x: 335, z: 165 },
+      { x: 341.92, z: 165 },
     ],
   },
   {
@@ -93,9 +94,38 @@ const HIGH_PLAINS_CORRIDORS = [
     width: 13,
     surfaceColor: 0x4e4a40,
     points: [
-      { x: -220, z: -322 },
+      { x: -220, z: -321.5 },
       { x: -165, z: -175 },
       { x: -120, z: -25 },
+    ],
+  },
+  {
+    id: "lowland-connector",
+    width: 15,
+    markings: true,
+    points: [
+      { x: -330, z: -170 },
+      { x: -165, z: -175 },
+      { x: 80, z: -190 },
+      { x: 315, z: -210 },
+    ],
+  },
+  {
+    id: "south-central",
+    width: 14,
+    points: [
+      { x: 65, z: -336.8 },
+      { x: 80, z: -190 },
+      { x: 80, z: 35 },
+    ],
+  },
+  {
+    id: "north-service-link",
+    width: 14,
+    points: [
+      { x: 90, z: 180 },
+      { x: 100, z: 300 },
+      { x: 100, z: 403.33 },
     ],
   },
 ] satisfies readonly RoadCorridorDefinition[];
@@ -186,64 +216,115 @@ export const HIGH_PLAINS_MAP = defineDrivingMap({
     { x: 260, z: 290, width: 130, depth: 140, rotation: -0.08, color: 0x8b805f },
     { x: 5, z: 55, width: 160, depth: 100, rotation: 0.1, color: 0x8b7654 },
   ],
-  parkingLots: [
-    { x: -340, z: -255, width: 70, depth: 125 },
-    { x: -310, z: 25, width: 110, depth: 230 },
-    { x: 360, z: 130, width: 96, depth: 220 },
-  ],
   districts: [
-    placeStamp("spawn-freight", freightRow({
+    placeAlongCorridor("spawn-freight", freightRow({
       sheds: 3,
       shedSize: [12, 20],
       gap: 14,
       colors: [0xc19b70, 0xaa8062],
-    }), { x: -325, z: -255 }),
-    placeStamp("west-freight", freightRow({
-      sheds: 5,
+    }), { corridor: "west-spine", distance: 60, side: "right", setback: 10, rotation: Math.PI / 2 }),
+    placeAlongCorridor("west-freight", freightRow({
+      sheds: 3,
       shedSize: [15, 25],
       gap: 17,
       colors: [0xb78c68, 0xa97f60, 0xc09a70],
-    }), { x: -260, z: 25 }, -0.08),
-    placeStamp("east-service", serviceYard({
+    }), {
+      corridor: "west-spine",
+      distance: 360,
+      side: "right",
+      setback: 10,
+      entranceOffsets: [-26, 26],
+      rotation: Math.PI / 2,
+    }),
+    placeAlongCorridor("east-service", serviceYard({
       width: 112,
       depth: 86,
       color: 0x718f8a,
-    }), { x: 235, z: -95 }, 0.18),
-    placeStamp("north-reversal", openReversal(52), { x: -85, z: 340 }),
-    placeStamp("southwest-service", serviceYard({
+    }), {
+      corridor: "east-spine",
+      distance: 280,
+      side: "left",
+      setback: 10,
+      entranceWidth: 17,
+      entranceOffsets: [-28, 28],
+    }),
+    placeStamp("north-reversal", openReversal(44), { x: -85, z: 393.42 }),
+    placeAlongCorridor("southwest-service", serviceYard({
       width: 104,
       depth: 74,
       color: 0xc0a276,
-    }), { x: -255, z: -250 }, 0.08),
-    placeStamp("central-service", serviceYard({
+    }), {
+      corridor: "southern-cut",
+      distance: 280,
+      side: "left",
+      setback: 10,
+      entranceWidth: 17,
+      entranceOffsets: [-26, 26],
+    }),
+    placeAlongCorridor("central-service", serviceYard({
       width: 112,
       depth: 84,
       color: 0x829a8d,
-    }), { x: 5, z: 165 }, -0.08),
-    placeStamp("north-service", serviceYard({
-      width: 104,
-      depth: 76,
+    }), {
+      corridor: "midland-loop",
+      distance: 560,
+      side: "left",
+      setback: 10,
+      entranceWidth: 17,
+      entranceOffsets: [-28, 28],
+    }),
+    placeAlongCorridor("north-service", serviceYard({
+      width: 82,
+      depth: 60,
       color: 0xb79a72,
-    }), { x: 100, z: 355 }, Math.PI / 2),
-    placeStamp("east-freight", freightRow({
+    }), {
+      corridor: "north-service-link",
+      distance: 120,
+      side: "left",
+      setback: 24,
+      entranceWidth: 17,
+      entranceOffsets: [-20, 20],
+    }),
+    placeAlongCorridor("east-freight", freightRow({
       sheds: 5,
       shedSize: [14, 25],
       gap: 17,
       colors: [0x668985, 0x789993, 0x587b78],
-    }), { x: 390, z: 130 }),
-    placeStamp("south-freight", freightRow({
+    }), {
+      corridor: "east-spine",
+      distance: 500,
+      side: "right",
+      setback: 10,
+      entranceOffsets: [-38, 38],
+      rotation: Math.PI / 2,
+    }),
+    placeAlongCorridor("south-freight", freightRow({
       sheds: 3,
       shedSize: [14, 24],
       gap: 15,
       colors: [0x688b88, 0x789b94],
-    }), { x: 70, z: -255 }, Math.PI / 2),
+    }), {
+      corridor: "southern-cut",
+      distance: 440,
+      side: "left",
+      setback: 10,
+      entranceOffsets: [-24, 24],
+      rotation: Math.PI / 2,
+    }),
     placeStamp("south-reversal", openReversal(40), { x: 65, z: -315 }),
-    placeStamp("west-service", serviceYard({
+    placeAlongCorridor("west-service", serviceYard({
       width: 110,
       depth: 78,
       color: 0x9d8468,
-    }), { x: -285, z: -115 }, 0.05),
-    placeStamp("east-reversal", openReversal(42), { x: 300, z: 105 }),
+    }), {
+      corridor: "crosswind-link",
+      distance: 400,
+      side: "right",
+      setback: 10,
+      entranceWidth: 17,
+      entranceOffsets: [-28, 28],
+    }),
+    placeStamp("east-reversal", openReversal(42), { x: 323.46, z: 105 }),
   ],
   buildings: [
     { x: -175, z: 270, width: 10, depth: 10, height: 29, color: 0xd0643f, style: "tower" },
@@ -270,11 +351,13 @@ export const HIGH_PLAINS_MAP = defineDrivingMap({
       { kind: "rectangle", x: 0, z: 390, width: 620, depth: 70 },
       { kind: "rectangle", x: -330, z: 0, width: 75, depth: 760 },
       { kind: "rectangle", x: 310, z: 0, width: 80, depth: 760 },
+      { kind: "rectangle", x: 0, z: -190, width: 620, depth: 62 },
+      { kind: "rectangle", x: 82, z: -90, width: 58, depth: 500 },
     ],
     noSpawnAreas: [
-      { kind: "circle", x: -85, z: 340, radius: 60 },
+      { kind: "circle", x: -85, z: 393.42, radius: 52 },
       { kind: "circle", x: 65, z: -315, radius: 48 },
-      { kind: "circle", x: 300, z: 105, radius: 50 },
+      { kind: "circle", x: 323.46, z: 105, radius: 50 },
     ],
   },
   spawn: { source: "position", x: -390, z: -330, heading: 0.36 },

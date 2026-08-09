@@ -94,13 +94,16 @@ export function compileCorridorJunctions(
           if (!intersection) continue;
           addJunction(junctions, {
             ...intersection,
-            radius: Math.max(first.width, second.width) * 0.85,
+            radius: Math.max(
+              first.width * (first.junctionScale ?? 0.85),
+              second.width * (second.junctionScale ?? 0.85),
+            ),
           });
         }
       }
     }
   }
-  return junctions;
+  return mergeOverlappingJunctions(junctions);
 }
 
 export function addJunctionBatch(
@@ -331,7 +334,7 @@ function junctionDistances(corridor: RoadCorridorDefinition, junction: CorridorJ
     );
     const closestX = start.x + dx * amount;
     const closestZ = start.z + dz * amount;
-    if ((closestX - junction.x) ** 2 + (closestZ - junction.z) ** 2 > 4.1) continue;
+    if ((closestX - junction.x) ** 2 + (closestZ - junction.z) ** 2 > junction.radius ** 2) continue;
     const distance = measurements.cumulative[index - 1] + Math.sqrt(lengthSquared) * amount;
     if (!distances.some((candidate) => Math.abs(candidate - distance) < 0.1)) distances.push(distance);
   }
@@ -380,6 +383,35 @@ function sampleCorridorAtDistance(
     };
   }
   return null;
+}
+
+function mergeOverlappingJunctions(source: readonly CorridorJunction[]) {
+  const merged = source.map((junction) => ({ ...junction }));
+  let changed = true;
+  while (changed) {
+    changed = false;
+    outer: for (let firstIndex = 0; firstIndex < merged.length; firstIndex++) {
+      for (let secondIndex = firstIndex + 1; secondIndex < merged.length; secondIndex++) {
+        const first = merged[firstIndex];
+        const second = merged[secondIndex];
+        const dx = second.x - first.x;
+        const dz = second.z - first.z;
+        const distance = Math.hypot(dx, dz);
+        if (distance > (first.radius + second.radius) * 0.82) continue;
+        const radius = (distance + first.radius + second.radius) / 2;
+        const shift = distance > 0.001 ? (radius - first.radius) / distance : 0;
+        merged[firstIndex] = {
+          x: first.x + dx * shift,
+          z: first.z + dz * shift,
+          radius,
+        };
+        merged.splice(secondIndex, 1);
+        changed = true;
+        break outer;
+      }
+    }
+  }
+  return merged;
 }
 
 function addJunction(junctions: CorridorJunction[], candidate: CorridorJunction) {
