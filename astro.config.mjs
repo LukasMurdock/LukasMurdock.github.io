@@ -5,7 +5,11 @@ import { unified } from "@astrojs/markdown-remark";
 import { rehypeLinkIcons } from "./src/lib/rehype-link-icons.ts";
 import { buildRedirects } from "./src/lib/redirects.mjs";
 
-const redirects = await buildRedirects();
+const redirects = {
+  ...await buildRedirects(),
+  "/drive/": "https://games.lukasmurdock.com/",
+  "/drive/dyno/": "https://games.lukasmurdock.com/dyno/",
+};
 const sitemapExcludedPaths = new Set(["/drive/", "/on-this-day/", "/video/", "/thoughtsroom/"]);
 
 export default defineConfig({
