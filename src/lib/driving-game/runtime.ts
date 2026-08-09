@@ -29,6 +29,7 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
   const pauseButton = root.querySelector<HTMLButtonElement>("#pause-button");
   const pauseDriveTime = root.querySelector<HTMLElement>("#pause-drive-time");
   const resumeButton = root.querySelector<HTMLButtonElement>("#resume-driving");
+  const fullscreenButton = root.querySelector<HTMLButtonElement>("#fullscreen-button");
   if (
     !canvas
     || !speedLinesCanvas
@@ -51,8 +52,17 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
   const pauseControl = pauseButton;
   const pauseDriveTimeDisplay = pauseDriveTime;
   const resumeControl = resumeButton;
+  const fullscreenControl = fullscreenButton;
   const lifecycle = new AbortController();
   const listenerOptions = { signal: lifecycle.signal };
+  const coarsePointerQuery = window.matchMedia("(any-pointer: coarse)");
+  function updateInputCapabilities() {
+    const touchCapable = navigator.maxTouchPoints > 0 || coarsePointerQuery.matches;
+    root.dataset.touchCapable = String(touchCapable);
+  }
+  updateInputCapabilities();
+  coarsePointerQuery.addEventListener("change", updateInputCapabilities, listenerOptions);
+  root.dataset.input = "keyboard";
 
   const introEyebrow = intro.querySelector<HTMLElement>(".eyebrow");
   const introTitle = intro.querySelector<HTMLElement>("h1");
@@ -283,7 +293,24 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
     leaderboardControl.setAttribute("aria-pressed", String(visible));
   }
 
+  const fullscreenAvailable = Boolean(document.fullscreenEnabled && root.requestFullscreen);
+  if (fullscreenControl) fullscreenControl.hidden = !fullscreenAvailable;
+  function updateFullscreenPresentation() {
+    if (!fullscreenControl) return;
+    fullscreenControl.textContent = document.fullscreenElement ? "Exit fullscreen" : "Enter fullscreen";
+  }
+  async function toggleFullscreen() {
+    if (!fullscreenAvailable) return;
+    try {
+      if (document.fullscreenElement) await document.exitFullscreen();
+      else await root.requestFullscreen({ navigationUI: "hide" });
+    } catch {
+      // Fullscreen is optional and may be rejected by the browser or embedding context.
+    }
+  }
+
   function onKey(event: KeyboardEvent, pressed: boolean) {
+    root.dataset.input = "keyboard";
     const control = keyMap[event.code];
     if (control) {
       player.setControl(control, pressed);
@@ -300,6 +327,9 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
 
   window.addEventListener("keydown", (event) => onKey(event, true), listenerOptions);
   window.addEventListener("keyup", (event) => onKey(event, false), listenerOptions);
+  window.addEventListener("pointerdown", (event) => {
+    root.dataset.input = event.pointerType || "mouse";
+  }, { ...listenerOptions, capture: true });
   window.addEventListener("blur", clearControls, listenerOptions);
 
   modeOptions.forEach((option) => {
@@ -331,6 +361,7 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
     }, listenerOptions);
     button.addEventListener("pointerup", (event) => setPressed(false, event), listenerOptions);
     button.addEventListener("pointercancel", (event) => setPressed(false, event), listenerOptions);
+    button.addEventListener("lostpointercapture", (event) => setPressed(false, event), listenerOptions);
   });
 
   root.querySelector("#camera-button")?.addEventListener("click", switchCamera, listenerOptions);
@@ -338,6 +369,11 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
   root.querySelector("#reset-button")?.addEventListener("click", () => endDrive("manual"), listenerOptions);
   pauseButton.addEventListener("click", () => setPaused(true), listenerOptions);
   resumeButton.addEventListener("click", () => setPaused(false), listenerOptions);
+  fullscreenControl?.addEventListener("click", toggleFullscreen, listenerOptions);
+  document.addEventListener("fullscreenchange", () => {
+    updateFullscreenPresentation();
+    scheduleResize();
+  }, listenerOptions);
   document.addEventListener("visibilitychange", () => {
     if (document.hidden && running && !paused) setPaused(true);
   }, listenerOptions);
@@ -443,32 +479,57 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
     });
   }
 
+  let lastOrientation: "portrait" | "landscape" | null = null;
+  let resizeFrame = 0;
   function resize() {
-    const width = root.clientWidth;
-    const height = root.clientHeight;
+    const width = Math.max(root.clientWidth, 1);
+    const height = Math.max(root.clientHeight, 1);
+    const orientation = width >= height ? "landscape" : "portrait";
+    const orientationChanged = lastOrientation !== null && orientation !== lastOrientation;
+    lastOrientation = orientation;
+    root.dataset.orientation = orientation;
+    root.dataset.layout = width <= 720 || height <= 520 ? "compact" : "wide";
+
     renderer.setSize(width, height, false);
     speedLines.resize(width, height);
     perspectiveCamera.aspect = width / height;
     perspectiveCamera.updateProjectionMatrix();
 
     const aspect = width / height;
-    const isometricSize = 20;
+    // Preserve enough horizontal world space in portrait without changing landscape framing.
+    const isometricSize = Math.max(20, 15 / aspect);
     isometricCamera.left = -isometricSize * aspect;
     isometricCamera.right = isometricSize * aspect;
     isometricCamera.top = isometricSize;
     isometricCamera.bottom = -isometricSize;
     isometricCamera.updateProjectionMatrix();
 
-    const sideSize = 12;
+    const sideSize = Math.max(12, 9 / aspect);
     sideCamera.left = -sideSize * aspect;
     sideCamera.right = sideSize * aspect;
     sideCamera.top = sideSize;
     sideCamera.bottom = -sideSize;
     sideCamera.updateProjectionMatrix();
+
+    if (orientationChanged) {
+      clearControls();
+      if (running && !paused) setPaused(true);
+    }
   }
 
-  const resizeObserver = new ResizeObserver(resize);
+  function scheduleResize() {
+    if (resizeFrame) return;
+    resizeFrame = window.requestAnimationFrame(() => {
+      resizeFrame = 0;
+      resize();
+    });
+  }
+
+  const resizeObserver = new ResizeObserver(scheduleResize);
   resizeObserver.observe(root);
+  window.addEventListener("resize", scheduleResize, listenerOptions);
+  window.visualViewport?.addEventListener("resize", scheduleResize, listenerOptions);
+  window.screen.orientation?.addEventListener("change", scheduleResize, listenerOptions);
   resize();
   player.reset();
   modeController.reset("manual");
@@ -496,6 +557,7 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
     destroyed = true;
     lifecycle.abort();
     resizeObserver.disconnect();
+    if (resizeFrame) window.cancelAnimationFrame(resizeFrame);
     player.destroy();
     modeController?.destroy();
     world.destroy();

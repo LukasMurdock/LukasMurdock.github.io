@@ -2,7 +2,7 @@
 
 The driving game is split along the things that can vary independently:
 
-- `runtime.ts` — renderer and DOM lifecycle, cameras, mode wiring, drive timing, and the frame loop.
+- `runtime.ts` — renderer and DOM lifecycle, responsive display/input capabilities, cameras, mode wiring, drive timing, and the frame loop.
 - `driving-profiles.ts` — internal handling presets used while tuning.
 - `audio/` — car-audio orchestration plus procedural engine and tire AudioWorklet sources.
 - `player/` — player input, handling state, collision response, feedback events, and the stable player API.
@@ -27,7 +27,7 @@ startDrivingGame(root, {
 });
 ```
 
-The page exposes Cruise and Chase plus Circuit City and Crosswind selection before play and while paused. Mode changes replace only the mode controller; map changes dispose and rebuild the world while retaining the renderer, controls, player presentation, and page lifecycle. Cruise defaults to the `loose` profile; Chase defaults to `aggressive`. Passing `drivingProfile` explicitly overrides the mode default for tuning.
+The page exposes Cruise and Chase plus Circuit City and Crosswind selection before play and while paused. Mode changes replace only the mode controller; map changes dispose and rebuild the world while retaining the renderer, controls, player presentation, and page lifecycle. The runtime derives touch capability and orientation from browser capabilities and container geometry rather than user-agent strings, and pauses safely when an active drive rotates. Cruise defaults to the `loose` profile; Chase defaults to `aggressive`. Passing `drivingProfile` explicitly overrides the mode default for tuning.
 
 Available internal handling profiles are `balanced`, `loose`, `technical`, and `aggressive`. Aggressive raises acceleration and top speed, uses faster and deeper breakaway behavior, strengthens hard-drift entry and exit boost, and deliberately reaches redline at its normal maximum speed. The other profiles retain a quieter overdrive ratio.
 
@@ -36,7 +36,7 @@ Available internal handling profiles are `balanced`, `loose`, `technical`, and `
 1. Add a `GameMapDefinition` under `maps/`.
 2. Register it in `maps/index.ts`.
 3. Choose either a circuit-based spawn or an explicit position and heading.
-4. Use optional road rotation for diagonal pavement; rotated roads currently omit generated lane markings.
+4. Use optional road rotation for diagonal pavement; `"taxiway"` markings support faded rotated edge dashes.
 5. Keep mode-specific entities and rules out of the map definition.
 
 A map owns:

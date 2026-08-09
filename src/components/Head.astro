@@ -13,6 +13,7 @@ type Props = {
   modifiedTime?: Date;
   tags?: string[];
   contentText?: string;
+  viewportFit?: boolean;
 };
 
 const {
@@ -27,6 +28,7 @@ const {
   modifiedTime,
   tags = [],
   contentText,
+  viewportFit = false,
 } = Astro.props;
 
 const resolvedTitle = title ?? SITE.title;
@@ -148,7 +150,10 @@ const schema = {
 
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="viewport"
+    content={`width=device-width, initial-scale=1${viewportFit ? ", viewport-fit=cover" : ""}`}
+  />
   {noindex && <meta name="robots" content="noindex" />}
   <title>{resolvedTitle}</title>
   <meta name="description" content={resolvedDescription} />

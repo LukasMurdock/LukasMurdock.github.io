@@ -9,6 +9,7 @@ import Head from "@/components/Head.astro";
     description="A tiny open driving game by Lukas Murdock."
     urlPath="/drive/"
     noindex={true}
+    viewportFit={true}
   />
   <body>
     <main id="driving-game" aria-label="Driving game">
@@ -18,15 +19,21 @@ import Head from "@/components/Head.astro";
       <header class="topbar">
         <a class="wordmark" href="/" aria-label="Return home">LM</a>
         <div class="actions">
-          <button id="camera-button" type="button" title="Switch camera (C)">Camera <kbd>C</kbd></button>
+          <button id="camera-button" type="button" title="Switch camera (C)">
+            <span class="action-label">Camera</span><span class="action-mobile" aria-hidden="true">Cam</span><kbd>C</kbd>
+          </button>
           <button
             id="leaderboard-button"
             type="button"
             title="Toggle leaderboard (L)"
             aria-pressed="false"
-          >Leaders <kbd>L</kbd></button>
-          <button id="reset-button" type="button" title="Reset car (R)">Reset <kbd>R</kbd></button>
-          <button id="pause-button" type="button" title="Pause game (P)">Pause <kbd>P</kbd></button>
+          ><span class="action-label">Leaders</span><span class="action-mobile" aria-hidden="true">Rank</span><kbd>L</kbd></button>
+          <button id="reset-button" type="button" title="Reset car (R)">
+            <span class="action-label">Reset</span><span class="action-mobile" aria-hidden="true">↺</span><kbd>R</kbd>
+          </button>
+          <button id="pause-button" type="button" title="Pause game (P)">
+            <span class="action-label">Pause</span><span class="action-mobile" aria-hidden="true">Ⅱ</span><kbd>P</kbd>
+          </button>
         </div>
       </header>
 
@@ -111,6 +118,7 @@ import Head from "@/components/Head.astro";
           </div>
           <div class="pause-actions">
             <button id="resume-driving" type="button">Resume driving <span aria-hidden="true">→</span></button>
+            <button id="fullscreen-button" type="button" hidden>Enter fullscreen</button>
           </div>
         </div>
       </section>
@@ -170,7 +178,6 @@ import Head from "@/components/Head.astro";
     height: 100dvh;
     overflow: hidden;
     user-select: none;
-    touch-action: none;
   }
 
   #game-canvas {
@@ -178,6 +185,7 @@ import Head from "@/components/Head.astro";
     width: 100%;
     height: 100%;
     outline: none;
+    touch-action: none;
   }
 
   #speed-lines-canvas {
@@ -399,6 +407,14 @@ import Head from "@/components/Head.astro";
 
   .actions button:hover { background: rgba(18, 25, 27, 0.9); }
 
+  .action-mobile { display: none; }
+
+  button:focus-visible,
+  a:focus-visible {
+    outline: 2px solid #e7f5d9;
+    outline-offset: 3px;
+  }
+
   kbd {
     display: inline-flex;
     min-width: 20px;
@@ -419,10 +435,16 @@ import Head from "@/components/Head.astro";
     inset: 0;
     display: grid;
     place-items: center;
-    padding: 24px;
+    padding:
+      max(24px, env(safe-area-inset-top))
+      max(24px, env(safe-area-inset-right))
+      max(24px, env(safe-area-inset-bottom))
+      max(24px, env(safe-area-inset-left));
+    overflow-y: auto;
     background: rgba(13, 22, 17, 0.32);
     backdrop-filter: blur(7px);
     transition: opacity 300ms ease, visibility 300ms ease;
+    touch-action: pan-y pinch-zoom;
   }
 
   .intro.is-hidden {
@@ -562,13 +584,19 @@ import Head from "@/components/Head.astro";
     inset: 0;
     display: grid;
     place-items: center;
-    padding: 24px;
+    padding:
+      max(24px, env(safe-area-inset-top))
+      max(24px, env(safe-area-inset-right))
+      max(24px, env(safe-area-inset-bottom))
+      max(24px, env(safe-area-inset-left));
+    overflow-y: auto;
     visibility: hidden;
     opacity: 0;
     background: rgba(13, 22, 17, 0.32);
     backdrop-filter: blur(7px);
     transition: opacity 180ms ease, visibility 180ms ease;
     pointer-events: none;
+    touch-action: pan-y pinch-zoom;
   }
 
   .pause-overlay.is-visible {
@@ -636,7 +664,8 @@ import Head from "@/components/Head.astro";
     gap: 9px;
   }
 
-  #resume-driving {
+  #resume-driving,
+  #fullscreen-button {
     min-height: 48px;
     padding: 0 20px;
     border: 0;
@@ -647,12 +676,21 @@ import Head from "@/components/Head.astro";
     cursor: pointer;
   }
 
-  .touch-controls { display: none; }
+  .touch-controls {
+    display: none;
+    touch-action: none;
+  }
 
-  @media (max-width: 720px), (pointer: coarse) {
+  #driving-game[data-touch-capable="true"] .touch-controls { display: flex; }
+
+  @media (max-width: 720px), (any-pointer: coarse) {
     .topbar {
       grid-template-columns: 1fr auto;
-      padding: max(12px, env(safe-area-inset-top)) 12px 12px;
+      padding:
+        max(12px, env(safe-area-inset-top))
+        max(12px, env(safe-area-inset-right))
+        12px
+        max(12px, env(safe-area-inset-left));
     }
 
     .actions button {
@@ -662,24 +700,31 @@ import Head from "@/components/Head.astro";
       padding: 0;
       place-items: center;
       overflow: hidden;
-      color: transparent;
     }
 
-    .actions button kbd {
-      position: absolute;
+    .actions .action-label,
+    .actions button kbd { display: none; }
+
+    .actions .action-mobile {
+      display: inline;
       color: #fff;
+      font-size: 11px;
+      font-weight: 800;
     }
+
+    #reset-button .action-mobile,
+    #pause-button .action-mobile { font-size: 18px; }
 
     .key-guide { display: none; }
 
     .mode-hud {
       top: calc(max(12px, env(safe-area-inset-top)) + 56px);
-      right: 12px;
+      right: max(12px, env(safe-area-inset-right));
     }
 
     .drive-leaderboard {
       top: calc(max(12px, env(safe-area-inset-top)) + 56px);
-      right: 12px;
+      right: max(12px, env(safe-area-inset-right));
       width: 156px;
     }
 
@@ -695,10 +740,13 @@ import Head from "@/components/Head.astro";
       right: 0;
       bottom: 0;
       left: 0;
-      display: flex;
       align-items: end;
       justify-content: space-between;
-      padding: 18px max(18px, env(safe-area-inset-right)) max(20px, env(safe-area-inset-bottom)) max(18px, env(safe-area-inset-left));
+      padding:
+        18px
+        max(18px, env(safe-area-inset-right))
+        max(20px, env(safe-area-inset-bottom))
+        max(18px, env(safe-area-inset-left));
       pointer-events: none;
     }
 
@@ -737,6 +785,85 @@ import Head from "@/components/Head.astro";
       letter-spacing: 0.06em;
       text-transform: uppercase;
     }
+  }
+
+  @media (orientation: landscape) and (max-height: 520px) {
+    .intro,
+    .pause-overlay {
+      place-items: start center;
+      padding:
+        max(10px, env(safe-area-inset-top))
+        max(14px, env(safe-area-inset-right))
+        max(10px, env(safe-area-inset-bottom))
+        max(14px, env(safe-area-inset-left));
+    }
+
+    .intro-card {
+      width: min(680px, 100%);
+      padding: 16px 22px;
+      border-radius: 18px;
+    }
+
+    .eyebrow { margin-bottom: 6px; }
+
+    .intro h1 { font-size: 34px; }
+
+    .intro-card > p:not(.eyebrow) {
+      margin: 8px auto 10px;
+      font-size: 12px;
+      line-height: 1.35;
+    }
+
+    .selector-label,
+    .pause-mode-select > span { margin-bottom: 4px; }
+
+    .mode-select,
+    .mode-select--pause,
+    .mode-select--between {
+      gap: 6px;
+      margin-bottom: 8px;
+    }
+
+    .mode-select button { padding: 7px 10px; }
+
+    #start-driving,
+    #resume-driving,
+    #fullscreen-button { min-height: 42px; }
+
+    .key-guide { margin-top: 10px; }
+
+    .pause-card {
+      width: min(560px, 100%);
+      padding: 15px 22px;
+      border-radius: 18px;
+    }
+
+    .pause-card .eyebrow { display: none; }
+
+    .pause-card h2 {
+      margin-bottom: 8px;
+      font-size: 28px;
+    }
+
+    .pause-drive-time {
+      margin: 0 0 8px;
+      grid-template-columns: auto auto;
+      justify-content: center;
+      align-items: baseline;
+      gap: 8px;
+    }
+
+    .pause-drive-time strong { font-size: 20px; }
+
+    .touch-controls {
+      padding-top: 8px;
+      padding-bottom: max(10px, env(safe-area-inset-bottom));
+    }
+  }
+
+  @media (orientation: landscape) and (max-height: 400px) {
+    .intro-card > p:not(.eyebrow),
+    .intro-card > .eyebrow { display: none; }
   }
 
   @media (max-width: 440px) {
