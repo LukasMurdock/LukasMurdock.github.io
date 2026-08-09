@@ -444,6 +444,19 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
   window.addEventListener("pointerdown", (event) => {
     root.dataset.input = event.pointerType || "mouse";
   }, { ...listenerOptions, capture: true });
+  for (const eventName of ["selectstart", "dragstart", "contextmenu"]) {
+    root.addEventListener(eventName, (event) => event.preventDefault(), {
+      ...listenerOptions,
+      capture: true,
+    });
+  }
+  document.addEventListener("selectionchange", () => {
+    const selection = document.getSelection();
+    if (!selection || selection.rangeCount === 0) return;
+    const anchorInside = selection.anchorNode ? root.contains(selection.anchorNode) : false;
+    const focusInside = selection.focusNode ? root.contains(selection.focusNode) : false;
+    if (anchorInside || focusInside) selection.removeAllRanges();
+  }, listenerOptions);
   window.addEventListener("blur", clearControls, listenerOptions);
 
   modeOptions.forEach((option) => {

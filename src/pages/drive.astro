@@ -220,6 +220,16 @@ const mapOptions = Object.values(GAME_MAPS);
     overflow: hidden;
   }
 
+  #driving-game,
+  #driving-game *,
+  #driving-game *::before,
+  #driving-game *::after {
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-drag: none;
+  }
+
   #game-canvas {
     display: block;
     width: 100%;
