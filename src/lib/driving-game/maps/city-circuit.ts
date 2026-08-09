@@ -5,7 +5,7 @@ const cityRoads = [-60, -30, 0, 30, 60];
 export const CITY_CIRCUIT_MAP = {
   id: "city-circuit",
   title: "Circuit City",
-  description: "A dense street grid, four central drift lots, and a fast outer circuit.",
+  description: "Asymmetric city districts, a diagonal block cut, open drift lots, and a fast outer circuit.",
   worldLimit: 150,
   groundSize: 360,
   environment: {
@@ -22,36 +22,45 @@ export const CITY_CIRCUIT_MAP = {
   roads: [
     ...cityRoads.map((z) => ({ x: 0, z, width: 150, depth: 16, markings: true })),
     ...cityRoads.map((x) => ({ x, z: 0, width: 16, depth: x === 0 ? 240 : 150, markings: true })),
+
+    // A shorter, less forgiving link from the civic north road to the east avenue.
+    // Its endpoints land in existing intersections, preserving readable alternatives.
+    { x: 15, z: 15, width: 42, depth: 8.5, rotation: Math.PI / 4, markings: false, surfaceColor: 0x49483f },
   ],
   parkingLots: [
     { x: -15, z: -15, width: 14, depth: 14 },
-    { x: 15, z: -15, width: 14, depth: 14 },
+    // The larger southeast plaza supports wider transitions around the barrier slalom.
+    { x: 15, z: -15, width: 18, depth: 18 },
     { x: -15, z: 15, width: 14, depth: 14 },
-    { x: 15, z: 15, width: 14, depth: 14 },
   ],
   buildings: [
-    { x: -45, z: -45, width: 12, depth: 12, height: 9, color: 0xd8d777 },
-    { x: -15, z: -45, width: 13, depth: 12, height: 14, color: 0xe8c88d },
-    { x: 15, z: -45, width: 12, depth: 12, height: 8, color: 0xa9c1b4 },
-    { x: 45, z: -45, width: 13, depth: 12, height: 16, color: 0xc58f8f },
-    { x: -45, z: -15, width: 12, depth: 13, height: 13, color: 0xd39a6a },
-    { x: 45, z: -15, width: 12, depth: 13, height: 10, color: 0x9aaa7a },
-    { x: -45, z: 15, width: 12, depth: 12, height: 8, color: 0x9b91aa },
-    { x: 45, z: 15, width: 13, depth: 12, height: 15, color: 0xd1b05f },
-    { x: -45, z: 45, width: 12, depth: 13, height: 17, color: 0xbf796b },
-    { x: -15, z: 45, width: 13, depth: 12, height: 10, color: 0x7e9ea1 },
-    { x: 15, z: 45, width: 12, depth: 13, height: 13, color: 0xd4aa73 },
-    { x: 45, z: 45, width: 13, depth: 13, height: 9, color: 0x7d899d },
+    // The southern edge mixes low service buildings with one recognizable depot.
+    { x: -45, z: -45, width: 12, depth: 12, height: 9, color: 0xa98272 },
+    { x: -15, z: -45, width: 13, depth: 12, height: 14, color: 0x8ca3a0 },
+    { x: 15, z: -45, width: 12, depth: 12, height: 8, color: 0xb9aa83 },
+    { x: 45, z: -45, width: 13, depth: 12, height: 8, color: 0x6f8d8b, style: "hangar" },
+
+    // Warm west and cool east facades make orientation possible at close range.
+    { x: -45, z: -15, width: 12, depth: 13, height: 13, color: 0xcb7958 },
+    { x: 45, z: -15, width: 12, depth: 13, height: 10, color: 0x708f83 },
+    { x: -45, z: 15, width: 12, depth: 12, height: 8, color: 0xb8674f },
+    { x: 45, z: 15, width: 13, depth: 12, height: 15, color: 0x64858b },
+
+    // A gold civic building anchors north; its footprint and collision stay unchanged.
+    { x: -45, z: 45, width: 12, depth: 13, height: 12, color: 0xd19a63 },
+    { x: -15, z: 45, width: 13, depth: 12, height: 24, color: 0xd7ae58 },
+    { x: 15, z: 45, width: 12, depth: 13, height: 13, color: 0xd3c38e },
+    { x: 45, z: 45, width: 13, depth: 13, height: 9, color: 0x71819a },
   ],
+  // Keep terminal decorative obstacles away from central drift and recovery lines.
   trees: [
-    { x: -21, z: -21 }, { x: 21, z: -21 }, { x: -21, z: 21 }, { x: 21, z: 21 },
     { x: -72, z: -72 }, { x: 72, z: -72 }, { x: -72, z: 72 }, { x: 72, z: 72 },
   ],
   streetlights: [
-    { x: -68, z: -68 }, { x: -38, z: -68 }, { x: -8, z: -68 }, { x: 22, z: -68 }, { x: 52, z: -68 },
-    { x: 68, z: -38 }, { x: 68, z: -8 }, { x: 68, z: 22 }, { x: 68, z: 52 },
-    { x: 8, z: 68 }, { x: -22, z: 68 }, { x: -52, z: 68 },
-    { x: -68, z: 38 }, { x: -68, z: 8 },
+    { x: -50, z: -73 }, { x: -20, z: -73 }, { x: 10, z: -73 }, { x: 40, z: -73 },
+    { x: 73, z: -50 }, { x: 73, z: -20 }, { x: 73, z: 10 }, { x: 73, z: 40 },
+    { x: 50, z: 73 }, { x: 20, z: 73 }, { x: -10, z: 73 }, { x: -40, z: 73 },
+    { x: -73, z: 50 }, { x: -73, z: 20 }, { x: -73, z: -10 }, { x: -73, z: -40 },
   ],
   barriers: Array.from({ length: 4 }, (_, index) => [
     { x: 10 + index * 3.4, z: -17 + (index % 2) * 4 },
