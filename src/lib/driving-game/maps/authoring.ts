@@ -60,6 +60,7 @@ export function defineDrivingMap(source: DrivingMapSource): GameMapDefinition {
     streetlights: [...(source.streetlights ?? []), ...expanded.flatMap((stamp) => stamp.streetlights)],
     barriers: [...(source.barriers ?? []), ...expanded.flatMap((stamp) => stamp.barriers)],
     circuit: source.circuit,
+    chasePlacement: source.chasePlacement,
     spawn: source.spawn,
   };
   validateCompiledContent(map);
@@ -142,6 +143,108 @@ export function openReversal(radius: number): MapStamp {
       { x: -radius + 5, z: radius - 5 },
       { x: radius - 5, z: radius - 5 },
     ],
+  };
+}
+
+export function civicBlock(options: { width: number; depth: number; colors: readonly number[] }): MapStamp {
+  const insetX = options.width * 0.3;
+  const insetZ = options.depth * 0.3;
+  return {
+    parkingLots: [{ x: 0, z: 0, width: options.width, depth: options.depth }],
+    buildings: [
+      { x: -insetX, z: -insetZ, width: 20, depth: 18, height: 16, color: options.colors[0] },
+      { x: insetX, z: -insetZ, width: 18, depth: 18, height: 10, color: options.colors[1 % options.colors.length] },
+      { x: -insetX, z: insetZ, width: 18, depth: 20, height: 12, color: options.colors[2 % options.colors.length] },
+      { x: insetX, z: insetZ, width: 22, depth: 18, height: 20, color: options.colors[3 % options.colors.length] },
+    ],
+    streetlights: [
+      { x: 0, z: -options.depth * 0.42 },
+      { x: 0, z: options.depth * 0.42 },
+    ],
+  };
+}
+
+export function shoppingPlaza(options: { width: number; depth: number; color: number }): MapStamp {
+  return {
+    parkingLots: [{ x: 0, z: 0, width: options.width, depth: options.depth }],
+    buildings: [{
+      x: 0,
+      z: options.depth * 0.31,
+      width: options.width * 0.74,
+      depth: options.depth * 0.24,
+      height: 8,
+      color: options.color,
+    }],
+    barriers: [
+      { x: -8, z: -options.depth * 0.42 },
+      { x: 8, z: -options.depth * 0.42 },
+    ],
+    streetlights: [
+      { x: -options.width * 0.34, z: -options.depth * 0.25 },
+      { x: options.width * 0.34, z: -options.depth * 0.25 },
+    ],
+  };
+}
+
+export function constructionYard(options: { width: number; depth: number }): MapStamp {
+  return {
+    groundPatches: [{ x: 0, z: 0, width: options.width, depth: options.depth, color: 0x8c7957 }],
+    buildings: [
+      { x: -options.width * 0.28, z: 0, width: 12, depth: 24, height: 5, color: 0xb9865f, style: "freight" },
+      { x: options.width * 0.28, z: options.depth * 0.18, width: 10, depth: 18, height: 4, color: 0x728c86, style: "freight" },
+    ],
+    barriers: [
+      { x: -8, z: -options.depth / 2 + 2 },
+      { x: 0, z: -options.depth / 2 + 2 },
+      { x: 8, z: -options.depth / 2 + 2 },
+    ],
+  };
+}
+
+export function containerYard(options: {
+  rows: number;
+  columns: number;
+  colors: readonly number[];
+}): MapStamp {
+  const spacingX = 18;
+  const spacingZ = 28;
+  return {
+    parkingLots: [{
+      x: 0,
+      z: 0,
+      width: options.columns * spacingX + 20,
+      depth: options.rows * spacingZ + 20,
+    }],
+    buildings: Array.from({ length: options.rows * options.columns }, (_, index) => {
+      const column = index % options.columns;
+      const row = Math.floor(index / options.columns);
+      return {
+        x: (column - (options.columns - 1) / 2) * spacingX,
+        z: (row - (options.rows - 1) / 2) * spacingZ,
+        width: 8,
+        depth: 18,
+        height: 4.2,
+        color: options.colors[index % options.colors.length],
+        style: "freight" as const,
+      };
+    }),
+  };
+}
+
+export function roadsideSettlement(options: { buildings: number; colors: readonly number[] }): MapStamp {
+  return {
+    buildings: Array.from({ length: options.buildings }, (_, index) => ({
+      x: (index - (options.buildings - 1) / 2) * 25,
+      z: 0,
+      width: 16,
+      depth: 18,
+      height: 7 + index % 3 * 2,
+      color: options.colors[index % options.colors.length],
+    })),
+    streetlights: Array.from({ length: Math.max(1, options.buildings - 1) }, (_, index) => ({
+      x: (index - (options.buildings - 2) / 2) * 25 + 12.5,
+      z: -13,
+    })),
   };
 }
 
@@ -295,6 +398,23 @@ function validateCompiledContent(map: GameMapDefinition) {
   map.trees.forEach((point) => assertPoint("tree", point, 2.4));
   map.streetlights.forEach((point) => assertPoint("streetlight", point, 1.3));
   map.barriers.forEach((point) => assertPoint("barrier", point, 1.5));
+  for (const area of [
+    ...(map.chasePlacement?.preferredAreas ?? []),
+    ...(map.chasePlacement?.noSpawnAreas ?? []),
+  ]) {
+    if (area.kind === "circle") {
+      assertPoint("Chase placement area", area, area.radius);
+      continue;
+    }
+    const rotation = area.rotation ?? 0;
+    const extentX = Math.abs(Math.cos(rotation)) * area.width / 2
+      + Math.abs(Math.sin(rotation)) * area.depth / 2;
+    const extentZ = Math.abs(Math.sin(rotation)) * area.width / 2
+      + Math.abs(Math.cos(rotation)) * area.depth / 2;
+    if (Math.abs(area.x) + extentX >= map.worldLimit || Math.abs(area.z) + extentZ >= map.worldLimit) {
+      throw new Error(`Map "${map.id}" Chase placement area crosses the boundary.`);
+    }
+  }
 }
 
 function distanceSquared(a: Point2, b: Point2) {

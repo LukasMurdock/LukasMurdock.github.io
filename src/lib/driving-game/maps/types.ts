@@ -60,6 +60,15 @@ export type MapSpawn =
   | { source: "circuit"; sampleIndex?: number }
   | { source: "position"; x: number; z: number; heading: number };
 
+export type PlacementArea =
+  | { kind: "circle"; x: number; z: number; radius: number }
+  | { kind: "rectangle"; x: number; z: number; width: number; depth: number; rotation?: number };
+
+export type ChasePlacementDefinition = {
+  preferredAreas?: readonly PlacementArea[];
+  noSpawnAreas?: readonly PlacementArea[];
+};
+
 export type GameMapDefinition = {
   id: string;
   title: string;
@@ -86,5 +95,6 @@ export type GameMapDefinition = {
   streetlights: readonly PropDefinition[];
   barriers: readonly PropDefinition[];
   circuit?: readonly CircuitPhrase[];
+  chasePlacement?: ChasePlacementDefinition;
   spawn: MapSpawn;
 };

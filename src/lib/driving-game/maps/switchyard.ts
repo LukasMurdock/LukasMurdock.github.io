@@ -1,6 +1,6 @@
-import type { GameMapDefinition } from "./types";
+import { defineDrivingMap } from "./authoring";
 
-export const SWITCHYARD_MAP = {
+export const SWITCHYARD_MAP = defineDrivingMap({
   id: "switchyard",
   title: "Switchyard",
   description: "Freight lanes and staggered transfer gaps.",
@@ -26,6 +26,7 @@ export const SWITCHYARD_MAP = {
     { x: 0, z: 0, width: 30, depth: 140, markings: false, surfaceColor: 0x484b45 },
     { x: 50, z: 0, width: 30, depth: 140, markings: false, surfaceColor: 0x404643 },
   ],
+  corridors: [],
   parkingLots: [
     { x: -52, z: 24, width: 16, depth: 10 },
     { x: 52, z: -22, width: 16, depth: 10 },
@@ -48,4 +49,4 @@ export const SWITCHYARD_MAP = {
   streetlights: [],
   barriers: [],
   spawn: { source: "position", x: -50, z: -46, heading: 0 },
-} satisfies GameMapDefinition;
+});

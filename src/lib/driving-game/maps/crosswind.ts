@@ -1,6 +1,6 @@
-import type { GameMapDefinition } from "./types";
+import { defineDrivingMap } from "./authoring";
 
-export const CROSSWIND_MAP = {
+export const CROSSWIND_MAP = defineDrivingMap({
   id: "crosswind",
   title: "Crosswind",
   description: "Aprons, crossed taxiways, and a service cut.",
@@ -22,12 +22,26 @@ export const CROSSWIND_MAP = {
     { x: -55, z: 0, width: 70, depth: 82, markings: false },
     { x: 55, z: 0, width: 70, depth: 82, markings: false },
 
-    // The crossed taxiways turn route choice into a visible commitment.
-    { x: 0, z: 0, width: 132, depth: 18, rotation: 0.35, markings: "taxiway" },
-    { x: 0, z: 0, width: 132, depth: 18, rotation: -0.35, markings: "taxiway" },
-
-    // Shorter than either diagonal, but deliberately less forgiving.
-    { x: 0, z: -31, width: 112, depth: 9, markings: false, surfaceColor: 0x514b3f },
+  ],
+  corridors: [
+    {
+      id: "northwest-southeast-taxiway",
+      width: 18,
+      markings: "taxiway",
+      points: [{ x: -62, z: 22.6 }, { x: 62, z: -22.6 }],
+    },
+    {
+      id: "southwest-northeast-taxiway",
+      width: 18,
+      markings: "taxiway",
+      points: [{ x: -62, z: -22.6 }, { x: 62, z: 22.6 }],
+    },
+    {
+      id: "service-cut",
+      width: 9,
+      surfaceColor: 0x514b3f,
+      points: [{ x: -56, z: -31 }, { x: 56, z: -31 }],
+    },
   ],
   parkingLots: [
     { x: -74, z: 25, width: 18, depth: 12 },
@@ -48,4 +62,4 @@ export const CROSSWIND_MAP = {
   trees: [],
   streetlights: [],
   spawn: { source: "position", x: -80, z: 0, heading: 0 },
-} satisfies GameMapDefinition;
+});

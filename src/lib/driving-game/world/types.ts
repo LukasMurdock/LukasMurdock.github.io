@@ -36,12 +36,16 @@ export type WorldDiagnostics = {
   pavementCandidates: number;
 };
 
+export type WorldDebugLayer = "pavement" | "colliders" | "grid" | "source";
+
 export type WorldRuntime = {
   spawnPosition: THREE.Vector3;
   spawnHeading: number;
   isOnPavement: (position: THREE.Vector3) => boolean;
   queryCollision: (position: THREE.Vector3, radius: number) => WorldCollision | null;
+  findSafePlacement: (candidates: readonly THREE.Vector3[], radius: number) => THREE.Vector3 | null;
   isOutsideBoundary: (position: THREE.Vector3, radius: number) => boolean;
   getDiagnostics: () => Readonly<WorldDiagnostics>;
+  setDebugLayer: (layer: WorldDebugLayer, visible: boolean) => void;
   destroy: () => void;
 };

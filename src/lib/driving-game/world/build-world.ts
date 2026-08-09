@@ -1,11 +1,19 @@
 import * as THREE from "three";
 import type { GameMapDefinition } from "../maps";
-import type { CircuitPhrase } from "../maps/types";
+import type { CircuitPhrase, PlacementArea } from "../maps/types";
 import { addBoundaryFence } from "./boundary-fence";
 import { addBuilding } from "./buildings";
+import { createWorldDebugLayers } from "./debug-geometry";
 import { circlePavement, containsPavement, corridorPavement, parkingPavement, roadPavement } from "./pavement";
 import { addBarrierBatch, addStreetlightBatch, addTreeBatch } from "./props";
-import { addMarkingBatch, corridorMarks, createCorridorMesh, type RoadMarkDefinition } from "./roads";
+import {
+  addJunctionBatch,
+  addMarkingBatch,
+  compileCorridorJunctions,
+  corridorMarks,
+  createCorridorMesh,
+  type RoadMarkDefinition,
+} from "./roads";
 import { SpatialGrid } from "./spatial-grid";
 import type { Obstacle, WorldCollision, WorldDiagnostics, WorldRuntime } from "./types";
 
@@ -33,7 +41,11 @@ function createFacetedGround(size: number, baseColor: number) {
   return geometry;
 }
 
-export function buildWorld(scene: THREE.Scene, map: GameMapDefinition): WorldRuntime {
+export function buildWorld(
+  scene: THREE.Scene,
+  map: GameMapDefinition,
+  options: { debug?: boolean } = {},
+): WorldRuntime {
   const buildStarted = performance.now();
   const obstacles: Obstacle[] = [];
   const worldRoot = new THREE.Group();
@@ -71,6 +83,7 @@ export function buildWorld(scene: THREE.Scene, map: GameMapDefinition): WorldRun
   });
   const roadSegments = map.roads;
   const corridors = map.corridors ?? [];
+  const corridorJunctions = compileCorridorJunctions(corridors);
   const course = map.circuit ? buildDriftCircuit(worldRoot, roadMaterial, map.circuit) : null;
   const roadMarks: RoadMarkDefinition[] = [];
   const taxiwayMarks: RoadMarkDefinition[] = [];
@@ -114,10 +127,17 @@ export function buildWorld(scene: THREE.Scene, map: GameMapDefinition): WorldRun
     // Corridor strips intentionally overlap at junctions. A tiny deterministic stack
     // gives the later branch a clean surface instead of leaving coplanar pixels to fight.
     worldRoot.add(createCorridorMesh(corridor, material, 0.105 + corridorIndex * 0.003));
-    const marks = corridorMarks(corridor);
+    const marks = corridorMarks(corridor, corridorJunctions);
     if (corridor.markings === "taxiway") taxiwayMarks.push(...marks);
     else roadMarks.push(...marks);
   });
+
+  addJunctionBatch(
+    worldRoot,
+    corridorJunctions,
+    roadMaterial,
+    0.105 + corridors.length * 0.003 + 0.004,
+  );
 
   const concreteMaterial = new THREE.MeshStandardMaterial({ color: 0xaaa58a, roughness: 1, flatShading: true });
   map.parkingLots.forEach((parkingLot) => {
@@ -184,6 +204,7 @@ export function buildWorld(scene: THREE.Scene, map: GameMapDefinition): WorldRun
   const pavementPrimitives = [
     ...roadSegments.map(roadPavement),
     ...corridors.flatMap(corridorPavement),
+    ...corridorJunctions.map((junction) => circlePavement(junction.x, junction.z, junction.radius)),
     ...map.parkingLots.map(parkingPavement),
     ...(course?.points.map((point, index) => circlePavement(
       point.x,
@@ -193,6 +214,20 @@ export function buildWorld(scene: THREE.Scene, map: GameMapDefinition): WorldRun
   ];
   const obstacleGrid = new SpatialGrid(obstacles);
   const pavementGrid = new SpatialGrid(pavementPrimitives);
+  const occupiedCells = new Map<string, { x: number; z: number }>();
+  for (const cell of [...obstacleGrid.getOccupiedCells(), ...pavementGrid.getOccupiedCells()]) {
+    occupiedCells.set(`${cell.x}:${cell.z}`, cell);
+  }
+  const debugLayers = options.debug
+    ? createWorldDebugLayers({
+        map,
+        obstacles,
+        pavement: pavementPrimitives,
+        occupiedCells: [...occupiedCells.values()],
+        cellSize: obstacleGrid.cellSize,
+      })
+    : null;
+  if (debugLayers) worldRoot.add(debugLayers.root);
   const diagnostics: WorldDiagnostics = {
     buildMilliseconds: performance.now() - buildStarted,
     obstacles: obstacles.length,
@@ -228,18 +263,36 @@ export function buildWorld(scene: THREE.Scene, map: GameMapDefinition): WorldRun
       }
       return result;
     },
+    findSafePlacement(candidates: readonly THREE.Vector3[], radius: number) {
+      const noSpawnAreas = map.chasePlacement?.noSpawnAreas ?? [];
+      const preferredAreas = map.chasePlacement?.preferredAreas ?? [];
+      const valid = candidates.filter((candidate) => (
+        !isOutsideMapBoundary(map, candidate, radius)
+        && !this.queryCollision(candidate, radius)
+        && !noSpawnAreas.some((area) => containsPlacementArea(area, candidate.x, candidate.z))
+      ));
+      const preferred = valid.find((candidate) => (
+        preferredAreas.some((area) => containsPlacementArea(area, candidate.x, candidate.z))
+        && this.isOnPavement(candidate)
+      ));
+      const paved = valid.find((candidate) => this.isOnPavement(candidate));
+      return (preferred ?? paved ?? valid[0])?.clone() ?? null;
+    },
     isOutsideBoundary(position: THREE.Vector3, radius: number) {
-      const limit = map.worldLimit - radius;
-      return Math.abs(position.x) > limit || Math.abs(position.z) > limit;
+      return isOutsideMapBoundary(map, position, radius);
     },
     getDiagnostics() {
       return { ...diagnostics };
+    },
+    setDebugLayer(layer, visible) {
+      const object = debugLayers?.layers.get(layer);
+      if (object) object.visible = visible;
     },
     destroy() {
       const geometries = new Set<THREE.BufferGeometry>();
       const materials = new Set<THREE.Material>();
       worldRoot.traverse((object) => {
-        if (!(object instanceof THREE.Mesh)) return;
+        if (!(object instanceof THREE.Mesh) && !(object instanceof THREE.Line)) return;
         if (object instanceof THREE.InstancedMesh) object.dispose();
         geometries.add(object.geometry);
         const objectMaterials = Array.isArray(object.material) ? object.material : [object.material];
@@ -254,6 +307,21 @@ export function buildWorld(scene: THREE.Scene, map: GameMapDefinition): WorldRun
       pavementPrimitives.length = 0;
     },
   };
+}
+
+function isOutsideMapBoundary(map: GameMapDefinition, position: THREE.Vector3, radius: number) {
+  const limit = map.worldLimit - radius;
+  return Math.abs(position.x) > limit || Math.abs(position.z) > limit;
+}
+
+function containsPlacementArea(area: PlacementArea, x: number, z: number) {
+  if (area.kind === "circle") return (x - area.x) ** 2 + (z - area.z) ** 2 <= area.radius ** 2;
+  const rotation = area.rotation ?? 0;
+  const dx = x - area.x;
+  const dz = z - area.z;
+  const localX = Math.cos(rotation) * dx - Math.sin(rotation) * dz;
+  const localZ = Math.sin(rotation) * dx + Math.cos(rotation) * dz;
+  return Math.abs(localX) <= area.width / 2 && Math.abs(localZ) <= area.depth / 2;
 }
 
 function collideCircleWithObstacle(

@@ -35,6 +35,13 @@ export class SpatialGrid<T extends SpatialBounds> {
     return result;
   }
 
+  getOccupiedCells() {
+    return [...this.cells.keys()].map((cellKey) => {
+      const [x, z] = cellKey.split(":").map(Number);
+      return { x, z };
+    });
+  }
+
   clear() {
     this.cells.clear();
   }

@@ -264,5 +264,18 @@ export const HIGH_PLAINS_MAP = defineDrivingMap({
     { x: -42, z: -313 }, { x: 18, z: -321 },
     { x: 208, z: 77 }, { x: 214, z: 79 },
   ],
+  chasePlacement: {
+    preferredAreas: [
+      { kind: "rectangle", x: 0, z: -320, width: 820, depth: 75 },
+      { kind: "rectangle", x: 0, z: 390, width: 620, depth: 70 },
+      { kind: "rectangle", x: -330, z: 0, width: 75, depth: 760 },
+      { kind: "rectangle", x: 310, z: 0, width: 80, depth: 760 },
+    ],
+    noSpawnAreas: [
+      { kind: "circle", x: -85, z: 340, radius: 60 },
+      { kind: "circle", x: 65, z: -315, radius: 48 },
+      { kind: "circle", x: 300, z: 105, radius: 50 },
+    ],
+  },
   spawn: { source: "position", x: -390, z: -330, heading: 0.36 },
 });

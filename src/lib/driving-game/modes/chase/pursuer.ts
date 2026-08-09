@@ -63,20 +63,14 @@ export function createPursuer(scene: THREE.Scene, world: WorldRuntime): Pursuer 
       { behind: formation.behind + 9, side: formation.side * 0.5 },
       { behind: formation.behind + 13, side: 0 },
     ];
-    let placed = false;
-    for (const offset of candidates) {
-      candidate.set(
-        player.position.x - sin * offset.behind + cos * offset.side,
-        0.06,
-        player.position.z - cos * offset.behind - sin * offset.side,
-      );
-      if (world.isOutsideBoundary(candidate, PURSUER_TUNING.radius)) continue;
-      if (world.queryCollision(candidate, PURSUER_TUNING.radius)) continue;
-      position.copy(candidate);
-      placed = true;
-      break;
-    }
-    if (!placed) return false;
+    const placementCandidates = candidates.map((offset) => new THREE.Vector3(
+      player.position.x - sin * offset.behind + cos * offset.side,
+      0.06,
+      player.position.z - cos * offset.behind - sin * offset.side,
+    ));
+    const placement = world.findSafePlacement(placementCandidates, PURSUER_TUNING.radius);
+    if (!placement) return false;
+    position.copy(placement);
 
     heading = player.heading;
     speed = Math.min(player.speed * 0.55, 12);

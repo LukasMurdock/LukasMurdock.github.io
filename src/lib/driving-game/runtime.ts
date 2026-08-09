@@ -180,7 +180,19 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
     sun.shadow.camera.updateProjectionMatrix();
   }
 
-  let world = buildWorld(scene, map);
+  let world = buildWorld(scene, map, { debug: showMapDiagnostics });
+  const debugLayerVisibility = {
+    pavement: false,
+    colliders: false,
+    grid: false,
+    source: showMapDiagnostics,
+  };
+  function applyDebugLayerVisibility() {
+    for (const [layer, visible] of Object.entries(debugLayerVisibility)) {
+      world.setDebugLayer(layer as keyof typeof debugLayerVisibility, visible);
+    }
+  }
+  applyDebugLayerVisibility();
   const speedLines = createSpeedLines(speedLinesCanvas);
   const leaderboardToast = createLeaderboardToast(leaderboardNode);
   const getLeaderboardTitle = () => mode.id === "chase" ? "Longest survival" : "Longest drives";
@@ -315,7 +327,7 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
   function selectMap(mapId: GameMapId) {
     if (map.id === mapId || (running && !paused)) return;
     const nextMap = GAME_MAPS[mapId];
-    const nextWorld = buildWorld(scene, nextMap);
+    const nextWorld = buildWorld(scene, nextMap, { debug: showMapDiagnostics });
     const previousWorld = world;
     const switchingPausedGame = running && paused;
     if (switchingPausedGame) recordDrive("mode");
@@ -328,6 +340,7 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
     world = nextWorld;
     applyMapEnvironment();
     previousWorld.destroy();
+    applyDebugLayerVisibility();
     player.setWorld(world);
     player.reset();
     modeController = createSelectedModeController();
@@ -432,6 +445,18 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
     if (!pressed) registerManualCodeInput(event.code);
     if (!pressed && event.code === "KeyC") switchCamera();
     if (!pressed && event.code === "KeyL") toggleLeaderboard();
+    if (!pressed && showMapDiagnostics && event.code.startsWith("Digit")) {
+      const layer = ({
+        Digit1: "pavement",
+        Digit2: "colliders",
+        Digit3: "grid",
+        Digit4: "source",
+      } as const)[event.code as "Digit1" | "Digit2" | "Digit3" | "Digit4"];
+      if (layer) {
+        debugLayerVisibility[layer] = !debugLayerVisibility[layer];
+        world.setDebugLayer(layer, debugLayerVisibility[layer]);
+      }
+    }
     if (!pressed && event.code === "KeyR") endDrive("manual");
     if (!pressed && (event.code === "KeyP" || event.code === "Escape")) {
       event.preventDefault();
@@ -709,6 +734,7 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
       `collision ${collisionAverage.toFixed(1)} candidates/query`,
       `surface   ${pavementAverage.toFixed(1)} candidates/query`,
       `GPU geom  ${renderer.info.memory.geometries}`,
+      "layers    1 pavement · 2 colliders · 3 grid · 4 source",
     ].join("\n");
   }
 
