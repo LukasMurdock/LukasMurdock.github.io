@@ -12,6 +12,7 @@ const staticPaths = [
   "data",
   "walksoflife",
   ".well-known",
+  "_redirects",
   "CNAME",
   "robots.txt",
   "blogroll.xml",
