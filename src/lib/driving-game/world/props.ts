@@ -1,4 +1,5 @@
 import * as THREE from "three";
+import type { SignDefinition } from "../maps/types";
 import type { Obstacle } from "./types";
 
 export function addTreeBatch(
@@ -105,6 +106,50 @@ export function addStreetlightBatch(
   });
   meshes.forEach((mesh) => {
     mesh.instanceMatrix.needsUpdate = true;
+    mesh.computeBoundingSphere();
+    mesh.castShadow = true;
+    scene.add(mesh);
+  });
+}
+
+export function addSignBatch(
+  scene: THREE.Object3D,
+  obstacles: Obstacle[],
+  signs: readonly SignDefinition[],
+) {
+  if (signs.length === 0) return;
+  const postMaterial = new THREE.MeshStandardMaterial({ color: 0x3b4039, roughness: 1, flatShading: true });
+  const posts = new THREE.InstancedMesh(
+    new THREE.CylinderGeometry(0.1, 0.14, 2.2, 5),
+    postMaterial,
+    signs.length,
+  );
+  const panels = new THREE.InstancedMesh(
+    new THREE.BoxGeometry(2.5, 0.9, 0.18),
+    new THREE.MeshStandardMaterial({ color: 0xffffff, roughness: 1, flatShading: true }),
+    signs.length,
+  );
+  const matrix = new THREE.Matrix4();
+  const quaternion = new THREE.Quaternion();
+  signs.forEach((sign, index) => {
+    quaternion.setFromAxisAngle(new THREE.Vector3(0, 1, 0), sign.rotation ?? 0);
+    matrix.compose(new THREE.Vector3(sign.x, 1.1, sign.z), quaternion, new THREE.Vector3(1, 1, 1));
+    posts.setMatrixAt(index, matrix);
+    matrix.compose(new THREE.Vector3(sign.x, 2.35, sign.z), quaternion, new THREE.Vector3(1, 1, 1));
+    panels.setMatrixAt(index, matrix);
+    panels.setColorAt(index, new THREE.Color(sign.color ?? 0xd4b35e));
+    obstacles.push({
+      kind: "sign",
+      minX: sign.x - 0.24,
+      maxX: sign.x + 0.24,
+      minZ: sign.z - 0.24,
+      maxZ: sign.z + 0.24,
+      resetsCar: true,
+    });
+  });
+  [posts, panels].forEach((mesh) => {
+    mesh.instanceMatrix.needsUpdate = true;
+    if (mesh.instanceColor) mesh.instanceColor.needsUpdate = true;
     mesh.computeBoundingSphere();
     mesh.castShadow = true;
     scene.add(mesh);

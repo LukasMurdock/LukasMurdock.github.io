@@ -1,6 +1,6 @@
 import type * as THREE from "three";
 
-export type ObstacleKind = "building" | "tree" | "streetlight" | "barrier";
+export type ObstacleKind = "building" | "tree" | "streetlight" | "barrier" | "sign";
 
 export type Obstacle = {
   kind: ObstacleKind;

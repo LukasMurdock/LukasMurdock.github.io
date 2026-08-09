@@ -5,7 +5,7 @@ import { addBoundaryFence } from "./boundary-fence";
 import { addBuilding } from "./buildings";
 import { createWorldDebugLayers } from "./debug-geometry";
 import { circlePavement, containsPavement, corridorPavement, parkingPavement, roadPavement } from "./pavement";
-import { addBarrierBatch, addStreetlightBatch, addTreeBatch } from "./props";
+import { addBarrierBatch, addSignBatch, addStreetlightBatch, addTreeBatch } from "./props";
 import {
   addJunctionBatch,
   addMarkingBatch,
@@ -147,8 +147,21 @@ export function buildWorld(
   );
 
   const concreteMaterial = new THREE.MeshStandardMaterial({ color: 0xaaa58a, roughness: 1, flatShading: true });
+  const shoulderMaterial = new THREE.MeshStandardMaterial({
+    color: new THREE.Color(map.environment.grass).lerp(new THREE.Color(map.environment.road), 0.28),
+    roughness: 1,
+    flatShading: true,
+  });
   map.parkingLots.forEach((parkingLot) => {
     const rotation = parkingLot.rotation ?? 0;
+    const shoulder = new THREE.Mesh(
+      new THREE.BoxGeometry(parkingLot.width + 4.2, 0.025, parkingLot.depth + 4.2),
+      shoulderMaterial,
+    );
+    shoulder.position.set(parkingLot.x, 0.017, parkingLot.z);
+    shoulder.rotation.y = rotation;
+    shoulder.receiveShadow = true;
+    worldRoot.add(shoulder);
     const curb = new THREE.Mesh(
       new THREE.BoxGeometry(parkingLot.width + 1.4, 0.1, parkingLot.depth + 1.4),
       concreteMaterial,
@@ -178,6 +191,19 @@ export function buildWorld(
     depthWrite: false,
   }), "taxiway-markings");
   addMarkingBatch(worldRoot, parkingMarks, new THREE.MeshBasicMaterial({ color: 0xd8d7b8 }), "parking-markings");
+  const districtMarkings = new Map<number, RoadMarkDefinition[]>();
+  for (const marking of map.districtMarkings ?? []) {
+    const color = marking.color ?? 0xe5d8a8;
+    const batch = districtMarkings.get(color) ?? [];
+    batch.push(marking);
+    districtMarkings.set(color, batch);
+  }
+  districtMarkings.forEach((marks, color) => addMarkingBatch(
+    worldRoot,
+    marks,
+    new THREE.MeshBasicMaterial({ color }),
+    `district-markings:${color.toString(16)}`,
+  ));
 
   map.buildings.forEach((building) => addBuilding(
     worldRoot,
@@ -194,6 +220,7 @@ export function buildWorld(
   forEachSpatialChunk(map.trees, (points) => addTreeBatch(worldRoot, obstacles, points));
   forEachSpatialChunk(map.streetlights, (points) => addStreetlightBatch(worldRoot, obstacles, points));
   forEachSpatialChunk(map.barriers, (points) => addBarrierBatch(worldRoot, obstacles, points));
+  addSignBatch(worldRoot, obstacles, map.signs ?? []);
 
   let spawnPosition: THREE.Vector3;
   let spawnHeading: number;

@@ -1,11 +1,13 @@
 import type {
   BuildingDefinition,
+  DistrictMarkingDefinition,
   GameMapDefinition,
   GroundPatchDefinition,
   ParkingLotDefinition,
   PropDefinition,
   RoadCorridorDefinition,
   RoadSegmentDefinition,
+  SignDefinition,
 } from "./types";
 
 export type Point2 = { x: number; z: number };
@@ -18,6 +20,8 @@ export type MapStamp = {
   trees?: readonly PropDefinition[];
   streetlights?: readonly PropDefinition[];
   barriers?: readonly PropDefinition[];
+  signs?: readonly SignDefinition[];
+  districtMarkings?: readonly DistrictMarkingDefinition[];
 };
 
 type AbsoluteStampPlacement = {
@@ -47,7 +51,7 @@ type ExpandedStamp = Required<MapStamp> & { roads: RoadSegmentDefinition[] };
 
 export type DrivingMapSource = Omit<
   GameMapDefinition,
-  "roads" | "corridors" | "parkingLots" | "groundPatches" | "buildings" | "trees" | "streetlights" | "barriers"
+  "roads" | "corridors" | "parkingLots" | "groundPatches" | "buildings" | "trees" | "streetlights" | "barriers" | "signs" | "districtMarkings"
 > & {
   roads?: readonly RoadSegmentDefinition[];
   corridors: readonly RoadCorridorDefinition[];
@@ -58,6 +62,8 @@ export type DrivingMapSource = Omit<
   trees?: readonly PropDefinition[];
   streetlights?: readonly PropDefinition[];
   barriers?: readonly PropDefinition[];
+  signs?: readonly SignDefinition[];
+  districtMarkings?: readonly DistrictMarkingDefinition[];
 };
 
 export function defineDrivingMap(source: DrivingMapSource): GameMapDefinition {
@@ -78,6 +84,11 @@ export function defineDrivingMap(source: DrivingMapSource): GameMapDefinition {
     trees: [...(source.trees ?? []), ...expanded.flatMap((stamp) => stamp.trees)],
     streetlights: [...(source.streetlights ?? []), ...expanded.flatMap((stamp) => stamp.streetlights)],
     barriers: [...(source.barriers ?? []), ...expanded.flatMap((stamp) => stamp.barriers)],
+    signs: [...(source.signs ?? []), ...expanded.flatMap((stamp) => stamp.signs)],
+    districtMarkings: [
+      ...(source.districtMarkings ?? []),
+      ...expanded.flatMap((stamp) => stamp.districtMarkings),
+    ],
     circuit: source.circuit,
     chasePlacement: source.chasePlacement,
     layoutDiagnostics: analyzeLayout(source, expanded),
@@ -118,6 +129,21 @@ export function placeAlongCorridor(
   };
 }
 
+function markingOutline(
+  x: number,
+  z: number,
+  width: number,
+  depth: number,
+  color = 0xe5d8a8,
+): DistrictMarkingDefinition[] {
+  return [
+    { x, z: z - depth / 2, width, depth: 0.18, color },
+    { x, z: z + depth / 2, width, depth: 0.18, color },
+    { x: x - width / 2, z, width: 0.18, depth, color },
+    { x: x + width / 2, z, width: 0.18, depth, color },
+  ];
+}
+
 export function freightRow(options: {
   sheds: number;
   shedSize: readonly [number, number];
@@ -146,6 +172,13 @@ export function freightRow(options: {
       x: width / 2 + 4.5,
       z: -totalDepth / 2 + depth / 2 + index * (depth + options.gap),
     })),
+    signs: [{ x: -width / 2 - 4, z: -totalDepth / 2 + 5, color: 0xd2a74f }],
+    districtMarkings: Array.from({ length: options.sheds }, (_, index) => markingOutline(
+      width / 2 + 3,
+      -totalDepth / 2 + depth / 2 + index * (depth + options.gap),
+      5,
+      depth - 5,
+    )).flat(),
   };
 }
 
@@ -185,6 +218,11 @@ export function serviceYard(options: {
       { x: -5, z: -options.depth / 2 + 2 },
       { x: 5, z: -options.depth / 2 + 2 },
     ],
+    signs: [{ x: options.width * 0.2, z: -options.depth / 2 + 5, color: options.color }],
+    districtMarkings: [
+      ...markingOutline(-options.width * 0.1, 0, 11, options.depth * 0.42),
+      ...markingOutline(options.width * 0.32, -options.depth * 0.18, 10, 13, 0xe6bc50),
+    ],
   };
 }
 
@@ -216,6 +254,11 @@ export function civicBlock(options: { width: number; depth: number; colors: read
       { x: 0, z: -options.depth * 0.42 },
       { x: 0, z: options.depth * 0.42 },
     ],
+    signs: [{ x: -options.width * 0.16, z: -options.depth * 0.44, color: options.colors[0] }],
+    districtMarkings: [
+      ...markingOutline(-15, 0, 12, 18),
+      ...markingOutline(15, 0, 12, 18),
+    ],
   };
 }
 
@@ -239,6 +282,11 @@ export function shoppingPlaza(options: { width: number; depth: number; color: nu
       { x: -options.width * 0.34, z: -options.depth * 0.25 },
       { x: options.width * 0.34, z: -options.depth * 0.25 },
     ],
+    signs: [{ x: -options.width * 0.28, z: -options.depth * 0.42, color: options.color }],
+    districtMarkings: [
+      ...markingOutline(-options.width * 0.18, -options.depth * 0.08, 12, 18),
+      ...markingOutline(options.width * 0.18, -options.depth * 0.08, 12, 18),
+    ],
   };
 }
 
@@ -255,6 +303,10 @@ export function constructionYard(options: { width: number; depth: number }): Map
       { x: 0, z: -options.depth / 2 + 2 },
       { x: 8, z: -options.depth / 2 + 2 },
     ],
+    signs: [{ x: -options.width * 0.36, z: -options.depth * 0.38, color: 0xd78b43 }],
+    districtMarkings: [
+      ...markingOutline(-12, -options.depth * 0.18, 11, 18, 0xe6bc50),
+    ],
   };
 }
 
@@ -265,13 +317,10 @@ export function containerYard(options: {
 }): MapStamp {
   const spacingX = 18;
   const spacingZ = 28;
+  const width = options.columns * spacingX + 20;
+  const depth = options.rows * spacingZ + 20;
   return {
-    parkingLots: [{
-      x: 0,
-      z: 0,
-      width: options.columns * spacingX + 20,
-      depth: options.rows * spacingZ + 20,
-    }],
+    parkingLots: [{ x: 0, z: 0, width, depth }],
     buildings: Array.from({ length: options.rows * options.columns }, (_, index) => {
       const column = index % options.columns;
       const row = Math.floor(index / options.columns);
@@ -285,6 +334,11 @@ export function containerYard(options: {
         style: "freight" as const,
       };
     }),
+    signs: [{ x: -width * 0.34, z: -depth * 0.42, color: options.colors[0] }],
+    districtMarkings: [
+      ...markingOutline(-width * 0.2, -depth * 0.43, 11, 13, 0xe6bc50),
+      ...markingOutline(width * 0.2, -depth * 0.43, 11, 13, 0xe6bc50),
+    ],
   };
 }
 
@@ -492,6 +546,16 @@ function expandStampAt(
     trees: (stamp.trees ?? []).map((point) => transformPoint(point)),
     streetlights: (stamp.streetlights ?? []).map((point) => transformPoint(point)),
     barriers,
+    signs: (stamp.signs ?? []).map((sign) => ({
+      ...sign,
+      ...transformPoint(sign),
+      rotation: (sign.rotation ?? 0) + heading,
+    })),
+    districtMarkings: (stamp.districtMarkings ?? []).map((marking) => ({
+      ...marking,
+      ...transformPoint(marking),
+      rotation: (marking.rotation ?? 0) + heading,
+    })),
   };
 }
 
@@ -530,6 +594,7 @@ function stampBounds(stamp: MapStamp) {
     ...(stamp.trees ?? []),
     ...(stamp.streetlights ?? []),
     ...(stamp.barriers ?? []),
+    ...(stamp.signs ?? []),
   ]) {
     includePoint(bounds, point.x - 2, point.z - 2);
     includePoint(bounds, point.x + 2, point.z + 2);
@@ -578,7 +643,7 @@ function compiledStampBounds(stamp: ExpandedStamp) {
   stamp.parkingLots.forEach(includeRectangle);
   stamp.groundPatches.forEach(includeRectangle);
   stamp.buildings.forEach(includeRectangle);
-  for (const point of [...stamp.trees, ...stamp.streetlights, ...stamp.barriers]) {
+  for (const point of [...stamp.trees, ...stamp.streetlights, ...stamp.barriers, ...stamp.signs]) {
     includePoint(bounds, point.x - 2, point.z - 2);
     includePoint(bounds, point.x + 2, point.z + 2);
   }
@@ -982,6 +1047,14 @@ function validateCompiledContent(map: GameMapDefinition) {
   map.trees.forEach((point) => assertPoint("tree", point, 2.4));
   map.streetlights.forEach((point) => assertPoint("streetlight", point, 1.3));
   map.barriers.forEach((point) => assertPoint("barrier", point, 1.5));
+  map.signs?.forEach((point) => assertPoint("sign", point, 1.5));
+  map.districtMarkings?.forEach((marking) => {
+    const bounds = rectangleBounds(marking);
+    if (bounds.minX <= -map.worldLimit || bounds.maxX >= map.worldLimit
+      || bounds.minZ <= -map.worldLimit || bounds.maxZ >= map.worldLimit) {
+      throw new Error(`Map "${map.id}" district marking crosses the boundary.`);
+    }
+  });
   for (const area of [
     ...(map.chasePlacement?.preferredAreas ?? []),
     ...(map.chasePlacement?.noSpawnAreas ?? []),

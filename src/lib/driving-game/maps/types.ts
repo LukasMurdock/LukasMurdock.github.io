@@ -44,6 +44,20 @@ export type PropDefinition = {
   z: number;
 };
 
+export type SignDefinition = PropDefinition & {
+  rotation?: number;
+  color?: number;
+};
+
+export type DistrictMarkingDefinition = {
+  x: number;
+  z: number;
+  width: number;
+  depth: number;
+  rotation?: number;
+  color?: number;
+};
+
 export type GroundPatchDefinition = {
   x: number;
   z: number;
@@ -115,6 +129,8 @@ export type GameMapDefinition = {
   trees: readonly PropDefinition[];
   streetlights: readonly PropDefinition[];
   barriers: readonly PropDefinition[];
+  signs?: readonly SignDefinition[];
+  districtMarkings?: readonly DistrictMarkingDefinition[];
   circuit?: readonly CircuitPhrase[];
   chasePlacement?: ChasePlacementDefinition;
   layoutDiagnostics?: MapLayoutDiagnostics;
