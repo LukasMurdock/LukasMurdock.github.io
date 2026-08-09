@@ -27,6 +27,7 @@ class TurboI6OrderProcessor extends AudioWorkletProcessor {
     this.randomState = 0x2f6e2b1;
     this.noiseLow = 0;
     this.noiseMid = 0;
+    this.timbreWander = 0;
     this.previousCylinder = -1;
     this.cylinderStrength = [1, 0.972, 1.026, 0.988, 1.017, 0.981];
     this.tableSize = 2048;
@@ -105,7 +106,13 @@ class TurboI6OrderProcessor extends AudioWorkletProcessor {
       this.phase += crankHz * 0.5 * this.tableSize / sampleRate * revolutionTexture;
       if (this.phase >= this.tableSize) this.phase -= this.tableSize;
 
-      const tablePosition = this.tablePositionForRpm(this.rpm);
+      this.timbreWander += ((this.random() * 2 - 1) - this.timbreWander) * 0.000025;
+      const tablePosition = Math.max(0, Math.min(
+        3,
+        this.tablePositionForRpm(this.rpm)
+          + this.timbreWander * 0.09
+          + Math.sin(this.time * 0.71) * 0.025,
+      ));
       const lowerTable = Math.floor(tablePosition);
       const upperTable = Math.min(3, lowerTable + 1);
       const tableBlend = tablePosition - lowerTable;

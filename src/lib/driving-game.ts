@@ -14,6 +14,163 @@ type Obstacle = {
   resetsCar?: boolean;
 };
 
+type DrivingProfile = {
+  acceleration: number;
+  maximumSpeed: number;
+  boostedMaximumSpeed: number;
+  inputBuffer: number;
+  grip: {
+    lateralGrip: number;
+    drag: number;
+    yawRate: number;
+    yawResponse: number;
+  };
+  drift: {
+    minimumSpeed: number;
+    breakawayDuration: number;
+    breakawayStartAngle: number;
+    breakawayEndAngle: number;
+    breakawaySteeringAngle: number;
+    breakawayImpulse: number;
+    sustainBaseAngle: number;
+    sustainChargeAngle: number;
+    sustainChargeDelay: number;
+    sustainChargeDuration: number;
+    sustainIntoAngle: number;
+    sustainCounterAngle: number;
+    minimumAngle: number;
+    maximumAngle: number;
+    transitionSteerThreshold: number;
+    transitionIntentDuration: number;
+    transitionDuration: number;
+    transitionAngle: number;
+    transitionImpulse: number;
+    headingAssist: number;
+    assistFalloff: number;
+    assistFalloffStartAngle: number;
+    assistFalloffRange: number;
+    steeringYaw: number;
+    yawDamping: number;
+    maximumYawRate: number;
+    lateralGrip: number;
+    corneringGrip: number;
+    transitionGrip: number;
+    drag: number;
+    usefulSlipAngle: number;
+    normalPenaltyRange: number;
+    normalPenalty: number;
+    dangerSlipAngle: number;
+    dangerPenaltyRange: number;
+    dangerPenalty: number;
+  };
+  recovery: {
+    duration: number;
+    headingAssist: number;
+    yawDamping: number;
+    initialGrip: number;
+    finalGrip: number;
+    drag: number;
+  };
+  offRoad: {
+    extraDrag: number;
+    minimumGrip: number;
+  };
+  exitBoost: {
+    duration: number;
+    baseForce: number;
+    qualityForce: number;
+  };
+};
+
+const BALANCED_PROFILE: DrivingProfile = {
+  acceleration: 16,
+  maximumSpeed: 25,
+  boostedMaximumSpeed: 27,
+  inputBuffer: 0.2,
+  grip: { lateralGrip: 8.2, drag: 0.46, yawRate: 1.15, yawResponse: 10 },
+  drift: {
+    minimumSpeed: 6.2,
+    breakawayDuration: 0.16,
+    breakawayStartAngle: 12,
+    breakawayEndAngle: 20,
+    breakawaySteeringAngle: 6,
+    breakawayImpulse: 8.5,
+    sustainBaseAngle: 15,
+    sustainChargeAngle: 6,
+    sustainChargeDelay: 0.25,
+    sustainChargeDuration: 1.4,
+    sustainIntoAngle: 23,
+    sustainCounterAngle: 23,
+    minimumAngle: 7,
+    maximumAngle: 44,
+    transitionSteerThreshold: 0.55,
+    transitionIntentDuration: 0.1,
+    transitionDuration: 0.23,
+    transitionAngle: 18,
+    transitionImpulse: 3.2,
+    headingAssist: 36,
+    assistFalloff: 0.38,
+    assistFalloffStartAngle: 42,
+    assistFalloffRange: 14,
+    steeringYaw: 1.8,
+    yawDamping: 7.2,
+    maximumYawRate: 4.2,
+    lateralGrip: 0.72,
+    corneringGrip: 0.62,
+    transitionGrip: 0.52,
+    drag: 0.5,
+    usefulSlipAngle: 12,
+    normalPenaltyRange: 23,
+    normalPenalty: 0.46,
+    dangerSlipAngle: 40,
+    dangerPenaltyRange: 16,
+    dangerPenalty: 0.68,
+  },
+  recovery: { duration: 0.4, headingAssist: 30, yawDamping: 9, initialGrip: 2.2, finalGrip: 9.6, drag: 0.3 },
+  offRoad: { extraDrag: 0.18, minimumGrip: 3.2 },
+  exitBoost: { duration: 0.7, baseForce: 3.5, qualityForce: 6 },
+};
+
+const DRIVING_PROFILES = {
+  balanced: BALANCED_PROFILE,
+  loose: {
+    ...BALANCED_PROFILE,
+    grip: { ...BALANCED_PROFILE.grip, lateralGrip: 7.3, yawRate: 1.25 },
+    drift: {
+      ...BALANCED_PROFILE.drift,
+      minimumSpeed: 5.2,
+      sustainBaseAngle: 18,
+      maximumAngle: 49,
+      headingAssist: 40,
+      normalPenalty: 0.35,
+      dangerPenalty: 0.58,
+    },
+    recovery: { ...BALANCED_PROFILE.recovery, duration: 0.48, finalGrip: 8.7 },
+  },
+  technical: {
+    ...BALANCED_PROFILE,
+    acceleration: 17,
+    maximumSpeed: 26,
+    grip: { ...BALANCED_PROFILE.grip, lateralGrip: 9.3, yawRate: 1.08 },
+    drift: {
+      ...BALANCED_PROFILE.drift,
+      minimumSpeed: 7,
+      maximumAngle: 40,
+      headingAssist: 31,
+      transitionDuration: 0.19,
+      normalPenalty: 0.55,
+      dangerPenalty: 0.82,
+    },
+    recovery: { ...BALANCED_PROFILE.recovery, duration: 0.32, finalGrip: 10.5 },
+  },
+} satisfies Record<string, DrivingProfile>;
+
+type DrivingProfileName = keyof typeof DRIVING_PROFILES;
+
+// Internal tuning switch: change this value to compare handling presets.
+const ACTIVE_DRIVING_PROFILE: DrivingProfileName = "balanced";
+const DRIVING = DRIVING_PROFILES[ACTIVE_DRIVING_PROFILE];
+
 const UP = new THREE.Vector3(0, 1, 0);
 const WORLD_LIMIT = 150;
 const CAR_RADIUS = 1.25;
@@ -217,11 +374,11 @@ export function startDrivingGame(root: HTMLElement) {
     const onPavement = world.isOnPavement(position);
 
     // A short buffer makes pressing Drift just before steering feel intentional rather than missed.
-    if (handbrakePressed) driftInputBuffer = 0.2;
+    if (handbrakePressed) driftInputBuffer = DRIVING.inputBuffer;
     else driftInputBuffer = Math.max(0, driftInputBuffer - dt);
     previousHandbrake = controls.handbrake;
 
-    const canBreakAway = speed > 6.2 && Math.abs(steer) > 0.16;
+    const canBreakAway = speed > DRIVING.drift.minimumSpeed && Math.abs(steer) > 0.16;
     if (driftPhase === "grip" && canBreakAway && (controls.handbrake || driftInputBuffer > 0)) {
       driftPhase = "breakaway";
       driftDirection = Math.sign(steer);
@@ -247,9 +404,9 @@ export function startDrivingGame(root: HTMLElement) {
     if (driftPhase !== "grip") driftStayedOnPavement &&= onPavement;
 
     // Throttle is always on: the game is about choosing a line, not managing pedals.
-    velocity.addScaledVector(forward, 16 * dt);
+    velocity.addScaledVector(forward, DRIVING.acceleration * dt);
     if (exitBoost > 0) {
-      const boostEnvelope = Math.sin((exitBoost / 0.7) * Math.PI);
+      const boostEnvelope = Math.sin((exitBoost / DRIVING.exitBoost.duration) * Math.PI);
       velocity.addScaledVector(forward, exitBoostForce * boostEnvelope * dt);
       exitBoost = Math.max(0, exitBoost - dt);
     }
@@ -262,39 +419,54 @@ export function startDrivingGame(root: HTMLElement) {
     const velocityHeading = currentSpeed > 0.4 ? Math.atan2(velocity.x, velocity.z) : heading;
     const currentSlip = angleDifference(heading, velocityHeading);
     const currentSlipDegrees = Math.abs(THREE.MathUtils.radToDeg(currentSlip));
-    let grip = 8.2;
-    let drag = 0.46;
+    let grip = DRIVING.grip.lateralGrip;
+    let drag = DRIVING.grip.drag;
 
     if (driftPhase === "grip") {
       // Grip steering is deliberately wider at speed; drifting is the tool for tight corners.
-      const targetYawVelocity = steer * 1.15 * speedRatio;
-      yawVelocity = THREE.MathUtils.lerp(yawVelocity, targetYawVelocity, 1 - Math.exp(-10 * dt));
+      const targetYawVelocity = steer * DRIVING.grip.yawRate * speedRatio;
+      yawVelocity = THREE.MathUtils.lerp(
+        yawVelocity,
+        targetYawVelocity,
+        1 - Math.exp(-DRIVING.grip.yawResponse * dt),
+      );
     } else if (driftPhase === "breakaway" || driftPhase === "sustain" || driftPhase === "transition") {
       let targetSlip = 0;
       let setImpulse = 0;
 
       if (driftPhase === "breakaway") {
-        const setProgress = THREE.MathUtils.clamp(phaseTime / 0.16, 0, 1);
-        const targetDegrees = THREE.MathUtils.lerp(12, 20, setProgress) + Math.max(0, steer * driftDirection) * 6;
+        const setProgress = THREE.MathUtils.clamp(phaseTime / DRIVING.drift.breakawayDuration, 0, 1);
+        const targetDegrees = THREE.MathUtils.lerp(
+          DRIVING.drift.breakawayStartAngle,
+          DRIVING.drift.breakawayEndAngle,
+          setProgress,
+        ) + Math.max(0, steer * driftDirection) * DRIVING.drift.breakawaySteeringAngle;
         targetSlip = THREE.MathUtils.degToRad(-driftDirection * targetDegrees);
-        setImpulse = driftDirection * 8.5 * (1 - setProgress) * speedRatio;
-        if (phaseTime >= 0.16) {
+        setImpulse = driftDirection * DRIVING.drift.breakawayImpulse * (1 - setProgress) * speedRatio;
+        if (phaseTime >= DRIVING.drift.breakawayDuration) {
           driftPhase = "sustain";
           phaseTime = 0;
         }
       } else if (driftPhase === "sustain") {
         const intoDrift = steer * driftDirection;
-        const holdCharge = THREE.MathUtils.clamp((driftTime - 0.25) / 1.4, 0, 1) * 6;
+        const holdCharge = THREE.MathUtils.clamp(
+          (driftTime - DRIVING.drift.sustainChargeDelay) / DRIVING.drift.sustainChargeDuration,
+          0,
+          1,
+        ) * DRIVING.drift.sustainChargeAngle;
         const targetDegrees = THREE.MathUtils.clamp(
-          15 + holdCharge + Math.max(0, intoDrift) * 23 - Math.max(0, -intoDrift) * 23,
-          7,
-          44,
+          DRIVING.drift.sustainBaseAngle
+            + holdCharge
+            + Math.max(0, intoDrift) * DRIVING.drift.sustainIntoAngle
+            - Math.max(0, -intoDrift) * DRIVING.drift.sustainCounterAngle,
+          DRIVING.drift.minimumAngle,
+          DRIVING.drift.maximumAngle,
         );
         targetSlip = THREE.MathUtils.degToRad(-driftDirection * targetDegrees);
 
-        if (intoDrift < -0.55) transitionIntentTime += dt;
+        if (intoDrift < -DRIVING.drift.transitionSteerThreshold) transitionIntentTime += dt;
         else transitionIntentTime = Math.max(0, transitionIntentTime - dt * 2);
-        if (transitionIntentTime >= 0.1) {
+        if (transitionIntentTime >= DRIVING.drift.transitionIntentDuration) {
           driftPhase = "transition";
           phaseTime = 0;
           transitionIntentTime = 0;
@@ -302,12 +474,16 @@ export function startDrivingGame(root: HTMLElement) {
           bodyKick = 0.45;
         }
       } else {
-        const transitionProgress = THREE.MathUtils.smoothstep(phaseTime / 0.23, 0, 1);
+        const transitionProgress = THREE.MathUtils.smoothstep(
+          phaseTime / DRIVING.drift.transitionDuration,
+          0,
+          1,
+        );
         const nextDirection = -driftDirection;
-        const nextSlip = THREE.MathUtils.degToRad(-nextDirection * 18);
+        const nextSlip = THREE.MathUtils.degToRad(-nextDirection * DRIVING.drift.transitionAngle);
         targetSlip = THREE.MathUtils.lerp(transitionStartSlip, nextSlip, transitionProgress);
-        setImpulse = nextDirection * Math.sin(transitionProgress * Math.PI) * 3.2;
-        if (phaseTime >= 0.23) {
+        setImpulse = nextDirection * Math.sin(transitionProgress * Math.PI) * DRIVING.drift.transitionImpulse;
+        if (phaseTime >= DRIVING.drift.transitionDuration) {
           driftDirection = nextDirection;
           driftPhase = "sustain";
           phaseTime = 0;
@@ -318,37 +494,63 @@ export function startDrivingGame(root: HTMLElement) {
       const headingError = angleDifference(heading, desiredHeading);
       const assistFalloff = THREE.MathUtils.lerp(
         1,
-        0.38,
-        THREE.MathUtils.clamp((currentSlipDegrees - 42) / 14, 0, 1),
+        DRIVING.drift.assistFalloff,
+        THREE.MathUtils.clamp(
+          (currentSlipDegrees - DRIVING.drift.assistFalloffStartAngle) / DRIVING.drift.assistFalloffRange,
+          0,
+          1,
+        ),
       );
-      const yawAcceleration = headingError * 36 * assistFalloff + steer * 1.8 + setImpulse - yawVelocity * 7.2;
+      const yawAcceleration = headingError * DRIVING.drift.headingAssist * assistFalloff
+        + steer * DRIVING.drift.steeringYaw
+        + setImpulse
+        - yawVelocity * DRIVING.drift.yawDamping;
       yawVelocity += yawAcceleration * dt;
-      yawVelocity = THREE.MathUtils.clamp(yawVelocity, -4.2, 4.2);
+      yawVelocity = THREE.MathUtils.clamp(
+        yawVelocity,
+        -DRIVING.drift.maximumYawRate,
+        DRIVING.drift.maximumYawRate,
+      );
       const corneringDemand = Math.max(0, steer * driftDirection);
-      grip = driftPhase === "transition" ? 0.52 : 0.72 + corneringDemand * 0.62;
+      grip = driftPhase === "transition"
+        ? DRIVING.drift.transitionGrip
+        : DRIVING.drift.lateralGrip + corneringDemand * DRIVING.drift.corneringGrip;
 
       // Shallow drifts preserve speed. Big, spectacular angles remain possible but cost momentum.
-      const usefulSlip = Math.max(0, currentSlipDegrees - 12);
-      const normalPenalty = THREE.MathUtils.clamp(usefulSlip / 23, 0, 1);
-      const dangerPenalty = THREE.MathUtils.clamp((currentSlipDegrees - 40) / 16, 0, 1);
-      drag = 0.5 + normalPenalty * normalPenalty * 0.46 + dangerPenalty * dangerPenalty * 0.68;
+      const usefulSlip = Math.max(0, currentSlipDegrees - DRIVING.drift.usefulSlipAngle);
+      const normalPenalty = THREE.MathUtils.clamp(usefulSlip / DRIVING.drift.normalPenaltyRange, 0, 1);
+      const dangerPenalty = THREE.MathUtils.clamp(
+        (currentSlipDegrees - DRIVING.drift.dangerSlipAngle) / DRIVING.drift.dangerPenaltyRange,
+        0,
+        1,
+      );
+      drag = DRIVING.drift.drag
+        + normalPenalty * normalPenalty * DRIVING.drift.normalPenalty
+        + dangerPenalty * dangerPenalty * DRIVING.drift.dangerPenalty;
     } else {
       // Hook-up progressively aligns the body and velocity rather than snapping either one.
       const headingError = angleDifference(heading, velocityHeading);
-      const recoveryProgress = THREE.MathUtils.clamp(phaseTime / 0.4, 0, 1);
-      yawVelocity += (headingError * 30 - yawVelocity * 9) * dt;
-      grip = THREE.MathUtils.lerp(2.2, 9.6, recoveryProgress);
-      drag = 0.3;
+      const recoveryProgress = THREE.MathUtils.clamp(phaseTime / DRIVING.recovery.duration, 0, 1);
+      yawVelocity += (
+        headingError * DRIVING.recovery.headingAssist
+        - yawVelocity * DRIVING.recovery.yawDamping
+      ) * dt;
+      grip = THREE.MathUtils.lerp(
+        DRIVING.recovery.initialGrip,
+        DRIVING.recovery.finalGrip,
+        recoveryProgress,
+      );
+      drag = DRIVING.recovery.drag;
 
-      if (phaseTime >= 0.4 || Math.abs(headingError) < THREE.MathUtils.degToRad(2.5)) {
+      if (phaseTime >= DRIVING.recovery.duration || Math.abs(headingError) < THREE.MathUtils.degToRad(2.5)) {
         const alignment = 1 - THREE.MathUtils.clamp(currentSlipDegrees / 14, 0, 1);
         const duration = THREE.MathUtils.clamp((driftTime - 0.35) / 1.35, 0, 1);
         const retention = THREE.MathUtils.clamp(currentSpeed / Math.max(driftEntrySpeed, 1), 0.6, 1) - 0.6;
         const roadBonus = driftStayedOnPavement ? 1 : 0.35;
         const exitQuality = alignment * (0.45 + duration * 0.55) * (0.65 + retention * 0.875) * roadBonus;
         if (exitQuality > 0.12 && driftTime > 0.45) {
-          exitBoost = 0.7;
-          exitBoostForce = 3.5 + exitQuality * 6;
+          exitBoost = DRIVING.exitBoost.duration;
+          exitBoostForce = DRIVING.exitBoost.baseForce + exitQuality * DRIVING.exitBoost.qualityForce;
           exitPulse = exitQuality;
         }
         driftPhase = "grip";
@@ -362,8 +564,8 @@ export function startDrivingGame(root: HTMLElement) {
     heading = normalizeAngle(heading + yawVelocity * dt);
 
     if (!onPavement) {
-      drag += 0.18;
-      grip = Math.max(grip, 3.2);
+      drag += DRIVING.offRoad.extraDrag;
+      grip = Math.max(grip, DRIVING.offRoad.minimumGrip);
     }
 
     forward = new THREE.Vector3(Math.sin(heading), 0, Math.cos(heading));
@@ -372,7 +574,7 @@ export function startDrivingGame(root: HTMLElement) {
     const lateralSpeed = velocity.dot(right);
     velocity.copy(forward.clone().multiplyScalar(forwardSpeed)).add(right.multiplyScalar(lateralSpeed * Math.exp(-grip * dt)));
     velocity.multiplyScalar(Math.exp(-drag * dt));
-    const maximumSpeed = exitBoost > 0 ? 27 : 25;
+    const maximumSpeed = exitBoost > 0 ? DRIVING.boostedMaximumSpeed : DRIVING.maximumSpeed;
     if (velocity.length() > maximumSpeed) velocity.setLength(maximumSpeed);
 
     const distance = velocity.length() * dt;
@@ -389,7 +591,9 @@ export function startDrivingGame(root: HTMLElement) {
       * THREE.MathUtils.clamp(finalSpeed / 10, 0, 1);
 
     steeringVisual = THREE.MathUtils.lerp(steeringVisual, steer * 0.48, 1 - Math.exp(-12 * dt));
-    const transitionSettle = driftPhase === "transition" ? Math.abs(phaseTime / 0.23 - 0.5) * 2 : 1;
+    const transitionSettle = driftPhase === "transition"
+      ? Math.abs(phaseTime / DRIVING.drift.transitionDuration - 0.5) * 2
+      : 1;
     const targetRoll = THREE.MathUtils.clamp(
       (-steer * 0.025 + visualSlip * 0.12) * transitionSettle,
       -0.075,
@@ -480,7 +684,7 @@ export function startDrivingGame(root: HTMLElement) {
     const velocityDirection = speed > 0.5 ? velocity.clone().normalize() : forward.clone();
     const slipBlend = THREE.MathUtils.clamp(Math.abs(visualSlip) / THREE.MathUtils.degToRad(30), 0, 1) * 0.35;
     const cameraForward = forward.clone().lerp(velocityDirection, slipBlend).normalize();
-    const speedRatio = THREE.MathUtils.clamp(speed / 25, 0, 1);
+    const speedRatio = THREE.MathUtils.clamp(speed / DRIVING.maximumSpeed, 0, 1);
     const speedLead = velocity.clone().multiplyScalar(0.045);
     lookTarget.lerp(position.clone().add(speedLead).add(new THREE.Vector3(0, 1, 0)), follow);
 
@@ -1224,6 +1428,7 @@ function createCarAudio(): CarAudio | null {
   let engineLoad = 0.45;
   let turboSpool = 0;
   let enginePunch = 0;
+  let previousVehicleSpeed = 0;
   let previousPhase: DriftPhase = "grip";
   let previouslyBoosting = false;
   let previousSignedSlip = 0;
@@ -1268,15 +1473,15 @@ function createCarAudio(): CarAudio | null {
   return {
     update({ dt, speed, signedSlipDegrees, steeringLoad, steerDirection, phase, onPavement, boosting }) {
       const now = context.currentTime;
-      const speedNormalized = THREE.MathUtils.clamp(speed / 25, 0, 1);
+      const speedNormalized = THREE.MathUtils.clamp(speed / DRIVING.maximumSpeed, 0, 1);
       const absoluteSlip = Math.abs(signedSlipDegrees);
       const slipRate = (signedSlipDegrees - previousSignedSlip) / Math.max(dt, 0.001);
       const slipGrowth = (absoluteSlip - previousAbsoluteSlip) / Math.max(dt, 0.001);
       const instability = THREE.MathUtils.clamp(Math.abs(slipRate) / 110, 0, 1);
       chirpCooldown = Math.max(0, chirpCooldown - dt);
 
-      // Five short arcade gears keep the engine energetic while making acceleration rhythmic.
-      const gearEdges = [0, 5.2, 10.2, 15.2, 20.3, 27];
+      // Short lower gears create rhythm; a final overdrive prevents long straights from sitting at redline.
+      const gearEdges = [0, 4.2, 8.2, 12.2, 16.3, 20.5, 24, 28];
       let desiredGear = gear;
       for (let i = 0; i < gearEdges.length - 1; i++) {
         if (speed >= gearEdges[i]) desiredGear = i;
@@ -1290,13 +1495,23 @@ function createCarAudio(): CarAudio | null {
       const gearEnd = gearEdges[Math.min(gear + 1, gearEdges.length - 1)];
       const gearProgress = THREE.MathUtils.clamp((speed - gearStart) / Math.max(gearEnd - gearStart, 1), 0, 1);
       const drivingRpm = 2200 + gearProgress * 5600;
-      const targetRpm = THREE.MathUtils.lerp(900, drivingRpm, THREE.MathUtils.smoothstep(speed, 0.15, 2));
+      const acceleration = (speed - previousVehicleSpeed) / Math.max(dt, 0.001);
+      previousVehicleSpeed = speed;
+      const accelerationLoad = THREE.MathUtils.smoothstep(acceleration, 0.15, 7);
+      const cruiseWander = (1 - accelerationLoad)
+        * (Math.sin(now * 0.83) * 42 + Math.sin(now * 2.17) * 19);
+      const targetRpm = THREE.MathUtils.lerp(900, drivingRpm, THREE.MathUtils.smoothstep(speed, 0.15, 2))
+        + cruiseWander;
       const rpmResponse = targetRpm > engineRpm ? 0.06 : 0.095;
       engineRpm = THREE.MathUtils.lerp(engineRpm, targetRpm, 1 - Math.exp(-dt / rpmResponse));
 
       const drifting = phase === "breakaway" || phase === "sustain" || phase === "transition";
-      let targetLoad = 0.54 + speedNormalized * 0.12 + Number(drifting) * 0.2 + enginePunch * 0.2;
-      if (phase === "recover") targetLoad = 0.24;
+      let targetLoad = 0.34
+        + speedNormalized * 0.08
+        + accelerationLoad * 0.3
+        + Number(drifting) * 0.22
+        + enginePunch * 0.2;
+      if (phase === "recover") targetLoad = 0.2;
       if (boosting) targetLoad += 0.22;
       if (now < shiftDipUntil) targetLoad = 0.08;
       engineLoad = THREE.MathUtils.lerp(engineLoad, THREE.MathUtils.clamp(targetLoad, 0, 1), 1 - Math.exp(-dt / 0.085));
