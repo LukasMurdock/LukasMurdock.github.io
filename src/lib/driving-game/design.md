@@ -1,6 +1,6 @@
 # Driving Game Feel Specification
 
-This document is the experiential north star for the driving game in this directory. `runtime.ts` owns the shared driving runtime, while `maps/`, `modes/`, and `driving-profiles.ts` define the switchable content around it. It reflects the game as it exists now: automatic throttle, steering plus a held Drift input, distinct drift phases, an expanded city and outer circuit, assisted arcade physics, close chase cameras, persistent marks and smoke, and reference-derived procedural engine and tire audio.
+This document is the experiential north star for the driving game in this directory. `runtime.ts` owns the shared driving runtime, while `maps/`, `modes/`, and `driving-profiles.ts` define the switchable content around it. It reflects the game as it exists now: automatic throttle, steering plus a held Drift input, a double-tap hard-turn gesture, distinct drift phases, an expanded city and outer circuit, assisted arcade physics, close chase cameras, persistent marks and smoke, and reference-derived procedural engine and tire audio.
 
 It is not a promise to simulate a car accurately. It defines what every system should help the player believe.
 
@@ -44,6 +44,8 @@ The engine should pull hard through short gears, then settle into a lower-load o
 Grip is stable until the player deliberately holds Drift while steering above the minimum entry speed. Breakaway should be decisive and readable. The player should never wonder whether the button worked.
 
 Small input timing forgiveness is desirable. The existing buffered initiation supports intent without visibly driving for the player.
+
+Double-tapping the same steering direction requests a stronger entry through the same sideslip controller. For roughly 200 ms it asks for a deeper angle, stronger set impulse, and tighter trajectory; then authority returns to the normal sustain model. It can rescue a widening line or set up a hairpin, but pays primarily through the angle-based momentum cost rather than a hidden braking tax. A clean hard-drift exit remains eligible for the normal hook-up reward.
 
 ### Drift angle control
 

@@ -59,6 +59,7 @@ export type GameMapDefinition = {
   parkingLots: readonly ParkingLotDefinition[];
   buildings: readonly BuildingDefinition[];
   trees: readonly PropDefinition[];
+  streetlights: readonly PropDefinition[];
   barriers: readonly PropDefinition[];
   circuit?: readonly CircuitPhrase[];
   spawn: MapSpawn;

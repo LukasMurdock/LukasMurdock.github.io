@@ -50,6 +50,21 @@ export type DrivingProfile = {
     finalGrip: number;
     drag: number;
   };
+  hardDrift: {
+    doubleTapWindow: number;
+    inputBuffer: number;
+    minimumSpeed: number;
+    entryDuration: number;
+    startAngle: number;
+    endAngle: number;
+    steeringAngle: number;
+    entryImpulse: number;
+    lateralGrip: number;
+    corneringMultiplier: number;
+    entryDrag: number;
+    initialSpeedRetention: number;
+    kickDecay: number;
+  };
   offRoad: { extraDrag: number; minimumGrip: number };
   exitBoost: { duration: number; baseForce: number; qualityForce: number };
 };
@@ -99,6 +114,21 @@ const BALANCED_PROFILE: DrivingProfile = {
     dangerPenalty: 0.68,
   },
   recovery: { duration: 0.4, headingAssist: 30, yawDamping: 9, initialGrip: 2.2, finalGrip: 9.6, drag: 0.3 },
+  hardDrift: {
+    doubleTapWindow: 0.27,
+    inputBuffer: 0.15,
+    minimumSpeed: 7,
+    entryDuration: 0.2,
+    startAngle: 18,
+    endAngle: 32,
+    steeringAngle: 8,
+    entryImpulse: 11.5,
+    lateralGrip: 0.45,
+    corneringMultiplier: 1.35,
+    entryDrag: 0.45,
+    initialSpeedRetention: 0.97,
+    kickDecay: 0.3,
+  },
   offRoad: { extraDrag: 0.18, minimumGrip: 3.2 },
   exitBoost: { duration: 0.7, baseForce: 3.5, qualityForce: 6 },
 };

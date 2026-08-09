@@ -2,7 +2,7 @@ import type { DrivingProfileName } from "./driving-profiles";
 import type { GameMapId } from "./maps";
 import type { GameModeId } from "./modes";
 
-export type CameraMode = "Chase" | "Overhead" | "Side";
+export type CameraMode = "Chase" | "Isometric" | "Side";
 export type DriftPhase = "grip" | "breakaway" | "sustain" | "transition" | "recover";
 
 export type DrivingGameOptions = {

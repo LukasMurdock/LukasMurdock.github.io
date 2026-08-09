@@ -35,7 +35,7 @@ import Head from "@/components/Head.astro";
           <p>Follow the red-and-white circuit, link its corners, or leave the course and roam the city. There is nowhere you need to be.</p>
           <button id="start-driving" type="button">Start driving <span aria-hidden="true">→</span></button>
           <div class="key-guide" aria-label="Keyboard controls">
-            <span><kbd>← →</kbd> Steer</span>
+            <span><kbd>← →</kbd> Steer · tap twice for hard turn</span>
             <span><kbd>Space</kbd> Drift</span>
             <span><kbd>C</kbd> Camera</span>
             <span><kbd>P</kbd> Pause</span>
@@ -54,8 +54,8 @@ import Head from "@/components/Head.astro";
 
       <div class="touch-controls" aria-label="Touch driving controls">
         <div class="steering-controls">
-          <button type="button" data-control="left" aria-label="Steer left">←</button>
-          <button type="button" data-control="right" aria-label="Steer right">→</button>
+          <button type="button" data-control="left" aria-label="Steer left; double-tap for a hard left turn">←</button>
+          <button type="button" data-control="right" aria-label="Steer right; double-tap for a hard right turn">→</button>
         </div>
         <button class="drift" type="button" data-control="handbrake" aria-label="Drift">Drift</button>
       </div>

@@ -2,9 +2,12 @@
 
 The driving game is split along the things that can vary independently:
 
-- `runtime.ts` — rendering, player vehicle, controls, cameras, collisions, audio, and the frame loop.
+- `runtime.ts` — lifecycle, shared state, controls, player physics, cameras, collisions, mode wiring, and the frame loop.
 - `driving-profiles.ts` — internal handling presets used while tuning.
-- `audio/` — procedural engine and tire AudioWorklet sources.
+- `audio/` — car-audio orchestration plus procedural engine and tire AudioWorklet sources.
+- `vehicle/` — player-car construction, drift smoke, and skid marks.
+- `world/` — map construction, circuit geometry, buildings, props, and collision bounds.
+- `local-leaderboard.ts` — persistent local drive results and future command-facing queries.
 - `maps/` — world geometry, environment settings, pavement, spawn, and boundaries.
 - `modes/` — rules, mode-specific actors, lifecycle, and presentation copy.
 - `types.ts` — launch options and shared runtime state names.
@@ -41,6 +44,12 @@ A map owns:
 - player spawn.
 
 Every registered mode receives the selected map in its runtime context.
+
+## Local drive leaderboard
+
+A drive timer advances only while gameplay is running and unpaused. Building collisions, world-boundary exits, manual resets, and mode-requested resets end the current drive and persist its duration in `localStorage`. Results include the selected mode, map, handling profile, end reason, and timestamp; the longest drives sort first and storage is capped at 100 entries.
+
+A future command can import `getLocalDriveLeaderboard` from the public `driving-game.ts` facade. It supports mode, map, profile, and result-count filters. `clearLocalDriveLeaderboard` is also exported for a future reset command. Trees, barriers, and streetlights are terminal collision obstacles: hitting one resets the car and records the completed drive alongside building and boundary failures.
 
 ## Adding or implementing a mode
 
