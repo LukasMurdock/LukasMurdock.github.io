@@ -2,6 +2,7 @@ export type DrivingProfile = {
   acceleration: number;
   maximumSpeed: number;
   boostedMaximumSpeed: number;
+  redlineAtMaximumSpeed: boolean;
   inputBuffer: number;
   grip: { lateralGrip: number; drag: number; yawRate: number; yawResponse: number };
   drift: {
@@ -53,6 +54,7 @@ export type DrivingProfile = {
   hardDrift: {
     doubleTapWindow: number;
     inputBuffer: number;
+    reentryWindow: number;
     minimumSpeed: number;
     entryDuration: number;
     startAngle: number;
@@ -73,6 +75,7 @@ const BALANCED_PROFILE: DrivingProfile = {
   acceleration: 16,
   maximumSpeed: 25,
   boostedMaximumSpeed: 27,
+  redlineAtMaximumSpeed: false,
   inputBuffer: 0.2,
   grip: { lateralGrip: 8.2, drag: 0.46, yawRate: 1.15, yawResponse: 10 },
   drift: {
@@ -117,6 +120,7 @@ const BALANCED_PROFILE: DrivingProfile = {
   hardDrift: {
     doubleTapWindow: 0.27,
     inputBuffer: 0.15,
+    reentryWindow: 0.6,
     minimumSpeed: 7,
     entryDuration: 0.2,
     startAngle: 18,
@@ -164,6 +168,36 @@ export const DRIVING_PROFILES = {
       dangerPenalty: 0.82,
     },
     recovery: { ...BALANCED_PROFILE.recovery, duration: 0.32, finalGrip: 10.5 },
+  },
+  aggressive: {
+    ...BALANCED_PROFILE,
+    acceleration: 19.5,
+    maximumSpeed: 28,
+    boostedMaximumSpeed: 31,
+    redlineAtMaximumSpeed: true,
+    grip: { ...BALANCED_PROFILE.grip, lateralGrip: 7.8, yawRate: 1.24 },
+    drift: {
+      ...BALANCED_PROFILE.drift,
+      minimumSpeed: 6.8,
+      breakawayDuration: 0.14,
+      breakawayEndAngle: 23,
+      breakawayImpulse: 10,
+      sustainBaseAngle: 17,
+      maximumAngle: 47,
+      headingAssist: 38,
+      transitionDuration: 0.2,
+      normalPenalty: 0.48,
+      dangerPenalty: 0.74,
+    },
+    hardDrift: {
+      ...BALANCED_PROFILE.hardDrift,
+      minimumSpeed: 7.5,
+      endAngle: 35,
+      entryImpulse: 13,
+      initialSpeedRetention: 0.975,
+    },
+    recovery: { ...BALANCED_PROFILE.recovery, duration: 0.36, finalGrip: 9.2 },
+    exitBoost: { ...BALANCED_PROFILE.exitBoost, baseForce: 4.5, qualityForce: 7 },
   },
 } satisfies Record<string, DrivingProfile>;
 

@@ -45,7 +45,7 @@ Grip is stable until the player deliberately holds Drift while steering above th
 
 Small input timing forgiveness is desirable. The existing buffered initiation supports intent without visibly driving for the player.
 
-Double-tapping the same steering direction requests a stronger entry through the same sideslip controller. For roughly 200 ms it asks for a deeper angle, stronger set impulse, and tighter trajectory; then authority returns to the normal sustain model. It can rescue a widening line or set up a hairpin, but pays primarily through the angle-based momentum cost rather than a hidden braking tax. A clean hard-drift exit remains eligible for the normal hook-up reward.
+Double-tapping the same steering direction requests a stronger entry through the same sideslip controller. For roughly 200 ms it asks for a deeper angle, stronger set impulse, and tighter trajectory; then authority returns to the normal sustain model. It can rescue a widening line or set up a hairpin, but pays primarily through the angle-based momentum cost rather than a hidden braking tax. A clean hard-drift exit remains eligible for the normal hook-up reward. If a directional double-tap begins without Drift held, its direction remains armed for 0.6 seconds; pressing Drift during that window reconnects to the hard slide instead of dropping into an unrelated normal entry. Opposite steering, pause, reset, or expiry cancels that re-entry intent.
 
 ### Drift angle control
 

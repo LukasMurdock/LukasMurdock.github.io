@@ -6,6 +6,7 @@ The driving game is split along the things that can vary independently:
 - `driving-profiles.ts` — internal handling presets used while tuning.
 - `audio/` — car-audio orchestration plus procedural engine and tire AudioWorklet sources.
 - `vehicle/` — player-car construction, drift smoke, and skid marks.
+- `feedback/` — inexpensive screen-space gameplay feedback such as redline speed lines.
 - `world/` — map construction, circuit geometry, buildings, props, and collision bounds.
 - `local-leaderboard.ts` — persistent local drive results and future command-facing queries.
 - `maps/` — world geometry, environment settings, pavement, spawn, and boundaries.
@@ -21,11 +22,13 @@ The driving game is split along the things that can vary independently:
 startDrivingGame(root, {
   mode: "cruise",
   map: "city-circuit",
-  drivingProfile: "balanced",
+  drivingProfile: "loose",
 });
 ```
 
 All options default to the values above. The page does not currently expose selectors; these are composition seams for development and future navigation.
+
+Available internal handling profiles are `balanced`, `loose`, `technical`, and `aggressive`. Aggressive raises acceleration and top speed, uses faster and deeper breakaway behavior, strengthens hard-drift entry and exit boost, and deliberately reaches redline at its normal maximum speed. The other profiles retain a quieter overdrive ratio.
 
 ## Adding a map
 

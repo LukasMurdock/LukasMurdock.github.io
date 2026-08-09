@@ -13,6 +13,7 @@ import Head from "@/components/Head.astro";
   <body>
     <main id="driving-game" aria-label="Driving game">
       <canvas id="game-canvas" tabindex="0"></canvas>
+      <canvas id="speed-lines-canvas" aria-hidden="true"></canvas>
 
       <header class="topbar">
         <a class="wordmark" href="/" aria-label="Return home">LM</a>
@@ -68,7 +69,7 @@ import Head from "@/components/Head.astro";
         startDrivingGame(root, {
           mode: "cruise",
           map: "city-circuit",
-          drivingProfile: "balanced",
+          drivingProfile: "aggressive",
         });
       }
     </script>
@@ -113,6 +114,19 @@ import Head from "@/components/Head.astro";
     width: 100%;
     height: 100%;
     outline: none;
+  }
+
+  #speed-lines-canvas {
+    position: absolute;
+    z-index: 2;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    #speed-lines-canvas { display: none; }
   }
 
   .topbar {

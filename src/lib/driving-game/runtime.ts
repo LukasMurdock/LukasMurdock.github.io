@@ -1,6 +1,7 @@
 import * as THREE from "three";
 import { createCarAudio, type CarAudio } from "./audio/car-audio";
 import { DRIVING_PROFILES } from "./driving-profiles";
+import { createSpeedLines } from "./feedback/speed-lines";
 import { addLocalDriveResult, type DriveEndReason } from "./local-leaderboard";
 import { GAME_MAPS } from "./maps";
 import { GAME_MODES } from "./modes";
@@ -17,9 +18,10 @@ const CAR_RADIUS = 1.25;
 export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions = {}) {
   const map = GAME_MAPS[options.map ?? "city-circuit"];
   const mode = GAME_MODES[options.mode ?? "cruise"];
-  const drivingProfileId = options.drivingProfile ?? "balanced";
+  const drivingProfileId = options.drivingProfile ?? "loose";
   const DRIVING = DRIVING_PROFILES[drivingProfileId];
   const canvas = root.querySelector<HTMLCanvasElement>("#game-canvas");
+  const speedLinesCanvas = root.querySelector<HTMLCanvasElement>("#speed-lines-canvas");
   const cameraNode = root.querySelector<HTMLElement>("#camera-mode");
   const modeHud = root.querySelector<HTMLElement>("#mode-hud");
   const intro = root.querySelector<HTMLElement>("#intro");
@@ -27,7 +29,17 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
   const pauseOverlay = root.querySelector<HTMLElement>("#pause-overlay");
   const pauseButton = root.querySelector<HTMLButtonElement>("#pause-button");
   const resumeButton = root.querySelector<HTMLButtonElement>("#resume-driving");
-  if (!canvas || !cameraNode || !modeHud || !intro || !startButton || !pauseOverlay || !pauseButton || !resumeButton) return;
+  if (
+    !canvas
+    || !speedLinesCanvas
+    || !cameraNode
+    || !modeHud
+    || !intro
+    || !startButton
+    || !pauseOverlay
+    || !pauseButton
+    || !resumeButton
+  ) return;
   const cameraDisplay = cameraNode;
   const gameCanvas = canvas;
   const pauseLayer = pauseOverlay;
@@ -81,6 +93,7 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
   scene.add(car.group);
   const driftSmoke = createDriftSmoke(scene);
   const skidMarks = createSkidMarks(scene);
+  const speedLines = createSpeedLines(speedLinesCanvas);
 
   const position = world.spawnPosition.clone();
   const velocity = new THREE.Vector3();
@@ -96,6 +109,8 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
   let hardDriftInputBuffer = 0;
   let hardDriftKick = 0;
   let hardDriftEntry = false;
+  let hardDriftReentryTime = 0;
+  let hardDriftReentryDirection = 0;
   let lastSteerTapTime = Number.NEGATIVE_INFINITY;
   let lastSteerTapDirection = 0;
   let transitionIntentTime = 0;
@@ -133,6 +148,10 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
     if ((name === "left" || name === "right") && pressed && !controls[name]) {
       const tapTime = performance.now() / 1000;
       const tapDirection = name === "left" ? 1 : -1;
+      if (hardDriftReentryTime > 0 && tapDirection !== hardDriftReentryDirection) {
+        hardDriftReentryTime = 0;
+        hardDriftReentryDirection = 0;
+      }
       if (
         tapTime - lastSteerTapTime <= DRIVING.hardDrift.doubleTapWindow
         && tapDirection === lastSteerTapDirection
@@ -150,6 +169,8 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
     lastSteerTapTime = Number.NEGATIVE_INFINITY;
     lastSteerTapDirection = 0;
     hardDriftInputBuffer = 0;
+    hardDriftReentryTime = 0;
+    hardDriftReentryDirection = 0;
     root.querySelectorAll("[data-control]").forEach((node) => node.classList.remove("is-active"));
   }
 
@@ -188,6 +209,8 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
     hardDriftInputBuffer = 0;
     hardDriftKick = 0;
     hardDriftEntry = false;
+    hardDriftReentryTime = 0;
+    hardDriftReentryDirection = 0;
     lastSteerTapTime = Number.NEGATIVE_INFINITY;
     lastSteerTapDirection = 0;
     transitionIntentTime = 0;
@@ -286,18 +309,34 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
     if (handbrakePressed) driftInputBuffer = DRIVING.inputBuffer;
     else driftInputBuffer = Math.max(0, driftInputBuffer - dt);
     hardDriftInputBuffer = Math.max(0, hardDriftInputBuffer - dt);
+    hardDriftReentryTime = Math.max(0, hardDriftReentryTime - dt);
+    if (hardDriftReentryTime === 0) hardDriftReentryDirection = 0;
     previousHandbrake = controls.handbrake;
 
     const hardDirection = Math.sign(steer);
-    const canHardDrift = speed > DRIVING.hardDrift.minimumSpeed
+    const wantsHardReentry = handbrakePressed
+      && hardDriftReentryTime > 0
+      && speed > DRIVING.hardDrift.minimumSpeed
+      && (hardDirection === 0 || hardDirection === hardDriftReentryDirection);
+    const hardTriggerDirection = wantsHardReentry ? hardDriftReentryDirection : hardDirection;
+    if (wantsHardReentry && hardDriftEntry) {
+      hardDriftReentryTime = 0;
+      hardDriftReentryDirection = 0;
+    }
+    const canDirectionalHardDrift = hardDriftInputBuffer > 0
+      && speed > DRIVING.hardDrift.minimumSpeed
       && Math.abs(steer) > 0.16
-      && (driftPhase === "grip" || driftPhase === "recover" || hardDirection === driftDirection);
-    if (hardDriftInputBuffer > 0 && canHardDrift) {
+      && (
+        driftPhase === "grip"
+        || driftPhase === "recover"
+        || hardTriggerDirection === driftDirection
+      );
+    if (canDirectionalHardDrift || (wantsHardReentry && !hardDriftEntry)) {
       hardDriftInputBuffer = 0;
       hardDriftKick = 1;
       if (driftPhase === "grip" || driftPhase === "recover") {
         driftPhase = "breakaway";
-        driftDirection = hardDirection;
+        driftDirection = hardTriggerDirection;
         driftTime = 0;
         phaseTime = 0;
         transitionIntentTime = 0;
@@ -309,6 +348,14 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
       bodyKick = 1.25;
       cameraShake = Math.max(cameraShake, 0.11);
       driftInputBuffer = 0;
+
+      if (wantsHardReentry || controls.handbrake) {
+        hardDriftReentryTime = 0;
+        hardDriftReentryDirection = 0;
+      } else {
+        hardDriftReentryTime = DRIVING.hardDrift.reentryWindow;
+        hardDriftReentryDirection = hardTriggerDirection;
+      }
     }
 
     const canBreakAway = speed > DRIVING.drift.minimumSpeed && Math.abs(steer) > 0.16;
@@ -709,10 +756,34 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
     return perspectiveCamera;
   }
 
+  const speedLineFocus = new THREE.Vector3();
+  function updateSpeedLines(dt: number) {
+    const camera = activeCamera();
+    camera.updateMatrixWorld();
+    speedLineFocus.set(position.x, 0.8, position.z).project(camera);
+    const focusVisible = speedLineFocus.z >= -1 && speedLineFocus.z <= 1;
+    const redlineIntensity = running && !paused && focusVisible && DRIVING.redlineAtMaximumSpeed
+      ? THREE.MathUtils.smoothstep(
+          velocity.length(),
+          DRIVING.maximumSpeed * 0.94,
+          DRIVING.maximumSpeed,
+        )
+      : 0;
+    speedLines.update({
+      dt,
+      enabled: cameraMode === "Chase",
+      intensity: redlineIntensity,
+      focusX: (speedLineFocus.x * 0.5 + 0.5) * root.clientWidth,
+      focusY: (-speedLineFocus.y * 0.5 + 0.5) * root.clientHeight,
+      boosting: exitBoost > 0,
+    });
+  }
+
   function resize() {
     const width = root.clientWidth;
     const height = root.clientHeight;
     renderer.setSize(width, height, false);
+    speedLines.resize(width, height);
     perspectiveCamera.aspect = width / height;
     perspectiveCamera.updateProjectionMatrix();
 
@@ -750,6 +821,7 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
       modeController?.update(elapsed);
     }
     updateCamera(elapsed);
+    updateSpeedLines(wallElapsed);
     renderer.render(scene, activeCamera());
     requestAnimationFrame(frame);
   }
@@ -760,6 +832,7 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
     resizeObserver.disconnect();
     carAudio?.destroy();
     modeController?.destroy();
+    speedLines.destroy();
     renderer.dispose();
   }, { once: true });
 }

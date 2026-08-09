@@ -182,8 +182,13 @@ export function createCarAudio(DRIVING: DrivingProfile): CarAudio | null {
       const instability = THREE.MathUtils.clamp(Math.abs(slipRate) / 110, 0, 1);
       chirpCooldown = Math.max(0, chirpCooldown - dt);
 
-      // Short lower gears create rhythm; a final overdrive prevents long straights from sitting at redline.
-      const gearEdges = [0, 4.2, 8.2, 12.2, 16.3, 20.5, 24, 28];
+      // Most profiles cruise in overdrive; power-focused profiles can deliberately reach redline at top speed.
+      const gearScale = DRIVING.maximumSpeed / 25;
+      const gearEdges = [0, 4.2, 8.2, 12.2, 16.3, 20.5, 24, 28]
+        .map((edge) => edge * gearScale);
+      if (DRIVING.redlineAtMaximumSpeed) {
+        gearEdges[gearEdges.length - 1] = DRIVING.maximumSpeed;
+      }
       let desiredGear = gear;
       for (let i = 0; i < gearEdges.length - 1; i++) {
         if (speed >= gearEdges[i]) desiredGear = i;
