@@ -362,6 +362,7 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
     button.addEventListener("pointerup", (event) => setPressed(false, event), listenerOptions);
     button.addEventListener("pointercancel", (event) => setPressed(false, event), listenerOptions);
     button.addEventListener("lostpointercapture", (event) => setPressed(false, event), listenerOptions);
+    button.addEventListener("contextmenu", (event) => event.preventDefault(), listenerOptions);
   });
 
   root.querySelector("#camera-button")?.addEventListener("click", switchCamera, listenerOptions);
