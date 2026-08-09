@@ -13,6 +13,15 @@ export type ParkingLotDefinition = {
   z: number;
   width: number;
   depth: number;
+  rotation?: number;
+};
+
+export type RoadCorridorDefinition = {
+  id: string;
+  width: number;
+  points: readonly { x: number; z: number }[];
+  markings?: boolean | "taxiway";
+  surfaceColor?: number;
 };
 
 export type BuildingDefinition = {
@@ -22,12 +31,22 @@ export type BuildingDefinition = {
   depth: number;
   height: number;
   color: number;
+  rotation?: number;
   style?: "standard" | "hangar" | "freight" | "tower";
 };
 
 export type PropDefinition = {
   x: number;
   z: number;
+};
+
+export type GroundPatchDefinition = {
+  x: number;
+  z: number;
+  width: number;
+  depth: number;
+  color: number;
+  rotation?: number;
 };
 
 export type CircuitPhrase = {
@@ -59,7 +78,9 @@ export type GameMapDefinition = {
     shadowFar: number;
   };
   roads: readonly RoadSegmentDefinition[];
+  corridors?: readonly RoadCorridorDefinition[];
   parkingLots: readonly ParkingLotDefinition[];
+  groundPatches?: readonly GroundPatchDefinition[];
   buildings: readonly BuildingDefinition[];
   trees: readonly PropDefinition[];
   streetlights: readonly PropDefinition[];

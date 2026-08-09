@@ -41,6 +41,7 @@ const mapOptions = Object.values(GAME_MAPS);
       </header>
 
       <aside id="mode-hud" class="mode-hud" aria-live="polite"></aside>
+      <aside id="map-diagnostics" class="map-diagnostics" hidden aria-label="Map diagnostics"></aside>
       <aside
         id="drive-leaderboard"
         class="drive-leaderboard"
@@ -290,6 +291,24 @@ const mapOptions = Object.values(GAME_MAPS);
   }
 
   .mode-hud:empty { display: none; }
+
+  .map-diagnostics {
+    position: absolute;
+    z-index: 8;
+    top: 74px;
+    left: 22px;
+    min-width: 190px;
+    padding: 11px 13px;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    border-radius: 10px;
+    background: rgba(13, 20, 18, 0.82);
+    color: rgba(255, 255, 255, 0.78);
+    font: 600 10px/1.5 ui-monospace, SFMono-Regular, Menlo, monospace;
+    white-space: pre;
+    pointer-events: none;
+  }
+
+  .map-diagnostics[hidden] { display: none; }
 
   .drive-leaderboard {
     position: absolute;

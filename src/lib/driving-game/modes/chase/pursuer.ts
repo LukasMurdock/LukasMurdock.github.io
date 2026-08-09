@@ -112,6 +112,25 @@ export function createPursuer(scene: THREE.Scene, world: WorldRuntime): Pursuer 
     observedTarget.lerp(target, 1 - Math.exp(-targetReactionRate * dt));
     const targetHeading = Math.atan2(observedTarget.x - position.x, observedTarget.z - position.z);
     avoidanceTime = Math.max(0, avoidanceTime - dt);
+    if (avoidanceTime <= 0 && speed > 5) {
+      for (const lookAhead of [4, 7, 10]) {
+        candidate.set(
+          position.x + Math.sin(heading) * lookAhead,
+          0.06,
+          position.z + Math.cos(heading) * lookAhead,
+        );
+        const predictedCollision = world.queryCollision(candidate, PURSUER_TUNING.radius);
+        if (!predictedCollision) continue;
+        const tangentA = Math.atan2(predictedCollision.normalZ, -predictedCollision.normalX);
+        const tangentB = normalizeAngle(tangentA + Math.PI);
+        avoidanceHeading = Math.abs(angleDifference(tangentA, targetHeading))
+            < Math.abs(angleDifference(tangentB, targetHeading))
+          ? tangentA
+          : tangentB;
+        avoidanceTime = 0.38;
+        break;
+      }
+    }
     const requestedHeading = avoidanceTime > 0 ? avoidanceHeading : targetHeading;
     const headingError = angleDifference(heading, requestedHeading);
     const speedRatio = THREE.MathUtils.clamp(speed / PURSUER_TUNING.maximumSpeed, 0, 1);

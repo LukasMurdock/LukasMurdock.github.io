@@ -33,6 +33,7 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
   const canvas = root.querySelector<HTMLCanvasElement>("#game-canvas");
   const speedLinesCanvas = root.querySelector<HTMLCanvasElement>("#speed-lines-canvas");
   const modeHud = root.querySelector<HTMLElement>("#mode-hud");
+  const mapDiagnostics = root.querySelector<HTMLElement>("#map-diagnostics");
   const leaderboardNode = root.querySelector<HTMLElement>("#drive-leaderboard");
   const intro = root.querySelector<HTMLElement>("#intro");
   const startButton = root.querySelector<HTMLButtonElement>("#start-driving");
@@ -64,6 +65,8 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
   const pauseControl = pauseButton;
   const pauseDriveTimeDisplay = pauseDriveTime;
   const resumeControl = resumeButton;
+  const showMapDiagnostics = new URLSearchParams(window.location.search).get("debug") === "map";
+  if (mapDiagnostics) mapDiagnostics.hidden = !showMapDiagnostics;
   const fullscreenControl = fullscreenButton;
   const lifecycle = new AbortController();
   const listenerOptions = { signal: lifecycle.signal };
@@ -146,13 +149,14 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
   sun.position.set(-52, 64, -38);
   sun.castShadow = true;
   sun.shadow.mapSize.set(2048, 2048);
-  sun.shadow.camera.left = -map.environment.shadowExtent;
-  sun.shadow.camera.right = map.environment.shadowExtent;
-  sun.shadow.camera.top = map.environment.shadowExtent;
-  sun.shadow.camera.bottom = -map.environment.shadowExtent;
+  const initialShadowExtent = Math.min(map.environment.shadowExtent, 48);
+  sun.shadow.camera.left = -initialShadowExtent;
+  sun.shadow.camera.right = initialShadowExtent;
+  sun.shadow.camera.top = initialShadowExtent;
+  sun.shadow.camera.bottom = -initialShadowExtent;
   sun.shadow.camera.near = 1;
   sun.shadow.camera.far = map.environment.shadowFar;
-  scene.add(sun);
+  scene.add(sun, sun.target);
 
   function applyMapEnvironment() {
     scene.background = new THREE.Color(map.environment.background);
@@ -167,10 +171,11 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
     isometricCamera.updateProjectionMatrix();
     sideCamera.far = map.environment.sideCameraFar;
     sideCamera.updateProjectionMatrix();
-    sun.shadow.camera.left = -map.environment.shadowExtent;
-    sun.shadow.camera.right = map.environment.shadowExtent;
-    sun.shadow.camera.top = map.environment.shadowExtent;
-    sun.shadow.camera.bottom = -map.environment.shadowExtent;
+    const shadowExtent = Math.min(map.environment.shadowExtent, 48);
+    sun.shadow.camera.left = -shadowExtent;
+    sun.shadow.camera.right = shadowExtent;
+    sun.shadow.camera.top = shadowExtent;
+    sun.shadow.camera.bottom = -shadowExtent;
     sun.shadow.camera.far = map.environment.shadowFar;
     sun.shadow.camera.updateProjectionMatrix();
   }
@@ -220,6 +225,18 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
     onEvent: (event) => modeController?.onPlayerEvent(event),
     onResetRequested: endDrive,
   });
+  const shadowFocus = new THREE.Vector2(Number.POSITIVE_INFINITY, Number.POSITIVE_INFINITY);
+  function updatePlayerCenteredShadows() {
+    const position = player.getSnapshot().position;
+    const extent = Math.min(map.environment.shadowExtent, 48);
+    const texelSize = extent * 2 / sun.shadow.mapSize.width;
+    const focusX = Math.round(position.x / texelSize) * texelSize;
+    const focusZ = Math.round(position.z / texelSize) * texelSize;
+    if (shadowFocus.x === focusX && shadowFocus.y === focusZ) return;
+    shadowFocus.set(focusX, focusZ);
+    sun.position.set(focusX - 52, 64, focusZ - 38);
+    sun.target.position.set(focusX, 0, focusZ);
+  }
 
   const keyMap: Record<string, PlayerControlName | undefined> = {
     ArrowLeft: "left",
@@ -297,17 +314,20 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
 
   function selectMap(mapId: GameMapId) {
     if (map.id === mapId || (running && !paused)) return;
+    const nextMap = GAME_MAPS[mapId];
+    const nextWorld = buildWorld(scene, nextMap);
+    const previousWorld = world;
     const switchingPausedGame = running && paused;
     if (switchingPausedGame) recordDrive("mode");
     modeController?.destroy();
     leaderboardToast.destroy();
     leaderboardControl.setAttribute("aria-pressed", "false");
-    world.destroy();
     driveTime = 0;
     pauseDriveTimeDisplay.textContent = formatDriveTime(driveTime);
-    map = GAME_MAPS[mapId];
+    map = nextMap;
+    world = nextWorld;
     applyMapEnvironment();
-    world = buildWorld(scene, map);
+    previousWorld.destroy();
     player.setWorld(world);
     player.reset();
     modeController = createSelectedModeController();
@@ -601,6 +621,12 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
     root.dataset.orientation = orientation;
     root.dataset.layout = width <= 720 || height <= 520 ? "compact" : "wide";
 
+    const pixelBudgetRatio = Math.sqrt(2_200_000 / (width * height));
+    renderer.setPixelRatio(THREE.MathUtils.clamp(
+      Math.min(window.devicePixelRatio, pixelBudgetRatio),
+      1,
+      2,
+    ));
     renderer.setSize(width, height, false);
     speedLines.resize(width, height);
     perspectiveCamera.aspect = width / height;
@@ -646,6 +672,33 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
   modeController.reset("manual");
   resetCameraTracking();
 
+  let lastDiagnosticsUpdate = 0;
+  function updateMapDiagnostics(now: number) {
+    if (!showMapDiagnostics || !mapDiagnostics || now - lastDiagnosticsUpdate < 250) return;
+    lastDiagnosticsUpdate = now;
+    const diagnostics = world.getDiagnostics();
+    const playerState = player.getSnapshot();
+    const collisionAverage = diagnostics.collisionQueries > 0
+      ? diagnostics.collisionCandidates / diagnostics.collisionQueries
+      : 0;
+    const pavementAverage = diagnostics.pavementQueries > 0
+      ? diagnostics.pavementCandidates / diagnostics.pavementQueries
+      : 0;
+    mapDiagnostics.textContent = [
+      `${map.title} · ${map.worldLimit * 2}u`,
+      `position  ${playerState.position.x.toFixed(1)}, ${playerState.position.z.toFixed(1)}`,
+      `draws     ${renderer.info.render.calls}`,
+      `triangles ${renderer.info.render.triangles.toLocaleString()}`,
+      `pixel DPR ${renderer.getPixelRatio().toFixed(2)}`,
+      `build     ${diagnostics.buildMilliseconds.toFixed(1)} ms`,
+      `obstacles ${diagnostics.obstacles}`,
+      `pavement  ${diagnostics.pavementPrimitives}`,
+      `collision ${collisionAverage.toFixed(1)} candidates/query`,
+      `surface   ${pavementAverage.toFixed(1)} candidates/query`,
+      `GPU geom  ${renderer.info.memory.geometries}`,
+    ].join("\n");
+  }
+
   let lastTime = performance.now();
   function frame(now: number) {
     if (destroyed) return;
@@ -658,8 +711,10 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
       modeController?.update(elapsed);
     }
     updateCamera(elapsed);
+    updatePlayerCenteredShadows();
     updateSpeedLines(wallElapsed);
     renderer.render(scene, activeCamera());
+    updateMapDiagnostics(now);
     requestAnimationFrame(frame);
   }
   requestAnimationFrame(frame);

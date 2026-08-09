@@ -27,28 +27,35 @@ startDrivingGame(root, {
 });
 ```
 
-The page exposes Cruise and Chase plus Circuit City, Crosswind, and Switchyard selection before play and while paused. Mode changes replace only the mode controller; map changes dispose and rebuild the world while retaining the renderer, controls, player presentation, and page lifecycle. The runtime derives touch capability and orientation from browser capabilities and container geometry rather than user-agent strings, and pauses safely when an active drive rotates. Automatic controls remain the default. On fine-pointer desktops, entering Up, Up, Down, Down, Left, Right, Left, Right before play or while paused unlocks the persisted Manual scheme and its hidden selector. Cruise defaults to the `loose` profile; Chase defaults to `aggressive`. Passing `drivingProfile` explicitly overrides the mode default for tuning.
+The page exposes Cruise and Chase plus Circuit City, Crosswind, Switchyard, and the 1,000-unit-wide High Plains selection before play and while paused. Mode changes replace only the mode controller; map changes transactionally build the next world before disposing the previous one while retaining the renderer, controls, player presentation, and page lifecycle. The runtime derives touch capability and orientation from browser capabilities and container geometry rather than user-agent strings, and pauses safely when an active drive rotates. Automatic controls remain the default. On fine-pointer desktops, entering Up, Up, Down, Down, Left, Right, Left, Right before play or while paused unlocks the persisted Manual scheme and its hidden selector. Cruise defaults to the `loose` profile; Chase defaults to `aggressive`. Passing `drivingProfile` explicitly overrides the mode default for tuning.
 
 Available internal handling profiles are `balanced`, `loose`, `technical`, and `aggressive`. Aggressive raises acceleration and top speed, uses faster and deeper breakaway behavior, strengthens hard-drift entry and exit boost, and reaches redline at the end of its final pull. The other profiles keep a quieter final ratio without lowering RPM merely because the speed cap was reached. The audio-only transmission uses four high-torque sequential ratios and fully punctuates all three upshifts. Initiating a drift requests one immediate rev-matched downshift with a short procedural exhaust bark and engagement thump when a lower ratio is available; recovery briefly inhibits shifts, and braking or multi-stage changes reconcile without an upshift thump. No default transition is hidden or absorbed. A 320 ms re-arm, 6% downshift hysteresis, dedicated worklet torque-cut envelope, and mostly longitudinal speed reference prevent threshold chatter. Player resets and reverse engagement return it silently to the launch stage.
 
 ## Adding a map
 
-1. Add a `GameMapDefinition` under `maps/` with concise selector-ready title and description copy.
-2. Register it in `maps/index.ts`; the intro and pause selectors are generated from `GAME_MAPS`.
-3. Choose either a circuit-based spawn or an explicit position and heading.
-4. Use optional road rotation for diagonal pavement; `"taxiway"` markings support faded rotated edge dashes.
-5. Keep mode-specific entities and rules out of the map definition.
+Small legacy maps may still provide a direct `GameMapDefinition`. New large maps should use the driving-specific helpers in `maps/authoring.ts`:
 
-`DEFAULT_GAME_MAP_ID` owns the no-query default, while `isGameMapId()` validates direct `?map=` launches against the registry. Adding a nondefault map does not require another URL-parsing branch.
+1. Define named polyline corridors with widths, surfaces, and optional markings.
+2. Place narrowly scoped freight-row, service-yard, or reversal stamps with translation and rotation.
+3. Add a few explicit landmarks and exceptions.
+4. Generate only sparse decoration with a stable seed and pavement clearance.
+5. Register the resulting definition in `maps/index.ts`; both selectors come from `GAME_MAPS`.
+6. Keep mode-specific entities and rules out of map sources.
 
-Switchyard uses one broad freight apron and two staggered rows of short sheds. Its three longitudinal channels create delayed lane-transfer and double-transfer decisions without map-specific pursuit behavior. Subtle pavement bands, inspection pads, and the visual-only `freight` building style establish lane and yard identity while preserving shared pavement and axis-aligned collision semantics.
+The authoring compiler validates bounds, finite corridor coordinates, unique IDs, ground coverage, and spawn placement. Runtime corridor strips, their capsule pavement primitives, and markings all derive from the same source. `DEFAULT_GAME_MAP_ID` owns the no-query default, while `isGameMapId()` validates direct `?map=` launches against the registry.
+
+High Plains is the first large-map vertical slice. Its 500-unit half-extent is more than three times Circuit City's linear playable scale. Eight connected corridors form several cross-map loops around working freight, service, and reversal districts. Regional landmarks, roadside lighting, field-value patches, and deterministic groves keep the large world locally legible while it remains fully resident without streaming.
+
+Static props and markings are instanced in spatial batches. A 32-unit uniform grid makes obstacle and pavement query cost depend on local density instead of total map area, and `WorldRuntime.getDiagnostics()` exposes build and candidate counts. Launching with `?debug=map` shows a hidden live overlay for draw calls, triangles, build time, resource counts, coordinates, and average spatial-query candidates. Player-centered, texel-snapped shadow coverage stays at a maximum 48-unit half-extent regardless of map size; fog and camera range likewise remain local. The renderer derives a pixel ratio from viewport area and a fixed pixel budget rather than user-agent detection.
+
+Switchyard still uses one broad freight apron and two staggered rows of short sheds. Its three longitudinal channels create delayed lane-transfer and double-transfer decisions without map-specific pursuit behavior. Subtle pavement bands, inspection pads, and the visual-only `freight` building style establish lane and yard identity.
 
 A map owns:
 
 - world and ground dimensions;
 - environment colors, fog, camera range, and shadow coverage;
-- roads and parking lots used by pavement detection;
-- buildings, trees, and barriers;
+- road segments, continuous corridors, and parking lots used by indexed pavement detection;
+- transformed district stamps, buildings, trees, and barriers;
 - optional semantic circuit grammar;
 - player spawn.
 

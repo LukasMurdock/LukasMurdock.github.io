@@ -14,6 +14,7 @@ export function addBuilding(
   height: number,
   color: number,
   style: BuildingDefinition["style"] = "standard",
+  rotation = 0,
 ) {
   const group = new THREE.Group();
   const concreteMaterial = new THREE.MeshStandardMaterial({ color: 0xaaa58a, roughness: 1, flatShading: true });
@@ -27,13 +28,23 @@ export function addBuilding(
 
   const finishBuilding = () => {
     group.position.set(x, 0, z);
+    group.rotation.y = rotation;
     scene.add(group);
+    const extentX = Math.abs(Math.cos(rotation)) * width / 2 + Math.abs(Math.sin(rotation)) * depth / 2;
+    const extentZ = Math.abs(Math.sin(rotation)) * width / 2 + Math.abs(Math.cos(rotation)) * depth / 2;
     obstacles.push({
       kind: "building",
-      minX: x - width / 2,
-      maxX: x + width / 2,
-      minZ: z - depth / 2,
-      maxZ: z + depth / 2,
+      minX: x - extentX,
+      maxX: x + extentX,
+      minZ: z - extentZ,
+      maxZ: z + extentZ,
+      orientedBox: rotation === 0 ? undefined : {
+        x,
+        z,
+        halfWidth: width / 2,
+        halfDepth: depth / 2,
+        rotation,
+      },
       resetsCar: true,
     });
   };
@@ -229,30 +240,49 @@ function addFreightMeshes(
   const baySpacing = sideLength / bayCount;
   const doorWidth = Math.min(3.4, baySpacing * 0.62);
   const doorHeight = Math.min(3, height * 0.58);
-  const doorMaterial = new THREE.MeshBasicMaterial({ color: 0x293938 });
-  const headerMaterial = new THREE.MeshBasicMaterial({ color: 0xd2c497 });
-
+  const instanceCount = bayCount * 2;
+  const doors = new THREE.InstancedMesh(
+    new THREE.PlaneGeometry(doorWidth, doorHeight),
+    new THREE.MeshBasicMaterial({ color: 0x293938 }),
+    instanceCount,
+  );
+  const headers = new THREE.InstancedMesh(
+    new THREE.PlaneGeometry(doorWidth + 0.35, 0.16),
+    new THREE.MeshBasicMaterial({ color: 0xd2c497 }),
+    instanceCount,
+  );
+  const matrix = new THREE.Matrix4();
+  const quaternion = new THREE.Quaternion();
+  let instance = 0;
   for (let bay = 0; bay < bayCount; bay++) {
     const offset = -sideLength / 2 + baySpacing * (bay + 0.5);
     for (const side of [-1, 1]) {
-      const door = new THREE.Mesh(new THREE.PlaneGeometry(doorWidth, doorHeight), doorMaterial);
-      door.position.y = doorHeight / 2 + 0.17;
-      if (loadingSideRunsAlongZ) {
-        door.position.set(side * (width / 2 + 0.012), door.position.y, offset);
-        door.rotation.y = side > 0 ? Math.PI / 2 : -Math.PI / 2;
-      } else {
-        door.position.set(offset, door.position.y, side * (depth / 2 + 0.012));
-        door.rotation.y = side > 0 ? 0 : Math.PI;
-      }
-      group.add(door);
-
-      const header = new THREE.Mesh(new THREE.PlaneGeometry(doorWidth + 0.35, 0.16), headerMaterial);
-      header.position.copy(door.position);
-      header.position.y = doorHeight + 0.32;
-      header.rotation.copy(door.rotation);
-      group.add(header);
+      let rotation = 0;
+      if (loadingSideRunsAlongZ) rotation = side > 0 ? Math.PI / 2 : -Math.PI / 2;
+      else if (side < 0) rotation = Math.PI;
+      const x = loadingSideRunsAlongZ ? side * (width / 2 + 0.012) : offset;
+      const z = loadingSideRunsAlongZ ? offset : side * (depth / 2 + 0.012);
+      quaternion.setFromAxisAngle(UP, rotation);
+      matrix.compose(
+        new THREE.Vector3(x, doorHeight / 2 + 0.17, z),
+        quaternion,
+        new THREE.Vector3(1, 1, 1),
+      );
+      doors.setMatrixAt(instance, matrix);
+      matrix.compose(
+        new THREE.Vector3(x, doorHeight + 0.32, z),
+        quaternion,
+        new THREE.Vector3(1, 1, 1),
+      );
+      headers.setMatrixAt(instance, matrix);
+      instance++;
     }
   }
+  doors.instanceMatrix.needsUpdate = true;
+  headers.instanceMatrix.needsUpdate = true;
+  doors.computeBoundingSphere();
+  headers.computeBoundingSphere();
+  group.add(doors, headers);
 }
 
 function createGableRoofGeometry(width: number, depth: number, rise: number) {

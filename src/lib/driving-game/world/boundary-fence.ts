@@ -30,6 +30,22 @@ export function addBoundaryFence(scene: THREE.Object3D, limit: number) {
   posts.instanceMatrix.needsUpdate = true;
   scene.add(posts);
 
+  const warningMaterial = new THREE.MeshBasicMaterial({ color: 0x858050 });
+  const warningWidth = 10;
+  const warningGeometryX = new THREE.PlaneGeometry(limit * 2, warningWidth);
+  const warningGeometryZ = new THREE.PlaneGeometry(warningWidth, limit * 2);
+  for (const [x, z, geometry] of [
+    [0, -limit + warningWidth / 2, warningGeometryX],
+    [0, limit - warningWidth / 2, warningGeometryX],
+    [-limit + warningWidth / 2, 0, warningGeometryZ],
+    [limit - warningWidth / 2, 0, warningGeometryZ],
+  ] as const) {
+    const warning = new THREE.Mesh(geometry, warningMaterial);
+    warning.rotation.x = -Math.PI / 2;
+    warning.position.set(x, 0.012, z);
+    scene.add(warning);
+  }
+
   const railGeometryX = new THREE.BoxGeometry(limit * 2, 0.12, 0.12);
   const railGeometryZ = new THREE.BoxGeometry(0.12, 0.12, limit * 2);
   for (const height of [0.62, 1.28]) {
