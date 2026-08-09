@@ -3,9 +3,9 @@ import type { GameMapDefinition } from "../maps";
 import type { CircuitPhrase } from "../maps/types";
 import { addBuilding } from "./buildings";
 import { addBarrier, addStreetlight, addTree } from "./props";
-import type { Obstacle } from "./types";
+import type { Obstacle, WorldRuntime } from "./types";
 
-export type { Obstacle } from "./types";
+export type { Obstacle, WorldRuntime } from "./types";
 
 const UP = new THREE.Vector3(0, 1, 0);
 
@@ -28,7 +28,8 @@ function createFacetedGround(size: number, baseColor: number) {
   return geometry;
 }
 
-export function buildWorld(scene: THREE.Scene, obstacles: Obstacle[], map: GameMapDefinition) {
+export function buildWorld(scene: THREE.Scene, map: GameMapDefinition): WorldRuntime {
+  const obstacles: Obstacle[] = [];
   const grassMaterial = new THREE.MeshStandardMaterial({
     color: 0xffffff,
     roughness: 1,
@@ -156,6 +157,42 @@ export function buildWorld(scene: THREE.Scene, obstacles: Obstacle[], map: GameM
         }
       }
       return nearestDistanceSq <= (course.widths[nearestIndex] * 0.5) ** 2;
+    },
+    queryCollision(position: THREE.Vector3, radius: number) {
+      for (const box of obstacles) {
+        const closestX = THREE.MathUtils.clamp(position.x, box.minX, box.maxX);
+        const closestZ = THREE.MathUtils.clamp(position.z, box.minZ, box.maxZ);
+        let dx = position.x - closestX;
+        let dz = position.z - closestZ;
+        let distanceSq = dx * dx + dz * dz;
+        if (distanceSq >= radius * radius) continue;
+
+        if (distanceSq < 0.0001) {
+          const nearestEdge = [
+            { distance: Math.abs(position.x - box.minX), x: -1, z: 0 },
+            { distance: Math.abs(box.maxX - position.x), x: 1, z: 0 },
+            { distance: Math.abs(position.z - box.minZ), x: 0, z: -1 },
+            { distance: Math.abs(box.maxZ - position.z), x: 0, z: 1 },
+          ].sort((a, b) => a.distance - b.distance)[0];
+          dx = nearestEdge.x;
+          dz = nearestEdge.z;
+          distanceSq = 1;
+        }
+
+        const distance = Math.sqrt(distanceSq);
+        return {
+          kind: box.kind,
+          normalX: dx / distance,
+          normalZ: dz / distance,
+          penetration: radius - distance,
+          resetsCar: box.resetsCar === true,
+        };
+      }
+      return null;
+    },
+    isOutsideBoundary(position: THREE.Vector3, radius: number) {
+      const limit = map.worldLimit - radius;
+      return Math.abs(position.x) > limit || Math.abs(position.z) > limit;
     },
   };
 }

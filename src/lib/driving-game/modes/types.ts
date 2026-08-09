@@ -1,25 +1,25 @@
 import type * as THREE from "three";
-import type { DriftPhase } from "../types";
 import type { GameMapDefinition } from "../maps";
-
-export type ModePlayerSnapshot = {
-  position: THREE.Vector3;
-  heading: number;
-  speed: number;
-  driftPhase: DriftPhase;
-};
+import type { PlayerEvent, PlayerSnapshot } from "../player";
+import type { DriveEndReason } from "../types";
+import type { WorldRuntime } from "../world/types";
 
 export type GameModeContext = {
   scene: THREE.Scene;
   hudRoot: HTMLElement;
   map: GameMapDefinition;
-  getPlayer: () => ModePlayerSnapshot;
-  resetPlayer: () => void;
+  world: WorldRuntime;
+  getPlayer: () => PlayerSnapshot;
+  getDriveTime: () => number;
+  endDrive: () => void;
 };
 
 export type GameModeController = {
+  start: () => void;
   update: (dt: number) => void;
-  reset: () => void;
+  pause: (paused: boolean) => void;
+  reset: (reason: DriveEndReason) => void;
+  onPlayerEvent: (event: PlayerEvent) => void;
   destroy: () => void;
 };
 
@@ -37,8 +37,11 @@ export type GameModeDefinition = {
 
 export function createIdleModeController(): GameModeController {
   return {
+    start() {},
     update() {},
+    pause() {},
     reset() {},
+    onPlayerEvent() {},
     destroy() {},
   };
 }

@@ -4,6 +4,7 @@ import type { GameModeId } from "./modes";
 
 export type CameraMode = "Chase" | "Isometric" | "Side";
 export type DriftPhase = "grip" | "breakaway" | "sustain" | "transition" | "recover";
+export type DriveEndReason = "manual" | "collision" | "boundary" | "mode";
 
 export type DrivingGameOptions = {
   mode?: GameModeId;

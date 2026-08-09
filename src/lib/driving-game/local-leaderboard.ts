@@ -1,7 +1,9 @@
+import type { DriveEndReason } from "./types";
+
+export type { DriveEndReason } from "./types";
+
 const STORAGE_KEY = "driving-game:local-leaderboard:v1";
 const MAX_SAVED_DRIVES = 100;
-
-export type DriveEndReason = "manual" | "collision" | "boundary" | "mode";
 
 export type LocalDriveResult = {
   id: string;

@@ -108,6 +108,7 @@ export function addBuilding(
   group.position.set(x, 0, z);
   scene.add(group);
   obstacles.push({
+    kind: "building",
     minX: x - width / 2,
     maxX: x + width / 2,
     minZ: z - depth / 2,

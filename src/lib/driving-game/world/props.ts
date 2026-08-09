@@ -35,6 +35,7 @@ export function addTree(scene: THREE.Scene, obstacles: Obstacle[], x: number, z:
   group.position.set(x, 0, z);
   scene.add(group);
   obstacles.push({
+    kind: "tree",
     minX: x - 0.8,
     maxX: x + 0.8,
     minZ: z - 0.8,
@@ -68,6 +69,7 @@ export function addStreetlight(scene: THREE.Scene, obstacles: Obstacle[], x: num
   });
   scene.add(group);
   obstacles.push({
+    kind: "streetlight",
     minX: x - 0.32,
     maxX: x + 0.32,
     minZ: z - 0.32,
@@ -94,6 +96,7 @@ export function addBarrier(scene: THREE.Scene, obstacles: Obstacle[], x: number,
     scene.add(stripe);
   }
   obstacles.push({
+    kind: "barrier",
     minX: x - 1.4,
     maxX: x + 1.4,
     minZ: z - 0.35,

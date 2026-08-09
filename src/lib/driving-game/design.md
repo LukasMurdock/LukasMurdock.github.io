@@ -1,6 +1,6 @@
 # Driving Game Feel Specification
 
-This document is the experiential north star for the driving game in this directory. `runtime.ts` owns the shared driving runtime, while `maps/`, `modes/`, and `driving-profiles.ts` define the switchable content around it. It reflects the game as it exists now: automatic throttle, steering plus a held Drift input, a double-tap hard-turn gesture, distinct drift phases, an expanded city and outer circuit, assisted arcade physics, close chase cameras, persistent marks and smoke, and reference-derived procedural engine and tire audio.
+This document is the experiential north star for the driving game in this directory. `runtime.ts` orchestrates the session, `player/` owns handling and feedback state, and `maps/`, `modes/`, and `driving-profiles.ts` define the switchable content around them. It reflects the game as it exists now: automatic throttle, steering plus a held Drift input, a double-tap hard-turn gesture, distinct drift phases, an expanded city and outer circuit, assisted arcade physics, close chase cameras, persistent marks and smoke, and reference-derived procedural engine and tire audio.
 
 It is not a promise to simulate a car accurately. It defines what every system should help the player believe.
 

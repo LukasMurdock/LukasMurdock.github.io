@@ -2,9 +2,10 @@
 
 The driving game is split along the things that can vary independently:
 
-- `runtime.ts` — lifecycle, shared state, controls, player physics, cameras, collisions, mode wiring, and the frame loop.
+- `runtime.ts` — renderer and DOM lifecycle, cameras, mode wiring, drive timing, and the frame loop.
 - `driving-profiles.ts` — internal handling presets used while tuning.
 - `audio/` — car-audio orchestration plus procedural engine and tire AudioWorklet sources.
+- `player/` — player input, handling state, collision response, feedback events, and the stable player API.
 - `vehicle/` — player-car construction, drift smoke, and skid marks.
 - `feedback/` — inexpensive screen-space gameplay feedback such as redline speed lines.
 - `world/` — map construction, circuit geometry, buildings, props, and collision bounds.
@@ -26,7 +27,7 @@ startDrivingGame(root, {
 });
 ```
 
-All options default to the values above. The page does not currently expose selectors; these are composition seams for development and future navigation.
+The runtime defaults to the values above. The page does not currently expose selectors; these are composition seams for development and future navigation. The page may explicitly select another profile while tuning.
 
 Available internal handling profiles are `balanced`, `loose`, `technical`, and `aggressive`. Aggressive raises acceleration and top speed, uses faster and deeper breakaway behavior, strengthens hard-drift entry and exit boost, and deliberately reaches redline at its normal maximum speed. The other profiles retain a quieter overdrive ratio.
 
@@ -46,7 +47,7 @@ A map owns:
 - optional semantic circuit grammar;
 - player spawn.
 
-Every registered mode receives the selected map in its runtime context.
+Every registered mode receives the selected map and its built `WorldRuntime` service. The service owns pavement, obstacle, spawn, and boundary queries so player and future pursuit actors share one spatial truth.
 
 ## Local drive leaderboard
 
@@ -58,9 +59,9 @@ A future command can import `getLocalDriveLeaderboard` from the public `driving-
 
 1. Add a `GameModeDefinition` under `modes/`.
 2. Register it in `modes/index.ts`.
-3. Implement its controller lifecycle: `update`, `reset`, and `destroy`.
+3. Implement its controller lifecycle: `start`, `update`, `pause`, `reset(reason)`, `onPlayerEvent`, and `destroy`.
 4. Put mode-owned entities, pursuit state, win/loss rules, escalation, and mode HUD adapters in that controller—not in maps or player handling.
 
 The cruise controller is intentionally idle. The chase definition currently establishes its copy and lifecycle seam but is marked unavailable until pursuit behavior exists.
 
-A mode controller can read a safe player snapshot, add objects to the shared scene, and request a player reset. It should not fork the shared vehicle model unless a mode genuinely requires different handling; use a driving profile for deliberate handling experiments.
+A mode controller receives the world service, a refreshed player snapshot with detached position and velocity vectors, elapsed drive time, typed collision and drift-phase events, and a mode-owned `endDrive` action. Session resets arrive once through `reset(reason)`. It can add objects to the shared scene without reaching into or mutating player internals. It should not fork the shared vehicle model unless a mode genuinely requires different handling; use a driving profile for deliberate handling experiments.
