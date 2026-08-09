@@ -8,7 +8,7 @@ The driving game is split along the things that can vary independently:
 - `player/` — player input, handling state, collision response, feedback events, and the stable player API.
 - `vehicle/` — player-car construction, drift smoke, and skid marks.
 - `feedback/` — inexpensive screen-space gameplay feedback such as redline speed lines.
-- `world/` — map construction, circuit geometry, buildings, props, and collision bounds.
+- `world/` — map construction, circuit geometry, buildings, props, visible perimeter fencing, and collision bounds.
 - `local-leaderboard.ts` — persistent local drive results and future command-facing queries.
 - `maps/` — world geometry, environment settings, pavement, spawn, and boundaries.
 - `modes/` — rules, mode-specific actors, lifecycle, and presentation copy.
@@ -51,6 +51,8 @@ A map owns:
 - buildings, trees, and barriers;
 - optional semantic circuit grammar;
 - player spawn.
+
+Every map receives a lightweight visual fence at `worldLimit`. The car's paired-circle footprint reaches that fence as its center enters the existing boundary-reset zone, so the visible perimeter and terminal boundary remain spatially consistent without adding fence obstacles.
 
 Every registered mode receives the selected map and its built `WorldRuntime` service. The service owns pavement, obstacle, spawn, and boundary queries so player and pursuit actors share one spatial truth. Its `destroy()` method removes and disposes all map-owned scene resources during an in-place map change.
 

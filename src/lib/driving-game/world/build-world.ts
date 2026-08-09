@@ -1,6 +1,7 @@
 import * as THREE from "three";
 import type { GameMapDefinition } from "../maps";
 import type { CircuitPhrase } from "../maps/types";
+import { addBoundaryFence } from "./boundary-fence";
 import { addBuilding } from "./buildings";
 import { addBarrier, addStreetlight, addTree } from "./props";
 import type { Obstacle, WorldRuntime } from "./types";
@@ -43,6 +44,7 @@ export function buildWorld(scene: THREE.Scene, map: GameMapDefinition): WorldRun
   ground.rotation.x = -Math.PI / 2;
   ground.receiveShadow = true;
   worldRoot.add(ground);
+  addBoundaryFence(worldRoot, map.worldLimit);
 
   const roadMaterial = new THREE.MeshStandardMaterial({
     color: map.environment.road,
