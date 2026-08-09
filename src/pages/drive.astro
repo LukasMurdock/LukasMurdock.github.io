@@ -42,8 +42,9 @@ import Head from "@/components/Head.astro";
         <div class="intro-card">
           <p class="eyebrow">A tiny driving playground</p>
           <h1 id="game-title">Take a drive.</h1>
-          <p>Follow the red-and-white circuit, link its corners, or leave the course and roam the city. There is nowhere you need to be.</p>
-          <div class="mode-select" role="group" aria-label="Game mode">
+          <p>Link corners, explore the open pavement, or simply follow whatever line looks fun. There is nowhere you need to be.</p>
+          <span class="selector-label">Game mode</span>
+          <div class="mode-select mode-select--between" role="group" aria-label="Game mode">
             <button type="button" data-mode-option="cruise" aria-pressed="false">
               <strong>Cruise</strong>
               <span>Drive freely</span>
@@ -51,6 +52,17 @@ import Head from "@/components/Head.astro";
             <button type="button" data-mode-option="chase" aria-pressed="false">
               <strong>Chase</strong>
               <span>Survive pursuit</span>
+            </button>
+          </div>
+          <span class="selector-label">Map</span>
+          <div class="mode-select" role="group" aria-label="Map">
+            <button type="button" data-map-option="city-circuit" aria-pressed="false">
+              <strong>Circuit City</strong>
+              <span>Streets and circuit</span>
+            </button>
+            <button type="button" data-map-option="crosswind" aria-pressed="false">
+              <strong>Crosswind</strong>
+              <span>Aprons and shortcuts</span>
             </button>
           </div>
           <button id="start-driving" type="button">Start driving <span aria-hidden="true">→</span></button>
@@ -75,7 +87,7 @@ import Head from "@/components/Head.astro";
           </div>
           <div class="pause-mode-select">
             <span>Game mode</span>
-            <div class="mode-select mode-select--pause" role="group" aria-label="Game mode">
+            <div class="mode-select mode-select--pause mode-select--between" role="group" aria-label="Game mode">
               <button type="button" data-mode-option="cruise" aria-pressed="false">
                 <strong>Cruise</strong>
                 <span>Drive freely</span>
@@ -83,6 +95,17 @@ import Head from "@/components/Head.astro";
               <button type="button" data-mode-option="chase" aria-pressed="false">
                 <strong>Chase</strong>
                 <span>Survive pursuit</span>
+              </button>
+            </div>
+            <span>Map</span>
+            <div class="mode-select mode-select--pause" role="group" aria-label="Map">
+              <button type="button" data-map-option="city-circuit" aria-pressed="false">
+                <strong>Circuit City</strong>
+                <span>Streets and circuit</span>
+              </button>
+              <button type="button" data-map-option="crosswind" aria-pressed="false">
+                <strong>Crosswind</strong>
+                <span>Aprons and shortcuts</span>
               </button>
             </div>
           </div>
@@ -105,11 +128,12 @@ import Head from "@/components/Head.astro";
       import { startDrivingGame } from "@/lib/driving-game";
       const root = document.querySelector<HTMLElement>("#driving-game");
       if (root) {
-        const requestedMode = new URLSearchParams(window.location.search).get("mode");
-        const selectedMode = requestedMode === "chase" ? "chase" : "cruise";
+        const searchParams = new URLSearchParams(window.location.search);
+        const selectedMode = searchParams.get("mode") === "chase" ? "chase" : "cruise";
+        const selectedMap = searchParams.get("map") === "crosswind" ? "crosswind" : "city-circuit";
         startDrivingGame(root, {
           mode: selectedMode,
-          map: "city-circuit",
+          map: selectedMap,
         });
       }
     </script>
@@ -442,6 +466,17 @@ import Head from "@/components/Head.astro";
     line-height: 1.55;
   }
 
+  .selector-label {
+    display: block;
+    margin-bottom: 8px;
+    color: rgba(255, 255, 255, 0.58);
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-align: left;
+    text-transform: uppercase;
+  }
+
   .mode-select {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -592,6 +627,7 @@ import Head from "@/components/Head.astro";
   }
 
   .mode-select--pause { margin-bottom: 22px; }
+  .mode-select--between { margin-bottom: 14px; }
 
   .pause-actions {
     display: flex;

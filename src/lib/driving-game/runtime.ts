@@ -3,7 +3,7 @@ import { DRIVING_PROFILES } from "./driving-profiles";
 import { createLeaderboardToast } from "./feedback/leaderboard-toast";
 import { createSpeedLines } from "./feedback/speed-lines";
 import { addLocalDriveResult, getLocalDriveLeaderboard } from "./local-leaderboard";
-import { GAME_MAPS } from "./maps";
+import { GAME_MAPS, type GameMapId } from "./maps";
 import { GAME_MODES, type GameModeController, type GameModeId } from "./modes";
 import type { CameraMode, DriveEndReason, DrivingGameOptions } from "./types";
 import { createPlayerController, type PlayerControlName } from "./player";
@@ -13,7 +13,7 @@ import { buildWorld } from "./world/build-world";
 const UP = new THREE.Vector3(0, 1, 0);
 
 export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions = {}) {
-  const map = GAME_MAPS[options.map ?? "city-circuit"];
+  let map = GAME_MAPS[options.map ?? "city-circuit"];
   let mode = GAME_MODES[options.mode ?? "cruise"];
   const drivingProfileOverride = options.drivingProfile;
   let drivingProfileId = drivingProfileOverride ?? mode.drivingProfile;
@@ -58,6 +58,7 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
   const introTitle = intro.querySelector<HTMLElement>("h1");
   const introDescription = intro.querySelector<HTMLElement>(".intro-card > p:not(.eyebrow)");
   const modeOptions = root.querySelectorAll<HTMLButtonElement>("[data-mode-option]");
+  const mapOptions = root.querySelectorAll<HTMLButtonElement>("[data-map-option]");
   function updateModePresentation() {
     if (introEyebrow) introEyebrow.textContent = mode.copy.eyebrow;
     if (introTitle) introTitle.textContent = mode.copy.title;
@@ -68,8 +69,14 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
     });
     root.dataset.gameMode = mode.id;
   }
+  function updateMapPresentation() {
+    mapOptions.forEach((option) => {
+      option.setAttribute("aria-pressed", String(option.dataset.mapOption === map.id));
+    });
+    root.dataset.gameMap = map.id;
+  }
   updateModePresentation();
-  root.dataset.gameMap = map.id;
+  updateMapPresentation();
 
   const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, powerPreference: "high-performance" });
   renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
@@ -102,7 +109,28 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
   sun.shadow.camera.far = map.environment.shadowFar;
   scene.add(sun);
 
-  const world = buildWorld(scene, map);
+  function applyMapEnvironment() {
+    scene.background = new THREE.Color(map.environment.background);
+    scene.fog = new THREE.Fog(
+      map.environment.background,
+      map.environment.fogNear,
+      map.environment.fogFar,
+    );
+    perspectiveCamera.far = map.environment.cameraFar;
+    perspectiveCamera.updateProjectionMatrix();
+    isometricCamera.far = map.environment.cameraFar;
+    isometricCamera.updateProjectionMatrix();
+    sideCamera.far = map.environment.sideCameraFar;
+    sideCamera.updateProjectionMatrix();
+    sun.shadow.camera.left = -map.environment.shadowExtent;
+    sun.shadow.camera.right = map.environment.shadowExtent;
+    sun.shadow.camera.top = map.environment.shadowExtent;
+    sun.shadow.camera.bottom = -map.environment.shadowExtent;
+    sun.shadow.camera.far = map.environment.shadowFar;
+    sun.shadow.camera.updateProjectionMatrix();
+  }
+
+  let world = buildWorld(scene, map);
   const speedLines = createSpeedLines(speedLinesCanvas);
   const leaderboardToast = createLeaderboardToast(leaderboardNode);
   const getLeaderboardTitle = () => mode.id === "chase" ? "Longest survival" : "Longest drives";
@@ -215,6 +243,36 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
     window.history.replaceState(window.history.state, "", url);
   }
 
+  function selectMap(mapId: GameMapId) {
+    if (map.id === mapId || (running && !paused)) return;
+    const switchingPausedGame = running && paused;
+    if (switchingPausedGame) recordDrive("mode");
+    modeController?.destroy();
+    leaderboardToast.destroy();
+    leaderboardControl.setAttribute("aria-pressed", "false");
+    world.destroy();
+    driveTime = 0;
+    pauseDriveTimeDisplay.textContent = formatDriveTime(driveTime);
+    map = GAME_MAPS[mapId];
+    applyMapEnvironment();
+    world = buildWorld(scene, map);
+    player.setWorld(world);
+    player.reset();
+    modeController = createSelectedModeController();
+    modeController.reset("manual");
+    if (switchingPausedGame) {
+      modeController.start();
+      modeController.pause(true);
+    }
+    updateMapPresentation();
+    resetCameraTracking();
+
+    const url = new URL(window.location.href);
+    if (mapId === "city-circuit") url.searchParams.delete("map");
+    else url.searchParams.set("map", mapId);
+    window.history.replaceState(window.history.state, "", url);
+  }
+
   function switchCamera() {
     const index = (cameraModes.indexOf(cameraMode) + 1) % cameraModes.length;
     cameraMode = cameraModes[index];
@@ -249,6 +307,14 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
       const modeId = option.dataset.modeOption;
       if (!modeId || !(modeId in GAME_MODES)) return;
       selectMode(modeId as GameModeId);
+    }, listenerOptions);
+  });
+
+  mapOptions.forEach((option) => {
+    option.addEventListener("click", () => {
+      const mapId = option.dataset.mapOption;
+      if (!mapId || !(mapId in GAME_MAPS)) return;
+      selectMap(mapId as GameMapId);
     }, listenerOptions);
   });
 
@@ -290,6 +356,14 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
   const isometricFocus = initialPlayerState.position.clone();
   const isometricOffset = new THREE.Vector3(26, 48, 26);
   const cameraPosition = new THREE.Vector3();
+  function resetCameraTracking() {
+    const playerState = player.getSnapshot();
+    lookTarget.copy(playerState.position).add(new THREE.Vector3(0, 1, 0));
+    isometricFocus.copy(playerState.position);
+    cameraPosition.copy(playerState.position);
+    updateCamera(1);
+  }
+
   function updateCamera(dt: number) {
     const playerState = player.getSnapshot();
     const { position, velocity, heading, visualSlip, exitPulse, cameraShake } = playerState;
@@ -398,7 +472,7 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
   resize();
   player.reset();
   modeController.reset("manual");
-  updateCamera(1);
+  resetCameraTracking();
 
   let lastTime = performance.now();
   function frame(now: number) {
@@ -424,6 +498,7 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
     resizeObserver.disconnect();
     player.destroy();
     modeController?.destroy();
+    world.destroy();
     leaderboardToast.destroy();
     speedLines.destroy();
     renderer.dispose();

@@ -68,6 +68,13 @@ export function createDriftSmoke(scene: THREE.Scene) {
           .addScaledVector(right, (Math.random() - 0.5) * 0.75);
       }
     },
+    reset() {
+      spawnBudget = 0;
+      particles.forEach((particle) => {
+        particle.life = 0;
+        particle.mesh.visible = false;
+      });
+    },
   };
 }
 
@@ -119,7 +126,10 @@ export function createSkidMarks(scene: THREE.Scene) {
       if (changed) marks.instanceMatrix.needsUpdate = true;
     },
     reset() {
+      cursor = 0;
       distanceBudget = 0;
+      marks.count = 0;
+      marks.instanceMatrix.needsUpdate = true;
     },
   };
 }

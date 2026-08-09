@@ -1,7 +1,7 @@
 import * as THREE from "three";
 import type { Obstacle } from "./types";
 
-export function addTree(scene: THREE.Scene, obstacles: Obstacle[], x: number, z: number) {
+export function addTree(scene: THREE.Object3D, obstacles: Obstacle[], x: number, z: number) {
   const group = new THREE.Group();
   const trunk = new THREE.Mesh(
     new THREE.CylinderGeometry(0.34, 0.48, 2.5, 5),
@@ -44,7 +44,7 @@ export function addTree(scene: THREE.Scene, obstacles: Obstacle[], x: number, z:
   });
 }
 
-export function addStreetlight(scene: THREE.Scene, obstacles: Obstacle[], x: number, z: number) {
+export function addStreetlight(scene: THREE.Object3D, obstacles: Obstacle[], x: number, z: number) {
   const group = new THREE.Group();
   const metal = new THREE.MeshStandardMaterial({ color: 0x343832, roughness: 1, flatShading: true });
   const base = new THREE.Mesh(new THREE.BoxGeometry(0.7, 0.28, 0.7), metal);
@@ -78,7 +78,7 @@ export function addStreetlight(scene: THREE.Scene, obstacles: Obstacle[], x: num
   });
 }
 
-export function addBarrier(scene: THREE.Scene, obstacles: Obstacle[], x: number, z: number) {
+export function addBarrier(scene: THREE.Object3D, obstacles: Obstacle[], x: number, z: number) {
   const barrier = new THREE.Mesh(
     new THREE.BoxGeometry(2.8, 0.75, 0.7),
     new THREE.MeshStandardMaterial({ color: 0xf1e8c9, roughness: 1, flatShading: true }),

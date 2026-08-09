@@ -25,4 +25,5 @@ export type WorldRuntime = {
   isOnPavement: (position: THREE.Vector3) => boolean;
   queryCollision: (position: THREE.Vector3, radius: number) => WorldCollision | null;
   isOutsideBoundary: (position: THREE.Vector3, radius: number) => boolean;
+  destroy: () => void;
 };

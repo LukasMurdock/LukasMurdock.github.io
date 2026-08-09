@@ -17,7 +17,7 @@ const CAR_RADIUS = 1.25;
 
 export function createPlayerController({
   scene,
-  world,
+  world: initialWorld,
   profile,
   onEvent,
   onResetRequested,
@@ -28,6 +28,7 @@ export function createPlayerController({
   onEvent: (event: PlayerEvent) => void;
   onResetRequested: (reason: DriveEndReason) => void;
 }): PlayerController {
+  let world = initialWorld;
   let DRIVING = profile;
   const car = createCar();
   scene.add(car.group);
@@ -162,6 +163,7 @@ export function createPlayerController({
     bodyKick = 0;
     cameraShake = 0;
     previousHandbrake = false;
+    driftSmoke.reset();
     skidMarks.reset();
     car.group.position.copy(position);
     car.group.rotation.set(0, heading, 0);
@@ -583,6 +585,9 @@ export function createPlayerController({
       carAudio ??= createCarAudio(DRIVING);
     },
     update,
+    setWorld(nextWorld) {
+      world = nextWorld;
+    },
     setDrivingProfile(nextProfile) {
       const audioWasStarted = carAudio !== null;
       carAudio?.destroy();

@@ -1,10 +1,11 @@
 import * as THREE from "three";
+import type { BuildingDefinition } from "../maps/types";
 import type { Obstacle } from "./types";
 
 const UP = new THREE.Vector3(0, 1, 0);
 
 export function addBuilding(
-  scene: THREE.Scene,
+  scene: THREE.Object3D,
   obstacles: Obstacle[],
   x: number,
   z: number,
@@ -12,6 +13,7 @@ export function addBuilding(
   depth: number,
   height: number,
   color: number,
+  style: BuildingDefinition["style"] = "standard",
 ) {
   const group = new THREE.Group();
   const concreteMaterial = new THREE.MeshStandardMaterial({ color: 0xaaa58a, roughness: 1, flatShading: true });
@@ -22,6 +24,30 @@ export function addBuilding(
   foundation.position.y = 0.08;
   foundation.receiveShadow = true;
   group.add(foundation);
+
+  const finishBuilding = () => {
+    group.position.set(x, 0, z);
+    scene.add(group);
+    obstacles.push({
+      kind: "building",
+      minX: x - width / 2,
+      maxX: x + width / 2,
+      minZ: z - depth / 2,
+      maxZ: z + depth / 2,
+      resetsCar: true,
+    });
+  };
+
+  if (style === "hangar") {
+    addHangarMeshes(group, width, depth, height, color);
+    finishBuilding();
+    return;
+  }
+  if (style === "tower") {
+    addTowerMeshes(group, width, depth, height, color);
+    finishBuilding();
+    return;
+  }
 
   const body = new THREE.Mesh(
     new THREE.BoxGeometry(width, height, depth),
@@ -105,15 +131,125 @@ export function addBuilding(
     }
   }
 
-  group.position.set(x, 0, z);
-  scene.add(group);
-  obstacles.push({
-    kind: "building",
-    minX: x - width / 2,
-    maxX: x + width / 2,
-    minZ: z - depth / 2,
-    maxZ: z + depth / 2,
-    resetsCar: true,
-  });
+  finishBuilding();
+}
+
+function addHangarMeshes(
+  group: THREE.Group,
+  width: number,
+  depth: number,
+  height: number,
+  color: number,
+) {
+  const roofRise = Math.min(2.35, height * 0.3);
+  const wallHeight = height - roofRise;
+  const bodyMaterial = new THREE.MeshStandardMaterial({ color, roughness: 1, flatShading: true });
+  const body = new THREE.Mesh(new THREE.BoxGeometry(width, wallHeight, depth), bodyMaterial);
+  body.position.y = wallHeight / 2 + 0.16;
+  body.castShadow = true;
+  body.receiveShadow = true;
+  group.add(body);
+
+  const ridgeRunsAlongZ = depth >= width;
+  const roofGeometry = createGableRoofGeometry(
+    ridgeRunsAlongZ ? width : depth,
+    ridgeRunsAlongZ ? depth : width,
+    roofRise,
+  );
+  const roof = new THREE.Mesh(
+    roofGeometry,
+    new THREE.MeshStandardMaterial({ color: 0x454942, roughness: 1, flatShading: true }),
+  );
+  roof.position.y = wallHeight + 0.16;
+  if (!ridgeRunsAlongZ) roof.rotation.y = Math.PI / 2;
+  roof.castShadow = true;
+  roof.receiveShadow = true;
+  group.add(roof);
+
+  const doorMaterial = new THREE.MeshBasicMaterial({ color: 0x263537 });
+  const doorWidth = (ridgeRunsAlongZ ? width : depth) * 0.72;
+  const doorHeight = wallHeight * 0.7;
+  const door = new THREE.Mesh(new THREE.PlaneGeometry(doorWidth, doorHeight), doorMaterial);
+  door.position.y = doorHeight / 2 + 0.17;
+  if (ridgeRunsAlongZ) {
+    door.position.z = depth / 2 + 0.012;
+  } else {
+    door.position.x = width / 2 + 0.012;
+    door.rotation.y = Math.PI / 2;
+  }
+  group.add(door);
+
+  const stripeMaterial = new THREE.MeshBasicMaterial({ color: 0xc6b987 });
+  for (let stripe = -1; stripe <= 1; stripe++) {
+    const divider = new THREE.Mesh(new THREE.PlaneGeometry(0.1, doorHeight), stripeMaterial);
+    divider.position.copy(door.position);
+    divider.position.y = door.position.y;
+    if (ridgeRunsAlongZ) divider.position.x = stripe * doorWidth / 3;
+    else divider.position.z = stripe * doorWidth / 3;
+    divider.rotation.copy(door.rotation);
+    if (ridgeRunsAlongZ) divider.position.z += 0.002;
+    else divider.position.x += 0.002;
+    group.add(divider);
+  }
+}
+
+function createGableRoofGeometry(width: number, depth: number, rise: number) {
+  const halfWidth = width / 2;
+  const halfDepth = depth / 2;
+  const positions = new Float32Array([
+    -halfWidth, 0, -halfDepth,
+    halfWidth, 0, -halfDepth,
+    0, rise, -halfDepth,
+    -halfWidth, 0, halfDepth,
+    halfWidth, 0, halfDepth,
+    0, rise, halfDepth,
+  ]);
+  const geometry = new THREE.BufferGeometry();
+  geometry.setAttribute("position", new THREE.BufferAttribute(positions, 3));
+  geometry.setIndex([
+    0, 2, 1,
+    3, 4, 5,
+    0, 5, 2, 0, 3, 5,
+    2, 4, 1, 2, 5, 4,
+  ]);
+  geometry.computeVertexNormals();
+  return geometry;
+}
+
+function addTowerMeshes(
+  group: THREE.Group,
+  width: number,
+  depth: number,
+  height: number,
+  color: number,
+) {
+  const baseHeight = 3.1;
+  const cabHeight = 3.2;
+  const shaftTop = height - cabHeight;
+  const bodyMaterial = new THREE.MeshStandardMaterial({ color, roughness: 1, flatShading: true });
+  const darkMaterial = new THREE.MeshStandardMaterial({ color: 0x26383a, roughness: 0.8, flatShading: true });
+  const roofMaterial = new THREE.MeshStandardMaterial({ color: 0x48463d, roughness: 1, flatShading: true });
+
+  const base = new THREE.Mesh(new THREE.BoxGeometry(width, baseHeight, depth), bodyMaterial);
+  base.position.y = baseHeight / 2 + 0.16;
+  base.castShadow = true;
+  base.receiveShadow = true;
+  group.add(base);
+
+  const shaft = new THREE.Mesh(new THREE.BoxGeometry(width * 0.48, shaftTop - baseHeight, depth * 0.48), bodyMaterial);
+  shaft.position.y = baseHeight + (shaftTop - baseHeight) / 2 + 0.16;
+  shaft.castShadow = true;
+  shaft.receiveShadow = true;
+  group.add(shaft);
+
+  const cab = new THREE.Mesh(new THREE.BoxGeometry(width * 0.88, cabHeight, depth * 0.88), darkMaterial);
+  cab.position.y = shaftTop + cabHeight / 2 + 0.16;
+  cab.castShadow = true;
+  group.add(cab);
+
+  const roof = new THREE.Mesh(new THREE.BoxGeometry(width, 0.48, depth), roofMaterial);
+  roof.position.y = height + 0.4;
+  roof.castShadow = true;
+  group.add(roof);
 }
 

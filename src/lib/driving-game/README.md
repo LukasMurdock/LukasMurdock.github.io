@@ -27,7 +27,7 @@ startDrivingGame(root, {
 });
 ```
 
-The page exposes Cruise and Chase selection before play and switches their controllers without rebuilding the shared world. Cruise defaults to the `loose` profile; Chase defaults to `aggressive`. Passing `drivingProfile` explicitly overrides the mode default for tuning.
+The page exposes Cruise and Chase plus Circuit City and Crosswind selection before play and while paused. Mode changes replace only the mode controller; map changes dispose and rebuild the world while retaining the renderer, controls, player presentation, and page lifecycle. Cruise defaults to the `loose` profile; Chase defaults to `aggressive`. Passing `drivingProfile` explicitly overrides the mode default for tuning.
 
 Available internal handling profiles are `balanced`, `loose`, `technical`, and `aggressive`. Aggressive raises acceleration and top speed, uses faster and deeper breakaway behavior, strengthens hard-drift entry and exit boost, and deliberately reaches redline at its normal maximum speed. The other profiles retain a quieter overdrive ratio.
 
@@ -36,7 +36,8 @@ Available internal handling profiles are `balanced`, `loose`, `technical`, and `
 1. Add a `GameMapDefinition` under `maps/`.
 2. Register it in `maps/index.ts`.
 3. Choose either a circuit-based spawn or an explicit position and heading.
-4. Keep mode-specific entities and rules out of the map definition.
+4. Use optional road rotation for diagonal pavement; rotated roads currently omit generated lane markings.
+5. Keep mode-specific entities and rules out of the map definition.
 
 A map owns:
 
@@ -47,7 +48,7 @@ A map owns:
 - optional semantic circuit grammar;
 - player spawn.
 
-Every registered mode receives the selected map and its built `WorldRuntime` service. The service owns pavement, obstacle, spawn, and boundary queries so player and future pursuit actors share one spatial truth.
+Every registered mode receives the selected map and its built `WorldRuntime` service. The service owns pavement, obstacle, spawn, and boundary queries so player and pursuit actors share one spatial truth. Its `destroy()` method removes and disposes all map-owned scene resources during an in-place map change.
 
 ## Local drive leaderboard
 

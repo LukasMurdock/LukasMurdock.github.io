@@ -1,7 +1,7 @@
 import type * as THREE from "three";
 import type { DrivingProfile } from "../driving-profiles";
 import type { DriftPhase } from "../types";
-import type { ObstacleKind } from "../world/types";
+import type { ObstacleKind, WorldRuntime } from "../world/types";
 
 export type PlayerControlName = "left" | "right" | "handbrake";
 
@@ -36,6 +36,7 @@ export type PlayerEvent =
 export type PlayerController = {
   start: () => void;
   update: (dt: number) => void;
+  setWorld: (world: WorldRuntime) => void;
   setDrivingProfile: (profile: DrivingProfile) => void;
   setControl: (name: PlayerControlName, pressed: boolean) => void;
   clearControls: () => void;

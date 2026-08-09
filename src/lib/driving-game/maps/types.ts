@@ -3,7 +3,9 @@ export type RoadSegmentDefinition = {
   z: number;
   width: number;
   depth: number;
-  markings?: boolean;
+  rotation?: number;
+  markings?: boolean | "taxiway";
+  surfaceColor?: number;
 };
 
 export type ParkingLotDefinition = {
@@ -20,6 +22,7 @@ export type BuildingDefinition = {
   depth: number;
   height: number;
   color: number;
+  style?: "standard" | "hangar" | "tower";
 };
 
 export type PropDefinition = {
