@@ -7,6 +7,7 @@ import { TIRE_WORKLET_SOURCE } from "./tire-worklet-source";
 type CarAudioParameters = {
   dt: number;
   speed: number;
+  forwardSpeed: number;
   signedSlipDegrees: number;
   steeringLoad: number;
   steerDirection: number;
@@ -21,6 +22,7 @@ type CarAudioParameters = {
 export type CarAudio = {
   update: (parameters: CarAudioParameters) => void;
   impact: (strength: number) => void;
+  reset: () => void;
   setPaused: (paused: boolean) => void;
   destroy: () => void;
 };
@@ -127,8 +129,11 @@ export function createCarAudio(DRIVING: DrivingProfile): CarAudio | null {
   }).catch(() => URL.revokeObjectURL(workletUrl));
 
   let gear = 0;
-  let lastShiftTime = -1;
-  let shiftDipUntil = 0;
+  let pendingGear = 0;
+  let pendingGearTime = 0;
+  let lastShiftTime = Number.NEGATIVE_INFINITY;
+  let recoveryShiftInhibit = 0;
+  let previouslyReversing = false;
   let engineRpm = 900;
   let engineLoad = 0.45;
   let turboSpool = 0;
@@ -167,18 +172,34 @@ export function createCarAudio(DRIVING: DrivingProfile): CarAudio | null {
     oscillator.stop(context.currentTime + duration + 0.02);
   }
 
+  function triggerLaunchTransition() {
+    engineNode?.port.postMessage({
+      type: "shift",
+      cutDuration: 0.025,
+      recoveryDuration: 0.02,
+      strength: 0.14,
+      release: false,
+    });
+  }
+
   function triggerShift() {
-    const now = context.currentTime;
-    shiftDipUntil = now + 0.11;
-    engineNode?.port.postMessage({ type: "shift" });
-    triggerNoise(0.065, 0.075, 1250);
-    triggerThump(82, 0.08, 0.14);
+    const aggressive = DRIVING.redlineAtMaximumSpeed;
+    engineNode?.port.postMessage({
+      type: "shift",
+      cutDuration: aggressive ? 0.065 : 0.08,
+      recoveryDuration: 0.045,
+      strength: aggressive ? 0.76 : 0.64,
+      release: true,
+    });
+    triggerNoise(aggressive ? 0.065 : 0.052, 0.05, 1250);
+    triggerThump(82, aggressive ? 0.075 : 0.06, 0.09);
   }
 
   return {
     update({
       dt,
       speed,
+      forwardSpeed,
       signedSlipDegrees,
       steeringLoad,
       steerDirection,
@@ -197,41 +218,103 @@ export function createCarAudio(DRIVING: DrivingProfile): CarAudio | null {
       const instability = THREE.MathUtils.clamp(Math.abs(slipRate) / 110, 0, 1);
       chirpCooldown = Math.max(0, chirpCooldown - dt);
 
-      // Most profiles cruise in overdrive; power-focused profiles can deliberately reach redline at top speed.
-      const gearScale = DRIVING.maximumSpeed / 25;
-      const gearEdges = [0, 4.2, 8.2, 12.2, 16.3, 20.5, 24, 28]
-        .map((edge) => edge * gearScale);
-      if (DRIVING.redlineAtMaximumSpeed) {
-        gearEdges[gearEdges.length - 1] = DRIVING.maximumSpeed;
-      }
-      let desiredGear = 0;
-      if (!reversing) {
-        desiredGear = gear;
-        for (let i = 0; i < gearEdges.length - 1; i++) {
-          if (speed >= gearEdges[i]) desiredGear = i;
+      // Five logical stages produce only three fully punctuated shifts. The early launch
+      // transition is absorbed, while ordinary profiles settle after their final pull.
+      const aggressive = DRIVING.redlineAtMaximumSpeed;
+      const gearRatios = aggressive
+        ? [0, 0.17, 0.44, 0.69, 0.86, 1]
+        : [0, 0.18, 0.46, 0.71, 0.88, 1];
+      const gearEdges = gearRatios.map((ratio) => ratio * DRIVING.maximumSpeed);
+      const longitudinalSpeed = Math.abs(forwardSpeed);
+      const drifting = phase === "breakaway" || phase === "sustain" || phase === "transition";
+      const transmissionSpeed = drifting
+        ? THREE.MathUtils.lerp(longitudinalSpeed, speed, 0.3)
+        : longitudinalSpeed;
+      const lastForwardGear = gearEdges.length - 2;
+
+      if (phase === "recover" && previousPhase !== "recover") recoveryShiftInhibit = 0.24;
+      else recoveryShiftInhibit = Math.max(0, recoveryShiftInhibit - dt);
+
+      if (reversing) {
+        if (!previouslyReversing) {
+          gear = 0;
+          pendingGear = 0;
+          pendingGearTime = 0;
         }
+      } else if (!drifting && recoveryShiftInhibit === 0) {
+        let desiredGear = gear;
+        while (
+          desiredGear < lastForwardGear
+          && transmissionSpeed >= gearEdges[desiredGear + 1]
+        ) desiredGear += 1;
+        const downshiftHysteresis = DRIVING.maximumSpeed * 0.06;
+        while (
+          desiredGear > 0
+          && transmissionSpeed < gearEdges[desiredGear] - downshiftHysteresis
+        ) desiredGear -= 1;
+
+        if (desiredGear === gear) {
+          pendingGear = gear;
+          pendingGearTime = 0;
+        } else {
+          if (pendingGear !== desiredGear) {
+            pendingGear = desiredGear;
+            pendingGearTime = 0;
+          } else {
+            pendingGearTime += dt;
+          }
+          const confirmationDuration = desiredGear < gear || phase === "recover" ? 0.18 : 0;
+          if (
+            pendingGearTime >= confirmationDuration
+            && now - lastShiftTime >= 0.32
+          ) {
+            const previousGear = gear;
+            gear = desiredGear;
+            pendingGear = gear;
+            pendingGearTime = 0;
+            lastShiftTime = now;
+            const adjacentUpshift = gear === previousGear + 1;
+            if (adjacentUpshift && gear === 1) triggerLaunchTransition();
+            else if (adjacentUpshift) triggerShift();
+          }
+        }
+      } else {
+        pendingGear = gear;
+        pendingGearTime = 0;
       }
-      if (desiredGear !== gear && now - lastShiftTime > 0.38) {
-        gear = desiredGear;
-        lastShiftTime = now;
-        triggerShift();
-      }
+      previouslyReversing = reversing;
+
       const gearStart = gearEdges[gear];
-      const gearEnd = gearEdges[Math.min(gear + 1, gearEdges.length - 1)];
-      const gearProgress = THREE.MathUtils.clamp((speed - gearStart) / Math.max(gearEnd - gearStart, 1), 0, 1);
-      const reverseProgress = THREE.MathUtils.clamp(speed / DRIVING.manual.maximumReverseSpeed, 0, 1);
-      const drivingRpm = reversing ? 1700 + reverseProgress * 3200 : 2200 + gearProgress * 5600;
+      const gearEnd = gearEdges[gear + 1];
+      const gearProgress = THREE.MathUtils.clamp(
+        (transmissionSpeed - gearStart) / Math.max(gearEnd - gearStart, 1),
+        0,
+        1,
+      );
       const acceleration = (speed - previousVehicleSpeed) / Math.max(dt, 0.001);
       previousVehicleSpeed = speed;
       const accelerationLoad = THREE.MathUtils.smoothstep(acceleration, 0.15, 7);
+      const reverseProgress = THREE.MathUtils.clamp(speed / DRIVING.manual.maximumReverseSpeed, 0, 1);
+      const rpmFloors = [2200, 5200, 5200, 5700, 5600];
+      const shiftPeakRpm = aggressive ? 7800 : 7600;
+      let drivingRpm = 1700 + reverseProgress * 3200;
+      if (!reversing) {
+        if (gear === lastForwardGear) {
+          const loadedTopRpm = THREE.MathUtils.lerp(5600, aggressive ? 7800 : 7000, gearProgress);
+          drivingRpm = aggressive
+            ? loadedTopRpm
+            : THREE.MathUtils.lerp(4600, loadedTopRpm, accelerationLoad);
+        } else {
+          drivingRpm = THREE.MathUtils.lerp(rpmFloors[gear], shiftPeakRpm, gearProgress);
+        }
+      }
       const cruiseWander = (1 - accelerationLoad)
         * (Math.sin(now * 0.83) * 42 + Math.sin(now * 2.17) * 19);
       const targetRpm = THREE.MathUtils.lerp(900, drivingRpm, THREE.MathUtils.smoothstep(speed, 0.15, 2))
         + cruiseWander;
-      const rpmResponse = targetRpm > engineRpm ? 0.06 : 0.095;
-      engineRpm = THREE.MathUtils.lerp(engineRpm, targetRpm, 1 - Math.exp(-dt / rpmResponse));
+      // The worklet owns the single 55 ms RPM response; avoid cascading another long smoother here.
+      engineRpm = targetRpm;
 
-      const drifting = phase === "breakaway" || phase === "sustain" || phase === "transition";
       let targetLoad = 0.16
         + speedNormalized * 0.08
         + throttle * 0.28
@@ -242,7 +325,6 @@ export function createCarAudio(DRIVING: DrivingProfile): CarAudio | null {
       if (braking) targetLoad = 0.1;
       if (phase === "recover") targetLoad = 0.2;
       if (boosting) targetLoad += 0.22;
-      if (now < shiftDipUntil) targetLoad = 0.08;
       engineLoad = THREE.MathUtils.lerp(engineLoad, THREE.MathUtils.clamp(targetLoad, 0, 1), 1 - Math.exp(-dt / 0.085));
       const targetSpool = THREE.MathUtils.smoothstep(engineRpm, 2700, 3400) * engineLoad;
       const spoolResponse = targetSpool > turboSpool ? 0.18 : 0.32;
@@ -306,6 +388,26 @@ export function createCarAudio(DRIVING: DrivingProfile): CarAudio | null {
     impact(strength) {
       triggerNoise(0.08 + strength * 0.16, 0.18 + strength * 0.18, 310);
       triggerThump(52, 0.08 + strength * 0.12, 0.2 + strength * 0.12);
+    },
+    reset() {
+      gear = 0;
+      pendingGear = 0;
+      pendingGearTime = 0;
+      lastShiftTime = Number.NEGATIVE_INFINITY;
+      recoveryShiftInhibit = 0;
+      previouslyReversing = false;
+      engineRpm = 900;
+      engineLoad = 0.16;
+      turboSpool = 0;
+      enginePunch = 0;
+      previousVehicleSpeed = 0;
+      previousPhase = "grip";
+      previouslyBoosting = false;
+      previousSignedSlip = 0;
+      previousAbsoluteSlip = 0;
+      chirpCooldown = 0;
+      engineNode?.port.postMessage({ type: "reset" });
+      engineNode?.port.postMessage({ type: "state", rpm: 900, load: 0.16, spool: 0 });
     },
     setPaused(paused) {
       setSmooth(master.gain, paused ? 0.0001 : 0.48, paused ? 0.035 : 0.08);

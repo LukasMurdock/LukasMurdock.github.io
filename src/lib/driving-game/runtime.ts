@@ -3,7 +3,7 @@ import { DRIVING_PROFILES } from "./driving-profiles";
 import { createLeaderboardToast } from "./feedback/leaderboard-toast";
 import { createSpeedLines } from "./feedback/speed-lines";
 import { addLocalDriveResult, getLocalDriveLeaderboard } from "./local-leaderboard";
-import { GAME_MAPS, type GameMapId } from "./maps";
+import { DEFAULT_GAME_MAP_ID, GAME_MAPS, type GameMapId } from "./maps";
 import { GAME_MODES, type GameModeController, type GameModeId } from "./modes";
 import type { CameraMode, ControlMode, DriveEndReason, DrivingGameOptions } from "./types";
 import { createPlayerController, type PlayerControlName } from "./player";
@@ -25,7 +25,7 @@ const MANUAL_CONTROL_CODE = [
 ];
 
 export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions = {}) {
-  let map = GAME_MAPS[options.map ?? "city-circuit"];
+  let map = GAME_MAPS[options.map ?? DEFAULT_GAME_MAP_ID];
   let mode = GAME_MODES[options.mode ?? "cruise"];
   const drivingProfileOverride = options.drivingProfile;
   let drivingProfileId = drivingProfileOverride ?? mode.drivingProfile;
@@ -320,7 +320,7 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
     resetCameraTracking();
 
     const url = new URL(window.location.href);
-    if (mapId === "city-circuit") url.searchParams.delete("map");
+    if (mapId === DEFAULT_GAME_MAP_ID) url.searchParams.delete("map");
     else url.searchParams.set("map", mapId);
     window.history.replaceState(window.history.state, "", url);
   }

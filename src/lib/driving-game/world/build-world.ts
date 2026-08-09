@@ -152,7 +152,7 @@ export function buildWorld(scene: THREE.Scene, map: GameMapDefinition): WorldRun
     spawnPosition,
     spawnHeading,
     isOnPavement(position: THREE.Vector3) {
-      const onCityRoad = roadSegments.some((road) => {
+      const onRoad = roadSegments.some((road) => {
         const rotation = road.rotation ?? 0;
         const dx = position.x - road.x;
         const dz = position.z - road.z;
@@ -165,7 +165,7 @@ export function buildWorld(scene: THREE.Scene, map: GameMapDefinition): WorldRun
         Math.abs(position.x - parkingLot.x) <= parkingLot.width / 2
         && Math.abs(position.z - parkingLot.z) <= parkingLot.depth / 2
       );
-      if (onCityRoad || onParkingLot) return true;
+      if (onRoad || onParkingLot) return true;
 
       if (!course) return false;
       let nearestIndex = 0;

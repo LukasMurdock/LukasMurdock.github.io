@@ -10,11 +10,12 @@ const { pursuer: PURSUER_TUNING } = CHASE_TUNING;
 export type PursuerUpdate = {
   distanceToPlayer: number;
   playerCollision: PlayerExternalCollision | null;
+  respawned: boolean;
 };
 
 export type Pursuer = {
   setVisible: (visible: boolean) => void;
-  resetBehind: (player: PlayerSnapshot, formationIndex?: number) => void;
+  resetBehind: (player: PlayerSnapshot, formationIndex?: number) => boolean;
   update: (dt: number, player: PlayerSnapshot, accuracy: number) => PursuerUpdate;
   destroy: () => void;
 };
@@ -35,6 +36,10 @@ export function createPursuer(scene: THREE.Scene, world: WorldRuntime): Pursuer 
   let avoidanceTime = 0;
   let avoidanceHeading = heading;
   let formationSlot = 0;
+  let pursuitTime = 0;
+  let lowSpeedTime = 0;
+  let lastCollisionEpisode = Number.NEGATIVE_INFINITY;
+  const collisionEpisodes: number[] = [];
 
   function placeCar() {
     car.group.position.copy(position);
@@ -53,6 +58,8 @@ export function createPursuer(scene: THREE.Scene, world: WorldRuntime): Pursuer 
     const candidates = [
       formation,
       { behind: formation.behind + 5, side: -formation.side },
+      { behind: formation.behind + 8, side: 12 },
+      { behind: formation.behind + 8, side: -12 },
       { behind: formation.behind + 9, side: formation.side * 0.5 },
       { behind: formation.behind + 13, side: 0 },
     ];
@@ -69,18 +76,23 @@ export function createPursuer(scene: THREE.Scene, world: WorldRuntime): Pursuer 
       placed = true;
       break;
     }
-    if (!placed) position.copy(world.spawnPosition);
+    if (!placed) return false;
 
     heading = player.heading;
     speed = Math.min(player.speed * 0.55, 12);
     steeringVisual = 0;
     avoidanceTime = 0;
     avoidanceHeading = heading;
+    lowSpeedTime = 0;
+    collisionEpisodes.length = 0;
+    lastCollisionEpisode = Number.NEGATIVE_INFINITY;
     observedTarget.copy(player.position);
     placeCar();
+    return true;
   }
 
   function update(dt: number, player: PlayerSnapshot, accuracy: number) {
+    pursuitTime += dt;
     const distanceToPlayer = horizontalDistance(position, player.position);
     const predictionAmount = THREE.MathUtils.smoothstep(distanceToPlayer, 8, 30);
     const predictionTime = THREE.MathUtils.lerp(
@@ -147,11 +159,13 @@ export function createPursuer(scene: THREE.Scene, world: WorldRuntime): Pursuer 
     forward.set(Math.sin(heading), 0, Math.cos(heading));
     const distance = speed * dt;
     const steps = Math.max(1, Math.ceil(distance / 0.65));
+    let hadWorldCollision = false;
     for (let step = 0; step < steps; step++) {
       position.addScaledVector(forward, distance / steps);
       const collision = world.queryCollision(position, PURSUER_TUNING.radius);
       if (!collision) continue;
 
+      hadWorldCollision = true;
       position.x += collision.normalX * collision.penetration;
       position.z += collision.normalZ * collision.penetration;
       const tangentA = Math.atan2(collision.normalZ, -collision.normalX);
@@ -170,7 +184,42 @@ export function createPursuer(scene: THREE.Scene, world: WorldRuntime): Pursuer 
       speed *= 0.48;
     }
 
-    if (world.isOutsideBoundary(position, PURSUER_TUNING.radius)) resetBehind(player, formationSlot);
+    if (
+      hadWorldCollision
+      && pursuitTime - lastCollisionEpisode >= PURSUER_TUNING.collisionEpisodeCooldown
+    ) {
+      lastCollisionEpisode = pursuitTime;
+      collisionEpisodes.push(pursuitTime);
+    }
+    while (
+      collisionEpisodes.length > 0
+      && pursuitTime - collisionEpisodes[0] > PURSUER_TUNING.collisionBurstWindow
+    ) collisionEpisodes.shift();
+
+    const resolvedDistance = horizontalDistance(position, player.position);
+    if (speed < PURSUER_TUNING.stuckSpeed && resolvedDistance > PURSUER_TUNING.stuckDistance) {
+      lowSpeedTime += dt;
+    } else {
+      lowSpeedTime = 0;
+    }
+    const stuckAwayFromPlayer = resolvedDistance > PURSUER_TUNING.stuckDistance
+      && (
+        lowSpeedTime >= PURSUER_TUNING.stuckDuration
+        || collisionEpisodes.length >= PURSUER_TUNING.collisionBurstCount
+      );
+    const needsRespawn = world.isOutsideBoundary(position, PURSUER_TUNING.radius)
+      || stuckAwayFromPlayer;
+    if (needsRespawn && resetBehind(player, formationSlot)) {
+      return {
+        distanceToPlayer: horizontalDistance(position, player.position),
+        playerCollision: null,
+        respawned: true,
+      };
+    }
+    if (needsRespawn) {
+      lowSpeedTime = 0;
+      collisionEpisodes.length = 0;
+    }
 
     const vehicleCollision = queryVehicleCollision(
       player.position,
@@ -221,6 +270,7 @@ export function createPursuer(scene: THREE.Scene, world: WorldRuntime): Pursuer 
     return {
       distanceToPlayer: horizontalDistance(position, player.position),
       playerCollision,
+      respawned: false,
     };
   }
 

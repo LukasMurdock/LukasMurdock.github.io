@@ -48,6 +48,11 @@ export function addBuilding(
     finishBuilding();
     return;
   }
+  if (style === "freight") {
+    addFreightMeshes(group, width, depth, height, color);
+    finishBuilding();
+    return;
+  }
 
   const body = new THREE.Mesh(
     new THREE.BoxGeometry(width, height, depth),
@@ -190,6 +195,63 @@ function addHangarMeshes(
     if (ridgeRunsAlongZ) divider.position.z += 0.002;
     else divider.position.x += 0.002;
     group.add(divider);
+  }
+}
+
+function addFreightMeshes(
+  group: THREE.Group,
+  width: number,
+  depth: number,
+  height: number,
+  color: number,
+) {
+  const body = new THREE.Mesh(
+    new THREE.BoxGeometry(width, height, depth),
+    new THREE.MeshStandardMaterial({ color, roughness: 1, flatShading: true }),
+  );
+  body.position.y = height / 2 + 0.16;
+  body.castShadow = true;
+  body.receiveShadow = true;
+  group.add(body);
+
+  const roof = new THREE.Mesh(
+    new THREE.BoxGeometry(width + 0.65, 0.34, depth + 0.65),
+    new THREE.MeshStandardMaterial({ color: 0x3f4540, roughness: 1, flatShading: true }),
+  );
+  roof.position.y = height + 0.33;
+  roof.castShadow = true;
+  roof.receiveShadow = true;
+  group.add(roof);
+
+  const loadingSideRunsAlongZ = depth >= width;
+  const sideLength = loadingSideRunsAlongZ ? depth : width;
+  const bayCount = Math.max(2, Math.floor(sideLength / 7));
+  const baySpacing = sideLength / bayCount;
+  const doorWidth = Math.min(3.4, baySpacing * 0.62);
+  const doorHeight = Math.min(3, height * 0.58);
+  const doorMaterial = new THREE.MeshBasicMaterial({ color: 0x293938 });
+  const headerMaterial = new THREE.MeshBasicMaterial({ color: 0xd2c497 });
+
+  for (let bay = 0; bay < bayCount; bay++) {
+    const offset = -sideLength / 2 + baySpacing * (bay + 0.5);
+    for (const side of [-1, 1]) {
+      const door = new THREE.Mesh(new THREE.PlaneGeometry(doorWidth, doorHeight), doorMaterial);
+      door.position.y = doorHeight / 2 + 0.17;
+      if (loadingSideRunsAlongZ) {
+        door.position.set(side * (width / 2 + 0.012), door.position.y, offset);
+        door.rotation.y = side > 0 ? Math.PI / 2 : -Math.PI / 2;
+      } else {
+        door.position.set(offset, door.position.y, side * (depth / 2 + 0.012));
+        door.rotation.y = side > 0 ? 0 : Math.PI;
+      }
+      group.add(door);
+
+      const header = new THREE.Mesh(new THREE.PlaneGeometry(doorWidth + 0.35, 0.16), headerMaterial);
+      header.position.copy(door.position);
+      header.position.y = doorHeight + 0.32;
+      header.rotation.copy(door.rotation);
+      group.add(header);
+    }
   }
 }
 

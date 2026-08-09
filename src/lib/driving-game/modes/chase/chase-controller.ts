@@ -25,9 +25,8 @@ export function createChaseController(context: GameModeContext): GameModeControl
     stateTime = 0;
     captureGrace = CHASE_TUNING.captureGraceDuration;
     reinforcementNotice = 0;
-    activePursuerCount = 1;
     const player = context.getPlayer();
-    pursuers.forEach((pursuer, index) => pursuer.resetBehind(player, index));
+    activePursuerCount = pursuers[0].resetBehind(player, 0) ? 1 : 0;
     setPursuersVisible(activePursuerCount);
     hud.showActive({
       survivalTime: context.getDriveTime(),
@@ -77,16 +76,22 @@ export function createChaseController(context: GameModeContext): GameModeControl
       const requestedPursuers = pursuerCountAt(survivalTime);
       if (requestedPursuers > activePursuerCount) {
         const player = context.getPlayer();
+        const previousPursuerCount = activePursuerCount;
         for (let index = activePursuerCount; index < requestedPursuers; index++) {
           const pursuer = pursuers[index]
             ?? createPursuer(context.scene, context.world);
           if (!pursuers[index]) pursuers.push(pursuer);
-          pursuer.resetBehind(player, index);
+          if (!pursuer.resetBehind(player, index)) {
+            pursuer.setVisible(false);
+            break;
+          }
           pursuer.setVisible(true);
+          activePursuerCount = index + 1;
         }
-        activePursuerCount = requestedPursuers;
-        captureGrace = Math.max(captureGrace, CHASE_TUNING.reinforcementCaptureGraceDuration);
-        reinforcementNotice = 1.8;
+        if (activePursuerCount > previousPursuerCount) {
+          captureGrace = Math.max(captureGrace, CHASE_TUNING.reinforcementCaptureGraceDuration);
+          reinforcementNotice = 1.8;
+        }
       }
 
       const pursuitAccuracy = smoothRamp(
@@ -99,6 +104,9 @@ export function createChaseController(context: GameModeContext): GameModeControl
       for (let index = 0; index < activePursuerCount; index++) {
         const update = pursuers[index].update(dt, context.getPlayer(), pursuitAccuracy);
         let resolvedDistance = update.distanceToPlayer;
+        if (update.respawned) {
+          captureGrace = Math.max(captureGrace, CHASE_TUNING.respawnCaptureGraceDuration);
+        }
         if (update.playerCollision) {
           hasVehicleContact = true;
           context.applyPlayerCollision(update.playerCollision);

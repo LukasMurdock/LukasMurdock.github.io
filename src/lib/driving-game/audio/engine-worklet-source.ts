@@ -22,6 +22,10 @@ class TurboI6OrderProcessor extends AudioWorkletProcessor {
     this.time = 0;
     this.releaseEnvelope = 0;
     this.mechanicalEnvelope = 0;
+    this.shiftGate = 1;
+    this.shiftCutRemaining = 0;
+    this.shiftRecoveryDuration = 0.045;
+    this.shiftStrength = 0;
     this.limiterPhase = 0;
     this.limiterGate = 1;
     this.randomState = 0x2f6e2b1;
@@ -38,7 +42,19 @@ class TurboI6OrderProcessor extends AudioWorkletProcessor {
         this.targetLoad = Math.max(0, Math.min(1, data.load));
         this.targetSpool = Math.max(0, Math.min(1, data.spool));
       } else if (data.type === 'shift') {
-        this.releaseEnvelope = 1;
+        this.shiftCutRemaining = Math.max(0, data.cutDuration || 0);
+        this.shiftRecoveryDuration = Math.max(0.01, data.recoveryDuration || 0.045);
+        this.shiftStrength = Math.max(0, Math.min(0.95, data.strength || 0));
+        this.shiftGate = Math.min(this.shiftGate, 1 - this.shiftStrength);
+        if (data.release !== false) this.releaseEnvelope = 1;
+      } else if (data.type === 'reset') {
+        this.releaseEnvelope = 0;
+        this.mechanicalEnvelope = 0;
+        this.shiftGate = 1;
+        this.shiftCutRemaining = 0;
+        this.shiftStrength = 0;
+        this.limiterPhase = 0;
+        this.limiterGate = 1;
       }
     };
   }
@@ -99,6 +115,13 @@ class TurboI6OrderProcessor extends AudioWorkletProcessor {
       this.rpm += (this.targetRpm + idleHunt - this.rpm) * rpmAttack;
       this.load += (this.targetLoad - this.load) * loadAttack;
       this.spool += (this.targetSpool - this.spool) * spoolAttack;
+      if (this.shiftCutRemaining > 0) {
+        this.shiftCutRemaining -= 1 / sampleRate;
+        this.shiftGate = Math.min(this.shiftGate, 1 - this.shiftStrength);
+      } else {
+        const shiftRecovery = 1 - Math.exp(-1 / (sampleRate * this.shiftRecoveryDuration / 3));
+        this.shiftGate += (1 - this.shiftGate) * shiftRecovery;
+      }
 
       // The table spans two crank revolutions, so its fundamental is the 0.5x engine order.
       const crankHz = this.rpm / 60;
@@ -166,7 +189,8 @@ class TurboI6OrderProcessor extends AudioWorkletProcessor {
 
       const tonalLevel = 0.1 + this.load * 0.18;
       const drive = 1.35 + this.load * 1.25;
-      const sample = Math.tanh((periodic * tonalLevel + turbulence + mechanics + turbo + wastegate + release) * drive) * 0.5;
+      const engineCore = periodic * tonalLevel + turbulence + mechanics + turbo + wastegate;
+      const sample = Math.tanh((engineCore * this.shiftGate + release) * drive) * 0.5;
       left[i] = sample;
       right[i] = sample * 0.985;
     }

@@ -3,7 +3,7 @@ import type { GameMapDefinition } from "./types";
 export const CROSSWIND_MAP = {
   id: "crosswind",
   title: "Crosswind",
-  description: "Twin airfield aprons, crossed taxiways, and one dangerous service cut.",
+  description: "Aprons, crossed taxiways, and a service cut.",
   worldLimit: 118,
   groundSize: 280,
   environment: {

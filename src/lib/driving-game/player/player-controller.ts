@@ -170,6 +170,7 @@ export function createPlayerController({
     previousHandbrake = false;
     driftSmoke.reset();
     skidMarks.reset();
+    carAudio?.reset();
     car.group.position.copy(position);
     car.group.rotation.set(0, heading, 0);
   }
@@ -550,6 +551,7 @@ export function createPlayerController({
     carAudio?.update({
       dt,
       speed: finalSpeed,
+      forwardSpeed: finalForwardSpeed,
       signedSlipDegrees: THREE.MathUtils.radToDeg(visualSlip),
       steeringLoad: Math.abs(steer) * THREE.MathUtils.clamp(finalSpeed / 14, 0, 1),
       steerDirection: steer,

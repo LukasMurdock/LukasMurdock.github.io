@@ -27,17 +27,21 @@ startDrivingGame(root, {
 });
 ```
 
-The page exposes Cruise and Chase plus Circuit City and Crosswind selection before play and while paused. Mode changes replace only the mode controller; map changes dispose and rebuild the world while retaining the renderer, controls, player presentation, and page lifecycle. The runtime derives touch capability and orientation from browser capabilities and container geometry rather than user-agent strings, and pauses safely when an active drive rotates. Automatic controls remain the default. On fine-pointer desktops, entering Up, Up, Down, Down, Left, Right, Left, Right before play or while paused unlocks the persisted Manual scheme and its hidden selector. Cruise defaults to the `loose` profile; Chase defaults to `aggressive`. Passing `drivingProfile` explicitly overrides the mode default for tuning.
+The page exposes Cruise and Chase plus Circuit City, Crosswind, and Switchyard selection before play and while paused. Mode changes replace only the mode controller; map changes dispose and rebuild the world while retaining the renderer, controls, player presentation, and page lifecycle. The runtime derives touch capability and orientation from browser capabilities and container geometry rather than user-agent strings, and pauses safely when an active drive rotates. Automatic controls remain the default. On fine-pointer desktops, entering Up, Up, Down, Down, Left, Right, Left, Right before play or while paused unlocks the persisted Manual scheme and its hidden selector. Cruise defaults to the `loose` profile; Chase defaults to `aggressive`. Passing `drivingProfile` explicitly overrides the mode default for tuning.
 
-Available internal handling profiles are `balanced`, `loose`, `technical`, and `aggressive`. Aggressive raises acceleration and top speed, uses faster and deeper breakaway behavior, strengthens hard-drift entry and exit boost, and deliberately reaches redline at its normal maximum speed. The other profiles retain a quieter overdrive ratio.
+Available internal handling profiles are `balanced`, `loose`, `technical`, and `aggressive`. Aggressive raises acceleration and top speed, uses faster and deeper breakaway behavior, strengthens hard-drift entry and exit boost, and deliberately reaches redline at its normal maximum speed. The other profiles retain a quieter overdrive ratio. The audio-only transmission uses five logical forward stages but fully punctuates only three upshifts: the launch transition is absorbed, active drifts hold their gear, recovery briefly inhibits shifts, and braking or multi-stage changes reconcile without an upshift thump. A 320 ms re-arm, 6% downshift hysteresis, dedicated worklet torque-cut envelope, and mostly longitudinal speed reference prevent threshold chatter. Player resets and reverse engagement return it silently to the launch stage.
 
 ## Adding a map
 
-1. Add a `GameMapDefinition` under `maps/`.
-2. Register it in `maps/index.ts`.
+1. Add a `GameMapDefinition` under `maps/` with concise selector-ready title and description copy.
+2. Register it in `maps/index.ts`; the intro and pause selectors are generated from `GAME_MAPS`.
 3. Choose either a circuit-based spawn or an explicit position and heading.
 4. Use optional road rotation for diagonal pavement; `"taxiway"` markings support faded rotated edge dashes.
 5. Keep mode-specific entities and rules out of the map definition.
+
+`DEFAULT_GAME_MAP_ID` owns the no-query default, while `isGameMapId()` validates direct `?map=` launches against the registry. Adding a nondefault map does not require another URL-parsing branch.
+
+Switchyard uses one broad freight apron and two staggered rows of short sheds. Its three longitudinal channels create delayed lane-transfer and double-transfer decisions without map-specific pursuit behavior. Subtle pavement bands, inspection pads, and the visual-only `freight` building style establish lane and yard identity while preserving shared pavement and axis-aligned collision semantics.
 
 A map owns:
 
@@ -63,6 +67,6 @@ A future command can import `getLocalDriveLeaderboard` from the public `driving-
 3. Implement its controller lifecycle: `start`, `update`, `isDriveClockRunning`, `pause`, `reset(reason)`, `onPlayerEvent`, and `destroy`.
 4. Put mode-owned entities, pursuit state, win/loss rules, escalation, and mode HUD adapters in that controller—not in maps or player handling.
 
-The cruise controller is intentionally idle. Chase is a longest-survival mode with up to three escalating police pursuers, physical-collision capture, a brief post-capture state, pursuit pressure, and a compact survival timer. From 30–45 seconds, pursuit accuracy ramps modestly through faster target observation, slightly stronger prediction, and a small turn-rate increase without adding speed or removing close-range steering limits. `/drive/` remains Cruise by default; use `/drive/?mode=chase` to launch the Chase composition directly.
+The cruise controller is intentionally idle. Chase is a longest-survival mode with up to three escalating police pursuers, physical-collision capture, a brief post-capture state, pursuit pressure, and a compact survival timer. From 30–45 seconds, pursuit accuracy ramps modestly through faster target observation, slightly stronger prediction, and a small turn-rate increase without adding speed or removing close-range steering limits. Rear placement now tries a broader generic candidate fan and delays activation when no safe position exists; pursuers that remain slow or repeatedly collide while away from the player can reposition behind them with brief capture grace. `/drive/` remains Cruise by default; use `/drive/?mode=chase` to launch the Chase composition directly.
 
 A mode controller receives the world service, a refreshed player snapshot with detached position and velocity vectors, elapsed drive time, typed collision and drift-phase events, and a mode-owned `endDrive` action. Its `isDriveClockRunning()` hook excludes non-playing states such as Chase's capture presentation from the recorded survival time. Session resets arrive once through `reset(reason)`. It can add objects to the shared scene without reaching into or mutating player internals. It should not fork the shared vehicle model unless a mode genuinely requires different handling; use a driving profile for deliberate handling experiments.

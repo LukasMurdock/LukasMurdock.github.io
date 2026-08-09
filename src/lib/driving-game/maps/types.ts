@@ -22,7 +22,7 @@ export type BuildingDefinition = {
   depth: number;
   height: number;
   color: number;
-  style?: "standard" | "hangar" | "tower";
+  style?: "standard" | "hangar" | "freight" | "tower";
 };
 
 export type PropDefinition = {

@@ -5,7 +5,7 @@ const cityRoads = [-60, -30, 0, 30, 60];
 export const CITY_CIRCUIT_MAP = {
   id: "city-circuit",
   title: "Circuit City",
-  description: "Asymmetric city districts, a diagonal block cut, open drift lots, and a fast outer circuit.",
+  description: "Streets, lots, and an outer circuit.",
   worldLimit: 150,
   groundSize: 360,
   environment: {

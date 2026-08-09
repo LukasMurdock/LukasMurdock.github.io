@@ -9,7 +9,7 @@ export type {
   LocalDriveResult,
   LocalLeaderboardFilter,
 } from "./driving-game/local-leaderboard";
-export { GAME_MAPS } from "./driving-game/maps";
+export { DEFAULT_GAME_MAP_ID, GAME_MAPS, isGameMapId } from "./driving-game/maps";
 export type { GameMapDefinition, GameMapId } from "./driving-game/maps";
 export { GAME_MODES } from "./driving-game/modes";
 export type { GameModeDefinition, GameModeId } from "./driving-game/modes";

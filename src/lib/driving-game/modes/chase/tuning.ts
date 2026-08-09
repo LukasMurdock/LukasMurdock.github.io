@@ -2,6 +2,7 @@ export const CHASE_TUNING = {
   capturePresentationDuration: 0.8,
   captureGraceDuration: 1.8,
   reinforcementCaptureGraceDuration: 1.35,
+  respawnCaptureGraceDuration: 0.8,
   maximumPursuers: 3,
   escalationTimes: [0, 20, 45] as const,
   accuracyRamp: {
@@ -25,5 +26,11 @@ export const CHASE_TUNING = {
     closeRangeSpeedAdvantage: 1.25,
     lowSpeedTurnRate: 1.55,
     highSpeedTurnRate: 0.82,
+    stuckSpeed: 3,
+    stuckDistance: 12,
+    stuckDuration: 1.25,
+    collisionBurstCount: 3,
+    collisionBurstWindow: 1.5,
+    collisionEpisodeCooldown: 0.25,
   },
 } as const;

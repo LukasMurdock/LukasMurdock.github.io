@@ -1,5 +1,8 @@
 ---
 import Head from "@/components/Head.astro";
+import { GAME_MAPS } from "@/lib/driving-game/maps";
+
+const mapOptions = Object.values(GAME_MAPS);
 ---
 
 <!doctype html>
@@ -62,15 +65,13 @@ import Head from "@/components/Head.astro";
             </button>
           </div>
           <span class="selector-label">Map</span>
-          <div class="mode-select" role="group" aria-label="Map">
-            <button type="button" data-map-option="city-circuit" aria-pressed="false">
-              <strong>Circuit City</strong>
-              <span>Streets and circuit</span>
-            </button>
-            <button type="button" data-map-option="crosswind" aria-pressed="false">
-              <strong>Crosswind</strong>
-              <span>Aprons and shortcuts</span>
-            </button>
+          <div class="mode-select map-select" role="group" aria-label="Map">
+            {mapOptions.map((map) => (
+              <button type="button" data-map-option={map.id} aria-pressed="false">
+                <strong>{map.title}</strong>
+                <span>{map.description}</span>
+              </button>
+            ))}
           </div>
           <div class="control-mode-setting" hidden>
             <span class="selector-label">Controls</span>
@@ -120,15 +121,13 @@ import Head from "@/components/Head.astro";
               </button>
             </div>
             <span>Map</span>
-            <div class="mode-select mode-select--pause" role="group" aria-label="Map">
-              <button type="button" data-map-option="city-circuit" aria-pressed="false">
-                <strong>Circuit City</strong>
-                <span>Streets and circuit</span>
-              </button>
-              <button type="button" data-map-option="crosswind" aria-pressed="false">
-                <strong>Crosswind</strong>
-                <span>Aprons and shortcuts</span>
-              </button>
+            <div class="mode-select map-select mode-select--pause" role="group" aria-label="Map">
+              {mapOptions.map((map) => (
+                <button type="button" data-map-option={map.id} aria-pressed="false">
+                  <strong>{map.title}</strong>
+                  <span>{map.description}</span>
+                </button>
+              ))}
             </div>
             <div class="control-mode-setting" hidden>
               <span>Controls</span>
@@ -169,12 +168,17 @@ import Head from "@/components/Head.astro";
     </main>
 
     <script>
-      import { startDrivingGame } from "@/lib/driving-game";
+      import {
+        DEFAULT_GAME_MAP_ID,
+        isGameMapId,
+        startDrivingGame,
+      } from "@/lib/driving-game";
       const root = document.querySelector<HTMLElement>("#driving-game");
       if (root) {
         const searchParams = new URLSearchParams(window.location.search);
         const selectedMode = searchParams.get("mode") === "chase" ? "chase" : "cruise";
-        const selectedMap = searchParams.get("map") === "crosswind" ? "crosswind" : "city-circuit";
+        const requestedMap = searchParams.get("map");
+        const selectedMap = isGameMapId(requestedMap) ? requestedMap : DEFAULT_GAME_MAP_ID;
         startDrivingGame(root, {
           mode: selectedMode,
           map: selectedMap,
@@ -541,6 +545,10 @@ import Head from "@/components/Head.astro";
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 8px;
     margin: 0 auto 22px;
+  }
+
+  .map-select {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   }
 
   .mode-select button {
@@ -941,6 +949,7 @@ import Head from "@/components/Head.astro";
 
   @media (max-width: 440px) {
     .intro-card { border-radius: 22px; }
+    .map-select > button:last-child:nth-child(odd) { grid-column: 1 / -1; }
     .steering-controls { grid-template-columns: repeat(2, 52px); }
     .touch-controls button { width: 52px; height: 52px; }
   }
