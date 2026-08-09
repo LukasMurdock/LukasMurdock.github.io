@@ -129,17 +129,19 @@ export function addSignBatch(
     new THREE.MeshStandardMaterial({ color: 0xffffff, roughness: 1, flatShading: true }),
     signs.length,
   );
+  const iconCount = signs.reduce((count, sign) => count + signIcon(sign.kind ?? "service").length * 2, 0);
+  const icons = new THREE.InstancedMesh(
+    new THREE.BoxGeometry(1, 1, 1),
+    new THREE.MeshBasicMaterial({ color: 0x202721 }),
+    iconCount,
+  );
   const matrix = new THREE.Matrix4();
   const quaternion = new THREE.Quaternion();
+  const iconQuaternion = new THREE.Quaternion();
+  let iconIndex = 0;
   signs.forEach((sign, index) => {
-    const [panelWidth, panelHeight] = ({
-      freight: [3.8, 1],
-      service: [2.8, 1.4],
-      civic: [2.5, 1.7],
-      retail: [3.3, 1.35],
-      construction: [3.1, 1.1],
-      container: [4, 0.95],
-    } as const)[sign.kind ?? "service"];
+    const kind = sign.kind ?? "service";
+    const [panelWidth, panelHeight] = signPanelDimensions(kind);
     quaternion.setFromAxisAngle(new THREE.Vector3(0, 1, 0), sign.rotation ?? 0);
     matrix.compose(new THREE.Vector3(sign.x, 1.35, sign.z), quaternion, new THREE.Vector3(1, 1, 1));
     posts.setMatrixAt(index, matrix);
@@ -150,6 +152,23 @@ export function addSignBatch(
     );
     panels.setMatrixAt(index, matrix);
     panels.setColorAt(index, new THREE.Color(sign.color ?? 0xd4b35e).lerp(new THREE.Color(0xffffff), 0.1));
+    for (const component of signIcon(kind)) {
+      for (const face of [-1, 1]) {
+        const localX = component.x * panelWidth;
+        const position = new THREE.Vector3(localX, component.y * panelHeight, face * 0.135)
+          .applyQuaternion(quaternion)
+          .add(new THREE.Vector3(sign.x, 3, sign.z));
+        iconQuaternion.copy(quaternion).multiply(
+          new THREE.Quaternion().setFromAxisAngle(new THREE.Vector3(0, 0, 1), component.rotation ?? 0),
+        );
+        matrix.compose(
+          position,
+          iconQuaternion,
+          new THREE.Vector3(component.width * panelWidth, component.height * panelHeight, 0.035),
+        );
+        icons.setMatrixAt(iconIndex++, matrix);
+      }
+    }
     obstacles.push({
       kind: "sign",
       minX: sign.x - 0.24,
@@ -159,13 +178,71 @@ export function addSignBatch(
       resetsCar: true,
     });
   });
-  [posts, panels].forEach((mesh) => {
+  [posts, panels, icons].forEach((mesh) => {
     mesh.instanceMatrix.needsUpdate = true;
     if (mesh.instanceColor) mesh.instanceColor.needsUpdate = true;
     mesh.computeBoundingSphere();
     mesh.castShadow = true;
     scene.add(mesh);
   });
+}
+
+type SignKind = NonNullable<SignDefinition["kind"]>;
+type SignIconComponent = {
+  x: number;
+  y: number;
+  width: number;
+  height: number;
+  rotation?: number;
+};
+
+function signPanelDimensions(kind: SignKind): readonly [number, number] {
+  return ({
+    freight: [3.8, 1],
+    service: [2.8, 1.4],
+    civic: [2.5, 1.7],
+    retail: [3.3, 1.35],
+    construction: [3.1, 1.1],
+    container: [4, 0.95],
+  } as const)[kind];
+}
+
+function signIcon(kind: SignKind): readonly SignIconComponent[] {
+  const icons: Record<SignKind, readonly SignIconComponent[]> = {
+    freight: [
+      { x: -0.24, y: 0, width: 0.17, height: 0.48 },
+      { x: 0, y: 0, width: 0.17, height: 0.48 },
+      { x: 0.24, y: 0, width: 0.17, height: 0.48 },
+    ],
+    service: [
+      { x: 0, y: 0, width: 0.16, height: 0.66 },
+      { x: 0, y: 0, width: 0.34, height: 0.16 },
+    ],
+    civic: [
+      { x: 0, y: 0.25, width: 0.72, height: 0.12 },
+      { x: -0.24, y: -0.08, width: 0.12, height: 0.48 },
+      { x: 0, y: -0.08, width: 0.12, height: 0.48 },
+      { x: 0.24, y: -0.08, width: 0.12, height: 0.48 },
+    ],
+    retail: [
+      { x: 0, y: 0.2, width: 0.72, height: 0.14 },
+      { x: -0.23, y: -0.12, width: 0.13, height: 0.42 },
+      { x: 0, y: -0.12, width: 0.13, height: 0.42 },
+      { x: 0.23, y: -0.12, width: 0.13, height: 0.42 },
+    ],
+    construction: [
+      { x: 0, y: 0, width: 0.12, height: 0.72, rotation: Math.PI / 4 },
+      { x: 0, y: 0, width: 0.12, height: 0.72, rotation: -Math.PI / 4 },
+      { x: 0, y: -0.32, width: 0.58, height: 0.1 },
+    ],
+    container: [
+      { x: -0.18, y: 0.18, width: 0.28, height: 0.22 },
+      { x: 0.18, y: 0.18, width: 0.28, height: 0.22 },
+      { x: -0.18, y: -0.18, width: 0.28, height: 0.22 },
+      { x: 0.18, y: -0.18, width: 0.28, height: 0.22 },
+    ],
+  };
+  return icons[kind];
 }
 
 export function addBarrierBatch(
