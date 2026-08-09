@@ -3,8 +3,13 @@ import type { DrivingProfile } from "../driving-profiles";
 import type { DriftPhase } from "../types";
 import { ENGINE_WORKLET_SOURCE } from "./engine-worklet-source";
 import { TIRE_WORKLET_SOURCE } from "./tire-worklet-source";
+import {
+  cloneTransmissionTuning,
+  DEFAULT_TRANSMISSION_TUNING,
+  type TransmissionTuning,
+} from "./transmission-tuning";
 
-type CarAudioParameters = {
+export type CarAudioParameters = {
   dt: number;
   speed: number;
   forwardSpeed: number;
@@ -19,15 +24,30 @@ type CarAudioParameters = {
   reversing: boolean;
 };
 
+export type CarAudioTelemetry = {
+  gear: number;
+  rpm: number;
+  load: number;
+  spool: number;
+  transmissionSpeed: number;
+};
+
 export type CarAudio = {
   update: (parameters: CarAudioParameters) => void;
   impact: (strength: number) => void;
   reset: () => void;
   setPaused: (paused: boolean) => void;
+  setTransmissionTuning: (tuning: TransmissionTuning) => void;
+  getTelemetry: () => Readonly<CarAudioTelemetry>;
+  getAnalyser: () => AnalyserNode;
   destroy: () => void;
 };
 
-export function createCarAudio(DRIVING: DrivingProfile): CarAudio | null {
+export function createCarAudio(
+  DRIVING: DrivingProfile,
+  initialTransmissionTuning = DEFAULT_TRANSMISSION_TUNING,
+): CarAudio | null {
+  let TRANSMISSION = cloneTransmissionTuning(initialTransmissionTuning);
   const AudioContextClass = window.AudioContext
     ?? (window as unknown as { webkitAudioContext?: typeof AudioContext }).webkitAudioContext;
   if (!AudioContextClass) return null;
@@ -41,7 +61,10 @@ export function createCarAudio(DRIVING: DrivingProfile): CarAudio | null {
   compressor.ratio.value = 4;
   compressor.attack.value = 0.004;
   compressor.release.value = 0.18;
-  master.connect(compressor).connect(context.destination);
+  const analyser = context.createAnalyser();
+  analyser.fftSize = 2048;
+  analyser.smoothingTimeConstant = 0.72;
+  master.connect(compressor).connect(analyser).connect(context.destination);
 
   const sampleCount = context.sampleRate * 2;
   const noiseBuffer = context.createBuffer(1, sampleCount, context.sampleRate);
@@ -132,6 +155,7 @@ export function createCarAudio(DRIVING: DrivingProfile): CarAudio | null {
   let pendingGear = 0;
   let pendingGearTime = 0;
   let lastShiftTime = Number.NEGATIVE_INFINITY;
+  let transmissionTime = 0;
   let recoveryShiftInhibit = 0;
   let previouslyReversing = false;
   let engineRpm = 900;
@@ -144,6 +168,13 @@ export function createCarAudio(DRIVING: DrivingProfile): CarAudio | null {
   let previousSignedSlip = 0;
   let previousAbsoluteSlip = 0;
   let chirpCooldown = 0;
+  const telemetry: CarAudioTelemetry = {
+    gear: 1,
+    rpm: 900,
+    load: 0.16,
+    spool: 0,
+    transmissionSpeed: 0,
+  };
 
   function setSmooth(parameter: AudioParam, value: number, timeConstant: number) {
     parameter.setTargetAtTime(value, context.currentTime, timeConstant);
@@ -172,27 +203,52 @@ export function createCarAudio(DRIVING: DrivingProfile): CarAudio | null {
     oscillator.stop(context.currentTime + duration + 0.02);
   }
 
-  function triggerLaunchTransition() {
+  function triggerAbsorbedTransition() {
     engineNode?.port.postMessage({
       type: "shift",
-      cutDuration: 0.025,
+      cutDuration: TRANSMISSION.launchCutDuration,
       recoveryDuration: 0.02,
-      strength: 0.14,
+      strength: TRANSMISSION.launchCutStrength,
       release: false,
     });
   }
 
+  function triggerDownshift() {
+    enginePunch = Math.max(enginePunch, TRANSMISSION.downshiftPunch);
+    engineNode?.port.postMessage({ type: "downshift" });
+    triggerNoise(
+      TRANSMISSION.downshiftNoiseVolume,
+      TRANSMISSION.downshiftNoiseDuration,
+      760,
+    );
+    triggerThump(
+      96,
+      TRANSMISSION.downshiftThumpVolume,
+      TRANSMISSION.downshiftThumpDuration,
+    );
+  }
+
   function triggerShift() {
-    const aggressive = DRIVING.redlineAtMaximumSpeed;
+    const character = DRIVING.redlineAtMaximumSpeed
+      ? TRANSMISSION.aggressive
+      : TRANSMISSION.cruise;
     engineNode?.port.postMessage({
       type: "shift",
-      cutDuration: aggressive ? 0.065 : 0.08,
-      recoveryDuration: 0.045,
-      strength: aggressive ? 0.76 : 0.64,
+      cutDuration: character.shiftCutDuration,
+      recoveryDuration: TRANSMISSION.shiftRecoveryDuration,
+      strength: character.shiftStrength,
       release: true,
     });
-    triggerNoise(aggressive ? 0.065 : 0.052, 0.05, 1250);
-    triggerThump(82, aggressive ? 0.075 : 0.06, 0.09);
+    triggerNoise(
+      character.shiftNoiseVolume,
+      TRANSMISSION.shiftNoiseDuration,
+      1250,
+    );
+    triggerThump(
+      82,
+      character.shiftThumpVolume,
+      TRANSMISSION.shiftThumpDuration,
+    );
   }
 
   return {
@@ -211,6 +267,7 @@ export function createCarAudio(DRIVING: DrivingProfile): CarAudio | null {
       reversing,
     }) {
       const now = context.currentTime;
+      transmissionTime += dt;
       const speedNormalized = THREE.MathUtils.clamp(speed / DRIVING.maximumSpeed, 0, 1);
       const absoluteSlip = Math.abs(signedSlipDegrees);
       const slipRate = (signedSlipDegrees - previousSignedSlip) / Math.max(dt, 0.001);
@@ -218,21 +275,31 @@ export function createCarAudio(DRIVING: DrivingProfile): CarAudio | null {
       const instability = THREE.MathUtils.clamp(Math.abs(slipRate) / 110, 0, 1);
       chirpCooldown = Math.max(0, chirpCooldown - dt);
 
-      // Five logical stages produce only three fully punctuated shifts. The early launch
-      // transition is absorbed, while ordinary profiles settle after their final pull.
+      // Four high-torque sequential ratios give every default transition enough time
+      // to read clearly, while the final ratio keeps climbing at the speed cap.
       const aggressive = DRIVING.redlineAtMaximumSpeed;
-      const gearRatios = aggressive
-        ? [0, 0.17, 0.44, 0.69, 0.86, 1]
-        : [0, 0.18, 0.46, 0.71, 0.88, 1];
-      const gearEdges = gearRatios.map((ratio) => ratio * DRIVING.maximumSpeed);
+      const character = aggressive ? TRANSMISSION.aggressive : TRANSMISSION.cruise;
+      const gearEdges = character.ratios.map((ratio) => ratio * DRIVING.maximumSpeed);
       const longitudinalSpeed = Math.abs(forwardSpeed);
       const drifting = phase === "breakaway" || phase === "sustain" || phase === "transition";
       const transmissionSpeed = drifting
-        ? THREE.MathUtils.lerp(longitudinalSpeed, speed, 0.3)
+        ? THREE.MathUtils.lerp(longitudinalSpeed, speed, TRANSMISSION.driftSpeedBlend)
         : longitudinalSpeed;
       const lastForwardGear = gearEdges.length - 2;
 
-      if (phase === "recover" && previousPhase !== "recover") recoveryShiftInhibit = 0.24;
+      const previousWasDrifting = previousPhase === "breakaway"
+        || previousPhase === "sustain"
+        || previousPhase === "transition";
+      if (TRANSMISSION.driftDownshift && drifting && !previousWasDrifting && gear > 1) {
+        gear -= 1;
+        pendingGear = gear;
+        pendingGearTime = 0;
+        lastShiftTime = transmissionTime;
+        triggerDownshift();
+      }
+      if (phase === "recover" && previousPhase !== "recover") {
+        recoveryShiftInhibit = TRANSMISSION.recoveryShiftInhibit;
+      }
       else recoveryShiftInhibit = Math.max(0, recoveryShiftInhibit - dt);
 
       if (reversing) {
@@ -247,7 +314,7 @@ export function createCarAudio(DRIVING: DrivingProfile): CarAudio | null {
           desiredGear < lastForwardGear
           && transmissionSpeed >= gearEdges[desiredGear + 1]
         ) desiredGear += 1;
-        const downshiftHysteresis = DRIVING.maximumSpeed * 0.06;
+        const downshiftHysteresis = DRIVING.maximumSpeed * TRANSMISSION.downshiftHysteresis;
         while (
           desiredGear > 0
           && transmissionSpeed < gearEdges[desiredGear] - downshiftHysteresis
@@ -263,19 +330,24 @@ export function createCarAudio(DRIVING: DrivingProfile): CarAudio | null {
           } else {
             pendingGearTime += dt;
           }
-          const confirmationDuration = desiredGear < gear || phase === "recover" ? 0.18 : 0;
+          const confirmationDuration = desiredGear < gear || phase === "recover"
+            ? TRANSMISSION.recoveryConfirmation
+            : 0;
           if (
             pendingGearTime >= confirmationDuration
-            && now - lastShiftTime >= 0.32
+            && transmissionTime - lastShiftTime >= TRANSMISSION.shiftRearmDuration
           ) {
             const previousGear = gear;
             gear = desiredGear;
             pendingGear = gear;
             pendingGearTime = 0;
-            lastShiftTime = now;
+            lastShiftTime = transmissionTime;
             const adjacentUpshift = gear === previousGear + 1;
-            if (adjacentUpshift && gear === 1) triggerLaunchTransition();
-            else if (adjacentUpshift) triggerShift();
+            if (adjacentUpshift) {
+              const punctuated = character.audibleUpshifts[gear - 1] === true;
+              if (punctuated) triggerShift();
+              else triggerAbsorbedTransition();
+            }
           }
         }
       } else {
@@ -295,20 +367,20 @@ export function createCarAudio(DRIVING: DrivingProfile): CarAudio | null {
       previousVehicleSpeed = speed;
       const accelerationLoad = THREE.MathUtils.smoothstep(acceleration, 0.15, 7);
       const reverseProgress = THREE.MathUtils.clamp(speed / DRIVING.manual.maximumReverseSpeed, 0, 1);
-      const rpmFloors = [2200, 5200, 5200, 5700, 5600];
-      const shiftPeakRpm = aggressive ? 7800 : 7600;
+      const rpmFloors = character.rpmFloors;
+      const shiftPeakRpm = character.shiftPeakRpm;
       let drivingRpm = 1700 + reverseProgress * 3200;
       if (!reversing) {
         if (gear === lastForwardGear) {
-          const loadedTopRpm = THREE.MathUtils.lerp(5600, aggressive ? 7800 : 7000, gearProgress);
-          drivingRpm = aggressive
-            ? loadedTopRpm
-            : THREE.MathUtils.lerp(4600, loadedTopRpm, accelerationLoad);
+          drivingRpm = THREE.MathUtils.lerp(rpmFloors[gear], character.topRpm, gearProgress);
         } else {
           drivingRpm = THREE.MathUtils.lerp(rpmFloors[gear], shiftPeakRpm, gearProgress);
         }
       }
-      const cruiseWander = (1 - accelerationLoad)
+      const topGearWanderScale = aggressive && gear === lastForwardGear
+        ? TRANSMISSION.topGearWanderScale
+        : 1;
+      const cruiseWander = (1 - accelerationLoad) * topGearWanderScale
         * (Math.sin(now * 0.83) * 42 + Math.sin(now * 2.17) * 19);
       const targetRpm = THREE.MathUtils.lerp(900, drivingRpm, THREE.MathUtils.smoothstep(speed, 0.15, 2))
         + cruiseWander;
@@ -330,6 +402,11 @@ export function createCarAudio(DRIVING: DrivingProfile): CarAudio | null {
       const spoolResponse = targetSpool > turboSpool ? 0.18 : 0.32;
       turboSpool = THREE.MathUtils.lerp(turboSpool, targetSpool, 1 - Math.exp(-dt / spoolResponse));
       enginePunch = Math.max(0, enginePunch - dt * 2.7);
+      telemetry.gear = gear + 1;
+      telemetry.rpm = engineRpm;
+      telemetry.load = engineLoad;
+      telemetry.spool = turboSpool;
+      telemetry.transmissionSpeed = transmissionSpeed;
       engineNode?.port.postMessage({
         type: "state",
         rpm: engineRpm,
@@ -394,6 +471,7 @@ export function createCarAudio(DRIVING: DrivingProfile): CarAudio | null {
       pendingGear = 0;
       pendingGearTime = 0;
       lastShiftTime = Number.NEGATIVE_INFINITY;
+      transmissionTime = 0;
       recoveryShiftInhibit = 0;
       previouslyReversing = false;
       engineRpm = 900;
@@ -406,12 +484,28 @@ export function createCarAudio(DRIVING: DrivingProfile): CarAudio | null {
       previousSignedSlip = 0;
       previousAbsoluteSlip = 0;
       chirpCooldown = 0;
+      telemetry.gear = 1;
+      telemetry.rpm = 900;
+      telemetry.load = 0.16;
+      telemetry.spool = 0;
+      telemetry.transmissionSpeed = 0;
       engineNode?.port.postMessage({ type: "reset" });
       engineNode?.port.postMessage({ type: "state", rpm: 900, load: 0.16, spool: 0 });
     },
     setPaused(paused) {
       setSmooth(master.gain, paused ? 0.0001 : 0.48, paused ? 0.035 : 0.08);
     },
+    setTransmissionTuning(tuning) {
+      TRANSMISSION = cloneTransmissionTuning(tuning);
+      const character = DRIVING.redlineAtMaximumSpeed
+        ? TRANSMISSION.aggressive
+        : TRANSMISSION.cruise;
+      gear = Math.min(gear, character.ratios.length - 2);
+      pendingGear = gear;
+      pendingGearTime = 0;
+    },
+    getTelemetry: () => telemetry,
+    getAnalyser: () => analyser,
     destroy() {
       audioDestroyed = true;
       roadNoise.stop();

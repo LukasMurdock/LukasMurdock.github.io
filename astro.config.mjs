@@ -17,7 +17,7 @@ export default defineConfig({
     sitemap({
       filter: (page) => {
         const pathname = typeof page === "string" ? new URL(page).pathname : page.pathname;
-        return !sitemapExcludedPaths.has(pathname);
+        return !sitemapExcludedPaths.has(pathname) && !pathname.startsWith("/drive/dyno/");
       },
     }),
   ],

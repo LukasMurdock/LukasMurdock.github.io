@@ -22,6 +22,7 @@ class TurboI6OrderProcessor extends AudioWorkletProcessor {
     this.time = 0;
     this.releaseEnvelope = 0;
     this.mechanicalEnvelope = 0;
+    this.downshiftEnvelope = 0;
     this.shiftGate = 1;
     this.shiftCutRemaining = 0;
     this.shiftRecoveryDuration = 0.045;
@@ -47,9 +48,13 @@ class TurboI6OrderProcessor extends AudioWorkletProcessor {
         this.shiftStrength = Math.max(0, Math.min(0.95, data.strength || 0));
         this.shiftGate = Math.min(this.shiftGate, 1 - this.shiftStrength);
         if (data.release !== false) this.releaseEnvelope = 1;
+      } else if (data.type === 'downshift') {
+        this.downshiftEnvelope = 1;
+        this.mechanicalEnvelope = Math.min(1, this.mechanicalEnvelope + 0.45);
       } else if (data.type === 'reset') {
         this.releaseEnvelope = 0;
         this.mechanicalEnvelope = 0;
+        this.downshiftEnvelope = 0;
         this.shiftGate = 1;
         this.shiftCutRemaining = 0;
         this.shiftStrength = 0;
@@ -186,10 +191,16 @@ class TurboI6OrderProcessor extends AudioWorkletProcessor {
       const wastegate = highTurbulence * Math.max(0, this.spool - 0.78) * this.load * 0.04;
       const release = highTurbulence * this.releaseEnvelope * 0.14;
       this.releaseEnvelope *= 0.9997;
+      const downshiftBark = (
+        periodic * 0.075
+        + midTurbulence * 0.085
+        + highTurbulence * 0.045
+      ) * this.downshiftEnvelope;
+      this.downshiftEnvelope *= 0.99955;
 
       const tonalLevel = 0.1 + this.load * 0.18;
       const drive = 1.35 + this.load * 1.25;
-      const engineCore = periodic * tonalLevel + turbulence + mechanics + turbo + wastegate;
+      const engineCore = periodic * tonalLevel + turbulence + mechanics + turbo + wastegate + downshiftBark;
       const sample = Math.tanh((engineCore * this.shiftGate + release) * drive) * 0.5;
       left[i] = sample;
       right[i] = sample * 0.985;

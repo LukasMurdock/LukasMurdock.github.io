@@ -15,7 +15,7 @@ The driving game is split along the things that can vary independently:
 - `types.ts` — launch options and shared runtime state names.
 - `design.md` — experiential north star.
 
-`../driving-game.ts` is the stable public entry point used by the Astro page.
+`../driving-game.ts` is the stable public entry point used by the Astro page. `/drive/dyno/` is a hidden, `noindex` tuning surface that runs the same procedural car-audio and transmission code against synthetic speed, throttle, drift, braking, reverse, and boost inputs. It exposes live transmission parameters, per-transition full-shift toggles, telemetry, a logarithmic spectrogram, persistent tuning JSON, and a copyable event log without shipping any reference recordings.
 
 ## Launching a combination
 
@@ -29,7 +29,7 @@ startDrivingGame(root, {
 
 The page exposes Cruise and Chase plus Circuit City, Crosswind, and Switchyard selection before play and while paused. Mode changes replace only the mode controller; map changes dispose and rebuild the world while retaining the renderer, controls, player presentation, and page lifecycle. The runtime derives touch capability and orientation from browser capabilities and container geometry rather than user-agent strings, and pauses safely when an active drive rotates. Automatic controls remain the default. On fine-pointer desktops, entering Up, Up, Down, Down, Left, Right, Left, Right before play or while paused unlocks the persisted Manual scheme and its hidden selector. Cruise defaults to the `loose` profile; Chase defaults to `aggressive`. Passing `drivingProfile` explicitly overrides the mode default for tuning.
 
-Available internal handling profiles are `balanced`, `loose`, `technical`, and `aggressive`. Aggressive raises acceleration and top speed, uses faster and deeper breakaway behavior, strengthens hard-drift entry and exit boost, and deliberately reaches redline at its normal maximum speed. The other profiles retain a quieter overdrive ratio. The audio-only transmission uses five logical forward stages but fully punctuates only three upshifts: the launch transition is absorbed, active drifts hold their gear, recovery briefly inhibits shifts, and braking or multi-stage changes reconcile without an upshift thump. A 320 ms re-arm, 6% downshift hysteresis, dedicated worklet torque-cut envelope, and mostly longitudinal speed reference prevent threshold chatter. Player resets and reverse engagement return it silently to the launch stage.
+Available internal handling profiles are `balanced`, `loose`, `technical`, and `aggressive`. Aggressive raises acceleration and top speed, uses faster and deeper breakaway behavior, strengthens hard-drift entry and exit boost, and reaches redline at the end of its final pull. The other profiles keep a quieter final ratio without lowering RPM merely because the speed cap was reached. The audio-only transmission uses four high-torque sequential ratios and fully punctuates all three upshifts. Initiating a drift requests one immediate rev-matched downshift with a short procedural exhaust bark and engagement thump when a lower ratio is available; recovery briefly inhibits shifts, and braking or multi-stage changes reconcile without an upshift thump. No default transition is hidden or absorbed. A 320 ms re-arm, 6% downshift hysteresis, dedicated worklet torque-cut envelope, and mostly longitudinal speed reference prevent threshold chatter. Player resets and reverse engagement return it silently to the launch stage.
 
 ## Adding a map
 
