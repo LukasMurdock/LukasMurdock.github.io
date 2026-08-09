@@ -464,6 +464,12 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
     button.addEventListener("pointerup", (event) => setPressed(false, event), listenerOptions);
     button.addEventListener("pointercancel", (event) => setPressed(false, event), listenerOptions);
     button.addEventListener("lostpointercapture", (event) => setPressed(false, event), listenerOptions);
+    // WebKit can still start its long-press loupe/callout despite user-select and
+    // touch-action. Keep Pointer Events as input, but cancel that native touch default.
+    button.addEventListener("touchstart", (event) => event.preventDefault(), {
+      ...listenerOptions,
+      passive: false,
+    });
     for (const eventName of ["contextmenu", "selectstart", "dragstart"]) {
       button.addEventListener(eventName, (event) => event.preventDefault(), listenerOptions);
     }
