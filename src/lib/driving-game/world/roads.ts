@@ -19,43 +19,49 @@ export function createCorridorMesh(
   corridor: RoadCorridorDefinition,
   material: THREE.Material,
   elevation = 0.105,
+  junctions: readonly CorridorJunction[] = [],
 ) {
   const positions: number[] = [];
   const indices: number[] = [];
-  const points = corridor.points;
   const halfWidth = corridor.width / 2;
+  const sections = splitCorridorAtJunctions(corridor, junctions);
 
-  for (let index = 0; index < points.length; index++) {
-    const current = points[index];
-    const previous = points[Math.max(0, index - 1)];
-    const next = points[Math.min(points.length - 1, index + 1)];
-    const incoming = normalize(current.x - previous.x, current.z - previous.z);
-    const outgoing = normalize(next.x - current.x, next.z - current.z);
-    if (index === 0) incoming.set(outgoing.x, outgoing.z);
-    if (index === points.length - 1) outgoing.set(incoming.x, incoming.z);
-    const rightIncoming = { x: incoming.z, z: -incoming.x };
-    const rightOutgoing = { x: outgoing.z, z: -outgoing.x };
-    const miter = normalize(rightIncoming.x + rightOutgoing.x, rightIncoming.z + rightOutgoing.z);
-    const denominator = miter.x * rightOutgoing.x + miter.z * rightOutgoing.z;
-    const safeDenominator = Math.abs(denominator) < 0.25 ? Math.sign(denominator || 1) * 0.25 : denominator;
-    const miterLength = THREE.MathUtils.clamp(halfWidth / safeDenominator, -halfWidth * 2, halfWidth * 2);
-    let centerX = current.x;
-    let centerZ = current.z;
-    if (index === 0) {
-      centerX -= outgoing.x * halfWidth;
-      centerZ -= outgoing.z * halfWidth;
-    } else if (index === points.length - 1) {
-      centerX += incoming.x * halfWidth;
-      centerZ += incoming.z * halfWidth;
+  for (const section of sections) {
+    const basePair = positions.length / 3 / 2;
+    for (let index = 0; index < section.points.length; index++) {
+      const current = section.points[index];
+      const previous = section.points[Math.max(0, index - 1)];
+      const next = section.points[Math.min(section.points.length - 1, index + 1)];
+      const incoming = normalize(current.x - previous.x, current.z - previous.z);
+      const outgoing = normalize(next.x - current.x, next.z - current.z);
+      if (index === 0) incoming.set(outgoing.x, outgoing.z);
+      if (index === section.points.length - 1) outgoing.set(incoming.x, incoming.z);
+      const rightIncoming = { x: incoming.z, z: -incoming.x };
+      const rightOutgoing = { x: outgoing.z, z: -outgoing.x };
+      const miter = normalize(rightIncoming.x + rightOutgoing.x, rightIncoming.z + rightOutgoing.z);
+      const denominator = miter.x * rightOutgoing.x + miter.z * rightOutgoing.z;
+      const safeDenominator = Math.abs(denominator) < 0.25
+        ? Math.sign(denominator || 1) * 0.25
+        : denominator;
+      const miterLength = THREE.MathUtils.clamp(halfWidth / safeDenominator, -halfWidth * 2, halfWidth * 2);
+      let centerX = current.x;
+      let centerZ = current.z;
+      if (index === 0 && section.extendStart) {
+        centerX -= outgoing.x * halfWidth;
+        centerZ -= outgoing.z * halfWidth;
+      } else if (index === section.points.length - 1 && section.extendEnd) {
+        centerX += incoming.x * halfWidth;
+        centerZ += incoming.z * halfWidth;
+      }
+      positions.push(
+        centerX + miter.x * miterLength, elevation, centerZ + miter.z * miterLength,
+        centerX - miter.x * miterLength, elevation, centerZ - miter.z * miterLength,
+      );
+      if (index === 0) continue;
+      const previousPair = (basePair + index - 1) * 2;
+      const pair = (basePair + index) * 2;
+      indices.push(previousPair, previousPair + 1, pair + 1, previousPair, pair + 1, pair);
     }
-    positions.push(
-      centerX + miter.x * miterLength, elevation, centerZ + miter.z * miterLength,
-      centerX - miter.x * miterLength, elevation, centerZ - miter.z * miterLength,
-    );
-    if (index === 0) continue;
-    const previousPair = (index - 1) * 2;
-    const pair = index * 2;
-    indices.push(previousPair, previousPair + 1, pair + 1, previousPair, pair + 1, pair);
   }
 
   const geometry = new THREE.BufferGeometry();
@@ -88,7 +94,7 @@ export function compileCorridorJunctions(
           if (!intersection) continue;
           addJunction(junctions, {
             ...intersection,
-            radius: Math.max(first.width, second.width) * 0.72,
+            radius: Math.max(first.width, second.width) * 0.85,
           });
         }
       }
@@ -100,26 +106,31 @@ export function compileCorridorJunctions(
 export function addJunctionBatch(
   scene: THREE.Object3D,
   junctions: readonly CorridorJunction[],
+  corridors: readonly RoadCorridorDefinition[],
   material: THREE.Material,
   elevation: number,
 ) {
   if (junctions.length === 0) return;
-  const geometry = new THREE.CylinderGeometry(1, 1, 0.018, 18);
-  const instances = new THREE.InstancedMesh(geometry, material, junctions.length);
-  instances.name = "corridor-junctions";
-  const matrix = new THREE.Matrix4();
-  junctions.forEach((junction, index) => {
-    matrix.compose(
-      new THREE.Vector3(junction.x, elevation, junction.z),
-      new THREE.Quaternion(),
-      new THREE.Vector3(junction.radius, 1, junction.radius),
-    );
-    instances.setMatrixAt(index, matrix);
-  });
-  instances.instanceMatrix.needsUpdate = true;
-  instances.computeBoundingSphere();
-  instances.receiveShadow = true;
-  scene.add(instances);
+  const positions: number[] = [];
+  const indices: number[] = [];
+  for (const junction of junctions) {
+    const boundary = junctionBoundary(junction, corridors);
+    const centerIndex = positions.length / 3;
+    positions.push(junction.x, elevation, junction.z);
+    boundary.forEach((point) => positions.push(point.x, elevation, point.z));
+    for (let index = 0; index < boundary.length; index++) {
+      indices.push(centerIndex, centerIndex + 1 + (index + 1) % boundary.length, centerIndex + 1 + index);
+    }
+  }
+  const geometry = new THREE.BufferGeometry();
+  geometry.setAttribute("position", new THREE.Float32BufferAttribute(positions, 3));
+  geometry.setIndex(indices);
+  geometry.computeVertexNormals();
+  geometry.computeBoundingSphere();
+  const mesh = new THREE.Mesh(geometry, material);
+  mesh.name = "corridor-junctions";
+  mesh.receiveShadow = true;
+  scene.add(mesh);
 }
 
 export function corridorMarks(
@@ -193,6 +204,182 @@ export function addMarkingBatch(
   instances.instanceMatrix.needsUpdate = true;
   instances.computeBoundingSphere();
   scene.add(instances);
+}
+
+function splitCorridorAtJunctions(
+  corridor: RoadCorridorDefinition,
+  junctions: readonly CorridorJunction[],
+) {
+  const measurements = corridorMeasurements(corridor);
+  const cuts = junctions.flatMap((junction) => junctionDistances(corridor, junction).map((distance) => ({
+    start: Math.max(0, distance - junction.radius),
+    end: Math.min(measurements.total, distance + junction.radius),
+  }))).sort((a, b) => a.start - b.start);
+  const merged: Array<{ start: number; end: number }> = [];
+  for (const cut of cuts) {
+    const previous = merged[merged.length - 1];
+    if (previous && cut.start <= previous.end) previous.end = Math.max(previous.end, cut.end);
+    else merged.push({ ...cut });
+  }
+  const intervals: Array<{ start: number; end: number }> = [];
+  let cursor = 0;
+  for (const cut of merged) {
+    if (cut.start - cursor > 0.25) intervals.push({ start: cursor, end: cut.start });
+    cursor = Math.max(cursor, cut.end);
+  }
+  if (measurements.total - cursor > 0.25) intervals.push({ start: cursor, end: measurements.total });
+  if (intervals.length === 0 && cuts.length === 0) intervals.push({ start: 0, end: measurements.total });
+  return intervals.map((interval) => ({
+    points: corridorPointsBetween(corridor, measurements.cumulative, interval.start, interval.end),
+    extendStart: interval.start < 0.001,
+    extendEnd: interval.end > measurements.total - 0.001,
+  })).filter((section) => section.points.length >= 2);
+}
+
+function junctionBoundary(
+  junction: CorridorJunction,
+  corridors: readonly RoadCorridorDefinition[],
+) {
+  const points: Point2[] = [];
+  for (const corridor of corridors) {
+    const measurements = corridorMeasurements(corridor);
+    for (const distance of junctionDistances(corridor, junction)) {
+      for (const boundaryDistance of [distance - junction.radius, distance + junction.radius]) {
+        if (boundaryDistance < 0 || boundaryDistance > measurements.total) continue;
+        const sample = sampleCorridorAtDistance(corridor, measurements.cumulative, boundaryDistance);
+        if (!sample) continue;
+        const right = { x: sample.tangent.z, z: -sample.tangent.x };
+        points.push(
+          {
+            x: sample.point.x + right.x * corridor.width / 2,
+            z: sample.point.z + right.z * corridor.width / 2,
+          },
+          {
+            x: sample.point.x - right.x * corridor.width / 2,
+            z: sample.point.z - right.z * corridor.width / 2,
+          },
+        );
+      }
+    }
+  }
+  const unique = points.filter((point, index) => points.findIndex((candidate) => (
+    (candidate.x - point.x) ** 2 + (candidate.z - point.z) ** 2 < 0.04
+  )) === index);
+  if (unique.length < 3) {
+    return Array.from({ length: 18 }, (_, index) => {
+      const angle = index / 18 * Math.PI * 2;
+      return {
+        x: junction.x + Math.cos(angle) * junction.radius,
+        z: junction.z + Math.sin(angle) * junction.radius,
+      };
+    });
+  }
+  return convexHull(unique);
+}
+
+function convexHull(points: readonly Point2[]) {
+  const sorted = [...points].sort((first, second) => first.x - second.x || first.z - second.z);
+  const cross = (origin: Point2, first: Point2, second: Point2) => (
+    (first.x - origin.x) * (second.z - origin.z)
+      - (first.z - origin.z) * (second.x - origin.x)
+  );
+  const lower: Point2[] = [];
+  for (const point of sorted) {
+    while (lower.length >= 2 && cross(lower[lower.length - 2], lower[lower.length - 1], point) <= 0) {
+      lower.pop();
+    }
+    lower.push(point);
+  }
+  const upper: Point2[] = [];
+  for (const point of [...sorted].reverse()) {
+    while (upper.length >= 2 && cross(upper[upper.length - 2], upper[upper.length - 1], point) <= 0) {
+      upper.pop();
+    }
+    upper.push(point);
+  }
+  lower.pop();
+  upper.pop();
+  return [...lower, ...upper];
+}
+
+type Point2 = { x: number; z: number };
+
+function corridorMeasurements(corridor: RoadCorridorDefinition) {
+  const cumulative = [0];
+  for (let index = 1; index < corridor.points.length; index++) {
+    cumulative.push(cumulative[index - 1] + Math.hypot(
+      corridor.points[index].x - corridor.points[index - 1].x,
+      corridor.points[index].z - corridor.points[index - 1].z,
+    ));
+  }
+  return { cumulative, total: cumulative[cumulative.length - 1] };
+}
+
+function junctionDistances(corridor: RoadCorridorDefinition, junction: CorridorJunction) {
+  const measurements = corridorMeasurements(corridor);
+  const distances: number[] = [];
+  for (let index = 1; index < corridor.points.length; index++) {
+    const start = corridor.points[index - 1];
+    const end = corridor.points[index];
+    const dx = end.x - start.x;
+    const dz = end.z - start.z;
+    const lengthSquared = dx * dx + dz * dz;
+    const amount = THREE.MathUtils.clamp(
+      ((junction.x - start.x) * dx + (junction.z - start.z) * dz) / lengthSquared,
+      0,
+      1,
+    );
+    const closestX = start.x + dx * amount;
+    const closestZ = start.z + dz * amount;
+    if ((closestX - junction.x) ** 2 + (closestZ - junction.z) ** 2 > 4.1) continue;
+    const distance = measurements.cumulative[index - 1] + Math.sqrt(lengthSquared) * amount;
+    if (!distances.some((candidate) => Math.abs(candidate - distance) < 0.1)) distances.push(distance);
+  }
+  return distances;
+}
+
+function corridorPointsBetween(
+  corridor: RoadCorridorDefinition,
+  cumulative: readonly number[],
+  start: number,
+  end: number,
+) {
+  const first = sampleCorridorAtDistance(corridor, cumulative, start)?.point;
+  const last = sampleCorridorAtDistance(corridor, cumulative, end)?.point;
+  if (!first || !last) return [];
+  const points: Point2[] = [first];
+  for (let index = 1; index < corridor.points.length - 1; index++) {
+    if (cumulative[index] > start + 0.001 && cumulative[index] < end - 0.001) {
+      points.push(corridor.points[index]);
+    }
+  }
+  points.push(last);
+  return points;
+}
+
+function sampleCorridorAtDistance(
+  corridor: RoadCorridorDefinition,
+  cumulative: readonly number[],
+  distance: number,
+) {
+  for (let index = 1; index < corridor.points.length; index++) {
+    if (distance > cumulative[index] + 0.001) continue;
+    const start = corridor.points[index - 1];
+    const end = corridor.points[index];
+    const segmentLength = cumulative[index] - cumulative[index - 1];
+    const amount = segmentLength > 0 ? (distance - cumulative[index - 1]) / segmentLength : 0;
+    return {
+      point: {
+        x: THREE.MathUtils.lerp(start.x, end.x, amount),
+        z: THREE.MathUtils.lerp(start.z, end.z, amount),
+      },
+      tangent: {
+        x: (end.x - start.x) / segmentLength,
+        z: (end.z - start.z) / segmentLength,
+      },
+    };
+  }
+  return null;
 }
 
 function addJunction(junctions: CorridorJunction[], candidate: CorridorJunction) {

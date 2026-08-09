@@ -3,7 +3,7 @@ import { DRIVING_PROFILES } from "./driving-profiles";
 import { createLeaderboardToast } from "./feedback/leaderboard-toast";
 import { createSpeedLines } from "./feedback/speed-lines";
 import { addLocalDriveResult, getLocalDriveLeaderboard } from "./local-leaderboard";
-import { DEFAULT_GAME_MAP_ID, GAME_MAPS, type GameMapId } from "./maps";
+import { DEFAULT_GAME_MAP_ID, GAME_MAPS, type GameMapDefinition, type GameMapId } from "./maps";
 import { GAME_MODES, type GameModeController, type GameModeId } from "./modes";
 import type { CameraMode, ControlMode, DriveEndReason, DrivingGameOptions } from "./types";
 import { createPlayerController, type PlayerControlName } from "./player";
@@ -25,7 +25,7 @@ const MANUAL_CONTROL_CODE = [
 ];
 
 export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions = {}) {
-  let map = GAME_MAPS[options.map ?? DEFAULT_GAME_MAP_ID];
+  let map: GameMapDefinition = GAME_MAPS[options.map ?? DEFAULT_GAME_MAP_ID];
   let mode = GAME_MODES[options.mode ?? "cruise"];
   const drivingProfileOverride = options.drivingProfile;
   let drivingProfileId = drivingProfileOverride ?? mode.drivingProfile;
@@ -731,6 +731,9 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
       `build     ${diagnostics.buildMilliseconds.toFixed(1)} ms`,
       `obstacles ${diagnostics.obstacles}`,
       `pavement  ${diagnostics.pavementPrimitives}`,
+      `layout    ${diagnostics.junctions} junctions · ${diagnostics.accessRoads} entrances`,
+      `network   ${map.layoutDiagnostics?.connectedComponents ?? "—"} components · ${map.layoutDiagnostics?.deadEnds ?? "—"} dead ends`,
+      `cycles    ${map.layoutDiagnostics?.cycleRank ?? "—"} · shortest ${map.layoutDiagnostics?.shortestSegment.toFixed(0) ?? "—"}u`,
       `collision ${collisionAverage.toFixed(1)} candidates/query`,
       `surface   ${pavementAverage.toFixed(1)} candidates/query`,
       `GPU geom  ${renderer.info.memory.geometries}`,

@@ -30,6 +30,8 @@ export type WorldDiagnostics = {
   buildMilliseconds: number;
   obstacles: number;
   pavementPrimitives: number;
+  junctions: number;
+  accessRoads: number;
   collisionQueries: number;
   collisionCandidates: number;
   pavementQueries: number;

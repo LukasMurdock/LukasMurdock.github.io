@@ -6,6 +6,7 @@ export type RoadSegmentDefinition = {
   rotation?: number;
   markings?: boolean | "taxiway";
   surfaceColor?: number;
+  role?: "access";
 };
 
 export type ParkingLotDefinition = {
@@ -69,6 +70,17 @@ export type ChasePlacementDefinition = {
   noSpawnAreas?: readonly PlacementArea[];
 };
 
+export type MapLayoutDiagnostics = {
+  corridorLength: number;
+  shortestSegment: number;
+  intersections: number;
+  connectedComponents: number;
+  deadEnds: number;
+  cycleRank: number;
+  districts: number;
+  entrances: number;
+};
+
 export type GameMapDefinition = {
   id: string;
   title: string;
@@ -96,5 +108,6 @@ export type GameMapDefinition = {
   barriers: readonly PropDefinition[];
   circuit?: readonly CircuitPhrase[];
   chasePlacement?: ChasePlacementDefinition;
+  layoutDiagnostics?: MapLayoutDiagnostics;
   spawn: MapSpawn;
 };

@@ -6,6 +6,7 @@ import {
   defineDrivingMap,
   freightRow,
   openReversal,
+  placeAlongCorridor,
   placeStamp,
   roadsideSettlement,
   scatterPoints,
@@ -68,7 +69,7 @@ const METRO_CORRIDORS = [
     width: 15,
     surfaceColor: 0x504b42,
     points: [
-      { x: -260, z: -260 }, { x: -110, z: -90 }, { x: 0, z: 0 }, { x: 120, z: 100 }, { x: 260, z: 260 },
+      { x: -285, z: -285 }, { x: -110, z: -90 }, { x: 0, z: 0 }, { x: 120, z: 100 }, { x: 285, z: 285 },
     ],
   },
   {
@@ -149,50 +150,56 @@ export const METRO_RING_MAP = defineDrivingMap({
   ],
   districts: [
     placeStamp("central-reversal", openReversal(44), { x: 0, z: 0 }),
-    placeStamp("west-civic", civicBlock({
+    placeAlongCorridor("west-civic", civicBlock({
       width: 112,
       depth: 104,
       colors: [0xc47d5f, 0x718d8a, 0xd1a563, 0x74829b],
-    }), { x: -125, z: 105 }, 0.04),
-    placeStamp("market-plaza", shoppingPlaza({
+    }), { corridor: "market-avenue", distance: 180, side: "left", setback: 10, entranceWidth: 18 }),
+    placeAlongCorridor("market-plaza", shoppingPlaza({
       width: 138,
       depth: 96,
       color: 0xb4a77f,
-    }), { x: 155, z: -105 }, -0.08),
-    placeStamp("southwest-construction", constructionYard({
+    }), { corridor: "market-avenue", distance: 520, side: "right", setback: 10, entranceWidth: 20 }),
+    placeAlongCorridor("northeast-plaza", shoppingPlaza({
+      width: 116,
+      depth: 82,
+      color: 0x77908b,
+    }), { corridor: "ring-northeast", distance: 100, side: "left", setback: 8, entranceWidth: 18 }),
+    placeAlongCorridor("southwest-construction", constructionYard({
       width: 92,
       depth: 78,
-    }), { x: -215, z: -155 }, 0.1),
-    placeStamp("east-containers", containerYard({
+    }), { corridor: "industrial-link", distance: 170, side: "left", setback: 8 }),
+    placeAlongCorridor("east-containers", containerYard({
       rows: 3,
       columns: 3,
       colors: [0xb86f55, 0x668985, 0xc19a65],
-    }), { x: 245, z: 155 }, 0.06),
-    placeStamp("north-homes", roadsideSettlement({
+    }), { corridor: "ring-southeast", distance: 300, side: "left", setback: 8, entranceWidth: 18 }),
+    placeAlongCorridor("north-homes", roadsideSettlement({
       buildings: 6,
       colors: [0xc58b6d, 0xd0b987, 0x738f8c],
-    }), { x: -105, z: 295 }, -0.05),
-    placeStamp("east-service", serviceYard({
+    }), { corridor: "ring-northwest", distance: 115, side: "left", setback: 8 }),
+    placeAlongCorridor("east-service", serviceYard({
       width: 100,
       depth: 72,
       color: 0x78938d,
-    }), { x: 300, z: -105 }, Math.PI / 2),
-    placeStamp("west-freight", freightRow({
+    }), { corridor: "ring-southeast", distance: 480, side: "left", setback: 8, entranceWidth: 16 }),
+    placeAlongCorridor("west-freight", freightRow({
       sheds: 4,
       shedSize: [14, 24],
       gap: 16,
       colors: [0xb98d67, 0xa67c5d],
-    }), { x: -300, z: 100 }),
-    placeStamp("south-service", serviceYard({
+    }), {
+      corridor: "ring-northwest",
+      distance: 500,
+      side: "left",
+      setback: 8,
+      rotation: Math.PI / 2,
+    }),
+    placeAlongCorridor("south-service", serviceYard({
       width: 96,
       depth: 70,
       color: 0x9d8768,
-    }), { x: 85, z: -295 }, 0.08),
-    placeStamp("northeast-plaza", shoppingPlaza({
-      width: 116,
-      depth: 82,
-      color: 0x77908b,
-    }), { x: 280, z: 285 }, -0.12),
+    }), { corridor: "ring-southeast", distance: 100, side: "left", setback: 8, entranceWidth: 16 }),
   ],
   buildings: [
     { x: -35, z: 255, width: 10, depth: 10, height: 31, color: 0xd16643, style: "tower" },

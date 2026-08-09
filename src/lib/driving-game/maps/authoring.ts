@@ -19,12 +19,29 @@ export type MapStamp = {
   barriers?: readonly PropDefinition[];
 };
 
-type StampPlacement = {
+type AbsoluteStampPlacement = {
+  kind: "absolute";
   id: string;
   at: Point2;
   heading?: number;
   stamp: MapStamp;
 };
+
+type CorridorStampPlacement = {
+  kind: "corridor";
+  id: string;
+  corridor: string;
+  distance: number;
+  side: "left" | "right";
+  setback: number;
+  entranceWidth: number;
+  rotation: number;
+  stamp: MapStamp;
+};
+
+export type StampPlacement = AbsoluteStampPlacement | CorridorStampPlacement;
+
+type ExpandedStamp = Required<MapStamp> & { roads: RoadSegmentDefinition[] };
 
 export type DrivingMapSource = Omit<
   GameMapDefinition,
@@ -43,7 +60,7 @@ export type DrivingMapSource = Omit<
 
 export function defineDrivingMap(source: DrivingMapSource): GameMapDefinition {
   validateSource(source);
-  const expanded = source.districts?.map(expandStamp) ?? [];
+  const expanded = compileDistricts(source);
   const map: GameMapDefinition = {
     id: source.id,
     title: source.title,
@@ -51,7 +68,7 @@ export function defineDrivingMap(source: DrivingMapSource): GameMapDefinition {
     worldLimit: source.worldLimit,
     groundSize: source.groundSize,
     environment: source.environment,
-    roads: source.roads ?? [],
+    roads: [...(source.roads ?? []), ...expanded.flatMap((stamp) => stamp.roads)],
     corridors: source.corridors,
     parkingLots: [...(source.parkingLots ?? []), ...expanded.flatMap((stamp) => stamp.parkingLots)],
     groundPatches: [...(source.groundPatches ?? []), ...expanded.flatMap((stamp) => stamp.groundPatches)],
@@ -61,6 +78,7 @@ export function defineDrivingMap(source: DrivingMapSource): GameMapDefinition {
     barriers: [...(source.barriers ?? []), ...expanded.flatMap((stamp) => stamp.barriers)],
     circuit: source.circuit,
     chasePlacement: source.chasePlacement,
+    layoutDiagnostics: analyzeLayout(source, expanded),
     spawn: source.spawn,
   };
   validateCompiledContent(map);
@@ -68,7 +86,32 @@ export function defineDrivingMap(source: DrivingMapSource): GameMapDefinition {
 }
 
 export function placeStamp(id: string, stamp: MapStamp, at: Point2, heading = 0): StampPlacement {
-  return { id, stamp, at, heading };
+  return { kind: "absolute", id, stamp, at, heading };
+}
+
+export function placeAlongCorridor(
+  id: string,
+  stamp: MapStamp,
+  options: {
+    corridor: string;
+    distance: number;
+    side: "left" | "right";
+    setback?: number;
+    entranceWidth?: number;
+    rotation?: number;
+  },
+): StampPlacement {
+  return {
+    kind: "corridor",
+    id,
+    stamp,
+    corridor: options.corridor,
+    distance: options.distance,
+    side: options.side,
+    setback: options.setback ?? 8,
+    entranceWidth: options.entranceWidth ?? 14,
+    rotation: options.rotation ?? 0,
+  };
 }
 
 export function freightRow(options: {
@@ -311,32 +354,376 @@ export function scatterPoints(options: {
   return points;
 }
 
-function expandStamp(placement: StampPlacement): Required<MapStamp> {
-  const heading = placement.heading ?? 0;
+function compileDistricts(source: DrivingMapSource): ExpandedStamp[] {
+  const expanded: ExpandedStamp[] = [];
+  const reserved: Array<{ minX: number; maxX: number; minZ: number; maxZ: number }> = [];
+  for (const placement of source.districts ?? []) {
+    if (placement.kind === "absolute") {
+      const stamp = expandStampAt(placement.stamp, placement.at, placement.heading ?? 0, []);
+      expanded.push(stamp);
+      reserved.push(compiledStampBounds(stamp));
+      continue;
+    }
+    const corridor = source.corridors.find((candidate) => candidate.id === placement.corridor);
+    if (!corridor) throw new Error(`Map "${source.id}" district "${placement.id}" uses an unknown corridor.`);
+    const localBounds = stampBounds(placement.stamp);
+    const halfWidth = Math.max(Math.abs(localBounds.minX), Math.abs(localBounds.maxX));
+    const halfDepth = Math.max(Math.abs(localBounds.minZ), Math.abs(localBounds.maxZ));
+    const side = placement.side === "left" ? 1 : -1;
+    let accepted: ExpandedStamp | null = null;
+    const failures = { boundary: 0, overlap: 0, corridor: 0 };
+    for (const distanceOffset of [0, 35, -35, 70, -70, 105, -105]) {
+      const sample = sampleCorridor(corridor, placement.distance + distanceOffset);
+      if (!sample) continue;
+      const roadHeading = Math.atan2(sample.tangent.x, sample.tangent.z) - Math.PI / 2;
+      const heading = roadHeading + placement.rotation;
+      const roadNormal = { x: -sample.tangent.z, z: sample.tangent.x };
+      const stampLocalX = { x: Math.cos(heading), z: -Math.sin(heading) };
+      const stampLocalZ = { x: Math.sin(heading), z: Math.cos(heading) };
+      const outwardHalf = Math.abs(roadNormal.x * stampLocalX.x + roadNormal.z * stampLocalX.z) * halfWidth
+        + Math.abs(roadNormal.x * stampLocalZ.x + roadNormal.z * stampLocalZ.z) * halfDepth;
+      const centerDistance = corridor.width / 2 + placement.setback + outwardHalf;
+      const at = {
+        x: sample.point.x + roadNormal.x * centerDistance * side,
+        z: sample.point.z + roadNormal.z * centerDistance * side,
+      };
+      const entranceDepth = corridor.width / 2 + placement.setback + 2;
+      const entranceCenter = {
+        x: sample.point.x + roadNormal.x * entranceDepth * 0.5 * side,
+        z: sample.point.z + roadNormal.z * entranceDepth * 0.5 * side,
+      };
+      const roads: RoadSegmentDefinition[] = [{
+        x: entranceCenter.x,
+        z: entranceCenter.z,
+        width: placement.entranceWidth,
+        depth: entranceDepth,
+        rotation: roadHeading,
+        markings: false,
+        role: "access",
+      }];
+      const candidate = expandStampAt(placement.stamp, at, heading, roads);
+      const bounds = compiledStampBounds(candidate);
+      const insideBoundary = bounds.minX > -source.worldLimit
+        && bounds.maxX < source.worldLimit
+        && bounds.minZ > -source.worldLimit
+        && bounds.maxZ < source.worldLimit;
+      const overlaps = reserved.some((other) => boundsOverlap(bounds, other, 6));
+      const crossesAnotherCorridor = source.corridors.some((otherCorridor) => (
+        otherCorridor.id !== corridor.id
+        && corridorIntersectsStamp(otherCorridor, at, heading, localBounds)
+      ));
+      if (!insideBoundary || overlaps || crossesAnotherCorridor) {
+        if (!insideBoundary) failures.boundary++;
+        if (overlaps) failures.overlap++;
+        if (crossesAnotherCorridor) failures.corridor++;
+        continue;
+      }
+      accepted = candidate;
+      reserved.push(bounds);
+      break;
+    }
+    if (!accepted) {
+      throw new Error(
+        `Map "${source.id}" could not place district "${placement.id}" `
+          + `(boundary ${failures.boundary}, district overlap ${failures.overlap}, road overlap ${failures.corridor}).`,
+      );
+    }
+    expanded.push(accepted);
+  }
+  return expanded;
+}
+
+function expandStampAt(
+  stamp: MapStamp,
+  at: Point2,
+  heading: number,
+  roads: RoadSegmentDefinition[],
+): ExpandedStamp {
   const transformPoint = (point: Point2) => ({
-    x: placement.at.x + Math.cos(heading) * point.x + Math.sin(heading) * point.z,
-    z: placement.at.z - Math.sin(heading) * point.x + Math.cos(heading) * point.z,
+    x: at.x + Math.cos(heading) * point.x + Math.sin(heading) * point.z,
+    z: at.z - Math.sin(heading) * point.x + Math.cos(heading) * point.z,
   });
   return {
-    parkingLots: (placement.stamp.parkingLots ?? []).map((lot) => ({
+    roads,
+    parkingLots: (stamp.parkingLots ?? []).map((lot) => ({
       ...lot,
       ...transformPoint(lot),
       rotation: (lot.rotation ?? 0) + heading,
     })),
-    groundPatches: (placement.stamp.groundPatches ?? []).map((patch) => ({
+    groundPatches: (stamp.groundPatches ?? []).map((patch) => ({
       ...patch,
       ...transformPoint(patch),
       rotation: (patch.rotation ?? 0) + heading,
     })),
-    buildings: (placement.stamp.buildings ?? []).map((building) => ({
+    buildings: (stamp.buildings ?? []).map((building) => ({
       ...building,
       ...transformPoint(building),
       rotation: (building.rotation ?? 0) + heading,
     })),
-    trees: (placement.stamp.trees ?? []).map((point) => transformPoint(point)),
-    streetlights: (placement.stamp.streetlights ?? []).map((point) => transformPoint(point)),
-    barriers: (placement.stamp.barriers ?? []).map((point) => transformPoint(point)),
+    trees: (stamp.trees ?? []).map((point) => transformPoint(point)),
+    streetlights: (stamp.streetlights ?? []).map((point) => transformPoint(point)),
+    barriers: (stamp.barriers ?? []).map((point) => transformPoint(point)),
   };
+}
+
+function stampBounds(stamp: MapStamp) {
+  const bounds = emptyBounds();
+  const includeRectangle = (item: { x: number; z: number; width: number; depth: number }) => {
+    includePoint(bounds, item.x - item.width / 2, item.z - item.depth / 2);
+    includePoint(bounds, item.x + item.width / 2, item.z + item.depth / 2);
+  };
+  (stamp.parkingLots ?? []).forEach(includeRectangle);
+  (stamp.groundPatches ?? []).forEach(includeRectangle);
+  (stamp.buildings ?? []).forEach(includeRectangle);
+  for (const point of [
+    ...(stamp.trees ?? []),
+    ...(stamp.streetlights ?? []),
+    ...(stamp.barriers ?? []),
+  ]) {
+    includePoint(bounds, point.x - 2, point.z - 2);
+    includePoint(bounds, point.x + 2, point.z + 2);
+  }
+  if (!Number.isFinite(bounds.minX)) return { minX: -1, maxX: 1, minZ: -1, maxZ: 1 };
+  return bounds;
+}
+
+function compiledStampBounds(stamp: ExpandedStamp) {
+  const bounds = emptyBounds();
+  const includeRectangle = (item: {
+    x: number;
+    z: number;
+    width: number;
+    depth: number;
+    rotation?: number;
+  }) => {
+    const rotation = item.rotation ?? 0;
+    const extentX = Math.abs(Math.cos(rotation)) * item.width / 2
+      + Math.abs(Math.sin(rotation)) * item.depth / 2;
+    const extentZ = Math.abs(Math.sin(rotation)) * item.width / 2
+      + Math.abs(Math.cos(rotation)) * item.depth / 2;
+    includePoint(bounds, item.x - extentX, item.z - extentZ);
+    includePoint(bounds, item.x + extentX, item.z + extentZ);
+  };
+  stamp.parkingLots.forEach(includeRectangle);
+  stamp.groundPatches.forEach(includeRectangle);
+  stamp.buildings.forEach(includeRectangle);
+  for (const point of [...stamp.trees, ...stamp.streetlights, ...stamp.barriers]) {
+    includePoint(bounds, point.x - 2, point.z - 2);
+    includePoint(bounds, point.x + 2, point.z + 2);
+  }
+  return bounds;
+}
+
+function corridorIntersectsStamp(
+  corridor: RoadCorridorDefinition,
+  at: Point2,
+  heading: number,
+  bounds: ReturnType<typeof stampBounds>,
+) {
+  const padding = corridor.width / 2 + 3;
+  const toLocal = (point: Point2) => {
+    const dx = point.x - at.x;
+    const dz = point.z - at.z;
+    return {
+      x: Math.cos(heading) * dx - Math.sin(heading) * dz,
+      z: Math.sin(heading) * dx + Math.cos(heading) * dz,
+    };
+  };
+  const expanded = {
+    minX: bounds.minX - padding,
+    maxX: bounds.maxX + padding,
+    minZ: bounds.minZ - padding,
+    maxZ: bounds.maxZ + padding,
+  };
+  for (let index = 1; index < corridor.points.length; index++) {
+    if (segmentIntersectsBounds(
+      toLocal(corridor.points[index - 1]),
+      toLocal(corridor.points[index]),
+      expanded,
+    )) return true;
+  }
+  return false;
+}
+
+function segmentIntersectsBounds(
+  start: Point2,
+  end: Point2,
+  bounds: { minX: number; maxX: number; minZ: number; maxZ: number },
+) {
+  let minimum = 0;
+  let maximum = 1;
+  for (const axis of ["x", "z"] as const) {
+    const delta = end[axis] - start[axis];
+    const low = axis === "x" ? bounds.minX : bounds.minZ;
+    const high = axis === "x" ? bounds.maxX : bounds.maxZ;
+    if (Math.abs(delta) < 0.0001) {
+      if (start[axis] < low || start[axis] > high) return false;
+      continue;
+    }
+    const first = (low - start[axis]) / delta;
+    const second = (high - start[axis]) / delta;
+    minimum = Math.max(minimum, Math.min(first, second));
+    maximum = Math.min(maximum, Math.max(first, second));
+    if (minimum > maximum) return false;
+  }
+  return true;
+}
+
+function sampleCorridor(corridor: RoadCorridorDefinition, requestedDistance: number) {
+  if (requestedDistance < 0) return null;
+  let traversed = 0;
+  for (let index = 1; index < corridor.points.length; index++) {
+    const start = corridor.points[index - 1];
+    const end = corridor.points[index];
+    const dx = end.x - start.x;
+    const dz = end.z - start.z;
+    const length = Math.hypot(dx, dz);
+    if (requestedDistance > traversed + length) {
+      traversed += length;
+      continue;
+    }
+    const amount = (requestedDistance - traversed) / length;
+    return {
+      point: { x: start.x + dx * amount, z: start.z + dz * amount },
+      tangent: { x: dx / length, z: dz / length },
+    };
+  }
+  return null;
+}
+
+function emptyBounds() {
+  return {
+    minX: Number.POSITIVE_INFINITY,
+    maxX: Number.NEGATIVE_INFINITY,
+    minZ: Number.POSITIVE_INFINITY,
+    maxZ: Number.NEGATIVE_INFINITY,
+  };
+}
+
+function includePoint(bounds: ReturnType<typeof emptyBounds>, x: number, z: number) {
+  bounds.minX = Math.min(bounds.minX, x);
+  bounds.maxX = Math.max(bounds.maxX, x);
+  bounds.minZ = Math.min(bounds.minZ, z);
+  bounds.maxZ = Math.max(bounds.maxZ, z);
+}
+
+function boundsOverlap(
+  first: ReturnType<typeof emptyBounds>,
+  second: ReturnType<typeof emptyBounds>,
+  margin: number,
+) {
+  return first.minX < second.maxX + margin
+    && first.maxX > second.minX - margin
+    && first.minZ < second.maxZ + margin
+    && first.maxZ > second.minZ - margin;
+}
+
+function analyzeLayout(source: DrivingMapSource, districts: readonly ExpandedStamp[]) {
+  let corridorLength = 0;
+  let shortestSegment = Number.POSITIVE_INFINITY;
+  const adjacency = source.corridors.map(() => new Set<number>());
+  const intersections = new Set<string>();
+  for (let corridorIndex = 0; corridorIndex < source.corridors.length; corridorIndex++) {
+    const corridor = source.corridors[corridorIndex];
+    for (let segmentIndex = 1; segmentIndex < corridor.points.length; segmentIndex++) {
+      const length = Math.hypot(
+        corridor.points[segmentIndex].x - corridor.points[segmentIndex - 1].x,
+        corridor.points[segmentIndex].z - corridor.points[segmentIndex - 1].z,
+      );
+      corridorLength += length;
+      shortestSegment = Math.min(shortestSegment, length);
+    }
+    for (let otherIndex = corridorIndex + 1; otherIndex < source.corridors.length; otherIndex++) {
+      const points = corridorIntersections(corridor, source.corridors[otherIndex]);
+      if (points.length === 0) continue;
+      adjacency[corridorIndex].add(otherIndex);
+      adjacency[otherIndex].add(corridorIndex);
+      points.forEach((point) => intersections.add(`${point.x.toFixed(2)}:${point.z.toFixed(2)}`));
+    }
+  }
+  let connectedComponents = 0;
+  const visited = new Set<number>();
+  for (let index = 0; index < adjacency.length; index++) {
+    if (visited.has(index)) continue;
+    connectedComponents++;
+    const pending = [index];
+    while (pending.length > 0) {
+      const current = pending.pop();
+      if (current === undefined || visited.has(current)) continue;
+      visited.add(current);
+      adjacency[current].forEach((neighbor) => pending.push(neighbor));
+    }
+  }
+  let deadEnds = 0;
+  for (let corridorIndex = 0; corridorIndex < source.corridors.length; corridorIndex++) {
+    const corridor = source.corridors[corridorIndex];
+    for (const endpoint of [corridor.points[0], corridor.points[corridor.points.length - 1]]) {
+      const connected = source.corridors.some((other, otherIndex) => (
+        otherIndex !== corridorIndex && pointTouchesCorridor(endpoint, other)
+      ));
+      if (!connected) deadEnds++;
+    }
+  }
+  const graphEdges = adjacency.reduce((sum, neighbors) => sum + neighbors.size, 0) / 2;
+  return {
+    corridorLength,
+    shortestSegment: Number.isFinite(shortestSegment) ? shortestSegment : 0,
+    intersections: intersections.size,
+    connectedComponents,
+    deadEnds,
+    cycleRank: Math.max(0, graphEdges - source.corridors.length + connectedComponents),
+    districts: source.districts?.length ?? 0,
+    entrances: districts.reduce((sum, district) => (
+      sum + district.roads.filter((road) => road.role === "access").length
+    ), 0),
+  };
+}
+
+function corridorIntersections(first: RoadCorridorDefinition, second: RoadCorridorDefinition) {
+  const intersections: Point2[] = [];
+  for (let firstIndex = 1; firstIndex < first.points.length; firstIndex++) {
+    for (let secondIndex = 1; secondIndex < second.points.length; secondIndex++) {
+      const point = lineSegmentIntersection(
+        first.points[firstIndex - 1],
+        first.points[firstIndex],
+        second.points[secondIndex - 1],
+        second.points[secondIndex],
+      );
+      if (point) intersections.push(point);
+    }
+  }
+  return intersections;
+}
+
+function lineSegmentIntersection(a: Point2, b: Point2, c: Point2, d: Point2) {
+  const abX = b.x - a.x;
+  const abZ = b.z - a.z;
+  const cdX = d.x - c.x;
+  const cdZ = d.z - c.z;
+  const denominator = abX * cdZ - abZ * cdX;
+  if (Math.abs(denominator) < 0.0001) {
+    for (const first of [a, b]) {
+      for (const second of [c, d]) {
+        if (distanceSquared(first, second) < 0.01) return { ...first };
+      }
+    }
+    return null;
+  }
+  const acX = c.x - a.x;
+  const acZ = c.z - a.z;
+  const firstAmount = (acX * cdZ - acZ * cdX) / denominator;
+  const secondAmount = (acX * abZ - acZ * abX) / denominator;
+  if (firstAmount < -0.0001 || firstAmount > 1.0001 || secondAmount < -0.0001 || secondAmount > 1.0001) {
+    return null;
+  }
+  return { x: a.x + abX * firstAmount, z: a.z + abZ * firstAmount };
+}
+
+function pointTouchesCorridor(point: Point2, corridor: RoadCorridorDefinition) {
+  for (let index = 1; index < corridor.points.length; index++) {
+    if (distanceToSegmentSquared(point, corridor.points[index - 1], corridor.points[index]) < 0.04) return true;
+  }
+  return false;
 }
 
 function validateSource(source: DrivingMapSource) {
@@ -370,6 +757,11 @@ function validateSource(source: DrivingMapSource) {
       if (Math.abs(point.x) + corridor.width / 2 >= source.worldLimit
         || Math.abs(point.z) + corridor.width / 2 >= source.worldLimit) {
         throw new Error(`Map "${source.id}" corridor "${corridor.id}" crosses the boundary.`);
+      }
+    }
+    for (let index = 1; index < corridor.points.length; index++) {
+      if (Math.sqrt(distanceSquared(corridor.points[index - 1], corridor.points[index])) < 10) {
+        throw new Error(`Map "${source.id}" corridor "${corridor.id}" has a segment shorter than 10 units.`);
       }
     }
   }

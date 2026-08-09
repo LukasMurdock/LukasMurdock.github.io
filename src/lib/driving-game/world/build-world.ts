@@ -94,7 +94,8 @@ export function buildWorld(
       ? roadMaterial
       : new THREE.MeshStandardMaterial({ color: road.surfaceColor, roughness: 1, flatShading: true });
     const mesh = new THREE.Mesh(new THREE.BoxGeometry(road.width, 0.12, road.depth), material);
-    mesh.position.set(road.x, 0.04 + roadIndex * 0.002, road.z);
+    const roadTop = road.role === "access" ? 0.116 + roadIndex * 0.001 : 0.1 + roadIndex * 0.002;
+    mesh.position.set(road.x, roadTop - 0.06, road.z);
     mesh.rotation.y = road.rotation ?? 0;
     mesh.receiveShadow = true;
     worldRoot.add(mesh);
@@ -126,7 +127,12 @@ export function buildWorld(
       : new THREE.MeshStandardMaterial({ color: corridor.surfaceColor, roughness: 1, flatShading: true });
     // Corridor strips intentionally overlap at junctions. A tiny deterministic stack
     // gives the later branch a clean surface instead of leaving coplanar pixels to fight.
-    worldRoot.add(createCorridorMesh(corridor, material, 0.105 + corridorIndex * 0.003));
+    worldRoot.add(createCorridorMesh(
+      corridor,
+      material,
+      0.105 + corridorIndex * 0.003,
+      corridorJunctions,
+    ));
     const marks = corridorMarks(corridor, corridorJunctions);
     if (corridor.markings === "taxiway") taxiwayMarks.push(...marks);
     else roadMarks.push(...marks);
@@ -135,6 +141,7 @@ export function buildWorld(
   addJunctionBatch(
     worldRoot,
     corridorJunctions,
+    corridors,
     roadMaterial,
     0.105 + corridors.length * 0.003 + 0.004,
   );
@@ -157,7 +164,8 @@ export function buildWorld(
     worldRoot.add(lot);
     for (let offset = -parkingLot.width / 2 + 2.3; offset < parkingLot.width / 2 - 1; offset += 3.1) {
       for (const localZ of [-parkingLot.depth / 2 + 2.1, parkingLot.depth / 2 - 2.1]) {
-        parkingMarks.push(transformedMark(parkingLot.x, parkingLot.z, offset, localZ, 0.09, 3.6, rotation));
+        const mark = transformedMark(parkingLot.x, parkingLot.z, offset, localZ, 0.09, 3.6, rotation);
+        if (!parkingMarkBlocked(mark, map, roadSegments, corridors)) parkingMarks.push(mark);
       }
     }
   });
@@ -232,6 +240,8 @@ export function buildWorld(
     buildMilliseconds: performance.now() - buildStarted,
     obstacles: obstacles.length,
     pavementPrimitives: pavementPrimitives.length,
+    junctions: corridorJunctions.length,
+    accessRoads: roadSegments.filter((road) => road.role === "access").length,
     collisionQueries: 0,
     collisionCandidates: 0,
     pavementQueries: 0,
@@ -504,6 +514,42 @@ function buildDriftCircuit(
   return { points, tangents, widths };
 }
 
+function parkingMarkBlocked(
+  mark: RoadMarkDefinition,
+  map: GameMapDefinition,
+  roads: GameMapDefinition["roads"],
+  corridors: NonNullable<GameMapDefinition["corridors"]>,
+) {
+  const insideBuilding = map.buildings.some((building) => {
+    const rotation = building.rotation ?? 0;
+    const dx = mark.x - building.x;
+    const dz = mark.z - building.z;
+    const localX = Math.cos(rotation) * dx - Math.sin(rotation) * dz;
+    const localZ = Math.sin(rotation) * dx + Math.cos(rotation) * dz;
+    return Math.abs(localX) <= building.width / 2 + 2.2
+      && Math.abs(localZ) <= building.depth / 2 + 2.2;
+  });
+  if (insideBuilding) return true;
+  const insideAccess = roads.some((road) => {
+    if (road.role !== "access") return false;
+    const rotation = road.rotation ?? 0;
+    const dx = mark.x - road.x;
+    const dz = mark.z - road.z;
+    const localX = Math.cos(rotation) * dx - Math.sin(rotation) * dz;
+    const localZ = Math.sin(rotation) * dx + Math.cos(rotation) * dz;
+    return Math.abs(localX) <= road.width / 2 + 1.5
+      && Math.abs(localZ) <= road.depth / 2 + 1.5;
+  });
+  if (insideAccess) return true;
+  return corridors.some((corridor) => {
+    for (let index = 1; index < corridor.points.length; index++) {
+      if (distanceToSegmentSquared2D(mark, corridor.points[index - 1], corridor.points[index])
+        <= (corridor.width / 2 + 1.5) ** 2) return true;
+    }
+    return false;
+  });
+}
+
 function taxiwayMarkDefinitions(road: GameMapDefinition["roads"][number]) {
   const marks: RoadMarkDefinition[] = [];
   const rotation = road.rotation ?? 0;
@@ -532,6 +578,23 @@ function transformedMark(
     depth,
     rotation,
   };
+}
+
+function distanceToSegmentSquared2D(
+  point: { x: number; z: number },
+  start: { x: number; z: number },
+  end: { x: number; z: number },
+) {
+  const dx = end.x - start.x;
+  const dz = end.z - start.z;
+  const lengthSquared = dx * dx + dz * dz;
+  if (lengthSquared === 0) return (point.x - start.x) ** 2 + (point.z - start.z) ** 2;
+  const amount = THREE.MathUtils.clamp(
+    ((point.x - start.x) * dx + (point.z - start.z) * dz) / lengthSquared,
+    0,
+    1,
+  );
+  return (point.x - (start.x + dx * amount)) ** 2 + (point.z - (start.z + dz * amount)) ** 2;
 }
 
 function forEachSpatialChunk<T extends { x: number; z: number }>(
