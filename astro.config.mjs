@@ -6,7 +6,7 @@ import { rehypeLinkIcons } from "./src/lib/rehype-link-icons.ts";
 import { buildRedirects } from "./src/lib/redirects.mjs";
 
 const redirects = await buildRedirects();
-const sitemapExcludedPaths = new Set(["/on-this-day/", "/video/", "/thoughtsroom/"]);
+const sitemapExcludedPaths = new Set(["/drive/", "/on-this-day/", "/video/", "/thoughtsroom/"]);
 
 export default defineConfig({
   site: "https://lukasmurdock.com",
