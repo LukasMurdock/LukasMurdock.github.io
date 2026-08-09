@@ -93,7 +93,7 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
   const perspectiveCamera = new THREE.PerspectiveCamera(60, 1, 0.1, map.environment.cameraFar);
   const isometricCamera = new THREE.OrthographicCamera(-20, 20, 20, -20, 0.1, map.environment.cameraFar);
   const sideCamera = new THREE.OrthographicCamera(-17, 17, 12, -12, 0.1, map.environment.sideCameraFar);
-  let cameraMode: CameraMode = "Chase";
+  let cameraMode: CameraMode = "Isometric";
   const cameraModes: CameraMode[] = ["Chase", "Isometric", "Side"];
 
   scene.add(new THREE.HemisphereLight(0xeaf6ef, 0x5d632a, 1.65));
