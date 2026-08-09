@@ -1,0 +1,71 @@
+import type { GameMapDefinition } from "./types";
+
+const cityRoads = [-60, -30, 0, 30, 60];
+
+export const CITY_CIRCUIT_MAP = {
+  id: "city-circuit",
+  title: "Circuit City",
+  description: "A dense street grid, four central drift lots, and a fast outer circuit.",
+  worldLimit: 150,
+  groundSize: 300,
+  environment: {
+    background: 0xa9d8ef,
+    grass: 0x729f53,
+    road: 0x343a3d,
+    fogNear: 175,
+    fogFar: 300,
+    cameraFar: 350,
+    sideCameraFar: 300,
+    shadowExtent: 155,
+    shadowFar: 240,
+  },
+  roads: [
+    ...cityRoads.map((z) => ({ x: 0, z, width: 150, depth: 16, markings: true })),
+    ...cityRoads.map((x) => ({ x, z: 0, width: 16, depth: x === 0 ? 240 : 150, markings: true })),
+  ],
+  parkingLots: [
+    { x: -15, z: -15, width: 14, depth: 14 },
+    { x: 15, z: -15, width: 14, depth: 14 },
+    { x: -15, z: 15, width: 14, depth: 14 },
+    { x: 15, z: 15, width: 14, depth: 14 },
+  ],
+  buildings: [
+    { x: -45, z: -45, width: 12, depth: 12, height: 9, color: 0xe26d5a },
+    { x: -15, z: -45, width: 13, depth: 12, height: 14, color: 0xe7b45a },
+    { x: 15, z: -45, width: 12, depth: 12, height: 8, color: 0x5f83a8 },
+    { x: 45, z: -45, width: 13, depth: 12, height: 16, color: 0xb2789b },
+    { x: -45, z: -15, width: 12, depth: 13, height: 13, color: 0xd98750 },
+    { x: 45, z: -15, width: 12, depth: 13, height: 10, color: 0x718977 },
+    { x: -45, z: 15, width: 12, depth: 12, height: 8, color: 0x8579aa },
+    { x: 45, z: 15, width: 13, depth: 12, height: 15, color: 0xd0a44c },
+    { x: -45, z: 45, width: 12, depth: 13, height: 17, color: 0xc66558 },
+    { x: -15, z: 45, width: 13, depth: 12, height: 10, color: 0x638aa0 },
+    { x: 15, z: 45, width: 12, depth: 13, height: 13, color: 0xd6a75d },
+    { x: 45, z: 45, width: 13, depth: 13, height: 9, color: 0x6d82a1 },
+  ],
+  trees: [
+    { x: -21, z: -21 }, { x: 21, z: -21 }, { x: -21, z: 21 }, { x: 21, z: 21 },
+    { x: -72, z: -72 }, { x: 72, z: -72 }, { x: -72, z: 72 }, { x: 72, z: 72 },
+  ],
+  barriers: Array.from({ length: 4 }, (_, index) => [
+    { x: 10 + index * 3.4, z: -17 + (index % 2) * 4 },
+    { x: -20 + index * 3.4, z: 13 + (index % 2) * 4 },
+  ]).flat(),
+  circuit: [
+    { kind: "acceleration", span: 0.7, radius: 114, width: 11 },
+    { kind: "sweeper", span: 0.5, radius: 124, width: 12 },
+    { kind: "tightening", span: 0.42, radius: 108, width: 14 },
+    { kind: "cooldown", span: 0.65, radius: 121, width: 11 },
+    { kind: "transition", span: 0.42, radius: 111, width: 14 },
+    { kind: "sweeper", span: 0.5, radius: 127, width: 12.5 },
+    { kind: "hairpin", span: 0.4, radius: 107, width: 15 },
+    { kind: "acceleration", span: 0.7, radius: 120, width: 11 },
+    { kind: "sweeper", span: 0.5, radius: 126, width: 12 },
+    { kind: "transition", span: 0.42, radius: 109, width: 14.5 },
+    { kind: "tightening", span: 0.45, radius: 123, width: 14 },
+    { kind: "cooldown", span: 0.65, radius: 112, width: 11 },
+    { kind: "sweeper", span: 0.5, radius: 127, width: 12.5 },
+    { kind: "transition", span: 0.42, radius: 110, width: 14 },
+  ],
+  spawn: { source: "circuit", sampleIndex: 0 },
+} satisfies GameMapDefinition;

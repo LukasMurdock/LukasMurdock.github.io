@@ -26,6 +26,8 @@ import Head from "@/components/Head.astro";
         </div>
       </header>
 
+      <aside id="mode-hud" class="mode-hud" aria-live="polite"></aside>
+
       <section id="intro" class="intro" aria-labelledby="game-title">
         <div class="intro-card">
           <p class="eyebrow">A tiny driving playground</p>
@@ -62,7 +64,13 @@ import Head from "@/components/Head.astro";
     <script>
       import { startDrivingGame } from "@/lib/driving-game";
       const root = document.querySelector<HTMLElement>("#driving-game");
-      if (root) startDrivingGame(root);
+      if (root) {
+        startDrivingGame(root, {
+          mode: "cruise",
+          map: "city-circuit",
+          drivingProfile: "balanced",
+        });
+      }
     </script>
   </body>
 </html>
@@ -156,6 +164,16 @@ import Head from "@/components/Head.astro";
     letter-spacing: 0.05em;
     text-transform: uppercase;
   }
+
+  .mode-hud {
+    position: absolute;
+    z-index: 5;
+    top: 74px;
+    right: 22px;
+    pointer-events: none;
+  }
+
+  .mode-hud:empty { display: none; }
 
   .actions {
     justify-self: end;
