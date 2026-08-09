@@ -5,14 +5,20 @@ import type { DriftPhase, DriveEndReason } from "../types";
 import { createCar } from "../vehicle/create-car";
 import { createDriftSmoke, createSkidMarks } from "../vehicle/effects";
 import type { WorldRuntime } from "../world/types";
-import type { PlayerControlName, PlayerController, PlayerEvent, PlayerSnapshot } from "./types";
+import type {
+  PlayerControlName,
+  PlayerController,
+  PlayerEvent,
+  PlayerExternalCollision,
+  PlayerSnapshot,
+} from "./types";
 
 const CAR_RADIUS = 1.25;
 
 export function createPlayerController({
   scene,
   world,
-  profile: DRIVING,
+  profile,
   onEvent,
   onResetRequested,
 }: {
@@ -22,6 +28,7 @@ export function createPlayerController({
   onEvent: (event: PlayerEvent) => void;
   onResetRequested: (reason: DriveEndReason) => void;
 }): PlayerController {
+  let DRIVING = profile;
   const car = createCar();
   scene.add(car.group);
   const driftSmoke = createDriftSmoke(scene);
@@ -56,6 +63,7 @@ export function createPlayerController({
   let bodyKick = 0;
   let previousHandbrake = false;
   let carAudio: CarAudio | null = null;
+  let audioPaused = false;
   // Snapshot vectors are detached from simulation state so consumers cannot move the player accidentally.
   const snapshot: PlayerSnapshot = {
     position: position.clone(),
@@ -102,6 +110,27 @@ export function createPlayerController({
     hardDriftInputBuffer = 0;
     hardDriftReentryTime = 0;
     hardDriftReentryDirection = 0;
+  }
+
+  function applyExternalCollision(collision: PlayerExternalCollision) {
+    position.x += collision.normalX * collision.penetration;
+    position.z += collision.normalZ * collision.penetration;
+    const impactStrength = THREE.MathUtils.clamp(collision.closingSpeed / 14, 0, 1);
+    if (collision.closingSpeed > 0) {
+      const impulse = Math.min(collision.closingSpeed, 14) * 0.48;
+      velocity.x += collision.normalX * impulse;
+      velocity.z += collision.normalZ * impulse;
+      velocity.multiplyScalar(THREE.MathUtils.lerp(0.98, 0.88, impactStrength));
+      cameraShake = Math.min(0.5, cameraShake + impactStrength * 0.22);
+      if (collision.closingSpeed > 2) carAudio?.impact(impactStrength);
+      onEvent({
+        type: "collision",
+        obstacleType: "vehicle",
+        terminal: false,
+        strength: impactStrength,
+      });
+    }
+    car.group.position.copy(position);
   }
 
   function reset() {
@@ -554,10 +583,23 @@ export function createPlayerController({
       carAudio ??= createCarAudio(DRIVING);
     },
     update,
+    setDrivingProfile(nextProfile) {
+      const audioWasStarted = carAudio !== null;
+      carAudio?.destroy();
+      carAudio = null;
+      DRIVING = nextProfile;
+      if (audioWasStarted) {
+        const nextAudio = createCarAudio(DRIVING);
+        nextAudio?.setPaused(audioPaused);
+        carAudio = nextAudio;
+      }
+    },
     setControl,
     clearControls,
+    applyExternalCollision,
     reset,
     setPaused(paused) {
+      audioPaused = paused;
       carAudio?.setPaused(paused);
     },
     getSnapshot,

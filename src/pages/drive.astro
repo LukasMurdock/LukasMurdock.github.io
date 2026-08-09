@@ -17,28 +17,48 @@ import Head from "@/components/Head.astro";
 
       <header class="topbar">
         <a class="wordmark" href="/" aria-label="Return home">LM</a>
-        <div class="readout" aria-live="polite">
-          <span id="camera-mode">Chase</span>
-        </div>
         <div class="actions">
           <button id="camera-button" type="button" title="Switch camera (C)">Camera <kbd>C</kbd></button>
+          <button
+            id="leaderboard-button"
+            type="button"
+            title="Toggle leaderboard (L)"
+            aria-pressed="false"
+          >Leaders <kbd>L</kbd></button>
           <button id="reset-button" type="button" title="Reset car (R)">Reset <kbd>R</kbd></button>
           <button id="pause-button" type="button" title="Pause game (P)">Pause <kbd>P</kbd></button>
         </div>
       </header>
 
       <aside id="mode-hud" class="mode-hud" aria-live="polite"></aside>
+      <aside
+        id="drive-leaderboard"
+        class="drive-leaderboard"
+        aria-live="polite"
+        aria-hidden="true"
+      ></aside>
 
       <section id="intro" class="intro" aria-labelledby="game-title">
         <div class="intro-card">
           <p class="eyebrow">A tiny driving playground</p>
           <h1 id="game-title">Take a drive.</h1>
           <p>Follow the red-and-white circuit, link its corners, or leave the course and roam the city. There is nowhere you need to be.</p>
+          <div class="mode-select" role="group" aria-label="Game mode">
+            <button type="button" data-mode-option="cruise" aria-pressed="false">
+              <strong>Cruise</strong>
+              <span>Drive freely</span>
+            </button>
+            <button type="button" data-mode-option="chase" aria-pressed="false">
+              <strong>Chase</strong>
+              <span>Survive pursuit</span>
+            </button>
+          </div>
           <button id="start-driving" type="button">Start driving <span aria-hidden="true">→</span></button>
           <div class="key-guide" aria-label="Keyboard controls">
             <span><kbd>← →</kbd> Steer · tap twice for hard turn</span>
             <span><kbd>Space</kbd> Drift</span>
             <span><kbd>C</kbd> Camera</span>
+            <span><kbd>L</kbd> Leaders</span>
             <span><kbd>P</kbd> Pause</span>
             <span><kbd>R</kbd> Reset</span>
           </div>
@@ -49,7 +69,26 @@ import Head from "@/components/Head.astro";
         <div class="pause-card">
           <p class="eyebrow">Game paused</p>
           <h2>Take a breather.</h2>
-          <button id="resume-driving" type="button">Resume driving <span aria-hidden="true">→</span></button>
+          <div class="pause-drive-time">
+            <span>Current drive</span>
+            <strong id="pause-drive-time">0:00.00</strong>
+          </div>
+          <div class="pause-mode-select">
+            <span>Game mode</span>
+            <div class="mode-select mode-select--pause" role="group" aria-label="Game mode">
+              <button type="button" data-mode-option="cruise" aria-pressed="false">
+                <strong>Cruise</strong>
+                <span>Drive freely</span>
+              </button>
+              <button type="button" data-mode-option="chase" aria-pressed="false">
+                <strong>Chase</strong>
+                <span>Survive pursuit</span>
+              </button>
+            </div>
+          </div>
+          <div class="pause-actions">
+            <button id="resume-driving" type="button">Resume driving <span aria-hidden="true">→</span></button>
+          </div>
         </div>
       </section>
 
@@ -67,10 +106,10 @@ import Head from "@/components/Head.astro";
       const root = document.querySelector<HTMLElement>("#driving-game");
       if (root) {
         const requestedMode = new URLSearchParams(window.location.search).get("mode");
+        const selectedMode = requestedMode === "chase" ? "chase" : "cruise";
         startDrivingGame(root, {
-          mode: requestedMode === "chase" ? "chase" : "cruise",
+          mode: selectedMode,
           map: "city-circuit",
-          drivingProfile: "aggressive",
         });
       }
     </script>
@@ -128,6 +167,7 @@ import Head from "@/components/Head.astro";
 
   @media (prefers-reduced-motion: reduce) {
     #speed-lines-canvas { display: none; }
+    .drive-leaderboard { transition: none !important; }
   }
 
   .topbar {
@@ -137,7 +177,7 @@ import Head from "@/components/Head.astro";
     left: 0;
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr auto 1fr;
+    grid-template-columns: 1fr auto;
     align-items: center;
     padding: 18px 22px;
     color: #fff;
@@ -145,8 +185,7 @@ import Head from "@/components/Head.astro";
   }
 
   .wordmark,
-  .actions button,
-  .readout {
+  .actions button {
     background: rgba(18, 25, 27, 0.7);
     border: 1px solid rgba(255, 255, 255, 0.16);
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
@@ -167,19 +206,6 @@ import Head from "@/components/Head.astro";
     pointer-events: auto;
   }
 
-  .readout {
-    display: flex;
-    align-items: center;
-    gap: 14px;
-    min-height: 42px;
-    padding: 0 17px;
-    border-radius: 22px;
-    font-size: 12px;
-    font-weight: 750;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-  }
-
   .mode-hud {
     position: absolute;
     z-index: 5;
@@ -189,6 +215,83 @@ import Head from "@/components/Head.astro";
   }
 
   .mode-hud:empty { display: none; }
+
+  .drive-leaderboard {
+    position: absolute;
+    z-index: 8;
+    top: 74px;
+    right: 22px;
+    width: 176px;
+    padding: 16px 18px 17px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 18px;
+    opacity: 0;
+    background: rgba(18, 25, 27, 0.86);
+    box-shadow: 0 18px 46px rgba(0, 0, 0, 0.24);
+    backdrop-filter: blur(12px);
+    color: #fff;
+    transform: translateY(-8px) scale(0.98);
+    transition: opacity 180ms ease, transform 180ms ease;
+    pointer-events: none;
+  }
+
+  #driving-game[data-game-mode="chase"] .drive-leaderboard { top: 186px; }
+
+  .drive-leaderboard.is-visible {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+
+  .drive-leaderboard.is-leaving {
+    opacity: 0;
+    transform: translateY(-5px) scale(0.99);
+    transition-duration: 420ms;
+  }
+
+  .drive-leaderboard__title {
+    display: block;
+    margin-bottom: 9px;
+    color: rgba(255, 255, 255, 0.62);
+    font-size: 9px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .drive-leaderboard__empty {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.58);
+    font-size: 11px;
+  }
+
+  .drive-leaderboard__list {
+    display: grid;
+    gap: 3px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .drive-leaderboard__list li {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: baseline;
+    padding: 4px 7px;
+    border-radius: 7px;
+    color: rgba(255, 255, 255, 0.62);
+    font-size: 10px;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .drive-leaderboard__list li > strong {
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: -0.02em;
+  }
+
+  .drive-leaderboard__list li.is-current {
+    background: rgba(185, 217, 157, 0.13);
+    color: #b9d99d;
+  }
 
   .chase-status[hidden] { display: none; }
 
@@ -213,10 +316,19 @@ import Head from "@/components/Head.astro";
     text-transform: uppercase;
   }
 
+  .chase-status__timer {
+    font-size: 25px;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.05em;
+    line-height: 1;
+  }
+
   .chase-status__message {
     overflow: hidden;
-    font-size: 14px;
-    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.82);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
     text-overflow: ellipsis;
     white-space: nowrap;
   }
@@ -240,6 +352,11 @@ import Head from "@/components/Head.astro";
   }
 
   .chase-status[data-pressure="danger"] .chase-status__meter > span { background: #e9553f; }
+
+  .chase-status[data-state="captured"] {
+    border-color: rgba(233, 85, 63, 0.5);
+    background: rgba(47, 24, 22, 0.82);
+  }
 
   .actions {
     justify-self: end;
@@ -319,10 +436,50 @@ import Head from "@/components/Head.astro";
 
   .intro-card > p:not(.eyebrow) {
     max-width: 390px;
-    margin: 22px auto 26px;
+    margin: 22px auto 18px;
     color: rgba(255, 255, 255, 0.7);
     font-size: 15px;
     line-height: 1.55;
+  }
+
+  .mode-select {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+    margin: 0 auto 22px;
+  }
+
+  .mode-select button {
+    display: grid;
+    gap: 3px;
+    padding: 12px 14px;
+    border: 1px solid rgba(255, 255, 255, 0.13);
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.045);
+    color: rgba(255, 255, 255, 0.66);
+    font: inherit;
+    text-align: left;
+    transition: border-color 140ms ease, background 140ms ease, color 140ms ease;
+    cursor: pointer;
+  }
+
+  .mode-select button:hover {
+    border-color: rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.08);
+    color: #fff;
+  }
+
+  .mode-select button[aria-pressed="true"] {
+    border-color: rgba(185, 217, 157, 0.72);
+    background: rgba(185, 217, 157, 0.13);
+    color: #fff;
+  }
+
+  .mode-select strong { font-size: 13px; }
+
+  .mode-select span {
+    color: rgba(255, 255, 255, 0.52);
+    font-size: 10px;
   }
 
   #start-driving {
@@ -403,6 +560,46 @@ import Head from "@/components/Head.astro";
     letter-spacing: -0.05em;
   }
 
+  .pause-drive-time {
+    display: grid;
+    gap: 3px;
+    margin: -8px 0 22px;
+  }
+
+  .pause-drive-time span {
+    color: rgba(255, 255, 255, 0.58);
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .pause-drive-time strong {
+    font-size: 27px;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.05em;
+  }
+
+  .pause-mode-select > span {
+    display: block;
+    margin-bottom: 8px;
+    color: rgba(255, 255, 255, 0.58);
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-align: left;
+    text-transform: uppercase;
+  }
+
+  .mode-select--pause { margin-bottom: 22px; }
+
+  .pause-actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 9px;
+  }
+
   #resume-driving {
     min-height: 48px;
     padding: 0 20px;
@@ -420,13 +617,6 @@ import Head from "@/components/Head.astro";
     .topbar {
       grid-template-columns: 1fr auto;
       padding: max(12px, env(safe-area-inset-top)) 12px 12px;
-    }
-
-    .readout {
-      position: absolute;
-      top: calc(max(12px, env(safe-area-inset-top)) + 50px);
-      left: 50%;
-      transform: translateX(-50%);
     }
 
     .actions button {
@@ -447,8 +637,18 @@ import Head from "@/components/Head.astro";
     .key-guide { display: none; }
 
     .mode-hud {
-      top: calc(max(12px, env(safe-area-inset-top)) + 98px);
+      top: calc(max(12px, env(safe-area-inset-top)) + 56px);
       right: 12px;
+    }
+
+    .drive-leaderboard {
+      top: calc(max(12px, env(safe-area-inset-top)) + 56px);
+      right: 12px;
+      width: 156px;
+    }
+
+    #driving-game[data-game-mode="chase"] .drive-leaderboard {
+      top: calc(max(12px, env(safe-area-inset-top)) + 166px);
     }
 
     .chase-status { width: 156px; }
@@ -504,7 +704,6 @@ import Head from "@/components/Head.astro";
   }
 
   @media (max-width: 440px) {
-    .readout { gap: 9px; padding: 0 12px; }
     .intro-card { border-radius: 22px; }
     .steering-controls { grid-template-columns: repeat(2, 52px); }
     .touch-controls button { width: 52px; height: 52px; }

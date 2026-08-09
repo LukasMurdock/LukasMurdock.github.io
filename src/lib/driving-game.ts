@@ -13,6 +13,10 @@ export { GAME_MAPS } from "./driving-game/maps";
 export type { GameMapDefinition, GameMapId } from "./driving-game/maps";
 export { GAME_MODES } from "./driving-game/modes";
 export type { GameModeDefinition, GameModeId } from "./driving-game/modes";
-export type { PlayerEvent, PlayerSnapshot } from "./driving-game/player";
+export type {
+  PlayerEvent,
+  PlayerExternalCollision,
+  PlayerSnapshot,
+} from "./driving-game/player";
 export type { DriveEndReason, DrivingGameOptions } from "./driving-game/types";
 export type { ObstacleKind, WorldCollision, WorldRuntime } from "./driving-game/world/types";

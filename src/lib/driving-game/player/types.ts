@@ -1,8 +1,16 @@
 import type * as THREE from "three";
+import type { DrivingProfile } from "../driving-profiles";
 import type { DriftPhase } from "../types";
 import type { ObstacleKind } from "../world/types";
 
 export type PlayerControlName = "left" | "right" | "handbrake";
+
+export type PlayerExternalCollision = {
+  normalX: number;
+  normalZ: number;
+  penetration: number;
+  closingSpeed: number;
+};
 
 export type PlayerSnapshot = {
   position: THREE.Vector3;
@@ -19,7 +27,7 @@ export type PlayerSnapshot = {
 export type PlayerEvent =
   | {
       type: "collision";
-      obstacleType: ObstacleKind | "boundary";
+      obstacleType: ObstacleKind | "boundary" | "vehicle";
       terminal: boolean;
       strength: number;
     }
@@ -28,8 +36,10 @@ export type PlayerEvent =
 export type PlayerController = {
   start: () => void;
   update: (dt: number) => void;
+  setDrivingProfile: (profile: DrivingProfile) => void;
   setControl: (name: PlayerControlName, pressed: boolean) => void;
   clearControls: () => void;
+  applyExternalCollision: (collision: PlayerExternalCollision) => void;
   reset: () => void;
   setPaused: (paused: boolean) => void;
   getSnapshot: () => PlayerSnapshot;

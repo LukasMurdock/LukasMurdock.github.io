@@ -1,78 +1,133 @@
-import * as THREE from "three";
+import type { DriveEndReason } from "../../types";
 import type { GameModeContext, GameModeController } from "../types";
+import { createChaseHud } from "./chase-hud";
 import { createPursuer } from "./pursuer";
+import { CHASE_TUNING } from "./tuning";
+import type { ChaseState } from "./types";
 
 export function createChaseController(context: GameModeContext): GameModeController {
-  const pursuer = createPursuer(context.scene, context.world);
-  const hud = document.createElement("div");
-  hud.className = "chase-status";
-  hud.hidden = true;
-  const label = document.createElement("span");
-  label.className = "chase-status__label";
-  label.textContent = "Pursuit";
-  const message = document.createElement("strong");
-  message.className = "chase-status__message";
-  const meter = document.createElement("span");
-  meter.className = "chase-status__meter";
-  meter.setAttribute("aria-hidden", "true");
-  const meterFill = document.createElement("span");
-  meter.append(meterFill);
-  hud.append(label, message, meter);
-  context.hudRoot.append(hud);
-
-  let active = false;
+  const hud = createChaseHud(context.hudRoot);
+  const pursuers = [createPursuer(context.scene, context.world)];
+  let state: ChaseState = "waiting";
+  let started = false;
+  let stateTime = 0;
   let captureGrace = 0;
-  let currentMessage = "";
+  let reinforcementNotice = 0;
+  let activePursuerCount = 0;
+  let capturedSurvivalTime = 0;
 
-  function updateHud(distance: number) {
-    const pressure = 1 - THREE.MathUtils.smoothstep(distance, 7, 45);
-    meterFill.style.transform = `scaleX(${pressure.toFixed(3)})`;
-    const nextMessage = distance < 8
-      ? "Right behind you"
-      : distance < 18
-        ? "Closing in"
-        : distance < 36
-          ? "Keep moving"
-          : "Pulling away";
-    if (nextMessage !== currentMessage) {
-      currentMessage = nextMessage;
-      message.textContent = nextMessage;
-      hud.dataset.pressure = distance < 8 ? "danger" : distance < 18 ? "close" : "open";
+  function setPursuersVisible(count: number) {
+    pursuers.forEach((pursuer, index) => pursuer.setVisible(index < count));
+  }
+
+  function enterActive() {
+    state = "active";
+    stateTime = 0;
+    captureGrace = CHASE_TUNING.captureGraceDuration;
+    reinforcementNotice = 0;
+    activePursuerCount = 1;
+    const player = context.getPlayer();
+    pursuers.forEach((pursuer, index) => pursuer.resetBehind(player, index));
+    setPursuersVisible(activePursuerCount);
+    hud.showActive({
+      survivalTime: context.getDriveTime(),
+      nearestDistance: 17,
+      reinforcements: false,
+    });
+  }
+
+  function enterCaptured() {
+    state = "captured";
+    stateTime = 0;
+    setPursuersVisible(0);
+    hud.showCaptured(capturedSurvivalTime);
+  }
+
+  function reset(reason: DriveEndReason) {
+    if (!started) {
+      state = "waiting";
+      setPursuersVisible(0);
+      hud.showWaiting();
+      return;
     }
+    if (reason === "mode") enterCaptured();
+    else enterActive();
   }
 
-  function resetPursuit() {
-    pursuer.resetBehind(context.getPlayer());
-    pursuer.setVisible(active);
-    captureGrace = 1.8;
-    updateHud(17);
-  }
-
-  pursuer.setVisible(false);
-  resetPursuit();
+  setPursuersVisible(0);
+  hud.showWaiting();
 
   return {
     start() {
-      active = true;
-      hud.hidden = false;
-      resetPursuit();
+      started = true;
+      capturedSurvivalTime = 0;
+      enterActive();
     },
     update(dt) {
-      if (!active) return;
+      stateTime += dt;
+      if (state === "waiting") return;
+      if (state === "captured") {
+        if (stateTime >= CHASE_TUNING.capturePresentationDuration) enterActive();
+        return;
+      }
+
       captureGrace = Math.max(0, captureGrace - dt);
-      const distance = pursuer.update(dt, context.getPlayer());
-      updateHud(distance);
-      if (captureGrace === 0 && distance <= pursuer.getCaptureDistance()) context.endDrive();
+      reinforcementNotice = Math.max(0, reinforcementNotice - dt);
+      const survivalTime = context.getDriveTime();
+      const requestedPursuers = pursuerCountAt(survivalTime);
+      if (requestedPursuers > activePursuerCount) {
+        const player = context.getPlayer();
+        for (let index = activePursuerCount; index < requestedPursuers; index++) {
+          const pursuer = pursuers[index]
+            ?? createPursuer(context.scene, context.world);
+          if (!pursuers[index]) pursuers.push(pursuer);
+          pursuer.resetBehind(player, index);
+          pursuer.setVisible(true);
+        }
+        activePursuerCount = requestedPursuers;
+        captureGrace = Math.max(captureGrace, CHASE_TUNING.reinforcementCaptureGraceDuration);
+        reinforcementNotice = 1.8;
+      }
+
+      let nearestDistance = Number.POSITIVE_INFINITY;
+      let hasVehicleContact = false;
+      for (let index = 0; index < activePursuerCount; index++) {
+        const update = pursuers[index].update(dt, context.getPlayer());
+        let resolvedDistance = update.distanceToPlayer;
+        if (update.playerCollision) {
+          hasVehicleContact = true;
+          context.applyPlayerCollision(update.playerCollision);
+          resolvedDistance += update.playerCollision.penetration;
+        }
+        nearestDistance = Math.min(nearestDistance, resolvedDistance);
+      }
+      hud.showActive({
+        survivalTime,
+        nearestDistance,
+        reinforcements: reinforcementNotice > 0,
+      });
+
+      if (captureGrace === 0 && hasVehicleContact) {
+        capturedSurvivalTime = survivalTime;
+        enterCaptured();
+        context.endDrive();
+      }
     },
+    isDriveClockRunning: () => state === "active",
     pause() {},
-    reset() {
-      resetPursuit();
-    },
+    reset,
     onPlayerEvent() {},
     destroy() {
-      active = false;
-      hud.remove();
-      pursuer.destroy();
+      state = "waiting";
+      hud.destroy();
+      pursuers.forEach((pursuer) => pursuer.destroy());
     },
   };
+}
+
+function pursuerCountAt(survivalTime: number) {
+  return Math.min(
+    CHASE_TUNING.maximumPursuers,
+    CHASE_TUNING.escalationTimes.filter((threshold) => survivalTime >= threshold).length,
+  );
 }

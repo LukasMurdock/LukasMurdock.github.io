@@ -1,18 +1,21 @@
 import * as THREE from "three";
-import type { PlayerSnapshot } from "../../player";
+import type { PlayerExternalCollision, PlayerSnapshot } from "../../player";
 import { createCar } from "../../vehicle/create-car";
+import { queryVehicleCollision } from "../../vehicle/collision";
 import type { WorldRuntime } from "../../world/types";
+import { CHASE_TUNING } from "./tuning";
 
-const PURSUER_RADIUS = 1.25;
-const CAPTURE_DISTANCE = 3.15;
-const MAXIMUM_SPEED = 30;
-const OFF_ROAD_MAXIMUM_SPEED = 18;
+const { pursuer: PURSUER_TUNING } = CHASE_TUNING;
+
+export type PursuerUpdate = {
+  distanceToPlayer: number;
+  playerCollision: PlayerExternalCollision | null;
+};
 
 export type Pursuer = {
   setVisible: (visible: boolean) => void;
-  resetBehind: (player: PlayerSnapshot) => void;
-  update: (dt: number, player: PlayerSnapshot) => number;
-  getCaptureDistance: () => number;
+  resetBehind: (player: PlayerSnapshot, formationIndex?: number) => void;
+  update: (dt: number, player: PlayerSnapshot) => PursuerUpdate;
   destroy: () => void;
 };
 
@@ -22,6 +25,7 @@ export function createPursuer(scene: THREE.Scene, world: WorldRuntime): Pursuer 
 
   const position = world.spawnPosition.clone();
   const target = new THREE.Vector3();
+  const observedTarget = new THREE.Vector3();
   const forward = new THREE.Vector3();
   const candidate = new THREE.Vector3();
   let heading = world.spawnHeading;
@@ -30,20 +34,27 @@ export function createPursuer(scene: THREE.Scene, world: WorldRuntime): Pursuer 
   let sirenTime = 0;
   let avoidanceTime = 0;
   let avoidanceHeading = heading;
+  let formationSlot = 0;
 
   function placeCar() {
     car.group.position.copy(position);
     car.group.rotation.y = heading;
   }
 
-  function resetBehind(player: PlayerSnapshot) {
+  function resetBehind(player: PlayerSnapshot, formationIndex = 0) {
+    formationSlot = formationIndex;
     const sin = Math.sin(player.heading);
     const cos = Math.cos(player.heading);
-    const candidates = [
+    const formation = [
       { behind: 17, side: 0 },
-      { behind: 22, side: 5 },
-      { behind: 22, side: -5 },
-      { behind: 28, side: 0 },
+      { behind: 30, side: 8 },
+      { behind: 38, side: -8 },
+    ][formationIndex % 3];
+    const candidates = [
+      formation,
+      { behind: formation.behind + 5, side: -formation.side },
+      { behind: formation.behind + 9, side: formation.side * 0.5 },
+      { behind: formation.behind + 13, side: 0 },
     ];
     let placed = false;
     for (const offset of candidates) {
@@ -52,8 +63,8 @@ export function createPursuer(scene: THREE.Scene, world: WorldRuntime): Pursuer 
         0.06,
         player.position.z - cos * offset.behind - sin * offset.side,
       );
-      if (world.isOutsideBoundary(candidate, PURSUER_RADIUS)) continue;
-      if (world.queryCollision(candidate, PURSUER_RADIUS)) continue;
+      if (world.isOutsideBoundary(candidate, PURSUER_TUNING.radius)) continue;
+      if (world.queryCollision(candidate, PURSUER_TUNING.radius)) continue;
       position.copy(candidate);
       placed = true;
       break;
@@ -65,25 +76,51 @@ export function createPursuer(scene: THREE.Scene, world: WorldRuntime): Pursuer 
     steeringVisual = 0;
     avoidanceTime = 0;
     avoidanceHeading = heading;
+    observedTarget.copy(player.position);
     placeCar();
   }
 
   function update(dt: number, player: PlayerSnapshot) {
-    target.copy(player.position).addScaledVector(player.velocity, 0.38);
-    const targetHeading = Math.atan2(target.x - position.x, target.z - position.z);
+    const distanceToPlayer = horizontalDistance(position, player.position);
+    const predictionAmount = THREE.MathUtils.smoothstep(distanceToPlayer, 8, 30);
+    target.copy(player.position).addScaledVector(
+      player.velocity,
+      PURSUER_TUNING.predictionTime * predictionAmount,
+    );
+    observedTarget.lerp(target, 1 - Math.exp(-PURSUER_TUNING.targetReactionRate * dt));
+    const targetHeading = Math.atan2(observedTarget.x - position.x, observedTarget.z - position.z);
     avoidanceTime = Math.max(0, avoidanceTime - dt);
     const requestedHeading = avoidanceTime > 0 ? avoidanceHeading : targetHeading;
     const headingError = angleDifference(heading, requestedHeading);
-    const turnRate = THREE.MathUtils.lerp(1.35, 2.15, THREE.MathUtils.clamp(speed / 22, 0, 1));
+    const speedRatio = THREE.MathUtils.clamp(speed / PURSUER_TUNING.maximumSpeed, 0, 1);
+    const baseTurnRate = THREE.MathUtils.lerp(
+      PURSUER_TUNING.lowSpeedTurnRate,
+      PURSUER_TUNING.highSpeedTurnRate,
+      speedRatio,
+    );
+    const closeRangeSteering = THREE.MathUtils.lerp(
+      0.45,
+      1,
+      THREE.MathUtils.smoothstep(distanceToPlayer, 5, 16),
+    );
+    const turnRate = baseTurnRate * closeRangeSteering;
     const headingStep = THREE.MathUtils.clamp(headingError, -turnRate * dt, turnRate * dt);
     heading = normalizeAngle(heading + headingStep);
 
     const onPavement = world.isOnPavement(position);
-    const maximumSpeed = onPavement ? MAXIMUM_SPEED : OFF_ROAD_MAXIMUM_SPEED;
-    const distanceToPlayer = horizontalDistance(position, player.position);
-    const catchUp = THREE.MathUtils.clamp((distanceToPlayer - 9) / 26, 0, 1) * 2.5;
-    const targetSpeed = Math.min(maximumSpeed, Math.max(19, player.speed + catchUp));
-    const speedChange = targetSpeed > speed ? 9.5 * dt : 13 * dt;
+    const maximumSpeed = onPavement
+      ? PURSUER_TUNING.maximumSpeed
+      : PURSUER_TUNING.offRoadMaximumSpeed;
+    const catchUp = THREE.MathUtils.smoothstep(distanceToPlayer, 14, 45)
+      * PURSUER_TUNING.maximumCatchUpSpeed;
+    let requestedSpeed = Math.max(14, player.speed + catchUp);
+    if (distanceToPlayer < 10) {
+      requestedSpeed = Math.max(11, player.speed + PURSUER_TUNING.closeRangeSpeedAdvantage);
+    }
+    const targetSpeed = Math.min(maximumSpeed, requestedSpeed);
+    const speedChange = targetSpeed > speed
+      ? PURSUER_TUNING.acceleration * dt
+      : PURSUER_TUNING.deceleration * dt;
     speed += THREE.MathUtils.clamp(targetSpeed - speed, -speedChange, speedChange);
 
     forward.set(Math.sin(heading), 0, Math.cos(heading));
@@ -91,7 +128,7 @@ export function createPursuer(scene: THREE.Scene, world: WorldRuntime): Pursuer 
     const steps = Math.max(1, Math.ceil(distance / 0.65));
     for (let step = 0; step < steps; step++) {
       position.addScaledVector(forward, distance / steps);
-      const collision = world.queryCollision(position, PURSUER_RADIUS);
+      const collision = world.queryCollision(position, PURSUER_TUNING.radius);
       if (!collision) continue;
 
       position.x += collision.normalX * collision.penetration;
@@ -112,7 +149,34 @@ export function createPursuer(scene: THREE.Scene, world: WorldRuntime): Pursuer 
       speed *= 0.48;
     }
 
-    if (world.isOutsideBoundary(position, PURSUER_RADIUS)) resetBehind(player);
+    if (world.isOutsideBoundary(position, PURSUER_TUNING.radius)) resetBehind(player, formationSlot);
+
+    const vehicleCollision = queryVehicleCollision(
+      player.position,
+      player.heading,
+      position,
+      heading,
+    );
+    let playerCollision: PlayerExternalCollision | null = null;
+    if (vehicleCollision) {
+      const pursuerVelocityX = Math.sin(heading) * speed;
+      const pursuerVelocityZ = Math.cos(heading) * speed;
+      const relativeVelocityX = player.velocity.x - pursuerVelocityX;
+      const relativeVelocityZ = player.velocity.z - pursuerVelocityZ;
+      const closingSpeed = Math.max(0, -(
+        relativeVelocityX * vehicleCollision.normalX
+        + relativeVelocityZ * vehicleCollision.normalZ
+      ));
+      position.x -= vehicleCollision.normalX * vehicleCollision.penetration * 0.55;
+      position.z -= vehicleCollision.normalZ * vehicleCollision.penetration * 0.55;
+      speed *= THREE.MathUtils.lerp(0.82, 0.52, THREE.MathUtils.clamp(closingSpeed / 14, 0, 1));
+      playerCollision = {
+        normalX: vehicleCollision.normalX,
+        normalZ: vehicleCollision.normalZ,
+        penetration: vehicleCollision.penetration * 0.45,
+        closingSpeed,
+      };
+    }
 
     steeringVisual = THREE.MathUtils.lerp(
       steeringVisual,
@@ -133,7 +197,10 @@ export function createPursuer(scene: THREE.Scene, world: WorldRuntime): Pursuer 
       material.emissiveIntensity = pulse ? 7 : 0.65;
     });
     placeCar();
-    return horizontalDistance(position, player.position);
+    return {
+      distanceToPlayer: horizontalDistance(position, player.position),
+      playerCollision,
+    };
   }
 
   return {
@@ -142,7 +209,6 @@ export function createPursuer(scene: THREE.Scene, world: WorldRuntime): Pursuer 
     },
     resetBehind,
     update,
-    getCaptureDistance: () => CAPTURE_DISTANCE,
     destroy() {
       scene.remove(car.group);
       car.group.traverse((object) => {

@@ -27,7 +27,7 @@ startDrivingGame(root, {
 });
 ```
 
-The runtime defaults to the values above. The page does not currently expose selectors; these are composition seams for development and future navigation. The page may explicitly select another profile while tuning.
+The page exposes Cruise and Chase selection before play and switches their controllers without rebuilding the shared world. Cruise defaults to the `loose` profile; Chase defaults to `aggressive`. Passing `drivingProfile` explicitly overrides the mode default for tuning.
 
 Available internal handling profiles are `balanced`, `loose`, `technical`, and `aggressive`. Aggressive raises acceleration and top speed, uses faster and deeper breakaway behavior, strengthens hard-drift entry and exit boost, and deliberately reaches redline at its normal maximum speed. The other profiles retain a quieter overdrive ratio.
 
@@ -59,9 +59,9 @@ A future command can import `getLocalDriveLeaderboard` from the public `driving-
 
 1. Add a `GameModeDefinition` under `modes/`.
 2. Register it in `modes/index.ts`.
-3. Implement its controller lifecycle: `start`, `update`, `pause`, `reset(reason)`, `onPlayerEvent`, and `destroy`.
+3. Implement its controller lifecycle: `start`, `update`, `isDriveClockRunning`, `pause`, `reset(reason)`, `onPlayerEvent`, and `destroy`.
 4. Put mode-owned entities, pursuit state, win/loss rules, escalation, and mode HUD adapters in that controller—not in maps or player handling.
 
-The cruise controller is intentionally idle. Chase owns a lightweight police pursuer, capture pressure, and its compact HUD. `/drive/` remains Cruise by default; use `/drive/?mode=chase` to launch the Chase composition directly.
+The cruise controller is intentionally idle. Chase is a longest-survival mode with up to three escalating police pursuers, physical-collision capture, a brief post-capture state, pursuit pressure, and a compact survival timer. `/drive/` remains Cruise by default; use `/drive/?mode=chase` to launch the Chase composition directly.
 
-A mode controller receives the world service, a refreshed player snapshot with detached position and velocity vectors, elapsed drive time, typed collision and drift-phase events, and a mode-owned `endDrive` action. Session resets arrive once through `reset(reason)`. It can add objects to the shared scene without reaching into or mutating player internals. It should not fork the shared vehicle model unless a mode genuinely requires different handling; use a driving profile for deliberate handling experiments.
+A mode controller receives the world service, a refreshed player snapshot with detached position and velocity vectors, elapsed drive time, typed collision and drift-phase events, and a mode-owned `endDrive` action. Its `isDriveClockRunning()` hook excludes non-playing states such as Chase's capture presentation from the recorded survival time. Session resets arrive once through `reset(reason)`. It can add objects to the shared scene without reaching into or mutating player internals. It should not fork the shared vehicle model unless a mode genuinely requires different handling; use a driving profile for deliberate handling experiments.

@@ -3,6 +3,7 @@ import { createIdleModeController, type GameModeDefinition } from "./types";
 export const CRUISE_MODE: GameModeDefinition = {
   id: "cruise",
   available: true,
+  drivingProfile: "loose",
   copy: {
     eyebrow: "A tiny driving playground",
     title: "Take a drive.",

@@ -1,9 +1,10 @@
 import * as THREE from "three";
 import { DRIVING_PROFILES } from "./driving-profiles";
+import { createLeaderboardToast } from "./feedback/leaderboard-toast";
 import { createSpeedLines } from "./feedback/speed-lines";
-import { addLocalDriveResult } from "./local-leaderboard";
+import { addLocalDriveResult, getLocalDriveLeaderboard } from "./local-leaderboard";
 import { GAME_MAPS } from "./maps";
-import { GAME_MODES } from "./modes";
+import { GAME_MODES, type GameModeController, type GameModeId } from "./modes";
 import type { CameraMode, DriveEndReason, DrivingGameOptions } from "./types";
 import { createPlayerController, type PlayerControlName } from "./player";
 import { buildWorld } from "./world/build-world";
@@ -13,33 +14,42 @@ const UP = new THREE.Vector3(0, 1, 0);
 
 export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions = {}) {
   const map = GAME_MAPS[options.map ?? "city-circuit"];
-  const mode = GAME_MODES[options.mode ?? "cruise"];
-  const drivingProfileId = options.drivingProfile ?? "loose";
-  const DRIVING = DRIVING_PROFILES[drivingProfileId];
+  let mode = GAME_MODES[options.mode ?? "cruise"];
+  const drivingProfileOverride = options.drivingProfile;
+  let drivingProfileId = drivingProfileOverride ?? mode.drivingProfile;
+  let DRIVING = DRIVING_PROFILES[drivingProfileId];
   const canvas = root.querySelector<HTMLCanvasElement>("#game-canvas");
   const speedLinesCanvas = root.querySelector<HTMLCanvasElement>("#speed-lines-canvas");
-  const cameraNode = root.querySelector<HTMLElement>("#camera-mode");
   const modeHud = root.querySelector<HTMLElement>("#mode-hud");
+  const leaderboardNode = root.querySelector<HTMLElement>("#drive-leaderboard");
   const intro = root.querySelector<HTMLElement>("#intro");
   const startButton = root.querySelector<HTMLButtonElement>("#start-driving");
   const pauseOverlay = root.querySelector<HTMLElement>("#pause-overlay");
+  const leaderboardButton = root.querySelector<HTMLButtonElement>("#leaderboard-button");
   const pauseButton = root.querySelector<HTMLButtonElement>("#pause-button");
+  const pauseDriveTime = root.querySelector<HTMLElement>("#pause-drive-time");
   const resumeButton = root.querySelector<HTMLButtonElement>("#resume-driving");
   if (
     !canvas
     || !speedLinesCanvas
-    || !cameraNode
     || !modeHud
+    || !leaderboardNode
     || !intro
     || !startButton
     || !pauseOverlay
+    || !leaderboardButton
     || !pauseButton
+    || !pauseDriveTime
     || !resumeButton
   ) return;
-  const cameraDisplay = cameraNode;
   const gameCanvas = canvas;
+  const introLayer = intro;
+  const leaderboardControl = leaderboardButton;
+  const modeHudRoot = modeHud;
+  const startControl = startButton;
   const pauseLayer = pauseOverlay;
   const pauseControl = pauseButton;
+  const pauseDriveTimeDisplay = pauseDriveTime;
   const resumeControl = resumeButton;
   const lifecycle = new AbortController();
   const listenerOptions = { signal: lifecycle.signal };
@@ -47,11 +57,18 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
   const introEyebrow = intro.querySelector<HTMLElement>(".eyebrow");
   const introTitle = intro.querySelector<HTMLElement>("h1");
   const introDescription = intro.querySelector<HTMLElement>(".intro-card > p:not(.eyebrow)");
-  if (introEyebrow) introEyebrow.textContent = mode.copy.eyebrow;
-  if (introTitle) introTitle.textContent = mode.copy.title;
-  if (introDescription) introDescription.textContent = mode.copy.description;
-  if (startButton.firstChild) startButton.firstChild.textContent = `${mode.copy.startLabel} `;
-  root.dataset.gameMode = mode.id;
+  const modeOptions = root.querySelectorAll<HTMLButtonElement>("[data-mode-option]");
+  function updateModePresentation() {
+    if (introEyebrow) introEyebrow.textContent = mode.copy.eyebrow;
+    if (introTitle) introTitle.textContent = mode.copy.title;
+    if (introDescription) introDescription.textContent = mode.copy.description;
+    if (startControl.firstChild) startControl.firstChild.textContent = `${mode.copy.startLabel} `;
+    modeOptions.forEach((option) => {
+      option.setAttribute("aria-pressed", String(option.dataset.modeOption === mode.id));
+    });
+    root.dataset.gameMode = mode.id;
+  }
+  updateModePresentation();
   root.dataset.gameMap = map.id;
 
   const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, powerPreference: "high-performance" });
@@ -87,22 +104,34 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
 
   const world = buildWorld(scene, map);
   const speedLines = createSpeedLines(speedLinesCanvas);
-  let modeController: ReturnType<typeof mode.createController> | null = null;
+  const leaderboardToast = createLeaderboardToast(leaderboardNode);
+  const getLeaderboardTitle = () => mode.id === "chase" ? "Longest survival" : "Longest drives";
+  const getLeaderboardResults = () => getLocalDriveLeaderboard({
+    mode: mode.id,
+    map: map.id,
+    drivingProfile: drivingProfileId,
+    limit: 100,
+  });
+  let modeController: GameModeController | null = null;
   let driveTime = 0;
   let running = false;
   let paused = false;
   let destroyed = false;
 
+  function recordDrive(reason: DriveEndReason) {
+    if (!running || driveTime <= 0) return;
+    const result = addLocalDriveResult({
+      durationSeconds: driveTime,
+      reason,
+      mode: mode.id,
+      map: map.id,
+      drivingProfile: drivingProfileId,
+    });
+    if (result) leaderboardToast.show(getLeaderboardResults(), result.id, getLeaderboardTitle());
+  }
+
   function endDrive(reason: DriveEndReason = "manual") {
-    if (running && driveTime > 0) {
-      addLocalDriveResult({
-        durationSeconds: driveTime,
-        reason,
-        mode: mode.id,
-        map: map.id,
-        drivingProfile: drivingProfileId,
-      });
-    }
+    recordDrive(reason);
     driveTime = 0;
     player.reset();
     modeController?.reset(reason);
@@ -135,6 +164,7 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
     clearControls();
     player.setPaused(paused);
     modeController?.pause(paused);
+    pauseDriveTimeDisplay.textContent = formatDriveTime(driveTime);
     pauseLayer.classList.toggle("is-visible", paused);
     pauseLayer.setAttribute("aria-hidden", String(!paused));
     pauseControl.setAttribute("aria-pressed", String(paused));
@@ -142,20 +172,57 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
     else gameCanvas.focus();
   }
 
-  modeController = mode.createController({
-    scene,
-    hudRoot: modeHud,
-    map,
-    world,
-    getPlayer: player.getSnapshot,
-    getDriveTime: () => driveTime,
-    endDrive: () => endDrive("mode"),
-  });
+  function createSelectedModeController() {
+    return mode.createController({
+      scene,
+      hudRoot: modeHudRoot,
+      map,
+      world,
+      getPlayer: player.getSnapshot,
+      applyPlayerCollision: player.applyExternalCollision,
+      getDriveTime: () => driveTime,
+      endDrive: () => endDrive("mode"),
+    });
+  }
+
+  modeController = createSelectedModeController();
+
+  function selectMode(modeId: GameModeId) {
+    if (mode.id === modeId || (running && !paused)) return;
+    const switchingPausedGame = running && paused;
+    if (switchingPausedGame) recordDrive("mode");
+    modeController?.destroy();
+    leaderboardToast.destroy();
+    leaderboardControl.setAttribute("aria-pressed", "false");
+    driveTime = 0;
+    pauseDriveTimeDisplay.textContent = formatDriveTime(driveTime);
+    mode = GAME_MODES[modeId];
+    drivingProfileId = drivingProfileOverride ?? mode.drivingProfile;
+    DRIVING = DRIVING_PROFILES[drivingProfileId];
+    player.setDrivingProfile(DRIVING);
+    player.reset();
+    modeController = createSelectedModeController();
+    modeController.reset("manual");
+    if (switchingPausedGame) {
+      modeController.start();
+      modeController.pause(true);
+    }
+    updateModePresentation();
+
+    const url = new URL(window.location.href);
+    if (modeId === "cruise") url.searchParams.delete("mode");
+    else url.searchParams.set("mode", modeId);
+    window.history.replaceState(window.history.state, "", url);
+  }
 
   function switchCamera() {
     const index = (cameraModes.indexOf(cameraMode) + 1) % cameraModes.length;
     cameraMode = cameraModes[index];
-    cameraDisplay.textContent = cameraMode;
+  }
+
+  function toggleLeaderboard() {
+    const visible = leaderboardToast.toggle(getLeaderboardResults(), getLeaderboardTitle());
+    leaderboardControl.setAttribute("aria-pressed", String(visible));
   }
 
   function onKey(event: KeyboardEvent, pressed: boolean) {
@@ -165,6 +232,7 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
       event.preventDefault();
     }
     if (!pressed && event.code === "KeyC") switchCamera();
+    if (!pressed && event.code === "KeyL") toggleLeaderboard();
     if (!pressed && event.code === "KeyR") endDrive("manual");
     if (!pressed && (event.code === "KeyP" || event.code === "Escape")) {
       event.preventDefault();
@@ -175,6 +243,14 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
   window.addEventListener("keydown", (event) => onKey(event, true), listenerOptions);
   window.addEventListener("keyup", (event) => onKey(event, false), listenerOptions);
   window.addEventListener("blur", clearControls, listenerOptions);
+
+  modeOptions.forEach((option) => {
+    option.addEventListener("click", () => {
+      const modeId = option.dataset.modeOption;
+      if (!modeId || !(modeId in GAME_MODES)) return;
+      selectMode(modeId as GameModeId);
+    }, listenerOptions);
+  });
 
   root.querySelectorAll<HTMLElement>("[data-control]").forEach((button) => {
     const name = button.dataset.control as PlayerControlName;
@@ -192,19 +268,20 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
   });
 
   root.querySelector("#camera-button")?.addEventListener("click", switchCamera, listenerOptions);
+  leaderboardControl.addEventListener("click", toggleLeaderboard, listenerOptions);
   root.querySelector("#reset-button")?.addEventListener("click", () => endDrive("manual"), listenerOptions);
   pauseButton.addEventListener("click", () => setPaused(true), listenerOptions);
   resumeButton.addEventListener("click", () => setPaused(false), listenerOptions);
   document.addEventListener("visibilitychange", () => {
     if (document.hidden && running && !paused) setPaused(true);
   }, listenerOptions);
-  startButton.addEventListener("click", () => {
+  startControl.addEventListener("click", () => {
     running = true;
     paused = false;
     player.start();
     player.setPaused(false);
     modeController?.start();
-    intro.classList.add("is-hidden");
+    introLayer.classList.add("is-hidden");
     canvas.focus();
   }, listenerOptions);
 
@@ -330,7 +407,7 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
     const elapsed = Math.min(wallElapsed, 0.05);
     lastTime = now;
     if (running && !paused) {
-      driveTime += wallElapsed;
+      if (modeController?.isDriveClockRunning() ?? true) driveTime += wallElapsed;
       player.update(elapsed);
       modeController?.update(elapsed);
     }
@@ -347,7 +424,14 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
     resizeObserver.disconnect();
     player.destroy();
     modeController?.destroy();
+    leaderboardToast.destroy();
     speedLines.destroy();
     renderer.dispose();
   }, { once: true, signal: lifecycle.signal });
+}
+
+function formatDriveTime(seconds: number) {
+  const minutes = Math.floor(seconds / 60);
+  const remainder = Math.max(0, seconds - minutes * 60);
+  return `${minutes}:${remainder.toFixed(2).padStart(5, "0")}`;
 }
