@@ -43,6 +43,7 @@ export type PlayerController = {
   clearControls: () => void;
   applyExternalCollision: (collision: PlayerExternalCollision) => void;
   reset: () => void;
+  placeAt: (x: number, z: number, heading: number) => void;
   setPaused: (paused: boolean) => void;
   getSnapshot: () => PlayerSnapshot;
   decayCameraShake: (dt: number) => void;

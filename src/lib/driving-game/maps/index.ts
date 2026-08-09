@@ -2,6 +2,7 @@ import { CITY_CIRCUIT_MAP } from "./city-circuit";
 import { CROSSWIND_MAP } from "./crosswind";
 import { HIGH_PLAINS_MAP } from "./high-plains";
 import { METRO_RING_MAP } from "./metro-ring";
+import { NORTHPOINT_MAP } from "./northpoint";
 import { SWITCHYARD_MAP } from "./switchyard";
 import type { GameMapDefinition } from "./types";
 
@@ -11,6 +12,7 @@ export const GAME_MAPS = {
   switchyard: SWITCHYARD_MAP,
   "high-plains": HIGH_PLAINS_MAP,
   "metro-ring": METRO_RING_MAP,
+  northpoint: NORTHPOINT_MAP,
 } satisfies Record<string, GameMapDefinition>;
 
 export type GameMapId = keyof typeof GAME_MAPS;

@@ -649,6 +649,13 @@ export function createPlayerController({
     clearControls,
     applyExternalCollision,
     reset,
+    placeAt(x, z, nextHeading) {
+      reset();
+      position.set(x, 0.06, z);
+      heading = nextHeading;
+      car.group.position.copy(position);
+      car.group.rotation.set(0, heading, 0);
+    },
     setPaused(paused) {
       audioPaused = paused;
       carAudio?.setPaused(paused);

@@ -38,7 +38,7 @@ export type WorldDiagnostics = {
   pavementCandidates: number;
 };
 
-export type WorldDebugLayer = "pavement" | "colliders" | "grid" | "source";
+export type WorldDebugLayer = "pavement" | "colliders" | "grid" | "source" | "districts";
 
 export type WorldRuntime = {
   spawnPosition: THREE.Vector3;

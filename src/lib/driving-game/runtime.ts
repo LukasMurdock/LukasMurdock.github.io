@@ -186,7 +186,9 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
     colliders: false,
     grid: false,
     source: showMapDiagnostics,
+    districts: false,
   };
+  let inspectedDistrictIndex = -1;
   function applyDebugLayerVisibility() {
     for (const [layer, visible] of Object.entries(debugLayerVisibility)) {
       world.setDebugLayer(layer as keyof typeof debugLayerVisibility, visible);
@@ -337,12 +339,17 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
     driveTime = 0;
     pauseDriveTimeDisplay.textContent = formatDriveTime(driveTime);
     map = nextMap;
+    inspectedDistrictIndex = -1;
+    delete root.dataset.inspectedDistrict;
+    isometricCamera.zoom = 1;
+    isometricCamera.updateProjectionMatrix();
     world = nextWorld;
     applyMapEnvironment();
     previousWorld.destroy();
     applyDebugLayerVisibility();
     player.setWorld(world);
     player.reset();
+    player.setPaused(paused);
     modeController = createSelectedModeController();
     modeController.reset("manual");
     if (switchingPausedGame) {
@@ -414,6 +421,44 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
     cameraMode = cameraModes[index];
   }
 
+  function clearDistrictInspection() {
+    if (inspectedDistrictIndex < 0) return;
+    inspectedDistrictIndex = -1;
+    delete root.dataset.inspectedDistrict;
+    isometricCamera.zoom = 1;
+    isometricCamera.updateProjectionMatrix();
+    player.reset();
+    player.setPaused(paused);
+    modeController?.reset("manual");
+    resetCameraTracking();
+  }
+
+  function inspectDistrict(direction: number) {
+    if (!showMapDiagnostics || (map.compiledDistricts?.length ?? 0) === 0) return;
+    const districts = map.compiledDistricts ?? [];
+    inspectedDistrictIndex = (inspectedDistrictIndex + direction + districts.length) % districts.length;
+    const district = districts[inspectedDistrictIndex];
+    const entrance = district.entrances[0];
+    const fallbackHeading = map.spawn.source === "position" ? map.spawn.heading : 0;
+    const heading = entrance?.heading ?? fallbackHeading;
+    const x = (entrance?.x ?? district.center.x) - Math.sin(heading) * 7;
+    const z = (entrance?.z ?? district.center.z) - Math.cos(heading) * 7;
+    driveTime = 0;
+    clearControls();
+    modeController?.reset("manual");
+    player.placeAt(x, z, heading);
+    player.setPaused(true);
+    cameraMode = "Isometric";
+    const districtSize = Math.max(
+      district.bounds.maxX - district.bounds.minX,
+      district.bounds.maxZ - district.bounds.minZ,
+    );
+    isometricCamera.zoom = THREE.MathUtils.clamp(30 / districtSize, 0.28, 0.72);
+    isometricCamera.updateProjectionMatrix();
+    root.dataset.inspectedDistrict = district.id;
+    resetCameraTracking();
+  }
+
   function toggleLeaderboard() {
     const visible = leaderboardToast.toggle(getLeaderboardResults(), getLeaderboardTitle());
     leaderboardControl.setAttribute("aria-pressed", String(visible));
@@ -451,12 +496,16 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
         Digit2: "colliders",
         Digit3: "grid",
         Digit4: "source",
-      } as const)[event.code as "Digit1" | "Digit2" | "Digit3" | "Digit4"];
+        Digit5: "districts",
+      } as const)[event.code as "Digit1" | "Digit2" | "Digit3" | "Digit4" | "Digit5"];
       if (layer) {
         debugLayerVisibility[layer] = !debugLayerVisibility[layer];
         world.setDebugLayer(layer, debugLayerVisibility[layer]);
       }
     }
+    if (!pressed && showMapDiagnostics && event.code === "BracketRight") inspectDistrict(1);
+    if (!pressed && showMapDiagnostics && event.code === "BracketLeft") inspectDistrict(-1);
+    if (!pressed && showMapDiagnostics && event.code === "Backslash") clearDistrictInspection();
     if (!pressed && event.code === "KeyR") endDrive("manual");
     if (!pressed && (event.code === "KeyP" || event.code === "Escape")) {
       event.preventDefault();
@@ -605,7 +654,15 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
       perspectiveCamera.lookAt(lookTarget);
     } else if (cameraMode === "Isometric") {
       // Keep a stable world-space projection so buildings read as a diorama and steering never rotates the board.
-      isometricFocus.lerp(position, follow);
+      const inspectedDistrict = map.compiledDistricts?.[inspectedDistrictIndex];
+      const focus = inspectedDistrict
+        ? new THREE.Vector3(
+            (inspectedDistrict.bounds.minX + inspectedDistrict.bounds.maxX) / 2,
+            0,
+            (inspectedDistrict.bounds.minZ + inspectedDistrict.bounds.maxZ) / 2,
+          )
+        : position;
+      isometricFocus.lerp(focus, follow);
       isometricCamera.position.copy(isometricFocus).add(isometricOffset);
       isometricCamera.up.copy(UP);
       isometricCamera.lookAt(isometricFocus);
@@ -722,6 +779,10 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
     const pavementAverage = diagnostics.pavementQueries > 0
       ? diagnostics.pavementCandidates / diagnostics.pavementQueries
       : 0;
+    const inspectedDistrict = map.compiledDistricts?.[inspectedDistrictIndex];
+    const districtSummary = inspectedDistrict
+      ? `${inspectedDistrict.id} · ${inspectedDistrict.hostCorridor ?? "absolute"} · ${inspectedDistrict.entrances.length} entrances`
+      : "— · [ / ] inspect";
     mapDiagnostics.textContent = [
       `${map.title} · ${map.worldLimit * 2}u`,
       `position  ${playerState.position.x.toFixed(1)}, ${playerState.position.z.toFixed(1)}`,
@@ -736,10 +797,11 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
       `cycles    ${map.layoutDiagnostics?.cycleRank ?? "—"} · shortest ${map.layoutDiagnostics?.shortestSegment.toFixed(0) ?? "—"}u`,
       `decisions ${map.layoutDiagnostics?.maximumDecisionSpacing.toFixed(0) ?? "—"}u max · ${map.layoutDiagnostics?.acuteIntersections ?? "—"} acute`,
       `warnings  ${map.layoutDiagnostics?.warnings.join(" · ") || "none"}`,
+      `district  ${districtSummary}`,
       `collision ${collisionAverage.toFixed(1)} candidates/query`,
       `surface   ${pavementAverage.toFixed(1)} candidates/query`,
       `GPU geom  ${renderer.info.memory.geometries}`,
-      "layers    1 pavement · 2 colliders · 3 grid · 4 source",
+      "layers    1 pavement · 2 colliders · 3 grid · 4 source · 5 districts",
     ].join("\n");
   }
 
@@ -749,7 +811,7 @@ export function startDrivingGame(root: HTMLElement, options: DrivingGameOptions 
     const wallElapsed = Math.min((now - lastTime) / 1000, 1);
     const elapsed = Math.min(wallElapsed, 0.05);
     lastTime = now;
-    if (running && !paused) {
+    if (running && !paused && inspectedDistrictIndex < 0) {
       if (modeController?.isDriveClockRunning() ?? true) driveTime += wallElapsed;
       player.update(elapsed);
       modeController?.update(elapsed);

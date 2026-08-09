@@ -120,24 +120,36 @@ export function addSignBatch(
   if (signs.length === 0) return;
   const postMaterial = new THREE.MeshStandardMaterial({ color: 0x3b4039, roughness: 1, flatShading: true });
   const posts = new THREE.InstancedMesh(
-    new THREE.CylinderGeometry(0.1, 0.14, 2.2, 5),
+    new THREE.CylinderGeometry(0.12, 0.17, 2.7, 5),
     postMaterial,
     signs.length,
   );
   const panels = new THREE.InstancedMesh(
-    new THREE.BoxGeometry(2.5, 0.9, 0.18),
+    new THREE.BoxGeometry(1, 1, 0.22),
     new THREE.MeshStandardMaterial({ color: 0xffffff, roughness: 1, flatShading: true }),
     signs.length,
   );
   const matrix = new THREE.Matrix4();
   const quaternion = new THREE.Quaternion();
   signs.forEach((sign, index) => {
+    const [panelWidth, panelHeight] = ({
+      freight: [3.8, 1],
+      service: [2.8, 1.4],
+      civic: [2.5, 1.7],
+      retail: [3.3, 1.35],
+      construction: [3.1, 1.1],
+      container: [4, 0.95],
+    } as const)[sign.kind ?? "service"];
     quaternion.setFromAxisAngle(new THREE.Vector3(0, 1, 0), sign.rotation ?? 0);
-    matrix.compose(new THREE.Vector3(sign.x, 1.1, sign.z), quaternion, new THREE.Vector3(1, 1, 1));
+    matrix.compose(new THREE.Vector3(sign.x, 1.35, sign.z), quaternion, new THREE.Vector3(1, 1, 1));
     posts.setMatrixAt(index, matrix);
-    matrix.compose(new THREE.Vector3(sign.x, 2.35, sign.z), quaternion, new THREE.Vector3(1, 1, 1));
+    matrix.compose(
+      new THREE.Vector3(sign.x, 3, sign.z),
+      quaternion,
+      new THREE.Vector3(panelWidth, panelHeight, 1),
+    );
     panels.setMatrixAt(index, matrix);
-    panels.setColorAt(index, new THREE.Color(sign.color ?? 0xd4b35e));
+    panels.setColorAt(index, new THREE.Color(sign.color ?? 0xd4b35e).lerp(new THREE.Color(0xffffff), 0.1));
     obstacles.push({
       kind: "sign",
       minX: sign.x - 0.24,

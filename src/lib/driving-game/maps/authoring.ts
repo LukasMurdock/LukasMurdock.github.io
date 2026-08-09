@@ -47,11 +47,16 @@ type CorridorStampPlacement = {
 
 export type StampPlacement = AbsoluteStampPlacement | CorridorStampPlacement;
 
-type ExpandedStamp = Required<MapStamp> & { roads: RoadSegmentDefinition[] };
+type ExpandedStamp = Required<MapStamp> & {
+  roads: RoadSegmentDefinition[];
+  districtId: string;
+  hostCorridor?: string;
+  center: Point2;
+};
 
 export type DrivingMapSource = Omit<
   GameMapDefinition,
-  "roads" | "corridors" | "parkingLots" | "groundPatches" | "buildings" | "trees" | "streetlights" | "barriers" | "signs" | "districtMarkings"
+  "roads" | "corridors" | "parkingLots" | "groundPatches" | "buildings" | "trees" | "streetlights" | "barriers" | "signs" | "districtMarkings" | "compiledDistricts"
 > & {
   roads?: readonly RoadSegmentDefinition[];
   corridors: readonly RoadCorridorDefinition[];
@@ -89,6 +94,20 @@ export function defineDrivingMap(source: DrivingMapSource): GameMapDefinition {
       ...(source.districtMarkings ?? []),
       ...expanded.flatMap((stamp) => stamp.districtMarkings),
     ],
+    compiledDistricts: expanded.map((stamp) => {
+      const bounds = compiledStampBounds(stamp);
+      return {
+        id: stamp.districtId,
+        hostCorridor: stamp.hostCorridor,
+        center: stamp.center,
+        bounds,
+        entrances: stamp.roads.filter((road) => road.role === "access").map((road) => ({
+          x: road.x,
+          z: road.z,
+          heading: Math.atan2(stamp.center.x - road.x, stamp.center.z - road.z),
+        })),
+      };
+    }),
     circuit: source.circuit,
     chasePlacement: source.chasePlacement,
     layoutDiagnostics: analyzeLayout(source, expanded),
@@ -172,7 +191,7 @@ export function freightRow(options: {
       x: width / 2 + 4.5,
       z: -totalDepth / 2 + depth / 2 + index * (depth + options.gap),
     })),
-    signs: [{ x: -width / 2 - 4, z: -totalDepth / 2 + 5, color: 0xd2a74f }],
+    signs: [{ x: width / 2 + 4, z: -totalDepth / 2 + 5, color: 0xd2a74f, kind: "freight" }],
     districtMarkings: Array.from({ length: options.sheds }, (_, index) => markingOutline(
       width / 2 + 3,
       -totalDepth / 2 + depth / 2 + index * (depth + options.gap),
@@ -218,7 +237,12 @@ export function serviceYard(options: {
       { x: -5, z: -options.depth / 2 + 2 },
       { x: 5, z: -options.depth / 2 + 2 },
     ],
-    signs: [{ x: options.width * 0.2, z: -options.depth / 2 + 5, color: options.color }],
+    signs: [{
+      x: options.width * 0.2,
+      z: -options.depth / 2 + 5,
+      color: options.color,
+      kind: "service",
+    }],
     districtMarkings: [
       ...markingOutline(-options.width * 0.1, 0, 11, options.depth * 0.42),
       ...markingOutline(options.width * 0.32, -options.depth * 0.18, 10, 13, 0xe6bc50),
@@ -254,7 +278,12 @@ export function civicBlock(options: { width: number; depth: number; colors: read
       { x: 0, z: -options.depth * 0.42 },
       { x: 0, z: options.depth * 0.42 },
     ],
-    signs: [{ x: -options.width * 0.16, z: -options.depth * 0.44, color: options.colors[0] }],
+    signs: [{
+      x: -options.width * 0.16,
+      z: -options.depth * 0.44,
+      color: options.colors[0],
+      kind: "civic",
+    }],
     districtMarkings: [
       ...markingOutline(-15, 0, 12, 18),
       ...markingOutline(15, 0, 12, 18),
@@ -282,7 +311,12 @@ export function shoppingPlaza(options: { width: number; depth: number; color: nu
       { x: -options.width * 0.34, z: -options.depth * 0.25 },
       { x: options.width * 0.34, z: -options.depth * 0.25 },
     ],
-    signs: [{ x: -options.width * 0.28, z: -options.depth * 0.42, color: options.color }],
+    signs: [{
+      x: -options.width * 0.28,
+      z: -options.depth * 0.42,
+      color: options.color,
+      kind: "retail",
+    }],
     districtMarkings: [
       ...markingOutline(-options.width * 0.18, -options.depth * 0.08, 12, 18),
       ...markingOutline(options.width * 0.18, -options.depth * 0.08, 12, 18),
@@ -303,7 +337,12 @@ export function constructionYard(options: { width: number; depth: number }): Map
       { x: 0, z: -options.depth / 2 + 2 },
       { x: 8, z: -options.depth / 2 + 2 },
     ],
-    signs: [{ x: -options.width * 0.36, z: -options.depth * 0.38, color: 0xd78b43 }],
+    signs: [{
+      x: -options.width * 0.36,
+      z: -options.depth * 0.38,
+      color: 0xd78b43,
+      kind: "construction",
+    }],
     districtMarkings: [
       ...markingOutline(-12, -options.depth * 0.18, 11, 18, 0xe6bc50),
     ],
@@ -334,7 +373,12 @@ export function containerYard(options: {
         style: "freight" as const,
       };
     }),
-    signs: [{ x: -width * 0.34, z: -depth * 0.42, color: options.colors[0] }],
+    signs: [{
+      x: -width * 0.34,
+      z: -depth * 0.42,
+      color: options.colors[0],
+      kind: "container",
+    }],
     districtMarkings: [
       ...markingOutline(-width * 0.2, -depth * 0.43, 11, 13, 0xe6bc50),
       ...markingOutline(width * 0.2, -depth * 0.43, 11, 13, 0xe6bc50),
@@ -430,7 +474,13 @@ function compileDistricts(source: DrivingMapSource): ExpandedStamp[] {
   ];
   for (const placement of source.districts ?? []) {
     if (placement.kind === "absolute") {
-      const stamp = expandStampAt(placement.stamp, placement.at, placement.heading ?? 0, []);
+      const stamp = expandStampAt(
+        placement.id,
+        placement.stamp,
+        placement.at,
+        placement.heading ?? 0,
+        [],
+      );
       expanded.push(stamp);
       reserved.push(compiledStampBounds(stamp));
       continue;
@@ -447,7 +497,7 @@ function compileDistricts(source: DrivingMapSource): ExpandedStamp[] {
       const sample = sampleCorridor(corridor, placement.distance + distanceOffset);
       if (!sample) continue;
       const roadHeading = Math.atan2(sample.tangent.x, sample.tangent.z) - Math.PI / 2;
-      const heading = roadHeading + placement.rotation;
+      const heading = roadHeading + placement.rotation + (side < 0 ? Math.PI : 0);
       const roadNormal = { x: -sample.tangent.z, z: sample.tangent.x };
       const stampLocalX = { x: Math.cos(heading), z: -Math.sin(heading) };
       const stampLocalZ = { x: Math.sin(heading), z: Math.cos(heading) };
@@ -472,7 +522,14 @@ function compileDistricts(source: DrivingMapSource): ExpandedStamp[] {
         markings: false,
         role: "access",
       }));
-      const candidate = expandStampAt(placement.stamp, at, heading, roads);
+      const candidate = expandStampAt(
+        placement.id,
+        placement.stamp,
+        at,
+        heading,
+        roads,
+        corridor.id,
+      );
       const bounds = compiledStampBounds(candidate);
       const insideBoundary = bounds.minX > -source.worldLimit
         && bounds.maxX < source.worldLimit
@@ -505,10 +562,12 @@ function compileDistricts(source: DrivingMapSource): ExpandedStamp[] {
 }
 
 function expandStampAt(
+  districtId: string,
   stamp: MapStamp,
   at: Point2,
   heading: number,
   entranceRoads: RoadSegmentDefinition[],
+  hostCorridor?: string,
 ): ExpandedStamp {
   const transformPoint = (point: Point2) => ({
     x: at.x + Math.cos(heading) * point.x + Math.sin(heading) * point.z,
@@ -527,6 +586,9 @@ function expandStampAt(
     .map((point) => transformPoint(point))
     .filter((point) => !roads.some((road) => pointInsideRoad(point, road, 2.5)));
   return {
+    districtId,
+    hostCorridor,
+    center: { ...at },
     roads,
     parkingLots: (stamp.parkingLots ?? []).map((lot) => ({
       ...lot,

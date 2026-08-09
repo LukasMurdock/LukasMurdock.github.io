@@ -20,11 +20,13 @@ export function createWorldDebugLayers(options: {
   const colliders = createObstacleDebug(options.obstacles);
   const grid = createGridDebug(options.occupiedCells, options.cellSize);
   const source = createSourceDebug(options.map);
+  const districts = createDistrictDebug(options.map);
   for (const [name, layer] of [
     ["pavement", pavement],
     ["colliders", colliders],
     ["grid", grid],
     ["source", source],
+    ["districts", districts],
   ] as const) {
     layer.name = `map-debug:${name}`;
     layer.visible = false;
@@ -116,6 +118,25 @@ function createSourceDebug(map: GameMapDefinition) {
     group.add(line);
   }
   return group;
+}
+
+function createDistrictDebug(map: GameMapDefinition) {
+  const districts = map.compiledDistricts ?? [];
+  const instances = debugInstances(districts.length, 0xb66ff0, 0.8);
+  const matrix = new THREE.Matrix4();
+  districts.forEach((district, index) => {
+    setDebugMatrix(
+      matrix,
+      (district.bounds.minX + district.bounds.maxX) / 2,
+      (district.bounds.minZ + district.bounds.maxZ) / 2,
+      district.bounds.maxX - district.bounds.minX,
+      district.bounds.maxZ - district.bounds.minZ,
+      0,
+    );
+    instances.setMatrixAt(index, matrix);
+  });
+  finishDebugInstances(instances);
+  return instances;
 }
 
 function debugInstances(count: number, color: number, opacity = 0.72) {

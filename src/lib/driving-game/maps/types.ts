@@ -47,6 +47,7 @@ export type PropDefinition = {
 export type SignDefinition = PropDefinition & {
   rotation?: number;
   color?: number;
+  kind?: "freight" | "service" | "civic" | "retail" | "construction" | "container";
 };
 
 export type DistrictMarkingDefinition = {
@@ -85,6 +86,14 @@ export type PlacementArea =
 export type ChasePlacementDefinition = {
   preferredAreas?: readonly PlacementArea[];
   noSpawnAreas?: readonly PlacementArea[];
+};
+
+export type CompiledDistrictDefinition = {
+  id: string;
+  hostCorridor?: string;
+  center: { x: number; z: number };
+  bounds: { minX: number; maxX: number; minZ: number; maxZ: number };
+  entrances: readonly { x: number; z: number; heading: number }[];
 };
 
 export type MapLayoutDiagnostics = {
@@ -131,6 +140,7 @@ export type GameMapDefinition = {
   barriers: readonly PropDefinition[];
   signs?: readonly SignDefinition[];
   districtMarkings?: readonly DistrictMarkingDefinition[];
+  compiledDistricts?: readonly CompiledDistrictDefinition[];
   circuit?: readonly CircuitPhrase[];
   chasePlacement?: ChasePlacementDefinition;
   layoutDiagnostics?: MapLayoutDiagnostics;
