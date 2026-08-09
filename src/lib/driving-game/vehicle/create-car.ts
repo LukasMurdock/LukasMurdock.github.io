@@ -30,10 +30,15 @@ function createTaperedBoxGeometry(
   return geometry;
 }
 
-export function createCar() {
+export type CarAppearance = {
+  paintColor?: number;
+  police?: boolean;
+};
+
+export function createCar(appearance: CarAppearance = {}) {
   const group = new THREE.Group();
   const paint = new THREE.MeshStandardMaterial({
-    color: 0xd94432,
+    color: appearance.paintColor ?? (appearance.police ? 0x18252d : 0xd94432),
     roughness: 0.82,
     metalness: 0,
     flatShading: true,
@@ -125,9 +130,39 @@ export function createCar() {
   rearPlate.rotation.y = Math.PI;
   group.add(rearPlate);
 
+  const emergencyLights: THREE.Mesh[] = [];
+  if (appearance.police) {
+    const panelMaterial = new THREE.MeshStandardMaterial({ color: 0xe8e4d5, roughness: 0.9, flatShading: true });
+    for (const x of [-1.096, 1.096]) {
+      const doorPanel = new THREE.Mesh(new THREE.PlaneGeometry(1.15, 0.46), panelMaterial);
+      doorPanel.position.set(x, 0.7, -0.12);
+      doorPanel.rotation.y = x > 0 ? Math.PI / 2 : -Math.PI / 2;
+      group.add(doorPanel);
+    }
+
+    const lightBar = new THREE.Mesh(new THREE.BoxGeometry(1.22, 0.1, 0.24), dark);
+    lightBar.position.set(0, 1.82, -0.2);
+    group.add(lightBar);
+    [
+      { x: -0.32, color: 0xe83b2f },
+      { x: 0.32, color: 0x3287e8 },
+    ].forEach(({ x, color }) => {
+      const material = new THREE.MeshStandardMaterial({
+        color,
+        emissive: color,
+        emissiveIntensity: 1.5,
+        roughness: 0.45,
+      });
+      const light = new THREE.Mesh(new THREE.BoxGeometry(0.52, 0.18, 0.3), material);
+      light.position.set(x, 1.91, -0.2);
+      group.add(light);
+      emergencyLights.push(light);
+    });
+  }
+
   group.traverse((object) => {
     if (object instanceof THREE.Mesh) object.castShadow = true;
   });
-  return { group, wheels, frontWheels, brakeLights };
+  return { group, wheels, frontWheels, brakeLights, emergencyLights };
 }
 

@@ -62,6 +62,6 @@ A future command can import `getLocalDriveLeaderboard` from the public `driving-
 3. Implement its controller lifecycle: `start`, `update`, `pause`, `reset(reason)`, `onPlayerEvent`, and `destroy`.
 4. Put mode-owned entities, pursuit state, win/loss rules, escalation, and mode HUD adapters in that controller—not in maps or player handling.
 
-The cruise controller is intentionally idle. The chase definition currently establishes its copy and lifecycle seam but is marked unavailable until pursuit behavior exists.
+The cruise controller is intentionally idle. Chase owns a lightweight police pursuer, capture pressure, and its compact HUD. `/drive/` remains Cruise by default; use `/drive/?mode=chase` to launch the Chase composition directly.
 
 A mode controller receives the world service, a refreshed player snapshot with detached position and velocity vectors, elapsed drive time, typed collision and drift-phase events, and a mode-owned `endDrive` action. Session resets arrive once through `reset(reason)`. It can add objects to the shared scene without reaching into or mutating player internals. It should not fork the shared vehicle model unless a mode genuinely requires different handling; use a driving profile for deliberate handling experiments.
